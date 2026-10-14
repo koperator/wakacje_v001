@@ -1,0 +1,329 @@
+{
+  "id": "sopot",
+  "country": "Polska",
+  "place": "Sopot",
+  "notes": "Klimat umiarkowany, przejściowy: chłodna zima (ok. 2 °C w dzień), lato umiarkowane (ok. 22–23 °C), najwięcej deszczu VII–VIII. Woda do kąpieli praktycznie tylko VII–VIII (ok. 18–19 °C). Baza pobytu: Sopot (plaża i molo). Pogoda ze stacji Gdańsk (normy 1991–2020, ok. 10 km). Zieleń: lasy Trójmiejskiego Parku Krajobrazowego i parki tuż za miastem; zimą bez liści. Wycieczki: Gdańsk (ok. 15 min), Gdynia, Westerplatte, zamek w Malborku (ok. 1 h), Hel. Dojazd: lot LOT Warszawa–Gdańsk ok. 1 h albo pociąg ok. 2,5–3 h.",
+  "fixed": {
+    "beaches": 3,
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 1,
+    "stops": 0,
+    "transfer": {
+      "est": 0.4
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 1.7,
+      "temp_night": -3.3,
+      "dew_point": -3,
+      "sun": 1.3,
+      "rain": 29,
+      "rain_days": {
+        "est": 7
+      },
+      "uv": 1,
+      "wind": 24,
+      "water": 3.9,
+      "flight_price": {
+        "est": 300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 2.9,
+      "temp_night": -2.7,
+      "dew_point": -3,
+      "sun": 2.5,
+      "rain": 24,
+      "rain_days": {
+        "est": 5.6
+      },
+      "uv": 1,
+      "wind": 23,
+      "water": 3.3,
+      "flight_price": {
+        "est": 300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 6.6,
+      "temp_night": -0.4,
+      "dew_point": -1,
+      "sun": 4.3,
+      "rain": 28,
+      "rain_days": {
+        "est": 6.2
+      },
+      "uv": 3,
+      "wind": 21,
+      "water": 2.8,
+      "flight_price": {
+        "est": 300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 12.1,
+      "temp_night": 3.6,
+      "dew_point": 2,
+      "sun": 5.4,
+      "rain": 32,
+      "rain_days": {
+        "est": 5.5
+      },
+      "uv": 4,
+      "wind": 18,
+      "water": 5,
+      "flight_price": {
+        "est": 500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 16.8,
+      "temp_night": 8.1,
+      "dew_point": 6,
+      "sun": 7.9,
+      "rain": 53,
+      "rain_days": {
+        "est": 6.6
+      },
+      "uv": 6,
+      "wind": 16,
+      "water": 10,
+      "flight_price": {
+        "est": 400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 20.4,
+      "temp_night": 11.6,
+      "dew_point": 10,
+      "sun": 8.6,
+      "rain": 59,
+      "rain_days": {
+        "est": 7.8
+      },
+      "uv": 6,
+      "wind": 17,
+      "water": 15.6,
+      "flight_price": {
+        "est": 400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 22.6,
+      "temp_night": 14.2,
+      "dew_point": 13,
+      "sun": 7.6,
+      "rain": 79,
+      "rain_days": {
+        "est": 8.6
+      },
+      "uv": 6,
+      "wind": 17,
+      "water": 18.9,
+      "flight_price": {
+        "est": 400
+      },
+      "flags": [
+        {
+          "type": "algae",
+          "level": 1,
+          "note": "Zakwity sinic w Zatoce Gdańskiej po dłuższych upałach: w części lat i dni zamknięte kąpieliska (np. 19.08.2022 wszystkie kąpieliska w Sopocie), zakaz wchodzenia do wody."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 22.9,
+      "temp_night": 13.9,
+      "dew_point": 12,
+      "sun": 7.3,
+      "rain": 70,
+      "rain_days": {
+        "est": 8.3
+      },
+      "uv": 5,
+      "wind": 17,
+      "water": 19.4,
+      "flight_price": {
+        "est": 400
+      },
+      "flags": [
+        {
+          "type": "algae",
+          "level": 1,
+          "note": "Zakwity sinic w Zatoce Gdańskiej po dłuższych upałach: w części lat i dni zamknięte kąpieliska (np. 19.08.2022 wszystkie kąpieliska w Sopocie), zakaz wchodzenia do wody."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 18.5,
+      "temp_night": 10.4,
+      "dew_point": 9,
+      "sun": 5.8,
+      "rain": 65,
+      "rain_days": {
+        "est": 7.7
+      },
+      "uv": 4,
+      "wind": 19,
+      "water": 17.8,
+      "flight_price": {
+        "est": 400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 12.7,
+      "temp_night": 5.8,
+      "dew_point": 6,
+      "sun": 3.4,
+      "rain": 55,
+      "rain_days": {
+        "est": 7.6
+      },
+      "uv": 2,
+      "wind": 21,
+      "water": 13.3,
+      "flight_price": {
+        "est": 300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 6.7,
+      "temp_night": 1.9,
+      "dew_point": 2,
+      "sun": 1.5,
+      "rain": 43,
+      "rain_days": {
+        "est": 7.7
+      },
+      "uv": 1,
+      "wind": 22,
+      "water": 10,
+      "flight_price": {
+        "est": 300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 3.1,
+      "temp_night": -1.6,
+      "dew_point": -1,
+      "sun": 1,
+      "rain": 36,
+      "rain_days": {
+        "est": 7.8
+      },
+      "uv": 1,
+      "wind": 23,
+      "water": 6.7,
+      "flight_price": {
+        "est": 400
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Gdańsk – tabela klimatyczna 1991–2020 (IMGW, meteomodel.pl; punkt rosy timeanddate 2005–2015; dni z opadem ≥ 0,1 mm – inna definicja, nieużyte)",
+      "url": "https://en.wikipedia.org/wiki/Gda%C5%84sk",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Weather Spark: Gdańsk – średnia godzinowa prędkość wiatru na 10 m, dni z opadem ≥ 0,04 in (≈ 1 mm) z reanalizy",
+      "url": "https://weatherspark.com/y/84138/Average-Weather-in-Gda%C5%84sk-Poland-Year-Round",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "seatemperatu.re: Sopot – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/europe/poland/sopot/when.html",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: Gdańsk – pogoda miesiąc po miesiącu (12 stron, np. /gdansk-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 54.35°N 18.65°E",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-gdansk",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "RMF24: zakwit sinic w Bałtyku, zamknięte kąpieliska nad Zatoką Gdańską (14.08.2020)",
+      "url": "https://www.rmf24.pl/fakty/polska/news-zakwit-sinic-w-baltyku-zamkniete-cztery-kapieliska,nId,4670152",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "TVN24: sinice – wszystkie kąpieliska w Sopocie zamknięte (19.08.2022)",
+      "url": "https://tvn24.pl/pomorze/sinice-w-baltyku-2022-mapa-ktore-plaze-sa-zamkniete-19-sierpnia-6065373",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "kb.pl: ceny noclegów nad polskim morzem (szczyt od połowy czerwca do końca sierpnia; taniej V, początek VI, IX)",
+      "url": "https://kb.pl/ceny/turystyka/ceny-noclegow-nad-polskim-morzem-od-czego-zaleza-i-jak-znalezc-najlepsza-oferte-na-2026-rok-_wp26/",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.com: Warszawa – Gdańsk (LOT bezpośrednio, 33 rejsy tygodniowo, średnio 57 min)",
+      "url": "https://www.kayak.com/flight-routes/Warsaw-Frederic-Chopin-WAW/Gdansk-Lech-Walesa-GDN",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Gdansk – statystyki cen w obie strony (miesiące: I 309, IV 450, XII 422; średnia 12 mies. 356 zł; typowo 305–504 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Gdansk-GDN",
+      "checked": "2026-10-14"
+    }
+  ]
+}

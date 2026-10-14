@@ -1,0 +1,405 @@
+{
+  "id": "koh-samui",
+  "country": "Tajlandia",
+  "place": "Koh Samui",
+  "notes": "Zatoka Tajlandzka (para monsunowa z Phuketem): najsuchiej II–IV, dość sucho V–IX (gdy na Phukecie trwa monsun SW), pora deszczowa monsunu NE X–XII z maksimum w listopadzie. Baza pobytu: Chaweng na wschodnim wybrzeżu (z Lamai ok. 15 min na południe). Pogoda ze stacji WMO 48550 Ko Samui (9,47°N 100,05°E, ok. 6 km na S od Chaweng), normy 1991–2020; nasłonecznienie z serii 1981–2010. Zieleń: wnętrze wyspy to zalesione wzgórza i gaje kokosowe, zielone przez cały rok; w porze suchej (III–IV) trawy przesychają. Wycieczki jednodniowe: park morski Ang Thong, Koh Phangan i Koh Tao, Big Buddha, wodospady Na Muang. Dojazd: najszybciej LOT bezpośrednio do Bangkoku (od 7.10.2026, cały rok) i dalej Bangkok Airways do Samui (ok. 1 h 15 min, ok. 23 rejsy dziennie) – osobne bilety, bo LOT nie ma umowy z Bangkok Airways, ok. 14,3 h z 1 przesiadką; na jednym bilecie z 2 przesiadkami (np. Stambuł + Bangkok) ok. 15,5 h.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": {
+      "est": 14.3
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 0.3
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29,
+      "temp_night": 24.2,
+      "dew_point": 23.6,
+      "sun": 6.4,
+      "rain": 127,
+      "rain_days": 8.5,
+      "uv": 8,
+      "wind": 17,
+      "water": 27.8,
+      "flight_price": {
+        "est": 5700
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Do ok. 10 stycznia szczyt noworoczny: najwyższe ceny i minimalne długości pobytu w wielu hotelach (ciąg dalszy okresu z grudnia)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.4,
+      "temp_night": 24.9,
+      "dew_point": 23.8,
+      "sun": 7.6,
+      "rain": 64,
+      "rain_days": 4.3,
+      "uv": 9,
+      "wind": 15,
+      "water": 28.3,
+      "flight_price": {
+        "est": 5700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.4,
+      "temp_night": 25.4,
+      "dew_point": 24.6,
+      "sun": 7.7,
+      "rain": 116,
+      "rain_days": 4.7,
+      "uv": 9,
+      "wind": 13,
+      "water": 28.9,
+      "flight_price": {
+        "est": 5200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.8,
+      "temp_night": 26,
+      "dew_point": 25.3,
+      "sun": 6.7,
+      "rain": 83,
+      "rain_days": 6.1,
+      "uv": 9,
+      "wind": 12,
+      "water": 30,
+      "flight_price": {
+        "est": 5200
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Songkran (13–15 kwietnia) – uliczne bitwy wodne, zwłaszcza w Chaweng; tłok, droższe noclegi, trudno przejść suchą stopą."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.9,
+      "temp_night": 25.7,
+      "dew_point": 25.1,
+      "sun": 6.2,
+      "rain": 132,
+      "rain_days": 11,
+      "uv": 8,
+      "wind": 13,
+      "water": 30,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.7,
+      "temp_night": 25.3,
+      "dew_point": 24.4,
+      "sun": 5,
+      "rain": 134,
+      "rain_days": 10.3,
+      "uv": 7,
+      "wind": 17,
+      "water": 30,
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.3,
+      "temp_night": 25.1,
+      "dew_point": 24.2,
+      "sun": 5,
+      "rain": 117,
+      "rain_days": 10.7,
+      "uv": 7,
+      "wind": 18,
+      "water": 30,
+      "flight_price": {
+        "est": 5200
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Pora występowania kubomeduz w Zatoce Tajlandzkiej (najwięcej przypadków VIII–X): poparzenia rzadkie, ale groźne; przy plażach słupki z octem, kąpiel w siatkach lub w miejscach strzeżonych."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.4,
+      "temp_night": 25.1,
+      "dew_point": 24,
+      "sun": 4.9,
+      "rain": 102,
+      "rain_days": 10.5,
+      "uv": 8,
+      "wind": 18,
+      "water": 29.4,
+      "flight_price": {
+        "est": 5200
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Pora występowania kubomeduz w Zatoce Tajlandzkiej (najwięcej przypadków VIII–X): poparzenia rzadkie, ale groźne; przy plażach słupki z octem, kąpiel w siatkach lub w miejscach strzeżonych."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.9,
+      "temp_night": 24.8,
+      "dew_point": 24.1,
+      "sun": 4.8,
+      "rain": 118,
+      "rain_days": 10.6,
+      "uv": 8,
+      "wind": 16,
+      "water": 29.4,
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Pora występowania kubomeduz w Zatoce Tajlandzkiej (najwięcej przypadków VIII–X): poparzenia rzadkie, ale groźne; przy plażach słupki z octem, kąpiel w siatkach lub w miejscach strzeżonych."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.6,
+      "temp_night": 24.3,
+      "dew_point": 24.4,
+      "sun": 4.7,
+      "rain": 295,
+      "rain_days": 15.8,
+      "uv": 8,
+      "wind": 14,
+      "water": 29.4,
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Pora występowania kubomeduz w Zatoce Tajlandzkiej (najwięcej przypadków VIII–X): poparzenia rzadkie, ale groźne; przy plażach słupki z octem, kąpiel w siatkach lub w miejscach strzeżonych."
+        },
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Początek monsunu NE zwykle od drugiej połowy października: wyższe fale na wschodnim wybrzeżu (Chaweng, Lamai) w części dni, pojedyncze dni z czerwonymi flagami; rejsy do parku Ang Thong bywają odwoływane."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 29.7,
+      "temp_night": 24.1,
+      "dew_point": 24.3,
+      "sun": 5.8,
+      "rain": 445,
+      "rain_days": 16.5,
+      "uv": 7,
+      "wind": 18,
+      "water": 29.4,
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Szczyt monsunu NE: wzburzone morze na wschodnim wybrzeżu (Chaweng, Lamai), w wielu dniach czerwone flagi i odradzana kąpiel; rejsy i sporty wodne w dużej części odwołane, park Ang Thong zwykle niedostępny; ulewy podtapiają drogi i powodują przerwy w prądzie."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.3,
+      "temp_night": 24,
+      "dew_point": 23.4,
+      "sun": 5.7,
+      "rain": 263,
+      "rain_days": 11.6,
+      "uv": 6,
+      "wind": 19,
+      "water": 28.3,
+      "flight_price": {
+        "est": 6200
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Koniec monsunu NE, głównie w pierwszej połowie miesiąca: fale i czerwone flagi na Chaweng i Lamai w części dni; od drugiej połowy grudnia morze zwykle spokojne."
+        },
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Boże Narodzenie i Nowy Rok (ok. 20.12–10.01): najwyższe ceny, minimalne długości pobytu i obowiązkowe płatne kolacje galowe w wielu hotelach, tłok na plażach."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Ko Samui – tabela klimatyczna 1991–2020 (WMO Climate Normals, stacja 48550 Ko Samui; nasłonecznienie: Royal Irrigation Department 1981–2010)",
+      "url": "https://en.wikipedia.org/wiki/Ko_Samui",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "MeteoNews: stacja Ko Samui (M48550000) – współrzędne 9°28'N 100°03'E, 4 m n.p.m.",
+      "url": "https://meteonews.fr/en/Measurements/M48550000/Ko_Samui",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Climats et Voyages: Ko Samui (temperatury 1991–2020, opad, dni deszczowe, nasłonecznienie, temperatura morza – kontrola)",
+      "url": "https://www.climatsetvoyages.com/climat/thailande/ko-samui",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "seatemperatu.re: Chaweng Beach – średnia temperatura morza w miesiącach (średnie z lat poprzednich)",
+      "url": "https://www.seatemperatu.re/southeast-asia/ko-samui/chaweng-beach/when.html",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Weather Spark: Ko Samui – średnia godzinowa prędkość wiatru na 10 m (średnia obszarowa, reanaliza), temperatura wody – kontrola",
+      "url": "https://weatherspark.com/y/112991/Average-Weather-in-Ko-Samui-Thailand-Year-Round",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: Koh Samui – pogoda miesiąc po miesiącu (12 stron miesięcznych, np. /koh-samui-weather-january); UV all-sky z Open-Meteo, „ERA5 · 10 years”, 9.51°N 100.06°E; morze – kontrola",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-koh-samui",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "The Koh Samui Guide: listopad – ulewy, wzburzone morze, odradzana kąpiel, park Ang Thong zwykle zamknięty",
+      "url": "https://www.thekohsamuiguide.com/koh-samui-november/",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Pattaya Mail: wzburzone morze na Koh Samui (Chaweng, Maenam), 29.11.2024 – zakaz kąpieli, czerwone flagi",
+      "url": "https://www.pattayamail.com/thailandnews/rough-seas-strike-koh-samui-damaging-beaches-and-bungalows-avoid-swimming-small-boat-trips-481946",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Islaguru: Koh Samui miesiąc po miesiącu (sezon turystyczny, ceny hoteli, święta)",
+      "url": "https://islaguru.com/articles/when-to-visit-koh-samui",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "The Thailand Life: kubomeduzy w Tajlandii (omówienie badania z 2016 r.: Koh Samui/Phangan – VIII 33%, IX i X po 20%, VII 13% przypadków)",
+      "url": "https://www.thethailandlife.com/box-jellyfish-thailand",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "I Am Koh Chang: kubomeduzy w Tajlandii – większość zgonów w Zatoce Tajlandzkiej, ryzyko niskie",
+      "url": "https://iamkohchang.com/blog/box-jellyfish-in-thailand.html",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Toute la Thaïlande: meduzy i bezpieczeństwo kąpieli (więcej kubomeduz w porze deszczowej, ocet przy plażach)",
+      "url": "https://toutelathailande.fr/en/thailand-jellyfish-other-dangers-advice-swimming-safety",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "momondo.pl: Lotnisko Chopina – Ko Samui (brak lotów bezpośrednich; najkrótszy wynik 15 h 35 min, 2 przesiadki, Turkish Airlines przez IST i BKK)",
+      "url": "https://www.momondo.pl/loty/lotnisko-chopina-w-warszawie/ko-samui",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Skyscanner: Warsaw – Samui International (brak lotów bezpośrednich; ceny „od” per miesiąc – tylko kontrola)",
+      "url": "https://www.skyscanner.co.in/routes/wars/usm/warsaw-to-samui-international.html",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Pasazer.com: LOT Warszawa–Bangkok od 7.10.2026, zimą 5×, latem 3× w tygodniu (11.05.2026)",
+      "url": "https://www.pasazer.com/news/469980/lot,latem,rzadziej,do,bangkoku.html",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Aviation A2Z: LOT uruchamia Warszawa–Bangkok (7.10.2026, całoroczne, ok. 10 h 20 min)",
+      "url": "https://aviationa2z.com/index.php/2026/10/09/lot-polish-airlines-starts-warsaw-bangkok-flights/",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Super Express: LOT Warszawa – Bangkok od 7.10.2026 (Boeing 787, ok. 10 h, połączenie całoroczne; zimą do 6 razy, latem 3 razy w tygodniu)",
+      "url": "https://www.se.pl/warszawa/z-warszawy-do-bangkoku-bez-przesiadek-lot-wystartowal-z-nowa-trasa-aa-jk73-HSvM-RqKr.html",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.com: Bangkok Suvarnabhumi – Ko Samui (bez przesiadek średnio 1 h 17 min; Bangkok Airways 161 rejsów tygodniowo)",
+      "url": "https://www.kayak.com/flight-routes/Bangkok-Suvarnabhumi-BKK/Ko-Samui-USM",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Ko Samui – statystyki cen w obie strony (miesiące: II 5 708, V 3 900, XII 6 158; średnia 12 mies. 5 192 zł; typowo 4 585–6 094 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Ko-Samui-USM",
+      "checked": "2026-10-14"
+    }
+  ]
+}

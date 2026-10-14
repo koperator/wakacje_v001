@@ -1,0 +1,736 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wyszukiwarka kierunków wakacyjnych</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Układ: tabela decyzyjna na pierwszym planie; nad nią pasek profilu, zakładki miesięcy i filtry; formatka rozwija się nad tabelą. */
+:root {
+  --bg: #eef3f2;
+  --surface: #ffffff;
+  --ink: #14272b;
+  --muted: #587073;
+  --line: #d3dfdd;
+  --accent: #0b6874;
+  --accent-ink: #ffffff;
+  --danger: #a63a1b;
+  --heat-sat: 64%;
+  --heat-light: 86%;
+  --pill-light: 74%;
+  --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", sans-serif;
+  --f-body: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --f-data: "IBM Plex Sans Condensed", "Arial Narrow", "Roboto Condensed", var(--f-body);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e191b; --surface: #142326; --ink: #e2ebea; --muted: #93a9aa; --line: #293c3f;
+    --accent: #5bc2cc; --accent-ink: #0e191b; --danger: #ff8d6b;
+    --heat-sat: 36%; --heat-light: 25%; --pill-light: 34%;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e191b; --surface: #142326; --ink: #e2ebea; --muted: #93a9aa; --line: #293c3f;
+  --accent: #5bc2cc; --accent-ink: #0e191b; --danger: #ff8d6b;
+  --heat-sat: 36%; --heat-light: 25%; --pill-light: 34%;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 14px/1.45 var(--f-body);
+  padding-inline: max(16px, 2vw); padding-block: 16px 32px;
+}
+button, input { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Pasek profilu */
+.top { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; }
+.brand { min-width: 0; }
+h1 { font: 700 clamp(1.35rem, 2.6vw, 1.8rem)/1.1 var(--f-display); margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+.brand p { margin: 4px 0 0; color: var(--muted); font-size: 0.86rem; }
+.profile { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.profile label.name { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.06em; }
+.profile input { width: 11rem; padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); text-transform: none; letter-spacing: 0; font-size: 0.95rem; color: var(--ink); }
+.btn { display: inline-flex; align-items: center; padding: 6px 12px; border-radius: 6px; border: 1px solid var(--line); background: var(--surface); font-weight: 500; font-size: 0.9rem; }
+.btn:hover { border-color: var(--accent); }
+.btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.profile:has(#fileProfile:focus-visible) label[for="fileProfile"] { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Komunikaty */
+#messages { display: grid; gap: 8px; margin-top: 12px; }
+#messages:empty { display: none; }
+.msg { display: flex; gap: 12px; align-items: start; justify-content: space-between; padding: 8px 12px; border-radius: 6px; background: var(--surface); border: 1px solid var(--line); }
+.msg.error { border-color: var(--danger); }
+.msg.error strong { color: var(--danger); }
+.msg ul { margin: 4px 0 0; padding-left: 18px; }
+.msg .x { border: 0; background: none; color: var(--muted); font-size: 1.1rem; line-height: 1; padding: 2px 4px; }
+.msg > div { min-width: 0; }
+.msg details summary { cursor: pointer; }
+
+/* Formatka */
+#formPanel { margin-top: 16px; padding: 16px; border-radius: 10px; background: var(--surface); border: 1px solid var(--line); }
+#formPanel h2 { font: 700 1.15rem/1.2 var(--f-display); margin: 0; }
+#formPanel .lead { margin: 4px 0 12px; color: var(--muted); max-width: 70ch; }
+#formErrors:empty { display: none; }
+#formErrors { margin-bottom: 12px; color: var(--danger); }
+#formErrors ul { margin: 4px 0 0; padding-left: 18px; }
+.formgrid { overflow-x: auto; }
+table.form { border-collapse: collapse; font-family: var(--f-data); font-variant-numeric: tabular-nums; }
+table.form th, table.form td { padding: 3px 6px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+table.form thead th { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 500; }
+table.form .grp th { padding-top: 10px; font: 600 0.75rem var(--f-body); text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); border-bottom: 0; }
+table.form input { width: 4.6rem; padding: 3px 5px; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); text-align: right; }
+table.form input.w { width: 3.6rem; }
+table.form .unit { color: var(--muted); font-size: 0.82rem; }
+input[aria-invalid="true"] { border-color: var(--danger) !important; box-shadow: 0 0 0 1px var(--danger); }
+.settings { display: flex; flex-wrap: wrap; gap: 10px 24px; margin-top: 14px; align-items: center; }
+.settings label { display: flex; align-items: center; gap: 6px; }
+.settings input[type="number"] { width: 4.2rem; padding: 3px 5px; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); text-align: right; }
+
+/* Miesiące i filtry */
+.months { display: flex; gap: 2px; margin-top: 18px; overflow-x: auto; border-bottom: 2px solid var(--line); }
+.months button {
+  border: 0; background: none; padding: 6px 12px 7px; margin-bottom: -2px; border-bottom: 2px solid transparent;
+  font: 500 0.98rem var(--f-display); color: var(--muted); white-space: nowrap;
+}
+.months button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); font-weight: 700; }
+.months button:hover { color: var(--ink); }
+.filters { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; padding: 10px 0; font-size: 0.9rem; }
+.filters label { display: flex; align-items: center; gap: 6px; }
+.filters input[type="number"] { width: 4rem; padding: 3px 5px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); text-align: right; }
+.filters .count { color: var(--muted); margin-left: auto; }
+
+/* Tabela decyzyjna */
+.tablewrap { overflow: auto; max-height: 76vh; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+table.grid { border-collapse: separate; border-spacing: 0; font-family: var(--f-data); font-variant-numeric: tabular-nums; width: max-content; min-width: 100%; }
+.grid th, .grid td { padding: 0 8px; height: 2.1rem; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.grid thead th { position: sticky; z-index: 2; background: var(--surface); font-weight: 500; text-align: left; vertical-align: bottom; }
+.grid thead tr:first-child th { top: 0; height: 1.9rem; }
+.grid thead tr:nth-child(2) th { top: 1.9rem; height: 2.6rem; padding-bottom: 4px; }
+.grid thead .gh { text-align: left; border-left: 1px solid var(--line); vertical-align: middle; }
+.grid thead .gh button { border: 0; background: none; padding: 0; font: 600 0.72rem var(--f-body); text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); }
+.grid thead .gs { border-left: 1px solid var(--line); }
+.grid .sortbtn { border: 0; background: none; padding: 0; text-align: inherit; font: 500 0.86rem/1.15 var(--f-data); color: var(--ink); }
+.grid .sortbtn small { display: block; color: var(--muted); font-size: 0.72rem; font-weight: 400; }
+.grid th.off .sortbtn { color: var(--muted); }
+.grid .arrow { color: var(--accent); font-size: 0.7rem; }
+.grid .first { position: sticky; left: 0; z-index: 1; background: var(--surface); border-right: 1px solid var(--line); text-align: left; }
+.grid thead .first { z-index: 3; }
+.grid tbody th.first button { border: 0; background: none; padding: 0; text-align: left; display: flex; flex-direction: column; line-height: 1.15; }
+.grid tbody th.first .place { font-weight: 600; font-size: 0.92rem; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+.grid tbody th.first .country { color: var(--muted); font-size: 0.75rem; font-weight: 400; }
+.grid tbody th.first button:hover .place { text-decoration-color: var(--accent); }
+.grid td { text-align: right; }
+.grid td.c { text-align: center; }
+.grid td.l { text-align: left; }
+.grid td.gs, .grid th.gs { border-left: 1px solid var(--line); }
+.grid tbody tr:hover td, .grid tbody tr:hover th { box-shadow: inset 0 9999px 0 rgb(127 127 127 / 0.07); }
+.heat { background: hsl(calc(8 + 140 * var(--s)) var(--heat-sat) var(--heat-light)); }
+.bad { color: var(--danger); text-decoration: line-through; }
+.est { opacity: 0.62; }
+.est::after { content: "*"; }
+.na { color: var(--muted); font-style: italic; }
+.miss { color: var(--muted); font-size: 0.8rem; letter-spacing: 0.04em; background-image: repeating-linear-gradient(135deg, transparent 0 5px, rgb(127 127 127 / 0.1) 5px 6px); }
+.score button { border: 0; background: none; padding: 0; font: 600 1rem var(--f-data); min-width: 2.4rem; text-align: right; text-decoration: underline dotted var(--muted); text-underline-offset: 3px; }
+.score button.prov { font-style: italic; }
+.pill { display: inline-block; min-width: 1.6rem; padding: 1px 6px; border-radius: 999px; font: 600 0.8rem var(--f-data); text-align: center; background: hsl(calc(8 + 140 * var(--s)) var(--heat-sat) var(--pill-light)); }
+.flag { display: inline-flex; align-items: baseline; gap: 1px; margin-right: 4px; cursor: help; font-size: 0.95rem; }
+.flag sup { font: 600 0.65rem var(--f-data); color: var(--muted); }
+.flag.l3 sup { color: var(--danger); }
+.flag.off { opacity: 0.4; }
+.unchk { color: var(--danger); font-size: 0.8rem; margin-left: 4px; cursor: help; }
+.grid tbody th.first .row { display: flex; align-items: center; gap: 2px; }
+.legend { color: var(--muted); font-size: 0.82rem; margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 4px 16px; }
+.legend span { white-space: nowrap; }
+
+/* Okna */
+dialog { border: 1px solid var(--line); border-radius: 10px; padding: 0; background: var(--surface); color: var(--ink); max-width: min(1100px, calc(100vw - 32px)); width: max-content; max-height: calc(100vh - 48px); }
+dialog::backdrop { background: rgb(10 20 22 / 0.45); }
+.dlg { padding: 16px 20px 20px; display: grid; gap: 14px; min-width: 0; }
+.dlg header { display: flex; justify-content: space-between; align-items: start; gap: 16px; }
+.dlg h2 { font: 700 1.3rem/1.15 var(--f-display); margin: 0; }
+.dlg h2 small { display: block; font: 400 0.85rem var(--f-body); color: var(--muted); margin-top: 2px; }
+.dlg h3 { font: 600 0.75rem var(--f-body); text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin: 0 0 6px; }
+.dlg p { margin: 0; max-width: 70ch; }
+.dlg .close { border: 1px solid var(--line); background: none; border-radius: 6px; padding: 2px 10px; }
+.kv { display: grid; grid-template-columns: max-content auto; gap: 4px 16px; margin: 0; font-variant-numeric: tabular-nums; }
+.kv dt { color: var(--muted); }
+.kv dd { margin: 0; font-family: var(--f-data); }
+.kv dd .val { display: inline-block; min-width: 2rem; padding: 0 6px; border-radius: 4px; text-align: right; }
+.cols2 { display: flex; flex-wrap: wrap; gap: 16px 40px; }
+.cols2 > section { min-width: 0; }
+.mtable { overflow-x: auto; }
+.mtable table { border-collapse: collapse; font-family: var(--f-data); font-variant-numeric: tabular-nums; font-size: 0.86rem; }
+.mtable th, .mtable td { padding: 3px 7px; border-bottom: 1px solid var(--line); white-space: nowrap; text-align: right; }
+.mtable thead th { color: var(--muted); font-weight: 500; text-align: center; }
+.mtable thead th.now { color: var(--ink); font-weight: 700; box-shadow: inset 0 -2px 0 var(--accent); }
+.mtable tbody th { text-align: left; font-weight: 500; position: sticky; left: 0; background: var(--surface); }
+.mtable td.c { text-align: center; }
+.sources { margin: 0; padding-left: 18px; }
+.sources li { margin-bottom: 2px; }
+.sources a { color: var(--accent); word-break: break-word; }
+.sources .date { color: var(--muted); font-size: 0.82rem; }
+@media (prefers-reduced-motion: no-preference) { .months button { transition: color 0.15s, border-color 0.15s; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <h1>Wyszukiwarka kierunków wakacyjnych</h1>
+    <p id="dataInfo">Wczytywanie danych…</p>
+  </div>
+  <div class="profile">
+    <label class="name" for="profileName">Profil <input id="profileName" autocomplete="off"></label>
+    <button class="btn primary" id="btnForm" aria-expanded="false" aria-controls="formPanel">Formatka</button>
+    <button class="btn" id="btnSave">Pobierz profil</button>
+    <button class="btn" id="btnReset">Przywróć domyślne</button>
+    <label class="btn" for="fileProfile">Wczytaj profil</label>
+    <input class="vh" type="file" id="fileProfile" accept=".json,application/json">
+  </div>
+</header>
+
+<div id="messages" aria-live="polite"><div class="msg" id="boot"><div>Jeśli ten komunikat nie znika, otwórz stronę przez serwer HTTP, nie z dysku: w folderze aplikacji uruchom <code>python3 -m http.server</code> i wejdź na <code>http://localhost:8000</code>.</div></div></div>
+
+<section id="formPanel" hidden aria-labelledby="formTitle">
+  <h2 id="formTitle">Formatka preferencji</h2>
+  <p class="lead">Ocena kolumny to 1 w przedziale idealnym, 0 poniżej min i powyżej max, liniowo pomiędzy. Puste min z ideałem od (albo ideał do z max) wyłącza tę stronę. Waga 0 wyłącza kolumnę.</p>
+  <div id="formErrors" role="alert"></div>
+  <div class="formgrid"><table class="form" id="formTable"></table></div>
+  <div class="settings">
+    <label for="set-flagPenalty">Kara za poziom flagi <input type="number" id="set-flagPenalty" min="0" max="100" step="any"> %</label>
+    <label for="set-swimFlags"><input type="checkbox" id="set-swimFlags"> Flagi kąpielowe dają karę</label>
+    <label for="set-low">Globalny sezon M od <input type="number" id="set-low" step="any"></label>
+    <label for="set-high">H od <input type="number" id="set-high" step="any"></label>
+  </div>
+</section>
+
+<nav class="months" role="tablist" aria-label="Miesiąc" id="months"></nav>
+<div class="filters">
+  <label for="flt-hideLevel3"><input type="checkbox" id="flt-hideLevel3"> Ukryj miejsca z flagą poziomu 3</label>
+  <label for="flt-maxFlightTime">Czas lotu do <input type="number" id="flt-maxFlightTime" min="0" step="any"> h</label>
+  <label for="flt-maxStops">Przesiadek do <input type="number" id="flt-maxStops" min="0" step="1"></label>
+  <label for="flt-minCoverage">Pokrycie od <input type="number" id="flt-minCoverage" min="0" max="100" step="any"> %</label>
+  <span class="count" id="count"></span>
+</div>
+<div class="tablewrap" id="panel" role="tabpanel"><table class="grid" id="grid"></table></div>
+<p class="legend">
+  <span><span class="est">31,2</span> szacunek</span>
+  <span><span class="na">n/d</span> nie dotyczy (ocena 0)</span>
+  <span><span class="miss">b.d.</span> brak danych (pomijane)</span>
+  <span><span class="na">n/d</span> w kolumnie pogodowej (np. woda bez morza): pomijane</span>
+  <span><i>~72</i>, <i>~H</i> wynik / sezon prowizoryczny, pokrycie &lt; 100%</span>
+  <span><span class="unchk">⚠</span> filtr niesprawdzony: brak danych</span>
+  <span>Kolor: ocena wg formatki, tylko kolumny z wagą &gt; 0</span>
+  <span>Kliknij wynik albo nazwę miejsca, by zobaczyć szczegóły</span>
+</p>
+
+<dialog id="dlg"><div class="dlg" id="dlgBody"></div></dialog>
+
+<script type="module">
+import * as core from './core.js';
+
+const $ = s => document.querySelector(s);
+const STORE = 'wakacje.formatka';        // bieżąca formatka, także z błędami
+const STORE_ACTIVE = 'wakacje.aktywny';  // ostatnia poprawna wersja, z której liczone są wyniki
+const SHORT = ['sty', 'lut', 'mar', 'kwi', 'maj', 'cze', 'lip', 'sie', 'wrz', 'paź', 'lis', 'gru'];
+const FIELD_LABEL = { min: 'min', idealFrom: 'ideał od', idealTo: 'ideał do', max: 'max', weight: 'waga' };
+
+let data, cols, types, draft, active;
+let formErrors = [];
+let month = new Date().getMonth();
+let sort = { key: 'score', dir: -1 };
+const collapsed = new Set();
+
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+const fmt = v => typeof v === 'number' ? v.toLocaleString('pl-PL', { maximumFractionDigits: 1 }) : String(v);
+const colById = id => cols.find(c => c.id === id);
+const numeric = raw => { const p = core.parseValue(raw); return (p.kind === 'value' || p.kind === 'est') && typeof p.v === 'number' ? p.v : null; };
+const flagsOf = (d, m) => core.monthFlags(d, m, cols);
+const SETTING_LABEL = {
+  name: 'nazwa', flagPenalty: 'kara za poziom flagi', swimFlags: 'flagi kąpielowe',
+  seasonThresholds: 'progi sezonu', 'seasonThresholds.low': 'próg sezonu M', 'seasonThresholds.high': 'próg sezonu H',
+  filters: 'filtry', 'filters.hideLevel3': 'ukryj z flagą poziomu 3', 'filters.maxFlightTime': 'czas lotu do', 'filters.maxStops': 'przesiadek do', 'filters.minCoverage': 'pokrycie od',
+};
+const safeUrl = u => typeof u === 'string' && /^https?:\/\//i.test(u) ? u : null;
+const levelOf = f => [1, 2, 3].includes(f.level) ? f.level : '?';
+const isProv = r => r.coverage != null && r.coverage < 1;
+const pct = c => c == null ? '—' : `${Math.floor(c * 100)}%`;  // w dół: 99,6% nie może wyglądać jak 100%
+
+// ---------- komunikaty ----------
+function note(kind, text, items = []) {
+  const el = document.createElement('div');
+  el.className = `msg ${kind}`;
+  el.innerHTML = `<div><strong>${esc(text)}</strong>${items.length ? `<ul>${items.map(i => `<li>${esc(i)}</li>`).join('')}</ul>` : ''}</div><button class="x" aria-label="Zamknij komunikat">×</button>`;
+  el.querySelector('.x').onclick = () => el.remove();
+  $('#messages').prepend(el);
+}
+
+// ---------- profil ----------
+function store(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); } catch {} }
+
+function commit() {
+  formErrors = core.validateProfile(draft, cols);
+  if (!formErrors.length) { active = structuredClone(draft); store(STORE_ACTIVE, active); }
+  store(STORE, draft);
+  showFormErrors();
+  renderTable();
+}
+
+// Kształt, na którym formatka może działać (wartości mogą być błędne).
+const wellFormed = p => core.isObj(p.columns) && Object.values(p.columns).every(core.isObj)
+  && core.isObj(p.seasonThresholds) && core.isObj(p.filters);
+
+const columnChanges = ({ added, removed, addedSettings = [] }) => [
+  ...(added.length ? [`Nowe kolumny z wartościami domyślnymi: ${added.map(id => colById(id).name).join(', ')}.`] : []),
+  ...(removed.length ? [`Pominięte kolumny, których nie ma już w rejestrze: ${removed.join(', ')}.`] : []),
+  ...(addedSettings.length ? [`Ustawienia z wartościami domyślnymi: ${addedSettings.map(k => SETTING_LABEL[k] ?? k).join(', ')}.`] : []),
+];
+
+// Profil domyślny z rejestru. Kolumna z błędną formatką domyślną jest wyłączona (waga 0), żeby dało się liczyć resztę;
+// błąd rejestru i tak jest na liście błędów danych.
+function safeDefault() {
+  const p = core.defaultProfile(cols);
+  const bad = [...new Set(core.validateProfile(p, cols).map(e => core.splitField(e.field)[0]).filter(id => id in p.columns))];
+  for (const id of bad) p.columns[id] = { min: null, idealFrom: null, idealTo: null, max: null, weight: 0 };
+  return { profile: p, bad };
+}
+
+// Pole błędu → id kontrolek. Id kolumny dzielimy po ostatniej kropce i szukamy przez getElementById,
+// więc znaki specjalne w id nie psują selektora.
+const splitField = core.splitField;
+const fieldInputs = field => {
+  const [a, b] = splitField(field);
+  if (field === 'name') return ['profileName'];
+  if (field === 'flagPenalty') return ['set-flagPenalty'];
+  if (field === 'swimFlags') return ['set-swimFlags'];
+  if (field === 'seasonThresholds') return ['set-low', 'set-high'];
+  if (a === 'filters') return [`flt-${b}`];
+  return [`f-${a}-${b}`];
+};
+const errText = e => {
+  const [a, b] = splitField(e.field);
+  return FIELD_LABEL[b] && a !== 'filters' ? `${e.msg} (pole: ${FIELD_LABEL[b]})` : e.msg;
+};
+
+function showFormErrors() {
+  document.querySelectorAll('[aria-invalid="true"]').forEach(el => el.removeAttribute('aria-invalid'));
+  for (const e of formErrors) for (const id of fieldInputs(e.field)) document.getElementById(id)?.setAttribute('aria-invalid', 'true');
+  $('#formErrors').innerHTML = formErrors.length
+    ? `<strong>Formatka ma błędy. Wyniki są liczone z ostatniej poprawnej wersji.</strong><ul>${formErrors.map(e => `<li>${esc(errText(e))}</li>`).join('')}</ul>`
+    : '';
+  if (formErrors.length) {
+    $('#formPanel').hidden = false;
+    $('#btnForm').setAttribute('aria-expanded', 'true');
+  }
+}
+
+function renderForm() {
+  const groups = [...new Set(cols.filter(core.isScoring).map(c => c.group))];
+  const val = v => v == null ? '' : v;
+  let html = '<thead><tr><th>Kolumna</th><th>Min</th><th>Ideał od</th><th>Ideał do</th><th>Max</th><th>Waga</th></tr></thead>';
+  for (const g of groups) {
+    html += `<tbody><tr class="grp"><th colspan="6">${esc(g)}</th></tr>`;
+    for (const c of cols.filter(c => core.isScoring(c) && c.group === g)) {
+      const r = draft.columns[c.id];
+      html += `<tr><th scope="row">${esc(c.name)} <span class="unit">${esc(c.unit)}</span></th>`;
+      for (const f of ['min', 'idealFrom', 'idealTo', 'max', 'weight']) {
+        html += `<td><input type="number" step="any" id="f-${esc(c.id)}-${f}" data-col="${esc(c.id)}" data-field="${f}" ${f === 'weight' ? 'class="w" min="0"' : ''} value="${esc(val(r[f]))}" aria-label="${esc(c.name)}: ${FIELD_LABEL[f]}"></td>`;
+      }
+      html += '</tr>';
+    }
+    html += '</tbody>';
+  }
+  $('#formTable').innerHTML = html;
+  $('#set-flagPenalty').value = draft.flagPenalty ?? '';
+  $('#set-swimFlags').checked = !!draft.swimFlags;
+  $('#set-low').value = draft.seasonThresholds.low ?? '';
+  $('#set-high').value = draft.seasonThresholds.high ?? '';
+  $('#profileName').value = draft.name;
+  $('#flt-hideLevel3').checked = !!draft.filters.hideLevel3;
+  $('#flt-maxFlightTime').value = draft.filters.maxFlightTime ?? '';
+  $('#flt-maxStops').value = draft.filters.maxStops ?? '';
+  $('#flt-minCoverage').value = draft.filters.minCoverage ?? '';
+  showFormErrors();
+}
+
+// Tekst, którego przeglądarka nie umie odczytać jako liczby (badInput), to NaN, a nie puste pole,
+// więc walidacja zgłasza błąd zamiast po cichu wyłączać stronę zakresu albo filtr.
+const numIn = el => el.validity?.badInput ? NaN : el.value.trim() === '' ? null : Number(el.value);
+
+function bindInputs() {
+  $('#formTable').addEventListener('input', e => {
+    const el = e.target;
+    if (!el.dataset.col) return;
+    draft.columns[el.dataset.col][el.dataset.field] = numIn(el);
+    commit();
+  });
+  $('#set-flagPenalty').oninput = e => { draft.flagPenalty = numIn(e.target); commit(); };
+  $('#set-swimFlags').onchange = e => { draft.swimFlags = e.target.checked; commit(); };
+  $('#set-low').oninput = e => { draft.seasonThresholds.low = numIn(e.target); commit(); };
+  $('#set-high').oninput = e => { draft.seasonThresholds.high = numIn(e.target); commit(); };
+  $('#profileName').oninput = e => { draft.name = e.target.value; commit(); };
+  $('#flt-hideLevel3').onchange = e => { draft.filters.hideLevel3 = e.target.checked; commit(); };
+  $('#flt-maxFlightTime').oninput = e => { draft.filters.maxFlightTime = numIn(e.target); commit(); };
+  $('#flt-maxStops').oninput = e => { draft.filters.maxStops = numIn(e.target); commit(); };
+  $('#flt-minCoverage').oninput = e => { draft.filters.minCoverage = numIn(e.target); commit(); };
+
+  $('#btnForm').onclick = () => {
+    const panel = $('#formPanel');
+    panel.hidden = !panel.hidden;
+    $('#btnForm').setAttribute('aria-expanded', String(!panel.hidden));
+  };
+  $('#btnSave').onclick = saveProfile;
+  $('#btnReset').onclick = () => {
+    if (!confirm('Przywrócić domyślną formatkę, ustawienia i filtry? Bieżące zmiany przepadną, jeśli nie pobrano profilu.')) return;
+    draft = safeDefault().profile;
+    renderForm();
+    commit();
+    note('info', 'Przywrócono profil domyślny.');
+  };
+  $('#fileProfile').onchange = loadProfile;
+}
+
+const slug = s => s.toLowerCase().replace(/ł/g, 'l').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'profil';
+
+async function saveProfile() {
+  if (formErrors.length) { note('error', 'Popraw błędy w formatce przed pobraniem profilu.'); return; }
+  const filename = `profil-${slug(draft.name)}.json`;
+  const text = JSON.stringify(draft, null, 2) + '\n';
+  // W podglądzie na claude.ai pobieranie idzie przez platformę; na zwykłym hostingu przez link.
+  const dl = window.claude?.use ? await window.claude.use('downloads') : null;
+  if (dl) {
+    try { await dl.save({ filename, data: text }); }
+    catch (e) { if (e?.code !== 'declined') note('error', 'Nie udało się zapisać pliku profilu.'); }
+    return;
+  }
+  const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(new Blob([text], { type: 'application/json' })), download: filename });
+  document.body.append(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+
+async function loadProfile(e) {
+  const file = e.target.files[0];
+  e.target.value = '';
+  if (!file) return;
+  let loaded;
+  try { loaded = JSON.parse(await file.text()); } catch { note('error', `Nie wczytano ${file.name}: plik nie jest poprawnym JSON-em.`); return; }
+  if (!core.isObj(loaded)) { note('error', `Nie wczytano ${file.name}: to nie jest plik profilu.`); return; }
+  const merged = core.mergeProfile(loaded, cols);
+  const errs = core.validateProfile(merged.profile, cols);
+  if (errs.length) { note('error', `Nie wczytano ${file.name}: profil ma błędy.`, errs.map(errText)); return; }
+  draft = merged.profile;
+  renderForm();
+  commit();
+  note('info', `Wczytano profil „${draft.name}”.`, columnChanges(merged));
+}
+
+// ---------- tabela ----------
+function renderMonths() {
+  $('#months').innerHTML = core.MONTHS.map((m, i) =>
+    `<button role="tab" id="tab-${i}" data-m="${i}" aria-selected="${i === month}" aria-controls="panel" tabindex="${i === month ? 0 : -1}">${m}</button>`).join('');
+  $('#panel').setAttribute('aria-labelledby', `tab-${month}`);
+}
+
+function selectMonth(m, focus = false) {
+  month = (m + 12) % 12;
+  renderMonths(); renderTable();
+  if (focus) document.getElementById(`tab-${month}`).focus();
+}
+
+function rowsFor(m) {
+  // Filtry działają od razu, także gdy inne pole formatki ma błąd.
+  const f = formErrors.some(e => e.field.startsWith('filters')) ? active.filters : draft.filters;
+  // Flagi jak w karze; brak danych do filtra nie odrzuca kierunku, tylko go oznacza (unchecked).
+  return data.destinations.map(d => {
+    const r = core.score(d, m, cols, data.flagTypes, active);
+    const w = core.score(d, m, cols, data.flagTypes, active, true);
+    const { pass, unchecked } = core.checkFilters(d, m, r, cols, f);
+    return { d, r, w, pass, unchecked, season: core.season(w.score, active.seasonThresholds) };
+  }).filter(row => row.pass);
+}
+
+function sortValue(row, key) {
+  if (key === 'place') return row.d.place;
+  if (key === 'score') return row.r.score;
+  if (key === 'coverage') return row.r.coverage;
+  if (key === 'season') return row.w.score;
+  const col = colById(key);
+  const raw = core.rawValue(row.d, col, month);
+  if (col.type === 'flags') return core.countedFlags(core.flagList(raw), data.flagTypes, active).reduce((n, x) => n + x.level, 0);
+  if (col.type === 'hml') { const p = core.parseValue(raw); return { L: 1, M: 2, H: 3 }[p.v] ?? null; }
+  return numeric(raw);
+}
+
+function sortRows(rows) {
+  return rows.sort((a, b) => {
+    const x = sortValue(a, sort.key), y = sortValue(b, sort.key);
+    if (x == null || y == null) return x == null && y == null ? 0 : x == null ? 1 : -1;
+    return (typeof x === 'string' ? x.localeCompare(y, 'pl') : x - y) * sort.dir;
+  });
+}
+
+function flagsHtml(list) {
+  return list.map(f => {
+    const t = types[f.type] || { name: String(f.type), icon: '?' };
+    const level = levelOf(f);
+    const off = t.swim && !active.swimFlags;
+    const tip = `${t.name}, poziom ${level}: ${f.note ?? ''}${off ? ' (flaga kąpielowa, bez kary)' : ''}`;
+    return `<span class="flag l${level}${off ? ' off' : ''}" title="${esc(tip)}">${esc(t.icon)}<sup>${level}</sup></span>`;
+  }).join('');
+}
+
+// Wartość (nie flagi) z oznaczeniem i kolorem oceny: { cls, attrs, text }. Wspólne dla tabeli i widoku kierunku.
+function valueParts(col, raw) {
+  const p = core.parseValue(raw);
+  if (p.kind === 'missing') return { cls: 'miss', attrs: ' title="Brak danych"', text: 'b.d.' };
+  let attrs = '', cls = '';
+  const bad = p.kind !== 'na' && (core.isScoring(col) ? !core.validNumber(col, p.v) : col.type === 'hml' && !['H', 'M', 'L'].includes(p.v));
+  const r = active.columns[col.id];
+  if (core.isScoring(col) && r && r.weight > 0) {
+    const s = core.cellScore(raw, r, col);
+    if (s != null) { attrs = ` style="--s:${s.toFixed(3)}"`; cls = 'heat'; }
+  }
+  if (bad) cls += ' bad';
+  const text = p.kind === 'na' ? '<span class="na">n/d</span>' : `<span class="${p.kind === 'est' ? 'est' : ''}">${esc(fmt(p.v))}</span>`;
+  attrs += bad ? ' title="Błędna wartość: liczona jak brak danych"' : p.kind === 'est' ? ' title="Szacunek"' : p.kind === 'na' ? (col.weather ? ' title="Nie dotyczy: pomijane"' : ' title="Nie dotyczy: ocena 0"') : '';
+  return { cls, attrs, text };
+}
+
+// Komórka danych w tabeli.
+function cell(col, raw, extraClass = '') {
+  if (col.type === 'flags') return `<td class="l ${extraClass}">${flagsHtml(core.flagList(raw))}</td>`;
+  const v = valueParts(col, raw);
+  return `<td class="${col.type === 'number' ? '' : 'c'} ${extraClass} ${v.cls}"${v.attrs}>${v.text}</td>`;
+}
+
+const scoreText = r => r.score == null ? '—' : `${isProv(r) ? '~' : ''}${Math.round(r.score)}`;
+// Sezon z wyniku pogodowego w; prowizoryczny (~), gdy brakuje części danych pogodowych.
+const pill = w => {
+  const s = core.season(w.score, active.seasonThresholds);
+  if (!s) return '—';
+  const prov = isProv(w);
+  return `<span class="pill" style="--s:${{ H: 1, M: 0.5, L: 0 }[s]}"${prov ? ` title="Sezon prowizoryczny: pokrycie danych pogodowych ${pct(w.coverage)}"` : ''}>${prov ? '~' : ''}${s}</span>`;
+};
+const FILTER_LABEL = { maxFlightTime: 'czas lotu', maxStops: 'przesiadki' };
+
+function renderTable() {
+  const rows = sortRows(rowsFor(month));
+  const groups = [];
+  for (const c of cols) {
+    let g = groups.find(x => x.name === c.group);
+    if (!g) groups.push(g = { name: c.group, cols: [] });
+    g.cols.push(c);
+  }
+  const arrow = key => sort.key === key ? `<span class="arrow">${sort.dir > 0 ? '▲' : '▼'}</span>` : '';
+  const ariaSort = key => sort.key === key ? ` aria-sort="${sort.dir > 0 ? 'ascending' : 'descending'}"` : '';
+  const sortTh = (key, label, sub = '', cls = '') =>
+    `<th class="${cls}"${ariaSort(key)}><button class="sortbtn" data-sort="${esc(key)}">${label} ${arrow(key)}${sub ? `<small>${sub}</small>` : ''}</button></th>`;
+
+  let head1 = `<tr><th class="first" rowspan="2"${ariaSort('place')}><button class="sortbtn" data-sort="place">Kierunek ${arrow('place')}</button></th>`;
+  head1 += `<th rowspan="2" class="gs"${ariaSort('score')}><button class="sortbtn" data-sort="score">Wynik ${arrow('score')}</button></th>`;
+  head1 += `<th rowspan="2"${ariaSort('coverage')}><button class="sortbtn" data-sort="coverage">Pokrycie ${arrow('coverage')}</button></th>`;
+  head1 += `<th rowspan="2"${ariaSort('season')}><button class="sortbtn" data-sort="season">Sezon glob. ${arrow('season')}</button></th>`;
+  let head2 = '<tr>';
+  for (const g of groups) {
+    const shut = collapsed.has(g.name);
+    head1 += `<th class="gh" colspan="${shut ? 1 : g.cols.length}"><button data-group="${esc(g.name)}" aria-expanded="${!shut}">${shut ? '▸' : '▾'} ${esc(g.name)}</button></th>`;
+    if (shut) { head2 += '<th class="gs"></th>'; continue; }
+    g.cols.forEach((c, i) => {
+      const off = core.isScoring(c) && !(active.columns[c.id]?.weight > 0);
+      const sub = [c.unit, c.scope === 'fixed' ? 'stała' : ''].filter(Boolean).join(' · ');
+      head2 += sortTh(c.id, esc(c.name), esc(sub), `${i === 0 ? 'gs' : ''}${off ? ' off' : ''}`);
+    });
+  }
+  let body = '';
+  for (const { d, r, w, unchecked } of rows) {
+    const unchk = unchecked.length
+      ? `<span class="unchk" title="${esc(`Filtr niesprawdzony, brak danych: ${unchecked.map(k => FILTER_LABEL[k]).join(', ')}`)}">⚠</span>` : '';
+    body += `<tr><th class="first" scope="row"><div class="row"><button data-dest="${esc(d.id)}"><span class="place">${esc(d.place)}</span><span class="country">${esc(d.country)}</span></button>${unchk}</div></th>`;
+    body += `<td class="score gs${r.score != null ? ' heat' : ''}" ${r.score != null ? `style="--s:${(r.score / 100).toFixed(3)}"` : ''}><button data-score="${esc(d.id)}" class="${isProv(r) ? 'prov' : ''}" title="${isProv(r) ? 'Wynik prowizoryczny: brakuje danych. ' : ''}Kliknij, by zobaczyć obliczenie">${scoreText(r)}</button></td>`;
+    body += `<td>${pct(r.coverage)}</td>`;
+    body += `<td class="c">${pill(w)}</td>`;
+    for (const g of groups) {
+      if (collapsed.has(g.name)) { body += '<td class="gs"></td>'; continue; }
+      g.cols.forEach((c, i) => { body += cell(c, core.rawValue(d, c, month), i === 0 ? 'gs' : ''); });
+    }
+    body += '</tr>';
+  }
+  if (!rows.length) body = `<tr><td class="l" colspan="99">Żaden kierunek nie spełnia filtrów.</td></tr>`;
+  $('#grid').innerHTML = `<thead>${head1}</tr>${head2}</tr></thead><tbody>${body}</tbody>`;
+  const nUnchk = rows.filter(x => x.unchecked.length).length;
+  $('#count').textContent = `Pokazano ${rows.length} z ${data.destinations.length}${nUnchk ? `, w tym ${nUnchk} bez danych do filtra` : ''}`;
+}
+
+function bindTable() {
+  $('#months').onclick = e => {
+    const b = e.target.closest('[data-m]');
+    if (b) selectMonth(Number(b.dataset.m), true); // przyciski są renderowane od nowa, więc fokus wraca na nowy
+  };
+  $('#months').onkeydown = e => {
+    const step = { ArrowLeft: -1, ArrowRight: 1 }[e.key];
+    if (step) selectMonth(month + step, true);
+    else if (e.key === 'Home') selectMonth(0, true);
+    else if (e.key === 'End') selectMonth(11, true);
+    else return;
+    e.preventDefault();
+  };
+  $('#grid').onclick = e => {
+    const t = e.target.closest('button');
+    if (!t) return;
+    if (t.dataset.sort) {
+      const key = t.dataset.sort;
+      sort = sort.key === key ? { key, dir: -sort.dir } : { key, dir: key === 'place' ? 1 : -1 };
+      renderTable();
+    } else if (t.dataset.group) {
+      const g = t.dataset.group;
+      collapsed.has(g) ? collapsed.delete(g) : collapsed.add(g);
+      renderTable();
+    } else if (t.dataset.score) showScore(t.dataset.score);
+    else if (t.dataset.dest) showDest(t.dataset.dest);
+  };
+  const dlg = $('#dlg');
+  dlg.addEventListener('click', e => { if (e.target === dlg || e.target.closest('.close')) dlg.close(); });
+}
+
+// ---------- okna szczegółów ----------
+function openDialog(html) {
+  $('#dlgBody').innerHTML = html;
+  $('#dlg').showModal();
+}
+const closeBtn = '<button class="close" aria-label="Zamknij">Zamknij</button>';
+const f1 = v => v == null ? '—' : v.toLocaleString('pl-PL', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+
+function calcBlock(res) {
+  const levels = res.flags.reduce((n, f) => n + f.level, 0);
+  const miss = res.missing.map(id => colById(id).name);
+  return `<dl class="kv">
+    <dt>Wynik przed karami</dt><dd>${f1(res.raw)}</dd>
+    <dt>Łączna kara</dt><dd>${Math.round(res.penalty * 100)}%${levels ? ` (suma natężeń ${levels} × ${fmt(active.flagPenalty)}%) ${flagsHtml(res.flags)}` : ''}</dd>
+    <dt>Wynik</dt><dd><strong>${f1(res.score)}</strong>${isProv(res) ? ' prowizoryczny' : ''}</dd>
+    <dt>Pokrycie danych</dt><dd>${res.coverage == null ? '— (brak kolumn z wagą)' : pct(res.coverage)}${miss.length ? `, brak: ${esc(miss.join(', '))}` : ''}</dd>
+    ${res.skipped.length ? `<dt>Pominięte (n/d)</dt><dd>${esc(res.skipped.map(id => colById(id).name).join(', '))}</dd>` : ''}
+  </dl>`;
+}
+
+function showScore(id) {
+  const d = data.destinations.find(x => x.id === id);
+  const r = core.score(d, month, cols, data.flagTypes, active);
+  const w = core.score(d, month, cols, data.flagTypes, active, true);
+  openDialog(`<header><h2>${esc(d.place)}<small>${esc(d.country)} · ${core.MONTHS[month]} · profil „${esc(active.name)}”</small></h2>${closeBtn}</header>
+    <div class="cols2">
+      <section><h3>Wynik</h3>${calcBlock(r)}</section>
+      <section><h3>Globalny sezon: ${pill(w)}</h3>${calcBlock(w)}
+        <p style="color:var(--muted);font-size:.82rem;margin-top:6px">Tylko kolumny pogodowe i flagi pogodowe. Progi: M od ${fmt(active.seasonThresholds.low)}, H od ${fmt(active.seasonThresholds.high)}.</p></section>
+    </div>`);
+}
+
+function showDest(id) {
+  const d = data.destinations.find(x => x.id === id);
+  const monthCols = cols.filter(c => c.scope === 'month');
+  const fixedCols = cols.filter(c => c.scope === 'fixed');
+  // Kolor jak w tabeli mówi, czy wartość jest dobra wg formatki (skala cen jest odwrócona: 1 = najtaniej).
+  const fixedVal = c => {
+    const v = valueParts(c, d.fixed?.[c.id]);
+    const p = core.parseValue(d.fixed?.[c.id]);
+    const unit = p.kind === 'missing' || p.kind === 'na' ? '' : c.unit === '1–5' ? 'w skali 1–5' : c.unit;
+    return `<span class="val ${v.cls}"${v.attrs}>${v.text}</span> ${esc(unit)}`;
+  };
+  let mt = `<thead><tr><th></th>${SHORT.map((m, i) => `<th class="${i === month ? 'now' : ''}">${m}</th>`).join('')}</tr></thead><tbody>`;
+  const rs = SHORT.map((_, m) => core.score(d, m, cols, data.flagTypes, active));
+  const ws = SHORT.map((_, m) => core.score(d, m, cols, data.flagTypes, active, true));
+  mt += `<tr><th>Wynik</th>${rs.map(r => `<td class="${r.score != null ? 'heat' : ''}" ${r.score != null ? `style="--s:${(r.score / 100).toFixed(3)}"` : ''}><strong>${scoreText(r)}</strong></td>`).join('')}</tr>`;
+  mt += `<tr><th>Sezon glob.</th>${ws.map(w => `<td class="c">${pill(w)}</td>`).join('')}</tr>`;
+  for (const c of monthCols) {
+    mt += `<tr><th>${esc(c.name)} <span style="color:var(--muted);font-weight:400">${esc(c.unit)}</span></th>${SHORT.map((_, m) => cell(c, core.rawValue(d, c, m))).join('')}</tr>`;
+  }
+  mt += '</tbody>';
+  const notes = SHORT.flatMap((s, m) => flagsOf(d, m).map(f => `<li><b>${s}</b> ${esc(types[f.type]?.icon ?? '')} ${esc(types[f.type]?.name ?? f.type)} (${levelOf(f)}): ${esc(f.note)}</li>`));
+  const src = (Array.isArray(d.sources) ? d.sources.filter(core.isObj) : []).map(s => {
+    const url = safeUrl(s.url);
+    return `<li>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(s.title || url)}</a>` : esc(s.title)} <span class="date">sprawdzono ${esc(s.checked || '—')}</span></li>`;
+  }).join('');
+  openDialog(`<header><h2>${esc(d.place)}<small>${esc(d.country)}</small></h2>${closeBtn}</header>
+    ${d.notes ? `<p>${esc(d.notes)}</p>` : ''}
+    <section><h3>Cechy stałe</h3><dl class="kv">${fixedCols.map(c => `<dt>${esc(c.name)}</dt><dd>${fixedVal(c)}</dd>`).join('')}</dl></section>
+    <section><h3>12 miesięcy</h3><div class="mtable"><table>${mt}</table></div></section>
+    ${notes.length ? `<section><h3>Flagi</h3><ul class="sources">${notes.join('')}</ul></section>` : ''}
+    <section><h3>Źródła</h3>${src ? `<ul class="sources">${src}</ul>` : '<p>Brak listy źródeł.</p>'}</section>`);
+}
+
+// ---------- start ----------
+// Plik JSON z serwera: { value } albo { error }. Brak odpowiedzi (otwarcie z dysku) to { offline: true }.
+async function getJson(path) {
+  let res;
+  try { res = await fetch(path, { cache: 'no-cache' }); } catch { return { offline: true, error: 'brak odpowiedzi serwera.' }; }
+  if (!res.ok) return { error: res.status === 404 ? 'brak pliku.' : `serwer zwrócił ${res.status} ${res.statusText}.` };
+  try { return { value: JSON.parse(await res.text()) }; } catch (e) { return { error: `niepoprawny JSON (${e.message}).` }; }
+}
+
+async function init() {
+  const fatal = (text, items) => { $('#dataInfo').textContent = 'Nie wczytano danych.'; note('error', text, items); };
+  const regRes = await getJson('rejestr.json');
+  // Brak odpowiedzi zwykle oznacza otwarcie z dysku: komunikat startowy zostaje, bo mówi, co zrobić.
+  if (regRes.offline) { $('#dataInfo').textContent = 'Nie wczytano danych.'; return; }
+  $('#boot').remove();
+  if (regRes.error) { fatal(`Nie wczytano rejestr.json: ${regRes.error}`); return; }
+  const reg = regRes.value;
+  if (!core.isObj(reg) || !Array.isArray(reg.columns) || !Array.isArray(reg.flagTypes)) {
+    fatal('Plik rejestr.json ma złą strukturę.', core.validateData({ ...(core.isObj(reg) ? reg : {}), destinations: [] }));
+    return;
+  }
+  const listed = core.registryIds(reg);
+  const loaded = await Promise.all(listed.ids.map(async id => ({ id, ...(await getJson(`kierunki/${id}.json`)) })));
+  const assembled = core.assemble(reg, loaded);
+  data = assembled.data;
+  const errs = [...listed.errs, ...assembled.errs, ...core.validateData(data)];
+  // Wpisy, które nie są obiektami, są na liście błędów; strona działa na pozostałych.
+  data.columns = data.columns.filter(c => core.isObj(c) && typeof c.id === 'string');
+  data.flagTypes = data.flagTypes.filter(core.isObj);
+  data.destinations = data.destinations.filter(core.isObj);
+  if (errs.length) {
+    const el = document.createElement('div');
+    el.className = 'msg error';
+    el.innerHTML = `<div><details><summary><strong>Błędy danych: ${errs.length}</strong> (błędne wartości liczą się jak brak danych, kierunki z nieczytelnym plikiem są pominięte)</summary><ul>${errs.map(e => `<li>${esc(e)}</li>`).join('')}</ul></details></div>`;
+    $('#messages').append(el);
+  }
+  cols = data.columns;
+  types = Object.fromEntries(data.flagTypes.map(t => [t.id, t]));
+  $('#dataInfo').textContent = `${data.destinations.length} kierunków · ${cols.length} kolumn w rejestrze · ${errs.length ? `${errs.length} błędów danych` : 'dane poprawne'}`;
+
+  // Pamięć przeglądarki: ostatnia poprawna wersja (do liczenia) i bieżąca formatka (także z błędami).
+  const restore = key => {
+    try {
+      const saved = JSON.parse(localStorage.getItem(key));
+      if (!core.isObj(saved)) return null;
+      const merged = core.mergeProfile(saved, cols);
+      return wellFormed(merged.profile) ? merged : null;
+    } catch { return null; }
+  };
+  const savedActive = restore(STORE_ACTIVE), savedDraft = restore(STORE);
+  const def = safeDefault();
+  if (def.bad.length)
+    note('error', `Domyślna formatka w rejestrze ma błędy; te kolumny są wyłączone (waga 0), dopóki ich nie ustawisz: ${def.bad.map(id => colById(id).name).join(', ')}.`);
+  active = savedActive && !core.validateProfile(savedActive.profile, cols).length ? savedActive.profile : def.profile;
+  draft = savedDraft ? savedDraft.profile : structuredClone(active);
+  const changes = columnChanges(savedDraft || savedActive || { added: [], removed: [] });
+  if (changes.length) note('info', 'Od ostatniej wizyty zmieniły się kolumny lub ustawienia profilu.', changes);
+
+  renderMonths();
+  renderForm();
+  bindInputs();
+  bindTable();
+  commit();
+}
+init();
+</script>
+</body>
+</html>

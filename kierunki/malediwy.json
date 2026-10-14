@@ -1,0 +1,393 @@
+{
+  "id": "malediwy",
+  "country": "Malediwy",
+  "place": "Atol Malé Północny",
+  "notes": "Pora sucha (monsun NE, iruvai) XII–IV, wilgotna (monsun SW, hulhangu) V–X z najbardziej wzburzonym morzem VI–VIII; temperatura praktycznie stała. Baza pobytu: wyspa-resort na Atolu Malé Północnym, 15–60 min łodzią z lotniska. Pogoda ze stacji lotniska Velana (Hulhulé, normy 1991–2020). Zieleń: palmy i krzewy na małych, płaskich wyspach. Zwiedzanie praktycznie tylko snorkeling, nurkowanie i rejsy (manty i rekiny wielorybie najlepiej VI–X); Malé to małe miasto. Dojazd: z 1 przesiadką (Stambuł, Zatoka); Austrian przez Wiedeń szybciej (ok. 13 h), ale tylko sezonowo w zimie; Neos raz w tygodniu bezpośrednio (czarter). Transfer z lotniska łodzią lub hydroplanem nie jest wliczony.",
+  "fixed": {
+    "beaches": {
+      "est": 5
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": 1,
+    "local_prices": 5,
+    "flight_time": 14.2,
+    "stops": 1,
+    "transfer": {
+      "est": 0.8
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.6,
+      "temp_night": 26,
+      "dew_point": {
+        "est": 24
+      },
+      "sun": 8.3,
+      "rain": 87,
+      "rain_days": 5.5,
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 19
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31,
+      "temp_night": 26.3,
+      "dew_point": {
+        "est": 24
+      },
+      "sun": 9.3,
+      "rain": 38,
+      "rain_days": 3.2,
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 16
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.6,
+      "temp_night": 26.8,
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": 9.3,
+      "rain": 49,
+      "rain_days": 4.5,
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.9,
+      "temp_night": 27.1,
+      "dew_point": {
+        "est": 25.4
+      },
+      "sun": 8.7,
+      "rain": 127,
+      "rain_days": 8.5,
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": 30,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.5,
+      "temp_night": 26.6,
+      "dew_point": {
+        "est": 25.5
+      },
+      "sun": 7.2,
+      "rain": 238,
+      "rain_days": 15,
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 19
+      },
+      "water": 30,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Monsun SW: wzburzone morze poza laguną, transfery łodzią motorową niewygodne, hydroplany bywają opóźnione, część wycieczek odwoływana; kąpiel w lagunie zwykle możliwa."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.1,
+      "temp_night": 26.4,
+      "dew_point": {
+        "est": 25.2
+      },
+      "sun": 7,
+      "rain": 146,
+      "rain_days": 12.9,
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 20
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Monsun SW: wzburzone morze poza laguną, transfery łodzią motorową niewygodne, hydroplany bywają opóźnione, część wycieczek odwoływana; kąpiel w lagunie zwykle możliwa."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.8,
+      "temp_night": 25.9,
+      "dew_point": {
+        "est": 24.7
+      },
+      "sun": 6.9,
+      "rain": 198,
+      "rain_days": 13.7,
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 18
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Szczyt monsunu SW: bardzo wzburzone morze, możliwe odwołane transfery łodzią i opóźnione hydroplany, wycieczki i snorkeling poza laguną w wielu dniach niemożliwe."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.7,
+      "temp_night": 25.9,
+      "dew_point": {
+        "est": 24.8
+      },
+      "sun": 7.4,
+      "rain": 193,
+      "rain_days": 13,
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 17
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Monsun SW: wzburzone morze poza laguną, transfery łodzią motorową niewygodne, hydroplany bywają opóźnione, część wycieczek odwoływana; kąpiel w lagunie zwykle możliwa."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.5,
+      "temp_night": 25.7,
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": 6.9,
+      "rain": 214,
+      "rain_days": 15.3,
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 19
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.5,
+      "temp_night": 25.7,
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": 7.4,
+      "rain": 245,
+      "rain_days": 15.2,
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 18
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.4,
+      "temp_night": 25.5,
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": 6.8,
+      "rain": 236,
+      "rain_days": 14.2,
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.4,
+      "temp_night": 25.6,
+      "dew_point": {
+        "est": 24.2
+      },
+      "sun": 6.9,
+      "rain": 212,
+      "rain_days": 12,
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 16
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Boże Narodzenie i Nowy Rok (ok. 20.12–5.01): dopłaty 50–100% do cen, minimalne długości pobytu 7–14 nocy i obowiązkowe płatne kolacje galowe w wielu resortach."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Malé – tabela klimatyczna, lotnisko Velana, normy 1991–2020 (WMO; wilgotność 1981–2010): temperatury, opad, dni ≥ 1 mm, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Mal%C3%A9",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "weather2travel: North Malé Atoll (CRU, Met Office, KNMI – kontrola; UV dla czystego nieba – inna miara, nieużyte)",
+      "url": "https://www.weather2travel.com/maldives/north-male-atoll/january/?Units=1",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Weather Spark: Malediwy (średnia obszarowa) – średnia godzinowa prędkość wiatru na 10 m, temperatura wody – kontrola",
+      "url": "https://weatherspark.com/y/150262/Average-Weather-in-Maldives-Year-Round",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "seatemperatu.re: Malé – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/central-and-south-asia/maldives/male/when.html",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: Malediwy – pogoda miesiąc po miesiącu (12 stron, np. /maldives-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 3.20°N 73.22°E",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-maldives",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "DMC Quote: Malediwy miesiąc po miesiącu (sezon, ceny, morze, transfery, dopłaty świąteczne)",
+      "url": "https://dmcquote.com/destinations/maldives/best-time-to-visit",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "360 Degree World: Malediwy w porze monsunu (V–X, wzburzone morze, opóźnienia hydroplanów, ceny 30–50% niższe)",
+      "url": "https://360degreeworld.com/blogs/maldives-travel-journal/maldives-in-monsoon-season-is-it-worth-it",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.com: Warszawa – Malé (najkrótszy średni czas z 1 przesiadką: Wiedeń 13 h 03 min, Stambuł 14 h 11 min, Doha 14 h 29 min; bezpośrednio tylko Neos raz w tygodniu)",
+      "url": "https://www.kayak.com/flight-routes/Warsaw-Frederic-Chopin-WAW/Male-MLE",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Male – statystyki cen w obie strony (miesiące: II 4 017, IV 3 317, XII 4 588; średnia 12 mies. 3 669 zł; typowo 3 221–4 311 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Male-MLE",
+      "checked": "2026-10-14"
+    }
+  ]
+}

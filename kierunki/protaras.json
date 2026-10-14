@@ -1,0 +1,307 @@
+{
+  "id": "protaras",
+  "country": "Cypr",
+  "place": "Protaras",
+  "notes": "Klimat śródziemnomorski: gorąco i sucho VI–IX, łagodna zima z deszczem XII–II. Woda do kąpieli V–XI. Baza pobytu: Protaras (Fig Tree Bay) na wschodnim krańcu wyspy. Pogoda ze stacji Paralimni (ok. 3 km); wilgotność i nasłonecznienie z lotniska w Larnace (ok. 45 km, to samo wybrzeże). Zieleń: suche zarośla i niskie wzgórza, latem brązowo. Wycieczki: przylądek Greco, Ayia Napa, Larnaka, Nikozja (ok. 1 h), Famagusta i Varosha po stronie północnej. Poza sezonem (XI–III) wiele hoteli i restauracji w Protaras zamkniętych. Dojazd: bezpośrednio do Larnaki (ok. 3,5 h), dalej ok. 45 min drogi.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": 3,
+    "flight_time": 3.5,
+    "stops": 0,
+    "transfer": {
+      "est": 1
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 16,
+      "temp_night": 8.6,
+      "dew_point": {
+        "est": 7.4
+      },
+      "sun": 5.9,
+      "rain": 70,
+      "rain_days": 8.2,
+      "uv": 3,
+      "wind": 19,
+      "water": 18.3,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 16.1,
+      "temp_night": 7.9,
+      "dew_point": {
+        "est": 6.9
+      },
+      "sun": 6.7,
+      "rain": 62,
+      "rain_days": 5.6,
+      "uv": 5,
+      "wind": 19,
+      "water": 17.2,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 18.7,
+      "temp_night": 9.7,
+      "dew_point": {
+        "est": 8.4
+      },
+      "sun": 7.8,
+      "rain": 35,
+      "rain_days": 4.7,
+      "uv": 6,
+      "wind": 17,
+      "water": 17.8,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 22.2,
+      "temp_night": 12.5,
+      "dew_point": {
+        "est": 10.8
+      },
+      "sun": 9.1,
+      "rain": 15,
+      "rain_days": 3.5,
+      "uv": 7,
+      "wind": 15,
+      "water": 18.3,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 26.8,
+      "temp_night": 16.8,
+      "dew_point": {
+        "est": 14.4
+      },
+      "sun": 10.9,
+      "rain": 8,
+      "rain_days": 1.2,
+      "uv": 8,
+      "wind": 13,
+      "water": 21.1,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.8,
+      "temp_night": 20.6,
+      "dew_point": {
+        "est": 18.4
+      },
+      "sun": 12.6,
+      "rain": 3,
+      "rain_days": 0.3,
+      "uv": 9,
+      "wind": 13,
+      "water": 25,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 33.1,
+      "temp_night": 23.4,
+      "dew_point": {
+        "est": 21.5
+      },
+      "sun": 12.7,
+      "rain": 1,
+      "rain_days": 0.1,
+      "uv": 9,
+      "wind": 13,
+      "water": 27.8,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 33.3,
+      "temp_night": 23.7,
+      "dew_point": {
+        "est": 21.5
+      },
+      "sun": 11.9,
+      "rain": 0,
+      "rain_days": 0.1,
+      "uv": 8,
+      "wind": 13,
+      "water": 28.9,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.2,
+      "temp_night": 20.9,
+      "dew_point": {
+        "est": 18
+      },
+      "sun": 10.5,
+      "rain": 1,
+      "rain_days": 0.6,
+      "uv": 7,
+      "wind": 12,
+      "water": 27.8,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 27.7,
+      "temp_night": 18,
+      "dew_point": {
+        "est": 14.6
+      },
+      "sun": 8.8,
+      "rain": 25,
+      "rain_days": 2.5,
+      "uv": 6,
+      "wind": 13,
+      "water": 26.1,
+      "flight_price": {
+        "est": 1600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 21.7,
+      "temp_night": 13.4,
+      "dew_point": {
+        "est": 10.7
+      },
+      "sun": 7.2,
+      "rain": 45,
+      "rain_days": 4.9,
+      "uv": 4,
+      "wind": 16,
+      "water": 22.2,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.3,
+      "temp_night": 10.1,
+      "dew_point": {
+        "est": 8.7
+      },
+      "sun": 5.7,
+      "rain": 87,
+      "rain_days": 7.3,
+      "uv": 3,
+      "wind": 18,
+      "water": 19.4,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Paralimni – tabela klimatyczna (Meteorological Service of Cyprus): temperatury, opad, dni ≥ 1 mm",
+      "url": "https://en.wikipedia.org/wiki/Paralimni",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Wikipedia: Larnaka – tabela klimatyczna, lotnisko, normy 1991–2020 (NOAA): wilgotność, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Larnaca",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Weather Spark: Protaras – średnia godzinowa prędkość wiatru na 10 m, temperatura wody – kontrola",
+      "url": "https://weatherspark.com/y/98261/Average-Weather-in-Protaras-Cyprus-Year-Round",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "seatemperatu.re: Protaras – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/europe/cyprus/protaras/when.html",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: Larnaka – pogoda miesiąc po miesiącu (12 stron, np. /larnaca-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 34.92°N 33.63°E",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-larnaca",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.com: Warszawa – Larnaka (loty bezpośrednie Wizz Air i LOT, codziennie, średnio 3 h 29 min)",
+      "url": "https://www.kayak.com/flight-routes/Warsaw-Frederic-Chopin-WAW/Larnaca-LCA",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Larnaka – statystyki cen w obie strony (miesiące: I 574, VIII 1 239, X 1 254; średnia 12 mies. 849 zł; typowo 602–1 215 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Larnaka-LCA",
+      "checked": "2026-10-14"
+    }
+  ]
+}

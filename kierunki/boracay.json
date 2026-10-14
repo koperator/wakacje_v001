@@ -1,0 +1,567 @@
+{
+  "id": "boracay",
+  "country": "Filipiny",
+  "place": "Boracay",
+  "notes": "Zachodnie Visayas: amihan (monsun NE) XI–V – sucho, White Beach spokojna; habagat (monsun SW) VI–X – deszcz, fale i wiatr na White Beach, sezon tajfunów VI–XI. Baza pobytu: White Beach (Station 1–3) na zachodnim wybrzeżu. Brak stacji meteorologicznej na wyspie: temperatury i opad z PAGASA Romblon (ok. 80 km na N, wyspa, normy 1991–2020), punkt rosy i wiatr ze stacji Roxas (ok. 100 km); wszystko jako szacunek. Zieleń: palmy i zalesione wzgórza na północy wyspy, zabudowa wzdłuż White Beach. Wycieczki: island hopping (Puka Beach, Crystal Cove, Ariel's Point), kitesurfing na Bulabog (XI–IV), mało atrakcji kulturowych. Opłaty środowiskowe i terminalowe przy wjeździe. Dojazd: brak lotów bezpośrednich; z 2 przesiadkami (np. Doha i Manila) do Caticlan (MPH), dalej tricykl i prom ok. 15 min; alternatywnie Kalibo (KLO, loty m.in. z Kuala Lumpur i Singapuru) i ok. 1,5 h drogi.",
+  "fixed": {
+    "beaches": 5,
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 2
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": {
+      "est": 27.8
+    },
+    "stops": 2,
+    "transfer": {
+      "est": 1
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 27.6
+      },
+      "temp_night": {
+        "est": 23.8
+      },
+      "dew_point": {
+        "est": 23.9
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 121
+      },
+      "rain_days": {
+        "est": 12
+      },
+      "uv": 6,
+      "wind": {
+        "est": 27
+      },
+      "water": 27.2,
+      "flight_price": {
+        "est": 5400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 28.4
+      },
+      "temp_night": {
+        "est": 23.9
+      },
+      "dew_point": {
+        "est": 23.9
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 90
+      },
+      "rain_days": {
+        "est": 9
+      },
+      "uv": 8,
+      "wind": {
+        "est": 26
+      },
+      "water": 26.8,
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": [
+        {
+          "type": "algae",
+          "level": 1,
+          "note": "Zakwit zielonych glonów (lumot) przy White Beach w porze amihan, najsilniej w kwietniu: zielona woda i glony przy brzegu, zwykle nieszkodliwe; zanika z początkiem pory deszczowej w maju."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 29.5
+      },
+      "temp_night": {
+        "est": 24.6
+      },
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 85
+      },
+      "rain_days": {
+        "est": 8
+      },
+      "uv": 9,
+      "wind": {
+        "est": 24
+      },
+      "water": 27,
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": [
+        {
+          "type": "algae",
+          "level": 1,
+          "note": "Zakwit zielonych glonów (lumot) przy White Beach w porze amihan, najsilniej w kwietniu: zielona woda i glony przy brzegu, zwykle nieszkodliwe; zanika z początkiem pory deszczowej w maju."
+        },
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Wielki Tydzień (zależnie od roku marzec lub kwiecień): w Wielki Czwartek i Piątek zamknięta część lokali i usług, wyspa przepełniona turystami krajowymi, promy i loty wyprzedane."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 31.3
+      },
+      "temp_night": {
+        "est": 25.7
+      },
+      "dew_point": {
+        "est": 25
+      },
+      "sun": {
+        "est": 9
+      },
+      "rain": {
+        "est": 70
+      },
+      "rain_days": {
+        "est": 6
+      },
+      "uv": 9,
+      "wind": {
+        "est": 21
+      },
+      "water": 28.1,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [
+        {
+          "type": "algae",
+          "level": 1,
+          "note": "Zakwit zielonych glonów (lumot) przy White Beach w porze amihan, najsilniej w kwietniu: zielona woda i glony przy brzegu, zwykle nieszkodliwe; zanika z początkiem pory deszczowej w maju."
+        },
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Wielki Tydzień (zależnie od roku marzec lub kwiecień): w Wielki Czwartek i Piątek zamknięta część lokali i usług, wyspa przepełniona turystami krajowymi, promy i loty wyprzedane."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 31.9
+      },
+      "temp_night": {
+        "est": 26.3
+      },
+      "dew_point": {
+        "est": 25.6
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 158
+      },
+      "rain_days": {
+        "est": 9
+      },
+      "uv": 8,
+      "wind": {
+        "est": 18
+      },
+      "water": 29.6,
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31.1
+      },
+      "temp_night": {
+        "est": 25.8
+      },
+      "dew_point": {
+        "est": 25
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 243
+      },
+      "rain_days": {
+        "est": 14
+      },
+      "uv": 8,
+      "wind": {
+        "est": 16
+      },
+      "water": 30,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Początek habagat (monsun SW): od czerwca rosną fale i wiatr na White Beach, w części dni czerwone flagi; sporty wodne przenoszą się na Bulabog."
+        },
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Tajfuny i burze tropikalne: kilka razy w sezonie sygnały ostrzegawcze zawieszają promy Caticlan–Boracay i loty na 1–3 dni, możliwe przerwy w prądzie i podtopienia."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 30.1
+      },
+      "temp_night": {
+        "est": 25.3
+      },
+      "dew_point": {
+        "est": 25
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 307
+      },
+      "rain_days": {
+        "est": 17
+      },
+      "uv": 7,
+      "wind": {
+        "est": 16
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Habagat (monsun SW): wysokie fale i silny wiatr z zachodu na White Beach, w wielu dniach kąpiel niebezpieczna, osłony od wiatru na plaży, piasek nawiewany do lokali, erozja plaży; rejsy island hopping często odwoływane."
+        },
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Tajfuny i burze tropikalne: kilka razy w sezonie sygnały ostrzegawcze zawieszają promy Caticlan–Boracay i loty na 1–3 dni, możliwe przerwy w prądzie i podtopienia."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 30
+      },
+      "temp_night": {
+        "est": 25.4
+      },
+      "dew_point": {
+        "est": 25
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 221
+      },
+      "rain_days": {
+        "est": 15
+      },
+      "uv": 8,
+      "wind": {
+        "est": 18
+      },
+      "water": 28.7,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Habagat (monsun SW): wysokie fale i silny wiatr z zachodu na White Beach, w wielu dniach kąpiel niebezpieczna, osłony od wiatru na plaży, piasek nawiewany do lokali, erozja plaży; rejsy island hopping często odwoływane."
+        },
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Tajfuny i burze tropikalne: kilka razy w sezonie sygnały ostrzegawcze zawieszają promy Caticlan–Boracay i loty na 1–3 dni, możliwe przerwy w prądzie i podtopienia."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 30.1
+      },
+      "temp_night": {
+        "est": 25.3
+      },
+      "dew_point": {
+        "est": 25
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 245
+      },
+      "rain_days": {
+        "est": 14
+      },
+      "uv": 6,
+      "wind": {
+        "est": 16
+      },
+      "water": 28.5,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Habagat (monsun SW): wysokie fale i silny wiatr z zachodu na White Beach, w wielu dniach kąpiel niebezpieczna, osłony od wiatru na plaży, piasek nawiewany do lokali, erozja plaży; rejsy island hopping często odwoływane."
+        },
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Tajfuny i burze tropikalne: kilka razy w sezonie sygnały ostrzegawcze zawieszają promy Caticlan–Boracay i loty na 1–3 dni, możliwe przerwy w prądzie i podtopienia."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 29.7
+      },
+      "temp_night": {
+        "est": 25.1
+      },
+      "dew_point": {
+        "est": 25
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 305
+      },
+      "rain_days": {
+        "est": 17
+      },
+      "uv": 7,
+      "wind": {
+        "est": 19
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Koniec habagat: fale na White Beach w części dni, wiatr zmienia się na amihan zwykle od końca października."
+        },
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Tajfuny i burze tropikalne: kilka razy w sezonie sygnały ostrzegawcze zawieszają promy Caticlan–Boracay i loty na 1–3 dni, możliwe przerwy w prądzie i podtopienia."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 29.2
+      },
+      "temp_night": {
+        "est": 25.1
+      },
+      "dew_point": {
+        "est": 25
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 259
+      },
+      "rain_days": {
+        "est": 17
+      },
+      "uv": 7,
+      "wind": {
+        "est": 24
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Tajfuny i burze tropikalne: kilka razy w sezonie sygnały ostrzegawcze zawieszają promy Caticlan–Boracay i loty na 1–3 dni, możliwe przerwy w prądzie i podtopienia."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 28
+      },
+      "temp_night": {
+        "est": 24.5
+      },
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 276
+      },
+      "rain_days": {
+        "est": 17
+      },
+      "uv": 6,
+      "wind": {
+        "est": 27
+      },
+      "water": 27.8,
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Romblon – tabela klimatyczna 1991–2020 (PAGASA, Romblon Climatological Normal Values): temperatury, opad, dni z opadem ≥ 1 mm, wilgotność",
+      "url": "https://en.wikipedia.org/wiki/Romblon,_Romblon",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Wikipedia: Roxas, Capiz – tabela klimatyczna 1991–2020 (PAGASA) – kontrola",
+      "url": "https://en.wikipedia.org/wiki/Roxas,_Capiz",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "timeanddate: klimat Boracay ze stacji Roxas (raporty 2012–2021): punkt rosy, wilgotność, wiatr",
+      "url": "https://timeanddate.com/weather/@7302402/climate",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "weather2travel: Boracay (CRU, Met Office, KNMI; nasłonecznienie, opad, morze; UV dla czystego nieba – inna miara, nieużyte)",
+      "url": "https://www.weather2travel.com/philippines/boracay/climate/?Units=1",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "meerestemperatur.de: Boracay – średnia temperatura morza w miesiącach",
+      "url": "https://www.meerestemperatur.de/sudostasien/philippinen/boracay-panay/when.html",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: Boracay – pogoda miesiąc po miesiącu (12 stron, np. /boracay-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 11.97°N 121.92°E",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-boracay",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Wikivoyage: Boracay (amihan i habagat, White Beach, szczyty sezonu, lotniska Caticlan i Kalibo)",
+      "url": "https://en.wikivoyage.org/wiki/Boracay",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "VERA Files: jak Boracay radzi sobie z habagat (fale, wiatr, osłony, erozja White Beach)",
+      "url": "https://verafiles.org/articles/how-boracay-copes-with-habagat",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "My Boracay Guide: pogoda (sezony, tajfuny VI–XI, szczyt XII–V)",
+      "url": "https://myboracayguide.com/info/boracay-weather-2",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "My Boracay Guide: zielone glony (lumot) II–V, najsilniej w kwietniu",
+      "url": "https://myboracayguide.com/info/boracay-green-algae",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "momondo.pl: Warszawa – Boracay/Malay (najszybsza oferta WAW–MPH 21 h 05 min, 2 przesiadki: Doha, Manila)",
+      "url": "https://www.momondo.pl/loty/aklan",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Caticlan – statystyki cen w obie strony (miesiące: I 5 405, IV 3 422; średnia 12 mies. 4 558 zł; typowo 4 223–5 386 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Caticlan-MPH",
+      "checked": "2026-10-14"
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "id": "djerba",
+  "country": "Tunezja",
+  "place": "Djerba",
+  "notes": "Klimat półpustynny, śródziemnomorski: gorąco i sucho VI–IX, łagodna zima (ok. 17 °C w dzień), niewiele deszczu głównie IX–I. Woda zimą chłodna (15–17 °C), do kąpieli VI–X. Baza pobytu: strefa hotelowa na wschodnim wybrzeżu (Sidi Mahrez, Midoun). Pogoda ze stacji Djerba (lotnisko Mellita, ok. 20 km, normy 1981–2010). Zieleń: gaje oliwne i palmy daktylowe na płaskiej, suchej wyspie. Wycieczki: Houmt Souk, synagoga El Ghriba, Djerbahood, Guellala; Matmata i plany Gwiezdnych Wojen ok. 2–3 h drogi. Plaże szerokie, z bardzo płytkim wejściem. Dojazd: z 1 przesiadką (Monachium, Paryż, Tunis), ok. 7–9 h; latem czartery biur podróży.",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": 2,
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": 2,
+    "flight_time": 6.9,
+    "stops": 1,
+    "transfer": {
+      "est": 0.5
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 16.5,
+      "temp_night": 9.2,
+      "dew_point": {
+        "est": 7.3
+      },
+      "sun": 6.7,
+      "rain": 27,
+      "rain_days": 3.4,
+      "uv": 4,
+      "wind": 20,
+      "water": 15.8,
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.8,
+      "temp_night": 9.6,
+      "dew_point": {
+        "est": 7.7
+      },
+      "sun": 7.6,
+      "rain": 14,
+      "rain_days": 3.1,
+      "uv": 5,
+      "wind": 19,
+      "water": 14.7,
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 20.3,
+      "temp_night": 11.6,
+      "dew_point": {
+        "est": 9.5
+      },
+      "sun": 8,
+      "rain": 16,
+      "rain_days": 2.7,
+      "uv": 7,
+      "wind": 18,
+      "water": 15.3,
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 23.1,
+      "temp_night": 14.2,
+      "dew_point": {
+        "est": 11.8
+      },
+      "sun": 9.2,
+      "rain": 12,
+      "rain_days": 1.8,
+      "uv": 7,
+      "wind": 18,
+      "water": 17.2,
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 26.6,
+      "temp_night": 17.5,
+      "dew_point": {
+        "est": 14.9
+      },
+      "sun": 10,
+      "rain": 5,
+      "rain_days": 1.1,
+      "uv": 8,
+      "wind": 18,
+      "water": 20.3,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30,
+      "temp_night": 20.8,
+      "dew_point": {
+        "est": 18.4
+      },
+      "sun": 11.2,
+      "rain": 1,
+      "rain_days": 0.5,
+      "uv": 9,
+      "wind": 17,
+      "water": 23.9,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.9,
+      "temp_night": 23.1,
+      "dew_point": {
+        "est": 20.1
+      },
+      "sun": 11.9,
+      "rain": 0,
+      "rain_days": 0,
+      "uv": 9,
+      "wind": 16,
+      "water": 26.7,
+      "flight_price": {
+        "est": 2500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 33.5,
+      "temp_night": 24.3,
+      "dew_point": {
+        "est": 21.5
+      },
+      "sun": 11.2,
+      "rain": 1,
+      "rain_days": 0.1,
+      "uv": 8,
+      "wind": 15,
+      "water": 28.1,
+      "flight_price": {
+        "est": 2200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.9,
+      "temp_night": 22.8,
+      "dew_point": {
+        "est": 20.5
+      },
+      "sun": 8.8,
+      "rain": 20,
+      "rain_days": 2.1,
+      "uv": 7,
+      "wind": 16,
+      "water": 27.2,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 27.6,
+      "temp_night": 19.5,
+      "dew_point": {
+        "est": 17.2
+      },
+      "sun": 7.8,
+      "rain": 36,
+      "rain_days": 3.5,
+      "uv": 6,
+      "wind": 16,
+      "water": 25,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 22.4,
+      "temp_night": 14.7,
+      "dew_point": {
+        "est": 12.4
+      },
+      "sun": 7.1,
+      "rain": 27,
+      "rain_days": 2.8,
+      "uv": 4,
+      "wind": 19,
+      "water": 22.5,
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.8,
+      "temp_night": 11,
+      "dew_point": {
+        "est": 9.1
+      },
+      "sun": 6.6,
+      "rain": 41,
+      "rain_days": 3.5,
+      "uv": 4,
+      "wind": 21,
+      "water": 18.6,
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Djerba – tabela klimatyczna 1981–2010, stacja Djerba (Institut National de la Météorologie; wilgotność i nasłonecznienie NOAA 1961–1990)",
+      "url": "https://en.wikipedia.org/wiki/Djerba",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Weather Spark: Midoun – średnia godzinowa prędkość wiatru na 10 m, temperatura wody – kontrola",
+      "url": "https://weatherspark.com/y/65618/Average-Weather-in-Midoun-Tunisia-Year-Round",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "seatemperatu.re: Djerba – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/africa/tunisia/djerba/when.html",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: Djerba – pogoda miesiąc po miesiącu (12 stron, np. /djerba-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 33.81°N 10.86°E",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-djerba",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Champion Traveler: Djerba (szczyt latem i we wrześniu, najmniej w lutym, ceny)",
+      "url": "https://championtraveler.com/dates/best-time-to-visit-djerba-tn/",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Trip.com: Dżerba – Warszawa (najkrótsza oferta z 1 przesiadką 6 h 55 min przez Monachium; przesiadki m.in. Paryż, Lyon, Zurych)",
+      "url": "https://pl.trip.com/flights/djerba-to-warsaw/airfares-dje-waw/",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "FlightsFrom: WAW–DJE (brak regularnych lotów bezpośrednich; Nouvelair zawieszony)",
+      "url": "https://www.flightsfrom.com/WAW-DJE",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Djerba – statystyki cen w obie strony (miesiące: VII 2 515, IX 1 420; średnia 12 mies. 1 981 zł; typowo 1 419–2 426 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Djerba-DJE",
+      "checked": "2026-10-14"
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "id": "providenciales",
+  "country": "Turks and Caicos",
+  "place": "Providenciales (Grace Bay)",
+  "notes": "Klimat tropikalny, dość suchy, z pasatem: najsuchiej II–IV i VI–VII, najwięcej deszczu IX–XI; sezon huraganów VI–XI (szczyt VIII–X). Woda najchłodniejsza II–III (ok. 25 °C). Baza pobytu: Grace Bay na północnym wybrzeżu Providenciales, osłonięta rafą. Brak norm ze stacji na Turks and Caicos: temperatury, opad i dni deszczowe ze stacji zastępczej Matthew Town (Great Inagua, Bahamy, ok. 140 km na W, ten sam suchy klimat pasatowy), słońce z danych CRU (weather2travel), wiatr z Grand Turk – wszystko jako szacunek. Zieleń: niska, sucha roślinność krzewiasta na płaskiej wyspie. Atrakcje praktycznie tylko morskie (snorkeling przy rafie, Chalk Sound, rejsy). Sargassum rzadko. Dojazd: z 2 przesiadkami (np. Frankfurt i Miami, ok. 17,5 h) albo z 1 przesiadką przez Nowy Jork (LOT do JFK + lot do PLS; wymagana ESTA).",
+  "fixed": {
+    "beaches": 5,
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": 1,
+    "local_prices": 5,
+    "flight_time": 17.4,
+    "stops": 2,
+    "transfer": {
+      "est": 0.2
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 28.6
+      },
+      "temp_night": {
+        "est": 19.9
+      },
+      "dew_point": {
+        "est": 19.9
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 50
+      },
+      "rain_days": {
+        "est": 6
+      },
+      "uv": 6,
+      "wind": {
+        "est": 25
+      },
+      "water": 26,
+      "flight_price": {
+        "est": 5300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 28.5
+      },
+      "temp_night": {
+        "est": 20
+      },
+      "dew_point": {
+        "est": 19.9
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 37
+      },
+      "rain_days": {
+        "est": 5
+      },
+      "uv": 7,
+      "wind": {
+        "est": 25
+      },
+      "water": 25,
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 29.4
+      },
+      "temp_night": {
+        "est": 20.4
+      },
+      "dew_point": {
+        "est": 20.6
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 35
+      },
+      "rain_days": {
+        "est": 4
+      },
+      "uv": 8,
+      "wind": {
+        "est": 24
+      },
+      "water": 25,
+      "flight_price": {
+        "est": 5300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 30.1
+      },
+      "temp_night": {
+        "est": 21.4
+      },
+      "dew_point": {
+        "est": 21.5
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 41
+      },
+      "rain_days": {
+        "est": 5
+      },
+      "uv": 9,
+      "wind": {
+        "est": 23
+      },
+      "water": 26,
+      "flight_price": {
+        "est": 5300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 30.8
+      },
+      "temp_night": {
+        "est": 22.9
+      },
+      "dew_point": {
+        "est": 22.5
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 83
+      },
+      "rain_days": {
+        "est": 6
+      },
+      "uv": 8,
+      "wind": {
+        "est": 23
+      },
+      "water": 27,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31.9
+      },
+      "temp_night": {
+        "est": 24.3
+      },
+      "dew_point": {
+        "est": 23.7
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 29
+      },
+      "rain_days": {
+        "est": 4
+      },
+      "uv": 8,
+      "wind": {
+        "est": 25
+      },
+      "water": 28,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 32.9
+      },
+      "temp_night": {
+        "est": 24.6
+      },
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 21
+      },
+      "rain_days": {
+        "est": 4
+      },
+      "uv": 9,
+      "wind": {
+        "est": 27
+      },
+      "water": 28,
+      "flight_price": {
+        "est": 5900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 33
+      },
+      "temp_night": {
+        "est": 24.4
+      },
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 50
+      },
+      "rain_days": {
+        "est": 5
+      },
+      "uv": 9,
+      "wind": {
+        "est": 25
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów na Atlantyku (VIII–X): bezpośrednie trafienie rzadkie (np. Irma i Maria w 2017), ale przy burzy tropikalnej kilka dni ulew, fal i odwołanych lotów."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 32.8
+      },
+      "temp_night": {
+        "est": 23.8
+      },
+      "dew_point": {
+        "est": 23.9
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 85
+      },
+      "rain_days": {
+        "est": 7
+      },
+      "uv": 8,
+      "wind": {
+        "est": 22
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów na Atlantyku (VIII–X): bezpośrednie trafienie rzadkie (np. Irma i Maria w 2017), ale przy burzy tropikalnej kilka dni ulew, fal i odwołanych lotów."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31.8
+      },
+      "temp_night": {
+        "est": 23.1
+      },
+      "dew_point": {
+        "est": 23
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 119
+      },
+      "rain_days": {
+        "est": 10
+      },
+      "uv": 7,
+      "wind": {
+        "est": 21
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów na Atlantyku (VIII–X): bezpośrednie trafienie rzadkie (np. Irma i Maria w 2017), ale przy burzy tropikalnej kilka dni ulew, fal i odwołanych lotów."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 30.5
+      },
+      "temp_night": {
+        "est": 21.8
+      },
+      "dew_point": {
+        "est": 21.8
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 72
+      },
+      "rain_days": {
+        "est": 8
+      },
+      "uv": 6,
+      "wind": {
+        "est": 24
+      },
+      "water": 28,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 29.2
+      },
+      "temp_night": {
+        "est": 20.5
+      },
+      "dew_point": {
+        "est": 20.6
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 37
+      },
+      "rain_days": {
+        "est": 6
+      },
+      "uv": 5,
+      "wind": {
+        "est": 26
+      },
+      "water": 26,
+      "flight_price": {
+        "est": 5300
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "weather2travel: Providenciales (CRU, Met Office, KNMI): temperatury, opad, dni z deszczem, nasłonecznienie, morze",
+      "url": "https://www.weather2travel.com/turks-and-caicos/providenciales/climate/",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "weather.now: Providenciales – średnia wilgotność ok. 77% (10 lat danych)",
+      "url": "https://weather.now/tc/providenciales/averages",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Weather Spark: Cockburn Town (Grand Turk) – średnia godzinowa prędkość wiatru na 10 m, temperatura wody – kontrola",
+      "url": "https://weatherspark.com/y/26088/Average-Weather-in-Cockburn-Town-Turks-&-Caicos-Islands-Year-Round",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: Turks and Caicos – pogoda miesiąc po miesiącu (12 stron, np. /turks-and-caicos-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 21.77°N 72.34°W",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-turks-and-caicos",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "All-Inclusive Guide: przewodnik po sargassum 2026 (Turks and Caicos: niskie ryzyko przez cały rok)",
+      "url": "https://all-inclusive-guide.com/guides/sargassum-seaweed-guide/",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Trip.com: Providenciales – Warszawa (najszybciej 17 h 24 min, American Airlines, 2 przesiadki: Miami, Frankfurt)",
+      "url": "https://id.trip.com/flights/providenciales-to-warsaw/airfares-pls-waw",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "tanie-loty.com.pl: Warszawa – Providenciales (brak lotów bezpośrednich; przez Europę i Miami/Atlantę/Toronto albo przez Nowy Jork, 13–20 h)",
+      "url": "https://www.tanie-loty.com.pl/promocje/tanie-loty-z-warszawy-do-providenciales.html",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Wikipedia: Matthew Town (Great Inagua, Bahamy) – tabela klimatyczna (WMO): temperatury, opad, dni deszczowe – stacja zastępcza ok. 140 km na W",
+      "url": "https://en.wikipedia.org/wiki/Matthew_Town",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Providenciales – statystyki cen w obie strony (miesiące: II 3 239, VII 6 271; średnia 12 mies. 4 692 zł; typowo 4 040–5 164 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Providenciales-PLS",
+      "checked": "2026-10-14"
+    }
+  ]
+}

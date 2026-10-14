@@ -1,0 +1,8 @@
+{
+  "column": "flight_time",
+  "values": {
+    "siem-reap": 19.4,
+    "corralejo": 7.9,
+    "phuket": 15.7
+  }
+}

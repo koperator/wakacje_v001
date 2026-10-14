@@ -1,0 +1,396 @@
+{
+  "id": "watamu",
+  "country": "Kenia",
+  "place": "Watamu",
+  "notes": "Wybrzeże Kenii na S od Malindi: długie deszcze IV–VI (maksimum w V), krótkie XI–XII; sucho i gorąco I–III, sucho i chłodniej z pasatem SE (kusi) VII–X. Baza pobytu: plaże Watamu przy parku morskim. Pogoda ze stacji Malindi (ok. 20 km na N, normy 1991–2020). Silne pływy: przy odpływie woda cofa się daleko, kąpiel zależy od pory dnia. Zieleń: las przybrzeżny (Arabuko Sokoke), baobaby i palmy. Wycieczki: ruiny Gede, las Arabuko Sokoke, Mida Creek, park morski Watamu, Malindi; safari w Tsavo East ok. 2,5–3 h drogi. Dojazd: lotnisko bazy Mombasa (MBA), z Warszawy z 1 przesiadką we Frankfurcie (Condor cały rok, 3–4 razy w tygodniu), ok. 13,5 h; z lotniska ok. 115 km, ok. 2,5 h drogi. Zimą także czarter Enter Air bezpośrednio (ok. 11 h). Lotnisko Malindi (ok. 20 km) ma loty tylko z Nairobi i Mombasy.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 13.4,
+    "stops": 1,
+    "transfer": {
+      "est": 2
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31,
+      "temp_night": 24.5,
+      "dew_point": {
+        "est": 23.5
+      },
+      "sun": {
+        "est": 8.7
+      },
+      "rain": 11,
+      "rain_days": {
+        "est": 2
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": 18,
+      "water": 27.2,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.4,
+      "temp_night": 24.5,
+      "dew_point": {
+        "est": 23.3
+      },
+      "sun": {
+        "est": 9.1
+      },
+      "rain": 17,
+      "rain_days": {
+        "est": 2
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": 17,
+      "water": 27.2,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.3,
+      "temp_night": 25.4,
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": {
+        "est": 8.7
+      },
+      "rain": 36,
+      "rain_days": {
+        "est": 3
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": 15,
+      "water": 28.3,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.7,
+      "temp_night": 25.4,
+      "dew_point": {
+        "est": 24.8
+      },
+      "sun": {
+        "est": 7.5
+      },
+      "rain": 163,
+      "rain_days": {
+        "est": 11
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": 16,
+      "water": 28.9,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 29.4,
+      "temp_night": 24.3,
+      "dew_point": {
+        "est": 23.6
+      },
+      "sun": {
+        "est": 6.6
+      },
+      "rain": 298,
+      "rain_days": {
+        "est": 17
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": 22,
+      "water": 27.8,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 28.5,
+      "temp_night": 23.8,
+      "dew_point": {
+        "est": 22.9
+      },
+      "sun": {
+        "est": 6.9
+      },
+      "rain": 154,
+      "rain_days": {
+        "est": 12
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": 25,
+      "water": 26.7,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27.8,
+      "temp_night": 22.9,
+      "dew_point": {
+        "est": 22.2
+      },
+      "sun": {
+        "est": 6.8
+      },
+      "rain": 91,
+      "rain_days": {
+        "est": 12
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": 26,
+      "water": 25.6,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27.9,
+      "temp_night": 22.8,
+      "dew_point": {
+        "est": 22.1
+      },
+      "sun": {
+        "est": 7.9
+      },
+      "rain": 64,
+      "rain_days": {
+        "est": 9
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": 25,
+      "water": 25,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 28.6,
+      "temp_night": 22.9,
+      "dew_point": {
+        "est": 22.3
+      },
+      "sun": {
+        "est": 8.2
+      },
+      "rain": 47,
+      "rain_days": {
+        "est": 7
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": 23,
+      "water": 25.6,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 29.8,
+      "temp_night": 23.5,
+      "dew_point": {
+        "est": 23.5
+      },
+      "sun": {
+        "est": 8.8
+      },
+      "rain": 68,
+      "rain_days": {
+        "est": 6
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": 19,
+      "water": 26.1,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.7,
+      "temp_night": 24.2,
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": {
+        "est": 8.8
+      },
+      "rain": 75,
+      "rain_days": {
+        "est": 6
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": 14,
+      "water": 27.2,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.3,
+      "temp_night": 24.6,
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": {
+        "est": 8.4
+      },
+      "rain": 35,
+      "rain_days": {
+        "est": 3
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": 15,
+      "water": 27.8,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Malindi – tabela klimatyczna 1991–2020 (WMO; ekstrema Meteo Climat): temperatury, opad, dni z opadem",
+      "url": "https://en.wikipedia.org/wiki/Malindi",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Wikipedia: Mombasa – tabela klimatyczna (lotnisko Moi; wilgotność DWD 1962–1993, nasłonecznienie NOAA 1961–1990) – zastępczo do punktu rosy i słońca",
+      "url": "https://en.wikipedia.org/wiki/Mombasa",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "weather2travel: Watamu (CRU, Met Office, KNMI; słońce, opad, morze – kontrola)",
+      "url": "https://weather2travel.com/kenya/watamu/climate/?Units=1",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Weather Spark: Malindi – średnia godzinowa prędkość wiatru na 10 m, temperatura wody",
+      "url": "https://weatherspark.com/y/101533/Average-Weather-in-Malindi-Kenya-Year-Round",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: Mombasa – pogoda miesiąc po miesiącu (12 stron, np. /mombasa-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 4.04°S 39.67°E",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-mombasa",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "African Mecca Safaris: Watamu – kiedy jechać (pory deszczowe, szczyt cen VII–X i XII–II)",
+      "url": "https://www.africanmeccasafaris.com/travel-guide/kenya/towns-city/watamu/when-best-time-to-visit",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Champion Traveler: Watamu (najwięcej turystów VII–VIII i XII, najtaniej III–V i IX–XI)",
+      "url": "https://championtraveler.com/dates/best-time-to-visit-watamu-ke/",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Mombasa – statystyki cen w obie strony (miesiące: III 3 021, V 4 291, VIII 4 056; średnia 12 mies. – zł; typowo 3 103–4 000 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Mombasa-MBA",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Condor: Frankfurt – Mombasa (rozkład lato 2026, zima 2026/27, lato 2027; 3–4 razy w tygodniu, ok. 8 h 30 min, część rejsów przez Zanzibar)",
+      "url": "https://www.condor.com/ch/fluege/kenia/mombasa/von-frankfurt-main/",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "momondo.pl: Warszawa – Mombasa (najszybszy lot 11 h 00 min; flydubai, Ethiopian, Turkish; brak lotów bezpośrednich)",
+      "url": "https://www.momondo.pl/loty/warszawa/mombasa",
+      "checked": "2026-10-13"
+    }
+  ]
+}

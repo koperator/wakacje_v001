@@ -1,0 +1,317 @@
+{
+  "id": "aruba",
+  "country": "Aruba",
+  "place": "Palm Beach",
+  "notes": "Klimat półsuchy, poza pasem huraganów: sucho II–IX, krótkie przelotne opady X–I; stały silny pasat z NE przez cały rok (najsilniejszy V–VII). Baza pobytu: Palm Beach (z Eagle Beach ok. 5 min) na osłoniętym zachodnim wybrzeżu. Pogoda ze stacji lotniska (Oranjestad, ok. 10 km, normy 1991–2020); wiatr i punkt rosy ze stacji lotniska 1971–2000. Zieleń: sucha wyspa z kaktusami i krzewami, park Arikok. Sargassum praktycznie nie dociera. Atrakcje: park Arikok, Natural Pool, latarnia California, snorkeling, Oranjestad; mało atrakcji kulturowych. Dojazd: z 1 przesiadką przez Amsterdam (KLM codziennie), ok. 14 h.",
+  "fixed": {
+    "beaches": {
+      "est": 5
+    },
+    "greenery": {
+      "est": 1
+    },
+    "sightseeing": 2,
+    "local_prices": 4,
+    "flight_time": {
+      "est": 14
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 0.3
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.3,
+      "temp_night": 24.8,
+      "dew_point": 22.1,
+      "sun": {
+        "est": 8
+      },
+      "rain": 44,
+      "rain_days": 10.8,
+      "uv": 7,
+      "wind": 26,
+      "water": 27.2,
+      "flight_price": {
+        "est": 5100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.6,
+      "temp_night": 24.8,
+      "dew_point": 22,
+      "sun": {
+        "est": 8
+      },
+      "rain": 20,
+      "rain_days": 4.5,
+      "uv": 8,
+      "wind": 27,
+      "water": 26.7,
+      "flight_price": {
+        "est": 5100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.1,
+      "temp_night": 25.3,
+      "dew_point": 22.2,
+      "sun": {
+        "est": 8
+      },
+      "rain": 10,
+      "rain_days": 2,
+      "uv": 9,
+      "wind": 28,
+      "water": 26.7,
+      "flight_price": {
+        "est": 5100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.9,
+      "temp_night": 26,
+      "dew_point": 23.1,
+      "sun": {
+        "est": 8
+      },
+      "rain": 9,
+      "rain_days": 1.5,
+      "uv": 9,
+      "wind": 29,
+      "water": 27.2,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.4,
+      "temp_night": 26.7,
+      "dew_point": 23.9,
+      "sun": {
+        "est": 8
+      },
+      "rain": 14,
+      "rain_days": 1.7,
+      "uv": 8,
+      "wind": 30,
+      "water": 27.8,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.5,
+      "temp_night": 26.9,
+      "dew_point": 24,
+      "sun": {
+        "est": 9
+      },
+      "rain": 17,
+      "rain_days": 2.8,
+      "uv": 8,
+      "wind": 32,
+      "water": 28.3,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.4,
+      "temp_night": 26.7,
+      "dew_point": 24,
+      "sun": {
+        "est": 10
+      },
+      "rain": 20,
+      "rain_days": 4.1,
+      "uv": 9,
+      "wind": 30,
+      "water": 27.8,
+      "flight_price": {
+        "est": 4800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 33.2,
+      "temp_night": 27.2,
+      "dew_point": 24.2,
+      "sun": {
+        "est": 9
+      },
+      "rain": 31,
+      "rain_days": 3.1,
+      "uv": 9,
+      "wind": 28,
+      "water": 28.3,
+      "flight_price": {
+        "est": 5500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 33.2,
+      "temp_night": 27.3,
+      "dew_point": 24.4,
+      "sun": {
+        "est": 9
+      },
+      "rain": 43,
+      "rain_days": 3.3,
+      "uv": 9,
+      "wind": 25,
+      "water": 29.4,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.4,
+      "temp_night": 26.7,
+      "dew_point": 24.5,
+      "sun": {
+        "est": 8
+      },
+      "rain": 77,
+      "rain_days": 7.3,
+      "uv": 8,
+      "wind": 22,
+      "water": 29.4,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.5,
+      "temp_night": 26,
+      "dew_point": 24,
+      "sun": {
+        "est": 8
+      },
+      "rain": 87,
+      "rain_days": 9.6,
+      "uv": 7,
+      "wind": 22,
+      "water": 28.9,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.7,
+      "temp_night": 25.3,
+      "dew_point": 22.9,
+      "sun": {
+        "est": 7
+      },
+      "rain": 80,
+      "rain_days": 11,
+      "uv": 7,
+      "wind": 24,
+      "water": 27.8,
+      "flight_price": {
+        "est": 5100
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Oranjestad – tabela klimatyczna, normy 1991–2020 (Departamento Meteorologico Aruba): temperatury, opad, dni ≥ 1 mm, wilgotność",
+      "url": "https://en.wikipedia.org/wiki/Oranjestad,_Aruba",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Meteorological Department Curaçao: Climate summary Aruba, lotnisko Beatrix 1971–2000 (średni wiatr na 10 m, wilgotność, punkt rosy)",
+      "url": "https://mail.meteo.cw/Data_www/Climate/documents/CLIM_SUM_Aua.pdf",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "weather2travel: Aruba (CRU, Met Office, KNMI; nasłonecznienie, morze – kontrola)",
+      "url": "https://www.weather2travel.com/aruba/climate/?Units=1",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Weather Spark: Aruba (średnia obszarowa) – wiatr, temperatura wody – kontrola",
+      "url": "https://weatherspark.com/y/150199/Average-Weather-in-Aruba-Year-Round",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "seatemperatu.re: Aruba – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/caribbean/aruba/when.html",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: Aruba – pogoda miesiąc po miesiącu (12 stron, np. /aruba-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 12.51°N 69.97°W",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-aruba",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "All-Inclusive Guide: przewodnik po sargassum 2026 (Aruba poza pasem sargassum)",
+      "url": "https://all-inclusive-guide.com/guides/sargassum-seaweed-guide/",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "momondo.pl: Warszawa – Aruba (brak lotów bezpośrednich; KLM)",
+      "url": "https://www.momondo.pl/loty/warszawa/aruba",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Aruba – statystyki cen w obie strony (miesiące: IV 3 662; średnia 12 mies. 4 812 zł; typowo 4 398–5 452 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Aruba-AUA",
+      "checked": "2026-10-14"
+    }
+  ]
+}

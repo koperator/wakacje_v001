@@ -1,0 +1,378 @@
+{
+  "id": "barbados",
+  "country": "Barbados",
+  "place": "Zachodnie wybrzeże (Holetown)",
+  "notes": "Klimat tropikalny z pasatem: sucho II–V, pora deszczowa VI–XI z maksimum IX–XI; sezon huraganów VI–XI (szczyt VIII–X), choć wyspa leży na skraju torów. Baza pobytu: zachodnie (Platynowe) wybrzeże w okolicy Holetown – spokojne Morze Karaibskie; wschodnie wybrzeże atlantyckie z falami i sargassum. Pogoda ze stacji lotniska Grantley Adams (ok. 25 km, południowy wschód, normy 1991–2020). Zieleń: ogrody, pola trzciny cukrowej, wąwozy z lasem. Wycieczki: Bridgetown i garnizon (UNESCO), Harrison's Cave, plantacje, Bathsheba, destylarnie rumu. Festiwal Crop Over VI–VIII (finał na początku sierpnia). Dojazd: z 1 przesiadką (Londyn, Amsterdam), ok. 16 h.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": 4,
+    "flight_time": 15.8,
+    "stops": 1,
+    "transfer": {
+      "est": 0.7
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.1,
+      "temp_night": 23.3,
+      "dew_point": {
+        "est": 21.7
+      },
+      "sun": 8.5,
+      "rain": 68,
+      "rain_days": {
+        "est": 11
+      },
+      "uv": 7,
+      "wind": {
+        "est": 28
+      },
+      "water": 27.8,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.2,
+      "temp_night": 23,
+      "dew_point": {
+        "est": 21.3
+      },
+      "sun": 8.8,
+      "rain": 42,
+      "rain_days": {
+        "est": 9
+      },
+      "uv": 8,
+      "wind": {
+        "est": 28
+      },
+      "water": 27.2,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.7,
+      "temp_night": 23.4,
+      "dew_point": {
+        "est": 21.5
+      },
+      "sun": 8.8,
+      "rain": 39,
+      "rain_days": {
+        "est": 8
+      },
+      "uv": 9,
+      "wind": {
+        "est": 26
+      },
+      "water": 27.2,
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.2,
+      "temp_night": 24.2,
+      "dew_point": {
+        "est": 22.4
+      },
+      "sun": 8.7,
+      "rain": 58,
+      "rain_days": {
+        "est": 8
+      },
+      "uv": 9,
+      "wind": {
+        "est": 26
+      },
+      "water": 27.8,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.6,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 23.3
+      },
+      "sun": 8.5,
+      "rain": 74,
+      "rain_days": {
+        "est": 8
+      },
+      "uv": 9,
+      "wind": {
+        "est": 26
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.7,
+      "temp_night": 25.2,
+      "dew_point": {
+        "est": 23.8
+      },
+      "sun": 7.5,
+      "rain": 101,
+      "rain_days": {
+        "est": 11
+      },
+      "uv": 9,
+      "wind": {
+        "est": 28
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.7,
+      "temp_night": 25.1,
+      "dew_point": {
+        "est": 24
+      },
+      "sun": 8.1,
+      "rain": 122,
+      "rain_days": {
+        "est": 15
+      },
+      "uv": 8,
+      "wind": {
+        "est": 27
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.9,
+      "temp_night": 24.8,
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": 8.4,
+      "rain": 151,
+      "rain_days": {
+        "est": 16
+      },
+      "uv": 9,
+      "wind": {
+        "est": 23
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): Barbados leży na wschodnim skraju Karaibów i zwykle omijają go najgorsze tory, ale przy burzy tropikalnej kilka dni ulew, fal i odwołanych lotów."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31,
+      "temp_night": 24.8,
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": 7.8,
+      "rain": 163,
+      "rain_days": {
+        "est": 13
+      },
+      "uv": 9,
+      "wind": {
+        "est": 21
+      },
+      "water": 30,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): Barbados leży na wschodnim skraju Karaibów i zwykle omijają go najgorsze tory, ale przy burzy tropikalnej kilka dni ulew, fal i odwołanych lotów."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.8,
+      "temp_night": 24.7,
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": 7.7,
+      "rain": 180,
+      "rain_days": {
+        "est": 15
+      },
+      "uv": 8,
+      "wind": {
+        "est": 21
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): Barbados leży na wschodnim skraju Karaibów i zwykle omijają go najgorsze tory, ale przy burzy tropikalnej kilka dni ulew, fal i odwołanych lotów."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.3,
+      "temp_night": 24.5,
+      "dew_point": {
+        "est": 23.9
+      },
+      "sun": 7.6,
+      "rain": 173,
+      "rain_days": {
+        "est": 14
+      },
+      "uv": 7,
+      "wind": {
+        "est": 24
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.6,
+      "temp_night": 23.9,
+      "dew_point": {
+        "est": 22.4
+      },
+      "sun": 8.2,
+      "rain": 91,
+      "rain_days": {
+        "est": 11
+      },
+      "uv": 7,
+      "wind": {
+        "est": 27
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Bridgetown – tabela klimatyczna, lotnisko Grantley Adams, normy 1991–2020 (Barbados Meteorological Services): temperatury, opad, dni z opadem, wilgotność, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Bridgetown",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Weather Spark: Barbados (średnia obszarowa) – średnia godzinowa prędkość wiatru na 10 m",
+      "url": "https://weatherspark.com/y/150201/Average-Weather-in-Barbados-Year-Round",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "seatemperatu.re: Holetown – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/caribbean/barbados/holetown/when.html",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: Barbados – pogoda miesiąc po miesiącu (12 stron, np. /barbados-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 13.19°N 59.54°W",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-barbados",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Caribbean Magazine: najlepszy czas na Barbados (szczyt od połowy XII do IV, niski sezon VIII–X, szczyt huraganów VIII–X, Crop Over)",
+      "url": "https://caribbeanmag.com/best-time-to-visit-barbados/",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "All-Inclusive Guide: przewodnik po sargassum 2026 (zachodnie wybrzeże Barbadosu w dużej mierze osłonięte)",
+      "url": "https://all-inclusive-guide.com/guides/sargassum-seaweed-guide/",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "momondo.pl: Warszawa – Barbados (brak lotów bezpośrednich; najszybszy lot 15 h 45 min; KLM, British Airways)",
+      "url": "https://www.momondo.pl/loty/warszawa/barbados",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Barbados – statystyki cen w obie strony (miesiące: III 3 400, XII 4 472; średnia 12 mies. 3 938 zł; typowo 3 433–4 412 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Barbados-BGI",
+      "checked": "2026-10-14"
+    }
+  ]
+}

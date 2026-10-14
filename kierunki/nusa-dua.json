@@ -1,0 +1,359 @@
+{
+  "id": "nusa-dua",
+  "country": "Indonezja",
+  "place": "Nusa Dua, Bali",
+  "notes": "Południe Bali, półwysep Bukit: pora sucha IV–X (najsuchiej VII–IX), deszczowa XI–III z maksimum w I. Baza pobytu: enklawa resortów Nusa Dua na wschodnim wybrzeżu półwyspu, plaże osłonięte rafą. Pogoda ze stacji lotniska Ngurah Rai (ok. 10 km, normy 1991–2020). Zieleń: zadbane ogrody resortów, ale półwysep Bukit jest suchy i w porze suchej brązowieje. Wycieczki jednodniowe: świątynie Uluwatu i Tanah Lot, Ubud i tarasy ryżowe (ok. 1–1,5 h), Nusa Penida, Żółwia Wyspa. Przy odpływie woda przy części plaż płytka. Dojazd: z 1 przesiadką, najszybciej przez Stambuł (ok. 18 h), też Doha i Abu Zabi.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 18.2,
+    "stops": 1,
+    "transfer": {
+      "est": 0.4
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.9,
+      "temp_night": 25.1,
+      "dew_point": {
+        "est": 23.9
+      },
+      "sun": 6.4,
+      "rain": 388,
+      "rain_days": {
+        "est": 18.8
+      },
+      "uv": 9,
+      "wind": 12,
+      "water": 28.9,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.9,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 23.9
+      },
+      "sun": 6.7,
+      "rain": 299,
+      "rain_days": {
+        "est": 16.5
+      },
+      "uv": 9,
+      "wind": 11,
+      "water": 28.6,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 24
+      },
+      "sun": 7.2,
+      "rain": 214,
+      "rain_days": {
+        "est": 13.3
+      },
+      "uv": 9,
+      "wind": 10,
+      "water": 29.2,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Nyepi (Dzień Ciszy, zależnie od roku w marcu; 2027: 9.03): przez 24 h od 6:00 zamknięte lotnisko, drogi, plaże i usługi, turyści muszą zostać w hotelu; dzień wcześniej parady i zamknięte drogi."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31,
+      "temp_night": 25.1,
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": 7.9,
+      "rain": 115,
+      "rain_days": {
+        "est": 8.8
+      },
+      "uv": 8,
+      "wind": 11,
+      "water": 29.1,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.5,
+      "temp_night": 24.9,
+      "dew_point": {
+        "est": 24.1
+      },
+      "sun": 8.5,
+      "rain": 73,
+      "rain_days": {
+        "est": 6.5
+      },
+      "uv": 7,
+      "wind": 14,
+      "water": 28.7,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.8,
+      "temp_night": 24.6,
+      "dew_point": {
+        "est": 23.6
+      },
+      "sun": 8,
+      "rain": 51,
+      "rain_days": {
+        "est": 4.7
+      },
+      "uv": 7,
+      "wind": 15,
+      "water": 27.8,
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29,
+      "temp_night": 24.1,
+      "dew_point": {
+        "est": 23
+      },
+      "sun": 8.5,
+      "rain": 30,
+      "rain_days": {
+        "est": 3.3
+      },
+      "uv": 7,
+      "wind": 16,
+      "water": 26.6,
+      "flight_price": {
+        "est": 5500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.1,
+      "temp_night": 23.8,
+      "dew_point": {
+        "est": 22.7
+      },
+      "sun": 8.9,
+      "rain": 16,
+      "rain_days": {
+        "est": 1.9
+      },
+      "uv": 8,
+      "wind": 16,
+      "water": 26.4,
+      "flight_price": {
+        "est": 5200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30,
+      "temp_night": 23.8,
+      "dew_point": {
+        "est": 23.2
+      },
+      "sun": 9,
+      "rain": 41,
+      "rain_days": {
+        "est": 2.8
+      },
+      "uv": 9,
+      "wind": 15,
+      "water": 26.3,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31,
+      "temp_night": 24.6,
+      "dew_point": {
+        "est": 24
+      },
+      "sun": 9.1,
+      "rain": 68,
+      "rain_days": {
+        "est": 4.8
+      },
+      "uv": 9,
+      "wind": 13,
+      "water": 27.7,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.6,
+      "temp_night": 25.3,
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": 8.2,
+      "rain": 149,
+      "rain_days": {
+        "est": 10.3
+      },
+      "uv": 9,
+      "wind": 11,
+      "water": 28.7,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.8,
+      "temp_night": 25.3,
+      "dew_point": {
+        "est": 23.9
+      },
+      "sun": 6,
+      "rain": 299,
+      "rain_days": {
+        "est": 15.9
+      },
+      "uv": 7,
+      "wind": 11,
+      "water": 29.4,
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Denpasar – tabela klimatyczna, stacja Ngurah Rai International Airport, normy 1991–2020 (Starlings Roost Weather; wilgotność FAO 1961–1990)",
+      "url": "https://en.wikipedia.org/wiki/Denpasar",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Weather Spark: lotnisko Ngurah Rai – średnia godzinowa prędkość wiatru na 10 m, temperatura wody – kontrola",
+      "url": "https://weatherspark.com/y/149191/Average-Weather-at-Ngurah-Rai-International-Airport-Indonesia-Year-Round",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "meerestemperatur.de: Nusa Dua – średnia temperatura morza w miesiącach",
+      "url": "https://www.meerestemperatur.de/sudostasien/bali/nusa-dua/when.html",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: Bali – pogoda miesiąc po miesiącu (12 stron, np. /bali-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 8.67°S 115.21°E (Denpasar)",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-bali",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Champion Traveler: Nusa Dua (najwięcej turystów VII, najmniej II–V, drugi szczyt IX–X, morze spokojne VI–X)",
+      "url": "https://championtraveler.com/dates/best-time-to-visit-nusa-dua-id/",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Wikipedia: Nyepi (zamknięcia, zasady dla turystów, daty 2027–2030)",
+      "url": "https://en.wikipedia.org/wiki/Nyepi",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.com: Warszawa – Denpasar (najkrótszy średni czas z 1 przesiadką: Stambuł 18 h 13 min, Doha 18 h 56 min, Abu Zabi 19 h 01 min; brak lotów bezpośrednich)",
+      "url": "https://www.kayak.com/flight-routes/Warsaw-Frederic-Chopin-WAW/Denpasar-Bali-Ngurah-Rai-DPS",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "momondo.pl: Warszawa – Bali (brak lotów bezpośrednich; najtaniej kwiecień, średnio 4 090 zł; Etihad, Qatar, Emirates)",
+      "url": "https://www.momondo.pl/loty/warszawa/bali",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Weather Atlas: Denpasar – klimat (wilgotność względna ok. 79% w I–III, 81% w V–X)",
+      "url": "https://www.weather-atlas.com/en/indonesia/denpasar-climate",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "climate-zone.com: Denpasar (wilgotność NASA POWER 79–87%, model – kontrola)",
+      "url": "https://www.climate-zone.com/climate/id/denpasar/",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Denpasar – statystyki cen w obie strony (miesiące: IV 4 068, VII 5 522, VIII 5 170; średnia 12 mies. 4 334 zł; typowo 3 966–5 032 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Denpasar-DPS",
+      "checked": "2026-10-14"
+    }
+  ]
+}

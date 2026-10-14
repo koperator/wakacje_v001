@@ -1,0 +1,450 @@
+{
+  "id": "koh-rong",
+  "country": "Kambodża",
+  "place": "Koh Rong",
+  "notes": "Zatoka Tajlandzka, wybrzeże kambodżańskie: sucho XII–III, monsun SW V–X z bardzo dużym opadem (VI–IX ok. 500–600 mm). Baza pobytu: Koh Touch i plaża Long Set (4K) na południowo-wschodnim krańcu wyspy, ok. 45 min promem z Sihanoukville. Pogoda ze stacji Sihanoukville (WMO, 1982–2024, ok. 25 km przez morze); wyspa może dostawać nieco mniej opadu niż ląd przy górach. Zieleń: wnętrze wyspy porośnięte dżunglą, zielono przez cały rok. Wycieczki: rejsy na plankton i sąsiednie wyspy (Koh Rong Sanloem), wodospady, wioski rybackie; większe atrakcje (Kampot, Bokor, Ream) wymagają promu i drogi. W porze deszczowej część obiektów na wyspie zamknięta. Dojazd: lotnisko Sihanoukville (KOS) ma loty głównie z Kuala Lumpur, Ho Chi Minh i Chin; z Warszawy z 2 przesiadkami (najszybciej ok. 18 h); alternatywnie Phnom Penh i ok. 4 h drogi; prom 45 min nie jest wliczony.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 2
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 18,
+    "stops": {
+      "est": 2
+    },
+    "transfer": {
+      "est": 1.3
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31,
+      "temp_night": 21.7,
+      "dew_point": {
+        "est": 21.3
+      },
+      "sun": {
+        "est": 8.1
+      },
+      "rain": 27,
+      "rain_days": {
+        "est": 2.7
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": 9,
+      "water": 27.8,
+      "flight_price": {
+        "est": 5400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.3,
+      "temp_night": 22.6,
+      "dew_point": {
+        "est": 22.1
+      },
+      "sun": {
+        "est": 8.1
+      },
+      "rain": 31,
+      "rain_days": {
+        "est": 3.4
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": 9,
+      "water": 28.3,
+      "flight_price": {
+        "est": 5400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31,
+      "temp_night": 23.5,
+      "dew_point": {
+        "est": 22.9
+      },
+      "sun": {
+        "est": 8.2
+      },
+      "rain": 76,
+      "rain_days": {
+        "est": 6.5
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": 10,
+      "water": 28.3,
+      "flight_price": {
+        "est": 5700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.4,
+      "temp_night": 24.5,
+      "dew_point": {
+        "est": 24.2
+      },
+      "sun": {
+        "est": 8.2
+      },
+      "rain": 145,
+      "rain_days": {
+        "est": 10.6
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": 9,
+      "water": 30,
+      "flight_price": {
+        "est": 5700
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Khmerski Nowy Rok (13–15 kwietnia): na lądzie zamknięta część sklepów i usług, promy i wyspa przepełnione turystami krajowymi."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.6,
+      "temp_night": 24.8,
+      "dew_point": {
+        "est": 25.3
+      },
+      "sun": {
+        "est": 6.3
+      },
+      "rain": 293,
+      "rain_days": {
+        "est": 16.9
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": 11,
+      "water": 30.6,
+      "flight_price": {
+        "est": 5100
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Początek pory deszczowej: w części dni wzburzone morze, mętna woda i odwoływane rejsy na plankton i wyspy."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.2,
+      "temp_night": 23.9,
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": {
+        "est": 4.8
+      },
+      "rain": 509,
+      "rain_days": {
+        "est": 20.7
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": 14,
+      "water": 30,
+      "flight_price": {
+        "est": 5100
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Monsun SW: wzburzone morze, promy z Sihanoukville kursują nieregularnie albo są odwoływane, kąpiel i rejsy w wielu dniach niemożliwe; część guesthouse'ów i restauracji na wyspie zamknięta do października."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.8,
+      "temp_night": 23.5,
+      "dew_point": {
+        "est": 24.2
+      },
+      "sun": {
+        "est": 4.8
+      },
+      "rain": 562,
+      "rain_days": {
+        "est": 22.7
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": 15,
+      "water": 30,
+      "flight_price": {
+        "est": 5100
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Monsun SW: wzburzone morze, promy z Sihanoukville kursują nieregularnie albo są odwoływane, kąpiel i rejsy w wielu dniach niemożliwe; część guesthouse'ów i restauracji na wyspie zamknięta do października."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.5,
+      "temp_night": 23.7,
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": {
+        "est": 4.4
+      },
+      "rain": 617,
+      "rain_days": {
+        "est": 23.2
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": 16,
+      "water": 29.4,
+      "flight_price": {
+        "est": 5100
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Monsun SW: wzburzone morze, promy z Sihanoukville kursują nieregularnie albo są odwoływane, kąpiel i rejsy w wielu dniach niemożliwe; część guesthouse'ów i restauracji na wyspie zamknięta do października."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.3,
+      "temp_night": 23.3,
+      "dew_point": {
+        "est": 24.1
+      },
+      "sun": {
+        "est": 4.7
+      },
+      "rain": 487,
+      "rain_days": {
+        "est": 21.5
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": 14,
+      "water": 28.9,
+      "flight_price": {
+        "est": 5100
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Koniec monsunu SW: morze zmienne, ograniczone usługi, część guesthouse'ów i restauracji zamknięta."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.7,
+      "temp_night": 23.2,
+      "dew_point": {
+        "est": 23.6
+      },
+      "sun": {
+        "est": 5.5
+      },
+      "rain": 310,
+      "rain_days": {
+        "est": 19.3
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": 10,
+      "water": 29.4,
+      "flight_price": {
+        "est": 5100
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Morze uspokaja się zwykle od połowy października; w pierwszej połowie miesiąca jeszcze odwoływane rejsy i część obiektów zamknięta."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.6,
+      "temp_night": 22.6,
+      "dew_point": {
+        "est": 22.2
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": 118,
+      "rain_days": {
+        "est": 10.2
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": 10,
+      "water": 29.4,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.4,
+      "temp_night": 21.9,
+      "dew_point": {
+        "est": 20.9
+      },
+      "sun": {
+        "est": 7.7
+      },
+      "rain": 41,
+      "rain_days": {
+        "est": 3.6
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": 10,
+      "water": 28.9,
+      "flight_price": {
+        "est": 5100
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Sihanoukville – tabela klimatyczna 1982–2024 (WMO World Weather Information Service): maksima, minima, opad",
+      "url": "https://en.wikipedia.org/wiki/Sihanoukville",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Weather Spark: Sihanoukville – średnia godzinowa prędkość wiatru na 10 m, dni z opadem ≥ 0,04 in (≈ 1 mm) z reanalizy, temperatura wody – kontrola",
+      "url": "https://weatherspark.com/y/114668/Average-Weather-in-Sihanoukville-Cambodia-Year-Round",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Climate-Data.org: Sihanoukville (wilgotność 1991–2021; nasłonecznienie odrzucone jako niewiarygodne)",
+      "url": "https://en.climate-data.org/asia/cambodia/preah-sihanouk/sihanoukville-3184/",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "What's the Weather Like: Sihanoukville (nasłonecznienie h/dzień, dni deszczowe – bez podanego źródła)",
+      "url": "http://www.whatstheweatherlike.org/cambodia/sihanouville.htm",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "weather-and-climate.com: Sihanoukville (Foreca / Copernicus C3S 1991–2020; nasłonecznienie I i IX – kontrola)",
+      "url": "https://weather-and-climate.com/average-monthly-Rainfall-Temperature-Sunshine,Sihanoukville,Cambodia",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "seatemperatu.re: Koh Rong – średnia temperatura morza w miesiącach (średnie z lat poprzednich)",
+      "url": "https://www.seatemperatu.re/southeast-asia/cambodia/koh-rong/when.html",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: Phu Quoc – pogoda miesiąc po miesiącu (12 stron, np. /phu-quoc-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 10.23°N 103.97°E",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-phu-quoc",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "IDC Travel: najlepszy czas na Koh Rong (sezon, ceny, morze wzburzone VI–VIII, promy, zamknięcia w porze deszczowej)",
+      "url": "https://www.idctravel.com/blog/best-time-to-visit-koh-rong.html",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "North Vietnam: pogoda na Koh Rong (tabela miesięczna bez źródła – kontrola)",
+      "url": "https://north-vietnam.com/weather-best-time-visit-koh-rong/",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Aerocorner: lotnisko Sihanoukville (KOS) – trasy rozkładowe (KUL, SGN, SAI, CGK, chińskie), stan 11.10.2026",
+      "url": "https://aerocorner.com/airports/kos/",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "momondo.pl: Warszawa – Sihanoukville (brak lotów bezpośrednich; najszybszy lot 18 h 00 min)",
+      "url": "https://www.momondo.pl/loty/warszawa/sihanoukville",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Climates to Travel: Phu Quoc – nasłonecznienie (sumy miesięczne ÷ dni) – zastępstwo dla Koh Rong, ok. 100 km na W, ta sama zatoka i monsun",
+      "url": "https://www.climatestotravel.com/climate/vietnam/phu-quoc",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Sihanoukville – statystyki cen w obie strony (miesiące: XI 4 550, XII 5 063; średnia 12 mies. – zł; typowo 4 970–6 525 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Sihanoukville-KOS",
+      "checked": "2026-10-14"
+    }
+  ]
+}

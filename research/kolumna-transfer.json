@@ -1,0 +1,104 @@
+{
+  "column": "transfer",
+  "values": {
+    "siem-reap": {
+      "est": 0.9
+    },
+    "corralejo": {
+      "est": 0.6
+    },
+    "phuket": {
+      "est": 1
+    },
+    "koh-samui": {
+      "est": 0.3
+    },
+    "negombo": {
+      "est": 0.3
+    },
+    "trincomalee": {
+      "est": 4.5
+    },
+    "koh-rong": {
+      "est": 1.3
+    },
+    "phu-quoc": {
+      "est": 0.3
+    },
+    "langkawi": {
+      "est": 0.2
+    },
+    "boracay": {
+      "est": 1
+    },
+    "nusa-dua": {
+      "est": 0.4
+    },
+    "goa-polnocne": {
+      "est": 1
+    },
+    "malediwy": {
+      "est": 0.8
+    },
+    "seszele": {
+      "est": 0.5
+    },
+    "mauritius": {
+      "est": 1
+    },
+    "zanzibar": {
+      "est": 1.3
+    },
+    "watamu": {
+      "est": 2
+    },
+    "marsa-alam": {
+      "est": 1
+    },
+    "djerba": {
+      "est": 0.5
+    },
+    "alanya": {
+      "est": 2
+    },
+    "protaras": {
+      "est": 1
+    },
+    "santorini": {
+      "est": 0.3
+    },
+    "malta": {
+      "est": 0.3
+    },
+    "sopot": {
+      "est": 0.4
+    },
+    "punta-cana": {
+      "est": 0.4
+    },
+    "cancun": {
+      "est": 0.4
+    },
+    "aruba": {
+      "est": 0.3
+    },
+    "barbados": {
+      "est": 0.7
+    },
+    "providenciales": {
+      "est": 0.2
+    },
+    "tamarindo": {
+      "est": 1.3
+    },
+    "waikiki": {
+      "est": 0.5
+    },
+    "nadi-denarau": {
+      "est": 0.3
+    },
+    "bora-bora": {
+      "est": 0.5
+    }
+  }
+}

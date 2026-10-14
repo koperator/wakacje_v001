@@ -1,0 +1,322 @@
+{
+  "id": "malta",
+  "country": "Malta",
+  "place": "Sliema / St Julian's",
+  "notes": "Klimat śródziemnomorski: gorąco i sucho VI–VIII, deszcz głównie X–II; woda do kąpieli VI–X. Baza pobytu: Sliema / St Julian's (skaliste wybrzeże z kąpieliskami i platformami, najbliższe piaszczyste plaże St George's Bay; większe plaże piaszczyste na północy wyspy). Pogoda ze stacji Luqa (ok. 7 km, normy 1991–2020). Zieleń: sucha, skalista wyspa, mało drzew, zielono głównie zimą i wiosną. Wycieczki: Valletta (UNESCO), Mdina, świątynie megalityczne, Błękitna Grota, Gozo i Comino. Dojazd: bezpośrednio z Warszawy (Wizz Air, LOT), ok. 3 h.",
+  "fixed": {
+    "beaches": 2,
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": 4,
+    "local_prices": 3,
+    "flight_time": 3.1,
+    "stops": 0,
+    "transfer": {
+      "est": 0.3
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15.7,
+      "temp_night": 10.1,
+      "dew_point": {
+        "est": 9.3
+      },
+      "sun": 5.5,
+      "rain": 79,
+      "rain_days": 10,
+      "uv": 4,
+      "wind": {
+        "est": 25
+      },
+      "water": 16.1,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15.7,
+      "temp_night": 9.5,
+      "dew_point": {
+        "est": 9.1
+      },
+      "sun": 6.3,
+      "rain": 73,
+      "rain_days": 8.2,
+      "uv": 4,
+      "wind": {
+        "est": 25
+      },
+      "water": 15.4,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.4,
+      "temp_night": 10.9,
+      "dew_point": {
+        "est": 10.5
+      },
+      "sun": 7.3,
+      "rain": 45,
+      "rain_days": 6.1,
+      "uv": 6,
+      "wind": {
+        "est": 23
+      },
+      "water": 15.4,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 20,
+      "temp_night": 12.8,
+      "dew_point": {
+        "est": 12.4
+      },
+      "sun": 8.5,
+      "rain": 21,
+      "rain_days": 3.8,
+      "uv": 7,
+      "wind": {
+        "est": 21
+      },
+      "water": 16.3,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 24.2,
+      "temp_night": 15.8,
+      "dew_point": {
+        "est": 15.3
+      },
+      "sun": 10,
+      "rain": 11,
+      "rain_days": 1.5,
+      "uv": 8,
+      "wind": {
+        "est": 18
+      },
+      "water": 18.7,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.7,
+      "temp_night": 19.6,
+      "dew_point": {
+        "est": 18.6
+      },
+      "sun": 11.2,
+      "rain": 6,
+      "rain_days": 0.8,
+      "uv": 8,
+      "wind": {
+        "est": 15
+      },
+      "water": 22.6,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.7,
+      "temp_night": 22.1,
+      "dew_point": {
+        "est": 20.7
+      },
+      "sun": 12.2,
+      "rain": 0,
+      "rain_days": 0,
+      "uv": 8,
+      "wind": {
+        "est": 14
+      },
+      "water": 25.5,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32,
+      "temp_night": 23,
+      "dew_point": {
+        "est": 22.2
+      },
+      "sun": 11.4,
+      "rain": 17,
+      "rain_days": 1,
+      "uv": 8,
+      "wind": {
+        "est": 14
+      },
+      "water": 26.1,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.6,
+      "temp_night": 21.2,
+      "dew_point": {
+        "est": 20.6
+      },
+      "sun": 9,
+      "rain": 61,
+      "rain_days": 4.3,
+      "uv": 7,
+      "wind": {
+        "est": 16
+      },
+      "water": 25.5,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 25,
+      "temp_night": 18.4,
+      "dew_point": {
+        "est": 17.8
+      },
+      "sun": 7.2,
+      "rain": 82,
+      "rain_days": 6.6,
+      "uv": 5,
+      "wind": {
+        "est": 19
+      },
+      "water": 23.4,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 20.8,
+      "temp_night": 14.9,
+      "dew_point": {
+        "est": 13.8
+      },
+      "sun": 6.5,
+      "rain": 91,
+      "rain_days": 8.7,
+      "uv": 4,
+      "wind": {
+        "est": 23
+      },
+      "water": 21.2,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.2,
+      "temp_night": 11.8,
+      "dew_point": {
+        "est": 10.9
+      },
+      "sun": 5.2,
+      "rain": 94,
+      "rain_days": 10,
+      "uv": 3,
+      "wind": {
+        "est": 25
+      },
+      "water": 18.1,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Valletta – tabela klimatyczna, lotnisko Luqa, normy 1991–2020 (Meteo Climat; nasłonecznienie MaltaWeather.com)",
+      "url": "https://en.wikipedia.org/wiki/Valletta",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Wikipedia: Climate of Malta – wilgotność Luqa 1961–1990 (NOAA), temperatura morza (seatemperature.org, MaltaWeather.com, weather2travel)",
+      "url": "https://en.wikipedia.org/wiki/Climate_of_Malta",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Weather Spark: Malta (średnia obszarowa) – średnia godzinowa prędkość wiatru na 10 m",
+      "url": "https://weatherspark.com/y/150260/Average-Weather-in-Malta-Year-Round",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: Malta – pogoda miesiąc po miesiącu (12 stron, np. /malta-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 35.90°N 14.51°E",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-malta",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.com: Warszawa – Malta (loty bezpośrednie Wizz Air i LOT, średnio 3 h 05 min)",
+      "url": "https://www.kayak.com/flight-routes/Warsaw-Frederic-Chopin-WAW/Malta-MLA",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Malta – statystyki cen w obie strony (miesiące: III 469, X 829, XI 771; średnia 12 mies. 592 zł; typowo 431–866 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Malta-MLA",
+      "checked": "2026-10-14"
+    }
+  ]
+}

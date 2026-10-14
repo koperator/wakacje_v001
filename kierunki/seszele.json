@@ -1,0 +1,336 @@
+{
+  "id": "seszele",
+  "country": "Seszele",
+  "place": "Mahé (Beau Vallon)",
+  "notes": "Klimat równikowy morski: najwięcej deszczu XII–II (monsun NW), sucho i wietrznie VI–IX (pasat SE), najcieplej i najspokojniej III–V oraz X–XI. Baza pobytu: Beau Vallon na północno-zachodnim wybrzeżu Mahé, ok. 20 km od lotniska i stacji pomiarowej (wschodnie wybrzeże). Zieleń: granitowe góry porośnięte lasem deszczowym (park Morne Seychellois) tuż za plażą, zielono cały rok. Beau Vallon najspokojniejsze XI–III; w porze pasatów (V–IX) bezpieczniej na plażach wschodnich. Wycieczki: Victoria, park Morne Seychellois, prom na Praslin (Vallée de Mai, UNESCO) i La Digue. Dojazd: z 1 przesiadką przez Dubaj (Emirates / flydubai), ok. 13,5 h.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": 5,
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 4
+    },
+    "flight_time": 13.5,
+    "stops": 1,
+    "transfer": {
+      "est": 0.5
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.1,
+      "temp_night": 24.6,
+      "dew_point": 23.9,
+      "sun": 5,
+      "rain": 427,
+      "rain_days": {
+        "est": 16.7
+      },
+      "uv": 9,
+      "wind": {
+        "est": 16
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.6,
+      "temp_night": 25.3,
+      "dew_point": 23.9,
+      "sun": 6.2,
+      "rain": 251,
+      "rain_days": {
+        "est": 10.4
+      },
+      "uv": 9,
+      "wind": {
+        "est": 15
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.3,
+      "temp_night": 25.4,
+      "dew_point": 24.2,
+      "sun": 6.9,
+      "rain": 205,
+      "rain_days": {
+        "est": 10.5
+      },
+      "uv": 9,
+      "wind": {
+        "est": 13
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.7,
+      "temp_night": 25.6,
+      "dew_point": 24.4,
+      "sun": 7.7,
+      "rain": 196,
+      "rain_days": {
+        "est": 9.2
+      },
+      "uv": 8,
+      "wind": {
+        "est": 12
+      },
+      "water": 30,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.9,
+      "temp_night": 25.9,
+      "dew_point": 24.1,
+      "sun": 8.2,
+      "rain": 171,
+      "rain_days": {
+        "est": 8.9
+      },
+      "uv": 8,
+      "wind": {
+        "est": 19
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 29.5,
+      "temp_night": 25.1,
+      "dew_point": 23.1,
+      "sun": 7.5,
+      "rain": 122,
+      "rain_days": {
+        "est": 5.9
+      },
+      "uv": 8,
+      "wind": {
+        "est": 25
+      },
+      "water": 27.8,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.7,
+      "temp_night": 24.3,
+      "dew_point": 22.4,
+      "sun": 7.5,
+      "rain": 80,
+      "rain_days": {
+        "est": 3.8
+      },
+      "uv": 7,
+      "wind": {
+        "est": 26
+      },
+      "water": 26.7,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.8,
+      "temp_night": 24.4,
+      "dew_point": 22.3,
+      "sun": 7.5,
+      "rain": 115,
+      "rain_days": {
+        "est": 5.6
+      },
+      "uv": 8,
+      "wind": {
+        "est": 27
+      },
+      "water": 26.1,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 29.4,
+      "temp_night": 24.7,
+      "dew_point": 22.8,
+      "sun": 7.3,
+      "rain": 184,
+      "rain_days": {
+        "est": 8.1
+      },
+      "uv": 8,
+      "wind": {
+        "est": 25
+      },
+      "water": 27.8,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.1,
+      "temp_night": 24.9,
+      "dew_point": 23.1,
+      "sun": 7.3,
+      "rain": 191,
+      "rain_days": {
+        "est": 10
+      },
+      "uv": 9,
+      "wind": {
+        "est": 18
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.4,
+      "temp_night": 24.7,
+      "dew_point": 23.3,
+      "sun": 6.8,
+      "rain": 215,
+      "rain_days": {
+        "est": 11.6
+      },
+      "uv": 9,
+      "wind": {
+        "est": 13
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.5,
+      "temp_night": 24.6,
+      "dew_point": 23.6,
+      "sun": 5.7,
+      "rain": 298,
+      "rain_days": {
+        "est": 15.6
+      },
+      "uv": 8,
+      "wind": {
+        "est": 14
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 3800
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Victoria (Seszele) – tabela klimatyczna, lotnisko Seychelles International, normy 1991–2020 (WMO; nasłonecznienie Seychelles Meteorological Authority 1972–2011): temperatury, opad, wilgotność, punkt rosy",
+      "url": "https://en.wikipedia.org/wiki/Victoria,_Seychelles",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Weather Spark: Seszele (średnia obszarowa) – średnia godzinowa prędkość wiatru na 10 m, dni z opadem ≥ 0,04 in (≈ 1 mm) z reanalizy, temperatura wody – kontrola",
+      "url": "https://weatherspark.com/y/150276/Average-Weather-in-Seychelles-Year-Round",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "seatemperatu.re: Beau Vallon – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/africa/seychelles/beau-vallon/when.html",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: Seszele – pogoda miesiąc po miesiącu (12 stron, np. /seychelles-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 4.68°S 55.49°E (Mahé)",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-seychelles",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Koek.sc: bezpieczeństwo kąpieli na Seszelach (Beau Vallon spokojne XI–III, mniej przewidywalne V–IX, ratownicy)",
+      "url": "https://koek.sc/seychelles-beaches-guide/seychelles-beaches-swimming-safety",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Champion Traveler: Mahé (najwięcej turystów V–VII i XII–I, ceny, morze w porze pasatów)",
+      "url": "https://championtraveler.com/dates/best-time-to-visit-mahe-island-sc/",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Rome2rio: Warszawa – Seszele (najszybciej ok. 13 h 30 min; Emirates, flydubai)",
+      "url": "https://www.rome2rio.com/s/Warsaw/Seychelles",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Mahe – statystyki cen w obie strony (miesiące: V 3 348, VI 3 348, VIII 3 727, XII 3 829; średnia 12 mies. 3 511 zł; typowo 3 200–3 851 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Mahe-SEZ",
+      "checked": "2026-10-14"
+    }
+  ]
+}

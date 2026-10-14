@@ -1,0 +1,406 @@
+{
+  "id": "punta-cana",
+  "country": "Dominikana",
+  "place": "Punta Cana (Bávaro)",
+  "notes": "Klimat tropikalny z pasatem: najsuchiej II–IV, więcej deszczu V oraz IX–XI; sezon huraganów VI–XI (szczyt VIII–X), sargassum głównie V–IX. Baza pobytu: plaża Bávaro (resorty all inclusive). Pogoda ze stacji lotniska Punta Cana (ok. 20 km, normy 1991–2020). Zieleń: palmy kokosowe i ogrody resortów na płaskim wybrzeżu. Wycieczki: wyspa Saona, Altos de Chavón, Hoyo Azul, Santo Domingo (ok. 2,5 h). Dojazd: z 1 przesiadką (najczęściej Frankfurt, ok. 16 h); Neos raz w tygodniu bezpośrednio (czarter, ok. 10,5 h).",
+  "fixed": {
+    "beaches": 4,
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 16.2,
+    "stops": 1,
+    "transfer": {
+      "est": 0.4
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.5,
+      "temp_night": 21.2,
+      "dew_point": {
+        "est": 21.7
+      },
+      "sun": 8.3,
+      "rain": 85,
+      "rain_days": {
+        "est": 7
+      },
+      "uv": 6,
+      "wind": {
+        "est": 16
+      },
+      "water": 27.2,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29,
+      "temp_night": 21.2,
+      "dew_point": {
+        "est": 21.7
+      },
+      "sun": 8.6,
+      "rain": 63,
+      "rain_days": {
+        "est": 4.8
+      },
+      "uv": 7,
+      "wind": {
+        "est": 16
+      },
+      "water": 26.1,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29,
+      "temp_night": 21.7,
+      "dew_point": {
+        "est": 21.9
+      },
+      "sun": 9,
+      "rain": 50,
+      "rain_days": {
+        "est": 4.7
+      },
+      "uv": 8,
+      "wind": {
+        "est": 16
+      },
+      "water": 26.7,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.8,
+      "temp_night": 22.5,
+      "dew_point": {
+        "est": 22.9
+      },
+      "sun": 8.8,
+      "rain": 65,
+      "rain_days": {
+        "est": 4.6
+      },
+      "uv": 9,
+      "wind": {
+        "est": 15
+      },
+      "water": 27.2,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.3,
+      "temp_night": 23.5,
+      "dew_point": {
+        "est": 23.8
+      },
+      "sun": 8.1,
+      "rain": 129,
+      "rain_days": {
+        "est": 7.1
+      },
+      "uv": 8,
+      "wind": {
+        "est": 14
+      },
+      "water": 27.8,
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": [
+        {
+          "type": "algae",
+          "level": 1,
+          "note": "Początek sezonu sargassum: od końca maja pierwsze pasy brązowych wodorostów na plażach Bávaro i Cap Cana."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.2,
+      "temp_night": 24.2,
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": 8.5,
+      "rain": 94,
+      "rain_days": {
+        "est": 6.4
+      },
+      "uv": 8,
+      "wind": {
+        "est": 15
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": [
+        {
+          "type": "algae",
+          "level": 2,
+          "note": "Szczyt sezonu sargassum (w 13–14 z ostatnich 15 lat): pasy brązowych wodorostów na plażach Bávaro i Cap Cana, w gorszych latach kąpiel przez kilka dni prawie niemożliwa; resorty sprzątają i stawiają bariery, osłonięte Macao i Cabeza de Toro mniej dotknięte."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.8,
+      "temp_night": 24.2,
+      "dew_point": {
+        "est": 24.7
+      },
+      "sun": 8.7,
+      "rain": 85,
+      "rain_days": {
+        "est": 6.4
+      },
+      "uv": 9,
+      "wind": {
+        "est": 16
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": [
+        {
+          "type": "algae",
+          "level": 2,
+          "note": "Szczyt sezonu sargassum (w 13–14 z ostatnich 15 lat): pasy brązowych wodorostów na plażach Bávaro i Cap Cana, w gorszych latach kąpiel przez kilka dni prawie niemożliwa; resorty sprzątają i stawiają bariery, osłonięte Macao i Cabeza de Toro mniej dotknięte."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32,
+      "temp_night": 24.3,
+      "dew_point": {
+        "est": 25
+      },
+      "sun": 8.7,
+      "rain": 107,
+      "rain_days": {
+        "est": 7
+      },
+      "uv": 9,
+      "wind": {
+        "est": 15
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": [
+        {
+          "type": "algae",
+          "level": 2,
+          "note": "Szczyt sezonu sargassum (w 13–14 z ostatnich 15 lat): pasy brązowych wodorostów na plażach Bávaro i Cap Cana, w gorszych latach kąpiel przez kilka dni prawie niemożliwa; resorty sprzątają i stawiają bariery, osłonięte Macao i Cabeza de Toro mniej dotknięte."
+        },
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów na Atlantyku: bezpośrednie trafienie rzadkie, ale przy burzy tropikalnej kilka dni ulew, wysokich fal i odwołanych wycieczek."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.9,
+      "temp_night": 24.1,
+      "dew_point": {
+        "est": 24.7
+      },
+      "sun": 8.2,
+      "rain": 135,
+      "rain_days": {
+        "est": 7.3
+      },
+      "uv": 8,
+      "wind": {
+        "est": 13
+      },
+      "water": 30,
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": [
+        {
+          "type": "algae",
+          "level": 1,
+          "note": "Koniec sezonu sargassum: wodorosty w części dni, zwykle słabiej niż w VI–VIII."
+        },
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów na Atlantyku: bezpośrednie trafienie rzadkie, ale przy burzy tropikalnej kilka dni ulew, wysokich fal i odwołanych wycieczek."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.5,
+      "temp_night": 23.8,
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": 7.8,
+      "rain": 124,
+      "rain_days": {
+        "est": 8
+      },
+      "uv": 8,
+      "wind": {
+        "est": 13
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 3800
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów na Atlantyku: bezpośrednie trafienie rzadkie, ale przy burzy tropikalnej kilka dni ulew, wysokich fal i odwołanych wycieczek."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.3,
+      "temp_night": 22.9,
+      "dew_point": {
+        "est": 23.3
+      },
+      "sun": 7.9,
+      "rain": 131,
+      "rain_days": {
+        "est": 8
+      },
+      "uv": 6,
+      "wind": {
+        "est": 15
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.4,
+      "temp_night": 21.9,
+      "dew_point": {
+        "est": 22.5
+      },
+      "sun": 7.5,
+      "rain": 91,
+      "rain_days": {
+        "est": 7.7
+      },
+      "uv": 6,
+      "wind": {
+        "est": 16
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 5100
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Punta Cana – tabela klimatyczna lotniska 1991–2020 (NOAA) oraz tabela 1961–1990 (WMO/NOAA, Cabo Engaño): dni ≥ 0,1 mm, wilgotność, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Punta_Cana",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Weather Spark: Dominikana (średnia dla kraju) – średnia godzinowa prędkość wiatru na 10 m",
+      "url": "https://weatherspark.com/y/150222/Average-Weather-in-Dominican-Republic-Year-Round",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "seatemperatu.re: Bávaro – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/caribbean/dominican-republic/bavaro/when.html",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: Punta Cana – pogoda miesiąc po miesiącu (12 stron, np. /punta-cana-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 18.58°N 68.40°W",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-punta-cana",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Punta Cana Travel Blog: sargassum w Punta Cana (szczyt VI–VIII, 2025 kąpiel przez kilka dni prawie niemożliwa, mniej dotknięte plaże)",
+      "url": "https://www.puntacanatravelblog.com/general-information-faq/seaweed-punta-cana-sargassum",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "All-Inclusive Guide: przewodnik po sargassum 2026 (Punta Cana: umiarkowanie-wysokie VI–VIII, najlepiej XII–IV)",
+      "url": "https://all-inclusive-guide.com/guides/sargassum-seaweed-guide/",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.com: Warszawa – Punta Cana (Neos bezpośrednio 1× w tygodniu; z 1 przesiadką: Zurych 13 h 51 min, Monachium 14 h 25 min, Frankfurt 16 h 10 min – najczęściej)",
+      "url": "https://www.kayak.com/flight-routes/Warsaw-Frederic-Chopin-WAW/Punta-Cana-PUJ",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Punta Cana – statystyki cen w obie strony (miesiące: VIII 5 023, X 3 799, XII 5 144; średnia 12 mies. 4 229 zł; typowo 3 745–4 874 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Punta-Cana-PUJ",
+      "checked": "2026-10-14"
+    }
+  ]
+}

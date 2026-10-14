@@ -1,0 +1,463 @@
+{
+  "version": 2,
+  "columns": [
+    {
+      "id": "local_season",
+      "name": "Sezon lok.",
+      "unit": "",
+      "type": "hml",
+      "scope": "month",
+      "group": "Sezon",
+      "weather": false,
+      "definition": "Lokalny sezon turystyczny w bazie pobytu: H = szczyt (najwyższe ceny i obłożenie), M = pośredni, L = poza sezonem. Tylko informacyjnie, nie wchodzi do żadnego wyniku. Źródła: lokalne biura turystyczne, przewodniki, sezonowość cen hoteli. Ocena bez źródła o sezonowości obłożenia lub cen to szacunek, we wszystkich miesiącach tak samo."
+    },
+    {
+      "id": "flags",
+      "name": "Flagi",
+      "unit": "",
+      "type": "flags",
+      "scope": "month",
+      "group": "Sezon",
+      "weather": false,
+      "definition": "Zjawiska sezonowe. Każda flaga: typ (z listy flagTypes), natężenie 1–3, jednozdaniowa notatka. Natężenie = typowy wpływ na urlop w tym miesiącu łącznie z częstością: 1 drobna niedogodność w części dni lub miejsc; 2 wyraźnie ogranicza plażę, kąpiel lub zwiedzanie przez znaczną część pobytu; 3 typowo psuje wyjazd (zamknięcia, zagrożenie, brak kąpieli). Sama możliwość rzadkiego, poważnego zdarzenia nie oznacza poziomu 3. Jedno zjawisko = jedna flaga, skutki idą do notatki. Natężenie opisuje skutki niewidoczne w liczbach (deszcz monsunu jest już w opadzie i dniach deszczowych). Sezonowe pogorszenie kąpieli zawsze dostaje flagę kąpielową. Notatka opisuje skutki (nie sam deszcz), mówi, czego zjawisko dotyczy, i czy zaczyna się lub kończy w połowie miesiąca. Święta i zamknięcia: tylko święta, które zamykają atrakcje lub usługi albo wyraźnie pogarszają warunki ponad zwykły szczyt sezonu (zwykły szczyt to sezon lokalny, nie flaga). Święto ruchome dostaje flagę w każdym miesiącu, w którym może wypaść, z notatką „zależnie od roku”. Miesiąc bez zjawisk: pusta lista []."
+    },
+    {
+      "id": "temp_day",
+      "name": "Temp. dzień",
+      "unit": "°C",
+      "type": "number",
+      "scope": "month",
+      "group": "Pogoda",
+      "weather": true,
+      "valid": [
+        -30,
+        50
+      ],
+      "definition": "Średnie dzienne maksimum temperatury powietrza w miesiącu, norma wieloletnia (pref. 1991–2020 lub nowsza), dla bazy pobytu. Jedno miejsce po przecinku.",
+      "default": {
+        "min": 22,
+        "idealFrom": 27,
+        "idealTo": 31,
+        "max": 36,
+        "weight": 3
+      }
+    },
+    {
+      "id": "temp_night",
+      "name": "Temp. noc",
+      "unit": "°C",
+      "type": "number",
+      "scope": "month",
+      "group": "Pogoda",
+      "weather": true,
+      "valid": [
+        -40,
+        40
+      ],
+      "definition": "Średnie dzienne minimum temperatury powietrza w miesiącu, norma wieloletnia. Jedno miejsce po przecinku.",
+      "default": {
+        "min": 10,
+        "idealFrom": 18,
+        "idealTo": 25,
+        "max": 29,
+        "weight": 1
+      }
+    },
+    {
+      "id": "dew_point",
+      "name": "Punkt rosy",
+      "unit": "°C",
+      "type": "number",
+      "scope": "month",
+      "group": "Pogoda",
+      "weather": true,
+      "valid": [
+        -30,
+        35
+      ],
+      "definition": "Średni punkt rosy w miesiącu (miara duszności). Pierwszeństwo ma źródło podające średni punkt rosy wprost (np. timeanddate z raportów stacji). Gdy źródła podają tylko wilgotność względną, wylicz ze średniej temperatury dobowej i średniej wilgotności (wzór Magnusa) i oznacz jako szacunek. Jedno miejsce po przecinku.",
+      "default": {
+        "min": null,
+        "idealFrom": null,
+        "idealTo": 18,
+        "max": 26,
+        "weight": 1
+      }
+    },
+    {
+      "id": "sun",
+      "name": "Słońce",
+      "unit": "h/dzień",
+      "type": "number",
+      "scope": "month",
+      "group": "Pogoda",
+      "weather": true,
+      "valid": [
+        0,
+        16
+      ],
+      "definition": "Średnia liczba godzin rzeczywistego nasłonecznienia na dzień (nie długość dnia). Gdy źródło podaje sumę miesięczną, podziel przez liczbę dni (to tylko przeliczenie jednostek). Jedno miejsce po przecinku.",
+      "default": {
+        "min": 4,
+        "idealFrom": 8,
+        "idealTo": null,
+        "max": null,
+        "weight": 1.5
+      }
+    },
+    {
+      "id": "rain",
+      "name": "Opad",
+      "unit": "mm",
+      "type": "number",
+      "scope": "month",
+      "group": "Pogoda",
+      "weather": true,
+      "valid": [
+        0,
+        2000
+      ],
+      "integer": true,
+      "definition": "Średnia miesięczna suma opadu, norma wieloletnia. Liczba całkowita.",
+      "default": {
+        "min": null,
+        "idealFrom": null,
+        "idealTo": 40,
+        "max": 250,
+        "weight": 0.5
+      }
+    },
+    {
+      "id": "rain_days",
+      "name": "Dni deszcz.",
+      "unit": "dni",
+      "type": "number",
+      "scope": "month",
+      "group": "Pogoda",
+      "weather": true,
+      "valid": [
+        0,
+        31
+      ],
+      "definition": "Średnia liczba dni z opadem ≥ 1 mm. Źródło liczące dni z progiem 0,1 mm daje inną definicję: przelicz tylko z uzasadnieniem (szacunek) albo zostaw brak danych. Jedno miejsce po przecinku.",
+      "default": {
+        "min": null,
+        "idealFrom": null,
+        "idealTo": 4,
+        "max": 18,
+        "weight": 1.5
+      }
+    },
+    {
+      "id": "uv",
+      "name": "UV",
+      "unit": "",
+      "type": "number",
+      "scope": "month",
+      "group": "Pogoda",
+      "weather": true,
+      "valid": [
+        0,
+        20
+      ],
+      "integer": true,
+      "definition": "Średni dzienny maksymalny indeks UV w miesiącu z uwzględnieniem zachmurzenia (all-sky, np. reanaliza ERA5 / Open-Meteo), nie wartość dla czystego nieba. Jedno źródło tego typu dla wszystkich 12 miesięcy kierunku. Źródło podające tylko „11+”: 11 jako szacunek. Liczba całkowita.",
+      "default": {
+        "min": null,
+        "idealFrom": null,
+        "idealTo": 8,
+        "max": 12,
+        "weight": 0.5
+      }
+    },
+    {
+      "id": "wind",
+      "name": "Wiatr",
+      "unit": "km/h",
+      "type": "number",
+      "scope": "month",
+      "group": "Pogoda",
+      "weather": true,
+      "valid": [
+        0,
+        100
+      ],
+      "integer": true,
+      "definition": "Średnia prędkość wiatru w miesiącu, bez porywów: średnia dobowa na wysokości 10 m (stacja synoptyczna albo reanaliza). Serwisy dla żeglarzy i kitesurferów liczą zwykle w dzień albo tylko przy wietrze i zawyżają, więc służą tylko do kontroli. Przelicz z m/s, mph lub węzłów na km/h (przeliczenie jednostek nie jest szacunkiem). Liczba całkowita.",
+      "default": {
+        "min": null,
+        "idealFrom": null,
+        "idealTo": 20,
+        "max": 40,
+        "weight": 0.5
+      }
+    },
+    {
+      "id": "water",
+      "name": "Woda",
+      "unit": "°C",
+      "type": "number",
+      "scope": "month",
+      "group": "Morze",
+      "weather": true,
+      "valid": [
+        -2,
+        35
+      ],
+      "definition": "Średnia miesięczna temperatura powierzchni morza przy plaży kierunku. Brak morza: \"na\". Jedno miejsce po przecinku.",
+      "default": {
+        "min": 20,
+        "idealFrom": 26,
+        "idealTo": null,
+        "max": null,
+        "weight": 2
+      }
+    },
+    {
+      "id": "beaches",
+      "name": "Plaże",
+      "unit": "1–5",
+      "type": "scale",
+      "scope": "fixed",
+      "group": "Morze",
+      "weather": false,
+      "definition": "Jakość do plażowania i kąpieli łącznie: piasek, szerokość, wejście do wody, czystość; plaże w zasięgu spaceru lub do ok. 15 min dojazdu od bazy. Ocena z perspektywy typowego dnia na plaży (wygodne leżenie i pływanie). Utrudnione wejście do wody (rafa, kamienie, bardzo płytko, silne fale) obniża ocenę o ok. 1 punkt względem samej jakości piasku. Kotwice: 1 Santorini (żwir, ostre kamienie); 2 Malta, Alanya; 3 Sopot, Negombo; 4 Punta Cana, Cancún; 5 Boracay, Turks and Caicos. Brak plaży: \"na\", nie 1.",
+      "default": {
+        "min": 1,
+        "idealFrom": 4,
+        "idealTo": null,
+        "max": null,
+        "weight": 2
+      }
+    },
+    {
+      "id": "greenery",
+      "name": "Zieleń",
+      "unit": "1–5",
+      "type": "scale",
+      "scope": "fixed",
+      "group": "Miejsce",
+      "weather": false,
+      "definition": "Typowa bujność roślinności w otoczeniu bazy pobytu (nie cała wyspa ani region). Sezonowe wysychanie tylko w notatce kierunku. Kotwice: 1 Marsa Alam, Corralejo; 2 Santorini, Djerba; 3 Cancún, Alanya; 4 Mauritius, Phuket; 5 Seszele, Langkawi.",
+      "default": {
+        "min": 1,
+        "idealFrom": 4,
+        "idealTo": null,
+        "max": null,
+        "weight": 0.5
+      }
+    },
+    {
+      "id": "sightseeing",
+      "name": "Zwiedzanie",
+      "unit": "1–5",
+      "type": "scale",
+      "scope": "fixed",
+      "group": "Miejsce",
+      "weather": false,
+      "definition": "Atrakcje w zasięgu wycieczek jednodniowych od bazy. Jedna wybitna atrakcja waży więcej niż wiele przeciętnych; atrakcje poza zasięgiem wycieczki jednodniowej się nie liczą. Kotwice: 1 Malediwy, Turks and Caicos; 2 Aruba, Marsa Alam; 3 Phuket, Mauritius; 4 Malta, Cancún; 5 Siem Reap.",
+      "default": {
+        "min": 1,
+        "idealFrom": 4,
+        "idealTo": null,
+        "max": null,
+        "weight": 1
+      }
+    },
+    {
+      "id": "flight_price",
+      "name": "Lot",
+      "unit": "PLN",
+      "type": "number",
+      "scope": "month",
+      "group": "Koszty",
+      "weather": false,
+      "valid": [
+        0,
+        50000
+      ],
+      "definition": "Typowa cena lotu za osobę: WAW w obie strony, klasa ekonomiczna, z bagażem rejestrowanym, typowa oferta (nie promocja). Typowy poziom miesiąca, nie aktualna cena; pojedyncza aktualna oferta nie wystarcza. Najlepiej ceny dla scenariusza: pobyt ok. 2 tygodni, zakup ok. 2–3 miesiące przed wylotem. Dopuszczalne jako szacunek: miesięczne mediany lub średnie z porównywarek (np. KAYAK, momondo) dla trasy z WAW na lotnisko bazy, liczone dla dowolnej długości pobytu i terminu zakupu. Gdy porównywarka podaje tylko część miesięcy, uzupełnij pozostałe z jej średniej rocznej i zakresu typowych cen według sezonu lokalnego (H: połowa drogi między średnią a najdroższym miesiącem, M: średnia, L: połowa drogi między średnią a najtańszym miesiącem). Wartości wyliczone poza zakresem typowych cen o ponad 15% przytnij. Taryfy bez bagażu (tanie linie): dolicz opłatę za bagaż rejestrowany w obie strony (ok. 300 PLN). Trasa bez statystyk: przenieś poziom z najbliższej trasy przez ten sam węzeł, z uzasadnieniem w notatce. Kierunek „tylko z biurem”: cena miejsca w czarterze. Bez żadnej podstawy: null. Zaokrąglij do 100 PLN.",
+      "default": {
+        "min": null,
+        "idealFrom": null,
+        "idealTo": 2500,
+        "max": 7000,
+        "weight": 1
+      }
+    },
+    {
+      "id": "local_prices",
+      "name": "Ceny na miejscu",
+      "unit": "1–5",
+      "type": "scale",
+      "scope": "fixed",
+      "group": "Koszty",
+      "weather": false,
+      "definition": "Typowy dzienny koszt jedzenia, transportu lokalnego i atrakcji przy średnim standardzie; bez noclegu, lotu i transferu z lotniska. 1 = najtaniej. Kotwice: 1 Goa, Siem Reap; 2 Phu Quoc, Djerba; 3 Cypr, Malta; 4 Barbados, Aruba; 5 Malediwy, Bora Bora, Turks and Caicos.",
+      "default": {
+        "min": null,
+        "idealFrom": null,
+        "idealTo": 2,
+        "max": 5,
+        "weight": 1
+      }
+    },
+    {
+      "id": "flight_time",
+      "name": "Czas lotu",
+      "unit": "h",
+      "type": "number",
+      "scope": "fixed",
+      "group": "Dojazd",
+      "weather": false,
+      "valid": [
+        0,
+        48
+      ],
+      "definition": "Typowy czas podróży w jedną stronę z WAW (Lotnisko Chopina) do lotniska bazy, z przesiadkami, bez transferu z lotniska, dla najszybszego regularnego połączenia dostępnego przez większość roku: rozkładowego, kupowanego jako sam lot i kursującego co najmniej ok. 6 miesięcy w roku. Bierz typowy czas takiego połączenia z wyszukiwarki (np. KAYAK, najszybsze połączenie z daną liczbą przesiadek), nie pojedynczy rekordowy lot. Połączenia sezonowe i czartery tylko w notatce kierunku. Wyjątek: kierunek, na który użytkownik jeździ wyłącznie z biurem podróży (zaznaczone w notatce kierunku), dostaje czas czarteru biura z WAW, jeśli kursuje co najmniej ok. 6 miesięcy w roku. Rozbieżność źródeł: wybierz i wpisz do przeglądu, bez oznaczenia szacunku. Jedno miejsce po przecinku.",
+      "default": {
+        "min": null,
+        "idealFrom": null,
+        "idealTo": 5,
+        "max": 20,
+        "weight": 1
+      }
+    },
+    {
+      "id": "stops",
+      "name": "Przesiadki",
+      "unit": "",
+      "type": "number",
+      "scope": "fixed",
+      "group": "Dojazd",
+      "weather": false,
+      "valid": [
+        0,
+        5
+      ],
+      "integer": true,
+      "definition": "Liczba przesiadek w jedną stronę na połączeniu przyjętym w kolumnie Czas lotu. Liczba całkowita.",
+      "default": {
+        "min": null,
+        "idealFrom": null,
+        "idealTo": 0,
+        "max": 3,
+        "weight": 0.5
+      }
+    },
+    {
+      "id": "transfer",
+      "name": "Transfer",
+      "unit": "h",
+      "type": "number",
+      "scope": "fixed",
+      "group": "Dojazd",
+      "weather": false,
+      "valid": [
+        0,
+        24
+      ],
+      "definition": "Typowy czas dojazdu w jedną stronę z lotniska bazy (tego z kolumny Czas lotu) do bazy pobytu: droga (taksówka, transfer hotelowy), prom, łódź lub lokalny lot, z przesiadkami między nimi, bez czekania na odjazd według rozkładu i bez korków w godzinach szczytu. Najszybszy sposób dostępny na co dzień, nie prywatny hydroplan ani helikopter. Źródła: planery podróży (np. Rome2rio), rozkłady promów, strony hoteli i lotnisk; wyliczenie z odległości drogowej to szacunek. Baza tuż przy lotnisku: 0,2. Jedno miejsce po przecinku.",
+      "default": {
+        "min": null,
+        "idealFrom": null,
+        "idealTo": 1,
+        "max": 5,
+        "weight": 0.5
+      }
+    }
+  ],
+  "flagTypes": [
+    {
+      "id": "monsoon",
+      "name": "Monsun",
+      "icon": "🌧️",
+      "weather": true,
+      "swim": false
+    },
+    {
+      "id": "cyclone",
+      "name": "Cyklony / huragany",
+      "icon": "🌀",
+      "weather": true,
+      "swim": false
+    },
+    {
+      "id": "algae",
+      "name": "Algi / sargassum",
+      "icon": "🌿",
+      "weather": true,
+      "swim": true
+    },
+    {
+      "id": "jellyfish",
+      "name": "Meduzy",
+      "icon": "🪼",
+      "weather": true,
+      "swim": true
+    },
+    {
+      "id": "waves",
+      "name": "Fale i prądy",
+      "icon": "🌊",
+      "weather": true,
+      "swim": true
+    },
+    {
+      "id": "smog",
+      "name": "Smog / wypalanie",
+      "icon": "🌫️",
+      "weather": true,
+      "swim": false
+    },
+    {
+      "id": "holidays",
+      "name": "Święta i zamknięcia",
+      "icon": "📅",
+      "weather": false,
+      "swim": false
+    },
+    {
+      "id": "other",
+      "name": "Inne",
+      "icon": "❕",
+      "weather": false,
+      "swim": false
+    }
+  ],
+  "destinations": [
+    "siem-reap",
+    "corralejo",
+    "phuket",
+    "koh-samui",
+    "negombo",
+    "trincomalee",
+    "koh-rong",
+    "phu-quoc",
+    "langkawi",
+    "boracay",
+    "nusa-dua",
+    "goa-polnocne",
+    "malediwy",
+    "seszele",
+    "mauritius",
+    "zanzibar",
+    "watamu",
+    "marsa-alam",
+    "djerba",
+    "alanya",
+    "protaras",
+    "santorini",
+    "malta",
+    "sopot",
+    "punta-cana",
+    "cancun",
+    "aruba",
+    "barbados",
+    "providenciales",
+    "tamarindo",
+    "waikiki",
+    "nadi-denarau",
+    "bora-bora"
+  ]
+}

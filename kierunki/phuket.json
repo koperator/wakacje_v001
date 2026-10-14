@@ -1,0 +1,456 @@
+{
+  "id": "phuket",
+  "country": "Tajlandia",
+  "place": "Phuket",
+  "notes": "Morze Andamańskie (para monsunowa z Koh Samui): pora sucha XII–IV, monsun SW V–X. Baza pobytu: plaże zachodniego wybrzeża (Patong/Kata/Karon). Pogoda ze stacji Phuket (WMO 48564, miasto Phuket na wschodnim wybrzeżu, ok. 10–15 km od Patong/Kata/Karon), normy 1991–2020; na zachodnim wybrzeżu w porze monsunu opad może być nieco wyższy, a noce nieco chłodniejsze niż w mieście. Zieleń: zalesione wzgórza i plantacje kauczuku tuż za plażami; w porze suchej (II–IV) trawy i część zarośli przesychają, ale wzgórza pozostają zielone. Wyspy Similan/Surin (wycieczki jednodniowe) zamknięte w porze monsunu (zwykle od połowy maja do połowy października). Dojazd: najszybciej LOT bezpośrednio do Bangkoku (od 7.10.2026, cały rok) i dalej krajowym lotem do Phuket (ok. 1 h 35 min, Thai Airways, Thai Vietjet, Bangkok Airways, wiele rejsów dziennie) – osobne bilety, ok. 14,5 h; na jednym bilecie z 1 przesiadką przez Abu Zabi lub Stambuł ok. 15 h 45 min. Lot bezpośredni (ok. 10 h) tylko jako sezonowy czarter w ofercie biur podróży.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": 4,
+    "sightseeing": 3,
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": {
+      "est": 14.5
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 1
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 33,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 23.6
+      },
+      "sun": 9,
+      "rain": 50,
+      "rain_days": 4.3,
+      "uv": 8,
+      "wind": 11,
+      "water": 28.3,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Do ok. 10 stycznia szczyt noworoczny: najwyższe ceny i minimalne długości pobytu w wielu hotelach (ciąg dalszy okresu z grudnia)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 34,
+      "temp_night": 25.4,
+      "dew_point": {
+        "est": 23.9
+      },
+      "sun": 8.7,
+      "rain": 24,
+      "rain_days": 2.2,
+      "uv": 9,
+      "wind": 9,
+      "water": 28.6,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 34.4,
+      "temp_night": 25.9,
+      "dew_point": {
+        "est": 24.8
+      },
+      "sun": 8.9,
+      "rain": 81,
+      "rain_days": 6,
+      "uv": 9,
+      "wind": 8,
+      "water": 29.2,
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 34.2,
+      "temp_night": 26.3,
+      "dew_point": {
+        "est": 25.6
+      },
+      "sun": 8,
+      "rain": 135,
+      "rain_days": 9.6,
+      "uv": 9,
+      "wind": 8,
+      "water": 30.2,
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Songkran (13–15 kwietnia) – uliczne bitwy wodne, zwłaszcza w Patong; tłok, droższe noclegi, trudno przejść suchą stopą."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 33.2,
+      "temp_night": 26.1,
+      "dew_point": {
+        "est": 25.6
+      },
+      "sun": 5.1,
+      "rain": 237,
+      "rain_days": 15.7,
+      "uv": 8,
+      "wind": 10,
+      "water": 30.3,
+      "flight_price": {
+        "est": 2700
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Początek monsunu SW zwykle od połowy maja: fale, prądy wsteczne i czerwone flagi na Patong/Kata/Karon w części dni; od ok. 16 maja zamknięte Similan i Surin."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.6,
+      "temp_night": 25.8,
+      "dew_point": {
+        "est": 25.3
+      },
+      "sun": 3.9,
+      "rain": 249,
+      "rain_days": 15.9,
+      "uv": 8,
+      "wind": 12,
+      "water": 29.8,
+      "flight_price": {
+        "est": 3100
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Monsun SW: silne fale i prądy wsteczne na plażach zachodnich (najgorzej Karon i Kata), w wielu dniach czerwone flagi i zakaz kąpieli; Similan/Surin zamknięte, rejsy na Phi Phi bywają odwoływane."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.3,
+      "temp_night": 25.6,
+      "dew_point": {
+        "est": 24.9
+      },
+      "sun": 3.9,
+      "rain": 240,
+      "rain_days": 16.3,
+      "uv": 7,
+      "wind": 13,
+      "water": 29.7,
+      "flight_price": {
+        "est": 3100
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Monsun SW: silne fale i prądy wsteczne na plażach zachodnich (najgorzej Karon i Kata), w wielu dniach czerwone flagi i zakaz kąpieli; Similan/Surin zamknięte, rejsy na Phi Phi bywają odwoływane."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.2,
+      "temp_night": 25.6,
+      "dew_point": {
+        "est": 24.8
+      },
+      "sun": 3.8,
+      "rain": 309,
+      "rain_days": 16.9,
+      "uv": 8,
+      "wind": 13,
+      "water": 28.8,
+      "flight_price": {
+        "est": 3100
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Monsun SW: silne fale i prądy wsteczne na plażach zachodnich (najgorzej Karon i Kata), w wielu dniach czerwone flagi i zakaz kąpieli; Similan/Surin zamknięte, rejsy na Phi Phi bywają odwoływane."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.8,
+      "temp_night": 25.1,
+      "dew_point": {
+        "est": 24.8
+      },
+      "sun": 3.6,
+      "rain": 350,
+      "rain_days": 18.9,
+      "uv": 8,
+      "wind": 12,
+      "water": 29,
+      "flight_price": {
+        "est": 3100
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Monsun SW: silne fale i prądy wsteczne na plażach zachodnich (najgorzej Karon i Kata), w wielu dniach czerwone flagi i zakaz kąpieli; Similan/Surin zamknięte, rejsy na Phi Phi bywają odwoływane."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.8,
+      "temp_night": 24.9,
+      "dew_point": {
+        "est": 24.8
+      },
+      "sun": 5.8,
+      "rain": 336,
+      "rain_days": 19.4,
+      "uv": 8,
+      "wind": 10,
+      "water": 29,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Koniec monsunu SW: fale i czerwone flagi na plażach zachodnich głównie w pierwszej połowie miesiąca; Similan i Surin otwierane ok. 15 października."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.1,
+      "temp_night": 25.2,
+      "dew_point": {
+        "est": 24.8
+      },
+      "sun": 7.3,
+      "rain": 178,
+      "rain_days": 12.9,
+      "uv": 6,
+      "wind": 9,
+      "water": 29.4,
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.1,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 23.9
+      },
+      "sun": 8.4,
+      "rain": 82,
+      "rain_days": 7.8,
+      "uv": 7,
+      "wind": 11,
+      "water": 28.7,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Boże Narodzenie i Nowy Rok (ok. 20.12–10.01): najwyższe ceny, minimalne długości pobytu i obowiązkowe płatne kolacje galowe w wielu hotelach, tłok na plażach."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Phuket (city) – tabela klimatyczna 1991–2020 (WMO Climate Normals 1991–2020, stacja 48564 Phuket; TMD)",
+      "url": "https://en.wikipedia.org/wiki/Phuket_(city)",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "Wikipedia: Phuket province – tabele TMD 1981–2010 dla Mueang Phuket i Phuket International Airport (porównanie)",
+      "url": "https://en.wikipedia.org/wiki/Phuket_province",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "Weather Spark: Phuket International Airport – średnia prędkość i kierunek wiatru, duszność (reanaliza MERRA-2)",
+      "url": "https://weatherspark.com/y/149059/Average-Weather-at-Phuket-International-Airport-Thailand-Year-Round",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "Climate-Zone: Phuket (normy 1991–2020; wiatr, wilgotność, zachmurzenie – kontrola)",
+      "url": "https://www.climate-zone.com/climate/th/phuket",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "Climats et Voyages: Phuket (1991–2020; temperatura morza, wiatr – kontrola)",
+      "url": "https://www.climatsetvoyages.com/climat/thailande/phuket",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "Cabaigne: temperatura morza w Patong, średnie miesięczne z lat poprzednich",
+      "url": "https://www.cabaigne.net/asie-sud-est/phuket/patong/quand-se-baigner.html",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "weather2travel: Phuket climate (CRU, Met Office, KNMI; słońce, morze – kontrola; UV dla czystego nieba – inna miara, nieużyte)",
+      "url": "https://www.weather2travel.com/thailand/phuket/climate/",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "Weather Atlas: Phuket climate (temperatura morza, nasłonecznienie – kontrola; UV tylko jako zakres roczny, nieużyte)",
+      "url": "https://www.weather-atlas.com/en/thailand/phuket-climate",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "MeteoNews: Phuket Airport 48565 (opad 1994–2005 – kontrola)",
+      "url": "https://meteonews.fr/en/Climate/M48565000/Phuket",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa Chopin – Phuket (najkrótszy lot z 1 przesiadką: IST 15 h 42 min; lot bezpośredni 10 h 10 min niedostępny)",
+      "url": "https://www.kayak.pl/loty/Warszawa-Lotnisko-Chopina-i-inne-lotniska-WAW/Phuket-HKT",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "KAYAK.pl: loty Warszawa (wszystkie lotniska) – Phuket (HKT)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WA1/Phuket-HKT",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "KAYAK.com: Warsaw Chopin – Phuket (IST 15 h 42 min, AUH 15 h 46 min, HEL 16 h 25 min)",
+      "url": "https://www.kayak.com/flight-routes/Warsaw-Chopin-WAW/Phuket-HKT",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "Skyscanner.pl: WAW – HKT (ceny „od” w kalendarzu miesięcy – tylko kontrola)",
+      "url": "https://www.skyscanner.pl/trasy/waw/hkt/warszawa-chopina-do-phuket.html",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "momondo.pl: Warszawa – prowincja Phuket (kontrola)",
+      "url": "https://www.momondo.pl/loty/warszawa/prowincja-phuket",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "Wikipedia: Phuket International Airport – połączenia (sezonowy czarter z Warszawy)",
+      "url": "https://en.wikipedia.org/wiki/Phuket_International_Airport",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "TAT News: turystyka morska w porze monsunu SW (V–X), zamknięcia parków morskich",
+      "url": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "Phuket 101: plaże w niskim sezonie, prądy wsteczne i czerwone flagi",
+      "url": "https://www.phuket101.net/low-season-beaches/",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "BestDateWeather: Phuket – pogoda miesiąc po miesiącu (12 stron miesięcznych, np. /phuket-weather-january); UV all-sky z Open-Meteo, „ERA5 · 10 years (2016–2025)”, 7.88°N 98.39°E",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-phuket",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "Open-Meteo: dokumentacja API (uv_index_max z zachmurzeniem vs uv_index_clear_sky_max)",
+      "url": "https://open-meteo.com/en/docs",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "FlightsFrom: Stambuł (IST) – Phuket (HKT), Turkish Airlines, całorocznie",
+      "url": "https://www.flightsfrom.com/IST-HKT",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "Wikipedia: Warsaw Chopin Airport – połączenia (LOT: sezonowy czarter do Phuket)",
+      "url": "https://en.wikipedia.org/wiki/Warsaw_Chopin_Airport",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "momondo.pl: Warszawa – Phuket (brak lotów bezpośrednich; kontrola)",
+      "url": "https://www.momondo.pl/loty/warszawa/phuket",
+      "checked": "2026-10-04"
+    },
+    {
+      "title": "Super Express: LOT Warszawa – Bangkok od 7.10.2026 (Boeing 787, ok. 10 h, połączenie całoroczne; zimą do 6 razy, latem 3 razy w tygodniu)",
+      "url": "https://www.se.pl/warszawa/z-warszawy-do-bangkoku-bez-przesiadek-lot-wystartowal-z-nowa-trasa-aa-jk73-HSvM-RqKr.html",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Pasazer.com: LOT latem rzadziej do Bangkoku (LO65 WAW 15:15 – BKK 6:35, wt/czw/nd)",
+      "url": "https://www.pasazer.com/news/469980/lot,latem,rzadziej,do,bangkoku.html",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.com: Bangkok Suvarnabhumi – Phuket (bez przesiadek średnio 1 h 33 min; Thai Vietjet ok. 65, Thai Airways ok. 63, Bangkok Airways ok. 42 rejsów tygodniowo)",
+      "url": "https://www.kayak.com/flight-routes/Bangkok-Suvarnabhumi-BKK/Phuket-HKT",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Phuket – statystyki cen w obie strony (miesiące: V 2 744, X 3 517, XII 3 717; średnia 12 mies. 3 374 zł; typowo 2 907–4 002 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Phuket-HKT",
+      "checked": "2026-10-14"
+    }
+  ]
+}

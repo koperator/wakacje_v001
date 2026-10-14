@@ -1,0 +1,343 @@
+{
+  "id": "nadi-denarau",
+  "country": "Fidżi",
+  "place": "Nadi / Denarau (Viti Levu)",
+  "notes": "Klimat tropikalny z wyraźną porą suchą po zachodniej, zawietrznej stronie Viti Levu: sucho i słonecznie V–X (najchłodniej VII–VIII), pora deszczowa XII–IV z ulewami i burzami; sezon cyklonów XI–IV, najwięcej w I–II. Baza pobytu: wyspa Denarau (resorty, marina) przy Nadi – plaże z szarobrązowym piaskiem i mętną wodą od delty rzeki Nadi; piękne plaże i rafy dopiero na wyspach Mamanuca (rejsy z mariny Denarau, ok. 30–60 min). Pogoda ze stacji lotniska Nadi (ok. 10 km, normy 1991–2020). Zieleń: ogrody resortów, pola trzciny cukrowej, góry Sabeto w tle; w porze suchej trawy brązowieją. Wycieczki: rejsy na wyspy Mamanuca (Cloud 9, Malolo, Monuriki), Ogród Śpiącego Olbrzyma, błotne źródła Sabeto, świątynia Sri Siva Subramaniya, wydmy Sigatoka. Dojazd: z 2 przesiadkami (np. przez Bliski Wschód i Hongkong lub Singapur), ok. 30 h.",
+  "fixed": {
+    "beaches": {
+      "est": 2
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": {
+      "est": 30
+    },
+    "stops": 2,
+    "transfer": {
+      "est": 0.3
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.4,
+      "temp_night": 23.3,
+      "dew_point": {
+        "est": 23.8
+      },
+      "sun": 6.7,
+      "rain": 365,
+      "rain_days": 14.1,
+      "uv": {
+        "est": 8
+      },
+      "wind": 17,
+      "water": 28.9,
+      "flight_price": {
+        "est": 7900
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu cyklonów (sezon XI–IV, najwięcej w I–II): przy cyklonie kilka dni ulew, wichury i odwołanych rejsów na wyspy i lotów, w Nadi możliwe powodzie rzeki Nadi i zalane drogi."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.5,
+      "temp_night": 23.3,
+      "dew_point": {
+        "est": 24.1
+      },
+      "sun": 6.6,
+      "rain": 336,
+      "rain_days": 15.1,
+      "uv": {
+        "est": 8
+      },
+      "wind": 17,
+      "water": 28.9,
+      "flight_price": {
+        "est": 6500
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu cyklonów (sezon XI–IV, najwięcej w I–II): przy cyklonie kilka dni ulew, wichury i odwołanych rejsów na wyspy i lotów, w Nadi możliwe powodzie rzeki Nadi i zalane drogi."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.3,
+      "temp_night": 23.3,
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": 6.2,
+      "rain": 351,
+      "rain_days": 16.2,
+      "uv": {
+        "est": 6
+      },
+      "wind": 17,
+      "water": 28.9,
+      "flight_price": {
+        "est": 6500
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu cyklonów (sezon XI–IV, najwięcej w I–II): przy cyklonie kilka dni ulew, wichury i odwołanych rejsów na wyspy i lotów, w Nadi możliwe powodzie rzeki Nadi i zalane drogi."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.8,
+      "temp_night": 22.6,
+      "dew_point": {
+        "est": 23.4
+      },
+      "sun": 6.4,
+      "rain": 188,
+      "rain_days": 9.9,
+      "uv": {
+        "est": 7
+      },
+      "wind": 18,
+      "water": 28.3,
+      "flight_price": {
+        "est": 6800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 29.7,
+      "temp_night": 21.1,
+      "dew_point": {
+        "est": 21.7
+      },
+      "sun": 6.8,
+      "rain": 92,
+      "rain_days": 4.9,
+      "uv": {
+        "est": 5
+      },
+      "wind": 20,
+      "water": 27.8,
+      "flight_price": {
+        "est": 6800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29,
+      "temp_night": 20.1,
+      "dew_point": {
+        "est": 20.7
+      },
+      "sun": 6.6,
+      "rain": 57,
+      "rain_days": 3.6,
+      "uv": {
+        "est": 6
+      },
+      "wind": 20,
+      "water": 26.7,
+      "flight_price": {
+        "est": 6200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.5,
+      "temp_night": 19.2,
+      "dew_point": {
+        "est": 19.4
+      },
+      "sun": 7,
+      "rain": 51,
+      "rain_days": 3.1,
+      "uv": {
+        "est": 5
+      },
+      "wind": 20,
+      "water": 26.1,
+      "flight_price": {
+        "est": 8800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.6,
+      "temp_night": 19.4,
+      "dew_point": {
+        "est": 19.3
+      },
+      "sun": 7.1,
+      "rain": 65,
+      "rain_days": 4.1,
+      "uv": {
+        "est": 6
+      },
+      "wind": 21,
+      "water": 25.6,
+      "flight_price": {
+        "est": 8900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.2,
+      "temp_night": 20.3,
+      "dew_point": {
+        "est": 19.8
+      },
+      "sun": 6.8,
+      "rain": 72,
+      "rain_days": 4.7,
+      "uv": {
+        "est": 7
+      },
+      "wind": 20,
+      "water": 26.1,
+      "flight_price": {
+        "est": 7900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.1,
+      "temp_night": 21.3,
+      "dew_point": {
+        "est": 20.9
+      },
+      "sun": 7.1,
+      "rain": 87,
+      "rain_days": 6.5,
+      "uv": {
+        "est": 8
+      },
+      "wind": 20,
+      "water": 26.7,
+      "flight_price": {
+        "est": 6800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.8,
+      "temp_night": 22.3,
+      "dew_point": {
+        "est": 22
+      },
+      "sun": 7.2,
+      "rain": 127,
+      "rain_days": 8.7,
+      "uv": {
+        "est": 8
+      },
+      "wind": 18,
+      "water": 27.2,
+      "flight_price": {
+        "est": 6500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.4,
+      "temp_night": 23,
+      "dew_point": {
+        "est": 23
+      },
+      "sun": 6.9,
+      "rain": 210,
+      "rain_days": 11.9,
+      "uv": {
+        "est": 7
+      },
+      "wind": 18,
+      "water": 28.3,
+      "flight_price": {
+        "est": 7900
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Nadi – tabela klimatyczna, lotnisko Nadi, normy 1991–2020 (WMO; wilgotność 1962–1990: NOAA, Deutscher Wetterdienst): temperatury, opad, dni z opadem ≥ 1 mm, wilgotność, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Nadi",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Weather Spark: Nadi – średnia godzinowa prędkość wiatru na 10 m, średnia temperatura wody",
+      "url": "https://weatherspark.com/y/144944/Average-Weather-in-Nadi-Fiji-Year-Round",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: Fidżi – pogoda miesiąc po miesiącu (12 stron, np. /fiji-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 17.71°S 177.99°E (środek Viti Levu)",
+      "url": "https://bestdateweather.com/en/fiji-weather-january",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Asia Pacific Report: Fiji Meteorological Service o sezonie cyklonów (XI–IV, najwięcej w I–II, średnio 7 cyklonów w regionie RSMC Nadi)",
+      "url": "https://asiapacificreport.nz/2022/10/24/fijis-weather-bureau-predicts-up-to-seven-cyclones-this-season/",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Nadi – statystyki cen w obie strony (miesiące: VI 6 198, VII 8 762, VIII 9 665; średnia 12 mies. 6 798 zł; typowo 6 338–7 758 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Nadi-NAN",
+      "checked": "2026-10-14"
+    }
+  ]
+}

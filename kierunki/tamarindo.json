@@ -1,0 +1,501 @@
+{
+  "id": "tamarindo",
+  "country": "Kostaryka",
+  "place": "Tamarindo (Guanacaste)",
+  "notes": "Klimat tropikalny suchy–wilgotny po pacyficznej stronie: pora sucha XII–IV praktycznie bez deszczu, z silnym wiatrem Papagayo wiejącym od lądu (XII–III); pora deszczowa V–XI z krótką przerwą „veranillo” w VII i maksimum IX–X (popołudniowe i nocne ulewy, drogi gruntowe błotniste). Huragany rzadko dochodzą do wybrzeża Pacyfiku. Baza pobytu: plaża Tamarindo – szeroka, piaszczysta, z falą dla początkujących surferów; w pobliżu Playa Langosta, Playa Grande (park narodowy Las Baulas) i Conchal (ok. 20–25 min). Pogoda: temperatury z siatki CRU dla wybrzeża (weather2travel), opad, dni deszczowe, słońce i punkt rosy ze stacji Liberia (ok. 60 km w głębi lądu), więc wszystko jako szacunek. Zieleń: suchy las tropikalny – zielony w porze deszczowej, w III–IV w dużej części brązowy i bezlistny. Wycieczki: Rincón de la Vieja (wulkan, gorące źródła, ok. 1,5–2 h), wodospad Llanos de Cortés, Palo Verde (ptaki, krokodyle), rejsy po estuarium, żółwie skórzaste na Playa Grande (X–III, dziś rzadko). Dojazd: lotnisko Liberia (LIR), ok. 1–1,5 h samochodem; z WAW z 1 przesiadką przez Nowy Jork (cały rok) lub zimą przez Zurych (Edelweiss, z międzylądowaniem w San José).",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 4
+    },
+    "flight_time": {
+      "est": 18
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 1.3
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 32
+      },
+      "temp_night": {
+        "est": 23
+      },
+      "dew_point": {
+        "est": 18.8
+      },
+      "sun": {
+        "est": 9.6
+      },
+      "rain": {
+        "est": 1
+      },
+      "rain_days": {
+        "est": 0
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 20
+      },
+      "water": 27.8,
+      "flight_price": {
+        "est": 5100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 33
+      },
+      "temp_night": {
+        "est": 23
+      },
+      "dew_point": {
+        "est": 18.9
+      },
+      "sun": {
+        "est": 9.8
+      },
+      "rain": {
+        "est": 2
+      },
+      "rain_days": {
+        "est": 0
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 20
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 33
+      },
+      "temp_night": {
+        "est": 23
+      },
+      "dew_point": {
+        "est": 19
+      },
+      "sun": {
+        "est": 9.8
+      },
+      "rain": {
+        "est": 4
+      },
+      "rain_days": {
+        "est": 0
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 17
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Semana Santa (zależnie od roku marzec lub kwiecień): Wielki Czwartek i Piątek to święta państwowe – zamknięte urzędy, banki i część firm, autobusy według ograniczonego rozkładu, plaże pełne rodzin z całego kraju."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 33
+      },
+      "temp_night": {
+        "est": 24
+      },
+      "dew_point": {
+        "est": 20.5
+      },
+      "sun": {
+        "est": 8.9
+      },
+      "rain": {
+        "est": 24
+      },
+      "rain_days": {
+        "est": 1
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Semana Santa (zależnie od roku marzec lub kwiecień): Wielki Czwartek i Piątek to święta państwowe – zamknięte urzędy, banki i część firm, autobusy według ograniczonego rozkładu, plaże pełne rodzin z całego kraju."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 32
+      },
+      "temp_night": {
+        "est": 24
+      },
+      "dew_point": {
+        "est": 23.4
+      },
+      "sun": {
+        "est": 6.6
+      },
+      "rain": {
+        "est": 194
+      },
+      "rain_days": {
+        "est": 9
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 11
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 23
+      },
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": {
+        "est": 5.6
+      },
+      "rain": {
+        "est": 246
+      },
+      "rain_days": {
+        "est": 14
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 10
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 23
+      },
+      "dew_point": {
+        "est": 23.5
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 153
+      },
+      "rain_days": {
+        "est": 10
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 11
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 23
+      },
+      "dew_point": {
+        "est": 23.4
+      },
+      "sun": {
+        "est": 5.9
+      },
+      "rain": {
+        "est": 209
+      },
+      "rain_days": {
+        "est": 12
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 10
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 30
+      },
+      "temp_night": {
+        "est": 23
+      },
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": {
+        "est": 5.3
+      },
+      "rain": {
+        "est": 346
+      },
+      "rain_days": {
+        "est": 17
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 10
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 23
+      },
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": {
+        "est": 5.5
+      },
+      "rain": {
+        "est": 310
+      },
+      "rain_days": {
+        "est": 16
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 11
+      },
+      "water": 27.8,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 23
+      },
+      "dew_point": {
+        "est": 22.6
+      },
+      "sun": {
+        "est": 6.8
+      },
+      "rain": {
+        "est": 98
+      },
+      "rain_days": {
+        "est": 6
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": 27.8,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 22
+      },
+      "dew_point": {
+        "est": 20.3
+      },
+      "sun": {
+        "est": 8.4
+      },
+      "rain": {
+        "est": 12
+      },
+      "rain_days": {
+        "est": 2
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 17
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "weather2travel: Tamarindo – klimat miesiąc po miesiącu (CRU, Met Office, KNMI): temperatura maks. i min. (kontrolnie słońce, opad, woda)",
+      "url": "https://www.weather2travel.com/costa-rica/tamarindo/climate/",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Wikipedia: Liberia (Kostaryka) – tabela klimatyczna (Instituto Meteorológico Nacional, Weather Spark): opad, dni z opadem ≥ 1 mm, punkt rosy, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Liberia,_Costa_Rica",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Weather Spark: Santa Cruz (Kostaryka) – średnia godzinowa prędkość wiatru na 10 m",
+      "url": "https://weatherspark.com/y/14903/Average-Weather-in-Santa-Cruz-Costa-Rica-Year-Round",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "seatemperatu.re: Tamarindo – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/central-america/costa-rica/tamarindo/when.html",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: Nikaragua – pogoda miesiąc po miesiącu (12 stron, np. /nicaragua-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 12.11°N 86.27°W (pacyficzne niziny, ok. 230 km na północ)",
+      "url": "https://bestdateweather.com/en/nicaragua-weather-january",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Costa Rica Vibes: Wielkanoc w Kostaryce (święta państwowe w Wielki Czwartek i Piątek, zamknięcia, ograniczone autobusy, tłok na plażach)",
+      "url": "https://www.costaricavibes.com/easter-in-costa-rica/",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Liberia – statystyki cen w obie strony (miesiące: I 5 098, VIII 4 043; średnia 12 mies. 4 654 zł; typowo 4 151–4 929 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Liberia-LIR",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK: Nowy Jork JFK – Liberia (bez przesiadek, średnio 5 h 07 min; JetBlue, American, Delta)",
+      "url": "https://www.kayak.com/flight-routes/Liberia-LIR/New-York-John-F-Kennedy-Intl-JFK",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Aviacionline: Edelweiss zwiększa loty do Kostaryki (Zurych–Liberia sezonowo zimą, przez San José)",
+      "url": "https://www.aviacionline.com/edelweiss-increases-its-flights-to-costa-rica",
+      "checked": "2026-10-14"
+    }
+  ]
+}

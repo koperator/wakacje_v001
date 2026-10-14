@@ -1,0 +1,366 @@
+{
+  "id": "goa-polnocne",
+  "country": "Indie",
+  "place": "Goa Północne (Calangute / Baga)",
+  "notes": "Wybrzeże Konkanu: pora sucha XI–V praktycznie bez deszczu, monsun SW VI–IX z bardzo dużym opadem (VI–VII ok. 900 mm/miesiąc). Baza pobytu: Calangute i Baga. Pogoda ze stacji IMD Panaji (ok. 12 km, normy 1991–2020). Zieleń: palmy kokosowe i wioski, bardzo zielono po monsunie (IX–XI), w III–V przesycha. Wycieczki jednodniowe: Stare Goa (kościoły UNESCO), forty Aguada i Chapora, targi w Anjunie i Mapusie, farmy przypraw, wodospad Dudhsagar. W monsunie plaże zamknięte dla kąpieli i większość beach shacków nieczynna. Dojazd: brak regularnych lotów bezpośrednich (sezonowe czartery); z 1 przesiadką w Zatoce do Dabolim (GOI) albo Mopa (GOX, bliżej północnych plaż).",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": 1,
+    "flight_time": 15.2,
+    "stops": 1,
+    "transfer": {
+      "est": 1
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.5,
+      "temp_night": 20,
+      "dew_point": {
+        "est": 17.1
+      },
+      "sun": 9.8,
+      "rain": 1,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": 7,
+      "wind": 13,
+      "water": 27.8,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.4,
+      "temp_night": 20.6,
+      "dew_point": {
+        "est": 17.9
+      },
+      "sun": 10.3,
+      "rain": 0,
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 8,
+      "wind": 14,
+      "water": 27.8,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.6,
+      "temp_night": 23.3,
+      "dew_point": {
+        "est": 20.7
+      },
+      "sun": 9.3,
+      "rain": 0,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": 9,
+      "wind": 13,
+      "water": 28.3,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 33.4,
+      "temp_night": 25.4,
+      "dew_point": {
+        "est": 22.7
+      },
+      "sun": 9.3,
+      "rain": 5,
+      "rain_days": {
+        "est": 0.3
+      },
+      "uv": 9,
+      "wind": 13,
+      "water": 29.4,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 33.8,
+      "temp_night": 26.3,
+      "dew_point": {
+        "est": 23.8
+      },
+      "sun": 9.2,
+      "rain": 77,
+      "rain_days": {
+        "est": 3.6
+      },
+      "uv": 8,
+      "wind": 15,
+      "water": 30,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Koniec sezonu: od drugiej połowy maja rośnie fala przed monsunem, część beach shacków jest rozbierana, a sporty wodne kończą się zwykle do końca miesiąca."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.9,
+      "temp_night": 24.9,
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": 4.4,
+      "rain": 890,
+      "rain_days": {
+        "est": 21.2
+      },
+      "uv": 7,
+      "wind": 21,
+      "water": 29.4,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 3,
+          "note": "Monsun SW: władze Goa zamykają plaże dla kąpieli i wszystkich sportów wodnych, czerwone flagi na wszystkich plażach (Drishti odradza nawet brodzenie: prądy wsteczne i fala), większość beach shacków zamknięta."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 29.3,
+      "temp_night": 24.2,
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": 3.1,
+      "rain": 955,
+      "rain_days": {
+        "est": 26.7
+      },
+      "uv": 4,
+      "wind": 23,
+      "water": 28.9,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 3,
+          "note": "Monsun SW: władze Goa zamykają plaże dla kąpieli i wszystkich sportów wodnych, czerwone flagi na wszystkich plażach (Drishti odradza nawet brodzenie: prądy wsteczne i fala), większość beach shacków zamknięta."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 29.5,
+      "temp_night": 24.2,
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": 3.9,
+      "rain": 572,
+      "rain_days": {
+        "est": 23
+      },
+      "uv": 7,
+      "wind": 20,
+      "water": 27.8,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 3,
+          "note": "Monsun SW: władze Goa zamykają plaże dla kąpieli i wszystkich sportów wodnych, czerwone flagi na wszystkich plażach (Drishti odradza nawet brodzenie: prądy wsteczne i fala), większość beach shacków zamknięta."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.2,
+      "temp_night": 24,
+      "dew_point": {
+        "est": 23.8
+      },
+      "sun": 6,
+      "rain": 304,
+      "rain_days": {
+        "est": 13.7
+      },
+      "uv": 8,
+      "wind": 15,
+      "water": 28.3,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Koniec monsunu: Drishti nadal odradza wchodzenie do morza, czerwone flagi; w suche dni części plaż otwierane z czerwono-żółtymi flagami; shacki i sporty wodne wracają zwykle od października."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32,
+      "temp_night": 24,
+      "dew_point": {
+        "est": 23.4
+      },
+      "sun": 7.5,
+      "rain": 156,
+      "rain_days": {
+        "est": 6.8
+      },
+      "uv": 8,
+      "wind": 11,
+      "water": 28.9,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 33.5,
+      "temp_night": 22.7,
+      "dew_point": {
+        "est": 20.9
+      },
+      "sun": 9,
+      "rain": 21,
+      "rain_days": {
+        "est": 1.5
+      },
+      "uv": 7,
+      "wind": 11,
+      "water": 28.9,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 33.1,
+      "temp_night": 20.9,
+      "dew_point": {
+        "est": 18
+      },
+      "sun": 9.5,
+      "rain": 3,
+      "rain_days": {
+        "est": 0.2
+      },
+      "uv": 6,
+      "wind": 12,
+      "water": 28.3,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Panaji – tabela klimatyczna 1991–2020 (India Meteorological Department; nasłonecznienie IMD 1971–2000; wilgotność o 17:30)",
+      "url": "https://en.wikipedia.org/wiki/Panaji",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Weather Spark: Calangute – średnia godzinowa prędkość wiatru na 10 m, temperatura wody – kontrola",
+      "url": "https://weatherspark.com/y/107544/Average-Weather-in-Calangute-Goa-India-Year-Round",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "seatemperatu.re: Calangute – średnia temperatura morza w miesiącach (średnie z lat poprzednich)",
+      "url": "https://www.seatemperatu.re/central-and-south-asia/goa/calangute/when.html",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: Goa – pogoda miesiąc po miesiącu (12 stron, np. /goa-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 15.49°N 73.82°E",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-goa",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Herald Goa: Drishti odradza kąpiel w monsunie (VI–IX), plaże zamknięte dla kąpieli i sportów wodnych VI–VIII, czerwone flagi",
+      "url": "https://www.heraldgoa.in/goa/drishti-issues-advisory-against-swimming-in-the-sea/216314",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "SOTC: najlepszy czas na Goa (szczyt XI–II, tańsze III–V i X, monsun VI–IX: większość shacków i sportów wodnych zamknięta)",
+      "url": "https://www.sotc.in/tourism/goa-tourism/best-time-to-visit-goa",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.co.in: Polska – Goa (najkrótsza trasa WAW–GOI, średnio 15 h 10 min)",
+      "url": "https://www.kayak.co.in/flight-routes/Poland-PL0/Goa-INGA",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Goa – statystyki cen w obie strony (miesiące: II 3 224, III 4 128; średnia 12 mies. 3 264 zł; typowo 3 067–3 760 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Goa-GOI",
+      "checked": "2026-10-14"
+    }
+  ]
+}

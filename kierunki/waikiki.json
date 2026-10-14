@@ -1,0 +1,376 @@
+{
+  "id": "waikiki",
+  "country": "USA (Hawaje)",
+  "place": "Waikīkī, Oʻahu",
+  "notes": "Klimat tropikalny morski z pasatem: po zawietrznej (południowej) stronie Oʻahu sucho i słonecznie przez cały rok; „zima” XI–III z częstszymi przelotnymi opadami i burzami Kona, lato IV–X suche i najcieplejsze. Sezon huraganów na środkowym Pacyfiku VI–XI, ale bezpośrednie uderzenia w Oʻahu są bardzo rzadkie. Baza pobytu: plaża Waikīkī – piaszczysta, wąska i zatłoczona, osłonięta rafą (spokojna woda, łagodne fale dla początkujących surferów); latem fale z południa, zimą wielkie fale tylko na północnym wybrzeżu (North Shore). Pogoda ze stacji lotniska Honolulu (ok. 8 km, normy 1991–2020). Zieleń: miasto z wieżowcami, park Kapiʻolani i Diamond Head; zielone góry Koʻolau w tle. Wycieczki: Pearl Harbor, Diamond Head, Hanauma Bay (rezerwacja), North Shore, Kualoa, pałac ʻIolani. Dojazd: z 1 przesiadką w Los Angeles, ok. 23,5 h.",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 5
+    },
+    "flight_time": 23.4,
+    "stops": 1,
+    "transfer": {
+      "est": 0.5
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26.9,
+      "temp_night": 19.3,
+      "dew_point": 17.2,
+      "sun": 6.9,
+      "rain": 47,
+      "rain_days": {
+        "est": 7.4
+      },
+      "uv": 6,
+      "wind": 20,
+      "water": 24.7,
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Meduzy kostkowe (box jellyfish) co miesiąc ok. 8–10 dni po pełni przypływają na plaże południowego wybrzeża, w tym Waikīkī: przez kilka dni bolesne poparzenia przy kąpieli, ratownicy wystawiają tablice ostrzegawcze; termin przesuwa się z fazą Księżyca."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26.9,
+      "temp_night": 19.5,
+      "dew_point": 16.7,
+      "sun": 7.5,
+      "rain": 49,
+      "rain_days": {
+        "est": 6.2
+      },
+      "uv": 7,
+      "wind": 21,
+      "water": 24.4,
+      "flight_price": {
+        "est": 5200
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Meduzy kostkowe (box jellyfish) co miesiąc ok. 8–10 dni po pełni przypływają na plaże południowego wybrzeża, w tym Waikīkī: przez kilka dni bolesne poparzenia przy kąpieli, ratownicy wystawiają tablice ostrzegawcze; termin przesuwa się z fazą Księżyca."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27.3,
+      "temp_night": 20.1,
+      "dew_point": 17.2,
+      "sun": 8.4,
+      "rain": 60,
+      "rain_days": {
+        "est": 5.9
+      },
+      "uv": 8,
+      "wind": 23,
+      "water": 24.3,
+      "flight_price": {
+        "est": 5200
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Meduzy kostkowe (box jellyfish) co miesiąc ok. 8–10 dni po pełni przypływają na plaże południowego wybrzeża, w tym Waikīkī: przez kilka dni bolesne poparzenia przy kąpieli, ratownicy wystawiają tablice ostrzegawcze; termin przesuwa się z fazą Księżyca."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 28.4,
+      "temp_night": 21.2,
+      "dew_point": 17.8,
+      "sun": 8.4,
+      "rain": 20,
+      "rain_days": {
+        "est": 4.2
+      },
+      "uv": 8,
+      "wind": 24,
+      "water": 25,
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Meduzy kostkowe (box jellyfish) co miesiąc ok. 8–10 dni po pełni przypływają na plaże południowego wybrzeża, w tym Waikīkī: przez kilka dni bolesne poparzenia przy kąpieli, ratownicy wystawiają tablice ostrzegawcze; termin przesuwa się z fazą Księżyca."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 29.3,
+      "temp_night": 21.9,
+      "dew_point": 18.3,
+      "sun": 9.1,
+      "rain": 21,
+      "rain_days": {
+        "est": 3.5
+      },
+      "uv": 8,
+      "wind": 23,
+      "water": 25.5,
+      "flight_price": {
+        "est": 4800
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Meduzy kostkowe (box jellyfish) co miesiąc ok. 8–10 dni po pełni przypływają na plaże południowego wybrzeża, w tym Waikīkī: przez kilka dni bolesne poparzenia przy kąpieli, ratownicy wystawiają tablice ostrzegawcze; termin przesuwa się z fazą Księżyca."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.5,
+      "temp_night": 23.2,
+      "dew_point": 18.9,
+      "sun": 9.5,
+      "rain": 13,
+      "rain_days": {
+        "est": 2.1
+      },
+      "uv": 9,
+      "wind": 25,
+      "water": 25.9,
+      "flight_price": {
+        "est": 5200
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Meduzy kostkowe (box jellyfish) co miesiąc ok. 8–10 dni po pełni przypływają na plaże południowego wybrzeża, w tym Waikīkī: przez kilka dni bolesne poparzenia przy kąpieli, ratownicy wystawiają tablice ostrzegawcze; termin przesuwa się z fazą Księżyca."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.2,
+      "temp_night": 23.9,
+      "dew_point": 19.4,
+      "sun": 9.9,
+      "rain": 13,
+      "rain_days": {
+        "est": 2.7
+      },
+      "uv": 9,
+      "wind": 26,
+      "water": 26,
+      "flight_price": {
+        "est": 5400
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Meduzy kostkowe (box jellyfish) co miesiąc ok. 8–10 dni po pełni przypływają na plaże południowego wybrzeża, w tym Waikīkī: przez kilka dni bolesne poparzenia przy kąpieli, ratownicy wystawiają tablice ostrzegawcze; termin przesuwa się z fazą Księżyca."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.6,
+      "temp_night": 24.2,
+      "dew_point": 19.4,
+      "sun": 9.8,
+      "rain": 21,
+      "rain_days": {
+        "est": 2.9
+      },
+      "uv": 9,
+      "wind": 25,
+      "water": 26.4,
+      "flight_price": {
+        "est": 5400
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Meduzy kostkowe (box jellyfish) co miesiąc ok. 8–10 dni po pełni przypływają na plaże południowego wybrzeża, w tym Waikīkī: przez kilka dni bolesne poparzenia przy kąpieli, ratownicy wystawiają tablice ostrzegawcze; termin przesuwa się z fazą Księżyca."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.3,
+      "temp_night": 23.8,
+      "dew_point": 20,
+      "sun": 9.3,
+      "rain": 22,
+      "rain_days": {
+        "est": 3.4
+      },
+      "uv": 8,
+      "wind": 23,
+      "water": 26.9,
+      "flight_price": {
+        "est": 4800
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Meduzy kostkowe (box jellyfish) co miesiąc ok. 8–10 dni po pełni przypływają na plaże południowego wybrzeża, w tym Waikīkī: przez kilka dni bolesne poparzenia przy kąpieli, ratownicy wystawiają tablice ostrzegawcze; termin przesuwa się z fazą Księżyca."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.5,
+      "temp_night": 23.3,
+      "dew_point": 20,
+      "sun": 7.9,
+      "rain": 38,
+      "rain_days": {
+        "est": 4.9
+      },
+      "uv": 7,
+      "wind": 22,
+      "water": 26.5,
+      "flight_price": {
+        "est": 4800
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Meduzy kostkowe (box jellyfish) co miesiąc ok. 8–10 dni po pełni przypływają na plaże południowego wybrzeża, w tym Waikīkī: przez kilka dni bolesne poparzenia przy kąpieli, ratownicy wystawiają tablice ostrzegawcze; termin przesuwa się z fazą Księżyca."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 28.9,
+      "temp_night": 22.1,
+      "dew_point": 18.9,
+      "sun": 6.7,
+      "rain": 57,
+      "rain_days": {
+        "est": 5.8
+      },
+      "uv": 6,
+      "wind": 23,
+      "water": 25.9,
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Meduzy kostkowe (box jellyfish) co miesiąc ok. 8–10 dni po pełni przypływają na plaże południowego wybrzeża, w tym Waikīkī: przez kilka dni bolesne poparzenia przy kąpieli, ratownicy wystawiają tablice ostrzegawcze; termin przesuwa się z fazą Księżyca."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27.7,
+      "temp_night": 20.7,
+      "dew_point": 18.3,
+      "sun": 6.4,
+      "rain": 55,
+      "rain_days": {
+        "est": 6.7
+      },
+      "uv": 6,
+      "wind": 22,
+      "water": 25,
+      "flight_price": {
+        "est": 5200
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Meduzy kostkowe (box jellyfish) co miesiąc ok. 8–10 dni po pełni przypływają na plaże południowego wybrzeża, w tym Waikīkī: przez kilka dni bolesne poparzenia przy kąpieli, ratownicy wystawiają tablice ostrzegawcze; termin przesuwa się z fazą Księżyca."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Honolulu – tabela klimatyczna, lotnisko Honolulu, normy 1991–2020 (NOAA; nasłonecznienie 1961–1990); tabela temperatury morza (seatemperature.org, Weather Atlas)",
+      "url": "https://en.wikipedia.org/wiki/Honolulu",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "timeanddate: Honolulu – klimat, lotnisko Honolulu 1992–2021: średni punkt rosy",
+      "url": "https://www.timeanddate.com/weather/usa/honolulu/climate",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Weather Spark: lotnisko Honolulu – średnia godzinowa prędkość wiatru na 10 m, dni z opadem ≥ 0,04 in",
+      "url": "https://weatherspark.com/y/145034/Average-Weather-at-Honolulu-International-Airport-Hawaii-United-States-Year-Round",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: Honolulu – pogoda miesiąc po miesiącu (12 stron, np. /honolulu-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 21.31°N 157.86°W",
+      "url": "https://bestdateweather.com/en/honolulu-weather-january",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Hawaii News Now: meduzy kostkowe na Waikīkī co miesiąc 8–10 dni po pełni (2019: ponad 900 poparzonych)",
+      "url": "https://www.hawaiinewsnow.com/2019/05/28/ouch-box-jellyfish-sting-more-than-waikiki-beaches",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Honolulu – statystyki cen w obie strony (miesiące: I 4 537, VII 5 417, VIII 5 436; średnia 12 mies. 5 008 zł; typowo 4 527–5 507 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Honolulu-HNL",
+      "checked": "2026-10-14"
+    }
+  ]
+}

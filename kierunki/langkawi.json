@@ -1,0 +1,403 @@
+{
+  "id": "langkawi",
+  "country": "Malezja",
+  "place": "Langkawi (Pantai Cenang)",
+  "notes": "Morze Andamańskie, północna Malezja: pora sucha XII–III, deszczowo IV–XI z maksimum IX–X; monsun SW łagodniejszy niż na Phukecie. Baza pobytu: Pantai Cenang na zachodnim wybrzeżu, ok. 3 km od lotniska i stacji meteorologicznej Pulau Langkawi. Zieleń: wyspa w większości pokryta lasem deszczowym i namorzynami (geopark UNESCO), zielono cały rok. Wycieczki: kolejka SkyCab i Sky Bridge, namorzyny Kilim, wodospady, rejsy po wyspach. Meduzy, w tym kubomeduzy, przez cały rok przy Pantai Cenang (2024: 73 poparzenia; śmiertelny wypadek w XI 2025). Mgła z pożarów na Sumatrze możliwa w VIII–X w latach suchych. Dojazd: brak regularnych lotów bezpośrednich (LOT tylko sezonowy czarter); z 1 przesiadką przez Dubaj (flydubai / Emirates, lot z międzylądowaniem w Penang) albo z 2 przesiadkami przez Kuala Lumpur lub Singapur.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": 5,
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 23.1,
+    "stops": 1,
+    "transfer": {
+      "est": 0.2
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.9,
+      "temp_night": 24.4,
+      "dew_point": {
+        "est": 22
+      },
+      "sun": 8.5,
+      "rain": 24,
+      "rain_days": {
+        "est": 3
+      },
+      "uv": 8,
+      "wind": 17,
+      "water": 28.3,
+      "flight_price": {
+        "est": 4800
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Hari Raya Aidilfitri (koniec ramadanu, zależnie od roku; w latach 2027–2030 od stycznia do marca): przez 2–3 dni zamknięta część lokalnych restauracji i sklepów, promy i hotele przepełnione turystami krajowymi."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 33.2,
+      "temp_night": 24.4,
+      "dew_point": {
+        "est": 22.4
+      },
+      "sun": 8.8,
+      "rain": 33,
+      "rain_days": {
+        "est": 5
+      },
+      "uv": 9,
+      "wind": 15,
+      "water": 28.9,
+      "flight_price": {
+        "est": 4800
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Hari Raya Aidilfitri (koniec ramadanu, zależnie od roku; w latach 2027–2030 od stycznia do marca): przez 2–3 dni zamknięta część lokalnych restauracji i sklepów, promy i hotele przepełnione turystami krajowymi."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 33,
+      "temp_night": 24.7,
+      "dew_point": {
+        "est": 23.7
+      },
+      "sun": 8.2,
+      "rain": 105,
+      "rain_days": {
+        "est": 10
+      },
+      "uv": 9,
+      "wind": 12,
+      "water": 29.4,
+      "flight_price": {
+        "est": 4800
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Hari Raya Aidilfitri (koniec ramadanu, zależnie od roku; w latach 2027–2030 od stycznia do marca): przez 2–3 dni zamknięta część lokalnych restauracji i sklepów, promy i hotele przepełnione turystami krajowymi."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.3,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": 8,
+      "rain": 197,
+      "rain_days": {
+        "est": 15
+      },
+      "uv": 9,
+      "wind": 10,
+      "water": 30.6,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.7,
+      "temp_night": 25.2,
+      "dew_point": {
+        "est": 24.9
+      },
+      "sun": 6.9,
+      "rain": 207,
+      "rain_days": {
+        "est": 18
+      },
+      "uv": 8,
+      "wind": 10,
+      "water": 30.6,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.5,
+      "temp_night": 24.9,
+      "dew_point": {
+        "est": 24.8
+      },
+      "sun": 6.7,
+      "rain": 250,
+      "rain_days": {
+        "est": 17
+      },
+      "uv": 7,
+      "wind": 12,
+      "water": 30.6,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.1,
+      "temp_night": 24.6,
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": 6.8,
+      "rain": 266,
+      "rain_days": {
+        "est": 19
+      },
+      "uv": 7,
+      "wind": 12,
+      "water": 30.6,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Meduzy, w tym kubomeduzy, przy Pantai Cenang i Pantai Tengah: dane szpitalne 2012–2014 pokazują najwięcej poparzeń w VII i X–XII; ryzyko niskie, ale przypadki zdarzają się co roku, kąpiel najlepiej przy wieży ratowników."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.9,
+      "temp_night": 24.7,
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": 6.5,
+      "rain": 319,
+      "rain_days": {
+        "est": 19
+      },
+      "uv": 7,
+      "wind": 13,
+      "water": 30,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.6,
+      "temp_night": 24.4,
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": 5.8,
+      "rain": 341,
+      "rain_days": {
+        "est": 21
+      },
+      "uv": 7,
+      "wind": 13,
+      "water": 29.4,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.7,
+      "temp_night": 24.3,
+      "dew_point": {
+        "est": 24.2
+      },
+      "sun": 6,
+      "rain": 373,
+      "rain_days": {
+        "est": 23
+      },
+      "uv": 8,
+      "wind": 13,
+      "water": 30,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Meduzy, w tym kubomeduzy, przy Pantai Cenang i Pantai Tengah: dane szpitalne 2012–2014 pokazują najwięcej poparzeń w VII i X–XII; ryzyko niskie, ale przypadki zdarzają się co roku, kąpiel najlepiej przy wieży ratowników."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.3,
+      "temp_night": 24.5,
+      "dew_point": {
+        "est": 23.8
+      },
+      "sun": 6.3,
+      "rain": 193,
+      "rain_days": {
+        "est": 16
+      },
+      "uv": 7,
+      "wind": 14,
+      "water": 30,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Meduzy, w tym kubomeduzy, przy Pantai Cenang i Pantai Tengah: dane szpitalne 2012–2014 pokazują najwięcej poparzeń w VII i X–XII; ryzyko niskie, ale przypadki zdarzają się co roku, kąpiel najlepiej przy wieży ratowników."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.6,
+      "temp_night": 24.4,
+      "dew_point": {
+        "est": 22.5
+      },
+      "sun": 7.3,
+      "rain": 58,
+      "rain_days": {
+        "est": 8
+      },
+      "uv": 7,
+      "wind": 18,
+      "water": 28.9,
+      "flight_price": {
+        "est": 5300
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Meduzy, w tym kubomeduzy, przy Pantai Cenang i Pantai Tengah: dane szpitalne 2012–2014 pokazują najwięcej poparzeń w VII i X–XII; ryzyko niskie, ale przypadki zdarzają się co roku, kąpiel najlepiej przy wieży ratowników."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Langkawi – tabela klimatyczna, stacja Pulau Langkawi (Malaysian Meteorological Department): temperatury, opad, dni z opadem, wilgotność",
+      "url": "https://en.wikipedia.org/wiki/Langkawi",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Climates to Travel: Langkawi (temperatury 2000–2020; nasłonecznienie, opad, dni deszczowe, morze)",
+      "url": "https://www.climatestotravel.com/climate/malaysia/langkawi",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Weather Spark: Pantai Cenang – średnia godzinowa prędkość wiatru na 10 m, temperatura wody – kontrola",
+      "url": "https://weatherspark.com/y/112944/Average-Weather-in-Pantai-Cenang-Malaysia-Year-Round",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "seatemperatu.re: Langkawi – średnia temperatura morza w miesiącach (średnie z lat poprzednich)",
+      "url": "https://www.seatemperatu.re/southeast-asia/malaysia/langkawi-island/when.html",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: Langkawi – pogoda miesiąc po miesiącu (12 stron, np. /langkawi-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 6.35°N 99.73°E",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-langkawi",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "The World Pursuit: kiedy jechać na Langkawi (sezon, ceny, deszcz, święta)",
+      "url": "https://theworldpursuit.com/best-time-to-visit-langkawi/",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Langkawi Book: bezpieczeństwo a meduzy (dane szpitalne 2012–2014: najwięcej poparzeń VII, X–XII)",
+      "url": "https://www.langkawibook.my/blogs/jellyfish-safety-tips-in-langkawi",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "The Vibes: 102 poparzenia meduz na Langkawi w 3 lata, najwięcej przy Pantai Cenang (20.11.2025)",
+      "url": "https://www.thevibes.com/articles/news/115855/102-jellyfish-stings-recorded-in-langkawi-over-last-three-years",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Wikipedia: Langkawi International Airport – połączenia (flydubai z Dubaju przez Penang; LOT tylko sezonowy czarter z Warszawy)",
+      "url": "https://en.wikipedia.org/wiki/Langkawi_International_Airport",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.com.my: Polska – Langkawi (najkrótszy czas z Warszawy ok. 23 h 05 min)",
+      "url": "https://kayak.com.my/flight-routes/Poland-PL0/Langkawi-Island-LGK",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Skyscanner: Langkawi – Warszawa (brak lotów bezpośrednich; oferty z 1 przesiadką, m.in. Emirates)",
+      "url": "https://www.skyscanner.com.au/routes/lgk/wars/langkawi-to-warsaw.html",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "FlightConnections: WAW–LGK (brak lotów bezpośrednich; LOT + Air Astana przez Ałmaty sezonowo XII–III, osobne bilety)",
+      "url": "https://www.flightconnections.com/flights-from-waw-to-lgk",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Langkawi – statystyki cen w obie strony (miesiące: VII 3 238, XII 5 272; średnia 12 mies. 4 234 zł; typowo 3 727–5 142 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Langkawi-LGK",
+      "checked": "2026-10-14"
+    }
+  ]
+}

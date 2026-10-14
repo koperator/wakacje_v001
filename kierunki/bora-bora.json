@@ -1,0 +1,299 @@
+{
+  "id": "bora-bora",
+  "country": "Polinezja Francuska",
+  "place": "Bora Bora",
+  "notes": "Klimat tropikalny morski: pora wilgotna i najcieplejsza XI–IV (ulewy, wyższa wilgotność, maksimum opadu XII–I), pora sucha V–X z pasatem (maraamu) i najchłodniejszymi nocami VII–IX. Cyklony docierają do Wysp Towarzystwa rzadko, głównie w latach El Niño (XII–III). Baza pobytu: resorty na motu (wysepkach rafy) i plaża Matira – biały piasek, spokojna, płytka laguna. Pogoda ze stacji lotniska Bora Bora na Motu Mute (normy 1991–2020, Météo-France). Zieleń: palmy na motu, w tle porośnięta lasem góra Otemanu. Wycieczki: rejsy po lagunie (snorkeling z płaszczkami i rekinami rafowymi, ogrody koralowe), wyprawa 4×4 na wzgórza, armaty z II wojny światowej; poza tym niewiele. Dojazd: z 3 przesiadkami (Paryż, Los Angeles, Papeete), ok. 31–32 h; z lotniska na motu do resortu łodzią.",
+  "fixed": {
+    "beaches": {
+      "est": 5
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 2
+    },
+    "local_prices": 5,
+    "flight_time": {
+      "est": 31.5
+    },
+    "stops": 3,
+    "transfer": {
+      "est": 0.5
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.1,
+      "temp_night": 25.3,
+      "dew_point": {
+        "est": 24
+      },
+      "sun": 6.5,
+      "rain": 245,
+      "rain_days": 17.2,
+      "uv": 9,
+      "wind": 19,
+      "water": 28.3,
+      "flight_price": {
+        "est": 12000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.1,
+      "temp_night": 25.4,
+      "dew_point": {
+        "est": 24
+      },
+      "sun": 7.2,
+      "rain": 212,
+      "rain_days": 15.3,
+      "uv": 8,
+      "wind": 19,
+      "water": 28.9,
+      "flight_price": {
+        "est": 12000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.4,
+      "temp_night": 25.8,
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": 7.7,
+      "rain": 168,
+      "rain_days": 14.5,
+      "uv": 9,
+      "wind": 17,
+      "water": 28.9,
+      "flight_price": {
+        "est": 12000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.1,
+      "temp_night": 25.8,
+      "dew_point": {
+        "est": 24.2
+      },
+      "sun": 7.3,
+      "rain": 144,
+      "rain_days": 11.8,
+      "uv": 8,
+      "wind": 17,
+      "water": 28.9,
+      "flight_price": {
+        "est": 12900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.2,
+      "temp_night": 25.2,
+      "dew_point": {
+        "est": 23.5
+      },
+      "sun": 7.2,
+      "rain": 112,
+      "rain_days": 11.4,
+      "uv": 6,
+      "wind": 19,
+      "water": 28.3,
+      "flight_price": {
+        "est": 11100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.3,
+      "temp_night": 24.5,
+      "dew_point": {
+        "est": 22.7
+      },
+      "sun": 7.5,
+      "rain": 86,
+      "rain_days": 9.7,
+      "uv": 6,
+      "wind": 20,
+      "water": 27.8,
+      "flight_price": {
+        "est": 14300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.9,
+      "temp_night": 24.1,
+      "dew_point": {
+        "est": 22.4
+      },
+      "sun": 7.5,
+      "rain": 62,
+      "rain_days": 9.4,
+      "uv": 6,
+      "wind": 21,
+      "water": 27.2,
+      "flight_price": {
+        "est": 15700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29,
+      "temp_night": 23.9,
+      "dew_point": {
+        "est": 22.3
+      },
+      "sun": 8,
+      "rain": 64,
+      "rain_days": 8.8,
+      "uv": 7,
+      "wind": 21,
+      "water": 26.7,
+      "flight_price": {
+        "est": 14300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.4,
+      "temp_night": 24,
+      "dew_point": {
+        "est": 22.5
+      },
+      "sun": 8,
+      "rain": 65,
+      "rain_days": 9.3,
+      "uv": 9,
+      "wind": 21,
+      "water": 26.7,
+      "flight_price": {
+        "est": 14300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 29.9,
+      "temp_night": 24.5,
+      "dew_point": {
+        "est": 23
+      },
+      "sun": 7.4,
+      "rain": 109,
+      "rain_days": 10.6,
+      "uv": 9,
+      "wind": 19,
+      "water": 27.2,
+      "flight_price": {
+        "est": 12900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.7,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 23.7
+      },
+      "sun": 7.3,
+      "rain": 139,
+      "rain_days": 12.3,
+      "uv": 9,
+      "wind": 18,
+      "water": 27.8,
+      "flight_price": {
+        "est": 12000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.8,
+      "temp_night": 25.2,
+      "dew_point": {
+        "est": 23.8
+      },
+      "sun": 6.7,
+      "rain": 251,
+      "rain_days": 16.8,
+      "uv": 8,
+      "wind": 18,
+      "water": 28.3,
+      "flight_price": {
+        "est": 12900
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Bora Bora – tabela klimatyczna, lotnisko Bora Bora (Motu Mute), normy 1991–2020 (Météo-France; nasłonecznienie NOAA 1961–1990): temperatury, opad, dni z opadem ≥ 1 mm, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Bora_Bora",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Weather Spark: Bora Bora – średnia godzinowa prędkość wiatru na 10 m, średnia temperatura wody",
+      "url": "https://weatherspark.com/y/150393/Average-Weather-in-Bora-Bora-French-Polynesia-Year-Round",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "weather-and-climate.com: Vaitape (Bora Bora) – wilgotność (76% w VIII do 79% w I, średnio 78%; Foreca / Copernicus C3S 1991–2020)",
+      "url": "https://weather-and-climate.com/average-monthly-Humidity-perc,vaitape-bora-bora-pf,French-Polynesia",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: Bora Bora – pogoda miesiąc po miesiącu (12 stron, np. /bora-bora-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 16.50°S 151.74°W",
+      "url": "https://bestdateweather.com/en/bora-bora-weather-january",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Bora Bora – statystyki cen w obie strony (miesiące: V 11 094; średnia 12 mies. 12 938 zł; typowo 12 550–15 708 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Bora-Bora-BOB",
+      "checked": "2026-10-14"
+    }
+  ]
+}

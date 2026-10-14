@@ -1,0 +1,457 @@
+{
+  "id": "marsa-alam",
+  "country": "Egipt",
+  "place": "Marsa Alam",
+  "notes": "Pustynny klimat Morza Czerwonego: praktycznie bez deszczu, gorąco V–IX (ok. 35 °C), łagodnie XII–II (ok. 23–25 °C), woda najchłodniejsza w II (ok. 22–23 °C), najcieplejsza w VIII (ok. 29 °C). Stały wiatr z północy. Baza pobytu: resorty wzdłuż wybrzeża w okolicy Marsa Alam (Port Ghalib ok. 60 km na N, przy lotnisku). Brak stacji z normami w samym Marsa Alam; temperatury z tabel serwisów klimatycznych (szacunek), punkt rosy i nasłonecznienie z Hurghady (NOAA 1961–1990). Zieleń: pustynia i góry bez roślinności. Atrakcje głównie podwodne: rafy, diugonie (Abu Dabbab), delfiny (Samadai); Luksor ok. 4 h drogi. Plaże często z rafą tuż przy brzegu, wejście z pomostu. Dojazd: wyjazd z biurem podróży (all inclusive) – czarter bezpośrednio z Warszawy, ok. 4 h 10 min – 4 h 30 min, biura oferują go przez większość roku (Enter Air, Smartwings); regularnie tylko z przesiadką w Kairze (ok. 8 h).",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": 1,
+    "sightseeing": 2,
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 4.3,
+    "stops": 0,
+    "transfer": {
+      "est": 1
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 23
+      },
+      "temp_night": {
+        "est": 13
+      },
+      "dew_point": {
+        "est": 4.8
+      },
+      "sun": {
+        "est": 8.6
+      },
+      "rain": {
+        "est": 0
+      },
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 5,
+      "wind": 18,
+      "water": 23.3,
+      "flight_price": {
+        "est": 2200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 24
+      },
+      "temp_night": {
+        "est": 14
+      },
+      "dew_point": {
+        "est": 5.2
+      },
+      "sun": {
+        "est": 9.8
+      },
+      "rain": {
+        "est": 1
+      },
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 6,
+      "wind": 18,
+      "water": 22.8,
+      "flight_price": {
+        "est": 2200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 27
+      },
+      "temp_night": {
+        "est": 16
+      },
+      "dew_point": {
+        "est": 7.2
+      },
+      "sun": {
+        "est": 8.8
+      },
+      "rain": {
+        "est": 1
+      },
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 7,
+      "wind": 18,
+      "water": 22.8,
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": [
+        {
+          "type": "other",
+          "level": 1,
+          "note": "Wiatr z pustyni (chamsin) wiosną: w pojedyncze dni burze piaskowe i pyłowe, upał i ograniczona widoczność."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 30
+      },
+      "temp_night": {
+        "est": 20
+      },
+      "dew_point": {
+        "est": 9.9
+      },
+      "sun": {
+        "est": 9.5
+      },
+      "rain": {
+        "est": 1
+      },
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 8,
+      "wind": 17,
+      "water": 23.9,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": [
+        {
+          "type": "other",
+          "level": 1,
+          "note": "Wiatr z pustyni (chamsin) wiosną: w pojedyncze dni burze piaskowe i pyłowe, upał i ograniczona widoczność."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 32
+      },
+      "temp_night": {
+        "est": 23
+      },
+      "dew_point": {
+        "est": 11.9
+      },
+      "sun": {
+        "est": 10.2
+      },
+      "rain": {
+        "est": 0
+      },
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 8,
+      "wind": 18,
+      "water": 25.6,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 35
+      },
+      "temp_night": {
+        "est": 25
+      },
+      "dew_point": {
+        "est": 14.2
+      },
+      "sun": {
+        "est": 11.6
+      },
+      "rain": {
+        "est": 0
+      },
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 8,
+      "wind": 19,
+      "water": 26.7,
+      "flight_price": {
+        "est": 2700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 35
+      },
+      "temp_night": {
+        "est": 26
+      },
+      "dew_point": {
+        "est": 16.3
+      },
+      "sun": {
+        "est": 11.4
+      },
+      "rain": {
+        "est": 0
+      },
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 8,
+      "wind": 17,
+      "water": 28.3,
+      "flight_price": {
+        "est": 2700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 35
+      },
+      "temp_night": {
+        "est": 26
+      },
+      "dew_point": {
+        "est": 16.8
+      },
+      "sun": {
+        "est": 10.4
+      },
+      "rain": {
+        "est": 0
+      },
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 8,
+      "wind": 18,
+      "water": 29.4,
+      "flight_price": {
+        "est": 3100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 34
+      },
+      "temp_night": {
+        "est": 25
+      },
+      "dew_point": {
+        "est": 16.1
+      },
+      "sun": {
+        "est": 10.1
+      },
+      "rain": {
+        "est": 0
+      },
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 8,
+      "wind": 19,
+      "water": 28.3,
+      "flight_price": {
+        "est": 2200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 32
+      },
+      "temp_night": {
+        "est": 22
+      },
+      "dew_point": {
+        "est": 14.8
+      },
+      "sun": {
+        "est": 8.9
+      },
+      "rain": {
+        "est": 1
+      },
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 6,
+      "wind": 16,
+      "water": 27.2,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 27
+      },
+      "temp_night": {
+        "est": 18
+      },
+      "dew_point": {
+        "est": 10.7
+      },
+      "sun": {
+        "est": 8.8
+      },
+      "rain": {
+        "est": 3
+      },
+      "rain_days": {
+        "est": 0.3
+      },
+      "uv": 5,
+      "wind": 16,
+      "water": 26.1,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 25
+      },
+      "temp_night": {
+        "est": 15
+      },
+      "dew_point": {
+        "est": 6.9
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 2
+      },
+      "rain_days": {
+        "est": 0.2
+      },
+      "uv": 5,
+      "wind": 18,
+      "water": 24.4,
+      "flight_price": {
+        "est": 2200
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Climats et Voyages: Marsa Alam (temperatury, opad, dni deszczowe, morze; stacja i okres niepodane; nasłonecznienie odrzucone – 13 h przy 13,4 h dnia)",
+      "url": "https://www.climatsetvoyages.com/climat/egypte/marsa-alam",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Wikipedia: Marsa Alam – tabela klimatyczna (Climate-Data.org, Weather2Travel) – kontrola",
+      "url": "https://en.wikipedia.org/wiki/Marsa_Alam",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Wikipedia: Al-Qusayr (Egipt) – tabela klimatyczna (NOAA 1961–1990, ok. 135 km na N) – kontrola",
+      "url": "https://en.wikipedia.org/wiki/Al-Qusayr,_Egypt",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Wikipedia: Hurghada – tabela klimatyczna 1961–1990 (NOAA): punkt rosy, nasłonecznienie – zastępczo",
+      "url": "https://en.wikipedia.org/wiki/Hurghada",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Weather Spark: Marsa Alam – średnia godzinowa prędkość wiatru na 10 m, temperatura wody",
+      "url": "https://weatherspark.com/y/98148/Average-Weather-in-Marsa-Alam-Egypt-Year-Round",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: Marsa Alam – pogoda miesiąc po miesiącu (12 stron, np. /marsa-alam-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 25.07°N 34.90°E",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-marsa-alam",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Champion Traveler: Marsa Alam (najwięcej turystów V–VII, najmniej IV i X–XI, morze i wiatr)",
+      "url": "https://championtraveler.com/dates/best-time-to-visit-marsa-alam-eg/",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "momondo.pl: Warszawa – Marsa Alam (brak regularnych lotów bezpośrednich; najszybszy lot 4 h 35 min – czartery; najtaniej listopad)",
+      "url": "https://www.momondo.pl/loty/warszawa/marsa-alam",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "tanie-loty.com.pl: loty Warszawa – Marsa Alam (czarter bezpośredni WAW–RMF ok. 4 h 10 min – 4 h 30 min; Enter Air, Smartwings; terminy XI 2026 – III 2027)",
+      "url": "https://www.tanie-loty.com.pl/promocje/tanie-loty-z-warszawy-do-marsa-alam.html",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Itaka: Marsa Alam – loty czarterowe z Warszawy, Katowic, Wrocławia, Gdańska i Poznania",
+      "url": "https://www.itaka.pl/nasze-kierunki/egipt/marsa-alam/loty/",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Marsa Alam – statystyki cen w obie strony (miesiące: III 1 723, V 3 224, VIII 3 084; średnia 12 mies. 2 222 zł; typowo 1 133–2 999 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Marsa-Alam-RMF",
+      "checked": "2026-10-14"
+    }
+  ]
+}

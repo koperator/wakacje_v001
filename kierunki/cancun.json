@@ -1,0 +1,378 @@
+{
+  "id": "cancun",
+  "country": "Meksyk",
+  "place": "Cancún (strefa hotelowa)",
+  "notes": "Klimat tropikalny: sucho XII–IV, pora deszczowa V–XI z maksimum IX–X; sezon huraganów VI–XI (szczyt VIII–X), sargassum głównie V–X. Baza pobytu: strefa hotelowa Cancún (północna część skierowana na zatokę, wschodnia na Morze Karaibskie). Pogoda ze stacji Cancún (normy 1991–2020). Zieleń: nadmorska roślinność, palmy, laguna Nichupté z namorzynami. Wycieczki: Chichén Itzá (ok. 2,5 h), Tulum, Coba, cenoty, Isla Mujeres, Holbox. Dojazd: z 1 przesiadką (najszybciej Amsterdam, ok. 14 h; najczęściej Frankfurt).",
+  "fixed": {
+    "beaches": 4,
+    "greenery": 3,
+    "sightseeing": 4,
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 14.1,
+    "stops": 1,
+    "transfer": {
+      "est": 0.4
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.5,
+      "temp_night": 19.3,
+      "dew_point": {
+        "est": 20
+      },
+      "sun": 7,
+      "rain": 56,
+      "rain_days": {
+        "est": 4.5
+      },
+      "uv": 6,
+      "wind": 14,
+      "water": 25.6,
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.3,
+      "temp_night": 19.6,
+      "dew_point": {
+        "est": 20.2
+      },
+      "sun": 7.9,
+      "rain": 43,
+      "rain_days": {
+        "est": 3.1
+      },
+      "uv": 7,
+      "wind": 14,
+      "water": 26.1,
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.6,
+      "temp_night": 20.8,
+      "dew_point": {
+        "est": 21.2
+      },
+      "sun": 8.2,
+      "rain": 45,
+      "rain_days": {
+        "est": 2.7
+      },
+      "uv": 8,
+      "wind": 15,
+      "water": 26.1,
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.1,
+      "temp_night": 22.4,
+      "dew_point": {
+        "est": 22.5
+      },
+      "sun": 8.6,
+      "rain": 37,
+      "rain_days": {
+        "est": 2.2
+      },
+      "uv": 9,
+      "wind": 14,
+      "water": 27.2,
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 33.3,
+      "temp_night": 23.9,
+      "dew_point": {
+        "est": 24
+      },
+      "sun": 8.6,
+      "rain": 84,
+      "rain_days": {
+        "est": 4.1
+      },
+      "uv": 9,
+      "wind": 13,
+      "water": 27.8,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [
+        {
+          "type": "algae",
+          "level": 1,
+          "note": "Początek sezonu sargassum: na plażach wschodniej części strefy hotelowej pierwsze pasy wodorostów."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 33.6,
+      "temp_night": 24.6,
+      "dew_point": {
+        "est": 25.1
+      },
+      "sun": 7.4,
+      "rain": 146,
+      "rain_days": {
+        "est": 7.2
+      },
+      "uv": 8,
+      "wind": 12,
+      "water": 28.9,
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": [
+        {
+          "type": "algae",
+          "level": 2,
+          "note": "Szczyt sezonu sargassum: pasy brązowych wodorostów na wschodnich plażach strefy hotelowej (km 9–25) i całej Riviera Maya, w gorszych dniach zapach i brunatna woda przy brzegu; plaże północne (Playa Langosta, Tortugas) i Isla Mujeres mniej dotknięte."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 34,
+      "temp_night": 24.5,
+      "dew_point": {
+        "est": 25.1
+      },
+      "sun": 8,
+      "rain": 111,
+      "rain_days": {
+        "est": 6.9
+      },
+      "uv": 9,
+      "wind": 11,
+      "water": 28.9,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": [
+        {
+          "type": "algae",
+          "level": 2,
+          "note": "Szczyt sezonu sargassum: pasy brązowych wodorostów na wschodnich plażach strefy hotelowej (km 9–25) i całej Riviera Maya, w gorszych dniach zapach i brunatna woda przy brzegu; plaże północne (Playa Langosta, Tortugas) i Isla Mujeres mniej dotknięte."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 34.2,
+      "temp_night": 24.5,
+      "dew_point": {
+        "est": 25.2
+      },
+      "sun": 7.9,
+      "rain": 115,
+      "rain_days": {
+        "est": 6.7
+      },
+      "uv": 8,
+      "wind": 11,
+      "water": 29.4,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": [
+        {
+          "type": "algae",
+          "level": 2,
+          "note": "Szczyt sezonu sargassum: pasy brązowych wodorostów na wschodnich plażach strefy hotelowej (km 9–25) i całej Riviera Maya, w gorszych dniach zapach i brunatna woda przy brzegu; plaże północne (Playa Langosta, Tortugas) i Isla Mujeres mniej dotknięte."
+        },
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów na Atlantyku: bezpośrednie trafienie rzadkie, ale przy burzy tropikalnej kilka dni ulew, wysokich fal i odwołanych wycieczek."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 33.3,
+      "temp_night": 24.1,
+      "dew_point": {
+        "est": 25.1
+      },
+      "sun": 6.4,
+      "rain": 223,
+      "rain_days": {
+        "est": 10
+      },
+      "uv": 8,
+      "wind": 11,
+      "water": 29.4,
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": [
+        {
+          "type": "algae",
+          "level": 2,
+          "note": "Szczyt sezonu sargassum: pasy brązowych wodorostów na wschodnich plażach strefy hotelowej (km 9–25) i całej Riviera Maya, w gorszych dniach zapach i brunatna woda przy brzegu; plaże północne (Playa Langosta, Tortugas) i Isla Mujeres mniej dotknięte."
+        },
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów na Atlantyku: bezpośrednie trafienie rzadkie, ale przy burzy tropikalnej kilka dni ulew, wysokich fal i odwołanych wycieczek."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.6,
+      "temp_night": 23.1,
+      "dew_point": {
+        "est": 23.8
+      },
+      "sun": 6.2,
+      "rain": 242,
+      "rain_days": {
+        "est": 10.4
+      },
+      "uv": 7,
+      "wind": 13,
+      "water": 28.9,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": [
+        {
+          "type": "algae",
+          "level": 1,
+          "note": "Koniec sezonu sargassum: wodorosty w części dni na plażach wschodnich."
+        },
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów na Atlantyku: bezpośrednie trafienie rzadkie, ale przy burzy tropikalnej kilka dni ulew, wysokich fal i odwołanych wycieczek."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.1,
+      "temp_night": 21.5,
+      "dew_point": {
+        "est": 22.1
+      },
+      "sun": 6.7,
+      "rain": 113,
+      "rain_days": {
+        "est": 6.2
+      },
+      "uv": 6,
+      "wind": 14,
+      "water": 27.8,
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.9,
+      "temp_night": 20,
+      "dew_point": {
+        "est": 20.5
+      },
+      "sun": 6.3,
+      "rain": 80,
+      "rain_days": {
+        "est": 5.4
+      },
+      "uv": 5,
+      "wind": 14,
+      "water": 26.7,
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Cancún – tabela klimatyczna 1991–2020, stacja Cancún (lotnisko/obserwatorium; Servicio Meteorológico Nacional, Weather.Directory): temperatury, opad, dni ≥ 0,1 mm, wilgotność, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Weather Spark: Cancún – średnia godzinowa prędkość wiatru na 10 m, dni z opadem ≥ 0,04 in – kontrola",
+      "url": "https://weatherspark.com/y/14484/Average-Weather-in-Canc%C3%BAn-Mexico-Year-Round",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "seatemperatu.re: Cancún – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/caribbean/mexico/cancun/when.html",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: Cancún – pogoda miesiąc po miesiącu (12 stron, np. /cancun-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 21.16°N 86.85°W",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-cancun",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "All-Inclusive Guide: przewodnik po sargassum 2026 (Karaiby meksykańskie: V umiarkowane, VI–VIII wysokie, IX umiarkowanie-wysokie, X umiarkowane; strefa hotelowa północ niżej, wschód wysoko)",
+      "url": "https://all-inclusive-guide.com/guides/sargassum-seaweed-guide/",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.com: Warszawa – Cancún (brak lotów bezpośrednich; najszybciej przez Amsterdam 14 h 05 min; najczęściej Frankfurt)",
+      "url": "https://www.kayak.com/flight-routes/Warsaw-Frederic-Chopin-WAW/Cancun-CUN",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Cancun – statystyki cen w obie strony (miesiące: V 3 643, VIII 4 690, X 4 694; średnia 12 mies. 4 299 zł; typowo 3 899–4 790 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Cancun-CUN",
+      "checked": "2026-10-14"
+    }
+  ]
+}

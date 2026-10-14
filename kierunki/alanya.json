@@ -1,0 +1,319 @@
+{
+  "id": "alanya",
+  "country": "Turcja",
+  "place": "Alanya",
+  "notes": "Klimat śródziemnomorski: gorąco i sucho VI–IX, łagodna, deszczowa zima (opad głównie XI–II, ok. 200–250 mm/miesiąc). Woda do kąpieli V–XI. Baza pobytu: Alanya (plaża Kleopatry i plaże wschodnie). Pogoda ze stacji Alanya (normy 1991–2020). Zieleń: góry Taurus porośnięte lasem sosnowym tuż za miastem, gaje cytrusowe i bananowe; latem trawy przesychają. Wycieczki: twierdza Alanya, jaskinie Damlataş i Dim, kanion Sapadere, rejsy; Side i Aspendos ok. 1–1,5 h, Antalya ok. 2 h. Dojazd: bezpośrednio z Warszawy do Antalyi przez cały rok (ok. 3 h), dalej ok. 2 h drogi; latem także lotnisko Gazipaşa (ok. 40 km). Ceny w Turcji w euro mocno się zmieniają przez inflację.",
+  "fixed": {
+    "beaches": 2,
+    "greenery": 3,
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 3.1,
+    "stops": 0,
+    "transfer": {
+      "est": 2
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 16.5,
+      "temp_night": 9.5,
+      "dew_point": {
+        "est": 5.4
+      },
+      "sun": 4.1,
+      "rain": 211,
+      "rain_days": 11.7,
+      "uv": {
+        "est": 3
+      },
+      "wind": 13,
+      "water": 17.8,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17,
+      "temp_night": 9.6,
+      "dew_point": {
+        "est": 5.5
+      },
+      "sun": 4.5,
+      "rain": 137,
+      "rain_days": 9.2,
+      "uv": {
+        "est": 4
+      },
+      "wind": 13,
+      "water": 16.9,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 19.1,
+      "temp_night": 11.5,
+      "dew_point": {
+        "est": 7.8
+      },
+      "sun": 6.2,
+      "rain": 91,
+      "rain_days": 6.9,
+      "uv": {
+        "est": 6
+      },
+      "wind": 11,
+      "water": 17.3,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 21.8,
+      "temp_night": 14.4,
+      "dew_point": {
+        "est": 11.5
+      },
+      "sun": 7.3,
+      "rain": 69,
+      "rain_days": 5.9,
+      "uv": {
+        "est": 7
+      },
+      "wind": 9,
+      "water": 17.9,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 25.7,
+      "temp_night": 18.5,
+      "dew_point": {
+        "est": 15.7
+      },
+      "sun": 9.3,
+      "rain": 36,
+      "rain_days": 3.1,
+      "uv": {
+        "est": 7
+      },
+      "wind": 9,
+      "water": 21.2,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.7,
+      "temp_night": 22.4,
+      "dew_point": {
+        "est": 19.3
+      },
+      "sun": 11.6,
+      "rain": 9,
+      "rain_days": 1.8,
+      "uv": {
+        "est": 8
+      },
+      "wind": 10,
+      "water": 25.3,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.7,
+      "temp_night": 25.4,
+      "dew_point": {
+        "est": 22
+      },
+      "sun": 10.5,
+      "rain": 3,
+      "rain_days": 1.5,
+      "uv": {
+        "est": 8
+      },
+      "wind": 10,
+      "water": 27.9,
+      "flight_price": {
+        "est": 1600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 33.4,
+      "temp_night": 26.1,
+      "dew_point": {
+        "est": 22.4
+      },
+      "sun": 10.2,
+      "rain": 3,
+      "rain_days": 1.3,
+      "uv": {
+        "est": 8
+      },
+      "wind": 10,
+      "water": 29,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.3,
+      "temp_night": 23.4,
+      "dew_point": {
+        "est": 18.9
+      },
+      "sun": 9.1,
+      "rain": 30,
+      "rain_days": 2.6,
+      "uv": {
+        "est": 6
+      },
+      "wind": 10,
+      "water": 27.7,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 27.4,
+      "temp_night": 19.3,
+      "dew_point": {
+        "est": 14.3
+      },
+      "sun": 7.1,
+      "rain": 101,
+      "rain_days": 5.1,
+      "uv": {
+        "est": 5
+      },
+      "wind": 10,
+      "water": 24.9,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 22.4,
+      "temp_night": 14.6,
+      "dew_point": {
+        "est": 9.7
+      },
+      "sun": 5.3,
+      "rain": 159,
+      "rain_days": 7.2,
+      "uv": {
+        "est": 4
+      },
+      "wind": 11,
+      "water": 21.2,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 18.1,
+      "temp_night": 11.2,
+      "dew_point": {
+        "est": 7.3
+      },
+      "sun": 4.3,
+      "rain": 251,
+      "rain_days": 10.9,
+      "uv": {
+        "est": 2
+      },
+      "wind": 13,
+      "water": 19,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Alanya – tabela klimatyczna 1991–2020 (NOAA, Turkish State Meteorological Service): temperatury, opad, dni ≥ 1 mm, wilgotność, nasłonecznienie; tabela temperatury morza",
+      "url": "https://en.wikipedia.org/wiki/Alanya",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Weather Spark: Alanya – średnia godzinowa prędkość wiatru na 10 m, temperatura wody – kontrola",
+      "url": "https://weatherspark.com/y/96973/Average-Weather-in-Alanya-Turkey-Year-Round",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: Antalya – pogoda miesiąc po miesiącu (12 stron, np. /antalya-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 36.90°N 30.69°E",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-antalya",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.com: Warszawa – Antalya (loty bezpośrednie SunExpress, Corendon, Pegasus, średnio 3 h 07 min, także zimą)",
+      "url": "https://www.kayak.com/flight-routes/Warsaw-Frederic-Chopin-WAW/Antalya-AYT",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Antalya – statystyki cen w obie strony (miesiące: II 719, VII 1 251, VIII 1 239; średnia 12 mies. 1 051 zł; typowo 849–1 270 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Antalya-AYT",
+      "checked": "2026-10-14"
+    }
+  ]
+}

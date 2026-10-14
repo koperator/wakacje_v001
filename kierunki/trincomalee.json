@@ -1,0 +1,399 @@
+{
+  "id": "trincomalee",
+  "country": "Sri Lanka",
+  "place": "Trincomalee",
+  "notes": "Wschodnie wybrzeże (para monsunowa z Negombo): sucho i gorąco V–IX (gdy w Negombo trwa monsun SW), monsun NE X–I z maksimum w XI–XII. Baza pobytu: plaże Uppuveli i Nilaveli na północ od miasta. Pogoda ze stacji Trincomalee (normy 1991–2020, 5–15 km od plaż, ta sama ekspozycja na NE). Zieleń: strefa sucha – palmy, zarośla i lasy suche; w V–IX trawy i zarośla wysychają na brązowo, zielono w XI–II. Wycieczki jednodniowe: Pigeon Island (rafa), wieloryby i delfiny (III–VIII), Fort Frederick i świątynia Koneswaram, a ok. 2–2,5 h drogi trójkąt kulturowy: Polonnaruwa, Sigiriya, Anuradhapura, Minneriya (zgromadzenia słoni VIII–X). Dojazd: z Warszawy z 1 przesiadką do Kolombo (CMB), dalej ok. 5–6 h samochodem albo codzienny lot Cinnamon Air CMB–Trincomalee (ok. 45 min, osobny bilet); transfer nie jest wliczony w czas lotu. Co miesiąc dzień Poya (pełnia): zakaz sprzedaży alkoholu.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 11.2,
+    "stops": 1,
+    "transfer": {
+      "est": 4.5
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 28.9,
+      "temp_night": 24,
+      "dew_point": {
+        "est": 21.7
+      },
+      "sun": 8.3,
+      "rain": 152,
+      "rain_days": 8.4,
+      "uv": {
+        "est": 7
+      },
+      "wind": 19,
+      "water": 27.2,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Koniec monsunu NE: w pierwszej połowie miesiąca wciąż fale i mętna woda w części dni, morze uspokaja się zwykle do lutego; część centrów nurkowych jeszcze zamknięta."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.1,
+      "temp_night": 24.3,
+      "dew_point": {
+        "est": 21.7
+      },
+      "sun": 9.5,
+      "rain": 96,
+      "rain_days": 4.7,
+      "uv": {
+        "est": 8
+      },
+      "wind": 17,
+      "water": 28.3,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.7,
+      "temp_night": 24.8,
+      "dew_point": {
+        "est": 22.4
+      },
+      "sun": 9.7,
+      "rain": 72,
+      "rain_days": 4,
+      "uv": {
+        "est": 9
+      },
+      "wind": 14,
+      "water": 28.9,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 33.4,
+      "temp_night": 25.5,
+      "dew_point": {
+        "est": 23.5
+      },
+      "sun": 9.3,
+      "rain": 55,
+      "rain_days": 4.2,
+      "uv": {
+        "est": 9
+      },
+      "wind": 14,
+      "water": 30,
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Tamilski i Syngaleski Nowy Rok (13–14 kwietnia): przez 2–4 dni zamknięta część sklepów, restauracji i rodzinnych usług, zakaz sprzedaży alkoholu; transport publiczny przepełniony."
+        },
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Vesak (pełnia, zależnie od roku koniec kwietnia lub maj): 2 dni zakazu sprzedaży alkoholu, zamknięte bary i część sklepów."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 35.2,
+      "temp_night": 26.2,
+      "dew_point": {
+        "est": 23
+      },
+      "sun": 8.5,
+      "rain": 48,
+      "rain_days": 4.2,
+      "uv": {
+        "est": 8
+      },
+      "wind": 22,
+      "water": 30.6,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Vesak (pełnia, zależnie od roku koniec kwietnia lub maj): 2 dni zakazu sprzedaży alkoholu, zamknięte bary i część sklepów."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 35.4,
+      "temp_night": 26.3,
+      "dew_point": {
+        "est": 21.7
+      },
+      "sun": 7.7,
+      "rain": 26,
+      "rain_days": 1.9,
+      "uv": {
+        "est": 8
+      },
+      "wind": 29,
+      "water": 30,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 35.3,
+      "temp_night": 25.8,
+      "dew_point": {
+        "est": 22
+      },
+      "sun": 7.6,
+      "rain": 51,
+      "rain_days": 3.4,
+      "uv": {
+        "est": 8
+      },
+      "wind": 28,
+      "water": 30,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 35.3,
+      "temp_night": 25.5,
+      "dew_point": {
+        "est": 21.9
+      },
+      "sun": 7.9,
+      "rain": 67,
+      "rain_days": 4.2,
+      "uv": {
+        "est": 8
+      },
+      "wind": 26,
+      "water": 29.4,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 34.8,
+      "temp_night": 25.1,
+      "dew_point": {
+        "est": 22.3
+      },
+      "sun": 6.9,
+      "rain": 113,
+      "rain_days": 5.7,
+      "uv": {
+        "est": 9
+      },
+      "wind": 23,
+      "water": 29.4,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.4,
+      "temp_night": 24.5,
+      "dew_point": {
+        "est": 22.7
+      },
+      "sun": 7,
+      "rain": 216,
+      "rain_days": 12.8,
+      "uv": {
+        "est": 8
+      },
+      "wind": 17,
+      "water": 29.4,
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Początek monsunu NE, zwykle od drugiej połowy października: morze coraz bardziej wzburzone i mętne, rejsy na Pigeon Island i nurkowanie bywają odwoływane."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 29.8,
+      "temp_night": 24,
+      "dew_point": {
+        "est": 22.7
+      },
+      "sun": 5.7,
+      "rain": 376,
+      "rain_days": 17.9,
+      "uv": {
+        "est": 6
+      },
+      "wind": 16,
+      "water": 28.9,
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Monsun NE: wzburzone, mętne morze na plażach Uppuveli i Nilaveli, w wielu dniach kąpiel odradzana; centra nurkowe i rejsy wielorybnicze zamknięte, rejsy na Pigeon Island niepewne lub niemożliwe."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 28.8,
+      "temp_night": 23.8,
+      "dew_point": {
+        "est": 22.6
+      },
+      "sun": 5.4,
+      "rain": 339,
+      "rain_days": 15,
+      "uv": {
+        "est": 7
+      },
+      "wind": 19,
+      "water": 28.3,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Monsun NE: wzburzone, mętne morze na plażach Uppuveli i Nilaveli, w wielu dniach kąpiel odradzana; centra nurkowe i rejsy wielorybnicze zamknięte, rejsy na Pigeon Island niepewne lub niemożliwe."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Trincomalee – tabela klimatyczna 1991–2020 (NOAA; wilgotność dzienna 1961–1990; nasłonecznienie DWD 1975–1983; ekstrema Department of Meteorology)",
+      "url": "https://en.wikipedia.org/wiki/Trincomalee",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "weather2travel: Trincomalee (CRU, Met Office, KNMI; temperatury, opad, słońce, morze – kontrola; UV dla czystego nieba – inna miara, nieużyte)",
+      "url": "https://www.weather2travel.com/sri-lanka/trincomalee/january/",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Weather Spark: Trincomalee – średnia godzinowa prędkość wiatru na 10 m (średnia obszarowa), temperatura wody – kontrola",
+      "url": "https://weatherspark.com/y/110324/Average-Weather-in-Trincomalee-Sri-Lanka-Year-Round",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "seatemperatu.re: Trincomalee – średnia temperatura morza w miesiącach (średnie z lat poprzednich)",
+      "url": "https://www.seatemperatu.re/central-and-south-asia/sri-lanka/trincomalee/when.html",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: Sri Lanka – pogoda miesiąc po miesiącu (12 stron, np. /sri-lanka-weather-january); UV all-sky z Open-Meteo, ERA5, punkt 7.87°N 80.77°E (strefa sucha, okolice Dambulli)",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-sri-lanka",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Girl on a Zebra: najlepszy czas na Trincomalee (sezon V–IX, monsun NE i wzburzone morze XI–XII, wieloryby III–VIII)",
+      "url": "https://girlonazebra.com/best-time-to-visit-trincomalee/",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Champion Traveler: Trincomalee (morze wzburzone jesienią, nurkowanie i rejsy na Pigeon Island zawieszane; dane o tłoku – tylko kontrola)",
+      "url": "https://championtraveler.com/dates/best-time-to-visit-trincomalee-lk/",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Cinnamon Air: rozkład zimowy (1.11.2026–30.04.2027) – codziennie Colombo BIA–Trincomalee 14:30–15:15",
+      "url": "https://www.cinnamonair.com/schedules-fares/winter",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Cinnamon Air: rozkład letni (1.05–31.10.2026) – codziennie Colombo BIA–Trincomalee 10:30–11:15",
+      "url": "https://www.cinnamonair.com/schedules-fares/summer",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "momondo.pl: Warszawa – Kolombo (brak lotów bezpośrednich; najszybszy lot 11 h 10 min)",
+      "url": "https://www.momondo.pl/loty/warszawa/kolombo",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Daily FT: zamknięte sklepy z alkoholem na Nowy Rok syngaleski i tamilski oraz Vesak",
+      "url": "https://ft.lk/news/Liquor-shops-closed-for-New-Year-Vesak/56-653208",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Kolombo – statystyki cen w obie strony (miesiące: VI 3 017, VII 3 650, XII 3 638; średnia 12 mies. 3 356 zł; typowo 2 938–3 795 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Kolombo-CMB",
+      "checked": "2026-10-14"
+    }
+  ]
+}
