@@ -1,0 +1,277 @@
+{
+  "id": "curacao",
+  "country": "Curaçao",
+  "place": "Jan Thiel / Mambo Beach",
+  "notes": "Wyspa ABC u wybrzeży Wenezueli: gorąco i sucho przez cały rok (30–33 °C w dzień, 25–27 °C w nocy, woda 26–29 °C), stały pasat. Krótka pora deszczowa X–I (przelotne ulewy), poza tym bardzo mało opadów. Wyspa leży na południe od głównych torów huraganów. Baza pobytu: Jan Thiel / Mambo Beach na południowym wybrzeżu – niewielkie, częściowo sztuczne plaże z beach clubami (leżaki płatne) i spokojną wodą za falochronami; najładniejsze zatoczki (Grote Knip, Cas Abao, Playa Lagun) są na zachodzie, ok. 40–50 min jazdy. Zieleń skąpa: krajobraz suchy, kaktusy i krzewy. Wycieczki: Willemstad (kolorowe nabrzeże Handelskade, UNESCO), park Christoffel, Shete Boka, nurkowanie i snorkeling z żółwiami, Klein Curaçao. Dojazd: 1 przesiadka w Amsterdamie (KLM) ok. 15 h; z lotniska ok. 25 min.",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 4
+    },
+    "flight_time": {
+      "est": 15
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 0.4
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30,
+      "temp_night": 24.5,
+      "dew_point": 22.6,
+      "sun": 8.7,
+      "rain": 50,
+      "rain_days": 9,
+      "uv": 8,
+      "wind": 21,
+      "water": 27.3,
+      "flight_price": {
+        "est": 5600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.3,
+      "temp_night": 24.6,
+      "dew_point": 22.5,
+      "sun": 9.1,
+      "rain": 25,
+      "rain_days": 5,
+      "uv": 8,
+      "wind": 23,
+      "water": 26.4,
+      "flight_price": {
+        "est": 5600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.7,
+      "temp_night": 25,
+      "dew_point": 22.7,
+      "sun": 8.8,
+      "rain": 18,
+      "rain_days": 3,
+      "uv": 9,
+      "wind": 22,
+      "water": 26.5,
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.4,
+      "temp_night": 25.7,
+      "dew_point": 23.6,
+      "sun": 8.6,
+      "rain": 16,
+      "rain_days": 2,
+      "uv": 9,
+      "wind": 22,
+      "water": 26.9,
+      "flight_price": {
+        "est": 5600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.9,
+      "temp_night": 26.4,
+      "dew_point": 24.2,
+      "sun": 8.5,
+      "rain": 15,
+      "rain_days": 2,
+      "uv": 8,
+      "wind": 23,
+      "water": 27.7,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.1,
+      "temp_night": 26.5,
+      "dew_point": 24.2,
+      "sun": 9,
+      "rain": 22,
+      "rain_days": 4,
+      "uv": 8,
+      "wind": 24,
+      "water": 27.8,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.2,
+      "temp_night": 26.3,
+      "dew_point": 24.2,
+      "sun": 9.5,
+      "rain": 37,
+      "rain_days": 6,
+      "uv": 8,
+      "wind": 22,
+      "water": 27.5,
+      "flight_price": {
+        "est": 4800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.8,
+      "temp_night": 26.7,
+      "dew_point": 24.6,
+      "sun": 9.9,
+      "rain": 28,
+      "rain_days": 3,
+      "uv": 9,
+      "wind": 21,
+      "water": 28.4,
+      "flight_price": {
+        "est": 4800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 33,
+      "temp_night": 26.8,
+      "dew_point": 24.8,
+      "sun": 9,
+      "rain": 43,
+      "rain_days": 4,
+      "uv": 9,
+      "wind": 19,
+      "water": 29,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.3,
+      "temp_night": 26.4,
+      "dew_point": 24.7,
+      "sun": 8.2,
+      "rain": 91,
+      "rain_days": 8,
+      "uv": 8,
+      "wind": 18,
+      "water": 29.1,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.2,
+      "temp_night": 25.6,
+      "dew_point": 24.3,
+      "sun": 7.9,
+      "rain": 141,
+      "rain_days": 11,
+      "uv": 7,
+      "wind": 18,
+      "water": 28.7,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.3,
+      "temp_night": 25,
+      "dew_point": 23.3,
+      "sun": 8.2,
+      "rain": 86,
+      "rain_days": 10,
+      "uv": 7,
+      "wind": 21,
+      "water": 27.4,
+      "flight_price": {
+        "est": 6400
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Curaçao – tabela klimatyczna, lotnisko Hato (TNCC), normy 1991–2020 (Meteorological Department Curaçao)",
+      "url": "https://en.wikipedia.org/wiki/Cura%C3%A7ao",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Meteorological Department Curaçao: oficjalne średnie 30-letnie 1991–2020 (wiatr 10 m w węzłach, punkt rosy)",
+      "url": "https://mail.meteo.cw/Data_www/pdf/reports/Official_30_yr_avg_2020_1991.pdf",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "seatemperature.org: Willemstad – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperature.org/central-america/curacao/willemstad.htm",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Curaçao – pogoda miesiąc po miesiącu (12 stron, np. /curacao-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 12.17°N 68.98°W",
+      "url": "https://bestdateweather.com/en/curacao-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Curaçao (1 przesiadka w Amsterdamie, najszybciej 14 h 55 min; ceny: III 4 483 zł najtaniej, XII najdrożej ok. 9 344 zł (o 4 861 zł więcej niż III), średnia 4 849 zł, typowo 4 395–5 585 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Curacao-CUR",
+      "checked": "2026-10-16"
+    }
+  ]
+}

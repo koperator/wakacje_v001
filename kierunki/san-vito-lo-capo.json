@@ -1,0 +1,400 @@
+{
+  "id": "san-vito-lo-capo",
+  "country": "Włochy (Sycylia)",
+  "place": "San Vito lo Capo, Sycylia",
+  "notes": "Klimat śródziemnomorski północno-zachodniej Sycylii: gorące, suche lato VI–IX (ok. 30 °C), ciepła woda VII–IX (25–26 °C), łagodna, deszczowa zima (ok. 15 °C); sirocco może przynieść kilka dni upału. Baza pobytu: San Vito lo Capo – zatoka z białym piaskiem i płytką turkusową wodą pod górą Monaco. Pogoda ze stacji Trapani-Birgi (ok. 35 km, NOAA 1991–2020); dni deszczowe i wilgotność z lotniska Palermo (1961–1990). Zieleń: skaliste góry, makia, rezerwat Zingaro. Wycieczki: rezerwat Zingaro, Scopello, Erice, świątynia w Segeście, saliny Trapani, wyspy Egadzkie. Dojazd: z 1 przesiadką (Monachium, Wiedeń) do Palermo, ok. 4 h 45 min; z lotniska ok. 100 km.",
+  "fixed": {
+    "beaches": {
+      "est": 5
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 4.7,
+    "stops": 1,
+    "transfer": {
+      "est": 1.4
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15.2,
+      "temp_night": 8.3,
+      "dew_point": {
+        "est": 7.1
+      },
+      "sun": {
+        "est": 3.9
+      },
+      "rain": 63,
+      "rain_days": {
+        "est": 10
+      },
+      "uv": {
+        "est": 3
+      },
+      "wind": {
+        "est": 17
+      },
+      "water": 15,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15.5,
+      "temp_night": 8.4,
+      "dew_point": {
+        "est": 7.1
+      },
+      "sun": {
+        "est": 4.7
+      },
+      "rain": 55,
+      "rain_days": {
+        "est": 10
+      },
+      "uv": {
+        "est": 4
+      },
+      "wind": {
+        "est": 18
+      },
+      "water": 14.4,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17,
+      "temp_night": 9.3,
+      "dew_point": {
+        "est": 8.2
+      },
+      "sun": {
+        "est": 5.8
+      },
+      "rain": 47,
+      "rain_days": {
+        "est": 9
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 17
+      },
+      "water": 14.4,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 19.5,
+      "temp_night": 11.2,
+      "dew_point": {
+        "est": 10.3
+      },
+      "sun": {
+        "est": 6.8
+      },
+      "rain": 38,
+      "rain_days": {
+        "est": 6
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 16
+      },
+      "water": 16.1,
+      "flight_price": {
+        "est": 1800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 23.3,
+      "temp_night": 14.5,
+      "dew_point": {
+        "est": 13.7
+      },
+      "sun": {
+        "est": 8.7
+      },
+      "rain": 22,
+      "rain_days": {
+        "est": 3
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": 18.9,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 27.2,
+      "temp_night": 18,
+      "dew_point": {
+        "est": 17.1
+      },
+      "sun": {
+        "est": 10
+      },
+      "rain": 7,
+      "rain_days": {
+        "est": 2
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": 22.8,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.6,
+      "temp_night": 20.4,
+      "dew_point": {
+        "est": 18.9
+      },
+      "sun": {
+        "est": 11.2
+      },
+      "rain": 3,
+      "rain_days": {
+        "est": 1
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": 26.1,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.9,
+      "temp_night": 20.9,
+      "dew_point": {
+        "est": 19.8
+      },
+      "sun": {
+        "est": 9.8
+      },
+      "rain": 9,
+      "rain_days": {
+        "est": 2
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": 26.1,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 27.4,
+      "temp_night": 18.5,
+      "dew_point": {
+        "est": 17.6
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": 43,
+      "rain_days": {
+        "est": 4
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": 25,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 23.8,
+      "temp_night": 15.6,
+      "dew_point": {
+        "est": 14.3
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": 66,
+      "rain_days": {
+        "est": 8
+      },
+      "uv": {
+        "est": 5
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": 22.8,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 19.9,
+      "temp_night": 12.3,
+      "dew_point": {
+        "est": 10.6
+      },
+      "sun": {
+        "est": 4.4
+      },
+      "rain": 73,
+      "rain_days": {
+        "est": 9
+      },
+      "uv": {
+        "est": 3
+      },
+      "wind": {
+        "est": 18
+      },
+      "water": 20,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 16.4,
+      "temp_night": 9.4,
+      "dew_point": {
+        "est": 8.2
+      },
+      "sun": {
+        "est": 3.7
+      },
+      "rain": 76,
+      "rain_days": {
+        "est": 11
+      },
+      "uv": {
+        "est": 3
+      },
+      "wind": {
+        "est": 19
+      },
+      "water": 17.2,
+      "flight_price": {
+        "est": 1600
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Trapani – tabela klimatyczna, Trapani-Birgi (WMO 16429), normy 1991–2020 (NOAA): temperatury, opad",
+      "url": "https://en.wikipedia.org/wiki/Trapani",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Wikipedia: Palermo – tabela Cinisi / lotnisko Punta Raisi 1961–1990 (NOAA): dni z opadem, wilgotność; ok. 2 530 h słońca rocznie",
+      "url": "https://en.wikipedia.org/wiki/Palermo",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "climate-zone.com: Trapani – średnia prędkość wiatru (NASA POWER, model)",
+      "url": "https://www.climate-zone.com/climate/it/trapani/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "seatemperatu.re: San Vito lo Capo – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/europe/italy/san-vito-lo-capo/when.html",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Sycylia – pogoda miesiąc po miesiącu (12 stron, np. /sicily-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 37.60°N 14.02°E (środek wyspy)",
+      "url": "https://bestdateweather.com/en/sicily-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Palermo (brak lotów bezpośrednich; z 1 przesiadką Monachium 4 h 44 min, Wiedeń 4 h 58 min; ceny: I 477 zł najtaniej, XII 1 322 zł, IV 1 663 zł najdrożej, średnia 957 zł, typowo 661–1 262 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Palermo-PMO",
+      "checked": "2026-10-16"
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "id": "saint-lucia",
+  "country": "Saint Lucia",
+  "place": "Rodney Bay (Reduit Beach)",
+  "notes": "Górzysta, wulkaniczna wyspa na Małych Antylach: ciepło przez cały rok (29–31 °C w dzień, 23–25 °C w nocy), pasat. Pora sucha I–V, deszczowa VI–XII (krótkie, intensywne ulewy); sezon huraganów VI–XI (szczyt VIII–X). Baza pobytu: Reduit Beach w Rodney Bay na północy – szeroka plaża ze złotym piaskiem i spokojną wodą, obok marina, restauracje i Pigeon Island. Zieleń bujna: las deszczowy w głębi wyspy, zielone wzgórza. Wycieczki: Pitony i Soufrière (UNESCO), wulkan Sulphur Springs i gorące źródła, wodospady, plantacje kakao, Marigot Bay, park narodowy Pigeon Island. Dojazd: 1 przesiadka w Londynie ok. 15,5 h do Hewanorra (UVF) na południu wyspy; dalej ok. 1,5 h krętą drogą do Rodney Bay.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 4
+    },
+    "flight_time": {
+      "est": 15.5
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 1.5
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29,
+      "temp_night": 23.1,
+      "dew_point": {
+        "est": 21
+      },
+      "sun": {
+        "est": 8.5
+      },
+      "rain": 105,
+      "rain_days": 17,
+      "uv": 7,
+      "wind": {
+        "est": 28
+      },
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.1,
+      "temp_night": 23,
+      "dew_point": {
+        "est": 20.5
+      },
+      "sun": {
+        "est": 8.8
+      },
+      "rain": 72,
+      "rain_days": 12,
+      "uv": 8,
+      "wind": {
+        "est": 28
+      },
+      "water": {
+        "est": 26
+      },
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.7,
+      "temp_night": 23.3,
+      "dew_point": {
+        "est": 20.9
+      },
+      "sun": {
+        "est": 8.8
+      },
+      "rain": 66,
+      "rain_days": 12,
+      "uv": 9,
+      "wind": {
+        "est": 26
+      },
+      "water": {
+        "est": 26
+      },
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.5,
+      "temp_night": 24.2,
+      "dew_point": {
+        "est": 22.1
+      },
+      "sun": {
+        "est": 8.7
+      },
+      "rain": 86,
+      "rain_days": 11,
+      "uv": 9,
+      "wind": {
+        "est": 26
+      },
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.1,
+      "temp_night": 25.1,
+      "dew_point": {
+        "est": 23
+      },
+      "sun": {
+        "est": 8.5
+      },
+      "rain": 105,
+      "rain_days": 12,
+      "uv": 9,
+      "wind": {
+        "est": 26
+      },
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.8,
+      "temp_night": 25.3,
+      "dew_point": {
+        "est": 23.4
+      },
+      "sun": {
+        "est": 7.5
+      },
+      "rain": 157,
+      "rain_days": 16,
+      "uv": 9,
+      "wind": {
+        "est": 28
+      },
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.9,
+      "temp_night": 25.2,
+      "dew_point": {
+        "est": 23.9
+      },
+      "sun": {
+        "est": 8.1
+      },
+      "rain": 199,
+      "rain_days": 20,
+      "uv": 9,
+      "wind": {
+        "est": 27
+      },
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.2,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 24.1
+      },
+      "sun": {
+        "est": 8.4
+      },
+      "rain": 218,
+      "rain_days": 19,
+      "uv": 9,
+      "wind": {
+        "est": 23
+      },
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, osuwisk i fal, odwołane loty i wycieczki (np. Tomas, X 2010)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.5,
+      "temp_night": 24.8,
+      "dew_point": {
+        "est": 24
+      },
+      "sun": {
+        "est": 7.8
+      },
+      "rain": 206,
+      "rain_days": 16,
+      "uv": 9,
+      "wind": {
+        "est": 21
+      },
+      "water": {
+        "est": 29
+      },
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, osuwisk i fal, odwołane loty i wycieczki (np. Tomas, X 2010)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.2,
+      "temp_night": 24.5,
+      "dew_point": {
+        "est": 23.9
+      },
+      "sun": {
+        "est": 7.7
+      },
+      "rain": 251,
+      "rain_days": 18,
+      "uv": 8,
+      "wind": {
+        "est": 21
+      },
+      "water": {
+        "est": 29
+      },
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, osuwisk i fal, odwołane loty i wycieczki (np. Tomas, X 2010)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.4,
+      "temp_night": 24.3,
+      "dew_point": {
+        "est": 23.5
+      },
+      "sun": {
+        "est": 7.6
+      },
+      "rain": 234,
+      "rain_days": 19,
+      "uv": 7,
+      "wind": {
+        "est": 24
+      },
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.6,
+      "temp_night": 23.7,
+      "dew_point": {
+        "est": 21.9
+      },
+      "sun": {
+        "est": 8.2
+      },
+      "rain": 130,
+      "rain_days": 16,
+      "uv": 7,
+      "wind": {
+        "est": 27
+      },
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Castries – tabela klimatyczna, lotnisko George F. L. Charles, 1991–2020 (NOAA; wilgotność i słońce: Weather.Directory)",
+      "url": "https://en.wikipedia.org/wiki/Castries",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "weather2travel: Gros Islet – klimat w miesiącach (temperatura morza)",
+      "url": "https://www.weather2travel.com/st-lucia/gros-islet/climate/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Weather Spark: Barbados – średnia prędkość wiatru (zastępczo, ok. 180 km)",
+      "url": "https://weatherspark.com/y/150201/Average-Weather-in-Barbados-Year-Round",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Saint Lucia – pogoda miesiąc po miesiącu (12 stron, np. /saint-lucia-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 13.91°N 60.98°W",
+      "url": "https://bestdateweather.com/en/saint-lucia-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Polska – Saint Lucia (WAW–UVF z 1 przesiadką w Londynie Heathrow 15 h 15 min i 15 h 40 min; oferty 2 964–3 554 zł, bez statystyk miesięcznych)",
+      "url": "https://www.kayak.pl/loty/Polska-PL0/Saint-Lucia-LC0",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Barbados (zastępcze statystyki cen dla trasy przez Londyn: III 3 400, XII 4 472; średnia 3 938 zł; typowo 3 433–4 412 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Barbados-BGI",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Wikipedia: Bridgetown – nasłonecznienie, lotnisko Grantley Adams 1991–2020 (Barbados Meteorological Services) – zastępczo zamiast modelu Weather.Directory",
+      "url": "https://en.wikipedia.org/wiki/Bridgetown",
+      "checked": "2026-10-17"
+    }
+  ]
+}

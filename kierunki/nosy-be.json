@@ -1,0 +1,314 @@
+{
+  "id": "nosy-be",
+  "country": "Madagaskar",
+  "place": "Nosy Be (Andilana)",
+  "notes": "Północno-zachodni Madagaskar, osłonięty od pasatu: pora sucha i słoneczna V–X, pora deszczowa XII–III z ulewami i ryzykiem cyklonów (I–III). Baza pobytu: plaża Andilana na północno-zachodnim krańcu wyspy – szeroka, jasna, spokojna woda. Pogoda ze stacji Nosy Be/Fascene (ok. 15 km, NOAA 1991–2020; nasłonecznienie 1961–1990). Zieleń: las deszczowy Lokobe, plantacje ylang-ylang, wzgórza. Wycieczki: rezerwat Lokobe (lemury), Nosy Komba, park morski Nosy Tanikely, Nosy Iranja; rekiny wielorybie zwykle X–XII. Dojazd: z 2 przesiadkami (np. Wiedeń + Addis Abeba z Ethiopian, najszybciej ok. 17 h 40 min) ok. 19 h; z lotniska ok. 25 km.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": {
+      "est": 19
+    },
+    "stops": 2,
+    "transfer": {
+      "est": 0.8
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.5,
+      "temp_night": 23.9,
+      "dew_point": {
+        "est": 23.5
+      },
+      "sun": 6,
+      "rain": 393,
+      "rain_days": 19.5,
+      "uv": 8,
+      "wind": null,
+      "water": 29.4,
+      "flight_price": {
+        "est": 5700
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Sezon cyklonów (I–III): cyklony nie co roku, ale przy cyklonie kilka dni ulew i wichury, odwołane loty i rejsy na wyspy."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.5,
+      "temp_night": 24,
+      "dew_point": {
+        "est": 23.5
+      },
+      "sun": 6.1,
+      "rain": 334,
+      "rain_days": 17.3,
+      "uv": 9,
+      "wind": null,
+      "water": 29.4,
+      "flight_price": {
+        "est": 5700
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Sezon cyklonów (I–III): cyklony nie co roku, ale przy cyklonie kilka dni ulew i wichury, odwołane loty i rejsy na wyspy."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.9,
+      "temp_night": 24.1,
+      "dew_point": {
+        "est": 23.8
+      },
+      "sun": 7.2,
+      "rain": 281,
+      "rain_days": 16.5,
+      "uv": 8,
+      "wind": null,
+      "water": 29.4,
+      "flight_price": {
+        "est": 5700
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Sezon cyklonów (I–III): cyklony nie co roku, ale przy cyklonie kilka dni ulew i wichury, odwołane loty i rejsy na wyspy."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.2,
+      "temp_night": 23.7,
+      "dew_point": {
+        "est": 23.8
+      },
+      "sun": 8.2,
+      "rain": 106,
+      "rain_days": 9.3,
+      "uv": 8,
+      "wind": null,
+      "water": 30,
+      "flight_price": {
+        "est": 6100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.4,
+      "temp_night": 22.3,
+      "dew_point": {
+        "est": 22.6
+      },
+      "sun": 8.8,
+      "rain": 35,
+      "rain_days": 4.7,
+      "uv": 7,
+      "wind": null,
+      "water": 28.9,
+      "flight_price": {
+        "est": 6100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.2,
+      "temp_night": 20.6,
+      "dew_point": {
+        "est": 21.3
+      },
+      "sun": 8.3,
+      "rain": 29,
+      "rain_days": 4.5,
+      "uv": 7,
+      "wind": null,
+      "water": 27.8,
+      "flight_price": {
+        "est": 6100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.7,
+      "temp_night": 19.5,
+      "dew_point": {
+        "est": 20.5
+      },
+      "sun": 8.5,
+      "rain": 21,
+      "rain_days": 3.4,
+      "uv": 7,
+      "wind": null,
+      "water": 27.2,
+      "flight_price": {
+        "est": 6300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30,
+      "temp_night": 19.5,
+      "dew_point": {
+        "est": 20.7
+      },
+      "sun": 9.2,
+      "rain": 27,
+      "rain_days": 3.6,
+      "uv": 8,
+      "wind": null,
+      "water": 26.1,
+      "flight_price": {
+        "est": 6400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.6,
+      "temp_night": 20.5,
+      "dew_point": {
+        "est": 21.5
+      },
+      "sun": 9.3,
+      "rain": 35,
+      "rain_days": 4.2,
+      "uv": 9,
+      "wind": null,
+      "water": 26.7,
+      "flight_price": {
+        "est": 6100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.8,
+      "temp_night": 22.3,
+      "dew_point": {
+        "est": 22.9
+      },
+      "sun": 9.1,
+      "rain": 30,
+      "rain_days": 4,
+      "uv": 9,
+      "wind": null,
+      "water": 27.2,
+      "flight_price": {
+        "est": 6300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.9,
+      "temp_night": 23.4,
+      "dew_point": {
+        "est": 23.5
+      },
+      "sun": 8.3,
+      "rain": 135,
+      "rain_days": 9.8,
+      "uv": 9,
+      "wind": null,
+      "water": 28.3,
+      "flight_price": {
+        "est": 5300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.6,
+      "temp_night": 23.9,
+      "dew_point": {
+        "est": 23.6
+      },
+      "sun": 7.1,
+      "rain": 302,
+      "rain_days": 15.8,
+      "uv": 9,
+      "wind": null,
+      "water": 29.4,
+      "flight_price": {
+        "est": 6300
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Nosy Be – tabela klimatyczna (NOAA, normy 1991–2020; nasłonecznienie 1961–1990; stacja Nosy Be/Fascene WMO 67012): temperatury, opad, dni ≥ 1 mm",
+      "url": "https://en.wikipedia.org/wiki/Nosy_Be",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "seatemperatu.re: Nosy Be – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/africa/madagascar/nosy-be/when.html",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Nosy Be – pogoda miesiąc po miesiącu (12 stron, np. /nosy-be-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 13.33°S 48.27°E",
+      "url": "https://bestdateweather.com/en/nosy-be-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Nosy Be (z 2 przesiadkami najszybciej 17 h 40 min, Ethiopian przez Wiedeń i Addis Abebę; z 1 przesiadką 22 h przez Mediolan; ceny: XI 5 303 zł najtaniej, VIII ok. 6 429 zł najdrożej, średnia 6 093 zł, typowo 5 428–6 428 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Nosy-Be-NOS",
+      "checked": "2026-10-16"
+    }
+  ]
+}

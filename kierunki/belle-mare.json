@@ -1,0 +1,505 @@
+{
+  "id": "belle-mare",
+  "country": "Mauritius",
+  "place": "Belle Mare / Palmar",
+  "notes": "Wschodnie (nawietrzne) wybrzeże Mauritiusa: chłodniej, wietrzniej i bardziej deszczowo niż na zachodzie (Flic en Flac); lato XI–IV gorące i wilgotne z ryzykiem cyklonów I–III, zima VI–IX z silnym pasatem SE (falująca laguna, wietrzne plaże). Baza pobytu: Belle Mare / Palmar – długa plaża z białym piaskiem i laguną za rafą. Brak norm ze stacji dla wschodniego wybrzeża: temperatury i słońce z siatki CRU (weather2travel), opad ze średnich Mauritius Meteorological Services dla regionu Wschód 1991–2020 (z wyżyną w głębi lądu, więc dla samego wybrzeża raczej zawyżony) – szacunek. Zieleń: pola trzciny cukrowej, ogrody resortów. Wycieczki: Île aux Cerfs (łodzią ok. 15 min z Trou d’Eau Douce), wodospady GRSE, ogród Pamplemousses, park Black River Gorges. Dojazd: jak na Mauritius (MRU), z lotniska ok. 45 km.",
+  "fixed": {
+    "beaches": {
+      "est": 5
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 15.4,
+    "stops": 1,
+    "transfer": {
+      "est": 0.8
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 29
+      },
+      "temp_night": {
+        "est": 22
+      },
+      "dew_point": {
+        "est": 21.4
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 344
+      },
+      "rain_days": {
+        "est": 11.9
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 23
+      },
+      "water": 27,
+      "flight_price": {
+        "est": 3800
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Sezon cyklonów (I–III, najwyższe ryzyko w lutym): cyklony nie występują co roku, ale przy ostrzeżeniu klasy 2–3 zamknięte plaże, sklepy i loty na 1–3 dni, ulewy."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 29
+      },
+      "temp_night": {
+        "est": 22
+      },
+      "dew_point": {
+        "est": 21.4
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 400
+      },
+      "rain_days": {
+        "est": 11.9
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 24
+      },
+      "water": 28,
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Sezon cyklonów (I–III, najwyższe ryzyko w lutym): cyklony nie występują co roku, ale przy ostrzeżeniu klasy 2–3 zamknięte plaże, sklepy i loty na 1–3 dni, ulewy."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 29
+      },
+      "temp_night": {
+        "est": 22
+      },
+      "dew_point": {
+        "est": 21.4
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 382
+      },
+      "rain_days": {
+        "est": 11.9
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 24
+      },
+      "water": 28,
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Sezon cyklonów (I–III, najwyższe ryzyko w lutym): cyklony nie występują co roku, ale przy ostrzeżeniu klasy 2–3 zamknięte plaże, sklepy i loty na 1–3 dni, ulewy."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 28
+      },
+      "temp_night": {
+        "est": 21
+      },
+      "dew_point": {
+        "est": 20.4
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 284
+      },
+      "rain_days": {
+        "est": 11.2
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 24
+      },
+      "water": 27,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 26
+      },
+      "temp_night": {
+        "est": 19
+      },
+      "dew_point": {
+        "est": 18.5
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 207
+      },
+      "rain_days": {
+        "est": 9.8
+      },
+      "uv": {
+        "est": 5
+      },
+      "wind": {
+        "est": 24
+      },
+      "water": 26,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 25
+      },
+      "temp_night": {
+        "est": 17
+      },
+      "dew_point": {
+        "est": 17
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 161
+      },
+      "rain_days": {
+        "est": 9.1
+      },
+      "uv": {
+        "est": 5
+      },
+      "wind": {
+        "est": 26
+      },
+      "water": 25,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 24
+      },
+      "temp_night": {
+        "est": 17
+      },
+      "dew_point": {
+        "est": 16.5
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 179
+      },
+      "rain_days": {
+        "est": 10.5
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 28
+      },
+      "water": 24,
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 24
+      },
+      "temp_night": {
+        "est": 17
+      },
+      "dew_point": {
+        "est": 16.5
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 150
+      },
+      "rain_days": {
+        "est": 10.5
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 28
+      },
+      "water": 23,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 24
+      },
+      "temp_night": {
+        "est": 17
+      },
+      "dew_point": {
+        "est": 16.5
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 116
+      },
+      "rain_days": {
+        "est": 8.4
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 25
+      },
+      "water": 23,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 25
+      },
+      "temp_night": {
+        "est": 18
+      },
+      "dew_point": {
+        "est": 17.5
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 97
+      },
+      "rain_days": {
+        "est": 9.1
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 24
+      },
+      "water": 24,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 27
+      },
+      "temp_night": {
+        "est": 19
+      },
+      "dew_point": {
+        "est": 19
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 109
+      },
+      "rain_days": {
+        "est": 8.4
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 22
+      },
+      "water": 25,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 28
+      },
+      "temp_night": {
+        "est": 21
+      },
+      "dew_point": {
+        "est": 20.4
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 211
+      },
+      "rain_days": {
+        "est": 11.2
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 22
+      },
+      "water": 26,
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "weather2travel: Belle Mare – temperatury, opad, dni deszczowe, nasłonecznienie, temperatura morza (CRU, Met Office, KNMI)",
+      "url": "https://weather2travel.com/mauritius/belle-mare/climate/?Units=1",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Wikipedia: Climate of Mauritius (wschód chłodniejszy i bardziej deszczowy przez pasaty; opad 900 mm na wybrzeżu, 1 500 mm na wyżynie)",
+      "url": "https://en.wikipedia.org/wiki/Climate_of_Mauritius",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Weather Spark: Mauritius (średnia obszarowa) – średnia godzinowa prędkość wiatru na 10 m, temperatura wody – kontrola",
+      "url": "https://weatherspark.com/y/150261/Average-Weather-in-Mauritius-Year-Round",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: Mauritius – pogoda miesiąc po miesiącu (12 stron, np. /mauritius-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 20.35°S 57.55°E (środek wyspy)",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-mauritius",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "30 Sundays: Mauritius miesiąc po miesiącu (tłok, ceny, ryzyko cyklonów, osłonięte wybrzeże zachodnie)",
+      "url": "https://www.30sundays.club/blog/best-time-to-visit-mauritius",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Fleewinter: Mauritius – kiedy jechać (cyklony I–III, nie co roku; silne pasaty VII–VIII na wschodzie i południu)",
+      "url": "https://www.fleewinter.com/mauritius/when-to-go/",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.com: Warszawa – Mauritius (najkrótszy średni czas z 1 przesiadką: Genewa 14 h 59 min, Stambuł 15 h 26 min; najczęściej przez Dubaj; brak lotów bezpośrednich)",
+      "url": "https://www.kayak.com/flight-routes/Warsaw-Frederic-Chopin-WAW/Mauritius-MRU",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Mauritius – statystyki cen w obie strony (miesiące: I 3 803, VII 4 850, XII 5 049; średnia 12 mies. 4 239 zł; typowo 3 821–4 791 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Mauritius-MRU",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "Mauritius Chamber of Agriculture / Mauritius Meteorological Services: średni opad według regionów 1991–2020 (region Wschód)",
+      "url": "https://mauritius-chamber-of-agriculture.org/wp-content/uploads/2025/04/Mean-rainfall-by-region-and-by-month-2023.pdf",
+      "checked": "2026-10-17"
+    }
+  ]
+}

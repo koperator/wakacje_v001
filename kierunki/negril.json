@@ -1,0 +1,485 @@
+{
+  "id": "negril",
+  "country": "Jamajka",
+  "place": "Negril (Seven Mile Beach)",
+  "notes": "Zachodni kraniec Jamajki: gorąco przez cały rok (30–33 °C), pora sucha XII–IV, deszcze V i IX–XI; sezon huraganów VI–XI (szczyt VIII–X). Baza pobytu: Seven Mile Beach – długa plaża z jasnym piaskiem i spokojną wodą po zawietrznej stronie wyspy; na południe klify West End. Pogoda ze stacji Montego Bay (Sangster, ok. 70 km; normy 1991–2020) – szacunek, Negril bywa nieco wilgotniejszy. Zieleń: bujna, palmy, bagna Great Morass. Wycieczki: klify i zachody słońca w West End (Rick’s Café), wodospady YS, rzeka Black River, Blue Hole, Montego Bay. Dojazd: z 1 przesiadką (Frankfurt, Zurych) do Montego Bay ok. 15,7 h; z lotniska ok. 1 h 15 min drogi.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 4
+    },
+    "flight_time": 15.7,
+    "stops": 1,
+    "transfer": {
+      "est": 1.3
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 29.8
+      },
+      "temp_night": {
+        "est": 22.2
+      },
+      "dew_point": {
+        "est": 21.7
+      },
+      "sun": {
+        "est": 7.7
+      },
+      "rain": {
+        "est": 77
+      },
+      "rain_days": {
+        "est": 11
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 18
+      },
+      "water": 27.2,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 30
+      },
+      "temp_night": {
+        "est": 22.1
+      },
+      "dew_point": {
+        "est": 21.4
+      },
+      "sun": {
+        "est": 8.5
+      },
+      "rain": {
+        "est": 42
+      },
+      "rain_days": {
+        "est": 9
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 18
+      },
+      "water": 27.2,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 30.5
+      },
+      "temp_night": {
+        "est": 22.5
+      },
+      "dew_point": {
+        "est": 21.7
+      },
+      "sun": {
+        "est": 8.7
+      },
+      "rain": {
+        "est": 59
+      },
+      "rain_days": {
+        "est": 7
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 16
+      },
+      "water": 27.2,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 31.4
+      },
+      "temp_night": {
+        "est": 23.5
+      },
+      "dew_point": {
+        "est": 22.5
+      },
+      "sun": {
+        "est": 9.2
+      },
+      "rain": {
+        "est": 64
+      },
+      "rain_days": {
+        "est": 7
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 32
+      },
+      "temp_night": {
+        "est": 24
+      },
+      "dew_point": {
+        "est": 23.4
+      },
+      "sun": {
+        "est": 8.2
+      },
+      "rain": {
+        "est": 150
+      },
+      "rain_days": {
+        "est": 12
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 33
+      },
+      "temp_night": {
+        "est": 24.6
+      },
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": {
+        "est": 8.2
+      },
+      "rain": {
+        "est": 86
+      },
+      "rain_days": {
+        "est": 11
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 17
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 33.3
+      },
+      "temp_night": {
+        "est": 24.9
+      },
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": {
+        "est": 8.8
+      },
+      "rain": {
+        "est": 66
+      },
+      "rain_days": {
+        "est": 8
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 17
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 5500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 33.4
+      },
+      "temp_night": {
+        "est": 24.9
+      },
+      "dew_point": {
+        "est": 24.8
+      },
+      "sun": {
+        "est": 8.1
+      },
+      "rain": {
+        "est": 94
+      },
+      "rain_days": {
+        "est": 10
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": 30,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty i wycieczki (np. Melissa, X 2025, zachodnia Jamajka)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 33
+      },
+      "temp_night": {
+        "est": 24.6
+      },
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": {
+        "est": 7.4
+      },
+      "rain": {
+        "est": 135
+      },
+      "rain_days": {
+        "est": 14
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": 30,
+      "flight_price": {
+        "est": 5500
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty i wycieczki (np. Melissa, X 2025, zachodnia Jamajka)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 32.2
+      },
+      "temp_night": {
+        "est": 24.3
+      },
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": {
+        "est": 7.3
+      },
+      "rain": {
+        "est": 159
+      },
+      "rain_days": {
+        "est": 14
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty i wycieczki (np. Melissa, X 2025, zachodnia Jamajka)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31.1
+      },
+      "temp_night": {
+        "est": 23.9
+      },
+      "dew_point": {
+        "est": 23.6
+      },
+      "sun": {
+        "est": 7.7
+      },
+      "rain": {
+        "est": 107
+      },
+      "rain_days": {
+        "est": 13
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 17
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 30.2
+      },
+      "temp_night": {
+        "est": 23
+      },
+      "dew_point": {
+        "est": 22.4
+      },
+      "sun": {
+        "est": 7.4
+      },
+      "rain": {
+        "est": 81
+      },
+      "rain_days": {
+        "est": 11
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 18
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Montego Bay – tabela klimatyczna 1991–2020 (NOAA, stacja Sangster; DWD: dni z opadem, wilgotność, słońce) – stacja zastępcza ok. 70 km",
+      "url": "https://en.wikipedia.org/wiki/Montego_Bay",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "climate-zone.com: Montego Bay – średnia prędkość wiatru (NASA POWER, model)",
+      "url": "https://www.climate-zone.com/climate/jm/montego-bay/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "seatemperatu.re: Negril – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/caribbean/jamaica/negril/when.html",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Jamajka – pogoda miesiąc po miesiącu (12 stron, np. /jamaica-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 18.10°N 77.30°W (środek wyspy)",
+      "url": "https://bestdateweather.com/en/jamaica-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Montego Bay (z 1 przesiadką średnio Frankfurt 15 h 43 min, Zurych 16 h 46 min; ceny: IV 2 969 zł najtaniej, IX 5 471 zł, VII 6 228 zł najdrożej, średnia 3 738 zł, typowo 3 421–4 741 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Montego-Bay-MBJ",
+      "checked": "2026-10-16"
+    }
+  ]
+}

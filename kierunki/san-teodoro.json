@@ -1,0 +1,357 @@
+{
+  "id": "san-teodoro",
+  "country": "Włochy (Sardynia)",
+  "place": "San Teodoro (La Cinta / Cala Brandinchi), Sardynia",
+  "notes": "Klimat śródziemnomorski północno-wschodniej Sardynii: gorące, suche lato VI–VIII (ok. 31 °C), woda najcieplejsza VII–IX (24–25 °C), deszczowa i chłodna zima (ok. 14 °C, noce ok. 5 °C); sezon plażowy realnie VI–IX. Baza pobytu: San Teodoro – plaże La Cinta i Cala Brandinchi (biały piasek, płytka turkusowa woda). Pogoda ze stacji Olbia (ok. 25 km, ISPRA / Aeronautica Militare 1981–2010). Zieleń: makia, pinie, wzgórza. Wycieczki: wyspa Tavolara, Costa Smeralda, archipelag La Maddalena, Olbia. Poza sezonem (X–IV) większość hoteli i restauracji zamknięta. Dojazd: bez przesiadek Wizz Air z Lotniska Chopina ok. 2 h 35 min (sezonowo, ok. IV–X); zimą z 1 przesiadką (Wiedeń) ok. 5 h.",
+  "fixed": {
+    "beaches": {
+      "est": 5
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 4
+    },
+    "flight_time": 2.6,
+    "stops": 0,
+    "transfer": {
+      "est": 0.4
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 13.7,
+      "temp_night": 5.3,
+      "dew_point": {
+        "est": 4.3
+      },
+      "sun": 4.1,
+      "rain": 47,
+      "rain_days": 7,
+      "uv": {
+        "est": 2
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": 13.9,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 14.2,
+      "temp_night": 5.1,
+      "dew_point": {
+        "est": 4.2
+      },
+      "sun": 4.9,
+      "rain": 73,
+      "rain_days": 8,
+      "uv": {
+        "est": 4
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": 13.9,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 16.3,
+      "temp_night": 6.6,
+      "dew_point": {
+        "est": 5.1
+      },
+      "sun": 6,
+      "rain": 63,
+      "rain_days": 8,
+      "uv": {
+        "est": 5
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": 14.4,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 18.7,
+      "temp_night": 8.4,
+      "dew_point": {
+        "est": 7.4
+      },
+      "sun": 7.1,
+      "rain": 56,
+      "rain_days": 8,
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": 15.6,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 23.3,
+      "temp_night": 12,
+      "dew_point": {
+        "est": 11.3
+      },
+      "sun": 9,
+      "rain": 37,
+      "rain_days": 4,
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": 18.3,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 27.9,
+      "temp_night": 16.1,
+      "dew_point": {
+        "est": 13.4
+      },
+      "sun": 10.4,
+      "rain": 18,
+      "rain_days": 3,
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 11
+      },
+      "water": 22.8,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.3,
+      "temp_night": 19.3,
+      "dew_point": {
+        "est": 17
+      },
+      "sun": 11.6,
+      "rain": 6,
+      "rain_days": 1,
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 11
+      },
+      "water": 24.4,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.3,
+      "temp_night": 19.4,
+      "dew_point": {
+        "est": 17.8
+      },
+      "sun": 10.2,
+      "rain": 28,
+      "rain_days": 3,
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 10
+      },
+      "water": 25,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 27.4,
+      "temp_night": 16.3,
+      "dew_point": {
+        "est": 15.4
+      },
+      "sun": 8.3,
+      "rain": 41,
+      "rain_days": 5,
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": 23.9,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 23.2,
+      "temp_night": 13,
+      "dew_point": {
+        "est": 11.4
+      },
+      "sun": 6.3,
+      "rain": 58,
+      "rain_days": 5,
+      "uv": {
+        "est": 4
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": 21.1,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 18,
+      "temp_night": 9.1,
+      "dew_point": {
+        "est": 8.6
+      },
+      "sun": 4.6,
+      "rain": 56,
+      "rain_days": 6,
+      "uv": {
+        "est": 3
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": 18.9,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 14.7,
+      "temp_night": 6.5,
+      "dew_point": {
+        "est": 5.8
+      },
+      "sun": 3.8,
+      "rain": 98,
+      "rain_days": 9,
+      "uv": {
+        "est": 2
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": 16.1,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Olbia – tabela klimatyczna 1981–2010 (ISPRA, Aeronautica Militare): temperatury, opad, dni z opadem, wilgotność, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Olbia",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "climate-zone.com: Olbia – średnia prędkość wiatru (NASA POWER, model)",
+      "url": "https://www.climate-zone.com/climate/it/olbia/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "seatemperatu.re: San Teodoro – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/europe/italy/san-teodoro/when.html",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Sardynia – pogoda miesiąc po miesiącu (12 stron, np. /sardinia-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 40.12°N 9.01°E (środek wyspy)",
+      "url": "https://bestdateweather.com/en/sardinia-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Olbia (bez przesiadek tylko Wizz Air, 2 h 35 min; z 1 przesiadką Wiedeń 5 h 05 min; ceny: IV 673 zł najtaniej, I 1 224 zł, XII 1 232 zł najdrożej, średnia 1 017 zł, typowo 761–1 304 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Olbia-OLB",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "flightsfrom.com: Warszawa – Olbia (Wizz Air, bezpośrednio)",
+      "url": "https://www.flightsfrom.com/WAW-OLB",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "KAYAK.pl: Lotnisko Chopina – Olbia (oferty bez przesiadek Wizz Air w kwietniu i październiku)",
+      "url": "https://www.kayak.pl/loty/Warszawa-Lotnisko-Chopina-i-inne-lotniska-WAW/Olbia-Costa-Smeralda-OLB",
+      "checked": "2026-10-17"
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "id": "dubaj",
+  "country": "ZEA",
+  "place": "Dubaj (JBR / Palm Jumeirah)",
+  "notes": "Pustynny klimat Zatoki Perskiej: przyjemnie XI–III (24–30 °C w dzień), ekstremalny upał i duszność V–IX (40–42 °C, punkt rosy do 27 °C, woda ok. 32 °C). Rzadkie deszcze zimą. Baza pobytu: Jumeirah Beach Residence (JBR) i Palm Jumeirah – szerokie, piaszczyste plaże miejskie, spokojna woda. Pogoda ze stacji Dubai Met Office (normy 1991–2020). Zieleń: pustynne miasto z nawadnianymi parkami i palmami. Atrakcje: Burj Khalifa, Dubai Mall i fontanny, stary Dubaj (Al Fahidi, souki, abra), pustynne safari, Abu Zabi (Wielki Meczet, Luwr) jako wycieczka jednodniowa. Dojazd: bez przesiadek (Emirates, flydubai, LOT), ok. 6 h; z lotniska ok. 35 km.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 4
+    },
+    "flight_time": 6.2,
+    "stops": 0,
+    "transfer": {
+      "est": 0.6
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 24,
+      "temp_night": 14.3,
+      "dew_point": 9.8,
+      "sun": 8.1,
+      "rain": 19,
+      "rain_days": {
+        "est": 3.9
+      },
+      "uv": 5,
+      "wind": 14,
+      "water": 20.8,
+      "flight_price": {
+        "est": 2800
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): część restauracji otwarta dopiero po zachodzie słońca, alkohol zwykle dopiero po iftarze, krótsze godziny pracy; hotele, plaże hotelowe i atrakcje działają."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 25,
+      "temp_night": 15.5,
+      "dew_point": 11.2,
+      "sun": 8.5,
+      "rain": 25,
+      "rain_days": {
+        "est": 3.3
+      },
+      "uv": 6,
+      "wind": 14,
+      "water": 20.6,
+      "flight_price": {
+        "est": 2800
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): część restauracji otwarta dopiero po zachodzie słońca, alkohol zwykle dopiero po iftarze, krótsze godziny pracy; hotele, plaże hotelowe i atrakcje działają."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30,
+      "temp_night": 18.3,
+      "dew_point": 13.5,
+      "sun": 8.7,
+      "rain": 22,
+      "rain_days": {
+        "est": 4.1
+      },
+      "uv": 7,
+      "wind": 15,
+      "water": 22.3,
+      "flight_price": {
+        "est": 2800
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): część restauracji otwarta dopiero po zachodzie słońca, alkohol zwykle dopiero po iftarze, krótsze godziny pracy; hotele, plaże hotelowe i atrakcje działają."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 34,
+      "temp_night": 21.7,
+      "dew_point": 17.1,
+      "sun": 10.2,
+      "rain": 7,
+      "rain_days": {
+        "est": 1.8
+      },
+      "uv": 8,
+      "wind": 14,
+      "water": 25,
+      "flight_price": {
+        "est": 2500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 37.5,
+      "temp_night": 25.1,
+      "dew_point": 20.9,
+      "sun": 11.3,
+      "rain": 0,
+      "rain_days": {
+        "est": 0.2
+      },
+      "uv": 9,
+      "wind": 14,
+      "water": 28.5,
+      "flight_price": {
+        "est": 2900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 39.9,
+      "temp_night": 26.9,
+      "dew_point": 23.8,
+      "sun": 11.5,
+      "rain": 0,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": 9,
+      "wind": 13,
+      "water": 30.7,
+      "flight_price": {
+        "est": 2400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 41.7,
+      "temp_night": 30,
+      "dew_point": 26.5,
+      "sun": 10.7,
+      "rain": 1,
+      "rain_days": {
+        "est": 0.4
+      },
+      "uv": 9,
+      "wind": 12,
+      "water": 32.2,
+      "flight_price": {
+        "est": 2400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 42.1,
+      "temp_night": 30.4,
+      "dew_point": 27.2,
+      "sun": 10.5,
+      "rain": 0,
+      "rain_days": {
+        "est": 0.4
+      },
+      "uv": 9,
+      "wind": 12,
+      "water": 32.8,
+      "flight_price": {
+        "est": 2400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 39.5,
+      "temp_night": 27.7,
+      "dew_point": 24.9,
+      "sun": 10.3,
+      "rain": 0,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": 8,
+      "wind": 11,
+      "water": 31.9,
+      "flight_price": {
+        "est": 2400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 36.5,
+      "temp_night": 24.1,
+      "dew_point": 21.1,
+      "sun": 9.9,
+      "rain": 1,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": 7,
+      "wind": 11,
+      "water": 29.7,
+      "flight_price": {
+        "est": 2500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31,
+      "temp_night": 20.1,
+      "dew_point": 15.7,
+      "sun": 9.3,
+      "rain": 3,
+      "rain_days": {
+        "est": 0.9
+      },
+      "uv": 6,
+      "wind": 11,
+      "water": 27.1,
+      "flight_price": {
+        "est": 2300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26,
+      "temp_night": 16.3,
+      "dew_point": 11.3,
+      "sun": 8.2,
+      "rain": 16,
+      "rain_days": {
+        "est": 2.7
+      },
+      "uv": 5,
+      "wind": 13,
+      "water": 23.3,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Dubai – tabela klimatyczna, normy 1991–2020 (Dubai Meteorological Office): temperatury, opad, dni z opadem, wilgotność, punkt rosy, nasłonecznienie; tabela temperatury morza (seatemperature.org, Weather Atlas)",
+      "url": "https://en.wikipedia.org/wiki/Dubai",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Weather Spark: lotnisko Dubaj – średnia godzinowa prędkość wiatru na 10 m",
+      "url": "https://weatherspark.com/y/148889/Average-Weather-at-Dubai-International-Airport-United-Arab-Emirates-Year-Round",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Dubaj – pogoda miesiąc po miesiącu (12 stron, np. /dubai-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 25.20°N 55.27°E",
+      "url": "https://bestdateweather.com/en/dubai-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Exploring Emirates: Ramadan w ZEA (restauracje w dzień, alkohol po iftarze, hotele i atrakcje działają)",
+      "url": "https://exploringemirates.com/uae-ramadan/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Dubaj (bez przesiadek Emirates, flydubai, LOT, średnio 6 h 13 min; ceny: XI 2 280 zł najtaniej, V 2 921 zł, XII 2 995 zł najdrożej, średnia 2 549 zł, typowo 2 223–3 127 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Dubaj-DXB",
+      "checked": "2026-10-16"
+    }
+  ]
+}

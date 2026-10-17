@@ -1,0 +1,416 @@
+{
+  "id": "whitsundays",
+  "country": "Australia",
+  "place": "Whitsundays (Hamilton Island, Catseye Beach)",
+  "notes": "Wyspy Whitsunday u wybrzeża Queenslandu, przy Wielkiej Rafie Koralowej: pora sucha V–X – słonecznie i ciepło (22–27 °C w dzień, woda 21–25 °C), pora deszczowa XII–III – gorąco, parno i ulewnie (ok. 30 °C, woda 28 °C), sezon cyklonów XI–IV i meduz XI–V. Baza pobytu: Catseye Beach na Hamilton Island – jasny piasek i płytka, turkusowa woda przed resortami; przy odpływie odsłania się szeroki pas płycizny. Zieleń: wyspy porośnięte buszem i lasem (parki narodowe). Wycieczki: Whitehaven Beach i Hill Inlet (rejs ok. 30–45 min), rafa (Heart Reef, pontony na rafie zewnętrznej), rejsy żaglówkami, loty widokowe. Bardzo drogo (wyspa-resort). Dojazd: 2 przesiadki (Dubaj i Brisbane lub Sydney) ok. 28 h (szacunek); lotnisko na wyspie, do resortów ok. 5–10 min.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 5
+    },
+    "flight_time": {
+      "est": 27.8
+    },
+    "stops": 2,
+    "transfer": {
+      "est": 0.2
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 29.9,
+      "temp_night": 24.9,
+      "dew_point": 23.8,
+      "sun": {
+        "est": 8.1
+      },
+      "rain": 293,
+      "rain_days": 13,
+      "uv": 10,
+      "wind": {
+        "est": 22
+      },
+      "water": {
+        "est": 27.8
+      },
+      "flight_price": {
+        "est": 8200
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 2,
+          "note": "Szczyt sezonu meduz (stingers: kostkowe i Irukandji, XII–III): poparzenia mogą być groźne dla życia; kąpiel w kombinezonie ochronnym (stinger suit), na części plaż sieci."
+        },
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu cyklonów (I–III): przy cyklonie kilka dni ulew i wichury, odwołane loty i rejsy (np. Debbie, III 2017 – duże zniszczenia na Hamilton Island)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 29.7,
+      "temp_night": 24.9,
+      "dew_point": 23.9,
+      "sun": {
+        "est": 7.3
+      },
+      "rain": 264,
+      "rain_days": 14,
+      "uv": 9,
+      "wind": {
+        "est": 22
+      },
+      "water": {
+        "est": 27.8
+      },
+      "flight_price": {
+        "est": 7800
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 2,
+          "note": "Szczyt sezonu meduz (stingers: kostkowe i Irukandji, XII–III): poparzenia mogą być groźne dla życia; kąpiel w kombinezonie ochronnym (stinger suit), na części plaż sieci."
+        },
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu cyklonów (I–III): przy cyklonie kilka dni ulew i wichury, odwołane loty i rejsy (np. Debbie, III 2017 – duże zniszczenia na Hamilton Island)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 28.9,
+      "temp_night": 24.5,
+      "dew_point": 23,
+      "sun": {
+        "est": 7.5
+      },
+      "rain": 232,
+      "rain_days": 14,
+      "uv": 8,
+      "wind": {
+        "est": 26
+      },
+      "water": {
+        "est": 27.8
+      },
+      "flight_price": {
+        "est": 7800
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 2,
+          "note": "Szczyt sezonu meduz (stingers: kostkowe i Irukandji, XII–III): poparzenia mogą być groźne dla życia; kąpiel w kombinezonie ochronnym (stinger suit), na części plaż sieci."
+        },
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu cyklonów (I–III): przy cyklonie kilka dni ulew i wichury, odwołane loty i rejsy (np. Debbie, III 2017 – duże zniszczenia na Hamilton Island)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 27,
+      "temp_night": 22.9,
+      "dew_point": 21.6,
+      "sun": {
+        "est": 7.4
+      },
+      "rain": 156,
+      "rain_days": 12,
+      "uv": 7,
+      "wind": {
+        "est": 26
+      },
+      "water": {
+        "est": 26.1
+      },
+      "flight_price": {
+        "est": 8200
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Początek lub koniec sezonu meduz (stingers, XI i IV–V): zalecany kombinezon ochronny."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 24.4,
+      "temp_night": 20.6,
+      "dew_point": 19.4,
+      "sun": {
+        "est": 7.2
+      },
+      "rain": 94,
+      "rain_days": 11,
+      "uv": 6,
+      "wind": {
+        "est": 25
+      },
+      "water": {
+        "est": 23.9
+      },
+      "flight_price": {
+        "est": 7300
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Początek lub koniec sezonu meduz (stingers, XI i IV–V): zalecany kombinezon ochronny."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 22.3,
+      "temp_night": 18.9,
+      "dew_point": 16.9,
+      "sun": {
+        "est": 7.3
+      },
+      "rain": 56,
+      "rain_days": 7,
+      "uv": 5,
+      "wind": {
+        "est": 25
+      },
+      "water": {
+        "est": 22.2
+      },
+      "flight_price": {
+        "est": 8900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 21.5,
+      "temp_night": 18,
+      "dew_point": 15.5,
+      "sun": {
+        "est": 7.9
+      },
+      "rain": 54,
+      "rain_days": 6,
+      "uv": 6,
+      "wind": {
+        "est": 23
+      },
+      "water": {
+        "est": 21.1
+      },
+      "flight_price": {
+        "est": 9300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 22.9,
+      "temp_night": 18.5,
+      "dew_point": 15.9,
+      "sun": {
+        "est": 8.8
+      },
+      "rain": 24,
+      "rain_days": 3,
+      "uv": 7,
+      "wind": {
+        "est": 23
+      },
+      "water": {
+        "est": 21.1
+      },
+      "flight_price": {
+        "est": 9600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 25.3,
+      "temp_night": 20.2,
+      "dew_point": 17.7,
+      "sun": {
+        "est": 9.5
+      },
+      "rain": 26,
+      "rain_days": 3,
+      "uv": 8,
+      "wind": {
+        "est": 22
+      },
+      "water": {
+        "est": 22.8
+      },
+      "flight_price": {
+        "est": 8900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27.4,
+      "temp_night": 22.1,
+      "dew_point": 20,
+      "sun": {
+        "est": 9.5
+      },
+      "rain": 25,
+      "rain_days": 4,
+      "uv": 9,
+      "wind": {
+        "est": 21
+      },
+      "water": {
+        "est": 25
+      },
+      "flight_price": {
+        "est": 8900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 28.7,
+      "temp_night": 23.4,
+      "dew_point": 21.9,
+      "sun": {
+        "est": 9.2
+      },
+      "rain": 75,
+      "rain_days": 5,
+      "uv": 9,
+      "wind": {
+        "est": 21
+      },
+      "water": {
+        "est": 26.1
+      },
+      "flight_price": {
+        "est": 7800
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Początek lub koniec sezonu meduz (stingers, XI i IV–V): zalecany kombinezon ochronny."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 29.9,
+      "temp_night": 24.6,
+      "dew_point": 23,
+      "sun": {
+        "est": 8.8
+      },
+      "rain": 136,
+      "rain_days": 8,
+      "uv": 9,
+      "wind": {
+        "est": 22
+      },
+      "water": {
+        "est": 27.2
+      },
+      "flight_price": {
+        "est": 8200
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 2,
+          "note": "Szczyt sezonu meduz (stingers: kostkowe i Irukandji, XII–III): poparzenia mogą być groźne dla życia; kąpiel w kombinezonie ochronnym (stinger suit), na części plaż sieci."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Hamilton Island – tabele klimatyczne (Bureau of Meteorology): lotnisko 2002–2024 (temperatury, opad, dni ≥ 1 mm) i stara stacja 1985–2002 (punkt rosy)",
+      "url": "https://en.wikipedia.org/wiki/Hamilton_Island_(Queensland)",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Bureau of Meteorology: Hamilton Island (033255) – średni wiatr o 9:00 i 15:00",
+      "url": "https://www.bom.gov.au/climate/averages/tables/cw_033255.shtml",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Wikipedia: Mackay – nasłonecznienie, Mackay Aero 1983–2016 (BoM) – zastępczo, ok. 100 km",
+      "url": "https://en.wikipedia.org/wiki/Mackay,_Queensland",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "weather2travel: Airlie Beach – klimat w miesiącach (temperatura morza w °F)",
+      "url": "https://www.weather2travel.com/queensland/airlie-beach/climate/?Units=1",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Whitsundays – pogoda miesiąc po miesiącu (12 stron, np. /whitsundays-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 20.28°S 148.95°E",
+      "url": "https://bestdateweather.com/en/whitsundays-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Brisbane (1 przesiadka: Dubaj średnio 23 h 35 min; ceny: V 4 927 zł, VII 6 862, VIII 7 160 zł; średnia 5 805 zł; typowo 4 966–6 947 zł) – baza do ceny i czasu lotu; strona WAW–HTI się nie wczytała",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Brisbane-BNE",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Polska – Proserpine/Whitsunday Coast (typowa dobra cena ok. 7 318 zł w obie strony, dolne 25%)",
+      "url": "https://www.kayak.pl/loty/Polska-PL0/Proserpine-Whitsunday-Coast-PPP",
+      "checked": "2026-10-17"
+    }
+  ]
+}

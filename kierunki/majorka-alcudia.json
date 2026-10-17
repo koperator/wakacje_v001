@@ -1,0 +1,462 @@
+{
+  "id": "majorka-alcudia",
+  "country": "Hiszpania (Baleary)",
+  "place": "Playa de Muro / Alcúdia, Majorka",
+  "notes": "Klimat śródziemnomorski: gorące, suche lato VI–VIII (ok. 30 °C), ciepła woda VII–IX (25–26 °C), deszcze głównie IX–XII, łagodna zima (ok. 16 °C), morze zimą ok. 14 °C. Baza pobytu: Playa de Muro i Alcúdia na północnym wybrzeżu – długa plaża z białym piaskiem i płytką, turkusową wodą. Pogoda ze stacji AEMET Puerto de Palma (ok. 50 km, normy 1991–2020) – szacunek. Zieleń: park Albufera, sosny, góry Tramuntana w pobliżu. Wycieczki: stare miasto Alcúdii, Pollença, przylądek Formentor, Tramuntana (UNESCO), Palma. Poza sezonem (XI–III) większość hoteli w Alcúdii zamknięta. Dojazd: bez przesiadek (Ryanair, LOT, Wizz Air) ok. 3 h 10 min; z lotniska ok. 60 km.",
+  "fixed": {
+    "beaches": {
+      "est": 5
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 3.2,
+    "stops": 0,
+    "transfer": {
+      "est": 0.9
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 15.7
+      },
+      "temp_night": {
+        "est": 8.5
+      },
+      "dew_point": {
+        "est": 7.6
+      },
+      "sun": {
+        "est": 5.4
+      },
+      "rain": {
+        "est": 44
+      },
+      "rain_days": {
+        "est": 6.2
+      },
+      "uv": 3,
+      "wind": {
+        "est": 17
+      },
+      "water": {
+        "est": 14.4
+      },
+      "flight_price": {
+        "est": 900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 15.7
+      },
+      "temp_night": {
+        "est": 8.4
+      },
+      "dew_point": {
+        "est": 7.3
+      },
+      "sun": {
+        "est": 6.1
+      },
+      "rain": {
+        "est": 37
+      },
+      "rain_days": {
+        "est": 5.9
+      },
+      "uv": 4,
+      "wind": {
+        "est": 17
+      },
+      "water": {
+        "est": 13.9
+      },
+      "flight_price": {
+        "est": 900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 17.6
+      },
+      "temp_night": {
+        "est": 9.9
+      },
+      "dew_point": {
+        "est": 8.6
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 29
+      },
+      "rain_days": {
+        "est": 4.6
+      },
+      "uv": 5,
+      "wind": {
+        "est": 16
+      },
+      "water": {
+        "est": 14.1
+      },
+      "flight_price": {
+        "est": 800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 19.7
+      },
+      "temp_night": {
+        "est": 12.2
+      },
+      "dew_point": {
+        "est": 10.3
+      },
+      "sun": {
+        "est": 8.3
+      },
+      "rain": {
+        "est": 38
+      },
+      "rain_days": {
+        "est": 4.7
+      },
+      "uv": 6,
+      "wind": {
+        "est": 15
+      },
+      "water": {
+        "est": 15.9
+      },
+      "flight_price": {
+        "est": 900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 23
+      },
+      "temp_night": {
+        "est": 15.5
+      },
+      "dew_point": {
+        "est": 13.6
+      },
+      "sun": {
+        "est": 9.6
+      },
+      "rain": {
+        "est": 32
+      },
+      "rain_days": {
+        "est": 3.1
+      },
+      "uv": 7,
+      "wind": {
+        "est": 12
+      },
+      "water": {
+        "est": 18.9
+      },
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 27
+      },
+      "temp_night": {
+        "est": 19.4
+      },
+      "dew_point": {
+        "est": 17
+      },
+      "sun": {
+        "est": 10.9
+      },
+      "rain": {
+        "est": 14
+      },
+      "rain_days": {
+        "est": 1.9
+      },
+      "uv": 7,
+      "wind": {
+        "est": 11
+      },
+      "water": {
+        "est": 22.5
+      },
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 29.7
+      },
+      "temp_night": {
+        "est": 22.4
+      },
+      "dew_point": {
+        "est": 19.9
+      },
+      "sun": {
+        "est": 11.4
+      },
+      "rain": {
+        "est": 5
+      },
+      "rain_days": {
+        "est": 0.6
+      },
+      "uv": 8,
+      "wind": {
+        "est": 10
+      },
+      "water": {
+        "est": 24.9
+      },
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 30.2
+      },
+      "temp_night": {
+        "est": 23
+      },
+      "dew_point": {
+        "est": 20.7
+      },
+      "sun": {
+        "est": 10.3
+      },
+      "rain": {
+        "est": 22
+      },
+      "rain_days": {
+        "est": 1.8
+      },
+      "uv": 7,
+      "wind": {
+        "est": 11
+      },
+      "water": {
+        "est": 26
+      },
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 27.4
+      },
+      "temp_night": {
+        "est": 20.1
+      },
+      "dew_point": {
+        "est": 18.4
+      },
+      "sun": {
+        "est": 7.8
+      },
+      "rain": {
+        "est": 61
+      },
+      "rain_days": {
+        "est": 5.3
+      },
+      "uv": 6,
+      "wind": {
+        "est": 13
+      },
+      "water": {
+        "est": 25
+      },
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 24
+      },
+      "temp_night": {
+        "est": 16.8
+      },
+      "dew_point": {
+        "est": 15.8
+      },
+      "sun": {
+        "est": 6.7
+      },
+      "rain": {
+        "est": 73
+      },
+      "rain_days": {
+        "est": 6.3
+      },
+      "uv": 4,
+      "wind": {
+        "est": 15
+      },
+      "water": {
+        "est": 22.7
+      },
+      "flight_price": {
+        "est": 900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 19.5
+      },
+      "temp_night": {
+        "est": 12.4
+      },
+      "dew_point": {
+        "est": 11.4
+      },
+      "sun": {
+        "est": 5.4
+      },
+      "rain": {
+        "est": 68
+      },
+      "rain_days": {
+        "est": 7.2
+      },
+      "uv": 3,
+      "wind": {
+        "est": 18
+      },
+      "water": {
+        "est": 19.7
+      },
+      "flight_price": {
+        "est": 900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 16.8
+      },
+      "temp_night": {
+        "est": 9.9
+      },
+      "dew_point": {
+        "est": 9.1
+      },
+      "sun": {
+        "est": 4.9
+      },
+      "rain": {
+        "est": 49
+      },
+      "rain_days": {
+        "est": 5.9
+      },
+      "uv": 2,
+      "wind": {
+        "est": 18
+      },
+      "water": {
+        "est": 16.3
+      },
+      "flight_price": {
+        "est": 900
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Palma de Mallorca – tabela klimatyczna, Puerto de Palma, normy 1991–2020 (AEMET OpenData): temperatury, opad, dni ≥ 1 mm, wilgotność, nasłonecznienie; temperatura morza (seatemperature.org) – stacja zastępcza ok. 50 km",
+      "url": "https://en.wikipedia.org/wiki/Palma_de_Mallorca",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "climate-zone.com: Palma – średnia prędkość wiatru (NASA POWER, model)",
+      "url": "https://www.climate-zone.com/climate/es/palma/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Alcúdia – pogoda miesiąc po miesiącu (12 stron, np. /alcudia-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 39.85°N 3.12°E",
+      "url": "https://bestdateweather.com/en/alcudia-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Palma de Mallorca (bez przesiadek Ryanair, LOT, Wizz Air, średnio 3 h 11 min; ceny: III 509 zł najtaniej, IX 849 zł, VIII 853 zł najdrożej, średnia 718 zł, typowo 527–976 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Palma-de-Mallorca-PMI",
+      "checked": "2026-10-16"
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "id": "porto-de-galinhas",
+  "country": "Brazylia",
+  "place": "Porto de Galinhas",
+  "notes": "Wybrzeże Pernambuco w północno-wschodniej Brazylii, ok. 60 km na południe od Recife: ciepło przez cały rok (28–31 °C w dzień, 21–23 °C w nocy), woda 26–28 °C, stały pasat. Pora deszczowa IV–VII (najwięcej VI), najsuchsze i najbardziej słoneczne IX–I. Baza pobytu: Porto de Galinhas – plaża z jasnym piaskiem i palmami, przy odpływie naturalne baseny w rafie z rybami (dopływ jangadą); w pobliżu Muro Alto (spokojna laguna), Cupe i Maracaípe (surfing, koniki morskie). W sezonie i w weekendy tłoczno. Zieleń: palmy kokosowe, namorzyny, resztki lasu atlantyckiego. Wycieczki: Praia dos Carneiros, Olinda (UNESCO) i Recife, wyspa Santo Aleixo. Tanio. Dojazd: 1 przesiadka w Lizbonie (TAP) ok. 17,5 h do Recife; z lotniska ok. 1 h.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 17.4,
+    "stops": 1,
+    "transfer": {
+      "est": 1
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 30.8
+      },
+      "temp_night": {
+        "est": 23.1
+      },
+      "dew_point": {
+        "est": 22
+      },
+      "sun": {
+        "est": 7.2
+      },
+      "rain": {
+        "est": 73
+      },
+      "rain_days": {
+        "est": 11
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 27.7
+      },
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 23.3
+      },
+      "dew_point": {
+        "est": 22.3
+      },
+      "sun": {
+        "est": 7.2
+      },
+      "rain": {
+        "est": 76
+      },
+      "rain_days": {
+        "est": 11
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Karnawał (II lub III, zależnie od roku): kilka dni świąt w całej Brazylii, Recife i Olinda pełne, noclegi w Porto de Galinhas drogie i wyprzedane."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 30.9
+      },
+      "temp_night": {
+        "est": 23.2
+      },
+      "dew_point": {
+        "est": 22.7
+      },
+      "sun": {
+        "est": 7.1
+      },
+      "rain": {
+        "est": 100
+      },
+      "rain_days": {
+        "est": 15
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 5500
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Karnawał (II lub III, zależnie od roku): kilka dni świąt w całej Brazylii, Recife i Olinda pełne, noclegi w Porto de Galinhas drogie i wyprzedane."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 30.4
+      },
+      "temp_night": {
+        "est": 22.8
+      },
+      "dew_point": {
+        "est": 22.9
+      },
+      "sun": {
+        "est": 6.8
+      },
+      "rain": {
+        "est": 130
+      },
+      "rain_days": {
+        "est": 17
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": {
+        "est": 27.8
+      },
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 29.6
+      },
+      "temp_night": {
+        "est": 22.3
+      },
+      "dew_point": {
+        "est": 22.7
+      },
+      "sun": {
+        "est": 6.1
+      },
+      "rain": {
+        "est": 169
+      },
+      "rain_days": {
+        "est": 19
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": {
+        "est": 27.3
+      },
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 28.5
+      },
+      "temp_night": {
+        "est": 21.5
+      },
+      "dew_point": {
+        "est": 22
+      },
+      "sun": {
+        "est": 5.5
+      },
+      "rain": {
+        "est": 194
+      },
+      "rain_days": {
+        "est": 22
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 26.7
+      },
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 27.9
+      },
+      "temp_night": {
+        "est": 21
+      },
+      "dew_point": {
+        "est": 21.3
+      },
+      "sun": {
+        "est": 5.6
+      },
+      "rain": {
+        "est": 166
+      },
+      "rain_days": {
+        "est": 23
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 26.2
+      },
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 27.9
+      },
+      "temp_night": {
+        "est": 20.7
+      },
+      "dew_point": {
+        "est": 20.7
+      },
+      "sun": {
+        "est": 6.3
+      },
+      "rain": {
+        "est": 108
+      },
+      "rain_days": {
+        "est": 19
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 26
+      },
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 28.6
+      },
+      "temp_night": {
+        "est": 21.5
+      },
+      "dew_point": {
+        "est": 20.9
+      },
+      "sun": {
+        "est": 6.9
+      },
+      "rain": {
+        "est": 70
+      },
+      "rain_days": {
+        "est": 12
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 26.1
+      },
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 29.6
+      },
+      "temp_night": {
+        "est": 22.4
+      },
+      "dew_point": {
+        "est": 21
+      },
+      "sun": {
+        "est": 7.5
+      },
+      "rain": {
+        "est": 53
+      },
+      "rain_days": {
+        "est": 9
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 26.6
+      },
+      "flight_price": {
+        "est": 4400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 30.4
+      },
+      "temp_night": {
+        "est": 22.8
+      },
+      "dew_point": {
+        "est": 21.2
+      },
+      "sun": {
+        "est": 8.1
+      },
+      "rain": {
+        "est": 43
+      },
+      "rain_days": {
+        "est": 7
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 4400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 30.8
+      },
+      "temp_night": {
+        "est": 23
+      },
+      "dew_point": {
+        "est": 21.6
+      },
+      "sun": {
+        "est": 7.9
+      },
+      "rain": {
+        "est": 49
+      },
+      "rain_days": {
+        "est": 8
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 27.4
+      },
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Recife – tabela klimatyczna 1991–2020 (INMET): temperatury, opad, dni ≥ 1 mm, wilgotność, słońce – stacja ok. 50 km od bazy",
+      "url": "https://en.wikipedia.org/wiki/Recife",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Climatempo: klimatologia Porto de Galinhas (kontrolnie: 26–28 °C w dzień, opad ok. 1 230 mm rocznie – mniej niż w Recife)",
+      "url": "https://www.climatempo.com.br/climatologia/2018/portodegalinhas-br",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "climate-zone.com: Recife – średnia prędkość wiatru (NASA POWER 1991–2020, model)",
+      "url": "https://www.climate-zone.com/climate/brazil/recife/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "surf-forecast.com: Porto de Galinhas – temperatura morza (maks. 27–29 °C ok. 18 III, min. 25–27 °C ok. 14 VIII, 16 X średnio 26,6 °C; 1981–2005)",
+      "url": "https://www.surf-forecast.com/breaks/Portode-Galinhas/seatemp",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Salvador – pogoda miesiąc po miesiącu (12 stron, np. /salvador-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 12.97°S 38.51°W – zastępczo (Recife się nie wczytał)",
+      "url": "https://bestdateweather.com/en/salvador-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Recife (1 przesiadka: Lizbona średnio 17 h 21 min, Madryt 20 h 59 min; ceny: VI 3 616 zł najtaniej, III najdrożej ok. 8 593 zł (o 4 977 zł więcej), typowo 3 913–4 808 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Recife-REC",
+      "checked": "2026-10-16"
+    }
+  ]
+}

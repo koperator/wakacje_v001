@@ -1,0 +1,358 @@
+{
+  "id": "oludeniz",
+  "country": "Turcja",
+  "place": "Ölüdeniz / Fethiye",
+  "notes": "Klimat śródziemnomorski Wybrzeża Likijskiego: bardzo gorące, suche lato VI–IX (35 °C w VII–VIII), woda najcieplejsza VII–IX (ok. 28–29 °C), deszczowa, łagodna zima XII–II. Baza pobytu: Ölüdeniz – Błękitna Laguna i plaża Belcekız (drobne kamyki i piasek, bardzo spokojna, przejrzysta woda), Fethiye ok. 15 km. Pogoda ze stacji Fethiye (NOAA 1991–2020). Zieleń: lasy sosnowe i góra Babadağ (paralotnie). Wycieczki: Dolina Motyli, Kayaköy, Saklıkent, Tlos, rejsy 12 wysp, Szlak Likijski, Dalyan i Kaunos. Dojazd: lotnisko Dalaman – regularnie z 1 przesiadką w Stambule ok. 8,5–9 h; latem czartery biur bez przesiadek; z lotniska ok. 60 km. Alternatywnie Antalya (bez przesiadek cały rok) i ok. 3,5 h drogi.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": {
+      "est": 8.7
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 1
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 16.3,
+      "temp_night": 6,
+      "dew_point": {
+        "est": 4.7
+      },
+      "sun": 4.5,
+      "rain": 174,
+      "rain_days": 10.5,
+      "uv": {
+        "est": 3
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": {
+        "est": 17.8
+      },
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17,
+      "temp_night": 6.7,
+      "dew_point": {
+        "est": 4.8
+      },
+      "sun": 5.4,
+      "rain": 117,
+      "rain_days": 8.5,
+      "uv": {
+        "est": 4
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": {
+        "est": 16.9
+      },
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 19.5,
+      "temp_night": 8.4,
+      "dew_point": {
+        "est": 6.7
+      },
+      "sun": 7,
+      "rain": 74,
+      "rain_days": 6.5,
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 11
+      },
+      "water": {
+        "est": 17.3
+      },
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 22.6,
+      "temp_night": 11.2,
+      "dew_point": {
+        "est": 9.5
+      },
+      "sun": 8.3,
+      "rain": 50,
+      "rain_days": 5.6,
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 9
+      },
+      "water": {
+        "est": 17.9
+      },
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 27,
+      "temp_night": 15.4,
+      "dew_point": {
+        "est": 13.2
+      },
+      "sun": 9.7,
+      "rain": 30,
+      "rain_days": 3.5,
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 9
+      },
+      "water": {
+        "est": 21.2
+      },
+      "flight_price": {
+        "est": 1900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.1,
+      "temp_night": 19.5,
+      "dew_point": {
+        "est": 16.3
+      },
+      "sun": 11.5,
+      "rain": 5,
+      "rain_days": 1.4,
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 10
+      },
+      "water": {
+        "est": 25.3
+      },
+      "flight_price": {
+        "est": 2300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 35.1,
+      "temp_night": 22.4,
+      "dew_point": {
+        "est": 18.7
+      },
+      "sun": 11.9,
+      "rain": 1,
+      "rain_days": 1,
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 10
+      },
+      "water": {
+        "est": 27.9
+      },
+      "flight_price": {
+        "est": 2100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 35.4,
+      "temp_night": 22.6,
+      "dew_point": {
+        "est": 19.3
+      },
+      "sun": 10.9,
+      "rain": 2,
+      "rain_days": 1.7,
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 10
+      },
+      "water": {
+        "est": 29
+      },
+      "flight_price": {
+        "est": 2100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.9,
+      "temp_night": 19,
+      "dew_point": {
+        "est": 16.2
+      },
+      "sun": 9.8,
+      "rain": 18,
+      "rain_days": 2.2,
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 10
+      },
+      "water": {
+        "est": 27.7
+      },
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 27.2,
+      "temp_night": 14.6,
+      "dew_point": {
+        "est": 13.1
+      },
+      "sun": 7.7,
+      "rain": 73,
+      "rain_days": 4.1,
+      "uv": {
+        "est": 5
+      },
+      "wind": {
+        "est": 10
+      },
+      "water": {
+        "est": 24.9
+      },
+      "flight_price": {
+        "est": 1900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 22,
+      "temp_night": 10.2,
+      "dew_point": {
+        "est": 9.4
+      },
+      "sun": 5.7,
+      "rain": 119,
+      "rain_days": 6,
+      "uv": {
+        "est": 4
+      },
+      "wind": {
+        "est": 11
+      },
+      "water": {
+        "est": 21.2
+      },
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.6,
+      "temp_night": 7.4,
+      "dew_point": {
+        "est": 6.5
+      },
+      "sun": 4.1,
+      "rain": 181,
+      "rain_days": 10.2,
+      "uv": {
+        "est": 2
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": {
+        "est": 19
+      },
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Fethiye – tabela klimatyczna 1991–2020 (NOAA): temperatury, opad, dni ≥ 1 mm, wilgotność, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Fethiye",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Alanya (kierunki/alanya.json): UV BestDateWeather (Antalya), wiatr i temperatura wody Weather Spark (Alanya) – zastępstwo, to samo wybrzeże tureckie",
+      "url": "https://weatherspark.com/y/96973/Average-Weather-in-Alanya-Turkey-Year-Round",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Dalaman (brak regularnych lotów bezpośrednich; najkrótsza przesiadka średnio Stambuł 4 h 40 min; ceny: IX ok. 1 079 zł najtaniej, VI ok. 2 325 zł najdrożej, średnia 1 895 zł, typowo 1 659–2 324 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Dalaman-DLM",
+      "checked": "2026-10-16"
+    }
+  ]
+}

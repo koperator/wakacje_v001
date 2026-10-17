@@ -1,0 +1,364 @@
+{
+  "id": "manuel-antonio",
+  "country": "Kostaryka",
+  "place": "Manuel Antonio (Playa Espadilla)",
+  "notes": "Środkowe wybrzeże Pacyfiku w Kostaryce: gorąco przez cały rok (30–32 °C w dzień, 22–23 °C w nocy), woda 28–29 °C, mało wiatru. Wyraźna pora sucha XII–III i bardzo deszczowa V–XI (ponad 400 mm w miesiącu, ulewy głównie po południu i w nocy). Baza pobytu: Playa Espadilla przy wejściu do parku narodowego Manuel Antonio – długa, jasna plaża z falami (prądy wsteczne, kąpiel przy ratownikach); spokojne zatoczki z białym piaskiem są w parku (bilet, zamknięty w poniedziałki). Zieleń: las deszczowy schodzi do plaży – małpy, leniwce, iguany. Wycieczki: park narodowy, namorzyny Damas, rafting, wodospady Nauyaca, rejsy z delfinami. Drogo. Dojazd: 1 przesiadka (Paryż, Madryt) do San José ok. 17 h; dalej ok. 3–3,5 h drogą (albo krajowy lot do Quepos).",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 5
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 4
+    },
+    "flight_time": 17.2,
+    "stops": 1,
+    "transfer": {
+      "est": 3.3
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.3,
+      "temp_night": 22,
+      "dew_point": {
+        "est": 21
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": 46,
+      "rain_days": 7,
+      "uv": {
+        "est": 7
+      },
+      "wind": 5,
+      "water": 28,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32,
+      "temp_night": 22,
+      "dew_point": {
+        "est": 20.7
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": 26,
+      "rain_days": 4,
+      "uv": {
+        "est": 8
+      },
+      "wind": 5,
+      "water": 28.6,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.4,
+      "temp_night": 22.6,
+      "dew_point": {
+        "est": 20.8
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": 40,
+      "rain_days": 5,
+      "uv": {
+        "est": 8
+      },
+      "wind": 6,
+      "water": 29.4,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Semana Santa (III lub IV, zależnie od roku): święta państwowe w Wielki Czwartek i Piątek, zamknięte urzędy i część firm, plaże i park pełne rodzin."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.2,
+      "temp_night": 23.5,
+      "dew_point": {
+        "est": 21.4
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": 157,
+      "rain_days": 12,
+      "uv": {
+        "est": 8
+      },
+      "wind": 6,
+      "water": 29.3,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Semana Santa (III lub IV, zależnie od roku): święta państwowe w Wielki Czwartek i Piątek, zamknięte urzędy i część firm, plaże i park pełne rodzin."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.4,
+      "temp_night": 23.3,
+      "dew_point": {
+        "est": 23.3
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": 389,
+      "rain_days": 23,
+      "uv": {
+        "est": 8
+      },
+      "wind": 8,
+      "water": 29.2,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.8,
+      "temp_night": 23.1,
+      "dew_point": {
+        "est": 23.6
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": 413,
+      "rain_days": 24,
+      "uv": {
+        "est": 7
+      },
+      "wind": 8,
+      "water": 28.8,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.5,
+      "temp_night": 22.8,
+      "dew_point": {
+        "est": 23.2
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": 445,
+      "rain_days": 26,
+      "uv": {
+        "est": 7
+      },
+      "wind": 8,
+      "water": 28.8,
+      "flight_price": {
+        "est": 4400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.4,
+      "temp_night": 22.7,
+      "dew_point": {
+        "est": 23.2
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": 469,
+      "rain_days": 26,
+      "uv": {
+        "est": 8
+      },
+      "wind": 8,
+      "water": 28.9,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.3,
+      "temp_night": 22.6,
+      "dew_point": {
+        "est": 23.4
+      },
+      "sun": {
+        "est": 5
+      },
+      "rain": 544,
+      "rain_days": 27,
+      "uv": {
+        "est": 8
+      },
+      "wind": 9,
+      "water": 28.8,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30,
+      "temp_night": 22.6,
+      "dew_point": {
+        "est": 23.5
+      },
+      "sun": {
+        "est": 5
+      },
+      "rain": 534,
+      "rain_days": 27,
+      "uv": {
+        "est": 8
+      },
+      "wind": 10,
+      "water": 28,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 29.8,
+      "temp_night": 22.6,
+      "dew_point": {
+        "est": 23.2
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": 349,
+      "rain_days": 23,
+      "uv": {
+        "est": 7
+      },
+      "wind": 8,
+      "water": 27.7,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.6,
+      "temp_night": 22.3,
+      "dew_point": {
+        "est": 22
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": 160,
+      "rain_days": 15,
+      "uv": {
+        "est": 7
+      },
+      "wind": 6,
+      "water": 28.1,
+      "flight_price": {
+        "est": 5300
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Quepos – tabela klimatyczna 1984–2003 (WMO): temperatury, opad, dni z opadem",
+      "url": "https://en.wikipedia.org/wiki/Quepos",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Wikipedia: Panama City – tabela klimatyczna 1991–2020 (WMO): wilgotność – zastępczo do punktu rosy",
+      "url": "https://en.wikipedia.org/wiki/Panama_City",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "weather2travel: Quepos – klimat w miesiącach (godziny słońca, liczby całkowite)",
+      "url": "https://www.weather2travel.com/costa-rica/quepos/climate/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Weather Spark: Quepos – średnia prędkość wiatru w miesiącach",
+      "url": "https://weatherspark.com/y/15472/Average-Weather-in-Quepos-Costa-Rica-Year-Round",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "seatemperature.org: Quepos – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperature.org/central-america/costa-rica/quepos.htm",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Panama – pogoda miesiąc po miesiącu (12 stron, np. /panama-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 8.98°N 79.52°W – zastępczo (wybrzeże Pacyfiku, ok. 500 km)",
+      "url": "https://bestdateweather.com/en/panama-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – San José (1 przesiadka: Frankfurt średnio 15 h 56 min, Paryż 17 h 09 min, Zurych 17 h 11 min; ceny: IX 2 980 zł najtaniej, VII 4 430, XII 5 306 zł najdrożej, średnia 4 113 zł, typowo 3 193–4 930 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/San-Jose-SJO",
+      "checked": "2026-10-16"
+    }
+  ]
+}

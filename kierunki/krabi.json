@@ -1,0 +1,442 @@
+{
+  "id": "krabi",
+  "country": "Tajlandia",
+  "place": "Krabi (Ao Nang / Railay)",
+  "notes": "Morze Andamańskie, ten sam rytm co Phuket: pora sucha XII–IV (najsłoneczniej I–III), monsun SW V–X z maksimum opadu IX–X. Baza pobytu: Ao Nang – plaża z gruboziarnistym piaskiem i łodziami longtail; najlepsze plaże (Railay West, Phra Nang) ok. 10–15 min łodzią, bez dojazdu drogą. Pogoda ze stacji Krabi (miasto, ok. 15 km, normy TMD 1981–2010; nasłonecznienie z Phuketu). Zieleń: wapienne turnie porośnięte dżunglą, namorzyny. Wycieczki: Phi Phi, wyspy Hong, 4 wyspy, Railay (wspinaczka), Tiger Cave Temple, Emerald Pool. W porze monsunu część rejsów odwoływana. Dojazd: najszybciej LOT do Bangkoku (cały rok) i dalej krajowym lotem do Krabi (ok. 1 h 30 min, Thai Vietjet, Thai Airways, Thai AirAsia, kilka rejsów dziennie) – osobne bilety, ok. 14,4 h; na jednym bilecie z 1 przesiadką (Abu Zabi, Dubaj) ok. 17 h. Lot bezpośredni LOT (ok. 10 h 40 min) to sezonowy czarter.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 5
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": {
+      "est": 14.4
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 0.6
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.9,
+      "temp_night": 21.6,
+      "dew_point": {
+        "est": 22.2
+      },
+      "sun": {
+        "est": 9
+      },
+      "rain": 32,
+      "rain_days": {
+        "est": 3.7
+      },
+      "uv": 8,
+      "wind": {
+        "est": 8
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Do ok. 10 stycznia szczyt noworoczny: najwyższe ceny i minimalne długości pobytu w wielu hotelach (ciąg dalszy okresu z grudnia)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 34.2,
+      "temp_night": 22,
+      "dew_point": {
+        "est": 22.2
+      },
+      "sun": {
+        "est": 8.7
+      },
+      "rain": 43,
+      "rain_days": {
+        "est": 3.2
+      },
+      "uv": 8,
+      "wind": {
+        "est": 7
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 34.3,
+      "temp_night": 23,
+      "dew_point": {
+        "est": 23.6
+      },
+      "sun": {
+        "est": 8.9
+      },
+      "rain": 98,
+      "rain_days": {
+        "est": 6.1
+      },
+      "uv": 9,
+      "wind": {
+        "est": 6
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 34.1,
+      "temp_night": 23.6,
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": 147,
+      "rain_days": {
+        "est": 8.2
+      },
+      "uv": 9,
+      "wind": {
+        "est": 5
+      },
+      "water": 30,
+      "flight_price": {
+        "est": 3800
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Songkran (13–15 kwietnia): uliczne bitwy wodne, tłok i droższe noclegi."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.9,
+      "temp_night": 23.7,
+      "dew_point": {
+        "est": 24.8
+      },
+      "sun": {
+        "est": 5.1
+      },
+      "rain": 172,
+      "rain_days": {
+        "est": 11.1
+      },
+      "uv": 8,
+      "wind": {
+        "est": 7
+      },
+      "water": 30,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Początek monsunu SW (zwykle od połowy maja): yższe fale i mętniejsza woda na Ao Nang, w części dni czerwone flagi; rejsy łodziami longtail na Railay i wycieczki na wyspy (Hong, Phi Phi, 4 wyspy) bywają odwoływane z powodu pogody."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.9,
+      "temp_night": 23.3,
+      "dew_point": {
+        "est": 24.7
+      },
+      "sun": {
+        "est": 3.9
+      },
+      "rain": 193,
+      "rain_days": {
+        "est": 11.1
+      },
+      "uv": 7,
+      "wind": {
+        "est": 8
+      },
+      "water": 30,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Monsun SW: wyższe fale i mętniejsza woda na Ao Nang, w części dni czerwone flagi; rejsy łodziami longtail na Railay i wycieczki na wyspy (Hong, Phi Phi, 4 wyspy) bywają odwoływane z powodu pogody."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.5,
+      "temp_night": 23,
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": {
+        "est": 3.9
+      },
+      "rain": 201,
+      "rain_days": {
+        "est": 12.8
+      },
+      "uv": 7,
+      "wind": {
+        "est": 8
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Monsun SW: wyższe fale i mętniejsza woda na Ao Nang, w części dni czerwone flagi; rejsy łodziami longtail na Railay i wycieczki na wyspy (Hong, Phi Phi, 4 wyspy) bywają odwoływane z powodu pogody."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.4,
+      "temp_night": 22.9,
+      "dew_point": {
+        "est": 24.2
+      },
+      "sun": {
+        "est": 3.8
+      },
+      "rain": 266,
+      "rain_days": {
+        "est": 12.6
+      },
+      "uv": 8,
+      "wind": {
+        "est": 8
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 3800
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Monsun SW: wyższe fale i mętniejsza woda na Ao Nang, w części dni czerwone flagi; rejsy łodziami longtail na Railay i wycieczki na wyspy (Hong, Phi Phi, 4 wyspy) bywają odwoływane z powodu pogody."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.2,
+      "temp_night": 22.9,
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": {
+        "est": 3.6
+      },
+      "rain": 275,
+      "rain_days": {
+        "est": 13
+      },
+      "uv": 7,
+      "wind": {
+        "est": 8
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Monsun SW: wyższe fale i mętniejsza woda na Ao Nang, w części dni czerwone flagi; rejsy łodziami longtail na Railay i wycieczki na wyspy (Hong, Phi Phi, 4 wyspy) bywają odwoływane z powodu pogody."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.3,
+      "temp_night": 22.4,
+      "dew_point": {
+        "est": 24.1
+      },
+      "sun": {
+        "est": 5.8
+      },
+      "rain": 324,
+      "rain_days": {
+        "est": 15.1
+      },
+      "uv": 8,
+      "wind": {
+        "est": 6
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 2800
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Koniec monsunu SW, głównie pierwsza połowa miesiąca: yższe fale i mętniejsza woda na Ao Nang, w części dni czerwone flagi; rejsy łodziami longtail na Railay i wycieczki na wyspy (Hong, Phi Phi, 4 wyspy) bywają odwoływane z powodu pogody."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.1,
+      "temp_night": 22.5,
+      "dew_point": {
+        "est": 23.7
+      },
+      "sun": {
+        "est": 7.3
+      },
+      "rain": 180,
+      "rain_days": {
+        "est": 12.3
+      },
+      "uv": 6,
+      "wind": {
+        "est": 7
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 3800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.4,
+      "temp_night": 21.7,
+      "dew_point": {
+        "est": 23.1
+      },
+      "sun": {
+        "est": 8.4
+      },
+      "rain": 68,
+      "rain_days": {
+        "est": 7.1
+      },
+      "uv": 6,
+      "wind": {
+        "est": 8
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Boże Narodzenie i Nowy Rok (ok. 20.12–10.01): najwyższe ceny, minimalne długości pobytu i obowiązkowe płatne kolacje galowe w wielu hotelach."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Krabi – tabela klimatyczna stacji Krabi 1981–2010 (Thai Meteorological Department; nasłonecznienie i wilgotność: Royal Irrigation Department)",
+      "url": "https://en.wikipedia.org/wiki/Krabi",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "Weather Spark: Krabi – średnia godzinowa prędkość wiatru na 10 m, średnia temperatura wody",
+      "url": "https://weatherspark.com/y/112784/Average-Weather-in-Krabi-Thailand-Year-Round",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "BestDateWeather: Krabi – pogoda miesiąc po miesiącu (12 stron, np. /krabi-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 8.09°N 98.91°E",
+      "url": "https://bestdateweather.com/en/krabi-weather-january",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Krabi (lot bez przesiadek LOT 10 h 40 min – czarter sezonowy; z 1 przesiadką: Etihad przez Abu Zabi od 14 h 20 min, średnio Kopenhaga 16 h 38 min, Abu Zabi 16 h 58 min, Szardża 17 h 26 min; ceny w obie strony: X 2 686, VII 3 929, XII 4 475 zł, średnia 12 mies. 3 822 zł, typowo 3 349–4 355 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Krabi-KBV",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "KAYAK.com: Bangkok Suvarnabhumi – Krabi (bez przesiadek średnio 1 h 27 min; Thai Vietjet 32, Thai Airways 21, Thai AirAsia 14 rejsów tygodniowo)",
+      "url": "https://www.kayak.com/flight-routes/Bangkok-Suvarnabhumi-BKK/Krabi-KBV",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "Pasazer.com: LOT Warszawa – Bangkok cały rok (latem LO65 WAW 15:15 – BKK 6:35)",
+      "url": "https://www.pasazer.com/news/469980/lot,latem,rzadziej,do,bangkoku.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "TAT News: turystyka morska w porze monsunu SW (V–X), zamknięcia parków morskich, odwoływane rejsy, czerwone flagi",
+      "url": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "Wikipedia: Phuket – nasłonecznienie, normy 1991–2020 (WMO/TMD) – zastępczo zamiast RID",
+      "url": "https://en.wikipedia.org/wiki/Phuket_province",
+      "checked": "2026-10-17"
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "id": "sharm-el-sheikh",
+  "country": "Egipt",
+  "place": "Sharm el-Sheikh (Naama Bay / Sharks Bay)",
+  "notes": "Pustynny klimat południowego Synaju: praktycznie bez deszczu, upał V–IX (ok. 34–37 °C), łagodnie XII–II (ok. 22 °C w dzień, chłodne noce ok. 13–15 °C), stały wiatr z północy. Woda: ok. 23 °C w II–III, ok. 29 °C w VIII. Baza pobytu: Naama Bay (piaszczysta, spokojna zatoka) i Sharks Bay (rafa tuż przy brzegu, wejście z pomostu). Pogoda z tabeli Wikipedii (WMO / Climate-Data.org, okres niepodany; punkt rosy timeanddate 2005–2015) – temperatury jako szacunek. Zieleń: pustynia i góry Synaju. Wycieczki: park narodowy Ras Mohammed, Tiran, Dahab i Blue Hole, klasztor św. Katarzyny i góra Synaj. Dojazd: regularnie z 1 przesiadką w Kairze, ok. 9 h; bez przesiadek tylko czarterami (ok. 4 h 10 min).",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 1
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 9,
+    "stops": 1,
+    "transfer": {
+      "est": 0.3
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 21.7
+      },
+      "temp_night": {
+        "est": 13.3
+      },
+      "dew_point": 5,
+      "sun": {
+        "est": 8
+      },
+      "rain": 1,
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 4,
+      "wind": {
+        "est": 18
+      },
+      "water": 23.3,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 22.4
+      },
+      "temp_night": {
+        "est": 13.7
+      },
+      "dew_point": 5,
+      "sun": {
+        "est": 9
+      },
+      "rain": 0,
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 5,
+      "wind": {
+        "est": 18
+      },
+      "water": 22.8,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 25.1
+      },
+      "temp_night": {
+        "est": 16.1
+      },
+      "dew_point": 6,
+      "sun": {
+        "est": 10
+      },
+      "rain": 1,
+      "rain_days": {
+        "est": 0.5
+      },
+      "uv": 6,
+      "wind": {
+        "est": 18
+      },
+      "water": 22.8,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": [
+        {
+          "type": "other",
+          "level": 1,
+          "note": "Wiatr z pustyni (chamsin) wiosną: w pojedyncze dni burze piaskowe i pyłowe, upał i ograniczona widoczność."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 29.8
+      },
+      "temp_night": {
+        "est": 20.1
+      },
+      "dew_point": 7,
+      "sun": {
+        "est": 10
+      },
+      "rain": 0,
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 7,
+      "wind": {
+        "est": 17
+      },
+      "water": 23.3,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": [
+        {
+          "type": "other",
+          "level": 1,
+          "note": "Wiatr z pustyni (chamsin) wiosną: w pojedyncze dni burze piaskowe i pyłowe, upał i ograniczona widoczność."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 33.9
+      },
+      "temp_night": {
+        "est": 23.8
+      },
+      "dew_point": 9,
+      "sun": {
+        "est": 11
+      },
+      "rain": 1,
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 8,
+      "wind": {
+        "est": 18
+      },
+      "water": 25,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 37
+      },
+      "temp_night": {
+        "est": 26.5
+      },
+      "dew_point": 10,
+      "sun": {
+        "est": 13
+      },
+      "rain": 0,
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 8,
+      "wind": {
+        "est": 19
+      },
+      "water": 26.7,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 37.5
+      },
+      "temp_night": {
+        "est": 26.7
+      },
+      "dew_point": 14,
+      "sun": {
+        "est": 13
+      },
+      "rain": 0,
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 8,
+      "wind": {
+        "est": 17
+      },
+      "water": 28.9,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 37.5
+      },
+      "temp_night": {
+        "est": 28
+      },
+      "dew_point": 14,
+      "sun": {
+        "est": 12
+      },
+      "rain": 0,
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 8,
+      "wind": {
+        "est": 18
+      },
+      "water": 29.4,
+      "flight_price": {
+        "est": 2600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 35.4
+      },
+      "temp_night": {
+        "est": 26.5
+      },
+      "dew_point": 15,
+      "sun": {
+        "est": 11
+      },
+      "rain": 0,
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 7,
+      "wind": {
+        "est": 19
+      },
+      "water": 28.3,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 31.5
+      },
+      "temp_night": {
+        "est": 23.4
+      },
+      "dew_point": 14,
+      "sun": {
+        "est": 10
+      },
+      "rain": 1,
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 6,
+      "wind": {
+        "est": 16
+      },
+      "water": 27.8,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 27
+      },
+      "temp_night": {
+        "est": 18.9
+      },
+      "dew_point": 10,
+      "sun": {
+        "est": 9
+      },
+      "rain": 3,
+      "rain_days": {
+        "est": 0.5
+      },
+      "uv": 5,
+      "wind": {
+        "est": 16
+      },
+      "water": 26.1,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 23.2
+      },
+      "temp_night": {
+        "est": 15
+      },
+      "dew_point": 6,
+      "sun": {
+        "est": 8
+      },
+      "rain": 1,
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 4,
+      "wind": {
+        "est": 18
+      },
+      "water": 25,
+      "flight_price": {
+        "est": 2500
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Sharm El Sheikh – tabela klimatyczna (WMO, Climate-Data.org; punkt rosy i wilgotność: Time and Date 2005–2015; nasłonecznienie: Weather Atlas)",
+      "url": "https://en.wikipedia.org/wiki/Sharm_El_Sheikh",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "seatemperatu.re: Sharm el-Sheikh – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/africa/egypt/sharm-el-sheikh/when.html",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Sharm el-Sheikh – pogoda miesiąc po miesiącu (12 stron, np. /sharm-el-sheikh-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 27.98°N 34.38°E",
+      "url": "https://bestdateweather.com/en/sharm-el-sheikh-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Weather Spark: Marsa Alam – średnia prędkość wiatru (zastępstwo dla Sharm el-Sheikh, to samo Morze Czerwone)",
+      "url": "https://weatherspark.com/y/98148/Average-Weather-in-Marsa-Alam-Egypt-Year-Round",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Szarm el-Szejk (z 1 przesiadką przez Kair średnio 8 h 59 min; bez przesiadek SkyUp MT 4 h 10 min – czarter; ceny: I 946 zł najtaniej, XII 2 491 zł, VIII 2 585 zł najdrożej, średnia 1 379 zł, typowo 932–2 273 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Szarm-el-Szejk-SSH",
+      "checked": "2026-10-16"
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "id": "kreta-agia-marina",
+  "country": "Grecja (Kreta)",
+  "place": "Agia Marina / Platanias, Kreta",
+  "notes": "Klimat śródziemnomorski zachodniej Krety: gorące, suche i słoneczne lato VI–IX (ok. 29–30 °C), woda najcieplejsza VIII–IX (ok. 25–26 °C), meltemi VII–VIII; deszczowa, łagodna zima XI–III. Baza pobytu: Agia Marina i Platanias na północnym wybrzeżu na zachód od Chanii – długa piaszczysta plaża, łagodne wejście, przy meltemi fala. Pogoda ze stacji lotniska Chania / Souda (HNMS 1971–2000). Zieleń: gaje oliwne i pomarańczowe, Góry Białe w tle. Wycieczki: stare miasto Chanii, wąwóz Samaria, Balos, Elafonisi, Rethymno. Poza sezonem (XI–III) większość hoteli zamknięta. Dojazd: bez przesiadek Wizz Air ok. 2 h 55 min (sezon letni); z lotniska ok. 25 km.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 2.9,
+    "stops": 0,
+    "transfer": {
+      "est": 0.5
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 14,
+      "temp_night": 8.1,
+      "dew_point": {
+        "est": 5.6
+      },
+      "sun": 3.8,
+      "rain": 126,
+      "rain_days": {
+        "est": 11.9
+      },
+      "uv": {
+        "est": 3
+      },
+      "wind": {
+        "est": 19
+      },
+      "water": 16,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 14.3,
+      "temp_night": 8,
+      "dew_point": {
+        "est": 5.5
+      },
+      "sun": 4.8,
+      "rain": 102,
+      "rain_days": {
+        "est": 10.3
+      },
+      "uv": {
+        "est": 4
+      },
+      "wind": {
+        "est": 19
+      },
+      "water": 15,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 16.1,
+      "temp_night": 8.9,
+      "dew_point": {
+        "est": 6.4
+      },
+      "sun": 6.1,
+      "rain": 81,
+      "rain_days": {
+        "est": 8.4
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 18
+      },
+      "water": 15,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 19.9,
+      "temp_night": 11.7,
+      "dew_point": {
+        "est": 8.7
+      },
+      "sun": 8,
+      "rain": 27,
+      "rain_days": {
+        "est": 5.5
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": 16,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 24.5,
+      "temp_night": 15.2,
+      "dew_point": {
+        "est": 12.1
+      },
+      "sun": 9.8,
+      "rain": 11,
+      "rain_days": {
+        "est": 2.7
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": 18,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29,
+      "temp_night": 19.2,
+      "dew_point": {
+        "est": 14.3
+      },
+      "sun": 11.8,
+      "rain": 2,
+      "rain_days": {
+        "est": 1
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": 22,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.5,
+      "temp_night": 21.4,
+      "dew_point": {
+        "est": 15.1
+      },
+      "sun": 12.2,
+      "rain": 1,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 16
+      },
+      "water": 25,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Meltemi (silny wiatr z północy) wieje po kilka dni z rzędu: wysoka fala i czerwone flagi na plażach północnego wybrzeża (Agia Marina, Platanias) w części dni."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30,
+      "temp_night": 21.3,
+      "dew_point": {
+        "est": 15.4
+      },
+      "sun": 11.5,
+      "rain": 1,
+      "rain_days": {
+        "est": 0.4
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 16
+      },
+      "water": 26,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Meltemi (silny wiatr z północy) wieje po kilka dni z rzędu: wysoka fala i czerwone flagi na plażach północnego wybrzeża (Agia Marina, Platanias) w części dni."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27.5,
+      "temp_night": 19.1,
+      "dew_point": {
+        "est": 14.4
+      },
+      "sun": 9.4,
+      "rain": 15,
+      "rain_days": {
+        "est": 1.8
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": 24,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 23.4,
+      "temp_night": 15.9,
+      "dew_point": {
+        "est": 12.8
+      },
+      "sun": 6.7,
+      "rain": 62,
+      "rain_days": {
+        "est": 6.9
+      },
+      "uv": {
+        "est": 5
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": 23,
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 19,
+      "temp_night": 12.4,
+      "dew_point": {
+        "est": 10.1
+      },
+      "sun": 4.6,
+      "rain": 87,
+      "rain_days": {
+        "est": 7.6
+      },
+      "uv": {
+        "est": 4
+      },
+      "wind": {
+        "est": 16
+      },
+      "water": 20,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15.6,
+      "temp_night": 9.7,
+      "dew_point": {
+        "est": 7.5
+      },
+      "sun": 3.6,
+      "rain": 99,
+      "rain_days": {
+        "est": 11.1
+      },
+      "uv": {
+        "est": 3
+      },
+      "wind": {
+        "est": 19
+      },
+      "water": 18,
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Chania – tabela klimatyczna, lotnisko Chania (Souda), 1971–2000 (Climate Atlas, Hellenic National Meteorological Service; wilgotność 1958–2010)",
+      "url": "https://en.wikipedia.org/wiki/Chania",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "climate-zone.com: Chania – średnia prędkość wiatru (NASA POWER, model)",
+      "url": "https://www.climate-zone.com/climate/gr/chania/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "weather2travel: Aghia Marina (Kreta) – temperatura morza (CRU; kontrolnie temperatury i słońce)",
+      "url": "https://weather2travel.com/crete/aghia-marina/climate/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Santorini – UV all-sky (Open-Meteo, ERA5 2016–2025), 36.39°N – zastępstwo dla Krety (ta sama szerokość)",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-santorini",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Climats et Voyages: Santorini – meltemi VII–VIII (jak w kierunku Santorini)",
+      "url": "https://www.climatsetvoyages.com/climat/grece/santorin",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Chania (bez przesiadek tylko Wizz Air, ok. 2 h 55 min; z 1 przesiadką Wiedeń 6 h 21 min; ceny: IV 528 zł najtaniej, XII 1 564 zł, X 1 771 zł najdrożej, średnia 897 zł, typowo 653–1 218 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Chania-CHQ",
+      "checked": "2026-10-16"
+    }
+  ]
+}

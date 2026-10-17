@@ -1,0 +1,341 @@
+{
+  "id": "salalah",
+  "country": "Oman",
+  "place": "Salalah (Hawana Salalah)",
+  "notes": "Południowy Oman (Dhofar): ciepło i sucho X–V (27–33 °C), w VI–IX khareef – monsun SW z mgłą, mżawką i zachmurzeniem (VII–VIII ok. 1,5 h słońca dziennie), zielone góry i wodospady, ale wysokie fale i prądy (kąpiel odradzana). Baza pobytu: Hawana Salalah – resortowa plaża z jasnym piaskiem ok. 35 km na wschód od miasta. Pogoda ze stacji lotniska Salalah (NOAA 1991–2020; wilgotność i słońce 1961–1990). Zieleń: pustynne wybrzeże i palmy kokosowe; góry zielone tylko w khareef. Atrakcje: Wadi Darbat, gejzery morskie Mughsayl, Al Baleed i Ziemia Kadzidła (UNESCO), Taqah, Mirbat. Dojazd: z 1 przesiadką w Dosze (Qatar Airways), ok. 11 h; zimą bywają czartery z Polski.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 11,
+    "stops": 1,
+    "transfer": {
+      "est": 0.5
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27.5,
+      "temp_night": 19.3,
+      "dew_point": {
+        "est": 12.4
+      },
+      "sun": 9.3,
+      "rain": 1,
+      "rain_days": 0.2,
+      "uv": 7,
+      "wind": 16,
+      "water": 25,
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w dzień niedozwolone; hotele działają."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.1,
+      "temp_night": 20,
+      "dew_point": {
+        "est": 15.3
+      },
+      "sun": 9.1,
+      "rain": 0,
+      "rain_days": 0.1,
+      "uv": 8,
+      "wind": 15,
+      "water": 25,
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w dzień niedozwolone; hotele działają."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.1,
+      "temp_night": 22.1,
+      "dew_point": {
+        "est": 18.3
+      },
+      "sun": 9.6,
+      "rain": 5,
+      "rain_days": 0.6,
+      "uv": 8,
+      "wind": 14,
+      "water": 26.7,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w dzień niedozwolone; hotele działają."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.8,
+      "temp_night": 24.9,
+      "dew_point": {
+        "est": 21.8
+      },
+      "sun": 10.3,
+      "rain": 4,
+      "rain_days": 0.4,
+      "uv": 9,
+      "wind": 14,
+      "water": 27.8,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.8,
+      "temp_night": 27.1,
+      "dew_point": {
+        "est": 24.8
+      },
+      "sun": 10.8,
+      "rain": 24,
+      "rain_days": 0.8,
+      "uv": 8,
+      "wind": 15,
+      "water": 28.9,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.9,
+      "temp_night": 27.6,
+      "dew_point": {
+        "est": 25.6
+      },
+      "sun": 6.7,
+      "rain": 6,
+      "rain_days": 1.2,
+      "uv": 8,
+      "wind": 20,
+      "water": 27.8,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Początek khareef: rosną fale i prądy, kąpiel w morzu odradzana w coraz większej części dni."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.3,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": 1.4,
+      "rain": 21,
+      "rain_days": 7.1,
+      "uv": 4,
+      "wind": 25,
+      "water": 25,
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 3,
+          "note": "Khareef (monsun SW): wysokie fale, silne prądy wsteczne, władze odradzają kąpiel w morzu; mżawka, mgła i zachmurzenie, za to zielone góry i wodospady (szczyt turystyki z krajów Zatoki)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27.2,
+      "temp_night": 24.2,
+      "dew_point": {
+        "est": 23.5
+      },
+      "sun": 1.4,
+      "rain": 19,
+      "rain_days": 6.8,
+      "uv": 4,
+      "wind": 23,
+      "water": 23.9,
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 3,
+          "note": "Khareef (monsun SW): wysokie fale, silne prądy wsteczne, władze odradzają kąpiel w morzu; mżawka, mgła i zachmurzenie, za to zielone góry i wodospady (szczyt turystyki z krajów Zatoki)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 29.5,
+      "temp_night": 24.8,
+      "dew_point": {
+        "est": 23.1
+      },
+      "sun": 6.3,
+      "rain": 8,
+      "rain_days": 1.2,
+      "uv": 8,
+      "wind": 15,
+      "water": 25,
+      "flight_price": {
+        "est": 2800
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Koniec khareef: fale i prądy w pierwszej części miesiąca, kąpiel odradzana; od połowy miesiąca spokojniej."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.2,
+      "temp_night": 23.3,
+      "dew_point": {
+        "est": 20.5
+      },
+      "sun": 10.2,
+      "rain": 5,
+      "rain_days": 0.4,
+      "uv": 8,
+      "wind": 11,
+      "water": 27.2,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31,
+      "temp_night": 22.4,
+      "dew_point": {
+        "est": 16.9
+      },
+      "sun": 10.2,
+      "rain": 2,
+      "rain_days": 0.2,
+      "uv": 7,
+      "wind": 14,
+      "water": 27.2,
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.3,
+      "temp_night": 20.8,
+      "dew_point": {
+        "est": 13.8
+      },
+      "sun": 9.6,
+      "rain": 4,
+      "rain_days": 0.2,
+      "uv": 6,
+      "wind": 16,
+      "water": 26.1,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Salalah – tabela klimatyczna, lotnisko Salalah, normy 1991–2020 (NOAA; wilgotność i nasłonecznienie 1961–1990; Starlings Roost Weather); opis khareef VI–IX",
+      "url": "https://en.wikipedia.org/wiki/Salalah",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Weather Spark: lotnisko Salalah – średnia godzinowa prędkość wiatru na 10 m, temperatura wody",
+      "url": "https://weatherspark.com/y/148876/Average-Weather-at-Salalah-Airport-Oman",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Salalah – pogoda miesiąc po miesiącu (12 stron, np. /salalah-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 17.02°N 54.09°E",
+      "url": "https://bestdateweather.com/en/salalah-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "LNK Oman: bezpieczeństwo kąpieli na plażach Salalah w khareef (VI–IX: fale kilkumetrowe, prądy wsteczne, władze odradzają kąpiel)",
+      "url": "https://www.lnkoman.com/swimming-safety-salalah-beaches-khareef/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Salala (brak lotów bezpośrednich; z 1 przesiadką średnio Doha 11 h, Dubaj 16 h 43 min; ceny: IX 2 792 zł najtaniej, XI 4 520 zł, XII 5 087 zł najdrożej, średnia 3 237 zł, typowo 2 850–4 112 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Salalah-SLL",
+      "checked": "2026-10-16"
+    }
+  ]
+}

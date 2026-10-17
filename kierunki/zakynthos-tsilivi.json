@@ -1,0 +1,361 @@
+{
+  "id": "zakynthos-tsilivi",
+  "country": "Grecja (Zakynthos)",
+  "place": "Tsilivi / Kalamaki, Zakynthos",
+  "notes": "Klimat śródziemnomorski Morza Jońskiego: gorące, suche lato VI–IX (ok. 30–31 °C), woda najcieplejsza VIII–IX (25–26 °C); deszczowa jesień i zima X–III (jedna z najwilgotniejszych wysp Grecji). Baza pobytu: Tsilivi (wschodnie wybrzeże, piaszczysta plaża, spokojna woda) lub Kalamaki (płytka, piaszczysta zatoka Laganas, plaża lęgowa żółwi – ograniczenia nocą). Pogoda ze stacji lotniska Zakynthos (NOAA 1961–1990). Zieleń: bardzo zielona wyspa – gaje oliwne, sosny. Wycieczki: zatoka Navagio (z łodzi), Błękitne Groty, przylądek Keri, żółwie w zatoce Laganas, miasto Zakynthos. Poza sezonem większość hoteli zamknięta. Dojazd: regularnie z 1 przesiadką (Bergamo) ok. 5 h 20 min; latem czartery biur bez przesiadek; z lotniska ok. 10 km.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 5.3,
+    "stops": 1,
+    "transfer": {
+      "est": 0.3
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 14.4,
+      "temp_night": 8.1,
+      "dew_point": {
+        "est": 6.9
+      },
+      "sun": {
+        "est": 5
+      },
+      "rain": 150,
+      "rain_days": 12.8,
+      "uv": {
+        "est": 3
+      },
+      "wind": {
+        "est": 17
+      },
+      "water": 16,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 14.5,
+      "temp_night": 8.2,
+      "dew_point": {
+        "est": 6.8
+      },
+      "sun": {
+        "est": 5
+      },
+      "rain": 113,
+      "rain_days": 11.3,
+      "uv": {
+        "est": 4
+      },
+      "wind": {
+        "est": 18
+      },
+      "water": 15,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 16.1,
+      "temp_night": 9.2,
+      "dew_point": {
+        "est": 8.1
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": 90,
+      "rain_days": 8.2,
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 17
+      },
+      "water": 15,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 18.9,
+      "temp_night": 11.1,
+      "dew_point": {
+        "est": 10.4
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": 51,
+      "rain_days": 6.1,
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 16
+      },
+      "water": 16,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 23.4,
+      "temp_night": 14.4,
+      "dew_point": {
+        "est": 13.7
+      },
+      "sun": {
+        "est": 10
+      },
+      "rain": 17,
+      "rain_days": 2.5,
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": 19,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27.8,
+      "temp_night": 18.2,
+      "dew_point": {
+        "est": 16.6
+      },
+      "sun": {
+        "est": 12
+      },
+      "rain": 7,
+      "rain_days": 1.1,
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": 22,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.7,
+      "temp_night": 20.4,
+      "dew_point": {
+        "est": 18.1
+      },
+      "sun": {
+        "est": 13
+      },
+      "rain": 5,
+      "rain_days": 0.5,
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": 24,
+      "flight_price": {
+        "est": 1600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.6,
+      "temp_night": 20.9,
+      "dew_point": {
+        "est": 18.5
+      },
+      "sun": {
+        "est": 12
+      },
+      "rain": 9,
+      "rain_days": 0.9,
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": 26,
+      "flight_price": {
+        "est": 1600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 27.6,
+      "temp_night": 18.8,
+      "dew_point": {
+        "est": 17.2
+      },
+      "sun": {
+        "est": 10
+      },
+      "rain": 25,
+      "rain_days": 2.8,
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": 25,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 23,
+      "temp_night": 15.7,
+      "dew_point": {
+        "est": 14.3
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": 147,
+      "rain_days": 8.1,
+      "uv": {
+        "est": 5
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": 23,
+      "flight_price": {
+        "est": 1800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 19,
+      "temp_night": 12.5,
+      "dew_point": {
+        "est": 11.6
+      },
+      "sun": {
+        "est": 5
+      },
+      "rain": 159,
+      "rain_days": 11,
+      "uv": {
+        "est": 3
+      },
+      "wind": {
+        "est": 18
+      },
+      "water": 20,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15.8,
+      "temp_night": 9.6,
+      "dew_point": {
+        "est": 8.5
+      },
+      "sun": {
+        "est": 4
+      },
+      "rain": 170,
+      "rain_days": 13.2,
+      "uv": {
+        "est": 3
+      },
+      "wind": {
+        "est": 19
+      },
+      "water": 17,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Zakynthos – tabela klimatyczna, lotnisko Zakynthos, 1961–1990 (NOAA; Info Climat): temperatury, opad, dni ≥ 1 mm, wilgotność",
+      "url": "https://en.wikipedia.org/wiki/Zakynthos",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "weather2travel: Tsilivi – temperatura morza, nasłonecznienie (CRU)",
+      "url": "https://weather2travel.com/zante/tsilivi/climate/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "San Vito lo Capo (kierunki/san-vito-lo-capo.json): UV BestDateWeather Sycylia i wiatr NASA POWER Trapani – zastępstwo (ta sama szerokość, środkowe Morze Śródziemne)",
+      "url": "https://bestdateweather.com/en/sicily-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Zakynthos (brak regularnych lotów bezpośrednich; z 1 przesiadką Bergamo 5 h 20 min; ceny: VI 732 zł najtaniej, X ok. 1 530 zł najdrożej, średnia 1 017 zł, typowo 752–1 380 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Zakynthos-ZTH",
+      "checked": "2026-10-16"
+    }
+  ]
+}

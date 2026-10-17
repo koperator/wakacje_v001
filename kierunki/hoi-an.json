@@ -1,0 +1,421 @@
+{
+  "id": "hoi-an",
+  "country": "Wietnam",
+  "place": "Hoi An (An Bang)",
+  "notes": "Środkowy Wietnam, odwrotny rytm niż południe: sucho i coraz goręcej II–VIII (upał VI–VIII, ok. 34 °C), pora deszczowa IX–XII z maksimum w X–XI (powodzie w Starym Mieście, tajfuny), chłodno i pochmurno XII–II (morze ok. 23 °C, fale monsunu NE). Baza pobytu: plaża An Bang ok. 4 km od Starego Miasta – szeroki, jasny piasek, spokojne morze latem, zimą fale; plaże w okolicy erodują. Pogoda ze stacji Da Nang (ok. 25 km; okres norm niepodany). Zieleń: pola ryżowe, palmy kokosowe, las palm nipa w Cẩm Thanh. Wycieczki: Stare Miasto Hoi An (UNESCO), sanktuarium Mỹ Sơn (UNESCO), Góry Marmurowe, Da Nang, Bà Nà Hills; Huế ok. 2,5–3 h drogi. Dojazd: najszybciej LOT do Bangkoku (cały rok) i dalej do Da Nang (ok. 1 h 40 min; Thai Vietjet, Vietnam Airlines, Thai Airways) – osobne bilety, ok. 14,8 h; na jednym bilecie z 1 przesiadką (Seul, Dubaj) ok. 17,5–19 h.",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 1
+    },
+    "flight_time": {
+      "est": 14.8
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 0.6
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 25,
+      "temp_night": 19.3,
+      "dew_point": {
+        "est": 18.7
+      },
+      "sun": 4.3,
+      "rain": 82,
+      "rain_days": {
+        "est": 8.4
+      },
+      "uv": 5,
+      "wind": 14,
+      "water": 23.2,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Tết (wietnamski Nowy Rok, zależnie od roku styczeń lub luty): przez kilka dni zamknięta część sklepów, restauracji i usług, wyprzedany transport, wyższe ceny."
+        },
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Monsun NE: wyższe fale, prądy i silny wiatr od morza na An Bang i Cửa Đại, w wielu dniach kąpiel niebezpieczna; plaże w tym rejonie mocno erodują."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26.2,
+      "temp_night": 20.2,
+      "dew_point": {
+        "est": 19.5
+      },
+      "sun": 5.2,
+      "rain": 24,
+      "rain_days": {
+        "est": 3.9
+      },
+      "uv": 7,
+      "wind": 13,
+      "water": 23.4,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Tết (wietnamski Nowy Rok, zależnie od roku styczeń lub luty): przez kilka dni zamknięta część sklepów, restauracji i usług, wyprzedany transport, wyższe ceny."
+        },
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Koniec monsunu NE: fale i wiatr na An Bang w części dni."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.3,
+      "temp_night": 21.8,
+      "dew_point": {
+        "est": 21.3
+      },
+      "sun": 5.9,
+      "rain": 25,
+      "rain_days": {
+        "est": 3.4
+      },
+      "uv": 8,
+      "wind": 12,
+      "water": 23.3,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31,
+      "temp_night": 23.8,
+      "dew_point": {
+        "est": 23.3
+      },
+      "sun": 7,
+      "rain": 35,
+      "rain_days": {
+        "est": 3.8
+      },
+      "uv": 9,
+      "wind": 12,
+      "water": 25.2,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 33.3,
+      "temp_night": 25.2,
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": 8,
+      "rain": 81,
+      "rain_days": {
+        "est": 6.4
+      },
+      "uv": 8,
+      "wind": 10,
+      "water": 27.8,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 34.5,
+      "temp_night": 26,
+      "dew_point": {
+        "est": 24.8
+      },
+      "sun": 8.1,
+      "rain": 83,
+      "rain_days": {
+        "est": 5.7
+      },
+      "uv": 8,
+      "wind": 9,
+      "water": 29.5,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 34.4,
+      "temp_night": 25.7,
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": 7.9,
+      "rain": 93,
+      "rain_days": {
+        "est": 6.6
+      },
+      "uv": 8,
+      "wind": 9,
+      "water": 30,
+      "flight_price": {
+        "est": 4800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 33.9,
+      "temp_night": 25.6,
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": 6.9,
+      "rain": 141,
+      "rain_days": {
+        "est": 8.1
+      },
+      "uv": 9,
+      "wind": 9,
+      "water": 29.8,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.8,
+      "temp_night": 24.5,
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": 5.9,
+      "rain": 351,
+      "rain_days": {
+        "est": 10.2
+      },
+      "uv": 7,
+      "wind": 10,
+      "water": 29,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Początek sezonu tajfunów w środkowym Wietnamie: przy tajfunie 1–3 dni ulew, wichury i fali sztormowej, odwołane loty i wycieczki."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 29.5,
+      "temp_night": 23.5,
+      "dew_point": {
+        "est": 23.2
+      },
+      "sun": 4.6,
+      "rain": 628,
+      "rain_days": {
+        "est": 14
+      },
+      "uv": 7,
+      "wind": 14,
+      "water": 27.3,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Sezon tajfunów w środkowym Wietnamie (szczyt X–XI): przy tajfunie 1–3 dni ulew, wichury i fali sztormowej na plażach, odwołane loty i wycieczki."
+        },
+        {
+          "type": "other",
+          "level": 2,
+          "note": "Powodzie w Starym Mieście Hoi An: rzeka Thu Bồn wylewa po ulewach, woda do 1–1,5 m w gorszych latach; sklepy, restauracje i parter pensjonatów przy rzece zamknięte zwykle na 1–3 dni, czasem dłużej."
+        },
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Monsun NE: wyższe fale, prądy i silny wiatr od morza na An Bang i Cửa Đại, w wielu dniach kąpiel niebezpieczna; plaże w tym rejonie mocno erodują."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 27.4,
+      "temp_night": 22.1,
+      "dew_point": {
+        "est": 21.7
+      },
+      "sun": 3.9,
+      "rain": 448,
+      "rain_days": {
+        "est": 14.2
+      },
+      "uv": 6,
+      "wind": 16,
+      "water": 26.5,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Sezon tajfunów w środkowym Wietnamie (szczyt X–XI): przy tajfunie 1–3 dni ulew, wichury i fali sztormowej na plażach, odwołane loty i wycieczki."
+        },
+        {
+          "type": "other",
+          "level": 2,
+          "note": "Najgorszy miesiąc powodzi w Starym Mieście Hoi An: woda do 1–1,5 m w gorszych latach, zalane uliczki przy rzece, zamknięte sklepy i restauracje na kilka dni."
+        },
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Monsun NE: wyższe fale, prądy i silny wiatr od morza na An Bang i Cửa Đại, w wielu dniach kąpiel niebezpieczna; plaże w tym rejonie mocno erodują."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 25.1,
+      "temp_night": 20,
+      "dew_point": {
+        "est": 19.6
+      },
+      "sun": 3.1,
+      "rain": 218,
+      "rain_days": {
+        "est": 13.1
+      },
+      "uv": 3,
+      "wind": 16,
+      "water": 24.6,
+      "flight_price": {
+        "est": 5500
+      },
+      "flags": [
+        {
+          "type": "other",
+          "level": 1,
+          "note": "Ostatnie powodzie w Starym Mieście, zwykle w pierwszej połowie grudnia."
+        },
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Monsun NE: wyższe fale, prądy i silny wiatr od morza na An Bang i Cửa Đại, w wielu dniach kąpiel niebezpieczna; plaże w tym rejonie mocno erodują."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Da Nang – tabela klimatyczna (Vietnam Institute for Building Science and Technology; The Yearbook of Indochina): temperatury, opad, dni deszczowe, wilgotność, nasłonecznienie; okres niepodany",
+      "url": "https://en.wikipedia.org/wiki/Da_Nang",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "Weather Spark: Hội An – średnia godzinowa prędkość wiatru na 10 m, dni z opadem ≥ 0,04 in (kontrola)",
+      "url": "https://weatherspark.com/y/119955/Average-Weather-in-H%E1%BB%99i-An-Vietnam-Year-Round",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "Cabaigne: Hoi An – średnia temperatura morza w miesiącach",
+      "url": "https://www.cabaigne.net/asie-sud-est/vietnam/hoi-an/quand-se-baigner.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "seatemperature.net: Hoi An – temperatura morza (kontrola, 22–30 °C)",
+      "url": "https://seatemperature.net/current/vietnam/hoi-an-sea-temperature",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "BestDateWeather: Hoi An – pogoda miesiąc po miesiącu (12 stron, np. /hoi-an-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 15.88°N 108.33°E",
+      "url": "https://bestdateweather.com/en/hoi-an-weather-january",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "Vietnam Tourism: powodzie w środkowym Wietnamie (Hoi An X–XII, najgorzej XI; woda do 1–1,5 m; zwykle 24–72 h; tajfuny)",
+      "url": "https://www.vietnamtourism.com/en/central-vietnam-floods-when-hoi-an-and-hue-flood-and-how-to-travel-through-it",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "Dtinews: erozja plaż Hoi An (An Bang, Cửa Đại, Tân Thành), fale monsunu NE",
+      "url": "https://dtinews.dantri.com.vn/print/20251231145950636.htm",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Da Nang (z 1 przesiadką: Dubaj średnio 19 h 06 min, Seul 20 h 44 min, najszybsza oferta 17 h 30 min przez Seul; ceny w obie strony: V 3 281, VII 4 760, XII 5 522 zł, średnia 3 918 zł, typowo 3 454–4 750 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Da-Nang-DAD",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "KAYAK.com: Bangkok Suvarnabhumi – Da Nang (bez przesiadek średnio 1 h 42 min; Thai Vietjet 21, Vietnam Airlines 14, Thai Airways 7 rejsów tygodniowo)",
+      "url": "https://www.kayak.com/flight-routes/Bangkok-Suvarnabhumi-BKK/Da-Nang-DAD",
+      "checked": "2026-10-15"
+    },
+    {
+      "title": "Pasazer.com: LOT Warszawa – Bangkok cały rok (latem LO65 WAW 15:15 – BKK 6:35)",
+      "url": "https://www.pasazer.com/news/469980/lot,latem,rzadziej,do,bangkoku.html",
+      "checked": "2026-10-15"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "id": "sal",
+  "country": "Republika Zielonego Przylądka",
+  "place": "Sal, Santa Maria",
+  "notes": "Pustynna wyspa na Atlantyku z całorocznym pasatem NE: praktycznie bez deszczu (krótka, słaba pora deszczowa VIII–X), stałe ok. 25–30 °C w dzień; wietrznie XII–VI (kitesurfing), spokojniej VII–IX. Woda chłodniejsza niż na Karaibach: ok. 22 °C w II–IV, ok. 27 °C w IX–X. Baza pobytu: Santa Maria – długa, biała plaża po zawietrznej, południowej stronie, łagodne wejście. Pogoda ze stacji lotniska Amílcar Cabral (ok. 18 km, NOAA 1991–2020). Zieleń: brak, pustynia i wulkaniczne pagórki. Atrakcje: saliny Pedra de Lume, Buracona, zatoka z rekinami cytrynowymi (Shark Bay), sporty wodne. Dojazd: regularnie z 1 przesiadką w Lizbonie (TAP), ok. 12 h; zimą czartery bez przesiadek (Enter Air, ok. 7–8 h).",
+  "fixed": {
+    "beaches": {
+      "est": 5
+    },
+    "greenery": {
+      "est": 1
+    },
+    "sightseeing": {
+      "est": 2
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 12.2,
+    "stops": 1,
+    "transfer": {
+      "est": 0.3
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 25,
+      "temp_night": 19.2,
+      "dew_point": {
+        "est": 16.1
+      },
+      "sun": 5.9,
+      "rain": 3,
+      "rain_days": {
+        "est": 0.4
+      },
+      "uv": 7,
+      "wind": 27,
+      "water": 22.8,
+      "flight_price": {
+        "est": 1900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 24.9,
+      "temp_night": 18.8,
+      "dew_point": {
+        "est": 16.3
+      },
+      "sun": 6.2,
+      "rain": 1,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": 8,
+      "wind": 27,
+      "water": 22.2,
+      "flight_price": {
+        "est": 2900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 25.2,
+      "temp_night": 18.9,
+      "dew_point": {
+        "est": 16.5
+      },
+      "sun": 6.5,
+      "rain": 1,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": 9,
+      "wind": 26,
+      "water": 21.7,
+      "flight_price": {
+        "est": 2900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 25.5,
+      "temp_night": 19.6,
+      "dew_point": {
+        "est": 16.9
+      },
+      "sun": 7.2,
+      "rain": 1,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": 9,
+      "wind": 26,
+      "water": 22.2,
+      "flight_price": {
+        "est": 2900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 26.1,
+      "temp_night": 20.6,
+      "dew_point": {
+        "est": 18.3
+      },
+      "sun": 6.6,
+      "rain": 1,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": 9,
+      "wind": 26,
+      "water": 22.8,
+      "flight_price": {
+        "est": 2100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 27,
+      "temp_night": 21.6,
+      "dew_point": {
+        "est": 19.7
+      },
+      "sun": 5.8,
+      "rain": 0,
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 9,
+      "wind": 23,
+      "water": 22.8,
+      "flight_price": {
+        "est": 2100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 28.1,
+      "temp_night": 22.8,
+      "dew_point": {
+        "est": 20.8
+      },
+      "sun": 4.8,
+      "rain": 2,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": 8,
+      "wind": 18,
+      "water": 24.4,
+      "flight_price": {
+        "est": 2300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 29.6,
+      "temp_night": 24.2,
+      "dew_point": {
+        "est": 22.3
+      },
+      "sun": 5.2,
+      "rain": 13,
+      "rain_days": {
+        "est": 0.8
+      },
+      "uv": 8,
+      "wind": 18,
+      "water": 25.6,
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.1,
+      "temp_night": 24.8,
+      "dew_point": {
+        "est": 23
+      },
+      "sun": 6,
+      "rain": 35,
+      "rain_days": {
+        "est": 1.9
+      },
+      "uv": 8,
+      "wind": 20,
+      "water": 26.7,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 29.6,
+      "temp_night": 24.1,
+      "dew_point": {
+        "est": 21.9
+      },
+      "sun": 6.4,
+      "rain": 16,
+      "rain_days": {
+        "est": 0.8
+      },
+      "uv": 8,
+      "wind": 22,
+      "water": 26.7,
+      "flight_price": {
+        "est": 2300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 28.1,
+      "temp_night": 22.5,
+      "dew_point": {
+        "est": 20
+      },
+      "sun": 6.3,
+      "rain": 1,
+      "rain_days": {
+        "est": 0.3
+      },
+      "uv": 7,
+      "wind": 23,
+      "water": 25.6,
+      "flight_price": {
+        "est": 2300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26.1,
+      "temp_night": 20.5,
+      "dew_point": {
+        "est": 17.8
+      },
+      "sun": 5,
+      "rain": 3,
+      "rain_days": {
+        "est": 0.4
+      },
+      "uv": 6,
+      "wind": 25,
+      "water": 23.9,
+      "flight_price": {
+        "est": 2900
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Sal (Cape Verde) – tabela klimatyczna, lotnisko Amílcar Cabral, normy 1991–2020 (NOAA; wilgotność INMG 1981–2010; nasłonecznienie DWD)",
+      "url": "https://en.wikipedia.org/wiki/Sal,_Cape_Verde",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Weather Spark: Santa Maria – średnia godzinowa prędkość wiatru na 10 m, temperatura wody",
+      "url": "https://weatherspark.com/y/31488/Average-Weather-in-Santa-Maria-Cape-Verde-Year-Round",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Sal – pogoda miesiąc po miesiącu (12 stron, np. /sal-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 16.73°N 22.93°W",
+      "url": "https://bestdateweather.com/en/sal-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Sal (z 1 przesiadką średnio: Zurych 11 h 09 min, Lizbona 12 h 09 min; bez przesiadek Enter Air – czarter; ceny: I 1 893 zł najtaniej, IX 3 260 zł, VIII 5 157 zł najdrożej, średnia 2 311 zł, typowo 1 794–2 990 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Sal-SID",
+      "checked": "2026-10-16"
+    }
+  ]
+}

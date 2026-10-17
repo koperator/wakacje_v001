@@ -1,0 +1,496 @@
+{
+  "id": "el-nido",
+  "country": "Filipiny",
+  "place": "El Nido (Lio / Nacpan), Palawan",
+  "notes": "Północno-zachodnie Palawan: pora sucha XII–V (najsuchiej I–IV), pora deszczowa VI–X z monsunem SW (habagat) i maksimum opadu VII–IX; tajfuny docierają rzadziej niż na Visayas, ale zdarzają się (Rai/Odette, XII 2021). Baza pobytu: Lio (przy lotnisku) albo El Nido miasto; plaże Lio i Nacpan (ok. 40 min) – biały piasek, spokojna woda w porze suchej. Pogoda ze stacji PAGASA Coron (ok. 100 km, normy 1991–2020) – szacunek. Zieleń: wapienne wyspy i turnie porośnięte dżunglą. Atrakcje: rejsy island hopping po zatoce Bacuit (laguny, plaże na wyspach, trasy A–D), Nacpan, wodospady; w porze habagat rejsy często odwoływane. Dojazd: z 2 przesiadkami (Stambuł lub Zatoka + Manila), dalej lot AirSWIFT do El Nido (ok. 1 h 15 min), ok. 22 h; alternatywnie Puerto Princesa i ok. 5–6 h drogi.",
+  "fixed": {
+    "beaches": {
+      "est": 5
+    },
+    "greenery": {
+      "est": 5
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": {
+      "est": 22
+    },
+    "stops": 2,
+    "transfer": {
+      "est": 0.2
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 32.5
+      },
+      "temp_night": {
+        "est": 23.5
+      },
+      "dew_point": {
+        "est": 23.8
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 19
+      },
+      "rain_days": {
+        "est": 3
+      },
+      "uv": 8,
+      "wind": {
+        "est": 20
+      },
+      "water": 27,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 32.7
+      },
+      "temp_night": {
+        "est": 23.6
+      },
+      "dew_point": {
+        "est": 23.5
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 23
+      },
+      "rain_days": {
+        "est": 2
+      },
+      "uv": 8,
+      "wind": {
+        "est": 19
+      },
+      "water": 27,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 33.1
+      },
+      "temp_night": {
+        "est": 24.3
+      },
+      "dew_point": {
+        "est": 23.8
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 15
+      },
+      "rain_days": {
+        "est": 3
+      },
+      "uv": 9,
+      "wind": {
+        "est": 16
+      },
+      "water": 27,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Wielki Tydzień (zależnie od roku marzec lub kwiecień): tłumy turystów krajowych, wyprzedane loty i noclegi, w Wielki Czwartek i Piątek część usług zamknięta."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 34.1
+      },
+      "temp_night": {
+        "est": 24.9
+      },
+      "dew_point": {
+        "est": 24.8
+      },
+      "sun": {
+        "est": 9
+      },
+      "rain": {
+        "est": 37
+      },
+      "rain_days": {
+        "est": 4
+      },
+      "uv": 9,
+      "wind": {
+        "est": 13
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Wielki Tydzień (zależnie od roku marzec lub kwiecień): tłumy turystów krajowych, wyprzedane loty i noclegi, w Wielki Czwartek i Piątek część usług zamknięta."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 33.5
+      },
+      "temp_night": {
+        "est": 25
+      },
+      "dew_point": {
+        "est": 25.7
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 187
+      },
+      "rain_days": {
+        "est": 11
+      },
+      "uv": 8,
+      "wind": {
+        "est": 10
+      },
+      "water": 30,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 32.1
+      },
+      "temp_night": {
+        "est": 24.6
+      },
+      "dew_point": {
+        "est": 25.7
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 319
+      },
+      "rain_days": {
+        "est": 17
+      },
+      "uv": 8,
+      "wind": {
+        "est": 11
+      },
+      "water": 30,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Początek habagat: fale i odwoływane rejsy w części dni."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 30.9
+      },
+      "temp_night": {
+        "est": 24.1
+      },
+      "dew_point": {
+        "est": 25.3
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 522
+      },
+      "rain_days": {
+        "est": 21
+      },
+      "uv": 7,
+      "wind": {
+        "est": 13
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Habagat (monsun SW): fale i silny wiatr z zachodu, straż przybrzeżna w wielu dniach zawiesza rejsy island hopping (trasy A–D) i łodzie, plaże zachodnie wzburzone."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31.1
+      },
+      "temp_night": {
+        "est": 24.3
+      },
+      "dew_point": {
+        "est": 25.5
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 472
+      },
+      "rain_days": {
+        "est": 19
+      },
+      "uv": 8,
+      "wind": {
+        "est": 14
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 2,
+          "note": "Habagat (monsun SW): fale i silny wiatr z zachodu, straż przybrzeżna w wielu dniach zawiesza rejsy island hopping (trasy A–D) i łodzie, plaże zachodnie wzburzone."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31.2
+      },
+      "temp_night": {
+        "est": 24.1
+      },
+      "dew_point": {
+        "est": 25.6
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 470
+      },
+      "rain_days": {
+        "est": 20
+      },
+      "uv": 7,
+      "wind": {
+        "est": 13
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Koniec habagat: fale i odwoływane rejsy w części dni."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 32.1
+      },
+      "temp_night": {
+        "est": 24.2
+      },
+      "dew_point": {
+        "est": 25.6
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 241
+      },
+      "rain_days": {
+        "est": 14
+      },
+      "uv": 7,
+      "wind": {
+        "est": 12
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 32.8
+      },
+      "temp_night": {
+        "est": 24.4
+      },
+      "dew_point": {
+        "est": 25.2
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 107
+      },
+      "rain_days": {
+        "est": 7
+      },
+      "uv": 7,
+      "wind": {
+        "est": 15
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 4400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 32.3
+      },
+      "temp_night": {
+        "est": 24.1
+      },
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 90
+      },
+      "rain_days": {
+        "est": 6
+      },
+      "uv": 7,
+      "wind": {
+        "est": 19
+      },
+      "water": 28,
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Coron, Palawan – tabela klimatyczna PAGASA, normy 1991–2020 (temperatury, opad, dni ≥ 1 mm, wilgotność) – stacja zastępcza ok. 100 km",
+      "url": "https://en.wikipedia.org/wiki/Coron,_Palawan",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Wikipedia: El Nido, Palawan – tabela klimatyczna (World Weather Online, model) – odrzucona",
+      "url": "https://en.wikipedia.org/wiki/El_Nido,_Palawan",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "weather2travel: El Nido – nasłonecznienie, temperatura morza (CRU; kontrolnie temperatury i opad)",
+      "url": "https://www.weather2travel.com/philippines/el-nido/climate/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "climate-zone.com: Puerto Princesa – średnia prędkość wiatru (NASA POWER, model) – zastępstwo",
+      "url": "https://www.climate-zone.com/climate/ph/puerto-princesa/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: El Nido – pogoda miesiąc po miesiącu (12 stron, np. /el-nido-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 11.19°N 119.39°E",
+      "url": "https://bestdateweather.com/en/el-nido-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Pamasahe: monsun SW (habagat) – odwołane rejsy w wielu portach Filipin",
+      "url": "https://pamasahe.com/posts/southwest-monsoon-forces-cancellation-of-sea-trips-across-several-philippine-ports",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Manila (z 1 przesiadką: Stambuł 17 h 47 min, Abu Zabi 19 h 47 min, Doha 19 h 48 min; ceny: X 2 948, XII 3 926, VII 4 039 zł, średnia 3 386 zł, typowo 2 894–4 064 zł) – podstawa ceny",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Manila-MNL",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.com: Manila – El Nido (typowo 228–377 USD w obie strony, średnio 294 USD; AirSWIFT, Cebu Pacific)",
+      "url": "https://www.kayak.com/flight-routes/Manila-Ninoy-Aquino-MNL/El-Nido-ENI",
+      "checked": "2026-10-16"
+    }
+  ]
+}

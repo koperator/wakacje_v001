@@ -1,0 +1,336 @@
+{
+  "id": "muscat",
+  "country": "Oman",
+  "place": "Muscat (Qurum / Al Mouj)",
+  "notes": "Gorący, pustynny klimat Zatoki Omańskiej: przyjemnie XI–III (25–30 °C w dzień), upał V–IX (do ok. 40 °C), latem duszno przy morzu (woda do 31 °C). Rzadkie deszcze zimą; cyklony z Morza Arabskiego zdarzają się wyjątkowo (Gonu 2007, Shaheen 2021). Baza pobytu: plaża Qurum (długa, piaszczysta) lub Al Mouj (marina przy lotnisku). Pogoda ze stacji lotniska Muscat (NOAA 1991–2020). Zieleń: suche góry Hadżar, palmy i parki w mieście. Atrakcje: Wielki Meczet Sułtana Kabusa, suk Mutrah, opera, Nizwa i forty, Wadi Shab, Bimmah, pustynia Wahiba (na granicy wycieczki jednodniowej). Dojazd: z 1 przesiadką (Abu Zabi, Doha, Zurych), ok. 10 h.",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 9.8,
+    "stops": 1,
+    "transfer": {
+      "est": 0.4
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 25.1,
+      "temp_night": 16.7,
+      "dew_point": {
+        "est": 13.8
+      },
+      "sun": 8.7,
+      "rain": 14,
+      "rain_days": {
+        "est": 1.7
+      },
+      "uv": 6,
+      "wind": 12,
+      "water": 23.9,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w dzień niedozwolone, krótsze godziny otwarcia atrakcji; hotele działają."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26.3,
+      "temp_night": 17.8,
+      "dew_point": {
+        "est": 15.1
+      },
+      "sun": 8.7,
+      "rain": 7,
+      "rain_days": {
+        "est": 1.8
+      },
+      "uv": 7,
+      "wind": 12,
+      "water": 23.3,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w dzień niedozwolone, krótsze godziny otwarcia atrakcji; hotele działają."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.4,
+      "temp_night": 20.3,
+      "dew_point": {
+        "est": 16.1
+      },
+      "sun": 9,
+      "rain": 12,
+      "rain_days": {
+        "est": 1.7
+      },
+      "uv": 8,
+      "wind": 12,
+      "water": 24.4,
+      "flight_price": {
+        "est": 2400
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w dzień niedozwolone, krótsze godziny otwarcia atrakcji; hotele działają."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 34.6,
+      "temp_night": 24.7,
+      "dew_point": {
+        "est": 16.3
+      },
+      "sun": 9.8,
+      "rain": 11,
+      "rain_days": {
+        "est": 1.4
+      },
+      "uv": 8,
+      "wind": 11,
+      "water": 26.7,
+      "flight_price": {
+        "est": 2700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 39.5,
+      "temp_night": 29.1,
+      "dew_point": {
+        "est": 19.5
+      },
+      "sun": 11.2,
+      "rain": 3,
+      "rain_days": {
+        "est": 0.8
+      },
+      "uv": 9,
+      "wind": 11,
+      "water": 30,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 39.4,
+      "temp_night": 30.4,
+      "dew_point": {
+        "est": 22.5
+      },
+      "sun": 10.9,
+      "rain": 7,
+      "rain_days": {
+        "est": 0.6
+      },
+      "uv": 9,
+      "wind": 11,
+      "water": 31.1,
+      "flight_price": {
+        "est": 2500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 37.3,
+      "temp_night": 30,
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": 9,
+      "rain": 2,
+      "rain_days": {
+        "est": 1.1
+      },
+      "uv": 8,
+      "wind": 10,
+      "water": 31.1,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 35.9,
+      "temp_night": 28.4,
+      "dew_point": {
+        "est": 24.7
+      },
+      "sun": 9,
+      "rain": 1,
+      "rain_days": {
+        "est": 1.3
+      },
+      "uv": 8,
+      "wind": 10,
+      "water": 30.6,
+      "flight_price": {
+        "est": 2500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 35.5,
+      "temp_night": 27.1,
+      "dew_point": {
+        "est": 22.9
+      },
+      "sun": 10.1,
+      "rain": 0,
+      "rain_days": {
+        "est": 0.9
+      },
+      "uv": 8,
+      "wind": 10,
+      "water": 30,
+      "flight_price": {
+        "est": 2500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 34.6,
+      "temp_night": 24.7,
+      "dew_point": {
+        "est": 19.4
+      },
+      "sun": 10.2,
+      "rain": 1,
+      "rain_days": {
+        "est": 0.5
+      },
+      "uv": 7,
+      "wind": 10,
+      "water": 29.4,
+      "flight_price": {
+        "est": 2700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.9,
+      "temp_night": 21,
+      "dew_point": {
+        "est": 17.4
+      },
+      "sun": 9.7,
+      "rain": 7,
+      "rain_days": {
+        "est": 0.6
+      },
+      "uv": 6,
+      "wind": 10,
+      "water": 27.8,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26.6,
+      "temp_night": 17.9,
+      "dew_point": {
+        "est": 15.6
+      },
+      "sun": 8.6,
+      "rain": 10,
+      "rain_days": {
+        "est": 1
+      },
+      "uv": 5,
+      "wind": 10,
+      "water": 25.6,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Muscat – tabela klimatyczna, lotnisko Muscat, normy 1991–2020 (NOAA, Starlings Roost Weather): temperatury, opad, wilgotność, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Muscat",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Weather Spark: Muscat – średnia godzinowa prędkość wiatru na 10 m, temperatura wody, dni z opadem ≥ 0,04 in",
+      "url": "https://weatherspark.com/y/105797/Average-Weather-in-Muscat-Oman-Year-Round",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Muscat – pogoda miesiąc po miesiącu (12 stron, np. /muscat-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 23.58°N 58.38°E",
+      "url": "https://bestdateweather.com/en/muscat-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Maskat (brak lotów bezpośrednich; z 1 przesiadką średnio Abu Zabi 9 h 45 min, Zurych 10 h 03 min, Doha 10 h 12 min; ceny: III 2 407 zł najtaniej, V 3 167 zł, VII 3 330 zł najdrożej, średnia 2 682 zł, typowo 2 330–3 081 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Maskat-MCT",
+      "checked": "2026-10-16"
+    }
+  ]
+}

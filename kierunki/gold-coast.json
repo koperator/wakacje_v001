@@ -1,0 +1,337 @@
+{
+  "id": "gold-coast",
+  "country": "Australia",
+  "place": "Gold Coast (Broadbeach / Surfers Paradise)",
+  "notes": "Wschodnie wybrzeże Australii (Queensland), ok. 80 km na południe od Brisbane, klimat podzwrotnikowy: latem (XII–III) ciepło i parno (28–29 °C, woda 26 °C, burze i ulewy), zimą (VI–VIII) słonecznie i sucho, ale chłodno (21–22 °C w dzień, 10–13 °C w nocy, woda 21 °C). Baza pobytu: Broadbeach / Surfers Paradise – szeroka, długa plaża ze złotym piaskiem i falą oceaniczną (kąpiel między flagami ratowników), za nią wieżowce. Zieleń: miasto, ale w zasięgu godziny lasy deszczowe gór (Lamington, Springbrook – UNESCO). Wycieczki: parki rozrywki, hinterland z wodospadami, Byron Bay, Brisbane, Stradbroke Island, obserwacja wielorybów VI–XI. Drogo. Dojazd: 1 przesiadka (Dubaj lub Doha) do Brisbane ok. 23,5 h; dalej ok. 1–1,25 h drogą lub pociągiem.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 4
+    },
+    "flight_time": 23.6,
+    "stops": 1,
+    "transfer": {
+      "est": 1.2
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.9,
+      "temp_night": 21.9,
+      "dew_point": 20.5,
+      "sun": {
+        "est": 8.6
+      },
+      "rain": 137,
+      "rain_days": 9,
+      "uv": 8,
+      "wind": 20,
+      "water": 26.1,
+      "flight_price": {
+        "est": 6500
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Żeglarze portugalscy (bluebottles) przy wiatrach z północnego wschodu latem: w niektóre dni setki poparzeń na plażach Gold Coast, ratownicy zamykają kąpieliska lub ostrzegają."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 28.7,
+      "temp_night": 21.8,
+      "dew_point": 20.7,
+      "sun": {
+        "est": 8.3
+      },
+      "rain": 183,
+      "rain_days": 8,
+      "uv": 8,
+      "wind": 20,
+      "water": 26.1,
+      "flight_price": {
+        "est": 5400
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Żeglarze portugalscy (bluebottles) przy wiatrach z północnego wschodu latem: w niektóre dni setki poparzeń na plażach Gold Coast, ratownicy zamykają kąpieliska lub ostrzegają."
+        },
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Fale po cyklonach tropikalnych (głównie II–III): wielka fala, erozja plaż i zamknięte kąpieliska przez kilka dni (np. Alfred, III 2025; Oswald, I 2013)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 28,
+      "temp_night": 20.9,
+      "dew_point": 19.3,
+      "sun": {
+        "est": 7.5
+      },
+      "rain": 134,
+      "rain_days": 9,
+      "uv": 7,
+      "wind": 19,
+      "water": 26.1,
+      "flight_price": {
+        "est": 5800
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Fale po cyklonach tropikalnych (głównie II–III): wielka fala, erozja plaż i zamknięte kąpieliska przez kilka dni (np. Alfred, III 2025; Oswald, I 2013)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26.1,
+      "temp_night": 18.3,
+      "dew_point": 16.7,
+      "sun": {
+        "est": 7.9
+      },
+      "rain": 119,
+      "rain_days": 9,
+      "uv": 6,
+      "wind": 18,
+      "water": 25,
+      "flight_price": {
+        "est": 6500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 23.6,
+      "temp_night": 15.4,
+      "dew_point": 13.8,
+      "sun": {
+        "est": 7.7
+      },
+      "rain": 98,
+      "rain_days": 8,
+      "uv": 4,
+      "wind": 18,
+      "water": 23.9,
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 21.4,
+      "temp_night": 13.3,
+      "dew_point": 11,
+      "sun": {
+        "est": 6.6
+      },
+      "rain": 114,
+      "rain_days": 7,
+      "uv": 4,
+      "wind": 18,
+      "water": 22.2,
+      "flight_price": {
+        "est": 5800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 21.3,
+      "temp_night": 12,
+      "dew_point": 9.8,
+      "sun": {
+        "est": 7.7
+      },
+      "rain": 50,
+      "rain_days": 7,
+      "uv": 4,
+      "wind": 18,
+      "water": 21.1,
+      "flight_price": {
+        "est": 6900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 22.1,
+      "temp_night": 12.5,
+      "dew_point": 10.4,
+      "sun": {
+        "est": 8.7
+      },
+      "rain": 55,
+      "rain_days": 6,
+      "uv": 5,
+      "wind": 18,
+      "water": 21.1,
+      "flight_price": {
+        "est": 7200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 24,
+      "temp_night": 14.8,
+      "dew_point": 13.2,
+      "sun": {
+        "est": 8.9
+      },
+      "rain": 41,
+      "rain_days": 5,
+      "uv": 7,
+      "wind": 18,
+      "water": 21.7,
+      "flight_price": {
+        "est": 5800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 25.4,
+      "temp_night": 16.9,
+      "dew_point": 15.5,
+      "sun": {
+        "est": 8.7
+      },
+      "rain": 87,
+      "rain_days": 6,
+      "uv": 8,
+      "wind": 19,
+      "water": 22.2,
+      "flight_price": {
+        "est": 5800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 26.9,
+      "temp_night": 19,
+      "dew_point": 17.3,
+      "sun": {
+        "est": 9.1
+      },
+      "rain": 107,
+      "rain_days": 8,
+      "uv": 8,
+      "wind": 20,
+      "water": {
+        "est": 23.9
+      },
+      "flight_price": {
+        "est": 5400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28,
+      "temp_night": 20.5,
+      "dew_point": 18.9,
+      "sun": {
+        "est": 8.5
+      },
+      "rain": 135,
+      "rain_days": 9,
+      "uv": 9,
+      "wind": 19,
+      "water": {
+        "est": 25
+      },
+      "flight_price": {
+        "est": 6500
+      },
+      "flags": [
+        {
+          "type": "jellyfish",
+          "level": 1,
+          "note": "Żeglarze portugalscy (bluebottles) przy wiatrach z północnego wschodu latem: w niektóre dni setki poparzeń na plażach Gold Coast, ratownicy zamykają kąpieliska lub ostrzegają."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Gold Coast – tabela klimatyczna, stacja Gold Coast Seaway 1992–2020 (Bureau of Meteorology): temperatury, opad, dni ≥ 1 mm, punkt rosy",
+      "url": "https://en.wikipedia.org/wiki/Gold_Coast,_Queensland",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Wikipedia: Brisbane – nasłonecznienie, normy 1999–2024 (Bureau of Meteorology) – zastępczo, ok. 70 km",
+      "url": "https://en.wikipedia.org/wiki/Brisbane",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Weather Spark: Gold Coast – średnia prędkość wiatru i temperatura wody w miesiącach",
+      "url": "https://weatherspark.com/y/144661/Average-Weather-in-Gold-Coast-Queensland-Australia-Year-Round",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Gold Coast – pogoda miesiąc po miesiącu (12 stron, np. /gold-coast-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 28.02°S 153.43°E",
+      "url": "https://bestdateweather.com/en/gold-coast-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Brisbane (1 przesiadka: Dubaj średnio 23 h 35 min, Doha 24 h 20 min; ceny: V 4 927 zł najtaniej, VII 6 862, VIII 7 160 zł najdrożej, średnia 5 805 zł, typowo 4 966–6 947 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Brisbane-BNE",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Gold Coast (OOL tylko z 2 przesiadkami, np. Doha i Sydney od 28 h 10 min; typowo 7 346–9 844 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Gold-Coast-OOL",
+      "checked": "2026-10-16"
+    }
+  ]
+}

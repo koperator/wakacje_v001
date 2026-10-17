@@ -1,0 +1,445 @@
+{
+  "id": "lombok-kuta",
+  "country": "Indonezja",
+  "place": "Lombok, Kuta / Tanjung Aan",
+  "notes": "Południowe wybrzeże Lomboku: pora sucha V–X (najsuchiej VII–IX, pasat SE), pora deszczowa XI–IV z maksimum I–II. Baza pobytu: Kuta Lombok – sama plaża w Kuta z grubym piaskiem, ale Tanjung Aan (ok. 10 min) z jasnym piaskiem i spokojnymi zatokami, Mawun i Selong Belanak w pobliżu; fale surfingowe na rafach dalej od brzegu. Brak stacji z normami na Lomboku: temperatury, opad, dni deszczowe, słońce i punkt rosy przeniesione ze stacji Ngurah Rai na Bali (ok. 80 km, ten sam typ klimatu) – szacunek. Zieleń: wzgórza zielone w porze deszczowej, w porze suchej brązowe. Wycieczki: tradycyjne wioski Sasak (Sade), plaże wybrzeża, wodospady Benang Kelambu; Gili i Rinjani poza zasięgiem jednego dnia. Dojazd: z 2 przesiadkami (Zatoka + Denpasar lub Jakarta/Kuala Lumpur) ok. 21,5 h; z lotniska ok. 20 km.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 2
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": {
+      "est": 21.4
+    },
+    "stops": 2,
+    "transfer": {
+      "est": 0.4
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 30.9
+      },
+      "temp_night": {
+        "est": 25.1
+      },
+      "dew_point": {
+        "est": 23.9
+      },
+      "sun": {
+        "est": 6.4
+      },
+      "rain": {
+        "est": 388
+      },
+      "rain_days": {
+        "est": 18.8
+      },
+      "uv": 9,
+      "wind": {
+        "est": 11
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 7100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 30.9
+      },
+      "temp_night": {
+        "est": 25
+      },
+      "dew_point": {
+        "est": 23.9
+      },
+      "sun": {
+        "est": 6.7
+      },
+      "rain": {
+        "est": 299
+      },
+      "rain_days": {
+        "est": 16.5
+      },
+      "uv": 9,
+      "wind": {
+        "est": 11
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 5400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 25
+      },
+      "dew_point": {
+        "est": 24
+      },
+      "sun": {
+        "est": 7.2
+      },
+      "rain": {
+        "est": 214
+      },
+      "rain_days": {
+        "est": 13.3
+      },
+      "uv": 8,
+      "wind": {
+        "est": 9
+      },
+      "water": 28,
+      "flight_price": {
+        "est": 5400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 25.1
+      },
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": {
+        "est": 7.9
+      },
+      "rain": {
+        "est": 115
+      },
+      "rain_days": {
+        "est": 8.8
+      },
+      "uv": 8,
+      "wind": {
+        "est": 11
+      },
+      "water": 28,
+      "flight_price": {
+        "est": 5400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 30.5
+      },
+      "temp_night": {
+        "est": 24.9
+      },
+      "dew_point": {
+        "est": 24.1
+      },
+      "sun": {
+        "est": 8.5
+      },
+      "rain": {
+        "est": 73
+      },
+      "rain_days": {
+        "est": 6.5
+      },
+      "uv": 7,
+      "wind": {
+        "est": 13
+      },
+      "water": 28,
+      "flight_price": {
+        "est": 5900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 29.8
+      },
+      "temp_night": {
+        "est": 24.6
+      },
+      "dew_point": {
+        "est": 23.6
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 51
+      },
+      "rain_days": {
+        "est": 4.7
+      },
+      "uv": 7,
+      "wind": {
+        "est": 15
+      },
+      "water": 27,
+      "flight_price": {
+        "est": 5900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 29
+      },
+      "temp_night": {
+        "est": 24.1
+      },
+      "dew_point": {
+        "est": 23
+      },
+      "sun": {
+        "est": 8.5
+      },
+      "rain": {
+        "est": 30
+      },
+      "rain_days": {
+        "est": 3.3
+      },
+      "uv": 7,
+      "wind": {
+        "est": 16
+      },
+      "water": 26,
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 29.1
+      },
+      "temp_night": {
+        "est": 23.8
+      },
+      "dew_point": {
+        "est": 22.7
+      },
+      "sun": {
+        "est": 8.9
+      },
+      "rain": {
+        "est": 16
+      },
+      "rain_days": {
+        "est": 1.9
+      },
+      "uv": 8,
+      "wind": {
+        "est": 16
+      },
+      "water": 26,
+      "flight_price": {
+        "est": 6500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 30
+      },
+      "temp_night": {
+        "est": 23.8
+      },
+      "dew_point": {
+        "est": 23.2
+      },
+      "sun": {
+        "est": 9
+      },
+      "rain": {
+        "est": 41
+      },
+      "rain_days": {
+        "est": 2.8
+      },
+      "uv": 9,
+      "wind": {
+        "est": 14
+      },
+      "water": 26,
+      "flight_price": {
+        "est": 5900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 24.6
+      },
+      "dew_point": {
+        "est": 24
+      },
+      "sun": {
+        "est": 9.1
+      },
+      "rain": {
+        "est": 68
+      },
+      "rain_days": {
+        "est": 4.8
+      },
+      "uv": 9,
+      "wind": {
+        "est": 13
+      },
+      "water": 27,
+      "flight_price": {
+        "est": 5900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31.6
+      },
+      "temp_night": {
+        "est": 25.3
+      },
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": {
+        "est": 8.2
+      },
+      "rain": {
+        "est": 149
+      },
+      "rain_days": {
+        "est": 10.3
+      },
+      "uv": 8,
+      "wind": {
+        "est": 11
+      },
+      "water": 28,
+      "flight_price": {
+        "est": 5400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 30.8
+      },
+      "temp_night": {
+        "est": 25.3
+      },
+      "dew_point": {
+        "est": 23.9
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 299
+      },
+      "rain_days": {
+        "est": 15.9
+      },
+      "uv": 7,
+      "wind": {
+        "est": 10
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 5900
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nusa Dua (kierunki/nusa-dua.json): stacja Ngurah Rai, Bali, normy 1991–2020 – temperatury, opad, dni deszczowe, nasłonecznienie, punkt rosy przeniesione jako zastępstwo (ok. 80 km)",
+      "url": "https://en.wikipedia.org/wiki/Denpasar",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "weather2travel: Kuta (Lombok) – temperatura morza (oraz kontrolnie temperatury, opad, słońce; CRU)",
+      "url": "https://www.weather2travel.com/lombok/kuta/climate/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Weather Spark: Kuta (Bali, stacja Ngurah Rai) – średnia godzinowa prędkość wiatru na 10 m – zastępstwo",
+      "url": "https://weatherspark.com/y/128842/Average-Weather-in-Kuta-Indonesia-Year-Round",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Lombok – pogoda miesiąc po miesiącu (12 stron, np. /lombok-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 8.65°S 116.32°E",
+      "url": "https://bestdateweather.com/en/lombok-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Lombok (brak połączeń z 1 przesiadką; z 2 przesiadkami najszybciej 23 h 20 min przez Abu Zabi i Denpasar, średnio ok. 34 h; ceny: VII 4 974 zł najtaniej, I ok. 7 116 zł najdrożej, średnia 5 862 zł, typowo 5 148–6 296 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Lombok-LOP",
+      "checked": "2026-10-16"
+    }
+  ]
+}

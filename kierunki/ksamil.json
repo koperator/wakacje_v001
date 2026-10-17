@@ -1,0 +1,486 @@
+{
+  "id": "ksamil",
+  "country": "Albania",
+  "place": "Ksamil / Saranda",
+  "notes": "Klimat śródziemnomorski Riwiery Albańskiej (naprzeciw Korfu): gorące, suche lato VI–IX (ok. 31 °C), woda najcieplejsza VIII–IX, bardzo deszczowa jesień i zima X–III. Baza pobytu: Ksamil – małe zatoki i wysepki z jasnymi kamykami i piaskiem, bardzo przejrzysta woda, latem tłoczno; Saranda ok. 15 km. Pogoda ze stacji na Korfu (HNMS 1955–2010, ok. 15–20 km przez cieśninę) – szacunek. Zieleń: makia, gaje oliwne, cytrusy. Wycieczki: Butrint (UNESCO, ok. 10 min), Niebieskie Oko, Gjirokastra (UNESCO), Korfu promem. Poza sezonem większość hoteli i restauracji w Ksamilu zamknięta. Dojazd: lotnisko Korfu (Wizz Air bez przesiadek, ok. 2 h 25 min), dalej prom do Sarandy ok. 30–70 min; cały rok bez przesiadek do Tirany (LOT, Ryanair, Wizz Air), ale stamtąd ok. 4,5–5 h drogi.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 2.4,
+    "stops": 0,
+    "transfer": {
+      "est": 2
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 13.9
+      },
+      "temp_night": {
+        "est": 5.3
+      },
+      "dew_point": {
+        "est": 5.7
+      },
+      "sun": {
+        "est": 3.8
+      },
+      "rain": {
+        "est": 136
+      },
+      "rain_days": {
+        "est": 10.4
+      },
+      "uv": {
+        "est": 2
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": {
+        "est": 16
+      },
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 14.1
+      },
+      "temp_night": {
+        "est": 5.7
+      },
+      "dew_point": {
+        "est": 5.8
+      },
+      "sun": {
+        "est": 4.1
+      },
+      "rain": {
+        "est": 123
+      },
+      "rain_days": {
+        "est": 9.4
+      },
+      "uv": {
+        "est": 4
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 15
+      },
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 16
+      },
+      "temp_night": {
+        "est": 7.1
+      },
+      "dew_point": {
+        "est": 7.4
+      },
+      "sun": {
+        "est": 3.7
+      },
+      "rain": {
+        "est": 100
+      },
+      "rain_days": {
+        "est": 9
+      },
+      "uv": {
+        "est": 5
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 15
+      },
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 19.1
+      },
+      "temp_night": {
+        "est": 9.6
+      },
+      "dew_point": {
+        "est": 10.3
+      },
+      "sun": {
+        "est": 6.9
+      },
+      "rain": {
+        "est": 65
+      },
+      "rain_days": {
+        "est": 8.5
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": {
+        "est": 16
+      },
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 24
+      },
+      "temp_night": {
+        "est": 13.3
+      },
+      "dew_point": {
+        "est": 14.1
+      },
+      "sun": {
+        "est": 8.9
+      },
+      "rain": {
+        "est": 37
+      },
+      "rain_days": {
+        "est": 5.4
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": {
+        "est": 19
+      },
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 28.2
+      },
+      "temp_night": {
+        "est": 16.9
+      },
+      "dew_point": {
+        "est": 16.8
+      },
+      "sun": {
+        "est": 10.8
+      },
+      "rain": {
+        "est": 16
+      },
+      "rain_days": {
+        "est": 3.4
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 11
+      },
+      "water": {
+        "est": 22
+      },
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 31.2
+      },
+      "temp_night": {
+        "est": 18.9
+      },
+      "dew_point": {
+        "est": 18.7
+      },
+      "sun": {
+        "est": 11.8
+      },
+      "rain": {
+        "est": 9
+      },
+      "rain_days": {
+        "est": 2.3
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 11
+      },
+      "water": {
+        "est": 24
+      },
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 31.5
+      },
+      "temp_night": {
+        "est": 19.3
+      },
+      "dew_point": {
+        "est": 18.6
+      },
+      "sun": {
+        "est": 10.7
+      },
+      "rain": {
+        "est": 22
+      },
+      "rain_days": {
+        "est": 2.3
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 10
+      },
+      "water": {
+        "est": 26
+      },
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 27.5
+      },
+      "temp_night": {
+        "est": 16.8
+      },
+      "dew_point": {
+        "est": 17
+      },
+      "sun": {
+        "est": 8.6
+      },
+      "rain": {
+        "est": 88
+      },
+      "rain_days": {
+        "est": 5.2
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": {
+        "est": 25
+      },
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 23.2
+      },
+      "temp_night": {
+        "est": 13.7
+      },
+      "dew_point": {
+        "est": 14
+      },
+      "sun": {
+        "est": 6.1
+      },
+      "rain": {
+        "est": 140
+      },
+      "rain_days": {
+        "est": 8
+      },
+      "uv": {
+        "est": 4
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": {
+        "est": 23
+      },
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 18.7
+      },
+      "temp_night": {
+        "est": 10.2
+      },
+      "dew_point": {
+        "est": 10.5
+      },
+      "sun": {
+        "est": 4.5
+      },
+      "rain": {
+        "est": 187
+      },
+      "rain_days": {
+        "est": 10.3
+      },
+      "uv": {
+        "est": 3
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": {
+        "est": 20
+      },
+      "flight_price": {
+        "est": 1800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 15.2
+      },
+      "temp_night": {
+        "est": 7
+      },
+      "dew_point": {
+        "est": 7.3
+      },
+      "sun": {
+        "est": 3.6
+      },
+      "rain": {
+        "est": 190
+      },
+      "rain_days": {
+        "est": 11.5
+      },
+      "uv": {
+        "est": 2
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 17
+      },
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Corfu – tabela klimatyczna, Korfu 1955–2010 (HNMS; słońce NOAA 1961–1990) – stacja zastępcza ok. 15–20 km",
+      "url": "https://en.wikipedia.org/wiki/Corfu",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "San Teodoro (kierunki/san-teodoro.json): UV BestDateWeather Sardynia i wiatr NASA POWER Olbia – zastępstwo (ta sama szerokość)",
+      "url": "https://bestdateweather.com/en/sardinia-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Zakynthos (kierunki/zakynthos-tsilivi.json): temperatura morza weather2travel – zastępstwo (Morze Jońskie)",
+      "url": "https://weather2travel.com/zante/tsilivi/climate/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Korfu (bez przesiadek tylko Wizz Air, ok. 2 h 25 min; ceny: X 721 zł najtaniej, I 1 418 zł, XI 2 485 zł, średnia 930 zł, typowo 692–1 337 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Korfu-CFU",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Tirana (bez przesiadek LOT, Ryanair, Wizz Air, ok. 2 h 06 min; średnia 624 zł) – alternatywa",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Tirana-TIA",
+      "checked": "2026-10-16"
+    }
+  ]
+}

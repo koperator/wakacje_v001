@@ -1,0 +1,361 @@
+{
+  "id": "rodos-faliraki",
+  "country": "Grecja (Rodos)",
+  "place": "Faliraki / Kolymbia, Rodos",
+  "notes": "Klimat śródziemnomorski Dodekanezu: bardzo słoneczne, gorące i suche lato VI–IX (30–31 °C, 13–14 h słońca), woda najcieplejsza VIII–IX (ok. 27 °C), deszczowa, łagodna zima XI–II. Baza pobytu: Faliraki i Kolymbia na wschodnim (zawietrznym) wybrzeżu – długie piaszczyste plaże i zatoki, spokojniejsze niż zachodnie wybrzeże przy meltemi. Pogoda ze stacji lotniska Rodos (HNMS 1955–2010; słońce Weather Atlas) – ok. 20 km. Zieleń: sosny, gaje oliwne, Dolina Motyli. Wycieczki: średniowieczne Stare Miasto Rodos (UNESCO), Lindos, zatoka Anthony Quinn, Dolina Motyli, Symi. Poza sezonem większość hoteli zamknięta. Dojazd: bez przesiadek ok. 3 h (sezon letni); z lotniska ok. 20 km.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 3,
+    "stops": 0,
+    "transfer": {
+      "est": 0.4
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15.1,
+      "temp_night": 9.2,
+      "dew_point": {
+        "est": 6.7
+      },
+      "sun": 5,
+      "rain": 152,
+      "rain_days": {
+        "est": 10.9
+      },
+      "uv": {
+        "est": 3
+      },
+      "wind": {
+        "est": 19
+      },
+      "water": 17.9,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15.2,
+      "temp_night": 9.1,
+      "dew_point": {
+        "est": 6.5
+      },
+      "sun": 6,
+      "rain": 102,
+      "rain_days": {
+        "est": 8.9
+      },
+      "uv": {
+        "est": 4
+      },
+      "wind": {
+        "est": 19
+      },
+      "water": 17,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17,
+      "temp_night": 10.5,
+      "dew_point": {
+        "est": 7.9
+      },
+      "sun": 7,
+      "rain": 69,
+      "rain_days": {
+        "est": 7.4
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 18
+      },
+      "water": 17.1,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 20,
+      "temp_night": 13,
+      "dew_point": {
+        "est": 10
+      },
+      "sun": 9,
+      "rain": 29,
+      "rain_days": {
+        "est": 5.3
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": 17.6,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 24.1,
+      "temp_night": 16.3,
+      "dew_point": {
+        "est": 13.1
+      },
+      "sun": 11,
+      "rain": 16,
+      "rain_days": {
+        "est": 3.2
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": 20.1,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.3,
+      "temp_night": 20.4,
+      "dew_point": {
+        "est": 15.6
+      },
+      "sun": 13,
+      "rain": 2,
+      "rain_days": {
+        "est": 0.8
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": 23.4,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.4,
+      "temp_night": 22.7,
+      "dew_point": {
+        "est": 17.4
+      },
+      "sun": 14,
+      "rain": 0,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 16
+      },
+      "water": 25.9,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.7,
+      "temp_night": 23.2,
+      "dew_point": {
+        "est": 18.3
+      },
+      "sun": 13,
+      "rain": 0,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 16
+      },
+      "water": 27.2,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.1,
+      "temp_night": 21,
+      "dew_point": {
+        "est": 16.5
+      },
+      "sun": 11,
+      "rain": 6,
+      "rain_days": {
+        "est": 1
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": 26.7,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 24.5,
+      "temp_night": 17.4,
+      "dew_point": {
+        "est": 14.5
+      },
+      "sun": 8,
+      "rain": 57,
+      "rain_days": {
+        "est": 4.7
+      },
+      "uv": {
+        "est": 5
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": 23.8,
+      "flight_price": {
+        "est": 1600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 20.2,
+      "temp_night": 13.7,
+      "dew_point": {
+        "est": 11.5
+      },
+      "sun": 6,
+      "rain": 90,
+      "rain_days": {
+        "est": 6.7
+      },
+      "uv": {
+        "est": 4
+      },
+      "wind": {
+        "est": 16
+      },
+      "water": 20.9,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 16.7,
+      "temp_night": 10.8,
+      "dew_point": {
+        "est": 8.6
+      },
+      "sun": 5,
+      "rain": 153,
+      "rain_days": {
+        "est": 10.8
+      },
+      "uv": {
+        "est": 3
+      },
+      "wind": {
+        "est": 19
+      },
+      "water": 18.8,
+      "flight_price": {
+        "est": 1600
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Rhodes – tabela klimatyczna, lotnisko Rodos (HNMS 1955–2010; NOAA; nasłonecznienie Weather Atlas); temperatura morza (Weather Atlas)",
+      "url": "https://en.wikipedia.org/wiki/Rhodes",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "weather2travel: Faliraki – temperatura morza i słońce (kontrola)",
+      "url": "https://weather2travel.com/rhodes/faliraki/climate/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Kreta (kierunki/kreta-agia-marina.json): UV z BestDateWeather (Santorini) i wiatr NASA POWER (Chania) – zastępstwo, ta sama szerokość i Morze Egejskie",
+      "url": "https://www.climate-zone.com/climate/gr/chania/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Rodos (bez przesiadek ok. 3 h; z 1 przesiadką Saloniki 4 h 42 min; ceny: III 499 zł najtaniej, X 1 316 zł, XII 1 484 zł najdrożej, średnia 875 zł, typowo 677–1 103 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Rodos-RHO",
+      "checked": "2026-10-16"
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "id": "zanzibar-paje",
+  "country": "Tanzania",
+  "place": "Zanzibar (Paje / Jambiani)",
+  "notes": "Wschodnie wybrzeże Unguji: dwie pory deszczowe – długa (masika) III–V z maksimum w IV i krótka (vuli) XI–XII; sucho VI–X i I–II. Baza pobytu: Paje i Jambiani – biały piasek i płytka laguna za rafą, ale bardzo silne pływy: przy odpływie woda cofa się daleko (farmy wodorostów na płyciźnie), kąpiel praktycznie tylko w okolicach przypływu. Wietrznie XII–II (kaskazi) i V–X (kusi) – centrum kitesurfingu. Pogoda ze stacji Zanzibar/Kisauni przy lotnisku (ok. 45 km, normy 1991–2020), jak dla Nungwi. Zieleń: palmy i zarośla na koralowym podłożu. Wycieczki: Stone Town (UNESCO, ok. 1 h), las Jozani (ok. 20 min), farmy przypraw, Kizimkazi (delfiny), Mnemba. Dojazd: z 1 przesiadką ok. 14 h; z lotniska ok. 50 km.",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 13.9,
+    "stops": 1,
+    "transfer": {
+      "est": 1
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.6,
+      "temp_night": 24.5,
+      "dew_point": {
+        "est": 24.1
+      },
+      "sun": {
+        "est": 7.6
+      },
+      "rain": 74,
+      "rain_days": 5.6,
+      "uv": 7,
+      "wind": 20,
+      "water": 28.4,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III, np. 2027: ok. 8.02–9.03): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w ciągu dnia źle widziane, skromniejszy strój poza resortem; hotele działają normalnie."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 33.2,
+      "temp_night": 24.3,
+      "dew_point": {
+        "est": 23.9
+      },
+      "sun": {
+        "est": 7.9
+      },
+      "rain": 51,
+      "rain_days": 3.6,
+      "uv": 8,
+      "wind": 19,
+      "water": 28.3,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III, np. 2027: ok. 8.02–9.03): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w ciągu dnia źle widziane, skromniejszy strój poza resortem; hotele działają normalnie."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.5,
+      "temp_night": 24.5,
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": {
+        "est": 6.9
+      },
+      "rain": 177,
+      "rain_days": 11,
+      "uv": 9,
+      "wind": 14,
+      "water": 29.1,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III, np. 2027: ok. 8.02–9.03): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w ciągu dnia źle widziane, skromniejszy strój poza resortem; hotele działają normalnie."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.6,
+      "temp_night": 24.5,
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": {
+        "est": 5.2
+      },
+      "rain": 409,
+      "rain_days": 17.5,
+      "uv": 7,
+      "wind": 18,
+      "water": 29.2,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [
+        {
+          "type": "other",
+          "level": 1,
+          "note": "Długa pora deszczowa (masika): część hoteli i restauracji w Nungwi i Kendwa zamknięta albo z ograniczoną ofertą, mniej wycieczek."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 29.7,
+      "temp_night": 23.8,
+      "dew_point": {
+        "est": 23.1
+      },
+      "sun": {
+        "est": 6.9
+      },
+      "rain": 298,
+      "rain_days": 13.8,
+      "uv": 7,
+      "wind": 23,
+      "water": 28.3,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [
+        {
+          "type": "other",
+          "level": 1,
+          "note": "Długa pora deszczowa (masika): część hoteli i restauracji w Nungwi i Kendwa zamknięta albo z ograniczoną ofertą, mniej wycieczek."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.3,
+      "temp_night": 22.9,
+      "dew_point": {
+        "est": 21.8
+      },
+      "sun": {
+        "est": 7.4
+      },
+      "rain": 52,
+      "rain_days": 5.3,
+      "uv": 7,
+      "wind": 25,
+      "water": 27,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29,
+      "temp_night": 22.1,
+      "dew_point": {
+        "est": 21
+      },
+      "sun": {
+        "est": 7.2
+      },
+      "rain": 31,
+      "rain_days": 4.3,
+      "uv": 7,
+      "wind": 25,
+      "water": 26,
+      "flight_price": {
+        "est": 4400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.4,
+      "temp_night": 21.1,
+      "dew_point": {
+        "est": 20.7
+      },
+      "sun": {
+        "est": 8.6
+      },
+      "rain": 38,
+      "rain_days": 6,
+      "uv": 8,
+      "wind": 22,
+      "water": 25.7,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.4,
+      "temp_night": 21,
+      "dew_point": {
+        "est": 20.9
+      },
+      "sun": {
+        "est": 8.4
+      },
+      "rain": 37,
+      "rain_days": 5.1,
+      "uv": 8,
+      "wind": 20,
+      "water": 25.8,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.2,
+      "temp_night": 22,
+      "dew_point": {
+        "est": 21.9
+      },
+      "sun": {
+        "est": 8.9
+      },
+      "rain": 116,
+      "rain_days": 6.9,
+      "uv": 8,
+      "wind": 18,
+      "water": 26.5,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31,
+      "temp_night": 23.1,
+      "dew_point": {
+        "est": 22.9
+      },
+      "sun": {
+        "est": 8.4
+      },
+      "rain": 201,
+      "rain_days": 13.7,
+      "uv": 8,
+      "wind": 15,
+      "water": 27.8,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.8,
+      "temp_night": 24,
+      "dew_point": {
+        "est": 23.8
+      },
+      "sun": {
+        "est": 7.8
+      },
+      "rain": 168,
+      "rain_days": 12.2,
+      "uv": 8,
+      "wind": 18,
+      "water": 28.4,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Zanzibar City – tabela klimatyczna 1991–2020, stacja Zanzibar/Kisauni (NOAA; Tokyo Climate Center): temperatury, opad, dni ≥ 1 mm",
+      "url": "https://en.wikipedia.org/wiki/Zanzibar_City",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Wikipedia: Dar es Salaam – tabela klimatyczna 1991–2020 (wilgotność i nasłonecznienie DWD) – zastępczo do punktu rosy i słońca",
+      "url": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "weather2travel: Zanzibar (CRU, Met Office, KNMI; słońce, opad, morze – kontrola)",
+      "url": "https://www.weather2travel.com/tanzania/zanzibar/climate/?Units=1",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Weather Spark: Nungwi – średnia godzinowa prędkość wiatru na 10 m, temperatura wody – kontrola",
+      "url": "https://weatherspark.com/y/101130/Average-Weather-in-Nungwi-Tanzania-Year-Round",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "meerestemperatur.de: Nungwi – średnia temperatura morza w miesiącach",
+      "url": "https://www.meerestemperatur.de/afrika/tansania/nungwi/when.html",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: Zanzibar – pogoda miesiąc po miesiącu (12 stron, np. /zanzibar-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 6.16°S 39.20°E",
+      "url": "https://bestdateweather.com/en/best-time-to-visit-zanzibar",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Altezza Travel: najlepszy czas na Zanzibar (szczyt VI–X i XII–II, długie deszcze IV–V z zamkniętymi hotelami, brak pływów w Nungwi i Kendwa)",
+      "url": "https://altezzatravel.com/articles/best-time-to-visit-zanzibar",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "Wego: Ramadan 2027 w Tanzanii i na Zanzibarze (daty, restauracje, zasady dla turystów)",
+      "url": "https://blog.wego.com/ramadan-in-tanzania-and-zanzibar/",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.com: Warszawa – Zanzibar (najkrótszy średni czas z 1 przesiadką: Stambuł 13 h 56 min; najczęściej Dubaj; brak lotów bezpośrednich)",
+      "url": "https://www.kayak.com/flight-routes/Warsaw-Frederic-Chopin-WAW/Zanzibar-ZNZ",
+      "checked": "2026-10-13"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Zanzibar – statystyki cen w obie strony (miesiące: VII 4 436, XI 3 314, XII 4 674; średnia 12 mies. 3 903 zł; typowo 3 405–4 615 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Zanzibar-ZNZ",
+      "checked": "2026-10-14"
+    },
+    {
+      "title": "IKSURFMAG: Paje (pływy opróżniające wewnętrzną lagunę, farmy wodorostów, wiatr kaskazi XII–II 12–25 kn i kusi V–X)",
+      "url": "https://www.iksurfmag.com/travel-guides/africa/tanzania/paje",
+      "checked": "2026-10-16"
+    }
+  ]
+}

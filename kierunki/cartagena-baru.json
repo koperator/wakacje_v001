@@ -1,0 +1,407 @@
+{
+  "id": "cartagena-baru",
+  "country": "Kolumbia",
+  "place": "Cartagena – Isla Barú (Playa Blanca)",
+  "notes": "Karaibskie wybrzeże Kolumbii: gorąco przez cały rok (31–32 °C w dzień, 24–26 °C w nocy), woda 27–29 °C. Pora sucha XII–IV z silną bryzą (prawie bez deszczu w I–III), deszczowo V–XI (najwięcej X). Huragany rzadkie (za blisko równika). Baza pobytu: Playa Blanca na półwyspie Barú, ok. 45 km na południe od Cartageny – biały piasek i turkusowa, spokojna woda; w dzień tłumy wycieczek łodziami i nachalni sprzedawcy, wieczorem spokojnie; noclegi głównie proste cabañas i kilka hoteli. Zieleń: suchy las tropikalny i namorzyny. Wycieczki: stare miasto Cartageny (UNESCO, ok. 1 h), Wyspy Rosario (rafy, snorkeling), plankton świecący, wulkan błotny Totumo, ptaszarnia na Barú. Tanio. Dojazd: 1 przesiadka (Amsterdam) ok. 17 h; z lotniska ok. 1–1,25 h drogą.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 17.2,
+    "stops": 1,
+    "transfer": {
+      "est": 1.2
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.1,
+      "temp_night": 24,
+      "dew_point": {
+        "est": 23.4
+      },
+      "sun": 8.8,
+      "rain": {
+        "est": 1
+      },
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 8,
+      "wind": {
+        "est": 22
+      },
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 5400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.1,
+      "temp_night": 24.2,
+      "dew_point": {
+        "est": 23
+      },
+      "sun": 8.5,
+      "rain": {
+        "est": 0
+      },
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 8,
+      "wind": {
+        "est": 24
+      },
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.2,
+      "temp_night": 24.9,
+      "dew_point": {
+        "est": 23.5
+      },
+      "sun": 7.7,
+      "rain": {
+        "est": 3
+      },
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 9,
+      "wind": {
+        "est": 24
+      },
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Semana Santa (III lub IV, zależnie od roku): szczyt wyjazdów Kolumbijczyków – Playa Blanca i łodzie na Rosario zatłoczone, wyższe ceny."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.7,
+      "temp_night": 25.8,
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": 7,
+      "rain": {
+        "est": 19
+      },
+      "rain_days": {
+        "est": 2
+      },
+      "uv": 8,
+      "wind": {
+        "est": 20
+      },
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Semana Santa (III lub IV, zależnie od roku): szczyt wyjazdów Kolumbijczyków – Playa Blanca i łodzie na Rosario zatłoczone, wyższe ceny."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32,
+      "temp_night": 26.1,
+      "dew_point": {
+        "est": 25.2
+      },
+      "sun": 6.2,
+      "rain": {
+        "est": 117
+      },
+      "rain_days": {
+        "est": 7
+      },
+      "uv": 8,
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.3,
+      "temp_night": 26.1,
+      "dew_point": {
+        "est": 25.5
+      },
+      "sun": 6.3,
+      "rain": {
+        "est": 93
+      },
+      "rain_days": {
+        "est": 9
+      },
+      "uv": 8,
+      "wind": {
+        "est": 13
+      },
+      "water": {
+        "est": 29
+      },
+      "flight_price": {
+        "est": 5400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.2,
+      "temp_night": 25.7,
+      "dew_point": {
+        "est": 25
+      },
+      "sun": 6.7,
+      "rain": {
+        "est": 121
+      },
+      "rain_days": {
+        "est": 9
+      },
+      "uv": 8,
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 29
+      },
+      "flight_price": {
+        "est": 5400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.2,
+      "temp_night": 25.9,
+      "dew_point": {
+        "est": 25.3
+      },
+      "sun": 6.4,
+      "rain": {
+        "est": 128
+      },
+      "rain_days": {
+        "est": 10
+      },
+      "uv": 8,
+      "wind": {
+        "est": 13
+      },
+      "water": {
+        "est": 29
+      },
+      "flight_price": {
+        "est": 6300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.1,
+      "temp_night": 25.8,
+      "dew_point": {
+        "est": 25.2
+      },
+      "sun": 5.7,
+      "rain": {
+        "est": 133
+      },
+      "rain_days": {
+        "est": 10
+      },
+      "uv": 8,
+      "wind": {
+        "est": 11
+      },
+      "water": {
+        "est": 29
+      },
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.7,
+      "temp_night": 25.6,
+      "dew_point": {
+        "est": 25.1
+      },
+      "sun": 5.5,
+      "rain": {
+        "est": 237
+      },
+      "rain_days": {
+        "est": 12
+      },
+      "uv": 7,
+      "wind": {
+        "est": 11
+      },
+      "water": {
+        "est": 29
+      },
+      "flight_price": {
+        "est": 4500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.5,
+      "temp_night": 25.5,
+      "dew_point": {
+        "est": 24.9
+      },
+      "sun": 6.2,
+      "rain": {
+        "est": 178
+      },
+      "rain_days": {
+        "est": 9
+      },
+      "uv": 7,
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 29
+      },
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.4,
+      "temp_night": 24.8,
+      "dew_point": {
+        "est": 24.2
+      },
+      "sun": 7.8,
+      "rain": {
+        "est": 45
+      },
+      "rain_days": {
+        "est": 3
+      },
+      "uv": 7,
+      "wind": {
+        "est": 19
+      },
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 5400
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Cartagena (Kolumbia) – tabela klimatyczna, lotnisko Rafael Núñez, 1991–2020 (IDEAM; wilgotność i słońce 1971–2010)",
+      "url": "https://en.wikipedia.org/wiki/Cartagena,_Colombia",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "climate-zone.com: Cartagena – średnia prędkość wiatru (NASA POWER 1991–2020, model)",
+      "url": "https://www.climate-zone.com/climate/colombia/cartagena/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "weather2travel: Cartagena – klimat w miesiącach (temperatura morza)",
+      "url": "https://www.weather2travel.com/colombia/cartagena/climate/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Cartagena – pogoda miesiąc po miesiącu (12 stron, np. /cartagena-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 10.39°N 75.51°W",
+      "url": "https://bestdateweather.com/en/cartagena-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Cartagena (1 przesiadka: Amsterdam średnio 17 h 14 min, Mediolan 19 h 42 min, Nowy Jork 21 h 27 min; ceny: III 3 953 zł najtaniej, VIII najdrożej ok. 6 898 zł (o 2 945 zł więcej), średnia 4 504 zł, typowo 4 013–5 436 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Cartagena-CTG",
+      "checked": "2026-10-16"
+    }
+  ]
+}

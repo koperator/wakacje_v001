@@ -1,0 +1,507 @@
+{
+  "id": "perhentian",
+  "country": "Malezja",
+  "place": "Wyspy Perhentian (Long Beach / Teluk Pauh)",
+  "notes": "Wschodnie wybrzeże Malezji (Morze Południowochińskie): sezon III–X z najspokojniejszym morzem V–IX, monsun NE XI–II z ulewami (maksimum XI–XII) – wtedy wyspy są praktycznie zamknięte (ośrodki, łodzie, nurkowanie). Baza pobytu: Long Beach na Perhentian Kecil i Teluk Pauh na Perhentian Besar – biały piasek, przejrzysta woda, rafa przy brzegu. Pogoda ze stacji Kota Bharu (ok. 70 km, WMO 1991–2020), wszystko jako szacunek. Zieleń: wyspy porośnięte dżunglą. Atrakcje: snorkeling i nurkowanie (żółwie, rekiny rafowe), szlaki przez dżunglę; poza tym niewiele. Dojazd: lotnisko Kota Bharu (z Kuala Lumpur), z WAW z 2 przesiadkami ok. 18 h; dalej ok. 1 h drogi do Kuala Besut i ok. 30–40 min łodzią.",
+  "fixed": {
+    "beaches": {
+      "est": 5
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 2
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": {
+      "est": 18
+    },
+    "stops": {
+      "est": 2
+    },
+    "transfer": {
+      "est": 1.8
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 29.5
+      },
+      "temp_night": {
+        "est": 23.6
+      },
+      "dew_point": {
+        "est": 23.4
+      },
+      "sun": {
+        "est": 5.2
+      },
+      "rain": {
+        "est": 150
+      },
+      "rain_days": {
+        "est": 9.5
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 11
+      },
+      "water": 27,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [
+        {
+          "type": "monsoon",
+          "level": 3,
+          "note": "Monsun NE: wyspy praktycznie zamknięte – większość ośrodków, łodzie z Kuala Besut i centra nurkowe nie działają, morze wzburzone i niebezpieczne."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 30.4
+      },
+      "temp_night": {
+        "est": 23.5
+      },
+      "dew_point": {
+        "est": 23.8
+      },
+      "sun": {
+        "est": 6.7
+      },
+      "rain": {
+        "est": 69
+      },
+      "rain_days": {
+        "est": 4.7
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 10
+      },
+      "water": 28,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [
+        {
+          "type": "monsoon",
+          "level": 3,
+          "note": "Monsun NE: wyspy praktycznie zamknięte – większość ośrodków, łodzie z Kuala Besut i centra nurkowe nie działają, morze wzburzone i niebezpieczne. Pod koniec lutego pierwsze otwarcia."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31.4
+      },
+      "temp_night": {
+        "est": 24
+      },
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": {
+        "est": 6.7
+      },
+      "rain": {
+        "est": 140
+      },
+      "rain_days": {
+        "est": 6.7
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 9
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [
+        {
+          "type": "monsoon",
+          "level": 1,
+          "note": "Otwarcie sezonu: w pierwszej połowie marca część ośrodków i rejsów jeszcze nie działa, morze bywa niespokojne."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 32.6
+      },
+      "temp_night": {
+        "est": 24.7
+      },
+      "dew_point": {
+        "est": 25
+      },
+      "sun": {
+        "est": 7.1
+      },
+      "rain": {
+        "est": 93
+      },
+      "rain_days": {
+        "est": 5.8
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 7
+      },
+      "water": 30,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 33
+      },
+      "temp_night": {
+        "est": 24.9
+      },
+      "dew_point": {
+        "est": 25.3
+      },
+      "sun": {
+        "est": 6.3
+      },
+      "rain": {
+        "est": 116
+      },
+      "rain_days": {
+        "est": 8.5
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 6
+      },
+      "water": 30,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 32.7
+      },
+      "temp_night": {
+        "est": 24.6
+      },
+      "dew_point": {
+        "est": 24.9
+      },
+      "sun": {
+        "est": 6.2
+      },
+      "rain": {
+        "est": 138
+      },
+      "rain_days": {
+        "est": 9.6
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 5
+      },
+      "water": 30,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 32.3
+      },
+      "temp_night": {
+        "est": 24.3
+      },
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": {
+        "est": 5.9
+      },
+      "rain": {
+        "est": 155
+      },
+      "rain_days": {
+        "est": 10.2
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 5
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 4400
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 32.2
+      },
+      "temp_night": {
+        "est": 24
+      },
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 158
+      },
+      "rain_days": {
+        "est": 12.5
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 5
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 31.9
+      },
+      "temp_night": {
+        "est": 23.9
+      },
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": {
+        "est": 6.2
+      },
+      "rain": {
+        "est": 163
+      },
+      "rain_days": {
+        "est": 12.2
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 5
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31.1
+      },
+      "temp_night": {
+        "est": 24
+      },
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": {
+        "est": 5.6
+      },
+      "rain": {
+        "est": 267
+      },
+      "rain_days": {
+        "est": 15.7
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 7
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [
+        {
+          "type": "monsoon",
+          "level": 1,
+          "note": "Koniec sezonu: pod koniec października zamykają się pierwsze ośrodki i centra nurkowe, rosną fale."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 29.8
+      },
+      "temp_night": {
+        "est": 23.9
+      },
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": {
+        "est": 4.6
+      },
+      "rain": {
+        "est": 677
+      },
+      "rain_days": {
+        "est": 20.5
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 9
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [
+        {
+          "type": "monsoon",
+          "level": 3,
+          "note": "Monsun NE: wyspy praktycznie zamknięte – większość ośrodków, łodzie z Kuala Besut i centra nurkowe nie działają, morze wzburzone i niebezpieczne."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 29.2
+      },
+      "temp_night": {
+        "est": 23.8
+      },
+      "dew_point": {
+        "est": 24
+      },
+      "sun": {
+        "est": 4.2
+      },
+      "rain": {
+        "est": 572
+      },
+      "rain_days": {
+        "est": 18.4
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 11
+      },
+      "water": 28,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": [
+        {
+          "type": "monsoon",
+          "level": 3,
+          "note": "Monsun NE: wyspy praktycznie zamknięte – większość ośrodków, łodzie z Kuala Besut i centra nurkowe nie działają, morze wzburzone i niebezpieczne."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Kota Bharu – tabela klimatyczna, normy 1991–2020 (WMO; wilgotność: Ogimet/DWD): temperatury, opad, dni ≥ 1 mm, wilgotność, nasłonecznienie – stacja zastępcza ok. 70 km",
+      "url": "https://en.wikipedia.org/wiki/Kota_Bharu",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "climate-zone.com: Kota Bharu – średnia prędkość wiatru (NASA POWER 1991–2020, model)",
+      "url": "https://www.climate-zone.com/climate/my/kota-bharu/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "weather2travel: Perhentian Islands – temperatura morza (oraz kontrolnie temperatury, opad, słońce; CRU)",
+      "url": "https://weather2travel.com/malaysia/perhentian-islands/climate/?Units=0",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Koh Samui – UV all-sky (Open-Meteo, ERA5 2016–2025) jako zastępstwo; brak strony dla Perhentian, Terengganu i Kota Bharu",
+      "url": "https://bestdateweather.com/en/koh-samui-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Isla Guru: kiedy jechać na Perhentian (sezon III–X, monsun XI–II: brak łodzi i większość ośrodków zamknięta, zamknięcia od końca X)",
+      "url": "https://islaguru.com/articles/when-to-visit-the-perhentian",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Kuala Lumpur (z 1 przesiadką: Abu Zabi 15 h 24 min, Stambuł 15 h 34 min; ceny: IX 3 007, XII 4 016, VII 4 078 zł, średnia 3 599 zł, typowo 3 138–4 207 zł) – podstawa ceny, + ok. 300 zł za lot KUL–KBR",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Kuala-Lumpur-KUL",
+      "checked": "2026-10-16"
+    }
+  ]
+}

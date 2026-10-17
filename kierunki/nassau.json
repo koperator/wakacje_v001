@@ -1,0 +1,293 @@
+{
+  "id": "nassau",
+  "country": "Bahamy",
+  "place": "Nassau (Cable Beach / Paradise Island)",
+  "notes": "Wyspa New Providence na Bahamach, na północ od zwrotnika: zimą ciepło, ale nie upalnie (26–27 °C w dzień, 18–20 °C w nocy, woda 23–24 °C), latem gorąco i parno (32–33 °C, woda 29–31 °C). Pora sucha XII–IV, deszczowa VI–X; sezon huraganów VI–XI (szczyt VIII–X). Baza pobytu: Cable Beach lub Paradise Island – szerokie plaże z białym piaskiem i turkusową wodą, zabudowane resortami (Baha Mar, Atlantis). Zieleń umiarkowana: palmy, ogrody resortów, płaska wyspa. Wycieczki: stare miasto Nassau (forty, Queen’s Staircase), rejsy na Exumy (świnie pływające, piaszczyste łachy), snorkeling, Rose Island. Drogo – ceny jak w USA albo wyżej. Dojazd: 1 przesiadka (Miami) ok. 17,5 h; z lotniska ok. 20–30 min.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 5
+    },
+    "flight_time": 17.5,
+    "stops": 1,
+    "transfer": {
+      "est": 0.4
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26.1,
+      "temp_night": 18.2,
+      "dew_point": 18,
+      "sun": 7.3,
+      "rain": 45,
+      "rain_days": 7,
+      "uv": 5,
+      "wind": 22,
+      "water": 23.3,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26.6,
+      "temp_night": 18.5,
+      "dew_point": 17.9,
+      "sun": 7.9,
+      "rain": 48,
+      "rain_days": 5,
+      "uv": 6,
+      "wind": 22,
+      "water": 23.3,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27.2,
+      "temp_night": 19.1,
+      "dew_point": 18.2,
+      "sun": 8.1,
+      "rain": 54,
+      "rain_days": 6,
+      "uv": 8,
+      "wind": 22,
+      "water": 23.9,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.7,
+      "temp_night": 21,
+      "dew_point": 19.7,
+      "sun": 9.4,
+      "rain": 74,
+      "rain_days": 7,
+      "uv": 8,
+      "wind": 20,
+      "water": 25.6,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.2,
+      "temp_night": 22.4,
+      "dew_point": 21.8,
+      "sun": 9.1,
+      "rain": 139,
+      "rain_days": 10,
+      "uv": 9,
+      "wind": 19,
+      "water": 26.7,
+      "flight_price": {
+        "est": 2900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.8,
+      "temp_night": 24.2,
+      "dew_point": 24.1,
+      "sun": 8,
+      "rain": 220,
+      "rain_days": 15,
+      "uv": 8,
+      "wind": 17,
+      "water": 28.3,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.7,
+      "temp_night": 25,
+      "dew_point": 24.7,
+      "sun": 8.6,
+      "rain": 158,
+      "rain_days": 16,
+      "uv": 9,
+      "wind": 17,
+      "water": 29.4,
+      "flight_price": {
+        "est": 3100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.8,
+      "temp_night": 25,
+      "dew_point": 24.8,
+      "sun": 8.4,
+      "rain": 211,
+      "rain_days": 18,
+      "uv": 8,
+      "wind": 17,
+      "water": 30.6,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty i rejsy (np. Dorian 2019 na północnych Bahamach, Matthew 2016 nad Nassau)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.2,
+      "temp_night": 24.7,
+      "dew_point": 24.5,
+      "sun": 7.4,
+      "rain": 196,
+      "rain_days": 17,
+      "uv": 8,
+      "wind": 17,
+      "water": 30,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty i rejsy (np. Dorian 2019 na północnych Bahamach, Matthew 2016 nad Nassau)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.6,
+      "temp_night": 23.6,
+      "dew_point": 23.1,
+      "sun": 7.6,
+      "rain": 151,
+      "rain_days": 13,
+      "uv": 6,
+      "wind": 20,
+      "water": 28.3,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty i rejsy (np. Dorian 2019 na północnych Bahamach, Matthew 2016 nad Nassau)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 28.3,
+      "temp_night": 21.2,
+      "dew_point": 20.2,
+      "sun": 7.3,
+      "rain": 87,
+      "rain_days": 9,
+      "uv": 6,
+      "wind": 23,
+      "water": 26.7,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26.8,
+      "temp_night": 19.6,
+      "dew_point": 19.2,
+      "sun": 6.8,
+      "rain": 43,
+      "rain_days": 7,
+      "uv": 5,
+      "wind": 22,
+      "water": 25,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Nassau – tabela klimatyczna, lotnisko Lynden Pindling, normy 1991–2020 (Bahamas Department of Meteorology; punkt rosy, słońce)",
+      "url": "https://en.wikipedia.org/wiki/Nassau,_Bahamas",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Weather Spark: Nassau – średnia prędkość wiatru w miesiącach",
+      "url": "https://weatherspark.com/y/20786/Average-Weather-in-Nassau-Bahamas-Year-Round",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "seatemperatu.re: Nassau – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/caribbean/bahamas/nassau/when.html",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Nassau – pogoda miesiąc po miesiącu (12 stron, np. /nassau-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 25.05°N 77.34°W",
+      "url": "https://bestdateweather.com/en/nassau-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Nassau (z 1 przesiadką średnio Miami 17 h 31 min, Nowy Jork 19 h 15 min, Londyn 20 h 25 min; ceny: V 2 886 zł najtaniej, VIII 5 558 zł, VI 7 069 zł najdrożej, średnia 3 118 zł, typowo 2 961–3 988 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Nassau-NAS",
+      "checked": "2026-10-16"
+    }
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "id": "rarotonga",
+  "country": "Wyspy Cooka",
+  "place": "Rarotonga (Muri Beach)",
+  "notes": "Główna wyspa Wysp Cooka na południowym Pacyfiku, tuż przy zwrotniku Koziorożca: ciepło, ale nie upalnie (25–30 °C w dzień, 19–24 °C w nocy), woda 24–27 °C. Pora wilgotna i gorąca XII–IV (ulewy, sezon cyklonów XI–IV), sucha i chłodniejsza VI–X. Baza pobytu: Muri Beach na południowo-wschodnim wybrzeżu – jasny piasek i płytka, spokojna, turkusowa laguna z czterema motu (wysepkami), kajaki i snorkeling; plaża dość wąska. Zieleń bujna: góry porośnięte dżunglą tuż za plażą. Wycieczki: trekking przez wyspę (Te Rua Manga), rejsy po lagunie, targ Punanga Nui, jednodniowy lot na Aitutaki (jedna z najpiękniejszych lagun świata). Drogo (ceny nowozelandzkie). Dojazd: 2 przesiadki (np. Doha i Auckland lub Sydney) ok. 33 h (szacunek); z lotniska ok. 20–25 min.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 5
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 4
+    },
+    "flight_time": {
+      "est": 33
+    },
+    "stops": 2,
+    "transfer": {
+      "est": 0.4
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 29.4
+      },
+      "temp_night": {
+        "est": 23.3
+      },
+      "dew_point": {
+        "est": 23
+      },
+      "sun": {
+        "est": 6.5
+      },
+      "rain": {
+        "est": 183
+      },
+      "rain_days": {
+        "est": 17
+      },
+      "uv": 9,
+      "wind": 21,
+      "water": 26.7,
+      "flight_price": {
+        "est": 8200
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu cyklonów (I–III): przy cyklonie kilka dni ulew, wichury i wysokich fal, odwołane loty i rejsy po lagunie (np. Sally 1987, Meena i Percy 2005)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 30
+      },
+      "temp_night": {
+        "est": 23.9
+      },
+      "dew_point": {
+        "est": 23.4
+      },
+      "sun": {
+        "est": 7.2
+      },
+      "rain": {
+        "est": 175
+      },
+      "rain_days": {
+        "est": 15
+      },
+      "uv": 8,
+      "wind": 21,
+      "water": 27.2,
+      "flight_price": {
+        "est": 7500
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu cyklonów (I–III): przy cyklonie kilka dni ulew, wichury i wysokich fal, odwołane loty i rejsy po lagunie (np. Sally 1987, Meena i Percy 2005)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 29.4
+      },
+      "temp_night": {
+        "est": 23.3
+      },
+      "dew_point": {
+        "est": 22.8
+      },
+      "sun": {
+        "est": 7.7
+      },
+      "rain": {
+        "est": 163
+      },
+      "rain_days": {
+        "est": 15
+      },
+      "uv": 8,
+      "wind": 21,
+      "water": 27.2,
+      "flight_price": {
+        "est": 7500
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu cyklonów (I–III): przy cyklonie kilka dni ulew, wichury i wysokich fal, odwołane loty i rejsy po lagunie (np. Sally 1987, Meena i Percy 2005)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 28.9
+      },
+      "temp_night": {
+        "est": 22.8
+      },
+      "dew_point": {
+        "est": 22.1
+      },
+      "sun": {
+        "est": 7.3
+      },
+      "rain": {
+        "est": 168
+      },
+      "rain_days": {
+        "est": 12
+      },
+      "uv": 7,
+      "wind": 22,
+      "water": 27.2,
+      "flight_price": {
+        "est": 8200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 27.2
+      },
+      "temp_night": {
+        "est": 21.1
+      },
+      "dew_point": {
+        "est": 20.3
+      },
+      "sun": {
+        "est": 7.2
+      },
+      "rain": {
+        "est": 140
+      },
+      "rain_days": {
+        "est": 11
+      },
+      "uv": 5,
+      "wind": 22,
+      "water": 26.1,
+      "flight_price": {
+        "est": 7500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 26.7
+      },
+      "temp_night": {
+        "est": 20
+      },
+      "dew_point": {
+        "est": 19.3
+      },
+      "sun": {
+        "est": 7.5
+      },
+      "rain": {
+        "est": 61
+      },
+      "rain_days": {
+        "est": 10
+      },
+      "uv": 5,
+      "wind": 22,
+      "water": 25,
+      "flight_price": {
+        "est": 10100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 25.6
+      },
+      "temp_night": {
+        "est": 19.4
+      },
+      "dew_point": {
+        "est": 18.5
+      },
+      "sun": {
+        "est": 7.5
+      },
+      "rain": {
+        "est": 94
+      },
+      "rain_days": {
+        "est": 9
+      },
+      "uv": 5,
+      "wind": 23,
+      "water": 24.4,
+      "flight_price": {
+        "est": 10100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 25.6
+      },
+      "temp_night": {
+        "est": 19.4
+      },
+      "dew_point": {
+        "est": 18.5
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 81
+      },
+      "rain_days": {
+        "est": 9
+      },
+      "uv": 6,
+      "wind": 23,
+      "water": 23.9,
+      "flight_price": {
+        "est": 6800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 26.1
+      },
+      "temp_night": {
+        "est": 20
+      },
+      "dew_point": {
+        "est": 19.2
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 86
+      },
+      "rain_days": {
+        "est": 9
+      },
+      "uv": 8,
+      "wind": 23,
+      "water": 24.4,
+      "flight_price": {
+        "est": 10100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 26.7
+      },
+      "temp_night": {
+        "est": 20.6
+      },
+      "dew_point": {
+        "est": 20
+      },
+      "sun": {
+        "est": 7.4
+      },
+      "rain": {
+        "est": 74
+      },
+      "rain_days": {
+        "est": 11
+      },
+      "uv": 8,
+      "wind": 22,
+      "water": 24.4,
+      "flight_price": {
+        "est": 8200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 27.8
+      },
+      "temp_night": {
+        "est": 21.7
+      },
+      "dew_point": {
+        "est": 21.1
+      },
+      "sun": {
+        "est": 7.3
+      },
+      "rain": {
+        "est": 114
+      },
+      "rain_days": {
+        "est": 12
+      },
+      "uv": 9,
+      "wind": 22,
+      "water": 25.6,
+      "flight_price": {
+        "est": 7500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 28.3
+      },
+      "temp_night": {
+        "est": 22.8
+      },
+      "dew_point": {
+        "est": 22
+      },
+      "sun": {
+        "est": 6.7
+      },
+      "rain": {
+        "est": 175
+      },
+      "rain_days": {
+        "est": 17
+      },
+      "uv": 8,
+      "wind": 22,
+      "water": 26.1,
+      "flight_price": {
+        "est": 12000
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "climate-zone.com: Avarua – temperatury i opad, normy 1991–2020 ze stacji Rarotonga Intl (NOAA GHCN, w °F i calach); wilgotność z NASA POWER (model)",
+      "url": "https://www.climate-zone.com/climate/cook-islands/fahrenheit/avarua.htm",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Weather Spark: Avarua – średnia prędkość wiatru i temperatura wody w miesiącach",
+      "url": "https://weatherspark.com/y/68/Average-Weather-in-Avarua-Cook-Islands-Year-Round",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Rarotonga – pogoda miesiąc po miesiącu (12 stron, np. /rarotonga-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 21.24°S 159.78°W",
+      "url": "https://bestdateweather.com/en/rarotonga-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Wikipedia: Bora Bora – tabela klimatyczna (Météo-France): dni z opadem i nasłonecznienie – zastępczo (ok. 1 250 km), jak w kierunku bora-bora",
+      "url": "https://en.wikipedia.org/wiki/Bora_Bora",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "beach-weather.com: Rarotonga – kontrolnie: słońce I 6,4 h, VIII 7,8 h, średnio 7,2 h dziennie",
+      "url": "https://beach-weather.com/Polynesia/The-Cook-Islands/averages/Rarotonga/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Rarotonga (2 przesiadki, np. Doha i Sydney 32 h 35 min; ceny: VIII 6 766 zł najtaniej, XII najdrożej ok. 13 477 zł (o 6 711 zł więcej), średnia 8 212 zł, typowo 6 765–10 438 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Rarotonga-RAR",
+      "checked": "2026-10-16"
+    }
+  ]
+}

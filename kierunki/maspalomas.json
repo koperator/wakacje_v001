@@ -1,0 +1,399 @@
+{
+  "id": "maspalomas",
+  "country": "Hiszpania (Kanary)",
+  "place": "Maspalomas / Meloneras, Gran Canaria",
+  "notes": "Południe Gran Canarii – najsłoneczniejsza i najcieplejsza część wyspy: łagodnie przez cały rok (ok. 21–23 °C w dzień zimą, 29–30 °C w VIII), praktycznie bez deszczu V–IX, pasat NE. Woda chłodna: ok. 19 °C w II–IV, 24 °C w IX–X. Baza pobytu: Maspalomas i Meloneras – szeroka plaża z wydmami, złoty piasek, fale umiarkowane. Pogoda ze stacji AEMET Maspalomas (2009–2024); dni deszczowe, wilgotność i nasłonecznienie z lotniska Gran Canaria i Las Palmas. Zieleń: suche południe, oaza palmowa przy wydmach, pola golfowe. Wycieczki: wydmy Maspalomas, Puerto de Mogán, Roque Nublo i góry, Vegueta w Las Palmas. Dojazd: regularnie z 1 przesiadką (Frankfurt, Hamburg), ok. 7,5 h; zimą (X–III) bez przesiadek czarterami Enter Air i Smartwings (ok. 6 h).",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 7.6,
+    "stops": 1,
+    "transfer": {
+      "est": 0.5
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 21.5,
+      "temp_night": 15.6,
+      "dew_point": {
+        "est": 12
+      },
+      "sun": {
+        "est": 5.9
+      },
+      "rain": 9,
+      "rain_days": {
+        "est": 4
+      },
+      "uv": 5,
+      "wind": {
+        "est": 19
+      },
+      "water": 20.6,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": [
+        {
+          "type": "smog",
+          "level": 1,
+          "note": "Calima (pył saharyjski przy wietrze ze wschodu): kilkudniowe epizody zamglenia i pyłu w powietrzu, w części dni miesiąca."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 21.8,
+      "temp_night": 15.5,
+      "dew_point": {
+        "est": 12
+      },
+      "sun": {
+        "est": 6.8
+      },
+      "rain": 8,
+      "rain_days": {
+        "est": 3.8
+      },
+      "uv": 6,
+      "wind": {
+        "est": 20
+      },
+      "water": 19.4,
+      "flight_price": {
+        "est": 1800
+      },
+      "flags": [
+        {
+          "type": "smog",
+          "level": 1,
+          "note": "Calima (pył saharyjski przy wietrze ze wschodu): kilkudniowe epizody zamglenia i pyłu w powietrzu, w części dni miesiąca."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 23,
+      "temp_night": 16.1,
+      "dew_point": {
+        "est": 12.8
+      },
+      "sun": {
+        "est": 7.4
+      },
+      "rain": 7,
+      "rain_days": {
+        "est": 2.8
+      },
+      "uv": 7,
+      "wind": {
+        "est": 20
+      },
+      "water": 19.4,
+      "flight_price": {
+        "est": 1800
+      },
+      "flags": [
+        {
+          "type": "smog",
+          "level": 1,
+          "note": "Calima (pył saharyjski przy wietrze ze wschodu): kilkudniowe epizody zamglenia i pyłu w powietrzu, w części dni miesiąca."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 23.9,
+      "temp_night": 17.2,
+      "dew_point": {
+        "est": 13.5
+      },
+      "sun": {
+        "est": 7.6
+      },
+      "rain": 2,
+      "rain_days": {
+        "est": 2.3
+      },
+      "uv": 8,
+      "wind": {
+        "est": 20
+      },
+      "water": 20,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 25.3,
+      "temp_night": 18.5,
+      "dew_point": {
+        "est": 14.8
+      },
+      "sun": {
+        "est": 8.8
+      },
+      "rain": 0,
+      "rain_days": {
+        "est": 1
+      },
+      "uv": 8,
+      "wind": {
+        "est": 20
+      },
+      "water": 20.6,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 26.9,
+      "temp_night": 20,
+      "dew_point": {
+        "est": 16.5
+      },
+      "sun": {
+        "est": 9.5
+      },
+      "rain": 1,
+      "rain_days": {
+        "est": 0.4
+      },
+      "uv": 8,
+      "wind": {
+        "est": 22
+      },
+      "water": 21.7,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 29,
+      "temp_night": 21.3,
+      "dew_point": {
+        "est": 17.9
+      },
+      "sun": {
+        "est": 9.9
+      },
+      "rain": 0,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": 8,
+      "wind": {
+        "est": 26
+      },
+      "water": 22.2,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.9,
+      "temp_night": 22.2,
+      "dew_point": {
+        "est": 19.1
+      },
+      "sun": {
+        "est": 9.7
+      },
+      "rain": 1,
+      "rain_days": {
+        "est": 0.5
+      },
+      "uv": 8,
+      "wind": {
+        "est": 24
+      },
+      "water": 22.8,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 28,
+      "temp_night": 21.8,
+      "dew_point": {
+        "est": 18.7
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": 10,
+      "rain_days": {
+        "est": 1.5
+      },
+      "uv": 8,
+      "wind": {
+        "est": 20
+      },
+      "water": 23.9,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 27.1,
+      "temp_night": 21,
+      "dew_point": {
+        "est": 17.9
+      },
+      "sun": {
+        "est": 7.1
+      },
+      "rain": 7,
+      "rain_days": {
+        "est": 3.5
+      },
+      "uv": 6,
+      "wind": {
+        "est": 17
+      },
+      "water": 23.9,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 24.8,
+      "temp_night": 18.8,
+      "dew_point": {
+        "est": 15.3
+      },
+      "sun": {
+        "est": 6.2
+      },
+      "rain": 12,
+      "rain_days": {
+        "est": 4.9
+      },
+      "uv": 5,
+      "wind": {
+        "est": 19
+      },
+      "water": 22.8,
+      "flight_price": {
+        "est": 1800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 22.6,
+      "temp_night": 17.2,
+      "dew_point": {
+        "est": 13.7
+      },
+      "sun": {
+        "est": 5.8
+      },
+      "rain": 14,
+      "rain_days": {
+        "est": 4.9
+      },
+      "uv": 4,
+      "wind": {
+        "est": 19
+      },
+      "water": 21.1,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Maspalomas – tabela klimatyczna, stacja Maspalomas C. Insular Turismo, 2009–2024 (AEMET OpenData): temperatury, opad",
+      "url": "https://en.wikipedia.org/wiki/Maspalomas",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Wikipedia: Las Palmas – tabele AEMET: lotnisko Gran Canaria 1991–2020 (dni ≥ 0,1 mm, wilgotność) i Las Palmas 1981–2010 (nasłonecznienie)",
+      "url": "https://en.wikipedia.org/wiki/Las_Palmas",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "climate-zone.com: Las Palmas de Gran Canaria – średnia prędkość wiatru (NASA POWER, model)",
+      "url": "https://www.climate-zone.com/climate/es/las-palmas-de-gran-canaria/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "seatemperatu.re: Maspalomas – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/europe/spain/maspalomas/when.html",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Gran Canaria – pogoda miesiąc po miesiącu (12 stron, np. /gran-canaria-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 27.92°N 15.39°W",
+      "url": "https://bestdateweather.com/en/gran-canaria-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Fuerteventura Guide, pogoda i klimat – calima (jak dla Corralejo)",
+      "url": "https://www.fuerteventuraguide.com/fuerteventura-weather-and-climate/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Gran Canaria (z 1 przesiadką średnio Frankfurt 7 h 39 min, Hamburg 7 h 44 min; bez przesiadek Enter Air i Smartwings tylko X–III; ceny: I 876 zł najtaniej, VIII 1 697 zł, XII 1 732 zł najdrożej, średnia 1 215 zł, typowo 869–1 647 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Gran-Canaria-LPA",
+      "checked": "2026-10-16"
+    }
+  ]
+}

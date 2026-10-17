@@ -1,0 +1,509 @@
+{
+  "id": "roatan",
+  "country": "Honduras",
+  "place": "Roatán (West Bay)",
+  "notes": "Największa z Wysp Bahia u karaibskiego wybrzeża Hondurasu, przy drugiej co do wielkości rafie barierowej świata: ciepło przez cały rok (28–32 °C w dzień, 21–25 °C w nocy), woda 26–29 °C. Pora sucha II–V; najmokrzej X–I (ulewy i fronty z północy – „nortes”). Sezon huraganów VI–XI. Baza pobytu: West Bay na zachodnim krańcu wyspy – biały piasek, spokojna, przejrzysta woda i rafa do snorkelingu prosto z plaży; w dni zawinięcia statków wycieczkowych tłoczno, wieczorami meszki (sandflies). Zieleń: zalesione wzgórza i namorzyny. Wycieczki: nurkowanie i snorkeling, West End, park Gumbalimba, Little French Key, rejsy na Cayos Cochinos i Utilę. Ceny umiarkowane jak na Karaiby. Dojazd: 2 przesiadki (Europa – USA, np. Amsterdam i Atlanta) ok. 21 h (szacunek); z lotniska ok. 20–25 min.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": {
+      "est": 21
+    },
+    "stops": 2,
+    "transfer": {
+      "est": 0.4
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 28
+      },
+      "temp_night": {
+        "est": 21
+      },
+      "dew_point": {
+        "est": 21
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 277
+      },
+      "rain_days": {
+        "est": 13
+      },
+      "uv": 6,
+      "wind": {
+        "est": 18
+      },
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 5100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 28
+      },
+      "temp_night": {
+        "est": 21
+      },
+      "dew_point": {
+        "est": 21.4
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 182
+      },
+      "rain_days": {
+        "est": 8
+      },
+      "uv": 8,
+      "wind": {
+        "est": 18
+      },
+      "water": {
+        "est": 26
+      },
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 30
+      },
+      "temp_night": {
+        "est": 23
+      },
+      "dew_point": {
+        "est": 23.2
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 115
+      },
+      "rain_days": {
+        "est": 6
+      },
+      "uv": 9,
+      "wind": {
+        "est": 16
+      },
+      "water": {
+        "est": 26
+      },
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Semana Santa (III lub IV, zależnie od roku): Roatán to jeden z głównych celów wyjazdów Hondurasczyków – pełne plaże i promy, wyższe ceny noclegów."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 30
+      },
+      "temp_night": {
+        "est": 23
+      },
+      "dew_point": {
+        "est": 22.8
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 76
+      },
+      "rain_days": {
+        "est": 4
+      },
+      "uv": 9,
+      "wind": {
+        "est": 15
+      },
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Semana Santa (III lub IV, zależnie od roku): Roatán to jeden z głównych celów wyjazdów Hondurasczyków – pełne plaże i promy, wyższe ceny noclegów."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 24
+      },
+      "dew_point": {
+        "est": 23.5
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 81
+      },
+      "rain_days": {
+        "est": 6
+      },
+      "uv": 9,
+      "wind": {
+        "est": 15
+      },
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 25
+      },
+      "dew_point": {
+        "est": 24.2
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 139
+      },
+      "rain_days": {
+        "est": 11
+      },
+      "uv": 8,
+      "wind": {
+        "est": 17
+      },
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 24
+      },
+      "dew_point": {
+        "est": 23.7
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 202
+      },
+      "rain_days": {
+        "est": 14
+      },
+      "uv": 8,
+      "wind": {
+        "est": 17
+      },
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 32
+      },
+      "temp_night": {
+        "est": 25
+      },
+      "dew_point": {
+        "est": 24.7
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 168
+      },
+      "rain_days": {
+        "est": 13
+      },
+      "uv": 9,
+      "wind": {
+        "est": 15
+      },
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 4000
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty, promy i nurkowanie (np. Mitch 1998, Eta i Iota 2020 u wybrzeży Hondurasu)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 32
+      },
+      "temp_night": {
+        "est": 25
+      },
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 192
+      },
+      "rain_days": {
+        "est": 12
+      },
+      "uv": 8,
+      "wind": {
+        "est": 13
+      },
+      "water": {
+        "est": 29
+      },
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty, promy i nurkowanie (np. Mitch 1998, Eta i Iota 2020 u wybrzeży Hondurasu)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 30
+      },
+      "temp_night": {
+        "est": 24
+      },
+      "dew_point": {
+        "est": 23
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 444
+      },
+      "rain_days": {
+        "est": 15
+      },
+      "uv": 7,
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 29
+      },
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty, promy i nurkowanie (np. Mitch 1998, Eta i Iota 2020 u wybrzeży Hondurasu)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 29
+      },
+      "temp_night": {
+        "est": 22
+      },
+      "dew_point": {
+        "est": 22.6
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 448
+      },
+      "rain_days": {
+        "est": 14
+      },
+      "uv": 6,
+      "wind": {
+        "est": 17
+      },
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 28
+      },
+      "temp_night": {
+        "est": 22
+      },
+      "dew_point": {
+        "est": 21.3
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 399
+      },
+      "rain_days": {
+        "est": 13
+      },
+      "uv": 6,
+      "wind": {
+        "est": 18
+      },
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "weather2travel: Roatán – klimat w miesiącach (temperatury, słońce, opad, dni deszczowe, morze; dane siatkowe CRU / Met Office)",
+      "url": "https://www.weather2travel.com/honduras/roatan/climate/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Wikipedia: La Ceiba – tabela klimatyczna, lotnisko Golosón 1970–1990 (NOAA; DWD: wilgotność) – zastępczo dla wilgotności, ok. 60 km",
+      "url": "https://en.wikipedia.org/wiki/La_Ceiba",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "beach-weather.com: Roatán – średnie roczne (kontrolnie: wiatr VI 20 km/h, XI 11 km/h; punkt rosy I 23 °C, IX 26 °C)",
+      "url": "https://beach-weather.com/Central-America/Honduras/averages/Roatan/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "climate-zone.com: Montego Bay – średnia prędkość wiatru (NASA POWER, model; zastępczo, jak w kierunku negril)",
+      "url": "https://www.climate-zone.com/climate/jm/montego-bay/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Roatán – pogoda miesiąc po miesiącu (12 stron, np. /roatan-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 16.32°N 86.53°W",
+      "url": "https://bestdateweather.com/en/roatan-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Polska – Honduras (brak statystyk dla RTB; np. Amsterdam + Atlanta KLM/Delta, 2 przesiadki)",
+      "url": "https://www.kayak.pl/loty/Polska-PL0/Honduras-HN0",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Liberia (Kostaryka) – zastępcze statystyki cen dla Ameryki Środkowej przez USA (I 5 098, VIII 4 043; średnia 4 654 zł; typowo 4 151–4 929 zł), jak w kierunku tamarindo",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Liberia-LIR",
+      "checked": "2026-10-16"
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "id": "san-andres",
+  "country": "Kolumbia",
+  "place": "San Andrés (Spratt Bight)",
+  "notes": "Kolumbijska wyspa na zachodnich Karaibach, ok. 200 km od Nikaragui: ciepło i parno przez cały rok (29–30 °C w dzień, 25–26 °C w nocy, woda 27–29 °C), silny pasat XII–III. Pora sucha II–IV; deszczowo V–XII (najwięcej X–XI). Baza pobytu: Spratt Bight – główna plaża w mieście North End, biały piasek i „morze siedmiu kolorów”, płytko i spokojnie; tłoczno i miejsko, obok deptak, hotele i strefa wolnocłowa. Zieleń: palmy, niewysokie zielone wzgórza w środku wyspy. Wycieczki: Johnny Cay i Acuario/Haynes Cay łodzią, objazd wyspy (Hoyo Soplador, West View, La Piscinita), nurkowanie; Providencia samolotem lub katamaranem. Tanio jak na Karaiby. Dojazd: 2 przesiadki (Europa i Bogota) ok. 21,5 h (szacunek); lotnisko w mieście, ok. 5 min.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": {
+      "est": 21.5
+    },
+    "stops": 2,
+    "transfer": {
+      "est": 0.1
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.6,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 23
+      },
+      "sun": 8.2,
+      "rain": 77,
+      "rain_days": {
+        "est": 13
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": 29,
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 28.7,
+      "temp_night": 24.8,
+      "dew_point": {
+        "est": 22.7
+      },
+      "sun": 8.2,
+      "rain": 38,
+      "rain_days": {
+        "est": 9
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": 28,
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 29.2,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 22.7
+      },
+      "sun": 9.1,
+      "rain": 24,
+      "rain_days": {
+        "est": 6
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": 25,
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Semana Santa (III lub IV, zależnie od roku): szczyt wyjazdów Kolumbijczyków – pełne plaże i loty, wyższe ceny."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 29.7,
+      "temp_night": 25.6,
+      "dew_point": {
+        "est": 23.4
+      },
+      "sun": 9.2,
+      "rain": 33,
+      "rain_days": {
+        "est": 6
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": 23,
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Semana Santa (III lub IV, zależnie od roku): szczyt wyjazdów Kolumbijczyków – pełne plaże i loty, wyższe ceny."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.1,
+      "temp_night": 26.1,
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": 7.8,
+      "rain": 131,
+      "rain_days": {
+        "est": 10
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": 22,
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30,
+      "temp_night": 26.1,
+      "dew_point": {
+        "est": 25
+      },
+      "sun": 6.1,
+      "rain": 206,
+      "rain_days": {
+        "est": 14
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": 24,
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 5200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.8,
+      "temp_night": 26,
+      "dew_point": {
+        "est": 24.7
+      },
+      "sun": 6.2,
+      "rain": 199,
+      "rain_days": {
+        "est": 17
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": 26,
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 5500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.1,
+      "temp_night": 26.1,
+      "dew_point": {
+        "est": 24.7
+      },
+      "sun": 7,
+      "rain": 201,
+      "rain_days": {
+        "est": 15
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": 22,
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.3,
+      "temp_night": 26,
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": 6.4,
+      "rain": 238,
+      "rain_days": {
+        "est": 15
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": 18,
+      "water": {
+        "est": 29
+      },
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.1,
+      "temp_night": 25.5,
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": 6.1,
+      "rain": 324,
+      "rain_days": {
+        "est": 16
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": 19,
+      "water": {
+        "est": 29
+      },
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Późny szczyt sezonu huraganów w zachodnich Karaibach (X–XI): rzadko, ale przy huraganie ulewy, wichura i odwołane loty (Iota, XI 2020 – zniszczona Providencia, szkody na San Andrés)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 29.6,
+      "temp_night": 25.6,
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": 6.3,
+      "rain": 270,
+      "rain_days": {
+        "est": 15
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": 25,
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Późny szczyt sezonu huraganów w zachodnich Karaibach (X–XI): rzadko, ale przy huraganie ulewy, wichura i odwołane loty (Iota, XI 2020 – zniszczona Providencia, szkody na San Andrés)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29,
+      "temp_night": 25.2,
+      "dew_point": {
+        "est": 23.6
+      },
+      "sun": 6.9,
+      "rain": 141,
+      "rain_days": {
+        "est": 15
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": 28,
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 4900
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: San Andrés (wyspa) – tabela klimatyczna, lotnisko Gustavo Rojas Pinilla, 1971–2000 (IDEAM)",
+      "url": "https://en.wikipedia.org/wiki/San_Andr%C3%A9s_(island)",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Weather Spark: San Andrés (Kolumbia) – średnia prędkość wiatru w miesiącach",
+      "url": "https://weatherspark.com/y/17536/Average-Weather-in-San-Andr%C3%A9s-Colombia-Year-Round",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "weather2travel: San Andres Island – klimat w miesiącach (temperatura morza)",
+      "url": "https://weather2travel.com/colombia/san-andres-island/climate/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Curaçao i Roatán – UV all-sky (Open-Meteo, ERA5 2016–2025); średnia z dwóch punktów jako zastępstwo (brak strony dla San Andrés)",
+      "url": "https://bestdateweather.com/en/curacao-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Bogota (1 przesiadka: Barcelona średnio 16 h 52 min, Frankfurt 17 h 12 min; ceny: V 3 556 zł najtaniej, VI 5 215, VII 5 485 zł najdrożej, średnia 4 293 zł, typowo 3 764–4 973 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Bogota-BOG",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Polska – San Andrés (typowa dobra cena ok. 3 815 zł w obie strony, dolne 25% – na poziomie trasy do Bogoty)",
+      "url": "https://www.kayak.pl/loty/Polska-PL0/San-Andres-Island-ADZ",
+      "checked": "2026-10-17"
+    }
+  ]
+}

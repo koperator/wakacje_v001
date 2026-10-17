@@ -1,0 +1,515 @@
+{
+  "id": "cayo-guillermo",
+  "country": "Kuba",
+  "place": "Cayo Guillermo (Playa Pilar)",
+  "notes": "Wyspy Jardines del Rey na północnym wybrzeżu Kuby (ok. 350 km na wschód od Varadero): pora sucha XI–IV, pora deszczowa V–X, sezon huraganów VI–XI (najczęściej IX–X). Baza pobytu: Cayo Guillermo – Playa Pilar, jedna z najbardziej znanych plaż Kuby (biały piasek, wydmy, płytka turkusowa woda), wyłącznie resorty all inclusive. Brak danych ze stacji dla wysp: pogoda przeniesiona z Varadero (to samo wybrzeże) – szacunek. Zieleń: namorzyny, zarośla, laguny z flamingami. Atrakcje: plaże, snorkeling, flamingi, Cayo Coco; Trynidad i Camagüey daleko (ponad 3–4 h). Dojazd: lotnisko Jardines del Rey (Cayo Coco) obsługuje głównie loty z Kanady i czartery; z WAW z 2 przesiadkami (np. Toronto lub Madryt + Hawana) ok. 18 h; z lotniska ok. 25 km groblą.",
+  "fixed": {
+    "beaches": {
+      "est": 5
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 1
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": {
+      "est": 18
+    },
+    "stops": 2,
+    "transfer": {
+      "est": 0.4
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 26.1
+      },
+      "temp_night": {
+        "est": 17.2
+      },
+      "dew_point": {
+        "est": 16.6
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 56
+      },
+      "rain_days": {
+        "est": 6.4
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": {
+        "est": 25.6
+      },
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 27.2
+      },
+      "temp_night": {
+        "est": 17.2
+      },
+      "dew_point": {
+        "est": 16.5
+      },
+      "sun": {
+        "est": 7.2
+      },
+      "rain": {
+        "est": 59
+      },
+      "rain_days": {
+        "est": 5.8
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 25.6
+      },
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 28.3
+      },
+      "temp_night": {
+        "est": 17.8
+      },
+      "dew_point": {
+        "est": 16.6
+      },
+      "sun": {
+        "est": 8.8
+      },
+      "rain": {
+        "est": 54
+      },
+      "rain_days": {
+        "est": 5.1
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": {
+        "est": 26.1
+      },
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 30
+      },
+      "temp_night": {
+        "est": 19.4
+      },
+      "dew_point": {
+        "est": 17.7
+      },
+      "sun": {
+        "est": 9.1
+      },
+      "rain": {
+        "est": 58
+      },
+      "rain_days": {
+        "est": 5.3
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 27.2
+      },
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 30.6
+      },
+      "temp_night": {
+        "est": 21.1
+      },
+      "dew_point": {
+        "est": 19.3
+      },
+      "sun": {
+        "est": 8.4
+      },
+      "rain": {
+        "est": 120
+      },
+      "rain_days": {
+        "est": 8.9
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 27.8
+      },
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31.1
+      },
+      "temp_night": {
+        "est": 22.8
+      },
+      "dew_point": {
+        "est": 21.5
+      },
+      "sun": {
+        "est": 7.9
+      },
+      "rain": {
+        "est": 168
+      },
+      "rain_days": {
+        "est": 12.6
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": {
+        "est": 28.9
+      },
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 31.7
+      },
+      "temp_night": {
+        "est": 22.8
+      },
+      "dew_point": {
+        "est": 21.5
+      },
+      "sun": {
+        "est": 8.8
+      },
+      "rain": {
+        "est": 125
+      },
+      "rain_days": {
+        "est": 11.4
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": {
+        "est": 30
+      },
+      "flight_price": {
+        "est": 4800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 31.7
+      },
+      "temp_night": {
+        "est": 22.8
+      },
+      "dew_point": {
+        "est": 21.8
+      },
+      "sun": {
+        "est": 8.4
+      },
+      "rain": {
+        "est": 145
+      },
+      "rain_days": {
+        "est": 12.3
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 12
+      },
+      "water": {
+        "est": 30.6
+      },
+      "flight_price": {
+        "est": 4800
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31.1
+      },
+      "temp_night": {
+        "est": 22.8
+      },
+      "dew_point": {
+        "est": 22.1
+      },
+      "sun": {
+        "est": 7.5
+      },
+      "rain": {
+        "est": 176
+      },
+      "rain_days": {
+        "est": 14.1
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 11
+      },
+      "water": {
+        "est": 30
+      },
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (IX–X najbardziej prawdopodobne): przy huraganie kilka dni ulew, wichury i fal, odwołane loty i wycieczki, możliwe przerwy w dostawie prądu."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 29.4
+      },
+      "temp_night": {
+        "est": 21.7
+      },
+      "dew_point": {
+        "est": 20.8
+      },
+      "sun": {
+        "est": 6.3
+      },
+      "rain": {
+        "est": 140
+      },
+      "rain_days": {
+        "est": 11.8
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 28.3
+      },
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (IX–X najbardziej prawdopodobne): przy huraganie kilka dni ulew, wichury i fal, odwołane loty i wycieczki, możliwe przerwy w dostawie prądu."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 27.8
+      },
+      "temp_night": {
+        "est": 19.4
+      },
+      "dew_point": {
+        "est": 18.7
+      },
+      "sun": {
+        "est": 7.3
+      },
+      "rain": {
+        "est": 83
+      },
+      "rain_days": {
+        "est": 7.7
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": {
+        "est": 27.2
+      },
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 26.7
+      },
+      "temp_night": {
+        "est": 18.3
+      },
+      "dew_point": {
+        "est": 17.6
+      },
+      "sun": {
+        "est": 6.3
+      },
+      "rain": {
+        "est": 58
+      },
+      "rain_days": {
+        "est": 6.5
+      },
+      "uv": {
+        "est": 5
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": {
+        "est": 26.1
+      },
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "climate-zone.com: Varadero – temperatury z lotniska Juan Gualberto Gómez (NOAA, dane dzienne 1991–2020); wilgotność i wiatr NASA POWER",
+      "url": "https://www.climate-zone.com/climate/cu/varadero/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Wikipedia: Havana – tabela klimatyczna, Casa Blanca, normy 1991–2020 (WMO; słońce DWD): opad, dni ≥ 1 mm, nasłonecznienie – stacja zastępcza",
+      "url": "https://en.wikipedia.org/wiki/Havana",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Wikipedia: Varadero (sezon huraganów 1.06–15.11, najczęściej IX–X)",
+      "url": "https://en.wikipedia.org/wiki/Varadero",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "seatemperatu.re: Varadero – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/caribbean/cuba/varadero/when.html",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Cancún (kierunki/cancun.json): UV BestDateWeather – zastępstwo (ta sama szerokość, Zatoka Meksykańska / Karaiby); poziom cen lotów przeniesiony z trasy WAW–CUN (średnia 4 299 zł, typowo 3 899–4 790 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Cancun-CUN",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Varadero i Warszawa – Hawana (brak lotów bezpośrednich, brak statystyk cen i czasu)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Varadero-VRA",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Cayo Coco (brak lotów bezpośrednich, brak statystyk cen i czasu)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Cayo-Coco-CCC",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Varadero (kierunki/varadero.json): cała pogoda, UV, wiatr, woda, sezon, flaga huraganów i poziom cen przeniesione",
+      "url": "https://www.climate-zone.com/climate/cu/varadero/",
+      "checked": "2026-10-16"
+    }
+  ]
+}

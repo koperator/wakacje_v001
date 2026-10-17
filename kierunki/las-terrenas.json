@@ -1,0 +1,470 @@
+{
+  "id": "las-terrenas",
+  "country": "Dominikana",
+  "place": "Las Terrenas (Playa Bonita), Samaná",
+  "notes": "Północne wybrzeże półwyspu Samaná: klimat tropikalny wilgotny, deszcz przez cały rok (więcej V i X–XII), ciepło 29–31 °C; sezon huraganów VI–XI (szczyt VIII–X). Baza pobytu: Las Terrenas – Playa Bonita i Playa Cosón (długie, jasne plaże z palmami, umiarkowana fala). Brak norm ze stacji dla półwyspu: temperatury, opad, słońce i morze z siatki CRU (weather2travel) – szacunek. Zieleń: bujna, palmy kokosowe, zalesione wzgórza. Wycieczki: wodospad El Limón, park narodowy Los Haitises, Cayo Levantado, obserwacja humbaków w zatoce Samaná (I–III). Dojazd: do Santo Domingo z 1 przesiadką (Madryt) ok. 17 h, dalej ok. 2 h 15 min autostradą; lotnisko El Catey (Samaná) ma głównie czartery.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 16.9,
+    "stops": 1,
+    "transfer": {
+      "est": 2.2
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 29
+      },
+      "temp_night": {
+        "est": 19
+      },
+      "dew_point": {
+        "est": 20.3
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 122
+      },
+      "rain_days": {
+        "est": 10.5
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 16
+      },
+      "water": 26,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 29
+      },
+      "temp_night": {
+        "est": 19
+      },
+      "dew_point": {
+        "est": 20.3
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 99
+      },
+      "rain_days": {
+        "est": 7.7
+      },
+      "uv": {
+        "est": 7
+      },
+      "wind": {
+        "est": 16
+      },
+      "water": 26,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 30
+      },
+      "temp_night": {
+        "est": 19
+      },
+      "dew_point": {
+        "est": 20.8
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 104
+      },
+      "rain_days": {
+        "est": 7.7
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 16
+      },
+      "water": 26,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 30
+      },
+      "temp_night": {
+        "est": 20
+      },
+      "dew_point": {
+        "est": 21.3
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 155
+      },
+      "rain_days": {
+        "est": 7.7
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": 26,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 21
+      },
+      "dew_point": {
+        "est": 22.3
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 269
+      },
+      "rain_days": {
+        "est": 9.1
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 14
+      },
+      "water": 27,
+      "flight_price": {
+        "est": 5500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 22
+      },
+      "dew_point": {
+        "est": 22.8
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 178
+      },
+      "rain_days": {
+        "est": 9.1
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": 27,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 22
+      },
+      "dew_point": {
+        "est": 22.8
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 180
+      },
+      "rain_days": {
+        "est": 11.2
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 16
+      },
+      "water": 28,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 22
+      },
+      "dew_point": {
+        "est": 22.8
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": {
+        "est": 198
+      },
+      "rain_days": {
+        "est": 11.2
+      },
+      "uv": {
+        "est": 9
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": 28,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów na Atlantyku (VIII–X): przy burzy tropikalnej kilka dni ulew, wichury i fal, odwołane loty i wycieczki; półwysep Samaná bywa na torach burz."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 21
+      },
+      "dew_point": {
+        "est": 22.3
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 185
+      },
+      "rain_days": {
+        "est": 11.2
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów na Atlantyku (VIII–X): przy burzy tropikalnej kilka dni ulew, wichury i fal, odwołane loty i wycieczki; półwysep Samaná bywa na torach burz."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 31
+      },
+      "temp_night": {
+        "est": 21
+      },
+      "dew_point": {
+        "est": 22.3
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 218
+      },
+      "rain_days": {
+        "est": 11.9
+      },
+      "uv": {
+        "est": 8
+      },
+      "wind": {
+        "est": 13
+      },
+      "water": 29,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów na Atlantyku (VIII–X): przy burzy tropikalnej kilka dni ulew, wichury i fal, odwołane loty i wycieczki; półwysep Samaná bywa na torach burz."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": {
+        "est": 30
+      },
+      "temp_night": {
+        "est": 20
+      },
+      "dew_point": {
+        "est": 21.3
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": {
+        "est": 239
+      },
+      "rain_days": {
+        "est": 10.5
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 15
+      },
+      "water": 28,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": {
+        "est": 29
+      },
+      "temp_night": {
+        "est": 19
+      },
+      "dew_point": {
+        "est": 20.3
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": {
+        "est": 180
+      },
+      "rain_days": {
+        "est": 11.2
+      },
+      "uv": {
+        "est": 6
+      },
+      "wind": {
+        "est": 16
+      },
+      "water": 27,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "weather2travel: Las Terrenas – temperatury, opad, dni deszczowe, nasłonecznienie, temperatura morza (CRU, Met Office, KNMI)",
+      "url": "https://weather2travel.com/dominican-republic/las-terrenas/climate/?Units=1",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Punta Cana (kierunki/punta-cana.json): UV BestDateWeather, wiatr Weather Spark (Dominikana), sezon lokalny, flaga huraganów – zastępstwo, ta sama wyspa",
+      "url": "https://weatherspark.com/y/150222/Average-Weather-in-Dominican-Republic-Year-Round",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Santo Domingo (z 1 przesiadką średnio Madryt 16 h 53 min, Miami 17 h 27 min; ceny: X 3 015 zł najtaniej, V ok. 5 518 zł najdrożej, średnia 3 655 zł, typowo 3 083–5 326 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Santo-Domingo-SDQ",
+      "checked": "2026-10-16"
+    }
+  ]
+}
