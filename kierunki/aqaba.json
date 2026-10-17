@@ -1,0 +1,372 @@
+{
+  "id": "aqaba",
+  "country": "Jordania",
+  "place": "Aqaba (Tala Bay)",
+  "notes": "Pustynny klimat Zatoki Akaba: praktycznie bez deszczu, ciepło III–V i X–XI (26–35 °C), upał VI–IX (do 40 °C, ale suche powietrze), chłodne noce zimą (ok. 9–11 °C). Woda chłodniejsza niż w Egipcie (ok. 21 °C w II–III, 27 °C w VIII). Baza pobytu: Tala Bay – resortowe zatoki z piaskiem i rafą koralową ok. 15 km na południe od miasta. Pogoda ze stacji lotniska Aqaba (Jordan Meteorological Department, 1989–2018). Zieleń: brak, pustynia i góry. Wycieczki: Petra (UNESCO, ok. 2 h), Wadi Rum (ok. 1 h), rafy i wraki do nurkowania, Morze Martwe (dalej). Dojazd: z 2 przesiadkami (np. Wiedeń + Amman, dalej lot Royal Jordanian ok. 1 h), ok. 11 h; z Ammanu też ok. 4 h drogi.",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 1
+    },
+    "sightseeing": {
+      "est": 5
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": {
+      "est": 11.3
+    },
+    "stops": 2,
+    "transfer": {
+      "est": 0.3
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 20.4,
+      "temp_night": 9.3,
+      "dew_point": {
+        "est": 6.8
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": 4,
+      "rain_days": {
+        "est": 1.3
+      },
+      "uv": 4,
+      "wind": 13,
+      "water": 21.7,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w dzień niewskazane, krótsze godziny pracy; hotele i atrakcje działają."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 22.5,
+      "temp_night": 10.6,
+      "dew_point": {
+        "est": 7.1
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": 4,
+      "rain_days": {
+        "est": 1
+      },
+      "uv": 5,
+      "wind": 13,
+      "water": 21.1,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w dzień niewskazane, krótsze godziny pracy; hotele i atrakcje działają."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26.4,
+      "temp_night": 13.8,
+      "dew_point": {
+        "est": 9.2
+      },
+      "sun": {
+        "est": 9
+      },
+      "rain": 3,
+      "rain_days": {
+        "est": 0.8
+      },
+      "uv": 7,
+      "wind": 14,
+      "water": 21.1,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w dzień niewskazane, krótsze godziny pracy; hotele i atrakcje działają."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.3,
+      "temp_night": 17.8,
+      "dew_point": {
+        "est": 10.7
+      },
+      "sun": {
+        "est": 10
+      },
+      "rain": 2,
+      "rain_days": {
+        "est": 0.3
+      },
+      "uv": 8,
+      "wind": 14,
+      "water": 21.7,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 35.5,
+      "temp_night": 21.6,
+      "dew_point": {
+        "est": 13.2
+      },
+      "sun": {
+        "est": 11
+      },
+      "rain": 1,
+      "rain_days": {
+        "est": 0.2
+      },
+      "uv": 8,
+      "wind": 14,
+      "water": 23.3,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 38.7,
+      "temp_night": 24.3,
+      "dew_point": {
+        "est": 15.6
+      },
+      "sun": {
+        "est": 13
+      },
+      "rain": 0,
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 8,
+      "wind": 16,
+      "water": 25,
+      "flight_price": {
+        "est": 2900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 40.1,
+      "temp_night": 26.4,
+      "dew_point": {
+        "est": 17.8
+      },
+      "sun": {
+        "est": 13
+      },
+      "rain": 0,
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 8,
+      "wind": 15,
+      "water": 26.7,
+      "flight_price": {
+        "est": 2900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 39.7,
+      "temp_night": 26.6,
+      "dew_point": {
+        "est": 19.1
+      },
+      "sun": {
+        "est": 12
+      },
+      "rain": 0,
+      "rain_days": {
+        "est": 0
+      },
+      "uv": 8,
+      "wind": 15,
+      "water": 27.2,
+      "flight_price": {
+        "est": 2900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 36.9,
+      "temp_night": 24.4,
+      "dew_point": {
+        "est": 18.6
+      },
+      "sun": {
+        "est": 11
+      },
+      "rain": 0,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": 7,
+      "wind": 14,
+      "water": 26.7,
+      "flight_price": {
+        "est": 2900
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.9,
+      "temp_night": 20.9,
+      "dew_point": {
+        "est": 16.1
+      },
+      "sun": {
+        "est": 10
+      },
+      "rain": 5,
+      "rain_days": {
+        "est": 0.4
+      },
+      "uv": 6,
+      "wind": 12,
+      "water": 25.6,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27.2,
+      "temp_night": 15.6,
+      "dew_point": {
+        "est": 11.4
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": 2,
+      "rain_days": {
+        "est": 0.6
+      },
+      "uv": 5,
+      "wind": 12,
+      "water": 23.9,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 22.1,
+      "temp_night": 10.9,
+      "dew_point": {
+        "est": 8
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": 4,
+      "rain_days": {
+        "est": 1
+      },
+      "uv": 4,
+      "wind": 12,
+      "water": 22.8,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Aqaba – tabela klimatyczna, lotnisko King Hussein, normy 1989–2018 (Jordan Meteorological Department): temperatury, opad, wilgotność",
+      "url": "https://en.wikipedia.org/wiki/Aqaba",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Weather Spark: Aqaba – średnia godzinowa prędkość wiatru na 10 m, temperatura wody, dni z deszczem",
+      "url": "https://weatherspark.com/y/98737/Average-Weather-in-Aqaba-Jordan-Year-Round",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "weather2travel: Aqaba – nasłonecznienie (CRU; temperatury z siatki zaniżone względem stacji – niewykorzystane)",
+      "url": "https://www.weather2travel.com/jordan/aqaba/climate/",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Aqaba – pogoda miesiąc po miesiącu (12 stron, np. /aqaba-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 29.53°N 35.01°E",
+      "url": "https://bestdateweather.com/en/aqaba-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Akaba (brak lotów bezpośrednich; najszybsza oferta z 2 przesiadkami 11 h 20 min przez Antalyę i Amman; typowo 2 313–4 780 zł) – podstawa ceny od 2026-10-17",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Akaba-AQJ",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Amman (z 1 przesiadką średnio Wiedeń 7 h 52 min, Kair 8 h 42 min; ceny: II 662 zł, IV 2 536 zł, III 3 334 zł, średnia 2 136 zł, typowo 1 597–2 525 zł) – wcześniejsza podstawa ceny (do 2026-10-16), teraz tylko porównawczo",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Amman-AMM",
+      "checked": "2026-10-16"
+    }
+  ]
+}

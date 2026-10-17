@@ -131,6 +131,7 @@
     "hideLevel3": false,
     "maxFlightTime": null,
     "maxStops": null,
-    "minCoverage": null
+    "minCoverage": null,
+    "minScore": null
   }
 }

@@ -202,7 +202,7 @@ dialog::backdrop { background: rgb(10 20 22 / 0.45); }
 
 <section id="formPanel" hidden aria-labelledby="formTitle">
   <h2 id="formTitle">Formatka preferencji</h2>
-  <p class="lead">Ocena kolumny to 1 w przedziale idealnym, 0 poniżej min i powyżej max, liniowo pomiędzy. Puste min z ideałem od (albo ideał do z max) wyłącza tę stronę. Waga 0 wyłącza kolumnę.</p>
+  <p class="lead">Ocena kolumny to 1 w przedziale idealnym, 0 poniżej min i powyżej max, liniowo pomiędzy. Min i max są opcjonalne: bez min poniżej „ideał od” ocena 0 (ostra granica), bez max tak samo powyżej „ideał do”. Puste oba pola strony nie ograniczają z tej strony. Waga 0 wyłącza kolumnę.</p>
   <div id="formErrors" role="alert"></div>
   <div class="formgrid"><table class="form" id="formTable"></table></div>
   <div class="settings">
@@ -219,6 +219,7 @@ dialog::backdrop { background: rgb(10 20 22 / 0.45); }
   <label for="flt-maxFlightTime">Czas lotu do <input type="number" id="flt-maxFlightTime" min="0" step="any"> h</label>
   <label for="flt-maxStops">Przesiadek do <input type="number" id="flt-maxStops" min="0" step="1"></label>
   <label for="flt-minCoverage">Pokrycie od <input type="number" id="flt-minCoverage" min="0" max="100" step="any"> %</label>
+  <label for="flt-minScore">Wynik od <input type="number" id="flt-minScore" min="0" max="100" step="1"></label>
   <span class="count" id="count"></span>
 </div>
 <div class="tablewrap" id="panel" role="tabpanel"><table class="grid" id="grid"></table></div>
@@ -258,7 +259,7 @@ const flagsOf = (d, m) => core.monthFlags(d, m, cols);
 const SETTING_LABEL = {
   name: 'nazwa', flagPenalty: 'kara za poziom flagi', swimFlags: 'flagi kąpielowe',
   seasonThresholds: 'progi sezonu', 'seasonThresholds.low': 'próg sezonu M', 'seasonThresholds.high': 'próg sezonu H',
-  filters: 'filtry', 'filters.hideLevel3': 'ukryj z flagą poziomu 3', 'filters.maxFlightTime': 'czas lotu do', 'filters.maxStops': 'przesiadek do', 'filters.minCoverage': 'pokrycie od',
+  filters: 'filtry', 'filters.hideLevel3': 'ukryj z flagą poziomu 3', 'filters.maxFlightTime': 'czas lotu do', 'filters.maxStops': 'przesiadek do', 'filters.minCoverage': 'pokrycie od', 'filters.minScore': 'wynik od',
 };
 const safeUrl = u => typeof u === 'string' && /^https?:\/\//i.test(u) ? u : null;
 const levelOf = f => [1, 2, 3].includes(f.level) ? f.level : '?';
@@ -343,7 +344,7 @@ function renderForm() {
       const r = draft.columns[c.id];
       html += `<tr><th scope="row">${esc(c.name)} <span class="unit">${esc(c.unit)}</span></th>`;
       for (const f of ['min', 'idealFrom', 'idealTo', 'max', 'weight']) {
-        html += `<td><input type="number" step="any" id="f-${esc(c.id)}-${f}" data-col="${esc(c.id)}" data-field="${f}" ${f === 'weight' ? 'class="w" min="0"' : ''} value="${esc(val(r[f]))}" aria-label="${esc(c.name)}: ${FIELD_LABEL[f]}"></td>`;
+        html += `<td><input type="number" step="${f === 'weight' ? '0.5' : 'any'}" id="f-${esc(c.id)}-${f}" data-col="${esc(c.id)}" data-field="${f}" ${f === 'weight' ? 'class="w" min="0"' : ''} value="${esc(val(r[f]))}" aria-label="${esc(c.name)}: ${FIELD_LABEL[f]}"></td>`;
       }
       html += '</tr>';
     }
@@ -359,6 +360,7 @@ function renderForm() {
   $('#flt-maxFlightTime').value = draft.filters.maxFlightTime ?? '';
   $('#flt-maxStops').value = draft.filters.maxStops ?? '';
   $('#flt-minCoverage').value = draft.filters.minCoverage ?? '';
+  $('#flt-minScore').value = draft.filters.minScore ?? '';
   showFormErrors();
 }
 
@@ -382,6 +384,7 @@ function bindInputs() {
   $('#flt-maxFlightTime').oninput = e => { draft.filters.maxFlightTime = numIn(e.target); commit(); };
   $('#flt-maxStops').oninput = e => { draft.filters.maxStops = numIn(e.target); commit(); };
   $('#flt-minCoverage').oninput = e => { draft.filters.minCoverage = numIn(e.target); commit(); };
+  $('#flt-minScore').oninput = e => { draft.filters.minScore = numIn(e.target); commit(); };
 
   $('#btnForm').onclick = () => {
     const panel = $('#formPanel');
@@ -520,7 +523,7 @@ const pill = w => {
   const prov = isProv(w);
   return `<span class="pill" style="--s:${{ H: 1, M: 0.5, L: 0 }[s]}"${prov ? ` title="Sezon prowizoryczny: pokrycie danych pogodowych ${pct(w.coverage)}"` : ''}>${prov ? '~' : ''}${s}</span>`;
 };
-const FILTER_LABEL = { maxFlightTime: 'czas lotu', maxStops: 'przesiadki' };
+const FILTER_LABEL = { maxFlightTime: 'czas lotu', maxStops: 'przesiadki', minScore: 'wynik' };
 
 function renderTable() {
   const rows = sortRows(rowsFor(month));

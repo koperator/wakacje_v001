@@ -1,0 +1,299 @@
+{
+  "id": "albufeira",
+  "country": "Portugalia",
+  "place": "Albufeira / Praia da Falésia, Algarve",
+  "notes": "Śródziemnomorski klimat Algarve z wpływem Atlantyku: gorące, suche lato VI–IX (29 °C w dzień, prawie bez deszczu), łagodna, deszczowa zima XI–II (16–17 °C); najsłoneczniejsze wybrzeże Europy. Woda chłodna: ok. 16 °C zimą, 21–22 °C w VIII–X. Baza pobytu: Albufeira i Praia da Falésia – długa plaża ze złotym piaskiem pod czerwonymi klifami, atlantycka fala. Pogoda ze stacji lotniska Faro (IPMA 1991–2020; słońce 1971–1995; wilgotność NOAA 1961–1990), ok. 35 km. Zieleń: sosny i zarośla na klifach, sad pomarańczowy w głębi lądu. Wycieczki: Benagil i jaskinie morskie, Lagos i Ponta da Piedade, Sagres, Faro, Silves, Tavira. Dojazd: bez przesiadek Wizz Air ok. 4 h 20 min; z 1 przesiadką przez Frankfurt ok. 6 h 20 min.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 4.3,
+    "stops": 0,
+    "transfer": {
+      "est": 0.6
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 16.3,
+      "temp_night": 8.3,
+      "dew_point": {
+        "est": 8.4
+      },
+      "sun": 5.9,
+      "rain": 49,
+      "rain_days": 6,
+      "uv": 3,
+      "wind": 20,
+      "water": 16.7,
+      "flight_price": {
+        "est": 1600
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17,
+      "temp_night": 8.8,
+      "dew_point": {
+        "est": 9
+      },
+      "sun": 6.1,
+      "rain": 42,
+      "rain_days": 5.4,
+      "uv": 4,
+      "wind": 20,
+      "water": 16.1,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 18.9,
+      "temp_night": 10.8,
+      "dew_point": {
+        "est": 9.7
+      },
+      "sun": 7.8,
+      "rain": 47,
+      "rain_days": 5.6,
+      "uv": 6,
+      "wind": 20,
+      "water": 16.1,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 20.7,
+      "temp_night": 12.4,
+      "dew_point": {
+        "est": 10.7
+      },
+      "sun": 8.5,
+      "rain": 39,
+      "rain_days": 5.3,
+      "uv": 7,
+      "wind": 19,
+      "water": 17.8,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 23.5,
+      "temp_night": 15,
+      "dew_point": {
+        "est": 12.3
+      },
+      "sun": 9.8,
+      "rain": 26,
+      "rain_days": 3.8,
+      "uv": 8,
+      "wind": 18,
+      "water": 18.9,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26.8,
+      "temp_night": 17.8,
+      "dew_point": {
+        "est": 15.4
+      },
+      "sun": 10.9,
+      "rain": 5,
+      "rain_days": 0.8,
+      "uv": 8,
+      "wind": 17,
+      "water": 20.6,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.4,
+      "temp_night": 19.6,
+      "dew_point": {
+        "est": 16.2
+      },
+      "sun": 11.6,
+      "rain": 1,
+      "rain_days": 0.2,
+      "uv": 8,
+      "wind": 17,
+      "water": 21.1,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.2,
+      "temp_night": 19.9,
+      "dew_point": {
+        "est": 16.3
+      },
+      "sun": 11.1,
+      "rain": 3,
+      "rain_days": 0.2,
+      "uv": 8,
+      "wind": 16,
+      "water": 21.7,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 26.4,
+      "temp_night": 18.3,
+      "dew_point": {
+        "est": 15.5
+      },
+      "sun": 9.3,
+      "rain": 22,
+      "rain_days": 1.9,
+      "uv": 6,
+      "wind": 16,
+      "water": 21.7,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 23.3,
+      "temp_night": 15.8,
+      "dew_point": {
+        "est": 14.2
+      },
+      "sun": 7.3,
+      "rain": 56,
+      "rain_days": 6,
+      "uv": 5,
+      "wind": 18,
+      "water": 21.7,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 19.6,
+      "temp_night": 11.9,
+      "dew_point": {
+        "est": 11.3
+      },
+      "sun": 6.4,
+      "rain": 76,
+      "rain_days": 6.6,
+      "uv": 3,
+      "wind": 20,
+      "water": 19.4,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.1,
+      "temp_night": 9.7,
+      "dew_point": {
+        "est": 9.4
+      },
+      "sun": 5.1,
+      "rain": 90,
+      "rain_days": 7,
+      "uv": 3,
+      "wind": 21,
+      "water": 17.8,
+      "flight_price": {
+        "est": 1800
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Faro – tabela klimatyczna, lotnisko Faro, normy 1991–2020 (IPMA; nasłonecznienie 1971–1995; wilgotność NOAA 1961–1990)",
+      "url": "https://en.wikipedia.org/wiki/Faro,_Portugal",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Weather Spark: Faro – średnia godzinowa prędkość wiatru na 10 m",
+      "url": "https://weatherspark.com/y/32777/Average-Weather-in-Faro-Portugal-Year-Round",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "seatemperatu.re: Albufeira – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/europe/portugal/albufeira/when.html",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Algarve – pogoda miesiąc po miesiącu (12 stron, np. /algarve-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 37.10°N 8.68°W",
+      "url": "https://bestdateweather.com/en/algarve-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Faro (bez przesiadek Wizz Air, 4 h 20 min; z 1 przesiadką Frankfurt 6 h 21 min; ceny: IV 732 zł najtaniej, I 1 303 zł, XII 1 494 zł najdrożej, średnia 1 023 zł, typowo 769–1 275 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Faro-FAO",
+      "checked": "2026-10-16"
+    }
+  ]
+}

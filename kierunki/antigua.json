@@ -1,0 +1,372 @@
+{
+  "id": "antigua",
+  "country": "Antigua i Barbuda",
+  "place": "Antigua (Dickenson Bay)",
+  "notes": "Wyspa na Małych Antylach (Wyspy Podwietrzne): ciepło przez cały rok (28–31 °C w dzień, 22–25 °C w nocy), stały pasat łagodzi upał. Stosunkowo sucho; najwięcej deszczu IX–XI, przelotne ulewy. Sezon huraganów VI–XI (szczyt VIII–X). Baza pobytu: Dickenson Bay na północno-zachodnim wybrzeżu – długa plaża z białym piaskiem i spokojną, płytką wodą, przy niej resorty i bary; na wyspie wiele innych plaż w zasięgu krótkiej jazdy. Zieleń umiarkowana: wyspa dość sucha, bardziej zielone wzgórza na południowym zachodzie. Wycieczki: Nelson’s Dockyard i English Harbour (UNESCO), Shirley Heights (niedzielne zachody słońca), rejs na Barbudę (różowe plaże, fregaty), Stingray City, rejsy katamaranem. Drogo. Dojazd: 1 przesiadka w Londynie ok. 19 h (szacunek); z lotniska ok. 15–20 min.",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 4
+    },
+    "flight_time": {
+      "est": 19
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 0.3
+    }
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.3,
+      "temp_night": 22.4,
+      "dew_point": {
+        "est": 22.8
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": 57,
+      "rain_days": 11,
+      "uv": 7,
+      "wind": 26,
+      "water": {
+        "est": 26
+      },
+      "flight_price": {
+        "est": 5300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.4,
+      "temp_night": 22.2,
+      "dew_point": {
+        "est": 22.2
+      },
+      "sun": {
+        "est": 8.3
+      },
+      "rain": 45,
+      "rain_days": 9,
+      "uv": 8,
+      "wind": 26,
+      "water": {
+        "est": 26
+      },
+      "flight_price": {
+        "est": 5300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.8,
+      "temp_night": 22.7,
+      "dew_point": {
+        "est": 21.8
+      },
+      "sun": {
+        "est": 8.3
+      },
+      "rain": 46,
+      "rain_days": 7,
+      "uv": 9,
+      "wind": 24,
+      "water": {
+        "est": 26
+      },
+      "flight_price": {
+        "est": 5300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.4,
+      "temp_night": 23.4,
+      "dew_point": {
+        "est": 23.1
+      },
+      "sun": {
+        "est": 8.5
+      },
+      "rain": 72,
+      "rain_days": 7,
+      "uv": 9,
+      "wind": 23,
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 5300
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.2,
+      "temp_night": 24.5,
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": {
+        "est": 8.3
+      },
+      "rain": 90,
+      "rain_days": 9,
+      "uv": 9,
+      "wind": 23,
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.6,
+      "temp_night": 25.3,
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": {
+        "est": 8.4
+      },
+      "rain": 62,
+      "rain_days": 8,
+      "uv": 9,
+      "wind": 26,
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.9,
+      "temp_night": 25.3,
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": {
+        "est": 8.5
+      },
+      "rain": 87,
+      "rain_days": 12,
+      "uv": 9,
+      "wind": 27,
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.2,
+      "temp_night": 25.5,
+      "dew_point": {
+        "est": 25.6
+      },
+      "sun": {
+        "est": 8.4
+      },
+      "rain": 99,
+      "rain_days": 13,
+      "uv": 9,
+      "wind": 25,
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty i rejsy (np. Irma, IX 2017 – zniszczona Barbuda)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.1,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 25.7
+      },
+      "sun": {
+        "est": 7.6
+      },
+      "rain": 132,
+      "rain_days": 12,
+      "uv": 9,
+      "wind": 21,
+      "water": {
+        "est": 29
+      },
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty i rejsy (np. Irma, IX 2017 – zniszczona Barbuda)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30.6,
+      "temp_night": 24.4,
+      "dew_point": {
+        "est": 24.7
+      },
+      "sun": {
+        "est": 7.3
+      },
+      "rain": 142,
+      "rain_days": 13,
+      "uv": 8,
+      "wind": 20,
+      "water": {
+        "est": 29
+      },
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty i rejsy (np. Irma, IX 2017 – zniszczona Barbuda)."
+        }
+      ]
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 29.8,
+      "temp_night": 23.9,
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": {
+        "est": 7.3
+      },
+      "rain": 135,
+      "rain_days": 12,
+      "uv": 7,
+      "wind": 23,
+      "water": {
+        "est": 28
+      },
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": []
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.8,
+      "temp_night": 23,
+      "dew_point": {
+        "est": 23.2
+      },
+      "sun": {
+        "est": 7.6
+      },
+      "rain": 83,
+      "rain_days": 12,
+      "uv": 6,
+      "wind": 25,
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 5300
+      },
+      "flags": []
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: St. John’s (Antigua) – tabela klimatyczna, lotnisko V. C. Bird (Antigua/Barbuda Meteorological Services)",
+      "url": "https://en.wikipedia.org/wiki/St._John%27s,_Antigua_and_Barbuda",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "climates.com (P. J. Tyson, Sunshine Guide 2003): Antigua i Barbuda – godziny słońca dziennie i wilgotność popołudniowa",
+      "url": "https://www.climates.com/WINDIES/PDF/LW002WIN.pdf",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "Weather Spark: Saint John’s – średnia prędkość wiatru w miesiącach",
+      "url": "https://weatherspark.com/y/28723/Average-Weather-in-Saint-John%E2%80%99s-Antigua-&-Barbuda-Year-Round",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "weather2travel: Antigua – klimat w miesiącach (temperatura morza)",
+      "url": "https://weather2travel.com/antigua/climate/?Units=0",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: Antigua – pogoda miesiąc po miesiącu (12 stron, np. /antigua-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 17.12°N 61.85°W",
+      "url": "https://bestdateweather.com/en/antigua-weather-january",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
+      "url": "https://bestdateweather.com/en/methodology",
+      "checked": "2026-10-16"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Antigua (1 przesiadka w Londynie; powrót przez Gatwick 20 h 30 min; typowe ceny 3 520–5 862 zł, bez danych miesięcznych)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Antigua-ANU",
+      "checked": "2026-10-16"
+    }
+  ]
+}

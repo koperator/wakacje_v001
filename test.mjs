@@ -72,6 +72,22 @@ test('ocena kolumny: ideał, liniowe zbocza, granice, strony jednostronne', () =
   assert.equal(colScore(10, { min: null, idealFrom: null, idealTo: null, max: null }), null);
 });
 
+test('ocena kolumny: min i max opcjonalne – jedna wartość strony to ostra granica', () => {
+  const noMin = { min: null, idealFrom: 25, idealTo: 30, max: 35 };
+  assert.equal(colScore(24.9, noMin), 0);
+  assert.equal(colScore(25, noMin), 1);
+  near(colScore(33, noMin), 0.4);
+  const noMax = { min: 20, idealFrom: 25, idealTo: 30, max: null };
+  assert.equal(colScore(30, noMax), 1);
+  assert.equal(colScore(30.1, noMax), 0);
+  near(colScore(22.5, noMax), 0.5);
+  // samo min albo samo max działa tak samo jak sam ideał
+  assert.equal(colScore(19, { min: 20, idealFrom: null, idealTo: null, max: null }), 0);
+  assert.equal(colScore(21, { min: 20, idealFrom: null, idealTo: null, max: null }), 1);
+  assert.equal(colScore(13, { min: null, idealFrom: null, idealTo: null, max: 12 }), 0);
+  assert.equal(colScore(12, { min: null, idealFrom: null, idealTo: null, max: 12 }), 1);
+});
+
 test('braki danych: kolumna pominięta, pokrycie < 100%', () => {
   const res = score(dest({ temp: null, water: 26 }), 0, columns, flagTypes, prof());
   // temp (waga 2) brak; water 1 i sights 1 mają ocenę 1
@@ -124,7 +140,7 @@ test('"na" w kolumnie niepogodowej daje ocenę 0 i liczy się do pokrycia', () =
 
 test('filtry: brak danych oznacza, nie odrzuca; pokrycie od %', () => {
   const cols = readData().columns;
-  const base = { hideLevel3: false, maxFlightTime: null, maxStops: null, minCoverage: null };
+  const base = { hideLevel3: false, maxFlightTime: null, maxStops: null, minCoverage: null, minScore: null };
   const res = { flags: [], coverage: 0.8 };
   const d = { fixed: { flight_time: 10, stops: null }, months: Array(12).fill({}) };
   assert.deepEqual(checkFilters(d, 0, res, cols, { ...base, maxFlightTime: 12, maxStops: 1 }), { pass: true, unchecked: ['maxStops'] });
@@ -137,6 +153,12 @@ test('filtry: brak danych oznacza, nie odrzuca; pokrycie od %', () => {
   const p = structuredClone(prof());
   p.filters.minCoverage = 120;
   assert.deepEqual(validateProfile(p, columns).map(e => e.field), ['filters.minCoverage']);
+  // wynik od: porównanie z wynikiem zaokrąglonym jak na stronie; brak wyniku oznacza, nie odrzuca
+  assert.equal(checkFilters(d, 0, { ...res, score: 69.5 }, cols, { ...base, minScore: 70 }).pass, true);
+  assert.equal(checkFilters(d, 0, { ...res, score: 69.4 }, cols, { ...base, minScore: 70 }).pass, false);
+  assert.deepEqual(checkFilters(d, 0, { ...res, score: null }, cols, { ...base, minScore: 70 }), { pass: true, unchecked: ['minScore'] });
+  p.filters.minCoverage = null; p.filters.minScore = -5;
+  assert.deepEqual(validateProfile(p, columns).map(e => e.field), ['filters.minScore']);
 });
 
 test('kary za flagi: suma natężeń, obcięcie do zera', () => {
@@ -208,7 +230,9 @@ test('walidacja profilu', () => {
   let x = p(); x.columns.temp.weight = -1;
   assert.deepEqual(fields(x), ['temp.weight']);
   x = p(); x.columns.temp.min = null;
-  assert.deepEqual(fields(x), ['temp.min']);
+  assert.deepEqual(fields(x), []);
+  x = p(); x.columns.temp.max = null; x.columns.temp.min = null;
+  assert.deepEqual(fields(x), []);
   x = p(); x.columns.temp.idealTo = 24;
   assert.deepEqual(fields(x), ['temp.idealTo']);
   x = p(); x.columns.water = { min: null, idealFrom: null, idealTo: null, max: null, weight: 1 };
@@ -326,7 +350,8 @@ test('profil z błędną strukturą nie jest po cichu poprawiany', () => {
   const fields = loaded => validateProfile(mergeProfile(loaded, columns).profile, columns).map(e => e.field);
   assert.deepEqual(fields({ name: 'A', columns: 'abc' }), ['columns']);
   assert.deepEqual(fields({ name: 'A', columns: { temp: 'abc' } }), ['temp.weight']);
-  assert.deepEqual(fields({ name: 'A', columns: { temp: { min: 2, weight: 1 } } }), ['temp.idealFrom', 'temp.weight']);
+  assert.deepEqual(fields({ name: 'A', columns: { temp: { min: 2, weight: 1 } } }), []);
+  assert.deepEqual(fields({ name: 'A', columns: { temp: { min: 30, idealFrom: 20, weight: 1 } } }), ['temp.idealFrom']);
   assert.deepEqual(fields({ name: 'A', seasonThresholds: 'x' }), ['seasonThresholds']);
   assert.deepEqual(fields({ name: 'A', filters: 'x' }), ['filters']);
   assert.deepEqual(fields({ name: 'A', filters: { hideLevel3: false, maxStops: -1 } }), ['filters.maxStops']);
@@ -336,8 +361,8 @@ test('profil z błędną strukturą nie jest po cichu poprawiany', () => {
 test('brakujące ustawienia profilu dostają wartości domyślne per klucz', () => {
   const { profile, addedSettings } = mergeProfile({ name: 'A', seasonThresholds: { low: 40 }, filters: { maxStops: 1, stare: true } }, columns);
   assert.deepEqual(profile.seasonThresholds, { low: 40, high: 70 });
-  assert.deepEqual(profile.filters, { hideLevel3: false, maxFlightTime: null, maxStops: 1, minCoverage: null });
-  assert.deepEqual(addedSettings.sort(), ['filters.hideLevel3', 'filters.maxFlightTime', 'filters.minCoverage', 'flagPenalty', 'seasonThresholds.high', 'swimFlags']);
+  assert.deepEqual(profile.filters, { hideLevel3: false, maxFlightTime: null, maxStops: 1, minCoverage: null, minScore: null });
+  assert.deepEqual(addedSettings.sort(), ['filters.hideLevel3', 'filters.maxFlightTime', 'filters.minCoverage', 'filters.minScore', 'flagPenalty', 'seasonThresholds.high', 'swimFlags']);
   assert.deepEqual(validateProfile(profile, columns), []);
   // wartość podana, ale błędna, nie jest zastępowana
   const bad = mergeProfile({ name: 'A', filters: { hideLevel3: 'tak' } }, columns).profile;

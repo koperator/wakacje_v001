@@ -7,7 +7,7 @@ const DEFAULT_SETTINGS = {
   flagPenalty: 10,
   swimFlags: true,
   seasonThresholds: { low: 50, high: 70 },
-  filters: { hideLevel3: false, maxFlightTime: null, maxStops: null, minCoverage: null },
+  filters: { hideLevel3: false, maxFlightTime: null, maxStops: null, minCoverage: null, minScore: null },
 };
 const COLUMN_ID = /^[a-z0-9_]+$/;
 export const DEST_ID = /^[a-z0-9-]+$/;
@@ -56,15 +56,24 @@ export function countedFlags(list, flagTypes, profile, weatherOnly = false) {
   });
 }
 
-const hasSide = r => (r.min != null && r.idealFrom != null) || (r.idealTo != null && r.max != null);
+// Strona zakresu: dolna (min, ideał od) i górna (ideał do, max). Każde pole jest opcjonalne.
+// Strona z obiema wartościami ma liniowe zbocze; z jedną wartością to ostra granica (poza nią ocena 0);
+// bez wartości nie ogranicza.
+const lowSide = r => r.min != null || r.idealFrom != null;
+const highSide = r => r.idealTo != null || r.max != null;
+const hasSide = r => lowSide(r) || highSide(r);
 
-// Ocena 0–1 według formatki; null, gdy żadna strona zakresu nie jest kompletna.
+// Ocena 0–1 według formatki; null, gdy wszystkie pola zakresu są puste.
 export function colScore(x, r) {
-  const left = r.min != null && r.idealFrom != null;
-  const right = r.idealTo != null && r.max != null;
-  if (!left && !right) return null;
-  if (left && x < r.idealFrom) return x <= r.min ? 0 : (x - r.min) / (r.idealFrom - r.min);
-  if (right && x > r.idealTo) return x >= r.max ? 0 : (r.max - x) / (r.max - r.idealTo);
+  if (!hasSide(r)) return null;
+  if (lowSide(r)) {
+    const lo = r.min ?? r.idealFrom, hi = r.idealFrom ?? r.min;
+    if (x < hi) return x <= lo ? 0 : (x - lo) / (hi - lo);
+  }
+  if (highSide(r)) {
+    const lo = r.idealTo ?? r.max, hi = r.max ?? r.idealTo;
+    if (x > lo) return x >= hi ? 0 : (hi - x) / (hi - lo);
+  }
   return 1;
 }
 
@@ -118,6 +127,11 @@ export function checkFilters(dest, month, res, columns, f) {
   const unchecked = [];
   if (f.hideLevel3 && res.flags.some(x => x.level === 3)) return { pass: false, unchecked };
   if (f.minCoverage != null && res.coverage != null && res.coverage * 100 + 1e-9 < f.minCoverage) return { pass: false, unchecked };
+  // Wynik jak pokazywany (zaokrąglony do całości); brak wyniku nie odrzuca kierunku.
+  if (f.minScore != null) {
+    if (res.score == null) unchecked.push('minScore');
+    else if (Math.round(res.score) < f.minScore) return { pass: false, unchecked };
+  }
   for (const [key, id] of Object.entries(FILTER_COLUMNS)) {
     if (f[key] == null) continue;
     const col = columns.find(c => c?.id === id);
@@ -205,16 +219,12 @@ export function validateProfile(p, columns) {
     }
     if (bad) continue;
     if (r.weight == null || r.weight < 0) err(at('weight'), `${col.name}: waga musi być liczbą ≥ 0.`);
-    if ((r.min == null) !== (r.idealFrom == null))
-      err(at(r.min == null ? 'min' : 'idealFrom'), `${col.name}: dolna strona jest wypełniona do połowy (min i ideał od razem albo wcale).`);
-    if ((r.idealTo == null) !== (r.max == null))
-      err(at(r.max == null ? 'max' : 'idealTo'), `${col.name}: górna strona jest wypełniona do połowy (ideał do i max razem albo wcale).`);
     const filled = FIELDS.filter(f => r[f] != null);
     for (let i = 1; i < filled.length; i++) {
       if (r[filled[i]] < r[filled[i - 1]]) err(at(filled[i]), `${col.name}: wymagane min ≤ ideał od ≤ ideał do ≤ max.`);
     }
     if (r.weight > 0 && !hasSide(r))
-      err(at('weight'), `${col.name}: kolumna z wagą > 0 potrzebuje co najmniej jednej kompletnej strony zakresu.`);
+      err(at('weight'), `${col.name}: kolumna z wagą > 0 potrzebuje co najmniej jednego pola zakresu.`);
   }
   if (!isNum(p.flagPenalty) || p.flagPenalty < 0 || p.flagPenalty > 100)
     err('flagPenalty', 'Kara za poziom flagi musi być w zakresie 0–100%.');
@@ -232,6 +242,8 @@ export function validateProfile(p, columns) {
       err('filters.maxStops', 'Filtr „przesiadek do” musi być pusty albo liczbą ≥ 0.');
     if (fl.minCoverage != null && (!isNum(fl.minCoverage) || fl.minCoverage < 0 || fl.minCoverage > 100))
       err('filters.minCoverage', 'Filtr „pokrycie od” musi być pusty albo liczbą 0–100.');
+    if (fl.minScore != null && (!isNum(fl.minScore) || fl.minScore < 0 || fl.minScore > 100))
+      err('filters.minScore', 'Filtr „wynik od” musi być pusty albo liczbą 0–100.');
   }
   return errs;
 }
