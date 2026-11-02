@@ -56,3 +56,13 @@ Ok. 3 wyszukiwania i 26 pobranych stron. Nieudane: seatemperatu.re Nungwi, The C
 - **flight_price (szacunek):** KAYAK.pl: VII 4 436, XI 3 314, XII 4 674; najtaniej XI, najdrożej XII; średnia 12 mies. 3 903 zł; typowo 3 405–4 615 zł.
 - Brakujące miesiące wyliczone według sezonu lokalnego (H: między średnią a najdroższym, M: średnia, L: między średnią a najtańszym); wartości poza zakresem typowych cen o ponad 15% przycięte. Szczegóły metody: `kolumna-flight_price-notatki.md`.
 - Wynik (I–XII, zł): 4 300 / 4 300 / 3 900 / 3 600 / 3 600 / 4 300 / 4 400 / 4 300 / 4 300 / 3 900 / 3 300 / 4 700.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Zanzibar). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 11+, 11+, 11+, 11+, 10, 9, 10, 11, 11+, 11+, 11+, 11+. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące I, II, III, IV, IX, X, XI, XII – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 0,986, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 12,8 / 13,9 / 14,1 / 12,5 / 10,5 / 9,4 / 9,8 / 11,3 / 12,9 / 13,4 / 12,8 / 12,3.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 276 DU): 12,6–13,3; model na 1.11 przy ozonie klimatologicznym (272 DU): 13,2.
+- Wynik (I–XII): 13, 14, 14, 13, 10, 9, 10, 11, 13, 13, 13, 12.

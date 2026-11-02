@@ -48,3 +48,13 @@ Ok. 0 wyszukiwań i 21 pobranych stron. Nieudane: BestDateWeather Protaras i Ayi
 - **flight_price (szacunek):** KAYAK.pl: I 574, VIII 1 239, X 1 254; najtaniej I, najdrożej X; średnia 12 mies. 849 zł; typowo 602–1 215 zł + bagaż 300.
 - Brakujące miesiące wyliczone według sezonu lokalnego (H: między średnią a najdroższym, M: średnia, L: między średnią a najtańszym); wartości poza zakresem typowych cen o ponad 15% przycięte. Szczegóły metody: `kolumna-flight_price-notatki.md`.
 - Wynik (I–XII, zł): 900 / 1 000 / 1 000 / 1 100 / 1 100 / 1 100 / 1 400 / 1 500 / 1 100 / 1 600 / 1 000 / 1 000.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Protaras). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 2, 4, 5, 7, 9, 10, 11, 10, 8, 5, 3, 2. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Wszystkie miesiące to odczyty liczbowe – bez modelu.
+- Model (I–XII, kontrola): 2,5 / 3,8 / 5,4 / 7,2 / 8,8 / 10,0 / 10,4 / 9,6 / 7,6 / 5,2 / 3,1 / 2,3.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 290 DU): 3,8–3,9; model na 1.11 przy ozonie klimatologicznym (282 DU): 4,0.
+- Wynik (I–XII): 2, 4, 5, 7, 9, 10, 11, 10, 8, 5, 3, 2.

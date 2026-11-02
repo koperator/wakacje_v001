@@ -45,3 +45,13 @@ Ok. 0 wyszukiwań i 22 pobrane strony. Nieudane: weather2travel.
 - **flight_price (szacunek):** KAYAK.pl: I 621, II 1 673, V 1 485; najtaniej I, najdrożej II; średnia 12 mies. 1 207 zł; typowo 938–1 525 zł + bagaż 300.
 - Brakujące miesiące wyliczone według sezonu lokalnego (H: między średnią a najdroższym, M: średnia, L: między średnią a najtańszym); wartości poza zakresem typowych cen o ponad 15% przycięte. Szczegóły metody: `kolumna-flight_price-notatki.md`.
 - Wynik (I–XII, zł): 1 100 / 2 000 / 1 300 / 1 500 / 1 800 / 1 700 / 1 700 / 1 700 / 1 700 / 1 500 / 1 300 / 1 300.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Santorini). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 2, 3, 5, 7, 8, 10, 10, 9, 7, 5, 3, 2. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Wszystkie miesiące to odczyty liczbowe – bez modelu.
+- Model (I–XII, kontrola): 2,2 / 3,4 / 5,1 / 6,8 / 8,5 / 9,6 / 10,0 / 9,2 / 7,2 / 4,9 / 2,8 / 2,0.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 304 DU): 3,2–3,7; model na 1.11 przy ozonie klimatologicznym (283 DU): 3,7.
+- Wynik (I–XII): 2, 3, 5, 7, 8, 10, 10, 9, 7, 5, 3, 2.

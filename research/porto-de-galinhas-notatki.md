@@ -35,3 +35,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 ## Przegląd 2026-10-17 (rozwiązanie uwag)
 - **Opad:** zamieniony z Recife (2 155 mm) na klimatologię Climatempo dla Porto de Galinhas (ok. 1 230 mm/rok), szacunek. Dni deszczowe zostają z Recife. Uwaga 1 rozwiązana.
 - **UV z Salvadoru:** zostaje (strony Recife i Natal w BestDateWeather się nie wczytują). Uwaga 2 zamknięta.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Recife (ok. 50 km)). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 11+, 11+, 11+, 11+, 10, 9, 9, 11, 11+, 11+, 11+, 11+. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące I, II, III, IV, IX, X, XI, XII – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 0,997, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 13,5 / 14,4 / 14,2 / 12,4 / 10,1 / 8,9 / 9,3 / 11,0 / 12,8 / 13,7 / 13,4 / 13,1.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 271 DU): 13,4–13,9; model na 1.11 przy ozonie klimatologicznym (271 DU): 13,7.
+- Wynik (I–XII): 14, 14, 14, 12, 10, 9, 9, 11, 13, 14, 13, 13.

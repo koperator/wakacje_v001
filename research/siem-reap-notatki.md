@@ -116,3 +116,13 @@ Zasada (jak przy Phu Quoc): LOT lata Warszawa–Bangkok przez cały rok (start 7
 - **flight_price (szacunek):** brak statystyk dla WAW–SAI (KAYAK i momondo nie wczytały się lub nie mają danych); poziom przeniesiony z tras przez Bangkok: Phuket średnio 3 374 zł, Langkawi 4 234 zł, plus przykładowe oferty WAW–SAI 3 635–4 059 zł (X/XI 2026). Przyjęto średnią 4 000 zł, typowo 3 600–4 500 zł.
 - Brakujące miesiące wyliczone według sezonu lokalnego (H: między średnią a najdroższym, M: średnia, L: między średnią a najtańszym); wartości poza zakresem typowych cen o ponad 15% przycięte. Szczegóły metody: `kolumna-flight_price-notatki.md`.
 - Wynik (I–XII, zł): 4 300 / 4 300 / 4 000 / 3 800 / 3 800 / 3 800 / 3 800 / 3 800 / 3 800 / 3 800 / 4 300 / 4 300.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Siem Reap). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 10, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10, 9. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące II, III, IV, V, VI, VII, VIII, IX – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,001, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 9,7 / 11,5 / 13,0 / 13,6 / 13,1 / 12,7 / 12,9 / 13,4 / 12,8 / 11,2 / 9,7 / 9,0.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 266 DU): 9,8–10,1; model na 1.11 przy ozonie klimatologicznym (260 DU): 10,4.
+- Wynik (I–XII): 10, 12, 13, 14, 13, 13, 13, 13, 13, 11, 10, 9.

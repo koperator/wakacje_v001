@@ -38,3 +38,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 - **Nasłonecznienie:** zamienione z modelu Weather.Directory (8,5–9,7 h) na stację Grantley Adams na Barbadosie (7,5–8,8 h), szacunek. Uwaga zamknięta.
 - **Wiatr i ceny z Barbadosu:** zostają. Oferty WAW–UVF z KAYAK.pl (2 964–3 554 zł) potwierdzają poziom trasy na Barbados.
 - **Transfer 1,5 h:** zostaje – to realny czas dla bazy na północy.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Saint Lucia). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 9, 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 9, 8. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące III, IV, V, VI, VII, VIII, IX – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 0,987, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 9,4 / 11,2 / 12,7 / 13,3 / 13,0 / 12,6 / 12,8 / 13,2 / 12,6 / 10,9 / 9,5 / 8,7.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 266 DU): 9,6–10,3; model na 1.11 przy ozonie klimatologicznym (259 DU): 10,1.
+- Wynik (I–XII): 9, 11, 13, 13, 13, 13, 13, 13, 13, 11, 9, 8.

@@ -39,3 +39,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 - **Czas lotu:** zostaje 27,8 h (szacunek z odcinków).
 - **Wiatr ze stacji na wzgórzu:** zostaje (jedyne pomiary na wyspie).
 - **Flaga meduz poziom 2:** zostaje – meduzy Irukandji i kostkowe są groźne dla życia, kąpiel bez kombinezonu odradzana; to inna skala niż bluebottles na Gold Coast (poziom 1).
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Hamilton Island). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 11+, 11+, 11+, 10, 7, 6, 6, 8, 10, 11+, 11+, 11+. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące I, II, III, X, XI, XII – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 0,987, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 14,4 / 14,3 / 13,0 / 9,9 / 7,2 / 5,8 / 6,1 / 7,8 / 10,2 / 12,4 / 13,5 / 14,1.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 273 DU): 12,9–14,2; model na 1.11 przy ozonie klimatologicznym (279 DU): 13,1.
+- Wynik (I–XII): 14, 14, 13, 10, 7, 6, 6, 8, 10, 12, 13, 14.

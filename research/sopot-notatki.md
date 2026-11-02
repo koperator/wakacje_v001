@@ -48,3 +48,13 @@ Ok. 2 wyszukiwania i 21 pobranych stron. Nieudane: BestDateWeather Sopot, TVN24 
 - **flight_price (szacunek):** KAYAK.pl: I 309, IV 450, XII 422; najtaniej I, najdrożej IV; średnia 12 mies. 356 zł; typowo 305–504 zł.
 - Brakujące miesiące wyliczone według sezonu lokalnego (H: między średnią a najdroższym, M: średnia, L: między średnią a najtańszym); wartości poza zakresem typowych cen o ponad 15% przycięte. Szczegóły metody: `kolumna-flight_price-notatki.md`.
 - Wynik (I–XII, zł): 300 / 300 / 300 / 500 / 400 / 400 / 400 / 400 / 400 / 300 / 300 / 400.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Sopot). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 0, 1, 2, 3, 5, 6, 6, 5, 3, 2, 1, 0. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Wszystkie miesiące to odczyty liczbowe – bez modelu.
+- Model (I–XII, kontrola): 0,3 / 0,7 / 1,7 / 3,4 / 5,2 / 6,4 / 6,5 / 5,3 / 3,3 / 1,4 / 0,4 / 0,2.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 290 DU): 0,8–1; model na 1.11 przy ozonie klimatologicznym (308 DU): 0,8.
+- Wynik (I–XII): 0, 1, 2, 3, 5, 6, 6, 5, 3, 2, 1, 0.

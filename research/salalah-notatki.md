@@ -28,3 +28,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 
 - **waves (khareef):** VI = 2, VII–VIII = 3 (kilkumetrowe fale, prądy, kąpiel odradzana), IX = 2.
 - **holidays:** Ramadan w I–III, jak Muscat.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Salalah). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 9, 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 9, 8. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące III, IV, V, VI, VII, VIII, IX – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,025, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 8,7 / 10,6 / 12,4 / 13,4 / 13,2 / 13,1 / 13,2 / 13,4 / 12,5 / 10,6 / 8,9 / 8,0.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 266 DU): 9–9,4; model na 1.11 przy ozonie klimatologicznym (259 DU): 9,7.
+- Wynik (I–XII): 9, 11, 12, 13, 13, 13, 13, 13, 13, 11, 9, 8.

@@ -24,3 +24,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 
 ## Przegląd 2026-10-17 (rozwiązanie uwag)
 - **Lot WAW–BOJ:** Wizz Air z Lotniska Chopina (3 razy w tygodniu, loty jeszcze pod koniec X; statystyki cen III–X – flightsfrom.com, KAYAK.pl). Przyjmuję sezon ok. 6–7 miesięcy – zostaje **2,3 h, 0 przesiadek**. Wizz Air z Radomia (21 VII–12 IX) się nie liczy. Gdyby trasa z Chopina okazała się krótsza niż ok. 6 miesięcy: przez Pragę ok. 6,0 h, 1 przesiadka.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Słoneczny Brzeg). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 1, 2, 4, 5, 7, 8, 9, 8, 5, 4, 2, 1. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Wszystkie miesiące to odczyty liczbowe – bez modelu.
+- Model (I–XII, kontrola): 1,3 / 2,2 / 3,7 / 5,5 / 7,2 / 8,4 / 8,6 / 7,7 / 5,6 / 3,5 / 1,8 / 1,1.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 295 DU): 2,2–2,5; model na 1.11 przy ozonie klimatologicznym (286 DU): 2,5.
+- Wynik (I–XII): 1, 2, 4, 5, 7, 8, 9, 8, 5, 4, 2, 1.

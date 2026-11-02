@@ -36,3 +36,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 - **Punkt rosy:** zostaje. Weather Spark podaje liczbę dni parnych (punkt rosy ≥ ok. 18 °C): I 30 z 31, VIII 15 z 31, co pasuje do wyliczonych 23 °C i 18,5 °C. Uwaga 2 zamknięta.
 - **Sezon w I:** zmieniony z L na M (wakacje w Nowej Zelandii; deszcze i cyklony są w pogodzie i flagach). Ceny przeliczone. Uwaga 3 rozwiązana.
 - **Słońce i dni deszczowe z Bora Bory:** zostają (brak norm dla Rarotongi). Uwaga 1 zamknięta.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Avarua (Rarotonga)). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 11+, 11+, 11+, 10, 7, 6, 6, 8, 10, 11+, 11+, 11+. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące I, II, III, X, XI, XII – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 0,999, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 14,5 / 14,4 / 12,9 / 9,8 / 7,0 / 5,7 / 5,9 / 7,6 / 10,0 / 12,3 / 13,5 / 14,2.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 280 DU): 12,7–13,4; model na 1.11 przy ozonie klimatologicznym (281 DU): 13,1.
+- Wynik (I–XII): 15, 14, 13, 10, 7, 6, 6, 8, 10, 12, 14, 14.

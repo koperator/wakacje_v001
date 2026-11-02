@@ -35,3 +35,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 
 ## Przegląd 2026-10-17 (rozwiązanie uwag)
 - **Pogoda z danych siatkowych, wiatr z Jamajki, czas lotu i ceny wyliczone:** brak lepszych źródeł (KAYAK.pl nie ma statystyk dla RTB, Wikipedia nie ma tabeli dla wyspy). Zostaje jako szacunek; kierunek ma najsłabsze dane w etapie 2 obok Cayo Guillermo.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Roatán). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 9, 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 9, 8. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące III, IV, V, VI, VII, VIII, IX – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,010, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 8,8 / 10,7 / 12,4 / 13,3 / 13,2 / 12,9 / 13,1 / 13,3 / 12,5 / 10,6 / 9,0 / 8,1.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 260 DU): 9,4–9,7; model na 1.11 przy ozonie klimatologicznym (259 DU): 9,7.
+- Wynik (I–XII): 9, 11, 12, 13, 13, 13, 13, 13, 12, 11, 9, 8.

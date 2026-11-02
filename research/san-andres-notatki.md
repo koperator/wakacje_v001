@@ -36,3 +36,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 ## Przegląd 2026-10-17 (rozwiązanie uwag)
 - **Ceny lotów:** KAYAK.pl (Polska – San Andrés) podaje typową dobrą cenę ok. 3 815 zł (dolne 25%), czyli na poziomie dolnej granicy typowych cen do Bogoty (3 764 zł). Dopłata 600 zł usunięta – ceny jak WAW–Bogota. Uwaga 1 rozwiązana.
 - **UV zastępcze i flaga cyklonów w X–XI:** zostają; szczyt huraganów na zachodnich Karaibach na tej szerokości przypada na X–XI. Uwaga 2 zamknięta.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (San Andrés). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 10, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10, 9. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące II, III, IV, V, VI, VII, VIII, IX – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,002, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 9,9 / 11,7 / 13,2 / 13,7 / 13,1 / 12,6 / 12,8 / 13,3 / 12,9 / 11,3 / 9,9 / 9,2.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 258 DU): 10,4–11,1; model na 1.11 przy ozonie klimatologicznym (260 DU): 10,6.
+- Wynik (I–XII): 10, 12, 13, 14, 13, 13, 13, 13, 13, 11, 10, 9.

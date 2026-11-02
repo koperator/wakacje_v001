@@ -59,3 +59,13 @@ Ok. 3 wyszukiwania i ok. 19 pobranych stron. Nieudane: seatemperatu.re (Waikīk�
 - **flight_price (szacunek):** KAYAK.pl: I 4 537, VII 5 417, VIII 5 436; najtaniej I, najdrożej VIII; średnia 12 mies. 5 008 zł; typowo 4 527–5 507 zł.
 - Brakujące miesiące wyliczone według sezonu lokalnego (H: między średnią a najdroższym, M: średnia, L: między średnią a najtańszym); wartości poza zakresem typowych cen o ponad 15% przycięte. Szczegóły metody: `kolumna-flight_price-notatki.md`.
 - Wynik (I–XII, zł): 4 500 / 5 200 / 5 200 / 5 000 / 4 800 / 5 200 / 5 400 / 5 400 / 4 800 / 4 800 / 5 000 / 5 200.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Honolulu). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 7, 9, 11, 11, 11, 11+, 11+, 11+, 11, 9, 7, 6. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące VI, VII, VIII – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 0,981, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 6,8 / 8,7 / 10,7 / 12,0 / 12,0 / 12,0 / 12,1 / 12,2 / 11,1 / 9,0 / 7,1 / 6,2.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 271 DU): 6,9–8,7; model na 1.11 przy ozonie klimatologicznym (261 DU): 8,0.
+- Wynik (I–XII): 7, 9, 11, 11, 11, 12, 12, 12, 11, 9, 7, 6.

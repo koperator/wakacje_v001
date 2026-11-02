@@ -59,3 +59,13 @@ Ok. 4 wyszukiwania i 27 pobranych stron. Nieudane: BestDateWeather Watamu i Mali
 - **flight_price (szacunek):** KAYAK.pl: III 3 021, V 4 291, VIII 4 056; najtaniej III, najdrożej V; średnia 12 mies. – zł; typowo 3 103–4 000 zł.
 - Brakujące miesiące wyliczone według sezonu lokalnego (H: między średnią a najdroższym, M: średnia, L: między średnią a najtańszym); wartości poza zakresem typowych cen o ponad 15% przycięte. Szczegóły metody: `kolumna-flight_price-notatki.md`.
 - Wynik (I–XII, zł): 3 900 / 3 900 / 3 000 / 3 300 / 4 300 / 3 300 / 3 900 / 4 100 / 3 600 / 3 600 / 3 300 / 3 900.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Watamu). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 11+, 11+, 11+, 11+, 11, 10, 10, 11+, 11+, 11+, 11+, 11+. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące I, II, III, IV, VIII, IX, X, XI, XII – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 0,996, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 12,7 / 13,9 / 14,2 / 13,0 / 11,0 / 9,9 / 10,3 / 11,8 / 13,2 / 13,4 / 12,7 / 12,1.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 275 DU): 12,5–13,2; model na 1.11 przy ozonie klimatologicznym (271 DU): 13,1.
+- Wynik (I–XII): 13, 14, 14, 13, 11, 10, 10, 12, 13, 13, 13, 12.

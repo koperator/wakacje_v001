@@ -31,3 +31,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 
 ## Przegląd 2026-10-17 (rozwiązanie uwag)
 - **Czarter czy regularny lot:** decyzja: zostaje regularne połączenie (**9,0 h, 1 przesiadka**), bo tylko Marsa Alam jest oznaczona jako wyjazd wyłącznie z biurem. Z Chopina do Sharm latają tylko czartery (Enter Air). Jeśli Sharm ma być „tylko z biurem”, wystarczy zmienić na 4,2 h i 0 przesiadek. Uwaga 1 zamknięta.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Sharm el-Sheikh). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 5, 6, 8, 11, 11, 11+, 11+, 11, 10, 8, 5, 4. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące VI, VII – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,009, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 4,6 / 6,3 / 8,4 / 10,1 / 10,9 / 11,4 / 11,6 / 11,3 / 9,7 / 7,4 / 5,2 / 4,2.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 265 DU): 5,9–6,5; model na 1.11 przy ozonie klimatologicznym (269 DU): 6,2.
+- Wynik (I–XII): 5, 6, 8, 11, 11, 12, 12, 11, 10, 8, 5, 4.

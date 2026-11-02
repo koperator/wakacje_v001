@@ -24,3 +24,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 ## Flagi
 
 Brak. Zimowe zamknięcia części hoteli opisane w notatce, bez flagi, jak przy innych kierunkach europejskich.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Porto Santo). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 3, 4, 6, 8, 9, 10, 10, 9, 8, 6, 4, 3. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Wszystkie miesiące to odczyty liczbowe – bez modelu.
+- Model (I–XII, kontrola): 2,9 / 4,3 / 6,0 / 7,8 / 9,2 / 10,2 / 10,6 / 9,9 / 8,0 / 5,7 / 3,6 / 2,7.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 291 DU): 4,1–4,5; model na 1.11 przy ozonie klimatologicznym (278 DU): 4,5.
+- Wynik (I–XII): 3, 4, 6, 8, 9, 10, 10, 9, 8, 6, 4, 3.
