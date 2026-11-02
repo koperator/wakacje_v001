@@ -58,3 +58,13 @@ Ok. 3 wyszukiwania i ok. 21 pobranych stron. Nieudane: timeanddate (Vaitape, Bor
 - **flight_price (szacunek):** KAYAK.pl: V 11 094; najtaniej V, najdrożej VII; średnia 12 mies. 12 938 zł; typowo 12 550–15 708 zł.
 - Brakujące miesiące wyliczone według sezonu lokalnego (H: między średnią a najdroższym, M: średnia, L: między średnią a najtańszym); wartości poza zakresem typowych cen o ponad 15% przycięte. Szczegóły metody: `kolumna-flight_price-notatki.md`.
 - Wynik (I–XII, zł): 12 000 / 12 000 / 12 000 / 12 900 / 11 100 / 14 300 / 15 700 / 14 300 / 14 300 / 12 900 / 12 000 / 12 900.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Vaitape (Bora Bora)). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 11+, 11+, 11+, 11, 8, 7, 8, 9, 11, 11+, 11+, 11+. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące I, II, III, X, XI, XII – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 0,994, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 14,6 / 14,8 / 13,7 / 10,9 / 8,3 / 7,0 / 7,4 / 9,2 / 11,4 / 13,3 / 14,1 / 14,3.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 270 DU): 13,7–14,2; model na 1.11 przy ozonie klimatologicznym (270 DU): 13,8.
+- Wynik (I–XII): 15, 15, 14, 11, 8, 7, 8, 9, 11, 13, 14, 14.

@@ -106,3 +106,13 @@ Zasada (jak przy Phu Quoc): LOT lata Warszawa–Bangkok przez cały rok (start 7
 - **flight_price (szacunek):** KAYAK.pl: V 2 744, X 3 517, XII 3 717; najtaniej V, najdrożej XII; średnia 12 mies. 3 374 zł; typowo 2 907–4 002 zł.
 - Brakujące miesiące wyliczone według sezonu lokalnego (H: między średnią a najdroższym, M: średnia, L: między średnią a najtańszym); wartości poza zakresem typowych cen o ponad 15% przycięte. Szczegóły metody: `kolumna-flight_price-notatki.md`.
 - Wynik (I–XII, zł): 3 500 / 3 500 / 3 400 / 3 400 / 2 700 / 3 100 / 3 100 / 3 100 / 3 100 / 3 500 / 3 400 / 3 700.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Phuket). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące II, III, IV, V, VI, VII, VIII, IX, X – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 0,998, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 11,1 / 12,7 / 13,9 / 13,8 / 12,7 / 11,8 / 12,0 / 13,0 / 13,2 / 12,1 / 10,9 / 10,3.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 269 DU): 11,1–11,4; model na 1.11 przy ozonie klimatologicznym (264 DU): 11,5.
+- Wynik (I–XII): 11, 13, 14, 14, 13, 12, 12, 13, 13, 12, 11, 10.

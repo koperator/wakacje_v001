@@ -37,3 +37,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 - **Ceny:** KAYAK.pl nadal podaje tylko zakres typowych cen (3 520–5 862 zł), bez miesięcy. Zostaje wyliczenie ze środka zakresu. Uwaga 2 zamknięta.
 - **Czas lotu 19,0 h:** zostaje jako szacunek (KAYAK.pl nie podaje średniej). Uwaga 1 zamknięta.
 - **Punkt rosy:** zostaje (szacunek).
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Antigua). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 8, 10, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 10, 9, 8. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące III, IV, V, VI, VII, VIII, IX – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 0,997, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 8,4 / 10,3 / 12,1 / 13,0 / 12,9 / 12,7 / 12,9 / 13,1 / 12,2 / 10,3 / 8,6 / 7,8.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 265 DU): 9–9,4; model na 1.11 przy ozonie klimatologicznym (259 DU): 9,4.
+- Wynik (I–XII): 8, 10, 12, 13, 13, 13, 13, 13, 12, 10, 9, 8.

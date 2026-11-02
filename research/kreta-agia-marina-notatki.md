@@ -32,3 +32,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 
 ## Przegląd 2026-10-17 (rozwiązanie uwag)
 - **Lot Wizz Air WAW–CHQ:** kursuje z Lotniska Chopina w sezonie ok. IV–X (flightsfrom.com, KAYAK.pl: oferty bezpośrednie w IV i X; infoloty.pl podaje też terminy zimowe X–III). Spełnia warunek – zostaje **2,9 h, 0 przesiadek**. Uwaga o sezonowości rozwiązana.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Agia Marina). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 2, 3, 5, 7, 9, 10, 10, 9, 7, 5, 3, 2. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Wszystkie miesiące to odczyty liczbowe – bez modelu.
+- Model (I–XII, kontrola): 2,4 / 3,6 / 5,2 / 7,0 / 8,5 / 9,7 / 10,1 / 9,3 / 7,3 / 5,0 / 3,0 / 2,2.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 303 DU): 3,3–3,9; model na 1.11 przy ozonie klimatologicznym (282 DU): 3,8.
+- Wynik (I–XII): 2, 3, 5, 7, 9, 10, 10, 9, 7, 5, 3, 2.

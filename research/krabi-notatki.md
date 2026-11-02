@@ -57,3 +57,13 @@ Ok. 5 wyszukiwań i ok. 22 pobrane strony. Nieudane: seatemperatu.re (Ao Nang), 
 ## Przegląd 2026-10-17 (rozwiązanie uwag)
 - **Nasłonecznienie:** zamienione na Phuket (WMO/TMD 1991–2020, ok. 45 km przez zatokę Phang Nga), szacunek. Stacja RID zaniżała porę suchą o ok. 2 h dziennie. Uwaga 1 rozwiązana.
 - **Wiatr i normy 1981–2010:** zostają (brak lepszego źródła; wiatr ma wagę 0,5). Uwagi 2–3 zamknięte.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Krabi). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące II, III, IV, V, VI, VII, VIII, IX, X – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 0,998, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 11,0 / 12,6 / 13,8 / 13,8 / 12,7 / 11,8 / 12,1 / 13,0 / 13,2 / 12,0 / 10,9 / 10,3.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 269 DU): 11–11,4; model na 1.11 przy ozonie klimatologicznym (264 DU): 11,4.
+- Wynik (I–XII): 11, 13, 14, 14, 13, 12, 12, 13, 13, 12, 11, 10.

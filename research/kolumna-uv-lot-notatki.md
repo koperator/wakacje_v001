@@ -1,3 +1,5 @@
+> **Nieaktualne dla UV (2026-10-27):** źródło UV wymienione na TEMIS (czyste niebo), zob. `kolumna-uv-notatki.md`. Część o czasie lotu i przesiadkach bez zmian.
+
 # Kolumny `uv`, `flight_time`, `stops`: notatki (Prompt C, po doprecyzowaniu definicji)
 
 Sprawdzono: 2026-10-04. Kierunki: `siem-reap`, `corralejo`, `phuket`.

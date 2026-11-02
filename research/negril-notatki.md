@@ -27,3 +27,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 
 ## Przegląd 2026-10-17 (rozwiązanie uwag)
 - **Huragan Melissa (X 2025):** bez osobnej flagi – flagi opisują typowe ryzyko miesiąca, a szkody po jednym huraganie to stan przejściowy. Informacja zostaje w notatce kierunku.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Negril). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 8, 10, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 10, 9, 8. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące III, IV, V, VI, VII, VIII, IX – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,013, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 8,1 / 10,0 / 11,9 / 13,0 / 12,9 / 12,8 / 12,9 / 13,1 / 12,1 / 10,1 / 8,3 / 7,5.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 258 DU): 8,6–9,5; model na 1.11 przy ozonie klimatologicznym (260 DU): 9,2.
+- Wynik (I–XII): 8, 10, 12, 13, 13, 13, 13, 13, 12, 10, 9, 8.

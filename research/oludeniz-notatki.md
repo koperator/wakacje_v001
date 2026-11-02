@@ -26,3 +26,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 
 ## Przegląd 2026-10-17 (rozwiązanie uwag)
 - **Czarter czy regularny lot:** decyzja: zostaje regularne połączenie (**8,7 h, 1 przesiadka**), bo tylko Marsa Alam jest oznaczona jako wyjazd wyłącznie z biurem. Z Chopina do Dalamanu latają tylko czartery (Enter Air, sezonowo). Uwaga zamknięta.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Ölüdeniz). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 2, 3, 5, 7, 9, 10, 11, 10, 7, 5, 3, 2. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Wszystkie miesiące to odczyty liczbowe – bez modelu.
+- Model (I–XII, kontrola): 2,3 / 3,5 / 5,2 / 7,0 / 8,7 / 9,8 / 10,2 / 9,4 / 7,3 / 4,9 / 2,9 / 2,1.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 298 DU): 3,2–3,7; model na 1.11 przy ozonie klimatologicznym (283 DU): 3,8.
+- Wynik (I–XII): 2, 3, 5, 7, 9, 10, 11, 10, 7, 5, 3, 2.

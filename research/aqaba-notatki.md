@@ -32,3 +32,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 
 ## Przegląd 2026-10-17 (rozwiązanie uwag)
 - **Ceny lotów:** zamiast trasy do Ammanu + 400 zł przyjęty zakres typowych cen WAW–Akaba z KAYAK.pl (2 313–4 780 zł; bez danych miesięcznych), miesiące według sezonu lokalnego. Akaba wychodzi drożej niż wcześniej (2 900–4 200 zł).
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Akaba). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 4, 6, 8, 10, 11, 11+, 11+, 11+, 10, 7, 5, 4. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące VI, VII, VIII – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,039, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 4,2 / 5,8 / 7,9 / 9,7 / 10,8 / 11,5 / 11,8 / 11,3 / 9,6 / 7,1 / 4,8 / 3,8.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 274 DU): 5,5–5,8; model na 1.11 przy ozonie klimatologicznym (272 DU): 5,8.
+- Wynik (I–XII): 4, 6, 8, 10, 11, 12, 12, 12, 10, 7, 5, 4.

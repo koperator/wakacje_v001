@@ -35,3 +35,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 
 ## Przegląd 2026-10-17 (rozwiązanie uwag)
 - **KLM AMS–CTG:** trasa działa od III 2024 i ma rejsy także latem (np. KL741 w VII 2026), więc kursuje ponad 6 miesięcy w roku. Zostaje **17,2 h, 1 przesiadka**. Uwaga 2 rozwiązana.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Cartagena). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące II, III, IV, V, VI, VII, VIII, IX, X – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,018, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 10,7 / 12,4 / 13,8 / 14,0 / 13,2 / 12,5 / 12,7 / 13,4 / 13,3 / 11,9 / 10,6 / 9,9.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 260 DU): 10,7–11,6; model na 1.11 przy ozonie klimatologicznym (262 DU): 11,2.
+- Wynik (I–XII): 11, 12, 14, 14, 13, 12, 13, 13, 13, 12, 11, 10.

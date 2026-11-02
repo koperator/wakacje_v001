@@ -22,3 +22,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 
 ## Przegląd 2026-10-17 (rozwiązanie uwag)
 - **Lot Wizz Air WAW–CFU:** z Lotniska Chopina, 3 razy w tygodniu, ok. III–X (flightsfrom.com; KAYAK.pl: oferty bezpośrednie jeszcze w drugiej połowie X). Spełnia warunek – zostaje **2,4 h, 0 przesiadek** do Korfu.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Saranda (ok. 15 km od Ksamilu)). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 2, 3, 4, 6, 8, 9, 9, 8, 6, 4, 2, 2. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Wszystkie miesiące to odczyty liczbowe – bez modelu.
+- Model (I–XII, kontrola): 1,7 / 2,7 / 4,3 / 6,1 / 7,8 / 8,9 / 9,2 / 8,3 / 6,3 / 4,1 / 2,2 / 1,5.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 298 DU): 2,7–3,1; model na 1.11 przy ozonie klimatologicznym (284 DU): 3,0.
+- Wynik (I–XII): 2, 3, 4, 6, 8, 9, 9, 8, 6, 4, 2, 2.

@@ -36,3 +36,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 
 1. UV z Cebu, wiatr z modelu, czas lotu wyliczony.
 2. Normy 1981–2010.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Bohol). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące II, III, IV, V, VI, VII, VIII, IX, X – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,007, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 10,8 / 12,4 / 13,7 / 13,9 / 13,0 / 12,2 / 12,4 / 13,2 / 13,2 / 11,9 / 10,7 / 10,0.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 269 DU): 10,6–11,3; model na 1.11 przy ozonie klimatologicznym (263 DU): 11,3.
+- Wynik (I–XII): 11, 12, 14, 14, 13, 12, 12, 13, 13, 12, 11, 10.

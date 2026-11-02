@@ -57,3 +57,13 @@ Ok. 3 wyszukiwania i 27 pobranych stron. Nieudane: KAYAK.com.
 - **flight_price (szacunek):** KAYAK.pl (sam lot, w tym czartery Smartwings, Skyline Express, LOT): III 1 723 zł (najtaniej), VIII 3 084 zł, V 3 224 zł (najdrożej), średnia 2 222 zł, typowo 1 133–2 999 zł. Przy wyjeździe z biurem lot jest w cenie pakietu; to przybliżony koszt miejsca w czarterze.
 - Brakujące miesiące wyliczone według sezonu lokalnego (H: między średnią a najdroższym, M: średnia, L: między średnią a najtańszym); wartości poza zakresem typowych cen o ponad 15% przycięte. Szczegóły metody: `kolumna-flight_price-notatki.md`.
 - Wynik (I–XII, zł): 2 200 / 2 200 / 1 700 / 2 000 / 3 200 / 2 700 / 2 700 / 3 100 / 2 200 / 2 000 / 2 000 / 2 200.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Marsa Alam). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 6, 7, 10, 11+, 11+, 11+, 11+, 11+, 11, 8, 6, 5. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące IV, V, VI, VII, VIII – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,005, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 5,7 / 7,6 / 9,8 / 11,4 / 11,6 / 11,8 / 11,8 / 11,7 / 10,5 / 8,2 / 6,1 / 5,2.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 261 DU): 6,8–7,7; model na 1.11 przy ozonie klimatologicznym (263 DU): 7,1.
+- Wynik (I–XII): 6, 7, 10, 12, 12, 12, 12, 12, 11, 8, 6, 5.

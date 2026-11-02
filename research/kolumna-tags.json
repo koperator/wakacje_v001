@@ -1,0 +1,596 @@
+{
+ "column": "tags",
+ "values": {
+  "siem-reap": [
+   "dżungla",
+   "ruiny",
+   "świątynie"
+  ],
+  "corralejo": [
+   "płytkie wejście",
+   "surfing",
+   "kitesurfing",
+   "wulkany",
+   "pustynia"
+  ],
+  "phuket": [
+   "rafa i snorkeling",
+   "nurkowanie",
+   "rejsy po wyspach",
+   "świątynie",
+   "życie nocne"
+  ],
+  "koh-samui": [
+   "rafa i snorkeling",
+   "rejsy po wyspach",
+   "wodospady",
+   "świątynie",
+   "życie nocne"
+  ],
+  "negombo": [
+   "dzika przyroda",
+   "świątynie"
+  ],
+  "trincomalee": [
+   "rafa i snorkeling",
+   "dzika przyroda",
+   "ruiny",
+   "świątynie",
+   "spokój"
+  ],
+  "koh-rong": [
+   "rajska plaża",
+   "rejsy po wyspach",
+   "dżungla",
+   "wodospady",
+   "spokój"
+  ],
+  "phu-quoc": [
+   "rafa i snorkeling",
+   "rejsy po wyspach",
+   "dżungla"
+  ],
+  "langkawi": [
+   "rejsy po wyspach",
+   "dżungla",
+   "wodospady",
+   "dzika przyroda"
+  ],
+  "boracay": [
+   "rajska plaża",
+   "kitesurfing",
+   "rejsy po wyspach",
+   "życie nocne"
+  ],
+  "nusa-dua": [
+   "płytkie wejście",
+   "rafa i snorkeling",
+   "surfing",
+   "świątynie"
+  ],
+  "goa-polnocne": [
+   "wodospady",
+   "stare miasto",
+   "życie nocne"
+  ],
+  "malediwy": [
+   "rajska plaża",
+   "płytkie wejście",
+   "rafa i snorkeling",
+   "nurkowanie",
+   "spokój"
+  ],
+  "seszele": [
+   "rajska plaża",
+   "rafa i snorkeling",
+   "rejsy po wyspach",
+   "dżungla",
+   "góry i trekking",
+   "dzika przyroda"
+  ],
+  "mauritius": [
+   "płytkie wejście",
+   "rafa i snorkeling",
+   "wodospady",
+   "góry i trekking",
+   "dzika przyroda"
+  ],
+  "zanzibar": [
+   "rajska plaża",
+   "rafa i snorkeling",
+   "nurkowanie",
+   "dzika przyroda",
+   "stare miasto"
+  ],
+  "watamu": [
+   "rafa i snorkeling",
+   "dzika przyroda",
+   "ruiny",
+   "spokój"
+  ],
+  "marsa-alam": [
+   "rafa i snorkeling",
+   "nurkowanie",
+   "pustynia",
+   "dzika przyroda",
+   "spokój"
+  ],
+  "djerba": [
+   "płytkie wejście",
+   "pustynia"
+  ],
+  "alanya": [
+   "góry i trekking",
+   "ruiny",
+   "życie nocne"
+  ],
+  "protaras": [
+   "płytkie wejście",
+   "życie nocne"
+  ],
+  "santorini": [
+   "wulkany",
+   "ruiny",
+   "stare miasto"
+  ],
+  "malta": [
+   "nurkowanie",
+   "rejsy po wyspach",
+   "ruiny",
+   "stare miasto",
+   "życie nocne"
+  ],
+  "sopot": [
+   "stare miasto",
+   "miasto i zakupy",
+   "życie nocne"
+  ],
+  "punta-cana": [
+   "płytkie wejście",
+   "rejsy po wyspach"
+  ],
+  "cancun": [
+   "rafa i snorkeling",
+   "nurkowanie",
+   "ruiny",
+   "życie nocne"
+  ],
+  "aruba": [
+   "rajska plaża",
+   "płytkie wejście",
+   "kitesurfing",
+   "pustynia"
+  ],
+  "barbados": [
+   "rafa i snorkeling",
+   "surfing",
+   "stare miasto"
+  ],
+  "providenciales": [
+   "rajska plaża",
+   "płytkie wejście",
+   "rafa i snorkeling",
+   "spokój"
+  ],
+  "tamarindo": [
+   "surfing",
+   "wulkany",
+   "dzika przyroda",
+   "życie nocne"
+  ],
+  "waikiki": [
+   "surfing",
+   "wulkany",
+   "góry i trekking",
+   "miasto i zakupy",
+   "życie nocne"
+  ],
+  "nadi-denarau": [
+   "rafa i snorkeling",
+   "rejsy po wyspach"
+  ],
+  "bora-bora": [
+   "rajska plaża",
+   "płytkie wejście",
+   "rafa i snorkeling",
+   "dzika przyroda",
+   "spokój"
+  ],
+  "krabi": [
+   "rafa i snorkeling",
+   "rejsy po wyspach",
+   "dżungla",
+   "góry i trekking",
+   "świątynie"
+  ],
+  "koh-lanta": [
+   "płytkie wejście",
+   "rafa i snorkeling",
+   "rejsy po wyspach",
+   "dżungla",
+   "spokój"
+  ],
+  "hoi-an": [
+   "ruiny",
+   "stare miasto"
+  ],
+  "perhentian": [
+   "rajska plaża",
+   "rafa i snorkeling",
+   "nurkowanie",
+   "dżungla",
+   "spokój"
+  ],
+  "el-nido": [
+   "rajska plaża",
+   "rafa i snorkeling",
+   "rejsy po wyspach",
+   "dżungla"
+  ],
+  "panglao": [
+   "płytkie wejście",
+   "rafa i snorkeling",
+   "nurkowanie",
+   "dzika przyroda"
+  ],
+  "lombok-kuta": [
+   "surfing",
+   "wodospady",
+   "spokój"
+  ],
+  "belle-mare": [
+   "rajska plaża",
+   "płytkie wejście",
+   "rejsy po wyspach"
+  ],
+  "zanzibar-paje": [
+   "płytkie wejście",
+   "kitesurfing",
+   "dzika przyroda",
+   "stare miasto",
+   "spokój"
+  ],
+  "nosy-be": [
+   "rafa i snorkeling",
+   "rejsy po wyspach",
+   "dżungla",
+   "dzika przyroda",
+   "spokój"
+  ],
+  "sal": [
+   "płytkie wejście",
+   "kitesurfing",
+   "pustynia"
+  ],
+  "sharm-el-sheikh": [
+   "rafa i snorkeling",
+   "nurkowanie",
+   "góry i trekking",
+   "pustynia",
+   "życie nocne"
+  ],
+  "dubaj": [
+   "pustynia",
+   "miasto i zakupy",
+   "życie nocne"
+  ],
+  "muscat": [
+   "góry i trekking",
+   "pustynia",
+   "stare miasto"
+  ],
+  "salalah": [
+   "wodospady",
+   "pustynia",
+   "ruiny"
+  ],
+  "aqaba": [
+   "rafa i snorkeling",
+   "nurkowanie",
+   "pustynia",
+   "ruiny"
+  ],
+  "maspalomas": [
+   "góry i trekking",
+   "pustynia",
+   "życie nocne"
+  ],
+  "porto-santo": [
+   "płytkie wejście",
+   "spokój"
+  ],
+  "albufeira": [
+   "stare miasto",
+   "życie nocne"
+  ],
+  "majorka-alcudia": [
+   "rajska plaża",
+   "płytkie wejście",
+   "góry i trekking",
+   "stare miasto"
+  ],
+  "san-teodoro": [
+   "rajska plaża",
+   "płytkie wejście",
+   "rejsy po wyspach"
+  ],
+  "san-vito-lo-capo": [
+   "rajska plaża",
+   "płytkie wejście",
+   "góry i trekking",
+   "ruiny",
+   "stare miasto"
+  ],
+  "kreta-agia-marina": [
+   "góry i trekking",
+   "stare miasto",
+   "życie nocne"
+  ],
+  "rodos-faliraki": [
+   "ruiny",
+   "stare miasto",
+   "życie nocne"
+  ],
+  "zakynthos-tsilivi": [
+   "płytkie wejście",
+   "dzika przyroda"
+  ],
+  "chalkidiki": [
+   "spokój"
+  ],
+  "oludeniz": [
+   "rejsy po wyspach",
+   "góry i trekking",
+   "ruiny"
+  ],
+  "ksamil": [
+   "ruiny",
+   "stare miasto"
+  ],
+  "sloneczny-brzeg": [
+   "płytkie wejście",
+   "stare miasto",
+   "życie nocne"
+  ],
+  "las-terrenas": [
+   "wodospady",
+   "dzika przyroda",
+   "spokój"
+  ],
+  "varadero": [
+   "rajska plaża",
+   "płytkie wejście",
+   "stare miasto"
+  ],
+  "cayo-guillermo": [
+   "rajska plaża",
+   "płytkie wejście",
+   "dzika przyroda",
+   "spokój"
+  ],
+  "negril": [
+   "wodospady",
+   "życie nocne"
+  ],
+  "nassau": [
+   "rajska plaża",
+   "rafa i snorkeling",
+   "rejsy po wyspach"
+  ],
+  "curacao": [
+   "rafa i snorkeling",
+   "nurkowanie",
+   "dzika przyroda",
+   "stare miasto"
+  ],
+  "antigua": [
+   "rajska plaża",
+   "płytkie wejście",
+   "rejsy po wyspach"
+  ],
+  "saint-lucia": [
+   "dżungla",
+   "wodospady",
+   "wulkany",
+   "góry i trekking"
+  ],
+  "roatan": [
+   "rajska plaża",
+   "rafa i snorkeling",
+   "nurkowanie"
+  ],
+  "san-andres": [
+   "płytkie wejście",
+   "rafa i snorkeling",
+   "nurkowanie"
+  ],
+  "manuel-antonio": [
+   "surfing",
+   "dżungla",
+   "wodospady",
+   "dzika przyroda"
+  ],
+  "cartagena-baru": [
+   "rafa i snorkeling",
+   "stare miasto",
+   "życie nocne"
+  ],
+  "porto-de-galinhas": [
+   "rafa i snorkeling",
+   "surfing",
+   "stare miasto"
+  ],
+  "rarotonga": [
+   "płytkie wejście",
+   "rafa i snorkeling",
+   "dżungla",
+   "góry i trekking",
+   "spokój"
+  ],
+  "gold-coast": [
+   "surfing",
+   "dżungla",
+   "wodospady",
+   "dzika przyroda",
+   "miasto i zakupy",
+   "życie nocne"
+  ],
+  "whitsundays": [
+   "rajska plaża",
+   "rafa i snorkeling",
+   "nurkowanie",
+   "rejsy po wyspach"
+  ],
+  "durres": [
+   "płytkie wejście",
+   "ruiny"
+  ],
+  "manama": [
+   "miasto i zakupy"
+  ],
+  "salvador": [
+   "stare miasto",
+   "życie nocne"
+  ],
+  "cumbuco": [
+   "kitesurfing",
+   "pustynia"
+  ],
+  "istria": [
+   "ruiny",
+   "stare miasto"
+  ],
+  "split": [
+   "rejsy po wyspach",
+   "ruiny",
+   "stare miasto",
+   "życie nocne"
+  ],
+  "budva": [
+   "góry i trekking",
+   "stare miasto",
+   "życie nocne"
+  ],
+  "el-alamein": [
+   "rajska plaża",
+   "płytkie wejście",
+   "spokój"
+  ],
+  "kololi": [
+   "dzika przyroda"
+  ],
+  "attyka": [
+   "ruiny",
+   "miasto i zakupy",
+   "życie nocne"
+  ],
+  "samos": [
+   "góry i trekking",
+   "ruiny",
+   "spokój"
+  ],
+  "batumi": [
+   "góry i trekking",
+   "miasto i zakupy",
+   "życie nocne"
+  ],
+  "barcelona": [
+   "stare miasto",
+   "miasto i zakupy",
+   "życie nocne"
+  ],
+  "costa-blanca": [
+   "płytkie wejście",
+   "życie nocne"
+  ],
+  "costa-del-sol": [
+   "stare miasto",
+   "życie nocne"
+  ],
+  "doha": [
+   "pustynia",
+   "miasto i zakupy"
+  ],
+  "agadir": [
+   "surfing",
+   "pustynia"
+  ],
+  "saidia": [
+   "płytkie wejście",
+   "spokój"
+  ],
+  "puerto-vallarta": [
+   "dżungla",
+   "dzika przyroda",
+   "życie nocne"
+  ],
+  "bocas-del-toro": [
+   "rafa i snorkeling",
+   "surfing",
+   "rejsy po wyspach",
+   "dżungla",
+   "dzika przyroda"
+  ],
+  "playa-blanca": [
+   "spokój"
+  ],
+  "azory": [
+   "wodospady",
+   "wulkany",
+   "góry i trekking",
+   "dzika przyroda"
+  ],
+  "saly": [
+   "dzika przyroda",
+   "spokój"
+  ],
+  "pattaya": [
+   "rejsy po wyspach",
+   "miasto i zakupy",
+   "życie nocne"
+  ],
+  "sousse": [
+   "płytkie wejście",
+   "ruiny",
+   "stare miasto"
+  ],
+  "bodrum": [
+   "rejsy po wyspach",
+   "ruiny",
+   "życie nocne"
+  ],
+  "kusadasi": [
+   "ruiny",
+   "życie nocne"
+  ],
+  "margarita": [
+   "kitesurfing",
+   "rejsy po wyspach"
+  ],
+  "mui-ne": [
+   "kitesurfing",
+   "pustynia"
+  ],
+  "nha-trang": [
+   "nurkowanie",
+   "rejsy po wyspach",
+   "miasto i zakupy",
+   "życie nocne"
+  ],
+  "apulia": [
+   "stare miasto",
+   "spokój"
+  ],
+  "kampania": [
+   "rejsy po wyspach",
+   "wulkany",
+   "ruiny",
+   "stare miasto"
+  ],
+  "rimini": [
+   "płytkie wejście",
+   "stare miasto",
+   "życie nocne"
+  ]
+ }
+}

@@ -49,3 +49,13 @@ Ok. 0 wyszukiwań i 22 pobrane strony.
 - **flight_price (szacunek):** KAYAK.pl: V 3 643, VIII 4 690, X 4 694; najtaniej V, najdrożej X; średnia 12 mies. 4 299 zł; typowo 3 899–4 790 zł.
 - Brakujące miesiące wyliczone według sezonu lokalnego (H: między średnią a najdroższym, M: średnia, L: między średnią a najtańszym); wartości poza zakresem typowych cen o ponad 15% przycięte. Szczegóły metody: `kolumna-flight_price-notatki.md`.
 - Wynik (I–XII, zł): 4 500 / 4 500 / 4 500 / 4 500 / 3 600 / 4 000 / 4 300 / 4 700 / 4 000 / 4 700 / 4 000 / 4 500.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Cancún). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 7, 9, 11, 11+, 11+, 11+, 11+, 11+, 11, 9, 8, 7. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące IV, V, VI, VII, VIII – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,002, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 7,0 / 8,9 / 11,0 / 12,3 / 12,3 / 12,3 / 12,4 / 12,5 / 11,4 / 9,3 / 7,3 / 6,4.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 263 DU): 7,7–8,5; model na 1.11 przy ozonie klimatologicznym (261 DU): 8,2.
+- Wynik (I–XII): 7, 9, 11, 12, 12, 12, 12, 12, 11, 9, 8, 7.

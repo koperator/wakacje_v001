@@ -51,3 +51,13 @@ Ok. 4 wyszukiwania i 23 pobrane strony. Nieudane: KAYAK (2×), momondo.
 - **flight_price (szacunek):** KAYAK.pl: VII 2 515, IX 1 420; najtaniej IX, najdrożej VII; średnia 12 mies. 1 981 zł; typowo 1 419–2 426 zł.
 - Brakujące miesiące wyliczone według sezonu lokalnego (H: między średnią a najdroższym, M: średnia, L: między średnią a najtańszym); wartości poza zakresem typowych cen o ponad 15% przycięte. Szczegóły metody: `kolumna-flight_price-notatki.md`.
 - Wynik (I–XII, zł): 1 700 / 1 700 / 1 700 / 1 700 / 2 000 / 2 000 / 2 500 / 2 200 / 1 400 / 2 000 / 1 700 / 1 700.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Djerba). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 3, 4, 6, 8, 9, 10, 11, 10, 8, 6, 4, 3. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Wszystkie miesiące to odczyty liczbowe – bez modelu.
+- Model (I–XII, kontrola): 2,8 / 4,1 / 5,9 / 7,7 / 9,2 / 10,3 / 10,7 / 9,9 / 8,0 / 5,6 / 3,5 / 2,6.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 295 DU): 3,8–4,3; model na 1.11 przy ozonie klimatologicznym (280 DU): 4,4.
+- Wynik (I–XII): 3, 4, 6, 8, 9, 10, 11, 10, 8, 6, 4, 3.

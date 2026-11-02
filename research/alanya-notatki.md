@@ -46,3 +46,13 @@ Ok. 0 wyszukiwań i 20 pobranych stron. Nieudane: BestDateWeather Alanya.
 - **flight_price (szacunek):** KAYAK.pl: II 719, VII 1 251, VIII 1 239; najtaniej II, najdrożej VII; średnia 12 mies. 1 051 zł; typowo 849–1 270 zł + bagaż 300.
 - Brakujące miesiące wyliczone według sezonu lokalnego (H: między średnią a najdroższym, M: średnia, L: między średnią a najtańszym); wartości poza zakresem typowych cen o ponad 15% przycięte. Szczegóły metody: `kolumna-flight_price-notatki.md`.
 - Wynik (I–XII, zł): 1 200 / 1 000 / 1 200 / 1 400 / 1 400 / 1 500 / 1 600 / 1 500 / 1 500 / 1 400 / 1 200 / 1 200.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Alanya). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 2, 3, 5, 7, 9, 10, 11, 10, 7, 5, 3, 2. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Wszystkie miesiące to odczyty liczbowe – bez modelu.
+- Model (I–XII, kontrola): 2,3 / 3,5 / 5,2 / 7,1 / 8,8 / 10,0 / 10,4 / 9,5 / 7,4 / 5,0 / 2,9 / 2,1.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 292 DU): 3,5–3,8; model na 1.11 przy ozonie klimatologicznym (283 DU): 3,8.
+- Wynik (I–XII): 2, 3, 5, 7, 9, 10, 11, 10, 7, 5, 3, 2.

@@ -23,3 +23,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 - **flight_price (szacunek):** + 300 zł za bagaż (tanie linie), jak Corralejo.
 - **transfer = 0,5 h:** lotnisko LPA – Maspalomas ok. 30 km.
 - **local_season:** H I–III, XI–XII, VIII; M IV, VII, X; L V–VI, IX.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Maspalomas). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 4, 6, 8, 9, 10, 11, 11, 11, 9, 7, 5, 4. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Wszystkie miesiące to odczyty liczbowe – bez modelu.
+- Model (I–XII, kontrola): 4,5 / 6,2 / 8,2 / 9,8 / 10,6 / 11,1 / 11,2 / 10,9 / 9,4 / 7,2 / 5,1 / 4,1.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 286 DU): 5,2–6,1; model na 1.11 przy ozonie klimatologicznym (268 DU): 6,0.
+- Wynik (I–XII): 4, 6, 8, 9, 10, 11, 11, 11, 9, 7, 5, 4.

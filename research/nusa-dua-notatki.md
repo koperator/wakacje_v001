@@ -64,3 +64,13 @@ Ok. 8 wyszukiwań i 27 pobranych stron. Nieudane: BestDateWeather Nusa Dua, KAYA
 - **flight_price (szacunek):** KAYAK.pl: IV 4 068, VII 5 522, VIII 5 170; najtaniej IV, najdrożej VII; średnia 12 mies. 4 334 zł; typowo 3 966–5 032 zł.
 - Brakujące miesiące wyliczone według sezonu lokalnego (H: między średnią a najdroższym, M: średnia, L: między średnią a najtańszym); wartości poza zakresem typowych cen o ponad 15% przycięte. Szczegóły metody: `kolumna-flight_price-notatki.md`.
 - Wynik (I–XII, zł): 4 300 / 4 200 / 4 200 / 4 100 / 4 300 / 4 900 / 5 500 / 5 200 / 4 300 / 4 300 / 4 200 / 4 900.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Nusa Dua). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 11+, 11+, 11+, 11+, 10, 9, 10, 11+, 11+, 11+, 11+, 11+. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące I, II, III, IV, VIII, IX, X, XI, XII – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,019, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 13,9 / 14,8 / 14,6 / 12,6 / 10,3 / 9,1 / 9,5 / 11,2 / 13,1 / 14,0 / 13,8 / 13,5.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 263 DU): 13,9–14,4; model na 1.11 przy ozonie klimatologicznym (270 DU): 14,0.
+- Wynik (I–XII): 14, 15, 15, 13, 10, 9, 10, 12, 13, 14, 14, 13.

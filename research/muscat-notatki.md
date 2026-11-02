@@ -24,3 +24,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 
 - **holidays:** Ramadan w I–III „zależnie od roku”. W Omanie zasady są surowsze niż w Dubaju: restauracje poza hotelami zamknięte w dzień.
 - **Pominięte:** cyklony (bardzo rzadkie).
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Maskat). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 6, 8, 11, 11+, 11+, 11+, 11+, 11+, 11, 9, 7, 6. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące IV, V, VI, VII, VIII – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,017, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 6,3 / 8,2 / 10,4 / 11,9 / 12,1 / 12,2 / 12,2 / 12,2 / 11,0 / 8,7 / 6,7 / 5,7.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 264 DU): 7,3–7,6; model na 1.11 przy ozonie klimatologicznym (263 DU): 7,6.
+- Wynik (I–XII): 6, 8, 11, 12, 12, 12, 12, 12, 11, 9, 7, 6.

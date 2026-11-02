@@ -32,3 +32,13 @@ Brak. Nyepi zamyka lotnisko na Bali na 24 h (przesiadka przez Denpasar), ale nie
 ## Przegląd 2026-10-17 (rozwiązanie uwag)
 - **Pogoda z Bali:** zostaje (brak norm stacji Lombok w dostępnych źródłach), szacunek.
 - **Ceny (najdrożej styczeń):** zostają zgodnie z danymi KAYAK.pl – w I drożeje cała trasa przez Bali (ferie i Nowy Rok).
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Kuta (Lombok)). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 11+, 11+, 11+, 11+, 11, 9, 10, 11+, 11+, 11+, 11+, 11+. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące I, II, III, IV, VIII, IX, X, XI, XII – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,028, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 14,0 / 14,9 / 14,7 / 12,7 / 10,3 / 9,1 / 9,5 / 11,3 / 13,2 / 14,1 / 13,9 / 13,6.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 264 DU): 13,9–14,7; model na 1.11 przy ozonie klimatologicznym (270 DU): 14,1.
+- Wynik (I–XII): 14, 15, 15, 13, 11, 9, 10, 12, 13, 14, 14, 14.

@@ -79,3 +79,13 @@ Data sprawdzenia: 2026-10-04. Uwagi z tabeli kierunków: brak.
 - **flight_price (szacunek):** KAYAK.pl: III 911, IV 1 520, VIII 1 841; najtaniej III, najdrożej VIII; średnia 12 mies. 1 074 zł; typowo 806–1 497 zł + bagaż 300.
 - Brakujące miesiące wyliczone według sezonu lokalnego (H: między średnią a najdroższym, M: średnia, L: między średnią a najtańszym); wartości poza zakresem typowych cen o ponad 15% przycięte. Szczegóły metody: `kolumna-flight_price-notatki.md`.
 - Wynik (I–XII, zł): 1 700 / 1 700 / 1 200 / 1 800 / 1 300 / 1 300 / 1 400 / 2 000 / 1 400 / 1 400 / 1 700 / 1 700.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Corralejo). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 4, 6, 8, 9, 10, 11, 11, 11, 9, 7, 5, 4. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Wszystkie miesiące to odczyty liczbowe – bez modelu.
+- Model (I–XII, kontrola): 4,2 / 5,8 / 7,8 / 9,6 / 10,4 / 11,1 / 11,2 / 10,8 / 9,3 / 7,0 / 4,8 / 3,9.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 283 DU): 5,1–5,9; model na 1.11 przy ozonie klimatologicznym (270 DU): 5,8.
+- Wynik (I–XII): 4, 6, 8, 9, 10, 11, 11, 11, 9, 7, 5, 4.

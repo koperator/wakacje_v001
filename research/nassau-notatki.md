@@ -39,3 +39,13 @@ KAYAK.pl: V 2 886 zł (najtaniej), VIII 5 558 zł, VI 7 069 zł (najdrożej, prz
 
 ## Przegląd 2026-10-17 (rozwiązanie uwag)
 - **Cena lipca:** zostaje według reguły uzupełniania (sezon M = średnia).
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Nassau). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 6, 8, 10, 11, 11, 11, 11, 11, 10, 8, 6, 5. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Wszystkie miesiące to odczyty liczbowe – bez modelu.
+- Model (I–XII, kontrola): 5,6 / 7,4 / 9,6 / 11,2 / 11,4 / 11,5 / 11,5 / 11,4 / 10,2 / 8,1 / 6,0 / 5,1.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 265 DU): 6,6–7,3; model na 1.11 przy ozonie klimatologicznym (263 DU): 6,9.
+- Wynik (I–XII): 6, 8, 10, 11, 11, 11, 11, 11, 10, 8, 6, 5.

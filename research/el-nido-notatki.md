@@ -37,3 +37,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 
 1. Pogoda ze stacji Coron, wiatr z modelu dla Puerto Princesa.
 2. Poziom 2 habagat bez źródła dla samego El Nido.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (El Nido). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 10, 10. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące II, III, IV, V, VI, VII, VIII, IX, X – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,015, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 10,4 / 12,2 / 13,6 / 13,9 / 13,2 / 12,6 / 12,8 / 13,5 / 13,2 / 11,7 / 10,4 / 9,7.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 268 DU): 10,3–11,1; model na 1.11 przy ozonie klimatologicznym (262 DU): 11,0.
+- Wynik (I–XII): 11, 12, 14, 14, 13, 13, 13, 13, 13, 12, 10, 10.

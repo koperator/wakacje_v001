@@ -70,3 +70,13 @@ Ok. 6 wyszukiwań i 22 pobrane strony. Nieudane: WMO WWIS (strona główna bez d
 - **flight_price (szacunek):** KAYAK.pl nie podaje średniej ani median; mediany z ofert na stronie: XI 4 550 zł, XII 5 063 zł; typowo 4 970–6 525 zł (średnia przyjęta jako środek zakresu).
 - Brakujące miesiące wyliczone według sezonu lokalnego (H: między średnią a najdroższym, M: średnia, L: między średnią a najtańszym); wartości poza zakresem typowych cen o ponad 15% przycięte. Szczegóły metody: `kolumna-flight_price-notatki.md`.
 - Wynik (I–XII, zł): 5 400 / 5 400 / 5 700 / 5 700 / 5 100 / 5 100 / 5 100 / 5 100 / 5 100 / 5 100 / 4 600 / 5 100.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Kompong Som (Sihanoukville)). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące II, III, IV, V, VI, VII, VIII, IX, X – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,017, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 10,6 / 12,3 / 13,7 / 14,0 / 13,2 / 12,5 / 12,8 / 13,5 / 13,3 / 11,8 / 10,5 / 9,8.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 263 DU): 10,7–11,2; model na 1.11 przy ozonie klimatologicznym (262 DU): 11,2.
+- Wynik (I–XII): 11, 12, 14, 14, 13, 13, 13, 13, 13, 12, 11, 10.

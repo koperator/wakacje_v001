@@ -35,3 +35,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 
 1. Cała pogoda z Kota Bharu, UV z Koh Samui, wiatr z modelu.
 2. Czas lotu i ceny bez danych dla samej trasy WAW–KBR.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Perhentian Islands). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 11+, 11+, 11+, 11+, 11+, 11, 11+, 11+, 11+, 11+, 11+, 11. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące I, II, III, IV, V, VII, VIII, IX, X, XI – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,003, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 11,6 / 13,1 / 14,2 / 13,9 / 12,5 / 11,5 / 11,8 / 12,8 / 13,3 / 12,4 / 11,4 / 10,9.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 270 DU): 10,9–12,2; model na 1.11 przy ozonie klimatologicznym (266 DU): 11,9.
+- Wynik (I–XII): 12, 13, 14, 14, 13, 11, 12, 13, 13, 12, 12, 11.

@@ -35,3 +35,13 @@ Sprawdzono: 2026-10-16. Prompt A, jeden przebieg.
 
 ## Przegląd 2026-10-17 (rozwiązanie uwag)
 - **Flaga cyklonów zamieniona na „fale i prądy” (poziom 1, II–III):** skutkiem na plaży są wielkie fale i zamknięte kąpieliska, a deszcz jest już w kolumnie opadu. Flaga kąpielowa, więc wyłącza się razem z przełącznikiem flag kąpielowych. Uwaga 2 rozwiązana.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Gold Coast). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 11+, 11+, 11, 7, 5, 4, 4, 5, 7, 10, 11, 11+. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące I, II, XII – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 0,957, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 13,1 / 12,5 / 10,6 / 7,3 / 4,7 / 3,6 / 3,7 / 5,2 / 7,5 / 10,0 / 11,7 / 12,8.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 295 DU): 10,8–11,9; model na 1.11 przy ozonie klimatologicznym (298 DU): 11,0.
+- Wynik (I–XII): 13, 12, 11, 7, 5, 4, 4, 5, 7, 10, 11, 13.

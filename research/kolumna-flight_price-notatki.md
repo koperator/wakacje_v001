@@ -78,3 +78,43 @@ Typowe ceny dla scenariusza „ok. 2 tygodnie, z bagażem, zakup 2–3 miesiące
 1. **Sezonowość wyliczonych miesięcy** opiera się na sezonie lokalnym, nie na popycie w Polsce.
 2. **Dopłata za bagaż tylko dla tras krótkich;** na trasach dalekich zakładam bagaż w taryfie.
 3. **Waga 1** – do decyzji. Przy formatce domyślnej wszystkie trasy dalekie (ok. 3 000–6 000 zł) tracą część punktów, a Bora Bora (ok. 12 000–16 000 zł) dostaje 0.
+
+## Etap 3 (2026-10-26): 33 nowe kierunki
+
+Ta sama metoda. Trasa i odczyty KAYAK w źródłach kierunku; przy braku strony KAYAK (Manama, Saïdia, Bocas del Toro, Margarita) poziom szacunkowy z opisem w notatce kierunku.
+
+| Kierunek | Trasa | Odczyty | Średnia | Typowo | Bagaż +300 | Wynik I–XII (zł) |
+|---|---|---|---|---|---|---|
+| Durrës (plaża Golem / Shkëmbi i Kavajës) | Warszawa – Tirana | I 228, VII 723, IX 746 | 627 | 451–816 | – | 400 / 500 / 500 / 500 / 500 / 600 / 700 / 700 / 700 / 500 / 500 / 500 |
+| Manama (Bahrajn) | Warszawa – Bahrajn | – | 2300 | 1900–3000 | – | 3000 / 2700 / 2700 / 2300 / 2100 / 2100 / 2100 / 2100 / 1900 / 2300 / 2700 / 2700 |
+| Salvador (Barra / Rio Vermelho), Bahia | Warszawa – Salvador | XI 4289, XII 7286 | 5654 | 4794–7288 | – | 6500 / 6500 / 5700 / 5000 / 5000 / 5000 / 6500 / 5000 / 5000 / 5700 / 4300 / 7300 |
+| Cumbuco (Fortaleza), Ceará | Warszawa – Fortaleza | III 3674, XII 7166 | 5389 | 4549–6172 | – | 6200 / 5400 / 3900 / 4600 / 4600 / 4600 / 6200 / 6200 / 6200 / 6200 / 5400 / 7100 |
+| Istria (Rovinj / Poreč) | Warszawa – Pula | VIII 990, IX 1826 | 1093 | 974–1505 | – | 1000 / 1000 / 1000 / 1000 / 1100 / 1100 / 1400 / 1000 / 1700 / 1000 / 1000 / 1000 |
+| Split (Dalmacja Środkowa) | Warszawa – Split | II 1426, V 746, XI 1320 | 898 | 685–1206 | – | 800 / 1400 / 800 / 800 / 700 / 900 / 1100 / 1100 / 900 / 800 / 1300 / 800 |
+| Budva (Riwiera Budvańska) | Warszawa – Podgorica | III 658, XI 1465, XII 946 | 856 | 688–1075 | – | 800 / 800 / 700 / 800 / 900 / 900 / 1000 / 1000 / 900 / 800 / 1200 / 900 |
+| El Alamein (Riwiera Śródziemnomorska) | Warszawa – Kair | VI 1035, VII 1883, VIII 1650 | 1298 | 1082–1694 | – | 1200 / 1200 / 1200 / 1200 / 1200 / 1000 / 1900 / 1700 / 1300 / 1200 / 1200 / 1200 |
+| Kololi (Senegambia Strip) | Warszawa – Banjul | VI 4406, IX 4367, XI 2105 | 2958 | 2261–4143 | – | 3700 / 3700 / 3700 / 3000 / 2500 / 4400 / 2500 / 2500 / 4400 / 3000 / 2100 / 3700 |
+| Attyka – Riwiera Ateńska (Glyfada / Vouliagmeni) | Warszawa – Ateny | I 591, VIII 891, IX 883 | 764 | 611–993 | – | 600 / 700 / 700 / 800 / 800 / 800 / 800 / 900 / 900 / 800 / 700 / 700 |
+| Samos (Pythagoreio / Kokkari) | Warszawa – Samos | V 720, VIII 2487 | 1306 | 721–1826 | – | 1000 / 1000 / 1000 / 1000 / 700 / 1700 / 1700 / 2100 / 1300 / 1000 / 1000 / 1000 |
+| Batumi (Adżaria) | Warszawa – Kutaisi | II 357, VII 1141, VIII 1235 | 778 | 521–1121 | tak | 900 / 700 / 900 / 900 / 1100 / 1300 / 1400 / 1500 / 1100 / 900 / 900 / 900 |
+| Barcelona (plaże Barceloneta / Costa del Maresme) | Warszawa – Barcelona | II 570, V 750, VIII 790 | 707 | 524–951 | – | 600 / 600 / 700 / 700 / 800 / 700 / 700 / 800 / 700 / 700 / 600 / 700 |
+| Costa Blanca (Benidorm) | Warszawa – Alicante | I 524, VII 920, XII 897 | 749 | 565–978 | tak | 800 / 1000 / 1000 / 1000 / 1000 / 1100 / 1200 / 1100 / 1000 / 1000 / 900 / 1200 |
+| Costa del Sol (Torremolinos / Benalmádena) | Warszawa – Malaga | I 636, IV 813, VII 864 | 766 | 604–1017 | – | 600 / 700 / 800 / 800 / 800 / 800 / 900 / 800 / 800 / 800 / 700 / 700 |
+| Doha | Warszawa – Doha | V 3632, X 2588, XI 3613 | 3087 | 2607–3759 | – | 3400 / 3400 / 3400 / 3100 / 3600 / 2800 / 2800 / 2800 / 2800 / 2600 / 3600 / 3400 |
+| Agadir | Warszawa – Agadir | VII 1560, VIII 2210, X 623 | 957 | 643–1286 | tak | 1500 / 1500 / 1500 / 1300 / 1100 / 1100 / 1800 / 1800 / 1300 / 900 / 1500 / 1500 |
+| Saïdia (wybrzeże śródziemnomorskie) | Warszawa – Oujda | – | 1500 | 1100–2100 | – | 1300 / 1100 / 1300 / 1300 / 1300 / 1500 / 1800 / 2100 / 1500 / 1300 / 1300 / 1300 |
+| Puerto Vallarta (Zatoka Banderas) | Warszawa – Puerto Vallarta | II 3570, IV 7599 | 4571 | 4240–5128 | – | 5200 / 3600 / 5200 / 5900 / 4100 / 4100 / 4600 / 4100 / 4100 / 4100 / 4600 / 5200 |
+| Bocas del Toro (Isla Colón) | Warszawa – Panama + lot krajowy do Bocas del Toro | I 4311, III 5795, XII 5823 | 5143 | 4569–5956 | – | 4300 / 5500 / 5800 / 5500 / 4700 / 4700 / 5100 / 5100 / 4700 / 4700 / 4700 / 5800 |
+| Playa Blanca (Río Hato, wybrzeże Pacyfiku) | Warszawa – Panama | I 3511, III 4995, XII 5023 | 4343 | 3769–5156 | – | 3500 / 4700 / 5000 / 4700 / 3900 / 3900 / 3900 / 3900 / 3900 / 3900 / 3900 / 5000 |
+| Azory (São Miguel, Ponta Delgada) | Warszawa – Ponta Delgada | III 1381, V 2269, VIII 2206 | 1698 | 1430–2278 | – | 1500 / 1500 / 1400 / 1500 / 2300 / 2000 / 2000 / 2200 / 1700 / 1500 / 1500 / 1500 |
+| Saly (Petite Côte) | Warszawa – Dakar | II 2647, VIII 6472, IX 4123 | 3854 | 3416–4198 | – | 4300 / 2900 / 4300 / 3900 / 3400 / 3400 / 3400 / 4800 / 4100 / 3900 / 4300 / 4300 |
+| Pattaya / Jomtien | Warszawa – Bangkok | V 2973, VII 3518, XII 3806 | 3394 | 2952–3927 | – | 3600 / 3600 / 3600 / 3400 / 3000 / 3200 / 3500 / 3200 / 3200 / 3400 / 3600 / 3800 |
+| Sousse / Port El Kantaoui | Warszawa – Tunis | I 1037, IX 1794, XII 1989 | 1479 | 1113–1819 | – | 1000 / 1300 / 1300 / 1300 / 1500 / 1500 / 1700 / 1700 / 1800 / 1500 / 1300 / 2000 |
+| Bodrum (półwysep Bodrum) | Warszawa – Bodrum | IV 3547, VII 3143, XI 1666 | 2362 | 1766–3078 | – | 2000 / 2000 / 2000 / 3500 / 2400 / 3000 / 3100 / 3000 / 3000 / 2400 / 1700 / 2000 |
+| Kuşadası | Warszawa – Izmir | II 774, VII 1471, VIII 1276 | 964 | 813–1280 | tak | 1200 / 1100 / 1200 / 1200 / 1300 / 1500 / 1800 / 1600 / 1300 / 1300 / 1200 / 1200 |
+| Isla Margarita (Playa El Agua / Pampatar) | Warszawa – Porlamar (Isla Margarita) | – | 8400 | 7600–8500 | – | 8500 / 8500 / 8400 / 8400 / 8000 / 8000 / 8400 / 8400 / 7600 / 8000 / 8000 / 8500 |
+| Mui Ne (Phan Thiet) | Warszawa – Ho Chi Minh | V 3282, VII 3888, VIII 3837 | 3408 | 3004–3931 | – | 3600 / 3600 / 3600 / 3400 / 3300 / 3300 / 3900 / 3800 / 3300 / 3300 / 3400 / 3600 |
+| Nha Trang | Warszawa – Nha Trang (Cam Ranh) | V 5384, VI 3142, XII 7249 | 4235 | 3604–6915 | – | 5700 / 5700 / 4200 / 4200 / 5400 / 3100 / 5700 / 5700 / 4200 / 3700 / 3700 / 7200 |
+| Apulia (Monopoli / Polignano a Mare) | Warszawa – Bari | I 302, IX 676, XII 691 | 567 | 423–744 | tak | 700 / 800 / 800 / 800 / 900 / 900 / 900 / 900 / 1000 / 800 / 800 / 1000 |
+| Kampania (Sorrento / Zatoka Neapolitańska) | Warszawa – Neapol | VI 518, VII 701, XI 946 | 614 | 471–827 | tak | 900 / 900 / 900 / 900 / 900 / 800 / 1000 / 1100 / 900 / 900 / 1200 / 900 |
+| Rimini (Riwiera Adriatycka) | Warszawa – Bolonia | II 330, IX 628, XII 640 | 508 | 345–713 | tak | 700 / 600 / 700 / 700 / 800 / 900 / 900 / 900 / 900 / 700 / 700 / 900 |

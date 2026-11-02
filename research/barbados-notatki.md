@@ -50,3 +50,13 @@ Ok. 3 wyszukiwania i 22 pobrane strony. Nieudane: KAYAK, Virgin Atlantic (brak d
 - **flight_price (szacunek):** KAYAK.pl: III 3 400, XII 4 472; najtaniej III, najdrożej XII; średnia 12 mies. 3 938 zł; typowo 3 433–4 412 zł.
 - Brakujące miesiące wyliczone według sezonu lokalnego (H: między średnią a najdroższym, M: średnia, L: między średnią a najtańszym); wartości poza zakresem typowych cen o ponad 15% przycięte. Szczegóły metody: `kolumna-flight_price-notatki.md`.
 - Wynik (I–XII, zł): 4 200 / 4 200 / 3 400 / 4 200 / 3 900 / 3 900 / 3 900 / 3 700 / 3 700 / 3 700 / 3 900 / 4 500.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Barbados). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 10, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10, 9. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące II, III, IV, V, VI, VII, VIII, IX – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,006, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 9,8 / 11,6 / 13,1 / 13,7 / 13,2 / 12,8 / 13,0 / 13,4 / 12,9 / 11,3 / 9,8 / 9,1.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 263 DU): 10,2–10,7; model na 1.11 przy ozonie klimatologicznym (260 DU): 10,5.
+- Wynik (I–XII): 10, 12, 13, 14, 13, 13, 13, 13, 13, 11, 10, 9.

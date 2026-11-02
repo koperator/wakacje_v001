@@ -51,3 +51,13 @@ Ok. 4 wyszukiwania i ok. 24 pobrane strony. Nieudane: seatemperatu.re (Hoi An).
 
 1. **Normy Da Nang bez podanego okresu.**
 2. **Zimą (XII–II) chłodno i pochmurno** (maks. ok. 25 °C, morze 23 °C, UV 3–5), więc to kierunek letni, odwrotnie niż reszta Azji Płd.-Wsch.
+
+## Przegląd UV 2026-10-27
+
+Kolumna UV wymieniona: poprzednie wartości (BestDateWeather / Open-Meteo, „średni” UV z zachmurzeniem, kończące się na 8–9) były zaniżone. Teraz: maksymalny dzienny indeks UV dla czystego nieba w południe – klimatologia TEMIS (KNMI) z weather2travel (Hoi An). Pełne przeliczenie 2026-10-28 (metoda: `kolumna-uv-notatki.md`, sekcja „Pełne przeliczenie”).
+
+- Odczyt weather2travel (I–XII): 9, 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 9, 9. Odczyty liczbowe (także „11”) przyjęte wprost.
+- Miesiące III, IV, V, VI, VII, VIII, IX – strona pokazuje „11+” (co najmniej 11,5); wartość z modelu KNMI (Allaart i in. 2004) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca 1,012, ozon dopasowany do odczytów TEMIS i bieżącego ozonu; szacunek, nie mniej niż 12.
+- Model (I–XII, kontrola): 9,0 / 10,9 / 12,6 / 13,4 / 13,2 / 13,0 / 13,2 / 13,4 / 12,6 / 10,7 / 9,1 / 8,3.
+- Bieżąca prognoza TEMIS 28.10–2.11.2026 (czyste niebo, prawdziwy ozon 265 DU): 9,4–9,6; model na 1.11 przy ozonie klimatologicznym (259 DU): 9,9.
+- Wynik (I–XII): 9, 11, 13, 13, 13, 13, 13, 13, 13, 11, 9, 9.
