@@ -7,7 +7,30 @@ const DEFAULT_SETTINGS = {
   flagPenalty: 10,
   swimFlags: true,
   seasonThresholds: { low: 50, high: 70 },
-  filters: { hideLevel3: false, maxFlightTime: null, maxStops: null, minCoverage: null, minScore: null },
+  // categories: { id kolumny category/tags: wybrane wartości } – pusta lista albo brak klucza = bez filtra;
+  // tagMode: all = kierunek ma wszystkie wybrane tagi, any = choć jeden; ranges: { id kolumny liczbowej/skali: { min, max } };
+  // packageOnly: tylko kierunki z ofertą wczasów (package_price) w miesiącu.
+  filters: {
+    hideLevel3: false, maxFlightTime: null, maxStops: null, minCoverage: null, minScore: null, maxTripCost: null,
+    categories: {}, tagMode: 'all', ranges: {}, packageOnly: false,
+  },
+  // Kierunki wyłączone ręcznie (id) – ukryte w tabeli i na wykresach.
+  excluded: [],
+  // Poziom widoku: 1 beginner (najprostsze kolumny), 2 advanced, 3 master (wszystkie). Tylko pokazywanie, nie wynik.
+  viewLevel: 2,
+  // Skład wyjazdu i długość pobytu (kalkulator kosztu wyjazdu).
+  // mode: self = na własną rękę (lot + nocleg + wydatki), package = wczasy z biurem (kolumna package_price).
+  trip: { adults: 2, children: 0, infants: 0, nights: 14, mode: 'self' },
+  // Umowne stawki kalkulatora. lodging: pokój na noc, daily: dorosły na dzień – dla poziomów cen na miejscu 1–5 (zł).
+  // extras: % od pobytu (nocleg + wydatki) dla zwiedzania 1 i 5, liniowo pomiędzy.
+  costs: {
+    ticketFactor: 0.85, infantTicket: 0, childDaily: 0.5,
+    // Wczasy z biurem: dziecko 2–11 jako udział ceny dorosłego, niemowlę – stała opłata (zł).
+    childPackage: 0.6, infantPackage: 300,
+    lodging: [200, 300, 500, 750, 1200], daily: [120, 180, 280, 420, 650], extras: [10, 25],
+    // Mnożnik noclegu według sezonu lokalnego miesiąca (szczyt drożej, niski sezon taniej).
+    season: { H: 1.25, M: 1, L: 0.85 },
+  },
 };
 const COLUMN_ID = /^[a-z0-9_]+$/;
 export const DEST_ID = /^[a-z0-9-]+$/;
@@ -15,6 +38,13 @@ export const DEST_ID = /^[a-z0-9-]+$/;
 export const isObj = x => typeof x === 'object' && x !== null && !Array.isArray(x);
 const isNum = x => typeof x === 'number' && Number.isFinite(x);
 export const isScoring = col => col?.type === 'number' || col?.type === 'scale';
+// Kolumny z listą dozwolonych wartości (values): jedna wartość (category) albo lista (tags). Filtrowane, nie punktowane.
+export const isChoice = col => col?.type === 'category' || col?.type === 'tags';
+// Poziom widoku kolumny (pole level w rejestrze, 1–3); brak = 3, czyli tylko w widoku master.
+export const VIEW_LEVELS = [1, 2, 3];
+export const colLevel = col => (VIEW_LEVELS.includes(col?.level) ? col.level : 3);
+// Kolumny, które można filtrować zakresem od–do.
+export const isRangeable = col => isScoring(col);
 
 // Wartość w danych: zwykła | {est: x} | "na" | null/brak klucza.
 export function parseValue(raw) {
@@ -122,9 +152,25 @@ export function score(dest, month, columns, flagTypes, profile, weatherOnly = fa
 
 // Filtry z profilu dla kierunku w miesiącu; res = wynik score() dla tego miesiąca.
 // Brak danych (albo błędna wartość) nie odrzuca kierunku: filtr trafia do listy unchecked i strona to oznacza.
-export const FILTER_COLUMNS = { maxFlightTime: 'flight_time', maxStops: 'stops' };
+// Wyjątek: "na" w kolumnie z naLabel (brak oferty) odrzuca.
+export const FILTER_COLUMNS = { maxFlightTime: 'flight_time', maxStops: 'stops', maxTripCost: 'trip_cost' };
+export const PACKAGE_PRICE = 'package_price';
+// Wartości kolumny category/tags w kierunku: lista (category – jedna pozycja) albo null, gdy brak danych lub błędna wartość.
+export function choiceValues(dest, col) {
+  const p = parseValue(rawValue(dest, col, 0));
+  if (p.kind !== 'value' && p.kind !== 'est') return null;
+  const list = col.type === 'tags' ? p.v : [p.v];
+  return Array.isArray(list) && list.every(v => Array.isArray(col.values) && col.values.includes(v)) ? list : null;
+}
+// Liczba z kolumny (zwykła albo szacunek) albo null; "na" osobno.
+const numberIn = (dest, col, month) => {
+  const p = parseValue(rawValue(dest, col, month));
+  return { na: p.kind === 'na', v: (p.kind === 'value' || p.kind === 'est') && validNumber(col, p.v) ? p.v : null };
+};
+// unchecked: klucze filtrów bez danych – maxFlightTime itd., 'minScore', 'packageOnly', 'cat:<id>', 'range:<id>'.
 export function checkFilters(dest, month, res, columns, f) {
   const unchecked = [];
+  const colOf = id => columns.find(c => c?.id === id);
   if (f.hideLevel3 && res.flags.some(x => x.level === 3)) return { pass: false, unchecked };
   if (f.minCoverage != null && res.coverage != null && res.coverage * 100 + 1e-9 < f.minCoverage) return { pass: false, unchecked };
   // Wynik jak pokazywany (zaokrąglony do całości); brak wyniku nie odrzuca kierunku.
@@ -137,10 +183,148 @@ export function checkFilters(dest, month, res, columns, f) {
     const col = columns.find(c => c?.id === id);
     const p = col ? parseValue(rawValue(dest, col, month)) : { kind: 'missing' };
     const v = (p.kind === 'value' || p.kind === 'est') && validNumber(col, p.v) ? p.v : null;
+    // "na" w kolumnie z naLabel (np. koszt wyjazdu: brak oferty) odrzuca – takiego wyjazdu nie da się kupić.
+    if (p.kind === 'na' && typeof col?.naLabel === 'string') return { pass: false, unchecked };
     if (v == null) unchecked.push(key);
     else if (v > f[key]) return { pass: false, unchecked };
   }
+  // Kategorie i tagi: wartość spoza wyboru odrzuca; brak danych – niesprawdzony.
+  for (const [id, sel] of Object.entries(isObj(f.categories) ? f.categories : {})) {
+    const col = colOf(id);
+    if (!isChoice(col) || !Array.isArray(sel) || !sel.length) continue;
+    const vals = choiceValues(dest, col);
+    if (vals == null) { unchecked.push(`cat:${id}`); continue; }
+    const ok = col.type === 'category' ? sel.includes(vals[0])
+      : f.tagMode === 'any' ? sel.some(t => vals.includes(t)) : sel.every(t => vals.includes(t));
+    if (!ok) return { pass: false, unchecked };
+  }
+  // Zakresy od–do: "na" (nie dotyczy, brak oferty) odrzuca – np. „woda od 24” bez morza.
+  for (const [id, r] of Object.entries(isObj(f.ranges) ? f.ranges : {})) {
+    const col = colOf(id);
+    if (!isRangeable(col) || !isObj(r) || (r.min == null && r.max == null)) continue;
+    const { na, v } = numberIn(dest, col, month);
+    if (na) return { pass: false, unchecked };
+    if (v == null) { unchecked.push(`range:${id}`); continue; }
+    if ((r.min != null && v < r.min) || (r.max != null && v > r.max)) return { pass: false, unchecked };
+  }
+  if (f.packageOnly) {
+    const col = colOf(PACKAGE_PRICE);
+    const { na, v } = col ? numberIn(dest, col, month) : { na: false, v: null };
+    if (na) return { pass: false, unchecked };
+    if (v == null) unchecked.push('packageOnly');
+  }
   return { pass: true, unchecked };
+}
+
+// ---------- kalkulator kosztu wyjazdu ----------
+// Rząd wielkości kosztu całej grupy w miesiącu (zł). Liczony z ceny lotu w miesiącu, poziomu cen na miejscu (1–5)
+// i zwiedzania (1–5) według umownych stawek z profilu (costs) i składu wyjazdu (trip).
+// Bilety: korzystny zakup = cena miesiąca × ticketFactor, ale nie mniej niż cena najtańszego miesiąca kierunku
+// (to ok. dolna granica typowych cen), × (dorośli + dzieci) + infantTicket × niemowlęta.
+// Nocleg: stawka poziomu × mnożnik sezonu lokalnego miesiąca (season.H/M/L; brak sezonu = 1) × pokoje × noce.
+// Pokoje: dorośli / 2 w górę, ale najwyżej 4 osoby (dorośli + dzieci) na pokój, co najmniej 1.
+// Wydatki: jedzenie i transport lokalny – stawka poziomu × (dorośli + childDaily × dzieci) × noce.
+// Dodatkowe (wycieczki itp.): % od noclegu i wydatków, od extras[0] przy zwiedzaniu 1 do extras[1] przy 5.
+// Brak ceny lotu albo poziomu cen: null i lista brakujących kolumn; brak zwiedzania: środek zakresu %.
+// Tryb „z biurem” (trip.mode = package): cena wczasów miesiąca (package_price, za 7 nocy) zamiast lotu, noclegu i wydatków.
+// Inna liczba nocy: część stała (bilet jak wyżej, najwyżej połowa ceny wczasów; bez ceny lotu 40%) + reszta × noce / 7.
+// Dziecko: childPackage × cena dorosłego; niemowlę: infantPackage. Dodatkowe (wycieczki): ten sam % co na własną rękę,
+// od noclegu i wydatków liczonych jak na własną rękę (bez poziomu cen: od części hotelowej wczasów).
+// Brak oferty (package_price = "na") albo brak danych: null, missing = ['package_price'], noOffer dla "na".
+export const TRIP_COST = 'trip_cost';
+const numOf = (col, raw) => {
+  const p = parseValue(raw);
+  return (p.kind === 'value' || p.kind === 'est') && col && validNumber(col, p.v) ? p.v : null;
+};
+const extrasPct = (c, sights) => sights == null ? (c.extras[0] + c.extras[1]) / 2 : c.extras[0] + (c.extras[1] - c.extras[0]) * (sights - 1) / 4;
+export function tripCost(dest, month, profile, columns) {
+  const col = id => columns.find(c => c?.id === id);
+  const price = numOf(col('flight_price'), dest?.months?.[month]?.flight_price);
+  const level = numOf(col('local_prices'), dest?.fixed?.local_prices);
+  const sights = numOf(col('sightseeing'), dest?.fixed?.sightseeing);
+  const { adults, children, infants, nights } = profile.trip;
+  const c = profile.costs;
+  const fpCol = col('flight_price');
+  const prices = (dest?.months ?? []).map(m => numOf(fpCol, m?.flight_price)).filter(x => x != null);
+  const fare = price == null ? null : Math.max(price * c.ticketFactor, Math.min(...prices));
+  const rooms = Math.max(1, Math.ceil(adults / 2), Math.ceil((adults + children) / 4));
+  const ls = parseValue(dest?.months?.[month]?.local_season);
+  const seasonKey = ['H', 'M', 'L'].includes(ls.v) ? ls.v : null;
+  const seasonMult = seasonKey ? c.season[seasonKey] : 1;
+  const stay = level == null ? null : {
+    lodging: c.lodging[level - 1] * seasonMult * rooms * nights,
+    daily: c.daily[level - 1] * (adults + c.childDaily * children) * nights,
+  };
+  const pct = extrasPct(c, sights);
+  if (profile.trip.mode === 'package') {
+    const raw = dest?.months?.[month]?.package_price;
+    const pkg = numOf(col('package_price'), raw);
+    if (pkg == null) return { total: null, mode: 'package', missing: ['package_price'], noOffer: parseValue(raw).kind === 'na' };
+    const fixed = fare == null ? 0.4 * pkg : Math.min(fare, 0.5 * pkg);
+    const perAdult = fixed + (pkg - fixed) * nights / 7;
+    const pkgTotal = perAdult * (adults + c.childPackage * children) + c.infantPackage * infants;
+    const base = stay ? stay.lodging + stay.daily : (pkg - fixed) * nights / 7 * (adults + c.childPackage * children);
+    const extras = base * pct / 100;
+    return { total: pkgTotal + extras, mode: 'package', pkg, perAdult, pkgTotal, extras, extrasPct: pct, level, sights, missing: [] };
+  }
+  const missing = [...(price == null ? ['flight_price'] : []), ...(level == null ? ['local_prices'] : [])];
+  if (missing.length) return { total: null, mode: 'self', missing };
+  const tickets = fare * (adults + children) + c.infantTicket * infants;
+  const { lodging, daily } = stay;
+  const extras = (lodging + daily) * pct / 100;
+  return { total: tickets + lodging + daily + extras, mode: 'self', tickets, fare, lodging, daily, extras, extrasPct: pct, rooms, level, sights, seasonKey, seasonMult, missing: [] };
+}
+
+// Kierunki z wyliczoną kolumną trip_cost (tys. zł, szacunek, zaokrąglone do 0,5) – kopie, dane źródłowe bez zmian.
+// Wymaga poprawnego profilu. Bez kolumny trip_cost w rejestrze zwraca kierunki bez zmian.
+export function withTripCost(destinations, profile, columns) {
+  if (!columns.some(c => c?.id === TRIP_COST)) return destinations;
+  return destinations.map(d => {
+    if (!isObj(d) || !Array.isArray(d.months)) return d;
+    const months = d.months.map((m, i) => {
+      const r = tripCost(d, i, profile, columns);
+      const v = r.total == null ? (r.noOffer ? 'na' : null) : { est: Math.round(r.total / 500) / 2 };
+      return isObj(m) ? { ...m, [TRIP_COST]: v } : m;
+    });
+    return { ...d, months };
+  });
+}
+
+// ---------- różnica czasu ----------
+// Przesunięcie strefy czasowej (IANA, np. "Asia/Bangkok") względem UTC w godzinach w danej chwili; null dla nieznanej strefy.
+// Formatery w pamięci podręcznej: tworzenie Intl.DateTimeFormat jest kosztowne, a różnicę czasu liczy każde przeliczenie strony.
+const TZ_FORMAT = new Map();
+export function tzOffset(tz, date) {
+  try {
+    if (!TZ_FORMAT.has(tz)) TZ_FORMAT.set(tz, new Intl.DateTimeFormat('en-US', { timeZone: tz, timeZoneName: 'longOffset' }));
+    const name = TZ_FORMAT.get(tz).formatToParts(date).find(p => p.type === 'timeZoneName')?.value ?? '';
+    if (name === 'GMT') return 0;
+    const m = name.match(/^GMT([+-])(\d{2}):(\d{2})$/);
+    return m ? (m[1] === '-' ? -1 : 1) * (Number(m[2]) + Number(m[3]) / 60) : null;
+  } catch { return null; }
+}
+export const validTz = tz => typeof tz === 'string' && tzOffset(tz, new Date(0)) != null;
+export const HOME_TZ = 'Europe/Warsaw';
+export const TIME_DIFF = 'time_diff';
+// Różnica czasu miejsca (pole tz kierunku) względem Polski w połowie miesiąca (z czasem letnim po obu stronach), w godzinach.
+export function timeDiff(tz, month, year = new Date().getFullYear()) {
+  const at = new Date(Date.UTC(year, month, 15, 12));
+  const a = tzOffset(tz, at), b = tzOffset(HOME_TZ, at);
+  return a == null || b == null ? null : a - b;
+}
+
+// Kierunki z kolumnami wyliczanymi przez stronę: trip_cost (z profilu) i time_diff (z pola tz). Kopie, dane bez zmian.
+export function withComputed(destinations, profile, columns, year) {
+  const withCost = withTripCost(destinations, profile, columns);
+  if (!columns.some(c => c?.id === TIME_DIFF)) return withCost;
+  return withCost.map(d => {
+    if (!isObj(d) || !Array.isArray(d.months)) return d;
+    const months = d.months.map((m, i) => {
+      const v = validTz(d.tz) ? timeDiff(d.tz, i, year) : null;
+      return isObj(m) ? { ...m, [TIME_DIFF]: v } : m;
+    });
+    return { ...d, months };
+  });
 }
 
 // Równy progowi należy do wyższego sezonu. Porównanie po zaokrągleniu do 0,1,
@@ -167,11 +351,11 @@ export function mergeProfile(loaded, columns) {
   const ids = Object.keys(base.columns);
   const profile = { ...base };
   const addedSettings = [];
-  for (const k of ['name', 'flagPenalty', 'swimFlags']) {
+  for (const k of ['name', 'flagPenalty', 'swimFlags', 'excluded', 'viewLevel']) {
     if (loaded[k] !== undefined) profile[k] = loaded[k];
     else addedSettings.push(k);
   }
-  for (const k of ['seasonThresholds', 'filters']) {
+  for (const k of ['seasonThresholds', 'filters', 'trip', 'costs']) {
     const v = loaded[k];
     if (v === undefined) { addedSettings.push(k); continue; }
     if (!isObj(v)) { profile[k] = v; continue; }
@@ -180,6 +364,15 @@ export function mergeProfile(loaded, columns) {
       addedSettings.push(`${k}.${f}`);
       return [f, base[k][f]];
     }));
+  }
+  // Filtry kolumn, których nie ma już w rejestrze (albo zmieniły typ), i wartości spoza listy są po cichu pomijane.
+  const fl = profile.filters;
+  if (isObj(fl)) {
+    const col = id => columns.find(c => c?.id === id);
+    if (isObj(fl.categories)) fl.categories = Object.fromEntries(Object.entries(fl.categories)
+      .filter(([id]) => isChoice(col(id)))
+      .map(([id, sel]) => [id, Array.isArray(sel) ? sel.filter(v => col(id).values?.includes(v)) : sel]));
+    if (isObj(fl.ranges)) fl.ranges = Object.fromEntries(Object.entries(fl.ranges).filter(([id]) => isRangeable(col(id))));
   }
   if (loaded.columns === undefined) return { profile, added: ids, removed: [], addedSettings };
   if (!isObj(loaded.columns)) return { profile: { ...profile, columns: loaded.columns }, added: [], removed: [], addedSettings };
@@ -205,7 +398,8 @@ export const splitField = field => { const i = field.lastIndexOf('.'); return i 
 export function validateProfile(p, columns) {
   if (!isObj(p)) return [{ field: 'profile', msg: 'Profil musi być obiektem JSON.' }];
   const errs = [];
-  const err = (field, msg) => errs.push({ field, msg });
+  // also: inne pola, których dotyczy błąd (np. obie wartości w złej kolejności) – strona oznacza wszystkie.
+  const err = (field, msg, also) => errs.push(also ? { field, msg, also } : { field, msg });
   if (typeof p.name !== 'string' || !p.name.trim()) err('name', 'Profil musi mieć nazwę.');
   if (!isObj(p.columns)) err('columns', 'Pole columns musi być obiektem z ustawieniami kolumn.');
   else for (const col of columns) {
@@ -221,7 +415,7 @@ export function validateProfile(p, columns) {
     if (r.weight == null || r.weight < 0) err(at('weight'), `${col.name}: waga musi być liczbą ≥ 0.`);
     const filled = FIELDS.filter(f => r[f] != null);
     for (let i = 1; i < filled.length; i++) {
-      if (r[filled[i]] < r[filled[i - 1]]) err(at(filled[i]), `${col.name}: wymagane min ≤ ideał od ≤ ideał do ≤ max.`);
+      if (r[filled[i]] < r[filled[i - 1]]) err(at(filled[i]), `${col.name}: wymagane min ≤ ideał od ≤ ideał do ≤ max.`, [at(filled[i - 1])]);
     }
     if (r.weight > 0 && !hasSide(r))
       err(at('weight'), `${col.name}: kolumna z wagą > 0 potrzebuje co najmniej jednego pola zakresu.`);
@@ -244,6 +438,52 @@ export function validateProfile(p, columns) {
       err('filters.minCoverage', 'Filtr „pokrycie od” musi być pusty albo liczbą 0–100.');
     if (fl.minScore != null && (!isNum(fl.minScore) || fl.minScore < 0 || fl.minScore > 100))
       err('filters.minScore', 'Filtr „wynik od” musi być pusty albo liczbą 0–100.');
+    if (fl.maxTripCost != null && (!isNum(fl.maxTripCost) || fl.maxTripCost < 0))
+      err('filters.maxTripCost', 'Filtr „budżet do” musi być pusty albo liczbą ≥ 0.');
+    if (!isObj(fl.categories) || !Object.values(fl.categories).every(v => Array.isArray(v) && v.every(x => typeof x === 'string')))
+      err('filters.categories', 'Filtry kategorii muszą być obiektem: id kolumny → lista wybranych wartości.');
+    if (!['all', 'any'].includes(fl.tagMode)) err('filters.tagMode', 'Tryb tagów musi być „all” (wszystkie) albo „any” (którykolwiek).');
+    if (!isObj(fl.ranges)) err('filters.ranges', 'Filtry zakresów muszą być obiektem: id kolumny → { min, max }.');
+    else for (const [id, r] of Object.entries(fl.ranges)) {
+      const name = columns.find(c => c?.id === id)?.name ?? id;
+      if (!isObj(r) || [r.min, r.max].some(x => x != null && !isNum(x))) err(`filters.ranges.${id}`, `Filtr „${name}”: od i do muszą być puste albo liczbami.`);
+      else if (r.min != null && r.max != null && r.min > r.max) err(`filters.ranges.${id}`, `Filtr „${name}”: „od” nie może być większe niż „do”.`);
+    }
+    if (typeof fl.packageOnly !== 'boolean') err('filters.packageOnly', 'Filtr „tylko z ofertą biur” musi być tak/nie.');
+  }
+  if (!VIEW_LEVELS.includes(p.viewLevel)) err('viewLevel', 'Poziom widoku musi być 1 (beginner), 2 (advanced) albo 3 (master).');
+  if (!Array.isArray(p.excluded) || !p.excluded.every(x => typeof x === 'string'))
+    err('excluded', 'Lista wyłączonych kierunków musi być listą id.');
+  const tr = p.trip;
+  if (!isObj(tr)) err('trip', 'Pole trip musi być obiektem.');
+  else {
+    const cnt = { adults: 'dorośli', children: 'dzieci', infants: 'niemowlęta' };
+    for (const [k, label] of Object.entries(cnt))
+      if (!Number.isInteger(tr[k]) || tr[k] < 0 || tr[k] > 20) err(`trip.${k}`, `Liczba osób (${label}) musi być liczbą całkowitą 0–20.`);
+    if (!Number.isInteger(tr.nights) || tr.nights < 1 || tr.nights > 365) err('trip.nights', 'Liczba nocy musi być liczbą całkowitą 1–365.');
+    if (!['self', 'package'].includes(tr.mode)) err('trip.mode', 'Tryb wyjazdu musi być „self” (na własną rękę) albo „package” (z biurem).');
+    // Dzieci i niemowlęta nie podróżują same; kalkulator liczy pokoje i bilety od dorosłych.
+    if (Number.isInteger(tr.adults) && tr.adults < 1) err('trip.adults', 'Wyjazd potrzebuje co najmniej jednego dorosłego.');
+  }
+  const co = p.costs;
+  if (!isObj(co)) err('costs', 'Pole costs musi być obiektem.');
+  else {
+    if (!isNum(co.ticketFactor) || co.ticketFactor <= 0 || co.ticketFactor > 2) err('costs.ticketFactor', 'Mnożnik ceny biletu musi być liczbą większą od 0, najwyżej 2.');
+    if (!isNum(co.infantTicket) || co.infantTicket < 0) err('costs.infantTicket', 'Bilet niemowlęcia musi być liczbą ≥ 0 (zł).');
+    if (!isNum(co.childDaily) || co.childDaily < 0 || co.childDaily > 1) err('costs.childDaily', 'Udział dziecka w wydatkach dziennych musi być liczbą 0–1.');
+    if (!isNum(co.childPackage) || co.childPackage < 0 || co.childPackage > 1) err('costs.childPackage', 'Cena wczasów dziecka musi być udziałem ceny dorosłego 0–1.');
+    if (!isNum(co.infantPackage) || co.infantPackage < 0) err('costs.infantPackage', 'Wczasy niemowlęcia muszą być liczbą ≥ 0 (zł).');
+    for (const k of ['lodging', 'daily']) {
+      const a = co[k];
+      if (!Array.isArray(a) || a.length !== 5) { err(`costs.${k}`, 'Stawki muszą być listą 5 liczb (poziomy cen 1–5).'); continue; }
+      a.forEach((x, i) => { if (!isNum(x) || x < 0) err(`costs.${k}.${i}`, `Stawka dla poziomu ${i + 1} musi być liczbą ≥ 0.`); });
+    }
+    const sm = co.season;
+    if (!isObj(sm) || !['H', 'M', 'L'].every(k => isNum(sm[k]) && sm[k] > 0 && sm[k] <= 3))
+      err('costs.season', 'Mnożniki noclegu dla sezonu H, M i L muszą być liczbami większymi od 0, najwyżej 3.');
+    const e = co.extras;
+    if (!Array.isArray(e) || e.length !== 2 || !e.every(x => isNum(x) && x >= 0 && x <= 100))
+      err('costs.extras', 'Dodatkowe wydatki: dwie liczby 0–100 (% dla zwiedzania 1 i 5).');
   }
   return errs;
 }
@@ -291,7 +531,13 @@ export function validateData(data) {
     if (typeof c.id !== 'string' || !COLUMN_ID.test(c.id)) errs.push(`${at}: id musi składać się z małych liter, cyfr i _.`);
     else if (colIds.has(c.id)) errs.push(`${at}: powtórzone id.`);
     colIds.add(c.id);
-    if (!['number', 'scale', 'hml', 'flags'].includes(c.type)) errs.push(`${at}: nieznany typ "${c.type}".`);
+    if (!['number', 'scale', 'hml', 'flags', 'category', 'tags'].includes(c.type)) errs.push(`${at}: nieznany typ "${c.type}".`);
+    if (c.level !== undefined && !VIEW_LEVELS.includes(c.level)) errs.push(`${at}: level musi być 1, 2 albo 3 (poziom widoku).`);
+    if (isChoice(c)) {
+      if (!Array.isArray(c.values) || !c.values.length || !c.values.every(v => typeof v === 'string' && v.trim()) || new Set(c.values).size !== c.values.length)
+        errs.push(`${at}: kolumna ${c.type} potrzebuje values: listy różnych, niepustych nazw.`);
+      if (c.scope !== 'fixed') errs.push(`${at}: kolumna ${c.type} musi być stała (scope fixed).`);
+    } else if (c.values !== undefined) errs.push(`${at}: pole values dotyczy tylko kolumn category i tags.`);
     if (!['month', 'fixed'].includes(c.scope)) errs.push(`${at}: zakres musi być month albo fixed.`);
     if (typeof c.name !== 'string' || typeof c.group !== 'string') errs.push(`${at}: brak nazwy lub grupy.`);
     if (typeof c.weather !== 'boolean') errs.push(`${at}: pole weather musi być true/false.`);
@@ -301,6 +547,9 @@ export function validateData(data) {
       errs.push(`${at}: pole integer (true/false) dotyczy tylko kolumn liczbowych.`);
     if (isScoring(c) && !isObj(c.default)) errs.push(`${at}: brak domyślnej formatki.`);
     if (c.type === 'flags' && c.scope !== 'month') errs.push(`${at}: flagi muszą być per miesiąc.`);
+    if (c.naLabel !== undefined && (typeof c.naLabel !== 'string' || !c.naLabel.trim())) errs.push(`${at}: naLabel musi być niepustym tekstem.`);
+    if (c.computed !== undefined && (c.computed !== true || c.type !== 'number'))
+      errs.push(`${at}: pole computed (true) dotyczy tylko kolumn liczbowych wyliczanych przez stronę.`);
   });
   if (!errs.length) {
     for (const e of validateProfile(defaultProfile(data.columns), data.columns))
@@ -321,7 +570,7 @@ export function validateData(data) {
     const p = parseValue(raw);
     if (p.kind === 'missing') return;
     if (p.kind === 'na') {
-      if (col.type === 'flags') errs.push(`${where}: flagi nie mogą mieć "na".`);
+      if (col.type === 'flags' || isChoice(col)) errs.push(`${where}: kolumna ${col.type} nie może mieć "na".`);
       return;
     }
     const v = p.v;
@@ -333,6 +582,12 @@ export function validateData(data) {
       if (!validNumber(col, v)) errs.push(`${where}: oczekiwana skala 1–5, jest ${JSON.stringify(raw)}.`);
     } else if (col.type === 'hml') {
       if (!['H', 'M', 'L'].includes(v)) errs.push(`${where}: oczekiwane H, M albo L, jest ${JSON.stringify(raw)}.`);
+    } else if (col.type === 'category') {
+      if (!col.values?.includes(v)) errs.push(`${where}: ${JSON.stringify(raw)} spoza listy wartości kolumny.`);
+    } else if (col.type === 'tags') {
+      if (!Array.isArray(v)) { errs.push(`${where}: tagi muszą być listą.`); return; }
+      for (const t of v) if (!col.values?.includes(t)) errs.push(`${where}: nieznany tag ${JSON.stringify(t)}.`);
+      if (new Set(v).size !== v.length) errs.push(`${where}: powtórzony tag.`);
     } else if (col.type === 'flags') {
       if (p.kind !== 'value' || !Array.isArray(v)) { errs.push(`${where}: flagi muszą być listą.`); return; }
       v.forEach((f, i) => {
@@ -348,6 +603,7 @@ export function validateData(data) {
     for (const [key, raw] of Object.entries(row)) {
       const col = cols[key];
       if (!col || col.scope !== scope) errs.push(`${where}: nieznana kolumna "${key}".`);
+      else if (col.computed) errs.push(`${where}: kolumna "${key}" jest wyliczana przez stronę i nie może być w pliku kierunku.`);
       else checkValue(`${where}, ${col.name}`, col, raw);
     }
   };
@@ -361,6 +617,9 @@ export function validateData(data) {
     else if (destIds.has(d.id)) errs.push(`${name}: powtórzone id "${d.id}".`);
     destIds.add(d.id);
     if (typeof d.country !== 'string' || typeof d.place !== 'string') errs.push(`${name}: brak kraju lub miejsca.`);
+    for (const k of ['costNote', 'entryNote'])
+      if (d[k] !== undefined && (typeof d[k] !== 'string' || !d[k].trim())) errs.push(`${name}: ${k} musi być niepustym tekstem.`);
+    if (d.tz !== undefined && !validTz(d.tz)) errs.push(`${name}: tz ${JSON.stringify(d.tz)} nie jest znaną strefą czasową (np. "Asia/Bangkok").`);
     checkRow(`${name}, stałe`, d.fixed ?? {}, 'fixed');
     if (!Array.isArray(d.months) || d.months.length !== 12) errs.push(`${name}: wymagane dokładnie 12 miesięcy.`);
     else d.months.forEach((m, mi) => checkRow(`${name}, ${MONTHS[mi].toLowerCase()}`, m, 'month'));

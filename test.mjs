@@ -5,7 +5,7 @@ import { readFileSync, writeFileSync, mkdtempSync, copyFileSync, cpSync, existsS
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { spawnSync } from 'node:child_process';
-import { colScore, score, season, defaultProfile, mergeProfile, validateProfile, validateData, validNumber, countedFlags, checkFilters, registryIds, assemble } from './core.js';
+import { colScore, score, season, defaultProfile, mergeProfile, validateProfile, validateData, validNumber, countedFlags, checkFilters, registryIds, assemble, tripCost, withTripCost, withComputed, timeDiff, choiceValues, colLevel } from './core.js';
 
 // Rejestr + pliki kierunków z katalogu (jak w merge.mjs i na stronie): { data, errs }.
 function loadDir(dir) {
@@ -361,8 +361,9 @@ test('profil z błędną strukturą nie jest po cichu poprawiany', () => {
 test('brakujące ustawienia profilu dostają wartości domyślne per klucz', () => {
   const { profile, addedSettings } = mergeProfile({ name: 'A', seasonThresholds: { low: 40 }, filters: { maxStops: 1, stare: true } }, columns);
   assert.deepEqual(profile.seasonThresholds, { low: 40, high: 70 });
-  assert.deepEqual(profile.filters, { hideLevel3: false, maxFlightTime: null, maxStops: 1, minCoverage: null, minScore: null });
-  assert.deepEqual(addedSettings.sort(), ['filters.hideLevel3', 'filters.maxFlightTime', 'filters.minCoverage', 'filters.minScore', 'flagPenalty', 'seasonThresholds.high', 'swimFlags']);
+  assert.deepEqual(profile.filters, { hideLevel3: false, maxFlightTime: null, maxStops: 1, minCoverage: null, minScore: null, maxTripCost: null, categories: {}, tagMode: 'all', ranges: {}, packageOnly: false });
+  assert.deepEqual(profile.excluded, []);
+  assert.deepEqual(addedSettings.sort(), ['costs', 'excluded', 'filters.categories', 'filters.hideLevel3', 'filters.maxFlightTime', 'filters.maxTripCost', 'filters.minCoverage', 'filters.minScore', 'filters.packageOnly', 'filters.ranges', 'filters.tagMode', 'flagPenalty', 'seasonThresholds.high', 'swimFlags', 'trip', 'viewLevel']);
   assert.deepEqual(validateProfile(profile, columns), []);
   // wartość podana, ale błędna, nie jest zastępowana
   const bad = mergeProfile({ name: 'A', filters: { hideLevel3: 'tak' } }, columns).profile;
@@ -469,4 +470,286 @@ test('merge.mjs odrzuca błędne wejście i nie psuje danych', () => {
   const after = s.data();
   assert.ok(after.destinations.every(d => d.months.every(m => !('wind' in m))));
   assert.deepEqual(validateData(after), []);
+});
+
+test('kalkulator kosztu wyjazdu: bilety, nocleg, wydatki, dodatkowe', () => {
+  const cols = readData().columns;
+  const p = defaultProfile(cols);
+  p.trip = { adults: 2, children: 1, infants: 1, nights: 14 };
+  const d = { fixed: { local_prices: 2, sightseeing: 5 }, months: [{ flight_price: { est: 3500 } }, { flight_price: 2500 }, ...Array(10).fill({})] };
+  const r = tripCost(d, 0, p, cols);
+  near(r.tickets, 3500 * 0.85 * 3);          // niemowlę za darmo
+  // korzystny zakup nie schodzi poniżej najtańszego miesiąca kierunku
+  near(tripCost(d, 1, p, cols).fare, 2500);
+  // pokoje: najwyżej 4 osoby (dorośli + dzieci) na pokój
+  p.trip = { adults: 2, children: 3, infants: 0, nights: 14 };
+  assert.equal(tripCost(d, 0, p, cols).rooms, 2);
+  p.trip = { adults: 2, children: 1, infants: 1, nights: 14 };
+  assert.equal(r.rooms, 1);
+  assert.equal(r.lodging, 300 * 14);        // brak sezonu lokalnego = mnożnik 1
+  // nocleg według sezonu lokalnego miesiąca
+  const ds = { ...d, months: [{ flight_price: 3500, local_season: { est: 'H' } }, { flight_price: 2500, local_season: 'L' }, ...Array(10).fill({})] };
+  near(tripCost(ds, 0, p, cols).lodging, 300 * 1.25 * 14);
+  near(tripCost(ds, 1, p, cols).lodging, 300 * 0.85 * 14);
+  near(tripCost(ds, 0, p, cols).extras, (300 * 1.25 * 14 + 180 * 2.5 * 14) * 0.25);
+  near(r.daily, 180 * 2.5 * 14);
+  near(r.extrasPct, 25);
+  near(r.extras, (300 * 14 + 180 * 2.5 * 14) * 0.25);
+  near(r.total, r.tickets + r.lodging + r.daily + r.extras);
+  // zwiedzanie 1 → 10%, brak zwiedzania → środek zakresu
+  near(tripCost({ ...d, fixed: { local_prices: 2, sightseeing: 1 } }, 0, p, cols).extrasPct, 10);
+  near(tripCost({ ...d, fixed: { local_prices: 2 } }, 0, p, cols).extrasPct, 17.5);
+  // 3 dorosłych = 2 pokoje; bilet niemowlęcia według stawki
+  p.trip = { adults: 3, children: 0, infants: 1, nights: 7 };
+  p.costs = { ...p.costs, infantTicket: 300 };
+  const r3 = tripCost(d, 0, p, cols);
+  assert.equal(r3.rooms, 2);
+  near(r3.tickets, 3500 * 0.85 * 3 + 300);
+  // braki: bez ceny lotu albo poziomu cen nie ma wyniku
+  assert.deepEqual(tripCost(d, 2, p, cols).missing, ['flight_price']);
+  assert.deepEqual(tripCost({ ...d, fixed: { local_prices: 7 } }, 0, p, cols).missing, ['local_prices']);
+});
+
+test('kolumna trip_cost: wyliczana w tys. zł, filtr budżetu, zakaz w plikach', () => {
+  const data = readData();
+  const cols = data.columns;
+  const p = defaultProfile(cols);
+  const [d] = withTripCost([data.destinations[0]], p, cols);
+  const r = tripCost(data.destinations[0], 0, p, cols);
+  assert.deepEqual(d.months[0].trip_cost, { est: Math.round(r.total / 500) / 2 });
+  assert.equal(data.destinations[0].months[0].trip_cost, undefined); // źródło bez zmian
+  const base = { hideLevel3: false, maxFlightTime: null, maxStops: null, minCoverage: null, minScore: null };
+  const res = { flags: [], coverage: 1, score: 50 };
+  const v = d.months[0].trip_cost.est;
+  assert.equal(checkFilters(d, 0, res, cols, { ...base, maxTripCost: v }).pass, true);
+  assert.equal(checkFilters(d, 0, res, cols, { ...base, maxTripCost: v - 0.5 }).pass, false);
+  // brak oferty (z biurem) odpada przy filtrze budżetu
+  const noOffer = { months: [{ trip_cost: 'na' }, ...Array(11).fill({})] };
+  assert.deepEqual(checkFilters(noOffer, 0, res, cols, { ...base, maxTripCost: 100 }), { pass: false, unchecked: [] });
+  assert.deepEqual(checkFilters({ months: Array(12).fill({}) }, 0, res, cols, { ...base, maxTripCost: 100 }), { pass: true, unchecked: ['maxTripCost'] });
+  const bad = structuredClone(data);
+  bad.destinations[0].months[0].trip_cost = 12;
+  assert.ok(validateData(bad).some(e => e.includes('wyliczana przez stronę')));
+  bad.destinations[1].costNote = 5;
+  assert.ok(validateData(bad).some(e => e.includes('costNote')));
+  const q = structuredClone(p);
+  q.trip.nights = 0; q.trip.children = 1.5; q.costs.lodging = [1, 2, 3]; q.costs.extras = [10, 120]; q.costs.season = { H: 1.2, M: 1 };
+  assert.deepEqual(validateProfile(q, cols).map(e => e.field).sort(), ['costs.extras', 'costs.lodging', 'costs.season', 'trip.children', 'trip.nights']);
+});
+
+test('kalkulator: tryb „z biurem” – wczasy zamiast lotu i noclegu, brak oferty', () => {
+  const cols = readData().columns;
+  const p = defaultProfile(cols);
+  p.trip = { adults: 2, children: 1, infants: 1, nights: 7, mode: 'package' };
+  const d = { fixed: { local_prices: 2, sightseeing: 1 },
+    months: [{ flight_price: 2000, package_price: { est: 3000 } }, { flight_price: 2000, package_price: 'na' }, { package_price: 3000 }, ...Array(9).fill({})] };
+  const r = tripCost(d, 0, p, cols);
+  near(r.perAdult, 3000);                          // 7 nocy = cena wczasów
+  near(r.pkgTotal, 3000 * (2 + 0.6) + 300);
+  near(r.extras, (300 * 7 + 180 * 2.5 * 7) * 0.10); // ten sam % co na własną rękę
+  // 14 nocy: część stała (bilet 2000, ale najwyżej połowa ceny wczasów = 1500) + reszta × 2
+  p.trip.nights = 14;
+  near(tripCost(d, 0, p, cols).perAdult, 1500 + 1500 * 2);
+  // bez ceny lotu: część stała 40%
+  near(tripCost(d, 2, p, cols).perAdult, 1200 + 1800 * 2);
+  // brak oferty
+  const na = tripCost(d, 1, p, cols);
+  assert.equal(na.total, null);
+  assert.equal(na.noOffer, true);
+  assert.deepEqual(na.missing, ['package_price']);
+  // tryb na własną rękę bez zmian
+  p.trip.mode = 'self';
+  assert.equal(tripCost(d, 0, p, cols).mode, 'self');
+  p.trip.mode = 'biuro';
+  assert.deepEqual(validateProfile(p, cols).map(e => e.field), ['trip.mode']);
+});
+
+// ---------- kategorie, tagi, zakresy, różnica czasu ----------
+const choiceCols = [
+  ...columns,
+  { id: 'cont', name: 'Kontynent', type: 'category', scope: 'fixed', group: 'P', weather: false, values: ['Europa', 'Azja'] },
+  { id: 'tags', name: 'Tagi', type: 'tags', scope: 'fixed', group: 'P', weather: false, values: ['ruiny', 'dżungla', 'plaża'] },
+  { id: 'pp', name: 'Wczasy', type: 'number', scope: 'month', group: 'K', weather: false, valid: [0, 100000], naLabel: 'brak oferty', default: { min: null, idealFrom: null, idealTo: 4000, max: 10000, weight: 0 } },
+];
+const PP = 'pp';
+const fullFlagTypes = flagTypes.map(t => ({ ...t, name: t.id, icon: '!' }));
+const fdest = (fixed, m0 = {}) => ({ id: 'x', country: 'X', place: 'X', fixed, months: [m0, ...Array(11).fill({})], sources: [] });
+const filt = (over = {}) => ({ ...defaultProfile(choiceCols).filters, ...over });
+const res0 = { flags: [], coverage: 1, score: 50 };
+
+test('walidacja danych: kolumny category i tags', () => {
+  const data = { columns: choiceCols, flagTypes: fullFlagTypes, destinations: [fdest({ cont: 'Azja', tags: ['ruiny', 'plaża'] })] };
+  assert.deepEqual(validateData(data), []);
+  const bad = { ...data, destinations: [fdest({ cont: 'Afryka', tags: ['ruiny', 'ruiny', 'góry'] })] };
+  const errs = validateData(bad);
+  assert.ok(errs.some(e => e.includes('"Afryka" spoza listy')), errs.join('\n'));
+  assert.ok(errs.some(e => e.includes('nieznany tag "góry"')));
+  assert.ok(errs.some(e => e.includes('powtórzony tag')));
+  assert.ok(validateData({ ...data, destinations: [fdest({ tags: 'ruiny' })] }).some(e => e.includes('tagi muszą być listą')));
+  assert.ok(validateData({ ...data, destinations: [fdest({ cont: 'na' })] }).some(e => e.includes('nie może mieć "na"')));
+  const noValues = choiceCols.map(c => c.id === 'cont' ? { ...c, values: [] } : c);
+  assert.ok(validateData({ ...data, columns: noValues }).some(e => e.includes('potrzebuje values')));
+  const monthly = choiceCols.map(c => c.id === 'tags' ? { ...c, scope: 'month' } : c);
+  assert.ok(validateData({ ...data, columns: monthly }).some(e => e.includes('musi być stała')));
+});
+
+test('walidacja danych: strefa czasowa i entryNote kierunku', () => {
+  const base = { columns: choiceCols, flagTypes: fullFlagTypes };
+  assert.deepEqual(validateData({ ...base, destinations: [{ ...fdest({}), tz: 'Asia/Bangkok', entryNote: 'Paszport.' }] }), []);
+  const errs = validateData({ ...base, destinations: [{ ...fdest({}), tz: 'Mars/Olympus', entryNote: ' ' }] });
+  assert.ok(errs.some(e => e.includes('nie jest znaną strefą')));
+  assert.ok(errs.some(e => e.includes('entryNote musi być')));
+});
+
+test('filtr kategorii i tagów: wybór, tryb wszystkie/którykolwiek, brak danych', () => {
+  const d = fdest({ cont: 'Azja', tags: ['ruiny', 'dżungla'] });
+  const chk = f => checkFilters(d, 0, res0, choiceCols, filt(f));
+  assert.equal(chk({ categories: { cont: ['Azja', 'Europa'] } }).pass, true);
+  assert.equal(chk({ categories: { cont: ['Europa'] } }).pass, false);
+  assert.equal(chk({ categories: { cont: [] } }).pass, true); // pusta lista = bez filtra
+  assert.equal(chk({ categories: { tags: ['ruiny', 'dżungla'] } }).pass, true);
+  assert.equal(chk({ categories: { tags: ['ruiny', 'plaża'] } }).pass, false);
+  assert.equal(chk({ categories: { tags: ['ruiny', 'plaża'] }, tagMode: 'any' }).pass, true);
+  assert.equal(chk({ categories: { tags: ['plaża'] }, tagMode: 'any' }).pass, false);
+  const none = checkFilters(fdest({}), 0, res0, choiceCols, filt({ categories: { cont: ['Europa'], tags: ['plaża'] } }));
+  assert.deepEqual(none, { pass: true, unchecked: ['cat:cont', 'cat:tags'] });
+  assert.deepEqual(choiceValues(d, choiceCols.find(c => c.id === 'cont')), ['Azja']);
+});
+
+test('filtr zakresu od–do: kolumny miesięczne i stałe, "na" odrzuca, brak danych niesprawdzony', () => {
+  const chk = (d, ranges) => checkFilters(d, 0, res0, choiceCols, filt({ ranges }));
+  assert.equal(chk(fdest({}, { temp: 27 }), { temp: { min: 25, max: null } }).pass, true);
+  assert.equal(chk(fdest({}, { temp: 24 }), { temp: { min: 25, max: null } }).pass, false);
+  assert.equal(chk(fdest({}, { temp: { est: 31 } }), { temp: { min: null, max: 30 } }).pass, false);
+  assert.equal(chk(fdest({ sights: 4 }), { sights: { min: 3, max: 5 } }).pass, true);
+  assert.equal(chk(fdest({}, { water: 'na' }), { water: { min: 24, max: null } }).pass, false);
+  assert.deepEqual(chk(fdest({}), { temp: { min: 25, max: null } }), { pass: true, unchecked: ['range:temp'] });
+  assert.equal(chk(fdest({}, { temp: 10 }), { temp: { min: null, max: null } }).pass, true); // puste = bez filtra
+});
+
+test('filtr „tylko z ofertą biur” według package_price', () => {
+  const cols = choiceCols.map(c => c.id === PP ? { ...c, id: 'package_price' } : c);
+  const chk = m0 => checkFilters(fdest({}, m0), 0, res0, cols, filt({ packageOnly: true }));
+  assert.deepEqual(chk({ package_price: { est: 3000 } }), { pass: true, unchecked: [] });
+  assert.equal(chk({ package_price: 'na' }).pass, false);
+  assert.deepEqual(chk({}), { pass: true, unchecked: ['packageOnly'] });
+});
+
+test('profil: filtry kategorii i zakresów – walidacja i pomijanie nieznanych kolumn', () => {
+  const loaded = { ...defaultProfile(choiceCols), filters: { ...filt(), categories: { cont: ['Azja', 'Afryka'], stara: ['x'], temp: ['y'] }, ranges: { temp: { min: 20, max: 30 }, cont: { min: 1 }, stara: {} } }, excluded: ['phuket'] };
+  const { profile } = mergeProfile(loaded, choiceCols);
+  assert.deepEqual(profile.filters.categories, { cont: ['Azja'] });
+  assert.deepEqual(profile.filters.ranges, { temp: { min: 20, max: 30 } });
+  assert.deepEqual(profile.excluded, ['phuket']);
+  assert.deepEqual(validateProfile(profile, choiceCols), []);
+  const bad = { ...profile, excluded: 'phuket', filters: { ...profile.filters, tagMode: 'jakiś', packageOnly: 1, ranges: { temp: { min: 30, max: 20 } } } };
+  assert.deepEqual(validateProfile(bad, choiceCols).map(e => e.field).sort(), ['excluded', 'filters.packageOnly', 'filters.ranges.temp', 'filters.tagMode']);
+});
+
+test('różnica czasu: strefa IANA, czas letni po obu stronach, kolumna wyliczana', () => {
+  assert.equal(timeDiff('Asia/Bangkok', 0, 2027), 6);   // zima w Polsce
+  assert.equal(timeDiff('Asia/Bangkok', 6, 2027), 5);   // lato w Polsce
+  assert.equal(timeDiff('Asia/Kolkata', 0, 2027), 4.5);
+  assert.equal(timeDiff('America/Havana', 0, 2027), -6); // Kuba też ma czas letni
+  assert.equal(timeDiff('Europe/Warsaw', 3, 2027), 0);
+  assert.equal(timeDiff('Brak/Strefy', 0, 2027), null);
+  const cols = [...choiceCols, { id: 'time_diff', name: 'Różnica czasu', type: 'number', scope: 'month', group: 'P', weather: false, computed: true, valid: [-14, 14], default: { min: null, idealFrom: null, idealTo: 3, max: 9, weight: 0 } }];
+  const out = withComputed([{ ...fdest({}), tz: 'Pacific/Honolulu' }, fdest({})], defaultProfile(cols), cols, 2027);
+  assert.deepEqual(out[0].months.map(m => m.time_diff), [-11, -11, -11, -12, -12, -12, -12, -12, -12, -12, -11, -11]);
+  assert.equal(out[1].months[0].time_diff, null);
+  assert.ok(validateData({ columns: cols, flagTypes: fullFlagTypes, destinations: [{ ...fdest({}, { time_diff: 1 }) }] }).some(e => e.includes('wyliczana przez stronę')));
+});
+
+test('dane: wszystkie kierunki mają kontynent, region, formalności, tagi i strefę czasową', () => {
+  const data = readData();
+  for (const d of data.destinations) {
+    for (const k of ['continent', 'region', 'entry', 'tags']) assert.ok(d.fixed[k] != null, `${d.id}: ${k}`);
+    assert.ok(d.fixed.tags.length >= 1, `${d.id}: tagi`);
+    assert.equal(typeof d.tz, 'string', `${d.id}: tz`);
+    assert.equal(typeof d.entryNote, 'string', `${d.id}: entryNote`);
+  }
+});
+
+test('poziom widoku: kolumny z level, profil z viewLevel', () => {
+  const cols = choiceCols.map(c => c.id === 'cont' ? { ...c, level: 1 } : c);
+  assert.deepEqual(validateData({ columns: cols, flagTypes: fullFlagTypes, destinations: [] }), []);
+  const bad = cols.map(c => c.id === 'cont' ? { ...c, level: 4 } : c);
+  assert.ok(validateData({ columns: bad, flagTypes: fullFlagTypes, destinations: [] }).some(e => e.includes('level musi być')));
+  assert.equal(colLevel(cols.find(c => c.id === 'cont')), 1);
+  assert.equal(colLevel(cols.find(c => c.id === 'tags')), 3);
+  const p = defaultProfile(cols);
+  assert.equal(p.viewLevel, 2);
+  assert.deepEqual(validateProfile({ ...p, viewLevel: 0 }, cols).map(e => e.field), ['viewLevel']);
+  // każda kolumna w rejestrze ma poziom; beginner ma temperaturę powietrza i wody
+  const reg = readData().columns;
+  assert.ok(reg.every(c => [1, 2, 3].includes(c.level)));
+  assert.ok(['temp_day', 'water'].every(id => reg.find(c => c.id === id).level === 1));
+});
+
+test('merge.mjs: kolumna kategorii i tagów – poprawna wartość zapisana, spoza listy blokuje zapis', () => {
+  const s = sandbox();
+  const ok = s.run(s.put('c.json', { column: 'continent', values: { phuket: 'Azja' } }));
+  assert.equal(ok.status, 0, ok.stderr);
+  const before = s.snapshot();
+  const bad = s.run(s.put('b.json', { column: 'continent', values: { phuket: 'Atlantyda' } }));
+  assert.notEqual(bad.status, 0);
+  assert.match(bad.stderr, /spoza listy/);
+  const badTag = s.run(s.put('t.json', { column: 'tags', values: { phuket: ['ruiny', 'ruiny'] } }));
+  assert.notEqual(badTag.status, 0);
+  assert.equal(s.snapshot(), before);
+});
+
+test('merge.mjs: kolumny wyliczanej nie da się wpisać, --drop usuwa dane skreślonej kolumny', () => {
+  const s = sandbox();
+  const before = s.snapshot();
+  const r = s.run(s.put('k.json', { column: 'time_diff', values: { phuket: Array(12).fill(5) } }));
+  assert.notEqual(r.status, 0);
+  assert.match(r.stderr, /wyliczana przez stronę/);
+  assert.equal(s.snapshot(), before);
+  // --drop odmawia, dopóki kolumna jest w rejestrze
+  assert.notEqual(s.run('--drop', 'uv').status, 0);
+  const reg = s.json('rejestr.json');
+  reg.columns = reg.columns.filter(c => c.id !== 'uv');
+  s.put('rejestr.json', JSON.stringify(reg, null, 2) + '\n');
+  const d = s.run('--drop', 'uv');
+  assert.equal(d.status, 0, d.stderr);
+  assert.ok(s.data().destinations.every(x => x.months.every(m => !('uv' in m))));
+});
+
+test('merge.mjs: kierunek z innym id niż nazwa pliku wejściowego trafia do pliku według id', () => {
+  const s = sandbox();
+  const d = s.json('kierunki/phuket.json');
+  const r = s.run(s.put('cokolwiek.json', { ...d, notes: d.notes + ' (zmiana)' }));
+  assert.equal(r.status, 0, r.stderr);
+  assert.ok(s.json('kierunki/phuket.json').notes.endsWith('(zmiana)'));
+  assert.ok(!existsSync(join(s.dir, 'kierunki/cokolwiek.json')));
+});
+
+test('strona (statycznie): każde #id użyte w skrypcie istnieje w HTML lub szablonie; brak zewnętrznych skryptów', () => {
+  const html = readFileSync(new URL('./index.html', import.meta.url), 'utf8');
+  const defined = new Set([...html.matchAll(/\bid="([\w-]+)"/g)].map(m => m[1]));
+  const used = new Set([
+    ...[...html.matchAll(/\$\('#([\w-]+)['\s)]/g)].map(m => m[1]),
+    ...[...html.matchAll(/getElementById\('([\w-]+)'\)/g)].map(m => m[1]),
+    ...[...html.matchAll(/querySelector\('#([\w-]+)['\s)]/g)].map(m => m[1]),
+  ]);
+  const missing = [...used].filter(id => !defined.has(id));
+  assert.deepEqual(missing, []);
+  // skrypty tylko lokalne (core.js) albo wbudowane; style zewnętrzne tylko Google Fonts
+  const srcs = [...html.matchAll(/<script[^>]*\bsrc="([^"]+)"/g)].map(m => m[1]);
+  assert.deepEqual(srcs, []);
+  assert.deepEqual([...html.matchAll(/import [^;]+ from '([^']+)'/g)].map(m => m[1]), ['./core.js']);
+  const links = [...html.matchAll(/<link[^>]*href="([^"]+)"/g)].map(m => m[1]);
+  assert.ok(links.every(h => h.startsWith('https://fonts.')), links.join(', '));
+});
+
+test('publikacja: pliki kopiowane w workflow istnieją, a strona nie odwołuje się do plików spoza paczki', () => {
+  const wf = readFileSync(new URL('./.github/workflows/pages.yml', import.meta.url), 'utf8');
+  const line = wf.split('\n').find(l => l.includes('cp -r'));
+  const files = line.trim().split(/\s+/).slice(2, -1);
+  for (const f of files) assert.ok(existsSync(new URL('./' + f, import.meta.url)), f);
+  const html = readFileSync(new URL('./index.html', import.meta.url), 'utf8');
+  const fetched = [...html.matchAll(/getJson\([`'"]([\w./-]+)/g)].map(m => m[1].split('/')[0]);
+  assert.deepEqual(fetched.sort(), ['kierunki', 'rejestr.json']);
+  for (const f of fetched) assert.ok(files.some(x => x.replace(/\/$/, '') === f.replace(/\$\{.*$/, '').replace(/\/$/, '')), `strona czyta ${f}, którego workflow nie publikuje`);
 });

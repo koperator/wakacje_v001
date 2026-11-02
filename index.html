@@ -18,6 +18,7 @@
   --accent: #0b6874;
   --accent-ink: #ffffff;
   --danger: #a63a1b;
+  --est: #44585b;
   --heat-sat: 64%;
   --heat-light: 86%;
   --pill-light: 74%;
@@ -29,19 +30,20 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0e191b; --surface: #142326; --ink: #e2ebea; --muted: #93a9aa; --line: #293c3f;
-    --accent: #5bc2cc; --accent-ink: #0e191b; --danger: #ff8d6b;
+    --accent: #5bc2cc; --accent-ink: #0e191b; --danger: #ff8d6b; --est: #b9c9ca;
     --heat-sat: 36%; --heat-light: 25%; --pill-light: 34%;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0e191b; --surface: #142326; --ink: #e2ebea; --muted: #93a9aa; --line: #293c3f;
-  --accent: #5bc2cc; --accent-ink: #0e191b; --danger: #ff8d6b;
+  --accent: #5bc2cc; --accent-ink: #0e191b; --danger: #ff8d6b; --est: #b9c9ca;
   --heat-sat: 36%; --heat-light: 25%; --pill-light: 34%;
   color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 body {
   margin: 0; background: var(--bg); color: var(--ink);
   font: 14px/1.45 var(--f-body);
@@ -108,6 +110,13 @@ input[aria-invalid="true"] { border-color: var(--danger) !important; box-shadow:
 .filters label { display: flex; align-items: center; gap: 6px; }
 .filters input[type="number"] { width: 4rem; padding: 3px 5px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); text-align: right; }
 .filters .count { color: var(--muted); margin-left: auto; }
+.trip { border-bottom: 1px solid var(--line); }
+.trip .lbl { font: 600 0.75rem var(--f-body); text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); }
+.trip input[type="number"] { width: 3.4rem; }
+.costs { margin-top: 16px; }
+.costs h3 { font: 600 0.75rem var(--f-body); text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin: 0 0 4px; }
+.costs p { margin: 0 0 8px; color: var(--muted); max-width: 70ch; }
+.costs table.form input { width: 4.2rem; }
 
 /* Tabela decyzyjna */
 .tablewrap { overflow: auto; max-height: 76vh; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
@@ -136,7 +145,10 @@ table.grid { border-collapse: separate; border-spacing: 0; font-family: var(--f-
 .grid tbody tr:hover td, .grid tbody tr:hover th { box-shadow: inset 0 9999px 0 rgb(127 127 127 / 0.07); }
 .heat { background: hsl(calc(8 + 140 * var(--s)) var(--heat-sat) var(--heat-light)); }
 .bad { color: var(--danger); text-decoration: line-through; }
-.est { opacity: 0.62; }
+/* Szacunek: przygaszony kolor (nie przezroczystość – ta psuje kontrast na kolorowym tle), kursywa i gwiazdka. */
+.est { color: var(--est); font-style: italic; }
+/* Na kolorowym tle oceny pełny kolor tekstu (kontrast WCAG AA); szacunek nadal w kursywie z gwiazdką. */
+.heat .est, .heat .na { color: var(--ink); }
 .est::after { content: "*"; }
 .na { color: var(--muted); font-style: italic; }
 .miss { color: var(--muted); font-size: 0.8rem; letter-spacing: 0.04em; background-image: repeating-linear-gradient(135deg, transparent 0 5px, rgb(127 127 127 / 0.1) 5px 6px); }
@@ -148,9 +160,12 @@ table.grid { border-collapse: separate; border-spacing: 0; font-family: var(--f-
 .flag.l3 sup { color: var(--danger); }
 .flag.off { opacity: 0.4; }
 .unchk { color: var(--danger); font-size: 0.8rem; margin-left: 4px; cursor: help; }
+.costnote { color: var(--danger); font-weight: 600; margin-left: 2px; }
+.dlg .costinfo { border-left: 3px solid var(--danger); padding-left: 10px; }
 .grid tbody th.first .row { display: flex; align-items: center; gap: 2px; }
 .legend { color: var(--muted); font-size: 0.82rem; margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 4px 16px; }
-.legend span { white-space: nowrap; }
+.legend > span { white-space: normal; }
+.legend span span { white-space: nowrap; }
 
 /* Okna */
 dialog { border: 1px solid var(--line); border-radius: 10px; padding: 0; background: var(--surface); color: var(--ink); max-width: min(1100px, calc(100vw - 32px)); width: max-content; max-height: calc(100vh - 48px); }
@@ -179,6 +194,91 @@ dialog::backdrop { background: rgb(10 20 22 / 0.45); }
 .sources li { margin-bottom: 2px; }
 .sources a { color: var(--accent); word-break: break-word; }
 .sources .date { color: var(--muted); font-size: 0.82rem; }
+.grid .tog { margin: 0 8px 0 0; accent-color: var(--accent); flex: none; }
+.grid tr.off td, .grid tr.off th.first .row { opacity: 0.42; }
+/* Bez przycinania: każdy tag w komórce musi być widoczny i klikalny. */
+.grid td.tagcell { text-align: left; }
+.grid td.catcell { text-align: left; font-size: 0.86rem; }
+.taglist { display: flex; flex-wrap: wrap; gap: 4px; }
+.tag { display: inline-block; padding: 0 8px; border-radius: 999px; border: 1px solid var(--line); font-size: 0.8rem; white-space: nowrap; }
+
+/* Kategorie, tagi, zakresy */
+.seg.lvl { margin-left: 0; border-radius: 6px; }
+.seg.lvl button { padding: 6px 10px; font-size: 0.86rem; font-weight: 500; }
+.tagbar { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.tagbar .lbl { font: 600 0.75rem var(--f-body); text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-right: 6px; }
+.tagbtn { border: 1px solid var(--line); background: none; border-radius: 999px; padding: 0 7px; margin-right: 3px; font: 0.78rem/1.5 var(--f-data); color: var(--muted); }
+.tagbtn:hover { border-color: var(--accent); color: var(--ink); }
+.tagbtn[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.more { border-bottom: 1px solid var(--line); padding: 0 0 8px; font-size: 0.9rem; }
+.more summary { cursor: pointer; padding: 6px 0; font: 600 0.75rem var(--f-body); text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); }
+.more summary .sum { text-transform: none; letter-spacing: 0; font: 400 0.85rem var(--f-body); color: var(--ink); margin-left: 8px; }
+.more summary .sum:empty::after { content: "brak"; color: var(--muted); }
+.chiprow { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; margin: 6px 0; }
+.chiprow .lbl { width: 9.5rem; flex: none; color: var(--muted); font-size: 0.82rem; }
+@media (max-width: 640px) { .chiprow .lbl { width: 100%; } }
+.chip { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 2px 10px; font-size: 0.84rem; line-height: 1.4; }
+.chip:hover { border-color: var(--accent); }
+.chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.chip small { opacity: 0.65; margin-left: 4px; font: 500 0.75rem var(--f-data); }
+.chip.clear { border-style: dashed; color: var(--muted); }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; margin-left: 6px; }
+.seg button { border: 0; background: var(--surface); padding: 2px 8px; font-size: 0.8rem; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.ranges { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-top: 8px; }
+.ranges .rng { display: inline-flex; align-items: center; gap: 5px; padding: 2px 4px 2px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); }
+.ranges input { width: 4rem; padding: 2px 4px; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); text-align: right; }
+.ranges .x { border: 0; background: none; color: var(--muted); font-size: 1rem; padding: 0 4px; }
+.ranges select, .viewbar select, .ctl select { padding: 3px 6px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); font: inherit; font-size: 0.86rem; }
+
+/* Widoki */
+.viewbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 16px; margin: 6px 0 8px; }
+.views { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
+.views button { border: 0; background: none; padding: 5px 14px; font: 500 0.9rem var(--f-display); color: var(--muted); }
+.views button + button { border-left: 1px solid var(--line); }
+.views button[aria-selected="true"] { background: var(--accent); color: var(--accent-ink); }
+.excl { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; font-size: 0.86rem; }
+.excl label { display: flex; align-items: center; gap: 5px; }
+.btn.sm { padding: 3px 9px; font-size: 0.82rem; }
+.ctl { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-bottom: 8px; font-size: 0.88rem; }
+.ctl label { display: flex; align-items: center; gap: 6px; max-width: 100%; }
+.ctl select, .ranges select { max-width: 100%; min-width: 0; }
+.chartbox { position: relative; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); padding: 8px 8px 4px; }
+.chartbox svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chartbox svg text { font: 12px var(--f-data); fill: var(--muted); }
+.chartbox svg .axis line, .chartbox svg .grid-l { stroke: var(--line); }
+.chartbox svg .lbl-strong { fill: var(--ink); font-weight: 600; }
+.chartbox .empty { padding: 24px; color: var(--muted); }
+.tip { position: absolute; pointer-events: none; z-index: 5; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 6px 9px; font: 0.8rem/1.35 var(--f-data); box-shadow: 0 4px 14px rgb(0 0 0 / 0.14); white-space: nowrap; }
+.tip b { font-weight: 600; }
+.sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+.cmpsel { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.cmpsel .chip { display: inline-flex; align-items: center; gap: 4px; }
+.cmpsel .chip.offd { text-decoration: line-through; opacity: 0.6; }
+.note-s { color: var(--muted); font-size: 0.82rem; margin: 6px 2px 0; }
+
+/* Kalendarz */
+.calwrap { overflow: auto; max-height: 76vh; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+table.cal { border-collapse: separate; border-spacing: 2px; font: 0.86rem var(--f-data); font-variant-numeric: tabular-nums; width: max-content; }
+.cal th, .cal td { height: 1.9rem; }
+.cal thead th { position: sticky; top: 0; z-index: 2; background: var(--surface); font-weight: 500; color: var(--muted); padding: 0 2px; }
+.cal thead th button { border: 0; background: none; padding: 0 4px; color: inherit; font: inherit; }
+.cal thead th.now { color: var(--ink); font-weight: 700; box-shadow: inset 0 -2px 0 var(--accent); }
+.cal tbody th { position: sticky; left: 0; z-index: 1; background: var(--surface); text-align: left; padding: 0 10px 0 6px; font-weight: 400; white-space: nowrap; }
+.cal tbody th button { border: 0; background: none; padding: 0; text-align: left; line-height: 1.1; }
+.cal tbody th .place { font-weight: 600; font-size: 0.88rem; }
+.cal tbody th .country { color: var(--muted); font-size: 0.72rem; display: block; }
+.cal td { width: 2.7rem; min-width: 2.7rem; text-align: center; border-radius: 4px; padding: 0; }
+.cal td button { width: 100%; height: 100%; border: 0; background: none; padding: 0; font: 600 0.86rem var(--f-data); }
+.cal td.now { outline: 2px solid var(--accent); outline-offset: -1px; }
+.cal td.fail { background-image: repeating-linear-gradient(135deg, transparent 0 4px, rgb(127 127 127 / 0.28) 4px 5px); }
+.cal td.fail button { opacity: 0.45; font-weight: 400; }
+.cal td.none { color: var(--muted); }
+.cal tr.off th button, .cal tr.off td { opacity: 0.42; }
+.cal td.agg { color: var(--muted); font-weight: 500; width: 3.4rem; }
+.scale { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 0.8rem; }
+.scale .bar { width: 140px; height: 10px; border-radius: 3px; background: linear-gradient(90deg, hsl(8 var(--heat-sat) var(--heat-light)), hsl(78 var(--heat-sat) var(--heat-light)), hsl(148 var(--heat-sat) var(--heat-light))); border: 1px solid var(--line); }
+.scale .hatch { width: 18px; height: 10px; border: 1px solid var(--line); border-radius: 3px; background-image: repeating-linear-gradient(135deg, transparent 0 4px, rgb(127 127 127 / 0.4) 4px 5px); }
 @media (prefers-reduced-motion: no-preference) { .months button { transition: color 0.15s, border-color 0.15s; } }
 </style>
 </head>
@@ -190,6 +290,9 @@ dialog::backdrop { background: rgb(10 20 22 / 0.45); }
   </div>
   <div class="profile">
     <label class="name" for="profileName">Profil <input id="profileName" autocomplete="off"></label>
+    <span class="seg lvl" role="group" aria-label="Poziom widoku (zapisywany w profilu)" id="levelSeg">
+      <button data-level="1" title="Tylko najprostsze dane: temperatura powietrza i wody, słońce, dni deszczowe, plaże, czas lotu, koszt">Beginner</button><button data-level="2" title="Więcej danych: noce, opad, wiatr, sezon, ceny, formalności, region">Advanced</button><button data-level="3" title="Wszystkie kolumny, także punkt rosy, UV i pokrycie danych">Master</button>
+    </span>
     <button class="btn primary" id="btnForm" aria-expanded="false" aria-controls="formPanel">Formatka</button>
     <button class="btn" id="btnSave">Pobierz profil</button>
     <button class="btn" id="btnReset">Przywróć domyślne</button>
@@ -205,24 +308,80 @@ dialog::backdrop { background: rgb(10 20 22 / 0.45); }
   <p class="lead">Ocena kolumny to 1 w przedziale idealnym, 0 poniżej min i powyżej max, liniowo pomiędzy. Min i max są opcjonalne: bez min poniżej „ideał od” ocena 0 (ostra granica), bez max tak samo powyżej „ideał do”. Puste oba pola strony nie ograniczają z tej strony. Waga 0 wyłącza kolumnę.</p>
   <div id="formErrors" role="alert"></div>
   <div class="formgrid"><table class="form" id="formTable"></table></div>
+  <p class="note-s" id="formHidden"></p>
   <div class="settings">
     <label for="set-flagPenalty">Kara za poziom flagi <input type="number" id="set-flagPenalty" min="0" max="100" step="any"> %</label>
     <label for="set-swimFlags"><input type="checkbox" id="set-swimFlags"> Flagi kąpielowe dają karę</label>
     <label for="set-low">Globalny sezon M od <input type="number" id="set-low" step="any"></label>
     <label for="set-high">H od <input type="number" id="set-high" step="any"></label>
   </div>
+  <div class="costs">
+    <h3>Kalkulator kosztu wyjazdu</h3>
+    <p>Umowne stawki do kolumny „Koszt wyjazdu” (rząd wielkości dla całej grupy). Nocleg i wydatki (jedzenie, transport lokalny) zależą od poziomu cen na miejscu, nocleg także od sezonu lokalnego miesiąca; dodatkowe wydatki (wycieczki, atrakcje itp.) od oceny zwiedzania – liniowo między 1 a 5, jako % od noclegu i wydatków. Bilet: cena lotu w miesiącu × mnożnik, ale nie mniej niż w najtańszym miesiącu kierunku. Pokoje: dorośli ÷ 2 w górę, najwyżej 4 osoby (dorośli i dzieci) na pokój. Tryb „z biurem” (pasek „Wyjazd”) liczy cenę wczasów z kolumny „Wczasy z biurem od” zamiast lotu, noclegu i wydatków; przy innej liczbie nocy niż 7 przelicza tylko część hotelową.</p>
+    <div class="formgrid"><table class="form">
+      <thead><tr><th>Poziom cen na miejscu</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Nocleg <span class="unit">zł / pokój / noc</span></th><td><input type="number" id="cost-lodging-0" min="0" step="50" aria-label="Nocleg, poziom 1"></td><td><input type="number" id="cost-lodging-1" min="0" step="50" aria-label="Nocleg, poziom 2"></td><td><input type="number" id="cost-lodging-2" min="0" step="50" aria-label="Nocleg, poziom 3"></td><td><input type="number" id="cost-lodging-3" min="0" step="50" aria-label="Nocleg, poziom 4"></td><td><input type="number" id="cost-lodging-4" min="0" step="50" aria-label="Nocleg, poziom 5"></td></tr>
+        <tr><th scope="row">Wydatki <span class="unit">zł / dorosły / dzień</span></th><td><input type="number" id="cost-daily-0" min="0" step="10" aria-label="Wydatki, poziom 1"></td><td><input type="number" id="cost-daily-1" min="0" step="10" aria-label="Wydatki, poziom 2"></td><td><input type="number" id="cost-daily-2" min="0" step="10" aria-label="Wydatki, poziom 3"></td><td><input type="number" id="cost-daily-3" min="0" step="10" aria-label="Wydatki, poziom 4"></td><td><input type="number" id="cost-daily-4" min="0" step="10" aria-label="Wydatki, poziom 5"></td></tr>
+      </tbody>
+    </table></div>
+    <div class="settings">
+      <label for="cost-ticketFactor">Bilet: cena miesiąca × <input type="number" id="cost-ticketFactor" min="0" max="2" step="0.05"></label>
+      <label for="cost-infantTicket">Bilet niemowlęcia <input type="number" id="cost-infantTicket" min="0" step="50"> zł</label>
+      <label for="cost-childDaily">Dziecko w wydatkach × <input type="number" id="cost-childDaily" min="0" max="1" step="0.1"></label>
+      <label for="cost-childPackage">Z biurem: dziecko × <input type="number" id="cost-childPackage" min="0" max="1" step="0.1"> ceny dorosłego</label>
+      <label for="cost-infantPackage">niemowlę <input type="number" id="cost-infantPackage" min="0" step="50"> zł</label>
+      <label for="cost-extras-0">Dodatkowe: zwiedzanie 1 <input type="number" id="cost-extras-0" min="0" max="100" step="1"> %</label>
+      <label for="cost-extras-1">zwiedzanie 5 <input type="number" id="cost-extras-1" min="0" max="100" step="1"> %</label>
+      <label for="cost-season-H">Nocleg w sezonie: H × <input type="number" id="cost-season-H" min="0" max="3" step="0.05"></label>
+      <label for="cost-season-M">M × <input type="number" id="cost-season-M" min="0" max="3" step="0.05"></label>
+      <label for="cost-season-L">L × <input type="number" id="cost-season-L" min="0" max="3" step="0.05"></label>
+    </div>
+  </div>
 </section>
 
 <nav class="months" role="tablist" aria-label="Miesiąc" id="months"></nav>
+<div class="filters trip">
+  <span class="lbl">Wyjazd</span>
+  <label for="trip-adults">Dorośli <input type="number" id="trip-adults" min="1" max="20" step="1"></label>
+  <label for="trip-children">Dzieci 2–11 <input type="number" id="trip-children" min="0" max="20" step="1"></label>
+  <label for="trip-infants">Niemowlęta 0–1 <input type="number" id="trip-infants" min="0" max="20" step="1"></label>
+  <label for="trip-nights">Noce <input type="number" id="trip-nights" min="1" max="365" step="1"></label>
+  <label for="trip-mode"><input type="checkbox" id="trip-mode"> Z biurem (wczasy)</label>
+</div>
 <div class="filters">
   <label for="flt-hideLevel3"><input type="checkbox" id="flt-hideLevel3"> Ukryj miejsca z flagą poziomu 3</label>
   <label for="flt-maxFlightTime">Czas lotu do <input type="number" id="flt-maxFlightTime" min="0" step="any"> h</label>
   <label for="flt-maxStops">Przesiadek do <input type="number" id="flt-maxStops" min="0" step="1"></label>
   <label for="flt-minCoverage">Pokrycie od <input type="number" id="flt-minCoverage" min="0" max="100" step="any"> %</label>
   <label for="flt-minScore">Wynik od <input type="number" id="flt-minScore" min="0" max="100" step="1"></label>
+  <label for="flt-maxTripCost">Budżet do <input type="number" id="flt-maxTripCost" min="0" step="1"> tys. zł</label>
+  <label for="flt-packageOnly"><input type="checkbox" id="flt-packageOnly"> Tylko z ofertą biur w tym miesiącu</label>
   <span class="count" id="count"></span>
 </div>
-<div class="tablewrap" id="panel" role="tabpanel"><table class="grid" id="grid"></table></div>
+<div class="tagbar" id="tagbar"></div>
+<details class="more" id="more">
+  <summary>Kategorie i zakresy<span class="sum" id="moreSum"></span></summary>
+  <div id="chips"></div>
+  <div class="ranges" id="ranges"></div>
+</details>
+<div class="viewbar">
+  <div class="views" role="tablist" aria-label="Widok" id="views">
+    <button role="tab" id="vt-table" data-view="table" aria-controls="v-table">Tabela</button>
+    <button role="tab" id="vt-cal" data-view="cal" aria-controls="v-cal">Kalendarz</button>
+    <button role="tab" id="vt-cmp" data-view="cmp" aria-controls="v-cmp">Porównanie</button>
+    <button role="tab" id="vt-xy" data-view="xy" aria-controls="v-xy">Koszt a wynik</button>
+  </div>
+  <div class="excl">
+    <label for="showExcluded"><input type="checkbox" id="showExcluded"> Pokaż wyłączone</label>
+    <button class="btn sm" id="exclVisible" title="Wyłącz wszystkie kierunki widoczne teraz w tabeli">Wyłącz widoczne</button>
+    <button class="btn sm" id="onlyVisible" title="Wyłącz wszystkie kierunki poza widocznymi teraz w tabeli">Zostaw tylko widoczne</button>
+    <button class="btn sm" id="includeAll">Włącz wszystkie</button>
+  </div>
+</div>
+<div id="panel" role="tabpanel">
+<section id="v-table" role="tabpanel" aria-labelledby="vt-table">
+<div class="tablewrap"><table class="grid" id="grid"></table></div>
 <p class="legend">
   <span><span class="est">31,2</span> szacunek</span>
   <span><span class="na">n/d</span> nie dotyczy (ocena 0)</span>
@@ -231,11 +390,50 @@ dialog::backdrop { background: rgb(10 20 22 / 0.45); }
   <span><i>~72</i>, <i>~H</i> wynik / sezon prowizoryczny, pokrycie &lt; 100%</span>
   <span><span class="unchk">⚠</span> filtr niesprawdzony: brak danych</span>
   <span>Kolor: ocena wg formatki, tylko kolumny z wagą &gt; 0</span>
+  <span>Koszt wyjazdu: rząd wielkości dla składu z paska „Wyjazd” (na własną rękę albo z biurem); najedź na kwotę, by zobaczyć rozbicie; <span class="costnote">＋</span> dodatkowe koszty poza kalkulatorem (np. transfer do resortu)</span>
   <span>Kliknij wynik albo nazwę miejsca, by zobaczyć szczegóły</span>
+  <span><input type="checkbox" checked disabled aria-hidden="true" style="vertical-align:-2px;margin:0"> kierunek uwzględniany; odznacz, by wyłączyć go z tabeli i wykresów (zapisywane w profilu)</span>
 </p>
+</section>
+<section id="v-cal" role="tabpanel" aria-labelledby="vt-cal" hidden>
+  <div class="ctl">
+    <label for="calSort">Sortuj <select id="calSort">
+      <option value="month">wynik w wybranym miesiącu</option>
+      <option value="best">najlepszy miesiąc</option>
+      <option value="good">liczba miesięcy z wynikiem ≥ 70</option>
+      <option value="avg">średnia z 12 miesięcy</option>
+      <option value="place">nazwa</option>
+    </select></label>
+    <span class="scale"><span>0</span><span class="bar"></span><span>100</span> <span class="hatch"></span> nie spełnia filtrów w tym miesiącu</span>
+  </div>
+  <div class="calwrap"><table class="cal" id="cal"></table></div>
+  <p class="note-s" id="calNote"></p>
+</section>
+<section id="v-cmp" role="tabpanel" aria-labelledby="vt-cmp" hidden>
+  <div class="ctl">
+    <label for="cmpMetric">Wartość <select id="cmpMetric"></select></label>
+    <div class="cmpsel" id="cmpSel"></div>
+    <label for="cmpAdd" class="vh">Dodaj kierunek</label><select id="cmpAdd"></select>
+  </div>
+  <div class="chartbox" id="cmpChart"></div>
+  <p class="note-s" id="cmpNote"></p>
+</section>
+<section id="v-xy" role="tabpanel" aria-labelledby="vt-xy" hidden>
+  <div class="ctl">
+    <label for="xyX">Oś pozioma <select id="xyX"></select></label>
+    <span class="note-s" style="margin:0">Oś pionowa: wynik w wybranym miesiącu. Wyróżnione: kierunki, których nie przebija żaden tańszy (krótszy) z wyższym wynikiem.</span>
+  </div>
+  <div class="chartbox" id="xyChart"></div>
+  <p class="note-s" id="xyNote"></p>
+</section>
+</div>
 
 <dialog id="dlg"><div class="dlg" id="dlgBody"></div></dialog>
 
+<script>
+// Otwarcie z dysku: moduł się nie wczyta (przeglądarka blokuje file://), więc nagłówek nie może wisieć na „Wczytywanie…”.
+if (location.protocol === 'file:') document.querySelector('#dataInfo').textContent = 'Nie wczytano danych.';
+</script>
 <script type="module">
 import * as core from './core.js';
 
@@ -245,21 +443,50 @@ const STORE_ACTIVE = 'wakacje.aktywny';  // ostatnia poprawna wersja, z której 
 const SHORT = ['sty', 'lut', 'mar', 'kwi', 'maj', 'cze', 'lip', 'sie', 'wrz', 'paź', 'lis', 'gru'];
 const FIELD_LABEL = { min: 'min', idealFrom: 'ideał od', idealTo: 'ideał do', max: 'max', weight: 'waga' };
 
-let data, cols, types, draft, active;
+let data, cols, types, draft, active, baseDestinations;
 let formErrors = [];
 let month = new Date().getMonth();
 let sort = { key: 'score', dir: -1 };
 const collapsed = new Set();
+// Stan widoku (nie profil): zakładka, wyłączone na widoku, wybór do porównania, osie wykresów. Tylko wygoda – może zniknąć.
+const STORE_UI = 'wakacje.widok';
+// compare: null = jeszcze nie wybrano (strona proponuje najlepsze), [] = użytkownik usunął wszystkie.
+const UI_DEFAULT = { view: 'table', showExcluded: false, compare: null, metric: 'score', xyX: 'trip_cost', calSort: 'month', moreOpen: false };
+// Zapis z innej wersji strony albo ręcznie zmieniony: każde pole sprawdzone, złe zastąpione domyślnym.
+let ui = (() => {
+  let v = null;
+  try { v = JSON.parse(localStorage.getItem(STORE_UI)); } catch {}
+  if (!core.isObj(v)) return { ...UI_DEFAULT };
+  const pick = (k, ok) => (ok(v[k]) ? v[k] : UI_DEFAULT[k]);
+  return {
+    view: pick('view', x => ['table', 'cal', 'cmp', 'xy'].includes(x)),
+    showExcluded: pick('showExcluded', x => typeof x === 'boolean'),
+    compare: Array.isArray(v.compare) ? v.compare.filter(x => typeof x === 'string') : null,
+    metric: pick('metric', x => typeof x === 'string'),
+    xyX: pick('xyX', x => typeof x === 'string'),
+    calSort: pick('calSort', x => ['month', 'best', 'good', 'avg', 'place'].includes(x)),
+    moreOpen: pick('moreOpen', x => typeof x === 'boolean'),
+  };
+})();
+const saveUi = () => store(STORE_UI, ui);
+// Poziom widoku z profilu (zmieniany przyciskami, więc zawsze poprawny w formatce).
+const viewLevel = () => core.VIEW_LEVELS.includes(draft?.viewLevel) ? draft.viewLevel : active?.viewLevel ?? 3;
+const shownCol = c => core.colLevel(c) <= viewLevel();
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
-const fmt = v => typeof v === 'number' ? v.toLocaleString('pl-PL', { maximumFractionDigits: 1 }) : String(v);
+const NUM = new Intl.NumberFormat('pl-PL', { maximumFractionDigits: 1 });
+const fmt = v => typeof v === 'number' ? NUM.format(v) : String(v);
 const colById = id => cols.find(c => c.id === id);
 const numeric = raw => { const p = core.parseValue(raw); return (p.kind === 'value' || p.kind === 'est') && typeof p.v === 'number' ? p.v : null; };
 const flagsOf = (d, m) => core.monthFlags(d, m, cols);
 const SETTING_LABEL = {
-  name: 'nazwa', flagPenalty: 'kara za poziom flagi', swimFlags: 'flagi kąpielowe',
+  name: 'nazwa', viewLevel: 'poziom widoku', flagPenalty: 'kara za poziom flagi', swimFlags: 'flagi kąpielowe',
   seasonThresholds: 'progi sezonu', 'seasonThresholds.low': 'próg sezonu M', 'seasonThresholds.high': 'próg sezonu H',
-  filters: 'filtry', 'filters.hideLevel3': 'ukryj z flagą poziomu 3', 'filters.maxFlightTime': 'czas lotu do', 'filters.maxStops': 'przesiadek do', 'filters.minCoverage': 'pokrycie od', 'filters.minScore': 'wynik od',
+  excluded: 'wyłączone kierunki', 'filters.categories': 'filtry kategorii i tagów', 'filters.tagMode': 'tryb tagów', 'filters.ranges': 'filtry zakresów', 'filters.packageOnly': 'tylko z ofertą biur',
+  filters: 'filtry', 'filters.hideLevel3': 'ukryj z flagą poziomu 3', 'filters.maxFlightTime': 'czas lotu do', 'filters.maxStops': 'przesiadek do', 'filters.minCoverage': 'pokrycie od', 'filters.minScore': 'wynik od', 'filters.maxTripCost': 'budżet do',
+  trip: 'skład i długość wyjazdu', 'trip.adults': 'dorośli', 'trip.children': 'dzieci', 'trip.infants': 'niemowlęta', 'trip.nights': 'noce',
+  costs: 'stawki kalkulatora kosztu', 'costs.ticketFactor': 'mnożnik ceny biletu', 'costs.infantTicket': 'bilet niemowlęcia',
+  'costs.childDaily': 'udział dziecka w wydatkach', 'costs.childPackage': 'wczasy dziecka', 'costs.infantPackage': 'wczasy niemowlęcia', 'trip.mode': 'tryb wyjazdu', 'costs.season': 'mnożniki noclegu wg sezonu', 'costs.lodging': 'stawki noclegu', 'costs.daily': 'stawki wydatków', 'costs.extras': 'dodatkowe wydatki',
 };
 const safeUrl = u => typeof u === 'string' && /^https?:\/\//i.test(u) ? u : null;
 const levelOf = f => [1, 2, 3].includes(f.level) ? f.level : '?';
@@ -282,13 +509,14 @@ function commit() {
   formErrors = core.validateProfile(draft, cols);
   if (!formErrors.length) { active = structuredClone(draft); store(STORE_ACTIVE, active); }
   store(STORE, draft);
+  data.destinations = core.withComputed(baseDestinations, active, cols);
   showFormErrors();
-  renderTable();
+  render();
 }
 
 // Kształt, na którym formatka może działać (wartości mogą być błędne).
 const wellFormed = p => core.isObj(p.columns) && Object.values(p.columns).every(core.isObj)
-  && core.isObj(p.seasonThresholds) && core.isObj(p.filters);
+  && core.isObj(p.seasonThresholds) && core.isObj(p.filters) && core.isObj(p.trip) && core.isObj(p.costs);
 
 const columnChanges = ({ added, removed, addedSettings = [] }) => [
   ...(added.length ? [`Nowe kolumny z wartościami domyślnymi: ${added.map(id => colById(id).name).join(', ')}.`] : []),
@@ -314,19 +542,24 @@ const fieldInputs = field => {
   if (field === 'flagPenalty') return ['set-flagPenalty'];
   if (field === 'swimFlags') return ['set-swimFlags'];
   if (field === 'seasonThresholds') return ['set-low', 'set-high'];
+  if (a === 'filters.ranges') return [`rng-${b}-min`, `rng-${b}-max`];
   if (a === 'filters') return [`flt-${b}`];
+  if (a === 'trip') return [`trip-${b}`];
+  if (a === 'costs') return b === 'lodging' || b === 'daily' ? [0, 1, 2, 3, 4].map(i => `cost-${b}-${i}`) : b === 'extras' ? ['cost-extras-0', 'cost-extras-1'] : b === 'season' ? ['H', 'M', 'L'].map(k => `cost-season-${k}`) : [`cost-${b}`];
+  if (a.startsWith('costs.')) return [`cost-${a.slice(6)}-${b}`];
   return [`f-${a}-${b}`];
 };
 const errText = e => {
   const [a, b] = splitField(e.field);
-  return FIELD_LABEL[b] && a !== 'filters' ? `${e.msg} (pole: ${FIELD_LABEL[b]})` : e.msg;
+  return FIELD_LABEL[b] && !['filters', 'trip'].includes(a) && !a.startsWith('costs') && !a.startsWith('filters') ? `${e.msg} (pole: ${FIELD_LABEL[b]})` : e.msg;
 };
 
 function showFormErrors() {
   document.querySelectorAll('[aria-invalid="true"]').forEach(el => el.removeAttribute('aria-invalid'));
-  for (const e of formErrors) for (const id of fieldInputs(e.field)) document.getElementById(id)?.setAttribute('aria-invalid', 'true');
+  for (const e of formErrors) for (const f of [e.field, ...(e.also ?? [])]) for (const id of fieldInputs(f)) document.getElementById(id)?.setAttribute('aria-invalid', 'true');
   $('#formErrors').innerHTML = formErrors.length
-    ? `<strong>Formatka ma błędy. Wyniki są liczone z ostatniej poprawnej wersji.</strong><ul>${formErrors.map(e => `<li>${esc(errText(e))}</li>`).join('')}</ul>`
+    ? `<strong>Formatka ma błędy. Wyniki są liczone z ostatniej poprawnej wersji.</strong><ul>${formErrors.map(e => `<li>${esc(errText(e))}</li>`).join('')}</ul>${
+      formErrors.some(e => { const c = colById(splitField(e.field)[0]); return c && !shownCol(c); }) ? '<p>Część błędnych kolumn jest ukryta na tym poziomie widoku – przełącz na Master, żeby je poprawić.</p>' : ''}`
     : '';
   if (formErrors.length) {
     $('#formPanel').hidden = false;
@@ -335,12 +568,13 @@ function showFormErrors() {
 }
 
 function renderForm() {
-  const groups = [...new Set(cols.filter(core.isScoring).map(c => c.group))];
+  const formCols = cols.filter(c => core.isScoring(c) && shownCol(c));
+  const groups = [...new Set(formCols.map(c => c.group))];
   const val = v => v == null ? '' : v;
   let html = '<thead><tr><th>Kolumna</th><th>Min</th><th>Ideał od</th><th>Ideał do</th><th>Max</th><th>Waga</th></tr></thead>';
   for (const g of groups) {
     html += `<tbody><tr class="grp"><th colspan="6">${esc(g)}</th></tr>`;
-    for (const c of cols.filter(c => core.isScoring(c) && c.group === g)) {
+    for (const c of formCols.filter(c => c.group === g)) {
       const r = draft.columns[c.id];
       html += `<tr><th scope="row">${esc(c.name)} <span class="unit">${esc(c.unit)}</span></th>`;
       for (const f of ['min', 'idealFrom', 'idealTo', 'max', 'weight']) {
@@ -351,6 +585,10 @@ function renderForm() {
     html += '</tbody>';
   }
   $('#formTable').innerHTML = html;
+  // Ukryte na tym poziomie kolumny z wagą nadal liczą się do wyniku – trzeba to widzieć.
+  const hiddenW = cols.filter(c => core.isScoring(c) && !shownCol(c) && draft.columns[c.id]?.weight > 0);
+  $('#formHidden').textContent = hiddenW.length
+    ? `Ukryte na tym poziomie widoku, ale liczone do wyniku: ${hiddenW.map(c => `${c.name} (waga ${fmt(draft.columns[c.id].weight)})`).join(', ')}. Zmienisz je w widoku Master.` : '';
   $('#set-flagPenalty').value = draft.flagPenalty ?? '';
   $('#set-swimFlags').checked = !!draft.swimFlags;
   $('#set-low').value = draft.seasonThresholds.low ?? '';
@@ -361,6 +599,16 @@ function renderForm() {
   $('#flt-maxStops').value = draft.filters.maxStops ?? '';
   $('#flt-minCoverage').value = draft.filters.minCoverage ?? '';
   $('#flt-minScore').value = draft.filters.minScore ?? '';
+  $('#flt-maxTripCost').value = draft.filters.maxTripCost ?? '';
+  $('#flt-packageOnly').checked = !!draft.filters.packageOnly;
+  renderChips();
+  renderRanges();
+  for (const k of ['adults', 'children', 'infants', 'nights']) $(`#trip-${k}`).value = draft.trip[k] ?? '';
+  for (const k of ['ticketFactor', 'infantTicket', 'childDaily', 'childPackage', 'infantPackage']) $(`#cost-${k}`).value = draft.costs[k] ?? '';
+  $('#trip-mode').checked = draft.trip.mode === 'package';
+  for (const k of ['lodging', 'daily']) for (let i = 0; i < 5; i++) $(`#cost-${k}-${i}`).value = draft.costs[k]?.[i] ?? '';
+  for (let i = 0; i < 2; i++) $(`#cost-extras-${i}`).value = draft.costs.extras?.[i] ?? '';
+  for (const k of ['H', 'M', 'L']) $(`#cost-season-${k}`).value = draft.costs.season?.[k] ?? '';
   showFormErrors();
 }
 
@@ -385,6 +633,20 @@ function bindInputs() {
   $('#flt-maxStops').oninput = e => { draft.filters.maxStops = numIn(e.target); commit(); };
   $('#flt-minCoverage').oninput = e => { draft.filters.minCoverage = numIn(e.target); commit(); };
   $('#flt-minScore').oninput = e => { draft.filters.minScore = numIn(e.target); commit(); };
+  $('#flt-maxTripCost').oninput = e => { draft.filters.maxTripCost = numIn(e.target); commit(); };
+  $('#flt-packageOnly').onchange = e => { draft.filters.packageOnly = e.target.checked; commit(); };
+  bindMoreFilters();
+  for (const k of ['adults', 'children', 'infants', 'nights']) $(`#trip-${k}`).oninput = e => { draft.trip[k] = numIn(e.target); commit(); };
+  for (const k of ['ticketFactor', 'infantTicket', 'childDaily', 'childPackage', 'infantPackage']) $(`#cost-${k}`).oninput = e => { draft.costs[k] = numIn(e.target); commit(); };
+  $('#trip-mode').onchange = e => { draft.trip.mode = e.target.checked ? 'package' : 'self'; commit(); };
+  // Listy stawek: gdy w pliku nie były listą, formatka zaczyna od pustej listy (walidacja zgłosi braki).
+  const arr = k => (Array.isArray(draft.costs[k]) ? draft.costs[k] : (draft.costs[k] = []));
+  for (const k of ['lodging', 'daily']) for (let i = 0; i < 5; i++) $(`#cost-${k}-${i}`).oninput = e => { arr(k)[i] = numIn(e.target); commit(); };
+  for (let i = 0; i < 2; i++) $(`#cost-extras-${i}`).oninput = e => { arr('extras')[i] = numIn(e.target); commit(); };
+  for (const k of ['H', 'M', 'L']) $(`#cost-season-${k}`).oninput = e => {
+    if (!core.isObj(draft.costs.season)) draft.costs.season = {};
+    draft.costs.season[k] = numIn(e.target); commit();
+  };
 
   $('#btnForm').onclick = () => {
     const panel = $('#formPanel');
@@ -396,6 +658,7 @@ function bindInputs() {
     if (!confirm('Przywrócić domyślną formatkę, ustawienia i filtry? Bieżące zmiany przepadną, jeśli nie pobrano profilu.')) return;
     draft = safeDefault().profile;
     renderForm();
+    ui.compare = null; saveUi();
     commit();
     note('info', 'Przywrócono profil domyślny.');
   };
@@ -445,21 +708,28 @@ function renderMonths() {
 
 function selectMonth(m, focus = false) {
   month = (m + 12) % 12;
-  renderMonths(); renderTable();
+  renderMonths(); render();
   if (focus) document.getElementById(`tab-${month}`).focus();
 }
 
-function rowsFor(m) {
-  // Filtry działają od razu, także gdy inne pole formatki ma błąd.
-  const f = formErrors.some(e => e.field.startsWith('filters')) ? active.filters : draft.filters;
+// Filtry działają od razu, także gdy inne pole formatki ma błąd.
+const curFilters = () => formErrors.some(e => e.field.startsWith('filters')) ? active.filters : draft.filters;
+// Wyłączone kierunki zmienia tylko strona (zawsze poprawna lista), więc liczą się od razu z bieżącej formatki.
+const excludedSet = () => new Set(Array.isArray(draft.excluded) ? draft.excluded : []);
+const isOff = id => excludedSet().has(id);
+
+function rowsAll(m) {
+  const f = curFilters(), ex = excludedSet();
   // Flagi jak w karze; brak danych do filtra nie odrzuca kierunku, tylko go oznacza (unchecked).
   return data.destinations.map(d => {
     const r = core.score(d, m, cols, data.flagTypes, active);
     const w = core.score(d, m, cols, data.flagTypes, active, true);
     const { pass, unchecked } = core.checkFilters(d, m, r, cols, f);
-    return { d, r, w, pass, unchecked, season: core.season(w.score, active.seasonThresholds) };
-  }).filter(row => row.pass);
+    return { d, r, w, pass, unchecked, off: ex.has(d.id), season: core.season(w.score, active.seasonThresholds) };
+  });
 }
+// Wiersze widoczne: spełniają filtry; wyłączone tylko przy „pokaż wyłączone” (wyszarzone).
+const rowsFor = m => rowsAll(m).filter(row => row.pass && (!row.off || ui.showExcluded));
 
 function sortValue(row, key) {
   if (key === 'place') return row.d.place;
@@ -470,6 +740,8 @@ function sortValue(row, key) {
   const raw = core.rawValue(row.d, col, month);
   if (col.type === 'flags') return core.countedFlags(core.flagList(raw), data.flagTypes, active).reduce((n, x) => n + x.level, 0);
   if (col.type === 'hml') { const p = core.parseValue(raw); return { L: 1, M: 2, H: 3 }[p.v] ?? null; }
+  if (col.type === 'category') { const v = core.choiceValues(row.d, col); return v ? col.values.indexOf(v[0]) : null; }
+  if (col.type === 'tags') return core.choiceValues(row.d, col)?.length ?? null;
   return numeric(raw);
 }
 
@@ -496,6 +768,11 @@ function valueParts(col, raw) {
   const p = core.parseValue(raw);
   if (p.kind === 'missing') return { cls: 'miss', attrs: ' title="Brak danych"', text: 'b.d.' };
   let attrs = '', cls = '';
+  if (core.isChoice(col) && p.kind !== 'na') {
+    const vals = core.choiceValues({ fixed: { [col.id]: raw } }, col);
+    if (!vals) return { cls: 'bad', attrs: ' title="Błędna wartość: liczona jak brak danych"', text: esc(Array.isArray(p.v) ? p.v.join(', ') : String(p.v)) };
+    return { cls: '', attrs: '', text: col.type === 'tags' ? vals.map(esc).join(', ') : esc(vals[0]), vals };
+  }
   const bad = p.kind !== 'na' && (core.isScoring(col) ? !core.validNumber(col, p.v) : col.type === 'hml' && !['H', 'M', 'L'].includes(p.v));
   const r = active.columns[col.id];
   if (core.isScoring(col) && r && r.weight > 0) {
@@ -503,15 +780,37 @@ function valueParts(col, raw) {
     if (s != null) { attrs = ` style="--s:${s.toFixed(3)}"`; cls = 'heat'; }
   }
   if (bad) cls += ' bad';
-  const text = p.kind === 'na' ? '<span class="na">n/d</span>' : `<span class="${p.kind === 'est' ? 'est' : ''}">${esc(fmt(p.v))}</span>`;
-  attrs += bad ? ' title="Błędna wartość: liczona jak brak danych"' : p.kind === 'est' ? ' title="Szacunek"' : p.kind === 'na' ? (col.weather ? ' title="Nie dotyczy: pomijane"' : ' title="Nie dotyczy: ocena 0"') : '';
+  const naText = typeof col.naLabel === 'string' ? col.naLabel : 'n/d';
+  const shown = col.id === core.TIME_DIFF && typeof p.v === 'number' ? signed(p.v) : fmt(p.v);
+  const text = p.kind === 'na' ? `<span class="na">${esc(naText)}</span>` : `<span class="${p.kind === 'est' ? 'est' : ''}">${esc(shown)}</span>`;
+  const naTip = typeof col.naLabel === 'string' ? `${col.naLabel[0].toUpperCase()}${col.naLabel.slice(1)}: ocena 0` : col.weather ? 'Nie dotyczy: pomijane' : 'Nie dotyczy: ocena 0';
+  attrs += bad ? ' title="Błędna wartość: liczona jak brak danych"' : p.kind === 'est' ? ' title="Szacunek"' : p.kind === 'na' ? ` title="${esc(naTip)}"` : '';
   return { cls, attrs, text };
 }
 
+// Polska odmiana po liczebniku: 1 kierunek, 2–4 kierunki, 5+ kierunków (12–14 też „kierunków”).
+const plural = (n, one, few, many) => n === 1 ? one : n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? few : many;
+const kier = n => `${n} ${plural(n, 'kierunek', 'kierunki', 'kierunków')}`;
+// Tagi jako przyciski: klik włącza albo wyłącza filtr tego tagu.
+const tagButtons = (col, vals) => vals.map(t => { const on = catSel(col.id).includes(t); return `<button class="tagbtn" data-tagf="${esc(col.id)}|${esc(t)}" aria-pressed="${on}" title="${on ? 'Usuń filtr' : 'Filtruj'}: ${esc(t)}">${esc(t)}</button>`; }).join('');
+function toggleChoice(id, v) {
+  const f = draft.filters;
+  if (!core.isObj(f.categories)) f.categories = {};
+  const sel = catSel(id);
+  f.categories[id] = sel.includes(v) ? sel.filter(x => x !== v) : colById(id).values.filter(x => x === v || sel.includes(x));
+  if (!f.categories[id].length) delete f.categories[id];
+  renderChips();
+  commit();
+}
+const signed = v => `${v > 0 ? '+' : v < 0 ? '−' : '±'}${fmt(Math.abs(v))}`;
 // Komórka danych w tabeli.
 function cell(col, raw, extraClass = '') {
   if (col.type === 'flags') return `<td class="l ${extraClass}">${flagsHtml(core.flagList(raw))}</td>`;
   const v = valueParts(col, raw);
+  if (core.isChoice(col)) {
+    if (col.type === 'tags' && v.vals) return `<td class="tagcell ${extraClass}" title="${v.text}">${tagButtons(col, v.vals)}</td>`;
+    return `<td class="catcell ${extraClass} ${v.cls}"${v.attrs}>${v.text}</td>`;
+  }
   return `<td class="${col.type === 'number' ? '' : 'c'} ${extraClass} ${v.cls}"${v.attrs}>${v.text}</td>`;
 }
 
@@ -523,12 +822,44 @@ const pill = w => {
   const prov = isProv(w);
   return `<span class="pill" style="--s:${{ H: 1, M: 0.5, L: 0 }[s]}"${prov ? ` title="Sezon prowizoryczny: pokrycie danych pogodowych ${pct(w.coverage)}"` : ''}>${prov ? '~' : ''}${s}</span>`;
 };
-const FILTER_LABEL = { maxFlightTime: 'czas lotu', maxStops: 'przesiadki', minScore: 'wynik' };
+const FILTER_LABEL = { maxFlightTime: 'czas lotu', maxStops: 'przesiadki', minScore: 'wynik', maxTripCost: 'koszt wyjazdu', packageOnly: 'oferta biur' };
+const filterLabel = k => FILTER_LABEL[k] ?? colById(k.replace(/^(cat|range):/, ''))?.name ?? k;
+const NUM0 = new Intl.NumberFormat('pl-PL'), NUM2 = new Intl.NumberFormat('pl-PL', { maximumFractionDigits: 2 });
+const zl = v => `${Math.round(v / 100) * 100 > 0 ? NUM0.format(Math.round(v / 100) * 100) : 0} zł`;
+// Rozbicie kosztu wyjazdu (podpowiedź komórki).
+function costTip(d, m) {
+  const r = core.tripCost(d, m, active, cols);
+  if (r.noOffer) return 'Z biurem: brak oferty wczasów w tym miesiącu';
+  if (r.total == null) return `Brak danych do kalkulatora: ${r.missing.map(id => colById(id)?.name ?? id).join(', ')}`;
+  const t = active.trip;
+  const head = `Koszt wyjazdu ≈ ${zl(r.total)} (${t.adults} dor., ${t.children} dz., ${t.infants} niem., ${t.nights} nocy${r.mode === 'package' ? ', z biurem' : ''})`;
+  if (r.mode === 'package') return [head,
+    `Wczasy: ${zl(r.pkgTotal)} (${zl(r.perAdult)} za dorosłego; cena za 7 nocy ${zl(r.pkg)}; transfer z lotniska zwykle w cenie)`,
+    `Dodatkowe: ${zl(r.extras)} (${fmt(Math.round(r.extrasPct * 10) / 10)}%${r.sights == null ? ', brak oceny zwiedzania' : ''})`].join('\n');
+  return [head,
+    `Bilety: ${zl(r.tickets)} (${zl(r.fare)} za osobę)`, `Nocleg: ${zl(r.lodging)} (${r.rooms} pok., poziom cen ${r.level}, ${r.seasonKey ? `sezon ${r.seasonKey} × ${NUM2.format(r.seasonMult)}` : 'bez sezonu × 1'})`,
+    `Wydatki: ${zl(r.daily)}`, `Dodatkowe: ${zl(r.extras)} (${fmt(Math.round(r.extrasPct * 10) / 10)}%${r.sights == null ? ', brak oceny zwiedzania' : ''})`,
+    ...(typeof d.costNote === 'string' ? ['', `＋ ${d.costNote}`] : [])].join('\n');
+}
+// Komórka kolumny: dla kolumny wyliczanej z podpowiedzią z rozbiciem.
+const cellFor = (c, d, m, extra = '') => {
+  const html = cell(c, core.rawValue(d, c, m), extra);
+  if (c.id === 'entry' && typeof d.entryNote === 'string') return html.replace(/ title="[^"]*"/, '').replace('<td ', `<td title="${esc(d.entryNote)}" `);
+  if (c.id !== core.TRIP_COST) return html;
+  const kind = core.parseValue(core.rawValue(d, c, m)).kind;
+  const plus = typeof d.costNote === 'string' && active.trip.mode !== 'package' && (kind === 'est' || kind === 'value') ? '<span class="costnote">＋</span>' : '';
+  // Jedna podpowiedź: rozbicie kosztu zamiast „Szacunek” / „Brak oferty”.
+  return html.replace(/ title="[^"]*"/, '').replace('<td ', `<td title="${esc(costTip(d, m))}" `).replace(/<\/td>$/, `${plus}</td>`);
+};
 
 function renderTable() {
+  const lvl = viewLevel();
+  // Sortowanie po kolumnie ukrytej na tym poziomie wraca do wyniku (przed sortowaniem wierszy).
+  if (!['place', 'score'].includes(sort.key) && !(sort.key === 'coverage' && lvl >= 3) && !(sort.key === 'season' && lvl >= 2) && !cols.some(c => c.id === sort.key && shownCol(c)))
+    sort = { key: 'score', dir: -1 };
   const rows = sortRows(rowsFor(month));
   const groups = [];
-  for (const c of cols) {
+  for (const c of cols.filter(shownCol)) {
     let g = groups.find(x => x.name === c.group);
     if (!g) groups.push(g = { name: c.group, cols: [] });
     g.cols.push(c);
@@ -540,8 +871,8 @@ function renderTable() {
 
   let head1 = `<tr><th class="first" rowspan="2"${ariaSort('place')}><button class="sortbtn" data-sort="place">Kierunek ${arrow('place')}</button></th>`;
   head1 += `<th rowspan="2" class="gs"${ariaSort('score')}><button class="sortbtn" data-sort="score">Wynik ${arrow('score')}</button></th>`;
-  head1 += `<th rowspan="2"${ariaSort('coverage')}><button class="sortbtn" data-sort="coverage">Pokrycie ${arrow('coverage')}</button></th>`;
-  head1 += `<th rowspan="2"${ariaSort('season')}><button class="sortbtn" data-sort="season">Sezon glob. ${arrow('season')}</button></th>`;
+  if (lvl >= 3) head1 += `<th rowspan="2"${ariaSort('coverage')}><button class="sortbtn" data-sort="coverage">Pokrycie ${arrow('coverage')}</button></th>`;
+  if (lvl >= 2) head1 += `<th rowspan="2"${ariaSort('season')}><button class="sortbtn" data-sort="season">Sezon glob. ${arrow('season')}</button></th>`;
   let head2 = '<tr>';
   for (const g of groups) {
     const shut = collapsed.has(g.name);
@@ -554,23 +885,53 @@ function renderTable() {
     });
   }
   let body = '';
-  for (const { d, r, w, unchecked } of rows) {
+  for (const { d, r, w, unchecked, off } of rows) {
     const unchk = unchecked.length
-      ? `<span class="unchk" title="${esc(`Filtr niesprawdzony, brak danych: ${unchecked.map(k => FILTER_LABEL[k]).join(', ')}`)}">⚠</span>` : '';
-    body += `<tr><th class="first" scope="row"><div class="row"><button data-dest="${esc(d.id)}"><span class="place">${esc(d.place)}</span><span class="country">${esc(d.country)}</span></button>${unchk}</div></th>`;
+      ? `<span class="unchk" title="${esc(`Filtr niesprawdzony, brak danych: ${unchecked.map(filterLabel).join(', ')}`)}">⚠</span>` : '';
+    body += `<tr class="${off ? 'off' : ''}"><th class="first" scope="row"><div class="row"><input type="checkbox" class="tog" data-toggle="${esc(d.id)}" ${off ? '' : 'checked'} aria-label="Uwzględniaj ${esc(d.place)}" title="${off ? 'Wyłączony – zaznacz, by uwzględniać' : 'Odznacz, by wyłączyć z tabeli i wykresów'}"><button data-dest="${esc(d.id)}"><span class="place">${esc(d.place)}</span><span class="country">${esc(d.country)}</span></button>${unchk}</div></th>`;
     body += `<td class="score gs${r.score != null ? ' heat' : ''}" ${r.score != null ? `style="--s:${(r.score / 100).toFixed(3)}"` : ''}><button data-score="${esc(d.id)}" class="${isProv(r) ? 'prov' : ''}" title="${isProv(r) ? 'Wynik prowizoryczny: brakuje danych. ' : ''}Kliknij, by zobaczyć obliczenie">${scoreText(r)}</button></td>`;
-    body += `<td>${pct(r.coverage)}</td>`;
-    body += `<td class="c">${pill(w)}</td>`;
+    if (lvl >= 3) body += `<td>${pct(r.coverage)}</td>`;
+    if (lvl >= 2) body += `<td class="c">${pill(w)}</td>`;
     for (const g of groups) {
       if (collapsed.has(g.name)) { body += '<td class="gs"></td>'; continue; }
-      g.cols.forEach((c, i) => { body += cell(c, core.rawValue(d, c, month), i === 0 ? 'gs' : ''); });
+      g.cols.forEach((c, i) => { body += cellFor(c, d, month, i === 0 ? 'gs' : ''); });
     }
     body += '</tr>';
   }
   if (!rows.length) body = `<tr><td class="l" colspan="99">Żaden kierunek nie spełnia filtrów.</td></tr>`;
   $('#grid').innerHTML = `<thead>${head1}</tr>${head2}</tr></thead><tbody>${body}</tbody>`;
-  const nUnchk = rows.filter(x => x.unchecked.length).length;
-  $('#count').textContent = `Pokazano ${rows.length} z ${data.destinations.length}${nUnchk ? `, w tym ${nUnchk} bez danych do filtra` : ''}`;
+}
+
+// Licznik nad widokiem: ile kierunków spełnia filtry w miesiącu, ile wyłączono ręcznie.
+function renderCount() {
+  const all = rowsAll(month);
+  const shown = all.filter(x => x.pass && !x.off);
+  const nOff = all.filter(x => x.off).length;
+  const nUnchk = shown.filter(x => x.unchecked.length).length;
+  $('#count').textContent = `Pokazano ${shown.length} z ${all.length}`
+    + (nOff ? ` · wyłączonych ${nOff}${ui.showExcluded ? ' (widoczne, wyszarzone)' : ''}` : '')
+    + (nUnchk ? ` · ${nUnchk} bez danych do filtra` : '');
+}
+
+function render() {
+  renderCount();
+  renderMoreSummary();
+  for (const v of ['table', 'cal', 'cmp', 'xy']) {
+    $(`#v-${v}`).hidden = ui.view !== v;
+    const b = $(`#vt-${v}`);
+    b.setAttribute('aria-selected', String(ui.view === v));
+    b.tabIndex = ui.view === v ? 0 : -1;
+  }
+  $('#showExcluded').checked = !!ui.showExcluded;
+  for (const b of document.querySelectorAll('#levelSeg [data-level]')) b.setAttribute('aria-pressed', String(Number(b.dataset.level) === viewLevel()));
+  // Pola filtrów kolumn spoza poziomu widoku znikają, chyba że mają ustawioną wartość (wtedy nadal działają i muszą być widoczne).
+  const fl = core.isObj(draft.filters) ? draft.filters : {};
+  for (const [key, id] of Object.entries(core.FILTER_COLUMNS)) { const c = colById(id); if (c) $(`label[for="flt-${key}"]`).hidden = !shownCol(c) && fl[key] == null; }
+  $('label[for="flt-minCoverage"]').hidden = viewLevel() < 3 && fl.minCoverage == null;
+  if (ui.view === 'table') renderTable();
+  else if (ui.view === 'cal') renderCalendar();
+  else if (ui.view === 'cmp') renderCompare();
+  else renderScatter();
 }
 
 function bindTable() {
@@ -586,6 +947,10 @@ function bindTable() {
     else return;
     e.preventDefault();
   };
+  $('#grid').addEventListener('change', e => {
+    const id = e.target.dataset?.toggle;
+    if (id) setExcluded([id], e.target.checked ? 'remove' : 'add');
+  });
   $('#grid').onclick = e => {
     const t = e.target.closest('button');
     if (!t) return;
@@ -599,18 +964,442 @@ function bindTable() {
       renderTable();
     } else if (t.dataset.score) showScore(t.dataset.score);
     else if (t.dataset.dest) showDest(t.dataset.dest);
+    else if (t.dataset.tagf) { const [id, v] = t.dataset.tagf.split('|'); toggleChoice(id, v); }
   };
+  $('#levelSeg').onclick = e => {
+    const b = e.target.closest('[data-level]');
+    if (!b) return;
+    draft.viewLevel = Number(b.dataset.level);
+    renderForm();
+    commit();
+  };
+  $('#views').onclick = e => { const b = e.target.closest('[data-view]'); if (b) selectView(b.dataset.view, true); };
+  $('#views').onkeydown = e => {
+    const order = ['table', 'cal', 'cmp', 'xy'];
+    const step = { ArrowLeft: -1, ArrowRight: 1 }[e.key];
+    if (!step) return;
+    e.preventDefault();
+    selectView(order[(order.indexOf(ui.view) + step + order.length) % order.length], true);
+  };
+  $('#showExcluded').onchange = e => { ui.showExcluded = e.target.checked; saveUi(); render(); };
+  // Masowe: „widoczne” = spełniające filtry w wybranym miesiącu i niewyłączone.
+  const visibleIds = () => rowsAll(month).filter(x => x.pass && !x.off).map(x => x.d.id);
+  $('#exclVisible').onclick = () => {
+    const ids = visibleIds();
+    if (!ids.length || !confirm(`Wyłączyć widoczne: ${kier(ids.length)}?`)) return;
+    setExcluded(ids, 'add');
+  };
+  $('#onlyVisible').onclick = () => {
+    const keep = new Set(visibleIds());
+    const ids = data.destinations.map(d => d.id).filter(id => !keep.has(id));
+    // Pusty widok: „zostaw tylko widoczne” wyłączyłoby wszystko – to raczej pomyłka niż zamiar.
+    if (!keep.size) { note('info', 'Żaden kierunek nie jest widoczny – nic nie zmieniono.'); return; }
+    if (!ids.length) return;
+    if (!confirm(`Zostawić widoczne (${kier(keep.size)}) i wyłączyć pozostałe (${ids.filter(id => !isOff(id)).length})?`)) return;
+    setExcluded(ids, 'add');
+  };
+  $('#includeAll').onclick = () => setExcluded(data.destinations.map(d => d.id), 'remove');
+  $('#calSort').onchange = e => { ui.calSort = e.target.value; saveUi(); render(); };
+  $('#cal').onclick = e => {
+    const b = e.target.closest('button');
+    if (!b) return;
+    if (b.dataset.m) selectMonth(Number(b.dataset.m));
+    else if (b.dataset.cell) { const [id, m] = b.dataset.cell.split('|'); showScore(id, Number(m)); }
+    else if (b.dataset.dest) showDest(b.dataset.dest);
+  };
+  $('#cmpMetric').onchange = e => { ui.metric = e.target.value; saveUi(); render(); };
+  $('#cmpAdd').onchange = e => {
+    const id = e.target.value;
+    if (id && !ui.compare.includes(id) && ui.compare.length < MAX_CMP) { ui.compare = [...ui.compare, id]; saveUi(); }
+    render();
+  };
+  $('#cmpSel').onclick = e => {
+    const b = e.target.closest('[data-rm]');
+    if (b) { ui.compare = ui.compare.filter(x => x !== b.dataset.rm); saveUi(); render(); }
+    const f = e.target.closest('[data-fill]');
+    if (f) { ui.compare = topIds(4); saveUi(); render(); }
+  };
+  $('#xyX').onchange = e => { ui.xyX = e.target.value; saveUi(); render(); };
+  for (const id of ['xyChart', 'cmpChart']) $(`#${id}`).addEventListener('click', e => {
+    const t = e.target.closest('[data-dest]');
+    if (t) showDest(t.dataset.dest);
+  });
+  let rt;
+  addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => { if (ui.view === 'cmp' || ui.view === 'xy') render(); }, 150); });
   const dlg = $('#dlg');
-  dlg.addEventListener('click', e => { if (e.target === dlg || e.target.closest('.close')) dlg.close(); });
+  dlg.addEventListener('click', e => {
+    if (e.target === dlg || e.target.closest('.close')) dlg.close();
+    const t = e.target.closest('[data-tagf]');
+    if (t) { const [id, v] = t.dataset.tagf.split('|'); dlg.close(); toggleChoice(id, v); }
+  });
+}
+
+function selectView(v, focus = false) {
+  ui.view = v; saveUi(); render();
+  if (focus) $(`#vt-${v}`).focus();
+}
+
+// Wyłączanie kierunków (lista w profilu). mode: add | remove.
+function setExcluded(ids, mode) {
+  const set = excludedSet();
+  for (const id of ids) mode === 'add' ? set.add(id) : set.delete(id);
+  draft.excluded = data.destinations.map(d => d.id).filter(id => set.has(id)).concat([...set].filter(id => !data.destinations.some(d => d.id === id)));
+  commit();
+}
+
+// ---------- kategorie, tagi, zakresy ----------
+// Tylko kolumny z poprawną listą wartości (błąd rejestru jest na liście błędów danych).
+const choiceCols = () => cols.filter(c => core.isChoice(c) && Array.isArray(c.values));
+// Kolumny do „+ filtr zakresu”: liczbowe i skale bez osobnego pola w pasku filtrów.
+const rangeCols = () => cols.filter(c => core.isRangeable(c) && shownCol(c) && !Object.values(core.FILTER_COLUMNS).includes(c.id));
+const catSel = id => (core.isObj(draft.filters.categories) && Array.isArray(draft.filters.categories[id]) ? draft.filters.categories[id] : []);
+
+function renderChips() {
+  if (!core.isObj(draft.filters)) return;
+  // Tagi zawsze na wierzchu (pasek nad widokiem), reszta w rozwijanej sekcji; kolumny spoza poziomu widoku tylko z aktywnym wyborem.
+  const rowsOf = list => list.map(c => {
+    const sel = catSel(c.id);
+    // Liczba kierunków z daną wartością (wszystkich, bez filtrów) – podpowiedź, jak szeroki jest wybór.
+    const count = v => data.destinations.filter(d => core.choiceValues(d, c)?.includes(v)).length;
+    const chips = c.values.map(v => `<button class="chip" data-cat="${esc(c.id)}" data-val="${esc(v)}" aria-pressed="${sel.includes(v)}">${esc(v)}<small>${count(v)}</small></button>`).join('');
+    const mode = c.type === 'tags' ? `<span class="seg" role="group" aria-label="Tryb tagów"><button data-tagmode="all" aria-pressed="${draft.filters.tagMode !== 'any'}" title="Kierunek ma wszystkie wybrane tagi">wszystkie</button><button data-tagmode="any" aria-pressed="${draft.filters.tagMode === 'any'}" title="Kierunek ma choć jeden z wybranych tagów">którykolwiek</button></span>` : '';
+    const clear = sel.length ? `<button class="chip clear" data-clear="${esc(c.id)}">wyczyść</button>` : '';
+    return `<div class="chiprow" role="group" aria-label="${esc(c.name)}"><span class="lbl">${esc(c.name)}</span>${chips}${clear}${mode}</div>`;
+  }).join('');
+  const visible = choiceCols().filter(c => shownCol(c) || catSel(c.id).length);
+  $('#tagbar').innerHTML = rowsOf(visible.filter(c => c.type === 'tags'));
+  $('#tagbar').hidden = !$('#tagbar').innerHTML;
+  $('#chips').innerHTML = rowsOf(visible.filter(c => c.type !== 'tags'));
+}
+
+function renderRanges() {
+  if (!core.isObj(draft.filters)) return;
+  const r = core.isObj(draft.filters.ranges) ? draft.filters.ranges : {};
+  const val = v => v == null ? '' : v;
+  const rows = Object.keys(r).filter(id => colById(id)).map(id => {
+    const c = colById(id), x = core.isObj(r[id]) ? r[id] : {};
+    const st = c.type === 'scale' ? 1 : 'any';
+    return `<span class="rng">${esc(c.name)} <label class="vh" for="rng-${esc(id)}-min">${esc(c.name)} od</label>od <input type="number" step="${st}" id="rng-${esc(id)}-min" data-rng="${esc(id)}" data-end="min" value="${esc(val(x.min))}">
+      <label class="vh" for="rng-${esc(id)}-max">${esc(c.name)} do</label>do <input type="number" step="${st}" id="rng-${esc(id)}-max" data-rng="${esc(id)}" data-end="max" value="${esc(val(x.max))}"> ${esc(c.unit)}
+      <button class="x" data-rmrng="${esc(id)}" aria-label="Usuń filtr ${esc(c.name)}">×</button></span>`;
+  }).join('');
+  const free = rangeCols().filter(c => !(c.id in r));
+  const add = free.length ? `<label class="vh" for="rangeAdd">Dodaj filtr zakresu</label><select id="rangeAdd"><option value="">+ filtr zakresu…</option>${
+    [...new Set(free.map(c => c.group))].map(g => `<optgroup label="${esc(g)}">${free.filter(c => c.group === g).map(c => `<option value="${esc(c.id)}">${esc(c.name)}${c.unit ? ` (${esc(c.unit)})` : ''}</option>`).join('')}</optgroup>`).join('')}</select>` : '';
+  $('#ranges').innerHTML = rows + add;
+  showFormErrors();
+}
+
+function renderMoreSummary() {
+  const f = draft.filters;
+  if (!core.isObj(f)) return;
+  const parts = [];
+  for (const c of choiceCols().filter(c => c.type !== 'tags')) {
+    const sel = catSel(c.id);
+    if (sel.length) parts.push(`${c.name}${c.type === 'tags' ? (f.tagMode === 'any' ? ' (którykolwiek)' : ' (wszystkie)') : ''}: ${sel.join(', ')}`);
+  }
+  for (const [id, r] of Object.entries(core.isObj(f.ranges) ? f.ranges : {})) {
+    const c = colById(id);
+    if (!c || !core.isObj(r) || (r.min == null && r.max == null)) continue;
+    parts.push(`${c.name} ${r.min != null ? `od ${fmt(r.min)} ` : ''}${r.max != null ? `do ${fmt(r.max)}` : ''}`.trim());
+  }
+  $('#moreSum').textContent = parts.join(' · ');
+}
+
+function bindMoreFilters() {
+  const more = $('#more');
+  more.open = !!ui.moreOpen;
+  more.addEventListener('toggle', () => { ui.moreOpen = more.open; saveUi(); });
+  $('#tagbar').onclick = e => $('#chips').onclick(e);
+  $('#chips').onclick = e => {
+    const b = e.target.closest('button');
+    if (!b) return;
+    const f = draft.filters;
+    if (!core.isObj(f.categories)) f.categories = {};
+    if (b.dataset.cat) { toggleChoice(b.dataset.cat, b.dataset.val); return; }
+    if (b.dataset.clear) delete f.categories[b.dataset.clear];
+    else if (b.dataset.tagmode) f.tagMode = b.dataset.tagmode;
+    else return;
+    renderChips();
+    commit();
+  };
+  $('#ranges').addEventListener('input', e => {
+    const el = e.target;
+    if (!el.dataset.rng) return;
+    if (!core.isObj(draft.filters.ranges)) draft.filters.ranges = {};
+    const r = draft.filters.ranges;
+    if (!core.isObj(r[el.dataset.rng])) r[el.dataset.rng] = { min: null, max: null };
+    r[el.dataset.rng][el.dataset.end] = numIn(el);
+    commit();
+  });
+  $('#ranges').addEventListener('change', e => {
+    if (e.target.id !== 'rangeAdd' || !e.target.value) return;
+    const id = e.target.value;
+    if (!core.isObj(draft.filters.ranges)) draft.filters.ranges = {};
+    draft.filters.ranges[id] = { min: null, max: null };
+    renderRanges();
+    commit();
+    document.getElementById(`rng-${id}-min`)?.focus();
+  });
+  $('#ranges').addEventListener('click', e => {
+    const b = e.target.closest('[data-rmrng]');
+    if (!b) return;
+    delete draft.filters.ranges[b.dataset.rmrng];
+    renderRanges();
+    commit();
+  });
+}
+
+// ---------- wykresy: wspólne ----------
+const MAX_CMP = 6;
+// Paleta kategorii (Okabe–Ito) – odróżnialna także przy zaburzeniach widzenia barw.
+const PALETTE = ['#0072B2', '#E69F00', '#009E73', '#CC79A7', '#56B4E9', '#D55E00'];
+const svgEsc = esc;
+// „Ładne” podziałki osi.
+function niceTicks(lo, hi, n = 5) {
+  if (lo === hi) { lo -= 1; hi += 1; }
+  const raw = (hi - lo) / n, mag = 10 ** Math.floor(Math.log10(raw));
+  const step = [1, 2, 2.5, 5, 10].map(k => k * mag).find(k => k >= raw);
+  const a = Math.floor(lo / step) * step, b = Math.ceil(hi / step) * step;
+  const out = [];
+  for (let v = a; v <= b + step / 2; v += step) out.push(Math.round(v * 1e6) / 1e6);
+  return out;
+}
+const boxWidth = el => Math.max(300, Math.floor(el.clientWidth - 16));
+function placeTip(box, tip, x, y) {
+  const bw = box.clientWidth, tw = tip.offsetWidth, th = tip.offsetHeight;
+  tip.style.left = `${Math.min(Math.max(4, x + 14), bw - tw - 4)}px`;
+  tip.style.top = `${Math.max(4, y - th - 10)}px`;
+}
+const fmtVal = (v, unit) => v == null ? '—' : `${unit === 'h' && v !== 0 ? (v > 0 ? '+' : '−') : ''}${fmt(unit === 'h' ? Math.abs(Math.round(v * 10) / 10) : Math.round(v * 10) / 10)}${unit ? ` ${unit}` : ''}`;
+
+// ---------- kalendarz ----------
+function renderCalendar() {
+  const f = curFilters(), ex = excludedSet();
+  $('#calSort').value = ui.calSort;
+  const rows = data.destinations.filter(d => !ex.has(d.id) || ui.showExcluded).map(d => {
+    const ms = core.MONTHS.map((_, m) => {
+      const r = core.score(d, m, cols, data.flagTypes, active);
+      return { r, pass: core.checkFilters(d, m, r, cols, f).pass };
+    });
+    const ok = ms.filter(x => x.pass && x.r.score != null).map(x => x.r.score);
+    const all = ms.filter(x => x.r.score != null).map(x => x.r.score);
+    return { d, ms, off: ex.has(d.id), best: ok.length ? Math.max(...ok) : null, good: ms.filter(x => x.pass && x.r.score != null && Math.round(x.r.score) >= 70).length, avg: all.length ? all.reduce((a, b) => a + b, 0) / all.length : null };
+  }).filter(x => x.ms.some(c => c.pass));
+  // Miesiąc niespełniający filtrów sortuje się za spełniającymi.
+  const key = {
+    month: x => x.ms[month].pass ? x.ms[month].r.score ?? -1 : -2 + (x.ms[month].r.score ?? 0) / 1000,
+    best: x => x.best ?? -1, good: x => x.good * 1000 + (x.best ?? 0), avg: x => x.avg ?? -1,
+  }[ui.calSort];
+  rows.sort(key ? (a, b) => key(b) - key(a) : (a, b) => a.d.place.localeCompare(b.d.place, 'pl'));
+  const head = `<thead><tr><th scope="col"><span class="vh">Kierunek</span></th>${SHORT.map((s, m) => `<th scope="col" class="${m === month ? 'now' : ''}"><button data-m="${m}" title="Wybierz: ${core.MONTHS[m]}">${s}</button></th>`).join('')}<th scope="col" title="Najlepszy wynik w miesiącach spełniających filtry">max</th></tr></thead>`;
+  const body = rows.map(({ d, ms, off, best }) => `<tr class="${off ? 'off' : ''}"><th scope="row"><button data-dest="${esc(d.id)}"><span class="place">${esc(d.place)}</span><span class="country">${esc(d.country)}</span></button></th>${ms.map(({ r, pass }, m) => {
+    const sc = r.score;
+    const cls = [sc != null ? 'heat' : 'none', pass ? '' : 'fail', m === month ? 'now' : ''].join(' ');
+    const tip = `${d.place} · ${core.MONTHS[m]}: ${sc == null ? 'brak wyniku' : `wynik ${scoreText(r)}`}${pass ? '' : ' · nie spełnia filtrów'}`;
+    return `<td class="${cls}"${sc != null ? ` style="--s:${(sc / 100).toFixed(3)}"` : ''}><button data-cell="${esc(d.id)}|${m}" title="${esc(tip)}" aria-label="${esc(tip)}">${sc == null ? '—' : scoreText(r)}</button></td>`;
+  }).join('')}<td class="agg">${best == null ? '—' : Math.round(best)}</td></tr>`).join('');
+  $('#cal').innerHTML = head + `<tbody>${body || '<tr><td colspan="14" class="none" style="text-align:left;padding:8px">Żaden kierunek nie spełnia filtrów w żadnym miesiącu.</td></tr>'}</tbody>`;
+  $('#calNote').textContent = `${kier(rows.length)} ${plural(rows.length, 'spełnia', 'spełniają', 'spełnia')} filtry w co najmniej jednym miesiącu. Komórka: wynik w miesiącu (kliknij, by zobaczyć obliczenie); nagłówek miesiąca wybiera miesiąc dla tabeli i wykresu kosztu.`;
+}
+
+// ---------- porównanie ----------
+function cmpMetrics() {
+  return [
+    { id: 'score', name: 'Wynik', unit: '', get: (d, m) => { const r = core.score(d, m, cols, data.flagTypes, active); return { v: r.score, est: isProv(r) }; }, lo: 0, hi: 100 },
+    { id: 'weather', name: 'Wynik pogodowy (sezon globalny)', unit: '', get: (d, m) => { const r = core.score(d, m, cols, data.flagTypes, active, true); return { v: r.score, est: isProv(r) }; }, lo: 0, hi: 100 },
+    ...cols.filter(c => c.scope === 'month' && c.type === 'number' && shownCol(c)).map(c => ({
+      id: c.id, name: c.name, unit: c.unit,
+      get: (d, m) => { const p = core.parseValue(core.rawValue(d, c, m)); return { v: (p.kind === 'value' || p.kind === 'est') && core.validNumber(c, p.v) ? p.v : null, est: p.kind === 'est', na: p.kind === 'na' }; },
+    })),
+  ];
+}
+// Najlepsze kierunki z tabeli w wybranym miesiącu (do domyślnego wyboru porównania).
+const topIds = n => sortRowsBy(rowsFor(month).filter(x => !x.off), x => x.r.score).slice(0, n).map(x => x.d.id);
+const sortRowsBy = (rows, f) => rows.sort((a, b) => (f(b) ?? -1) - (f(a) ?? -1));
+
+function renderCompare() {
+  const metrics = cmpMetrics();
+  const metric = metrics.find(x => x.id === ui.metric) ?? metrics[0];
+  $('#cmpMetric').innerHTML = metrics.map(x => `<option value="${esc(x.id)}" ${x.id === metric.id ? 'selected' : ''}>${esc(x.name)}${x.unit ? ` (${esc(x.unit)})` : ''}</option>`).join('');
+  const known = new Set(data.destinations.map(d => d.id));
+  if (ui.compare == null) { ui.compare = topIds(4); saveUi(); }
+  ui.compare = ui.compare.filter(id => known.has(id)).slice(0, MAX_CMP);
+  const ex = excludedSet();
+  const picked = ui.compare.map(id => data.destinations.find(d => d.id === id));
+  const series = picked.filter(d => !ex.has(d.id) || ui.showExcluded);
+  const color = id => PALETTE[ui.compare.indexOf(id) % PALETTE.length];
+  $('#cmpSel').innerHTML = picked.map(d => `<span class="chip ${ex.has(d.id) && !ui.showExcluded ? 'offd' : ''}" title="${ex.has(d.id) ? 'Wyłączony – nie ma go na wykresie (włącz w tabeli albo „Pokaż wyłączone”)' : ''}"><span class="sw" style="background:${color(d.id)}"></span>${esc(d.place)}<button class="x" data-rm="${esc(d.id)}" aria-label="Usuń ${esc(d.place)} z porównania" style="border:0;background:none;padding:0 2px;color:inherit">×</button></span>`).join('')
+    + (picked.length ? '' : `<button class="chip" data-fill="1">Wybierz najlepsze z tabeli</button>`);
+  const opts = sortRowsBy(rowsAll(month).filter(x => !ui.compare.includes(x.d.id) && (!x.off || ui.showExcluded)), x => x.r.score);
+  $('#cmpAdd').innerHTML = `<option value="">${ui.compare.length >= MAX_CMP ? `najwyżej ${MAX_CMP} kierunków` : '+ dodaj kierunek…'}</option>` + (ui.compare.length >= MAX_CMP ? '' : opts.map(x => `<option value="${esc(x.d.id)}">${esc(x.d.place)} (${esc(x.d.country)}) · ${scoreText(x.r)}</option>`).join(''));
+  $('#cmpAdd').disabled = ui.compare.length >= MAX_CMP;
+
+  const box = $('#cmpChart');
+  const data12 = series.map(d => ({ d, pts: core.MONTHS.map((_, m) => metric.get(d, m)) }));
+  const vals = data12.flatMap(s => s.pts.map(p => p.v)).filter(v => v != null);
+  if (!series.length || !vals.length) {
+    box.innerHTML = `<div class="empty">${series.length ? 'Brak danych tej wartości dla wybranych kierunków.' : 'Wybierz kierunki do porównania.'}</div>`;
+    $('#cmpNote').textContent = '';
+    return;
+  }
+  const W = boxWidth(box), narrow = W < 560;
+  const H = narrow ? 260 : 320, ml = 44, mr = narrow ? 12 : 130, mt = 12, mb = 28;
+  const ticks = metric.lo != null ? [0, 20, 40, 60, 80, 100] : niceTicks(Math.min(...vals), Math.max(...vals));
+  const y0 = ticks[0], y1 = ticks[ticks.length - 1];
+  const x = m => ml + (W - ml - mr) * (m + 0.5) / 12;
+  const y = v => mt + (H - mt - mb) * (1 - (v - y0) / (y1 - y0));
+  let g = `<rect x="${x(month) - (W - ml - mr) / 24}" y="${mt}" width="${(W - ml - mr) / 12}" height="${H - mt - mb}" fill="var(--accent)" opacity="0.08"/>`;
+  g += ticks.map(t => `<line class="grid-l" x1="${ml}" x2="${W - mr}" y1="${y(t)}" y2="${y(t)}"/><text x="${ml - 6}" y="${y(t) + 4}" text-anchor="end">${fmtVal(t, metric.unit === 'h' ? 'h' : '').replace(' h', '')}</text>`).join('');
+  g += SHORT.map((s, m) => `<text x="${x(m)}" y="${H - 8}" text-anchor="middle" class="${m === month ? 'lbl-strong' : ''}">${s}</text>`).join('');
+  const ends = [];
+  for (const { d, pts } of data12) {
+    const c = color(d.id);
+    let path = '', pen = false;
+    pts.forEach((p, m) => { if (p.v == null) { pen = false; return; } path += `${pen ? 'L' : 'M'}${x(m).toFixed(1)},${y(p.v).toFixed(1)}`; pen = true; });
+    g += `<path d="${path}" fill="none" stroke="${c}" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>`;
+    g += pts.map((p, m) => p.v == null ? '' : `<circle cx="${x(m).toFixed(1)}" cy="${y(p.v).toFixed(1)}" r="${m === month ? 4.5 : 3.2}" fill="${p.est ? 'var(--surface)' : c}" stroke="${c}" stroke-width="1.8"/>`).join('');
+    const last = [...pts.keys()].reverse().find(m => pts[m].v != null);
+    if (last != null && !narrow) ends.push({ id: d.id, label: d.place, c, y: y(pts[last].v), x: x(last) });
+  }
+  // Etykiety na końcach linii, rozsunięte w pionie, żeby się nie nakładały.
+  ends.sort((a, b) => a.y - b.y);
+  for (let i = 1; i < ends.length; i++) ends[i].y = Math.max(ends[i].y, ends[i - 1].y + 14);
+  g += ends.map(e => `<text x="${e.x + 10}" y="${e.y + 4}" fill="${e.c}" style="fill:${e.c};font-weight:600" data-dest="${esc(e.id)}" cursor="pointer">${svgEsc(e.label.length > 18 ? e.label.slice(0, 17) + '…' : e.label)}</text>`).join('');
+  g += `<line id="cmpCross" x1="0" x2="0" y1="${mt}" y2="${H - mb}" stroke="var(--muted)" stroke-dasharray="3 3" visibility="hidden"/>`;
+  g += `<rect id="cmpHit" x="${ml}" y="${mt}" width="${W - ml - mr}" height="${H - mt - mb}" fill="transparent"/>`;
+  box.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(`${metric.name} w 12 miesiącach: ${series.map(d => d.place).join(', ')}`)}">${g}</svg><div class="tip" hidden></div>`;
+  const svg = box.querySelector('svg'), tip = box.querySelector('.tip'), cross = svg.querySelector('#cmpCross');
+  const hit = svg.querySelector('#cmpHit');
+  hit.addEventListener('mousemove', e => {
+    const pt = svg.getBoundingClientRect(), sx = W / pt.width;
+    const px = (e.clientX - pt.left) * sx;
+    const m = Math.max(0, Math.min(11, Math.floor((px - ml) / ((W - ml - mr) / 12))));
+    cross.setAttribute('x1', x(m)); cross.setAttribute('x2', x(m)); cross.setAttribute('visibility', 'visible');
+    const lines = data12.map(s => ({ s, p: s.pts[m] })).sort((a, b) => (b.p.v ?? -1e9) - (a.p.v ?? -1e9));
+    tip.innerHTML = `<b>${core.MONTHS[m]}</b> · ${esc(metric.name)}<br>${lines.map(({ s, p }) => `<span class="sw" style="background:${color(s.d.id)}"></span>${esc(s.d.place)}: <b>${p.na ? 'n/d' : fmtVal(p.v, metric.unit)}</b>${p.est && p.v != null ? ' *' : ''}`).join('<br>')}`;
+    tip.hidden = false;
+    placeTip(box, tip, x(m) / sx + 8, (e.clientY - box.getBoundingClientRect().top));
+  });
+  hit.addEventListener('mouseleave', () => { tip.hidden = true; cross.setAttribute('visibility', 'hidden'); });
+  hit.addEventListener('click', e => {
+    const pt = svg.getBoundingClientRect();
+    const m = Math.max(0, Math.min(11, Math.floor(((e.clientX - pt.left) * W / pt.width - ml) / ((W - ml - mr) / 12))));
+    selectMonth(m);
+  });
+  const missing = data12.filter(s => s.pts.every(p => p.v == null)).map(s => s.d.place);
+  $('#cmpNote').textContent = `Pusty punkt: szacunek albo wynik prowizoryczny. Pasek: wybrany miesiąc (kliknij wykres, by zmienić).${missing.length ? ` Bez danych: ${missing.join(', ')}.` : ''}`;
+}
+
+// ---------- koszt a wynik ----------
+function xyAxes() {
+  const pick = id => colById(id);
+  return [
+    { id: 'trip_cost', name: 'Koszt wyjazdu', unit: 'tys. zł' },
+    { id: 'package_price', name: 'Wczasy z biurem od', unit: 'zł/os.' },
+    { id: 'flight_price', name: 'Cena lotu', unit: 'zł' },
+    { id: 'flight_time', name: 'Czas lotu', unit: 'h' },
+  ].filter(a => pick(a.id) && core.isScoring(pick(a.id)) && shownCol(pick(a.id)));
+}
+// Front Pareto: najmniej na osi X, najwyżej wynik. Punkt zostaje, gdy żaden inny nie jest tańszy (lub równy) z wyższym wynikiem.
+function pareto(pts) {
+  const s = [...pts].sort((a, b) => a.x - b.x || b.y - a.y);
+  const out = [];
+  let best = -Infinity;
+  for (const p of s) if (p.y > best) { out.push(p); best = p.y; }
+  return out;
+}
+
+function renderScatter() {
+  const axes = xyAxes();
+  const ax = axes.find(a => a.id === ui.xyX) ?? axes[0];
+  if (!ax) { $('#xyChart').innerHTML = '<div class="empty">Brak kolumn do osi poziomej na tym poziomie widoku.</div>'; $('#xyX').innerHTML = ''; $('#xyNote').textContent = ''; return; }
+  $('#xyX').innerHTML = axes.map(a => `<option value="${a.id}" ${a.id === ax.id ? 'selected' : ''}>${esc(a.name)} (${esc(a.unit)})</option>`).join('');
+  const col = colById(ax.id);
+  const rows = rowsFor(month);
+  const pts = [], skipped = [];
+  for (const row of rows) {
+    const p = core.parseValue(core.rawValue(row.d, col, month));
+    const xv = (p.kind === 'value' || p.kind === 'est') && core.validNumber(col, p.v) ? p.v : null;
+    if (xv == null || row.r.score == null) { skipped.push(row.d.place); continue; }
+    // Kolumna wyliczana (koszt wyjazdu) zawsze jest szacunkiem – pusty punkt nic by nie mówił.
+    pts.push({ x: xv, y: row.r.score, row, est: p.kind === 'est' && !col.computed });
+  }
+  const box = $('#xyChart');
+  if (!pts.length) {
+    box.innerHTML = '<div class="empty">Brak kierunków z wynikiem i wartością na osi poziomej w tym miesiącu.</div>';
+    $('#xyNote').textContent = '';
+    return;
+  }
+  const front = new Set(pareto(pts.filter(p => !p.row.off)));
+  const W = boxWidth(box), narrow = W < 560;
+  const H = narrow ? 300 : 420, ml = 44, mr = 16, mt = 14, mb = 40;
+  const xt = niceTicks(Math.min(...pts.map(p => p.x)), Math.max(...pts.map(p => p.x)));
+  const yt = niceTicks(Math.max(0, Math.min(...pts.map(p => p.y)) - 5), Math.min(100, Math.max(...pts.map(p => p.y)) + 5));
+  const X = v => ml + (W - ml - mr) * (v - xt[0]) / (xt[xt.length - 1] - xt[0]);
+  const Y = v => mt + (H - mt - mb) * (1 - (v - yt[0]) / (yt[yt.length - 1] - yt[0]));
+  let g = yt.map(t => `<line class="grid-l" x1="${ml}" x2="${W - mr}" y1="${Y(t)}" y2="${Y(t)}"/><text x="${ml - 6}" y="${Y(t) + 4}" text-anchor="end">${fmt(t)}</text>`).join('');
+  g += xt.map(t => `<line class="grid-l" x1="${X(t)}" x2="${X(t)}" y1="${mt}" y2="${H - mb}" opacity="0.5"/><text x="${X(t)}" y="${H - mb + 16}" text-anchor="middle">${fmt(t)}</text>`).join('');
+  g += `<text x="${(ml + W - mr) / 2}" y="${H - 4}" text-anchor="middle">${esc(ax.name)} (${esc(ax.unit)}) – ${core.MONTHS[month].toLowerCase()} →</text>`;
+  g += `<text transform="translate(11 ${(mt + H - mb) / 2}) rotate(-90)" text-anchor="middle">wynik</text>`;
+  // Linia schodkowa frontu.
+  const fr = [...front].sort((a, b) => a.x - b.x);
+  if (fr.length > 1) {
+    let d = `M${X(fr[0].x)},${Y(fr[0].y)}`;
+    for (let i = 1; i < fr.length; i++) d += `V${Y(fr[i].y)}H${X(fr[i].x)}`;
+    g += `<path d="${d}" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.8"/>`;
+  }
+  // Najpierw zwykłe punkty, na wierzchu front.
+  const dot = p => {
+    const on = front.has(p);
+    const fill = p.row.off ? 'var(--line)' : on ? 'var(--accent)' : 'var(--muted)';
+    const tip = `${p.row.d.place} (${p.row.d.country}) · wynik ${scoreText(p.row.r)} · ${ax.name}: ${fmt(p.x)} ${ax.unit}${p.est ? ' (szacunek)' : ''}${p.row.off ? ' · wyłączony' : ''}`;
+    return `<circle cx="${X(p.x).toFixed(1)}" cy="${Y(p.y).toFixed(1)}" r="${on ? 6 : 4.5}" fill-opacity="${on ? 1 : 0.6}" fill="${p.est && !on ? 'var(--surface)' : fill}" stroke="${on ? 'var(--accent)' : fill}" stroke-width="${p.est ? 2 : 1}" data-dest="${esc(p.row.d.id)}" data-tip="${esc(tip)}" cursor="pointer"/>`;
+  };
+  g += pts.filter(p => !front.has(p)).map(dot).join('') + fr.map(dot).join('');
+  // Etykiety frontu; kolejna przesuwana w dół, gdy zachodzi na poprzednią.
+  const placed = [];
+  for (const p of fr) {
+    let lx = X(p.x) + 9, ly = Y(p.y) + 4;
+    const label = p.row.d.place.length > 22 ? p.row.d.place.slice(0, 21) + '…' : p.row.d.place;
+    const w = label.length * 6.4;
+    const anchorEnd = lx + w > W - mr;
+    if (anchorEnd) lx = X(p.x) - 9;
+    // Pierwsze wolne miejsce: na wysokości punktu, potem na zmianę nad i pod.
+    const hits = yy => placed.some(q => Math.abs(q.y - yy) < 13 && (anchorEnd ? lx - w : lx) < q.x + q.w && q.x < (anchorEnd ? lx : lx + w));
+    const base = ly;
+    for (const k of [0, -1, 1, -2, 2, 3, 4]) { ly = base + 13 * k; if (!hits(ly)) break; }
+    placed.push({ x: anchorEnd ? lx - w : lx, y: ly, w });
+    g += `<text x="${lx}" y="${ly}" text-anchor="${anchorEnd ? 'end' : 'start'}" class="lbl-strong" data-dest="${esc(p.row.d.id)}" cursor="pointer">${svgEsc(label)}</text>`;
+  }
+  box.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(`Wynik a ${ax.name.toLowerCase()} w miesiącu ${core.MONTHS[month].toLowerCase()}, ${kier(pts.length)}`)}">${g}</svg><div class="tip" hidden></div>`;
+  const tip = box.querySelector('.tip');
+  box.querySelector('svg').addEventListener('mousemove', e => {
+    const c = e.target.closest('circle[data-tip]');
+    if (!c) { tip.hidden = true; return; }
+    tip.textContent = c.dataset.tip;
+    tip.hidden = false;
+    const r = box.getBoundingClientRect();
+    placeTip(box, tip, e.clientX - r.left, e.clientY - r.top);
+  });
+  box.querySelector('svg').addEventListener('mouseleave', () => { tip.hidden = true; });
+  $('#xyNote').textContent = `Na wykresie: ${kier(pts.length)} (z filtrami i miesiącem jak w tabeli); wyróżnione: ${fr.length}. Pusty punkt: wartość szacunkowa. Kliknij punkt, by zobaczyć szczegóły.`
+    + (skipped.length ? ` Bez wyniku lub wartości na osi poziomej (np. brak oferty): ${skipped.length} – ${skipped.slice(0, 8).join(', ')}${skipped.length > 8 ? '…' : ''}.` : '');
 }
 
 // ---------- okna szczegółów ----------
+const tzText = tz => {
+  const w = core.timeDiff(tz, 0), s = core.timeDiff(tz, 6);
+  const f = v => v === 0 ? 'jak w Polsce' : `${signed(v)} h`;
+  return `${esc(tz)}; różnica względem Polski: ${w === s ? f(w) : `zimą ${f(w)}, latem ${f(s)}`}`;
+};
 function openDialog(html) {
   $('#dlgBody').innerHTML = html;
   $('#dlg').showModal();
 }
 const closeBtn = '<button class="close" aria-label="Zamknij">Zamknij</button>';
-const f1 = v => v == null ? '—' : v.toLocaleString('pl-PL', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const NUM1 = new Intl.NumberFormat('pl-PL', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const f1 = v => v == null ? '—' : NUM1.format(v);
 
 function calcBlock(res) {
   const levels = res.flags.reduce((n, f) => n + f.level, 0);
@@ -624,11 +1413,11 @@ function calcBlock(res) {
   </dl>`;
 }
 
-function showScore(id) {
+function showScore(id, m = month) {
   const d = data.destinations.find(x => x.id === id);
-  const r = core.score(d, month, cols, data.flagTypes, active);
-  const w = core.score(d, month, cols, data.flagTypes, active, true);
-  openDialog(`<header><h2>${esc(d.place)}<small>${esc(d.country)} · ${core.MONTHS[month]} · profil „${esc(active.name)}”</small></h2>${closeBtn}</header>
+  const r = core.score(d, m, cols, data.flagTypes, active);
+  const w = core.score(d, m, cols, data.flagTypes, active, true);
+  openDialog(`<header><h2>${esc(d.place)}<small>${esc(d.country)} · ${core.MONTHS[m]} · profil „${esc(active.name)}”</small></h2>${closeBtn}</header>
     <div class="cols2">
       <section><h3>Wynik</h3>${calcBlock(r)}</section>
       <section><h3>Globalny sezon: ${pill(w)}</h3>${calcBlock(w)}
@@ -638,11 +1427,13 @@ function showScore(id) {
 
 function showDest(id) {
   const d = data.destinations.find(x => x.id === id);
-  const monthCols = cols.filter(c => c.scope === 'month');
-  const fixedCols = cols.filter(c => c.scope === 'fixed');
+  const monthCols = cols.filter(c => c.scope === 'month' && shownCol(c));
+  const fixedCols = cols.filter(c => c.scope === 'fixed' && shownCol(c));
   // Kolor jak w tabeli mówi, czy wartość jest dobra wg formatki (skala cen jest odwrócona: 1 = najtaniej).
   const fixedVal = c => {
     const v = valueParts(c, d.fixed?.[c.id]);
+    if (c.type === 'tags' && v.vals) return `<span class="taglist">${tagButtons(c, v.vals)}</span>`;
+    if (core.isChoice(c)) return `<span class="${v.cls}"${v.attrs}>${v.text}</span>`;
     const p = core.parseValue(d.fixed?.[c.id]);
     const unit = p.kind === 'missing' || p.kind === 'na' ? '' : c.unit === '1–5' ? 'w skali 1–5' : c.unit;
     return `<span class="val ${v.cls}"${v.attrs}>${v.text}</span> ${esc(unit)}`;
@@ -651,9 +1442,9 @@ function showDest(id) {
   const rs = SHORT.map((_, m) => core.score(d, m, cols, data.flagTypes, active));
   const ws = SHORT.map((_, m) => core.score(d, m, cols, data.flagTypes, active, true));
   mt += `<tr><th>Wynik</th>${rs.map(r => `<td class="${r.score != null ? 'heat' : ''}" ${r.score != null ? `style="--s:${(r.score / 100).toFixed(3)}"` : ''}><strong>${scoreText(r)}</strong></td>`).join('')}</tr>`;
-  mt += `<tr><th>Sezon glob.</th>${ws.map(w => `<td class="c">${pill(w)}</td>`).join('')}</tr>`;
+  if (viewLevel() >= 2) mt += `<tr><th>Sezon glob.</th>${ws.map(w => `<td class="c">${pill(w)}</td>`).join('')}</tr>`;
   for (const c of monthCols) {
-    mt += `<tr><th>${esc(c.name)} <span style="color:var(--muted);font-weight:400">${esc(c.unit)}</span></th>${SHORT.map((_, m) => cell(c, core.rawValue(d, c, m))).join('')}</tr>`;
+    mt += `<tr><th>${esc(c.name)} <span style="color:var(--muted);font-weight:400">${esc(c.unit)}</span></th>${SHORT.map((_, m) => cellFor(c, d, m)).join('')}</tr>`;
   }
   mt += '</tbody>';
   const notes = SHORT.flatMap((s, m) => flagsOf(d, m).map(f => `<li><b>${s}</b> ${esc(types[f.type]?.icon ?? '')} ${esc(types[f.type]?.name ?? f.type)} (${levelOf(f)}): ${esc(f.note)}</li>`));
@@ -663,6 +1454,9 @@ function showDest(id) {
   }).join('');
   openDialog(`<header><h2>${esc(d.place)}<small>${esc(d.country)}</small></h2>${closeBtn}</header>
     ${d.notes ? `<p>${esc(d.notes)}</p>` : ''}
+    ${typeof d.entryNote === 'string' ? `<p><strong>Formalności wjazdowe:</strong> ${esc(d.entryNote)}</p>` : ''}
+    ${core.validTz(d.tz) ? `<p><strong>Czas:</strong> ${tzText(d.tz)}</p>` : ''}
+    ${typeof d.costNote === 'string' ? `<p class="costinfo"><strong>Koszty poza kalkulatorem:</strong> ${esc(d.costNote.replace(/^Poza kalkulatorem:\s*/, ''))}</p>` : ''}
     <section><h3>Cechy stałe</h3><dl class="kv">${fixedCols.map(c => `<dt>${esc(c.name)}</dt><dd>${fixedVal(c)}</dd>`).join('')}</dl></section>
     <section><h3>12 miesięcy</h3><div class="mtable"><table>${mt}</table></div></section>
     ${notes.length ? `<section><h3>Flagi</h3><ul class="sources">${notes.join('')}</ul></section>` : ''}
@@ -699,6 +1493,7 @@ async function init() {
   data.columns = data.columns.filter(c => core.isObj(c) && typeof c.id === 'string');
   data.flagTypes = data.flagTypes.filter(core.isObj);
   data.destinations = data.destinations.filter(core.isObj);
+  baseDestinations = data.destinations;
   if (errs.length) {
     const el = document.createElement('div');
     el.className = 'msg error';
@@ -707,7 +1502,7 @@ async function init() {
   }
   cols = data.columns;
   types = Object.fromEntries(data.flagTypes.map(t => [t.id, t]));
-  $('#dataInfo').textContent = `${data.destinations.length} kierunków · ${cols.length} kolumn w rejestrze · ${errs.length ? `${errs.length} błędów danych` : 'dane poprawne'}`;
+  $('#dataInfo').textContent = `${kier(data.destinations.length)} · ${cols.length} kolumn w rejestrze · ${errs.length ? `błędy danych: ${errs.length}` : 'dane poprawne'}`;
 
   // Pamięć przeglądarki: ostatnia poprawna wersja (do liczenia) i bieżąca formatka (także z błędami).
   const restore = key => {

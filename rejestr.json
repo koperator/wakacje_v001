@@ -9,6 +9,7 @@
       "scope": "month",
       "group": "Sezon",
       "weather": false,
+      "level": 2,
       "definition": "Lokalny sezon turystyczny w bazie pobytu: H = szczyt (najwyższe ceny i obłożenie), M = pośredni, L = poza sezonem. Tylko informacyjnie, nie wchodzi do żadnego wyniku. Źródła: lokalne biura turystyczne, przewodniki, sezonowość cen hoteli. Ocena bez źródła o sezonowości obłożenia lub cen to szacunek, we wszystkich miesiącach tak samo."
     },
     {
@@ -19,6 +20,7 @@
       "scope": "month",
       "group": "Sezon",
       "weather": false,
+      "level": 1,
       "definition": "Zjawiska sezonowe. Każda flaga: typ (z listy flagTypes), natężenie 1–3, jednozdaniowa notatka. Natężenie = typowy wpływ na urlop w tym miesiącu łącznie z częstością: 1 drobna niedogodność w części dni lub miejsc; 2 wyraźnie ogranicza plażę, kąpiel lub zwiedzanie przez znaczną część pobytu; 3 typowo psuje wyjazd (zamknięcia, zagrożenie, brak kąpieli). Sama możliwość rzadkiego, poważnego zdarzenia nie oznacza poziomu 3. Jedno zjawisko = jedna flaga, skutki idą do notatki. Natężenie opisuje skutki niewidoczne w liczbach (deszcz monsunu jest już w opadzie i dniach deszczowych). Sezonowe pogorszenie kąpieli zawsze dostaje flagę kąpielową. Notatka opisuje skutki (nie sam deszcz), mówi, czego zjawisko dotyczy, i czy zaczyna się lub kończy w połowie miesiąca. Święta i zamknięcia: tylko święta, które zamykają atrakcje lub usługi albo wyraźnie pogarszają warunki ponad zwykły szczyt sezonu (zwykły szczyt to sezon lokalny, nie flaga). Święto ruchome dostaje flagę w każdym miesiącu, w którym może wypaść, z notatką „zależnie od roku”. Miesiąc bez zjawisk: pusta lista []."
     },
     {
@@ -29,6 +31,7 @@
       "scope": "month",
       "group": "Pogoda",
       "weather": true,
+      "level": 1,
       "valid": [
         -30,
         50
@@ -50,6 +53,7 @@
       "scope": "month",
       "group": "Pogoda",
       "weather": true,
+      "level": 2,
       "valid": [
         -40,
         40
@@ -71,6 +75,7 @@
       "scope": "month",
       "group": "Pogoda",
       "weather": true,
+      "level": 3,
       "valid": [
         -30,
         35
@@ -92,6 +97,7 @@
       "scope": "month",
       "group": "Pogoda",
       "weather": true,
+      "level": 1,
       "valid": [
         0,
         16
@@ -113,6 +119,7 @@
       "scope": "month",
       "group": "Pogoda",
       "weather": true,
+      "level": 2,
       "valid": [
         0,
         2000
@@ -135,6 +142,7 @@
       "scope": "month",
       "group": "Pogoda",
       "weather": true,
+      "level": 1,
       "valid": [
         0,
         31
@@ -156,17 +164,18 @@
       "scope": "month",
       "group": "Pogoda",
       "weather": true,
+      "level": 3,
       "valid": [
         0,
         20
       ],
       "integer": true,
-      "definition": "Średni dzienny maksymalny indeks UV w miesiącu z uwzględnieniem zachmurzenia (all-sky, np. reanaliza ERA5 / Open-Meteo), nie wartość dla czystego nieba. Jedno źródło tego typu dla wszystkich 12 miesięcy kierunku. Źródło podające tylko „11+”: 11 jako szacunek. Liczba całkowita.",
+      "definition": "Maksymalny dzienny indeks UV w miesiącu dla czystego nieba, w południe słoneczne (dla 15. dnia miesiąca) – klimatologia TEMIS (KNMI, ozon satelitarny), np. z weather2travel. To ta sama wielkość, którą aplikacje pogodowe (np. Pogoda w iPhonie) podają jako dzienne maksimum UV w słoneczny dzień; pojedyncze dni mogą być o 1–2 wyższe lub niższe (ozon, aerozole), a pochmurne – dużo niższe. Zachmurzenie opisują kolumny słońca i dni deszczowych, więc tu się go nie odejmuje. Odczyty liczbowe źródła (do 11) – wprost. Gdy źródło podaje tylko „11+” (co najmniej 11,5): model KNMI (Allaart i in. 2004: 12,5·μ^2,42·(Ω/300)^−1,23, μ = cos kąta zenitalnego w południe) × k(μ) = 0,687 + 0,295·μ × czynnik miejsca, z ozonem Ω dopasowanym do odczytów TEMIS wszystkich kierunków i bieżących prognoz TEMIS – szacunek, nie mniej niż 12. Liczba całkowita.",
       "default": {
         "min": null,
         "idealFrom": null,
-        "idealTo": 8,
-        "max": 12,
+        "idealTo": 11,
+        "max": 15,
         "weight": 0.5
       }
     },
@@ -178,6 +187,7 @@
       "scope": "month",
       "group": "Pogoda",
       "weather": true,
+      "level": 2,
       "valid": [
         0,
         100
@@ -200,6 +210,7 @@
       "scope": "month",
       "group": "Morze",
       "weather": true,
+      "level": 1,
       "valid": [
         -2,
         35
@@ -221,6 +232,7 @@
       "scope": "fixed",
       "group": "Morze",
       "weather": false,
+      "level": 1,
       "definition": "Jakość do plażowania i kąpieli łącznie: piasek, szerokość, wejście do wody, czystość; plaże w zasięgu spaceru lub do ok. 15 min dojazdu od bazy. Ocena z perspektywy typowego dnia na plaży (wygodne leżenie i pływanie). Utrudnione wejście do wody (rafa, kamienie, bardzo płytko, silne fale) obniża ocenę o ok. 1 punkt względem samej jakości piasku. Kotwice: 1 Santorini (żwir, ostre kamienie); 2 Malta, Alanya; 3 Sopot, Negombo; 4 Punta Cana, Cancún; 5 Boracay, Turks and Caicos. Brak plaży: \"na\", nie 1.",
       "default": {
         "min": 1,
@@ -238,6 +250,7 @@
       "scope": "fixed",
       "group": "Miejsce",
       "weather": false,
+      "level": 2,
       "definition": "Typowa bujność roślinności w otoczeniu bazy pobytu (nie cała wyspa ani region). Sezonowe wysychanie tylko w notatce kierunku. Kotwice: 1 Marsa Alam, Corralejo; 2 Santorini, Djerba; 3 Cancún, Alanya; 4 Mauritius, Phuket; 5 Seszele, Langkawi.",
       "default": {
         "min": 1,
@@ -255,6 +268,7 @@
       "scope": "fixed",
       "group": "Miejsce",
       "weather": false,
+      "level": 2,
       "definition": "Atrakcje w zasięgu wycieczek jednodniowych od bazy. Jedna wybitna atrakcja waży więcej niż wiele przeciętnych; atrakcje poza zasięgiem wycieczki jednodniowej się nie liczą. Kotwice: 1 Malediwy, Turks and Caicos; 2 Aruba, Marsa Alam; 3 Phuket, Mauritius; 4 Malta, Cancún; 5 Siem Reap.",
       "default": {
         "min": 1,
@@ -265,6 +279,38 @@
       }
     },
     {
+      "id": "tags",
+      "name": "Tagi",
+      "unit": "",
+      "type": "tags",
+      "scope": "fixed",
+      "group": "Miejsce",
+      "weather": false,
+      "level": 1,
+      "values": [
+        "rajska plaża",
+        "płytkie wejście",
+        "rafa i snorkeling",
+        "nurkowanie",
+        "surfing",
+        "kitesurfing",
+        "rejsy po wyspach",
+        "dżungla",
+        "wodospady",
+        "wulkany",
+        "góry i trekking",
+        "pustynia",
+        "dzika przyroda",
+        "ruiny",
+        "świątynie",
+        "stare miasto",
+        "miasto i zakupy",
+        "życie nocne",
+        "spokój"
+      ],
+      "definition": "Słowa klucze opisujące, z czego miejsce słynie i co da się robić z bazy (w zasięgu wycieczki jednodniowej), tylko z listy values. Tag daje się wtedy, gdy to wyróżnik miejsca, nie gdy coś „też jest”. rajska plaża: biały lub jasny piasek i turkusowa, spokojna woda przy bazie; płytkie wejście: łagodne, płytkie wejście do spokojnej wody (dobre dla dzieci); rafa i snorkeling: rafa lub łowiska do snorkelingu przy brzegu albo krótkim rejsem; nurkowanie: miejsce znane z nurkowania; surfing, kitesurfing: dobre warunki przez znaczną część roku; rejsy po wyspach: wycieczki łodzią na sąsiednie wyspy i laguny; dżungla: las deszczowy w zasięgu spaceru lub krótkiej wycieczki; wodospady, wulkany, góry i trekking, pustynia: krajobraz do zwiedzania; dzika przyroda: zwierzęta jako atrakcja (safari, wieloryby, lemury, żółwie); ruiny: stanowiska archeologiczne; świątynie: czynne świątynie jako atrakcja; stare miasto: zabytkowe miasto w zasięgu wycieczki; miasto i zakupy: duże miasto z atrakcjami miejskimi przy bazie; życie nocne: bary i kluby przy bazie; spokój: mała zabudowa, cisza, mało imprez. Kolejność jak w values. Wybór redakcyjny (opis miejsca w notatce i źródłach kierunku), bez oznaczenia szacunku."
+    },
+    {
       "id": "flight_price",
       "name": "Lot",
       "unit": "PLN",
@@ -272,6 +318,7 @@
       "scope": "month",
       "group": "Koszty",
       "weather": false,
+      "level": 2,
       "valid": [
         0,
         50000
@@ -286,6 +333,29 @@
       }
     },
     {
+      "id": "package_price",
+      "name": "Wczasy z biurem od",
+      "unit": "zł/os.",
+      "type": "number",
+      "scope": "month",
+      "group": "Koszty",
+      "weather": false,
+      "level": 2,
+      "valid": [
+        0,
+        100000
+      ],
+      "naLabel": "brak oferty",
+      "definition": "Dolny próg ceny wczasów z biurem podróży (Itaka, Rainbow, TUI itp.) za osobę dorosłą w pokoju 2-osobowym: 7 nocy (8 dni), wylot z Warszawy (Chopin, Modlin) albo Katowic, all inclusive (gdzie biura go prawie nie mają – najbliższe wyżywienie, zapisane w notatce), hotel z oceną klientów co najmniej 4,4/6, 3–4★ zależnie od kosztu kierunku (tańsze kierunki 4★, droższe 3★). Poziom, od którego da się regularnie kupić taki wyjazd w miesiącu wylotu, bez jednorazowych okazji. Ballpark, zawsze szacunek: odczyty z ofert biur (sortowanie po cenie) dla 1–6 miesięcy, pozostałe miesiące według sezonowości popytu z Polski i sezonu operacyjnego czarterów. Miesiąc bez lotów czarterowych i bez ofert biur z tych lotnisk: \"na\" (brak oferty). Zaokrąglij do 100 PLN.",
+      "default": {
+        "min": null,
+        "idealFrom": null,
+        "idealTo": 4000,
+        "max": 10000,
+        "weight": 0
+      }
+    },
+    {
       "id": "local_prices",
       "name": "Ceny na miejscu",
       "unit": "1–5",
@@ -293,6 +363,7 @@
       "scope": "fixed",
       "group": "Koszty",
       "weather": false,
+      "level": 2,
       "definition": "Typowy dzienny koszt jedzenia, transportu lokalnego i atrakcji przy średnim standardzie; bez noclegu, lotu i transferu z lotniska. 1 = najtaniej. Kotwice: 1 Goa, Siem Reap; 2 Phu Quoc, Djerba; 3 Cypr, Malta; 4 Barbados, Aruba; 5 Malediwy, Bora Bora, Turks and Caicos.",
       "default": {
         "min": null,
@@ -303,6 +374,30 @@
       }
     },
     {
+      "id": "trip_cost",
+      "name": "Koszt wyjazdu",
+      "unit": "tys. zł",
+      "type": "number",
+      "scope": "month",
+      "group": "Koszty",
+      "weather": false,
+      "level": 1,
+      "computed": true,
+      "valid": [
+        0,
+        100000
+      ],
+      "definition": "Wyliczana przez stronę, nie wpisuj jej w plikach kierunków. Rząd wielkości kosztu całej grupy (tys. zł) dla składu i liczby nocy z ustawień: bilety (cena lotu w miesiącu × mnożnik korzystnego zakupu, nie mniej niż w najtańszym miesiącu, × dorośli i dzieci; niemowlęta według stawki), nocleg (pokoje: dorośli ÷ 2, najwyżej 4 osoby na pokój; mnożnik według sezonu lokalnego miesiąca) i wydatki dzienne (jedzenie, transport lokalny) według umownych stawek dla poziomu cen na miejscu 1–5 oraz dodatkowe wydatki (wycieczki itp.) jako % od pobytu zależnie od oceny zwiedzania. Tryb „z biurem”: zamiast biletów, noclegu i wydatków cena wczasów z kolumny „Wczasy z biurem od” (za 7 nocy, przeliczona na liczbę nocy), dzieci i niemowlęta według stawek, plus dodatkowe wydatki; „na” = brak oferty biur w tym miesiącu.",
+      "default": {
+        "min": null,
+        "idealFrom": null,
+        "idealTo": 15,
+        "max": 40,
+        "weight": 0
+      },
+      "naLabel": "brak oferty"
+    },
+    {
       "id": "flight_time",
       "name": "Czas lotu",
       "unit": "h",
@@ -310,6 +405,7 @@
       "scope": "fixed",
       "group": "Dojazd",
       "weather": false,
+      "level": 1,
       "valid": [
         0,
         48
@@ -331,6 +427,7 @@
       "scope": "fixed",
       "group": "Dojazd",
       "weather": false,
+      "level": 2,
       "valid": [
         0,
         5
@@ -353,6 +450,7 @@
       "scope": "fixed",
       "group": "Dojazd",
       "weather": false,
+      "level": 2,
       "valid": [
         0,
         24
@@ -365,6 +463,94 @@
         "max": 5,
         "weight": 0.5
       }
+    },
+    {
+      "id": "continent",
+      "name": "Kontynent",
+      "unit": "",
+      "type": "category",
+      "scope": "fixed",
+      "group": "Położenie",
+      "weather": false,
+      "level": 1,
+      "values": [
+        "Europa",
+        "Afryka",
+        "Azja",
+        "Ameryka Północna i Karaiby",
+        "Ameryka Środkowa i Południowa",
+        "Australia i Oceania"
+      ],
+      "definition": "Kontynent bazy pobytu, jedna wartość z listy values. Umownie: Turcja, Cypr, Gruzja, Kanary, Madera i Azory – Europa; Synaj (Egipt) i Wyspy Zielonego Przylądka – Afryka; Półwysep Arabski i Jordania – Azja; wyspy karaibskie i Cancún – Ameryka Północna i Karaiby; Ameryka Środkowa (Kostaryka, Honduras) i Kolumbia z San Andrés, Panama i Wenezuela z Margaritą – Ameryka Środkowa i Południowa; meksykańskie wybrzeże Pacyfiku (Puerto Vallarta) – Ameryka Północna i Karaiby; Hawaje i wyspy Pacyfiku – Australia i Oceania."
+    },
+    {
+      "id": "region",
+      "name": "Region",
+      "unit": "",
+      "type": "category",
+      "scope": "fixed",
+      "group": "Położenie",
+      "weather": false,
+      "level": 2,
+      "values": [
+        "Morze Śródziemne",
+        "Atlantyk wschodni",
+        "Bałtyk i Morze Czarne",
+        "Morze Czerwone",
+        "Półwysep Arabski",
+        "Afryka Wschodnia",
+        "Wyspy Oceanu Indyjskiego",
+        "Azja Południowa",
+        "Azja Południowo-Wschodnia",
+        "Karaiby",
+        "Pacyfik Ameryki Środkowej",
+        "Wybrzeże Brazylii",
+        "Australia",
+        "Wyspy Pacyfiku"
+      ],
+      "definition": "Region podróżniczy (morze lub grupa wysp), jedna wartość z listy values. Atlantyk wschodni: Kanary, Madera, Azory, Algarve, atlantyckie wybrzeże Maroka (Agadir), Wyspy Zielonego Przylądka, Senegal i Gambia; Morze Czerwone: także Zatoka Akaba; Półwysep Arabski: Zatoka Perska, Zatoka Omańska i Dhofar; Wyspy Oceanu Indyjskiego: Malediwy, Seszele, Mauritius, Madagaskar; Azja Południowa: Sri Lanka, Indie; Karaiby: wyspy i karaibskie wybrzeża (Cancún, Roatán, San Andrés, Cartagena, Bocas del Toro, Margarita); Pacyfik Ameryki Środkowej: od Puerto Vallarta po Panamę; Bałtyk i Morze Czarne: także Batumi."
+    },
+    {
+      "id": "time_diff",
+      "name": "Różnica czasu",
+      "unit": "h",
+      "type": "number",
+      "scope": "month",
+      "group": "Położenie",
+      "weather": false,
+      "level": 2,
+      "computed": true,
+      "valid": [
+        -14,
+        14
+      ],
+      "definition": "Wyliczana przez stronę z pola tz kierunku (strefa czasowa IANA, np. \"Asia/Bangkok\"), nie wpisuj jej w plikach kierunków. Różnica czasu miejsca względem Polski w połowie miesiąca, z czasem letnim po obu stronach (dlatego w części miesięcy różni się o godzinę); dodatnia = na miejscu później niż w Polsce.",
+      "default": {
+        "min": -9,
+        "idealFrom": -3,
+        "idealTo": 3,
+        "max": 9,
+        "weight": 0
+      }
+    },
+    {
+      "id": "entry",
+      "name": "Formalności wjazdowe",
+      "unit": "",
+      "type": "category",
+      "scope": "fixed",
+      "group": "Położenie",
+      "weather": false,
+      "level": 2,
+      "values": [
+        "dowód osobisty",
+        "paszport",
+        "paszport + formularz online",
+        "zezwolenie elektroniczne",
+        "wiza na lotnisku",
+        "wiza przed wylotem"
+      ],
+      "definition": "Najpoważniejsza formalność, jakiej obywatel Polski potrzebuje na wyjazd turystyczny do 2 tygodni z wylotem z Polski, typową trasą (z tranzytem): dowód osobisty – wystarczy dowód; paszport – paszport bez wizy i bez obowiązkowych formularzy; paszport + formularz online – obowiązkowa karta przylotu lub rejestracja online bez rozpatrywania (np. TDAC, eTravel, IMUGA, e-Ticket, EASE); zezwolenie elektroniczne – zgoda wydawana online przed wylotem (ESTA, eTA, ETA, eVisitor, NZeTA), także gdy wymaga jej tylko kraj tranzytu na typowej trasie; wiza na lotnisku – wiza do kupienia po przylocie (zwykle też jako e-wiza wcześniej); wiza przed wylotem – wizę trzeba mieć przed wylotem. Szczegóły i opłaty w polu entryNote kierunku. Źródła: wytyczne wjazdowe biur podróży (r.pl/wytyczne), MSZ (gov.pl/web/dyplomacja), urzędy imigracyjne. Zasady się zmieniają – sprawdź przed wyjazdem."
     }
   ],
   "flagTypes": [
@@ -503,6 +689,39 @@
     "porto-de-galinhas",
     "rarotonga",
     "gold-coast",
-    "whitsundays"
+    "whitsundays",
+    "durres",
+    "manama",
+    "salvador",
+    "cumbuco",
+    "istria",
+    "split",
+    "budva",
+    "el-alamein",
+    "kololi",
+    "attyka",
+    "samos",
+    "batumi",
+    "barcelona",
+    "costa-blanca",
+    "costa-del-sol",
+    "doha",
+    "agadir",
+    "saidia",
+    "puerto-vallarta",
+    "bocas-del-toro",
+    "playa-blanca",
+    "azory",
+    "saly",
+    "pattaya",
+    "sousse",
+    "bodrum",
+    "kusadasi",
+    "margarita",
+    "mui-ne",
+    "nha-trang",
+    "apulia",
+    "kampania",
+    "rimini"
   ]
 }

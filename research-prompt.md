@@ -14,7 +14,9 @@ Zbierasz dane klimatyczne i opisowe dla jednego kierunku wakacyjnego do osobiste
 
 **Zasięg.** Miejsce wyznacza bazę pobytu, którą opisuje cały wiersz. Pogoda i ceny dotyczą tej bazy; woda i plaże: plaż w zasięgu spaceru lub krótkiego dojazdu (do ok. 15 minut); zwiedzanie: atrakcji w zasięgu wycieczek jednodniowych. Przy wyspach i atolach pogoda, plaże i ceny nie mogą pochodzić z różnych części.
 
-**Kolumny.** Wszystkie kolumny z rejestru `columns`. Każda wartość według pola `definition`. `scope: "month"` idzie do każdego z 12 miesięcy, `scope: "fixed"` raz do `fixed`. Flagi tylko z typów `flagTypes`.
+**Kolumny.** Wszystkie kolumny z rejestru `columns` poza wyliczanymi przez stronę (`computed: true`). Każda wartość według pola `definition`. `scope: "month"` idzie do każdego z 12 miesięcy, `scope: "fixed"` raz do `fixed`. Flagi tylko z typów `flagTypes`. Kolumny `type: "category"` przyjmują jedną wartość z listy `values` (tekst), `type: "tags"` listę wartości z `values` w kolejności z rejestru; obie bez `"na"` i bez oznaczenia szacunku.
+
+**Pola kierunku poza kolumnami:** `tz` – strefa czasowa bazy w formacie IANA (np. `"Asia/Bangkok"`; strona wylicza z niej różnicę czasu); `entryNote` – jedno–dwa zdania o formalnościach wjazdowych dla obywatela Polski (dokument, wiza, obowiązkowe formularze online, opłaty, tranzyt na typowej trasie) zgodne z wartością kolumny `entry`; `costNote` (opcjonalnie) – koszty poza kalkulatorem (np. obowiązkowy transfer hydroplanem).
 
 **Zasady:**
 
@@ -44,9 +46,12 @@ Zbierasz dane klimatyczne i opisowe dla jednego kierunku wakacyjnego do osobiste
   "country": "{KRAJ}",
   "place": "{MIEJSCE}",
   "notes": "Uwagi z tabeli kierunków + notatki do wartości stałych (np. sezonowe wysychanie zieleni).",
+  "entryNote": "Paszport ważny 6 mies.; bez wizy do 30 dni; obowiązkowa bezpłatna karta przylotu online do 3 dni przed przylotem.",
+  "tz": "Asia/Bangkok",
   "fixed": {
-    "beaches": 4, "greenery": 4, "sightseeing": 3, "local_prices": {"est": 3},
-    "flight_time": 13.5, "stops": 1
+    "beaches": 4, "greenery": 4, "sightseeing": 3, "tags": ["rafa i snorkeling", "rejsy po wyspach"], "local_prices": {"est": 3},
+    "flight_time": 13.5, "stops": 1,
+    "continent": "Azja", "region": "Azja Południowo-Wschodnia", "entry": "paszport + formularz online"
   },
   "months": [
     {

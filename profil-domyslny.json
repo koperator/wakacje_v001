@@ -46,8 +46,8 @@
     "uv": {
       "min": null,
       "idealFrom": null,
-      "idealTo": 8,
-      "max": 12,
+      "idealTo": 11,
+      "max": 15,
       "weight": 0.5
     },
     "wind": {
@@ -92,12 +92,26 @@
       "max": 7000,
       "weight": 1
     },
+    "package_price": {
+      "min": null,
+      "idealFrom": null,
+      "idealTo": 4000,
+      "max": 10000,
+      "weight": 0
+    },
     "local_prices": {
       "min": null,
       "idealFrom": null,
       "idealTo": 2,
       "max": 5,
       "weight": 1
+    },
+    "trip_cost": {
+      "min": null,
+      "idealFrom": null,
+      "idealTo": 15,
+      "max": 40,
+      "weight": 0
     },
     "flight_time": {
       "min": null,
@@ -119,6 +133,13 @@
       "idealTo": 1,
       "max": 5,
       "weight": 0.5
+    },
+    "time_diff": {
+      "min": -9,
+      "idealFrom": -3,
+      "idealTo": 3,
+      "max": 9,
+      "weight": 0
     }
   },
   "flagPenalty": 10,
@@ -132,6 +153,50 @@
     "maxFlightTime": null,
     "maxStops": null,
     "minCoverage": null,
-    "minScore": null
+    "minScore": null,
+    "maxTripCost": null,
+    "categories": {},
+    "tagMode": "all",
+    "ranges": {},
+    "packageOnly": false
+  },
+  "excluded": [],
+  "viewLevel": 2,
+  "trip": {
+    "adults": 2,
+    "children": 0,
+    "infants": 0,
+    "nights": 14,
+    "mode": "self"
+  },
+  "costs": {
+    "ticketFactor": 0.85,
+    "infantTicket": 0,
+    "childDaily": 0.5,
+    "childPackage": 0.6,
+    "infantPackage": 300,
+    "lodging": [
+      200,
+      300,
+      500,
+      750,
+      1200
+    ],
+    "daily": [
+      120,
+      180,
+      280,
+      420,
+      650
+    ],
+    "extras": [
+      10,
+      25
+    ],
+    "season": {
+      "H": 1.25,
+      "M": 1,
+      "L": 0.85
+    }
   }
 }
