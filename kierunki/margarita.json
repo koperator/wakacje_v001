@@ -1,0 +1,372 @@
+{
+  "id": "margarita",
+  "country": "Wenezuela",
+  "place": "Isla Margarita (Playa El Agua / Pampatar)",
+  "notes": "Klimat tropikalny suchy: 31–33 °C w dzień przez cały rok, stały pasat, mało deszczu (najsuchiej I–V, przelotne opady VI–XII). Wyspa leży poza pasem huraganów. Woda 24–28 °C. Baza pobytu: północno-wschodnie wybrzeże (Playa El Agua, Parguito, Pampatar) – szerokie plaże z jasnym piaskiem i palmami, fale; spokojniej w zatokach. El Yaque – jedno z najlepszych miejsc do windsurfingu i kitesurfingu. Pogoda ze stacji Porlamar (NOAA, INAMEH 1991–2020). Zieleń: sucha (kaktusy) z zielonymi wzgórzami w głębi. Wycieczki: laguna La Restinga (namorzyny), wyspa Coche i Cubagua, forty w Pampatar i La Asunción. MSZ od XII 2025 odradza wszelkie podróże do Wenezueli. Dojazd: regularnie z 2–3 przesiadkami (Madryt, Caracas, Bogota), ok. 21 h; zimą czartery biur z Katowic.",
+  "entryNote": "Paszport ważny 6 mies. po powrocie; bez wizy. MSZ od XII 2025 odradza wszelkie podróże do Wenezueli – sprawdź aktualny komunikat przed rezerwacją.",
+  "tz": "America/Caracas",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 2
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": {
+      "est": 21.5
+    },
+    "stops": 2,
+    "transfer": {
+      "est": 0.6
+    },
+    "continent": "Ameryka Środkowa i Południowa",
+    "region": "Karaiby",
+    "entry": "paszport",
+    "tags": [
+      "kitesurfing",
+      "rejsy po wyspach"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.6,
+      "temp_night": 23,
+      "dew_point": {
+        "est": 23.6
+      },
+      "sun": 9.2,
+      "rain": 34,
+      "rain_days": 6.6,
+      "uv": 10,
+      "wind": 23,
+      "water": 25,
+      "flight_price": {
+        "est": 8500
+      },
+      "flags": [],
+      "package_price": {
+        "est": 9200
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.1,
+      "temp_night": 23.2,
+      "dew_point": {
+        "est": 23.9
+      },
+      "sun": 9.2,
+      "rain": 20,
+      "rain_days": 3.6,
+      "uv": {
+        "est": 12
+      },
+      "wind": 24,
+      "water": 24.4,
+      "flight_price": {
+        "est": 8500
+      },
+      "flags": [],
+      "package_price": {
+        "est": 9500
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.9,
+      "temp_night": 23.8,
+      "dew_point": {
+        "est": 24.2
+      },
+      "sun": 9.1,
+      "rain": 14,
+      "rain_days": 2,
+      "uv": {
+        "est": 13
+      },
+      "wind": 24,
+      "water": 24.4,
+      "flight_price": {
+        "est": 8400
+      },
+      "flags": [],
+      "package_price": {
+        "est": 8900
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.9,
+      "temp_night": 24.7,
+      "dew_point": {
+        "est": 24.9
+      },
+      "sun": 8.5,
+      "rain": 11,
+      "rain_days": 1.6,
+      "uv": {
+        "est": 14
+      },
+      "wind": 23,
+      "water": 25,
+      "flight_price": {
+        "est": 8400
+      },
+      "flags": [],
+      "package_price": {
+        "est": 8900
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 33.1,
+      "temp_night": 25.3,
+      "dew_point": {
+        "est": 25.8
+      },
+      "sun": 8.4,
+      "rain": 20,
+      "rain_days": 2.8,
+      "uv": {
+        "est": 13
+      },
+      "wind": 22,
+      "water": 26.1,
+      "flight_price": {
+        "est": 8000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.3,
+      "temp_night": 25.1,
+      "dew_point": {
+        "est": 25.5
+      },
+      "sun": 7.9,
+      "rain": 59,
+      "rain_days": 7.9,
+      "uv": {
+        "est": 12
+      },
+      "wind": 22,
+      "water": 26.1,
+      "flight_price": {
+        "est": 8000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.9,
+      "temp_night": 24.9,
+      "dew_point": {
+        "est": 25.3
+      },
+      "sun": 8.4,
+      "rain": 66,
+      "rain_days": 9,
+      "uv": {
+        "est": 13
+      },
+      "wind": 20,
+      "water": 26.7,
+      "flight_price": {
+        "est": 8400
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.6,
+      "temp_night": 25.3,
+      "dew_point": {
+        "est": 25.4
+      },
+      "sun": 9,
+      "rain": 78,
+      "rain_days": 9.2,
+      "uv": {
+        "est": 13
+      },
+      "wind": 18,
+      "water": 27.2,
+      "flight_price": {
+        "est": 8400
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 33.2,
+      "temp_night": 25.7,
+      "dew_point": {
+        "est": 25.7
+      },
+      "sun": 9,
+      "rain": 49,
+      "rain_days": 6.3,
+      "uv": {
+        "est": 13
+      },
+      "wind": 18,
+      "water": 27.8,
+      "flight_price": {
+        "est": 7600
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.9,
+      "temp_night": 25.5,
+      "dew_point": {
+        "est": 25.6
+      },
+      "sun": 8.8,
+      "rain": 59,
+      "rain_days": 7,
+      "uv": {
+        "est": 12
+      },
+      "wind": 18,
+      "water": 27.8,
+      "flight_price": {
+        "est": 8000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.1,
+      "temp_night": 24.8,
+      "dew_point": {
+        "est": 25.1
+      },
+      "sun": 9,
+      "rain": 62,
+      "rain_days": 8.1,
+      "uv": 10,
+      "wind": 20,
+      "water": 27.2,
+      "flight_price": {
+        "est": 8000
+      },
+      "flags": [],
+      "package_price": {
+        "est": 8300
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.9,
+      "temp_night": 23.7,
+      "dew_point": {
+        "est": 24.2
+      },
+      "sun": 8.7,
+      "rain": 57,
+      "rain_days": 7.3,
+      "uv": 10,
+      "wind": 22,
+      "water": 26.1,
+      "flight_price": {
+        "est": 8500
+      },
+      "flags": [],
+      "package_price": {
+        "est": 10100
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Porlamar – normy 1991–2020 (NOAA, INAMEH): temperatury, opad, dni z opadem ≥ 1 mm, wilgotność, nasłonecznienie; temperatura morza (tabela Margarita)",
+      "url": "https://en.wikipedia.org/wiki/Porlamar",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Porlamar – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/28405/Average-Weather-in-Porlamar-Venezuela-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "TVP Info: MSZ odradza wszelkie podróże do Wenezueli (1.12.2025)",
+      "url": "https://www.tvp.info/90315838/msz-ostrzega-przed-podrozami-do-wenezueli-wyslano-alert-rcb",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Porlamar (Isla Margarita) (KAYAK.pl bez strony trasy; KAYAK.de Niemcy – Porlamar: średnia 1 982 €, typowo 1 778–1 982 € (ok. 7 600–8 500 zł), z 2–3 przesiadkami (Madryt, Caracas, Bogota), najszybciej ok. 21 h 30 min)",
+      "url": "https://www.kayak.de/fl%C3%BCge/Deutschland-DE0/Porlamar-Isla-Margarita-PMV",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow XII (Katowice, 9 dni / 7 nocy): LD Palm Beach 5,1/6 AI – 10 135, Costa Caribe 4,8/6 AI – 10 237 zł; Paradise Oasis 5,1/6 (śniadania) – 10 061 zł. Wyżywienie: AI.",
+      "url": "https://r.pl/wenezuela/margarita",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: wenezuela",
+      "url": "https://r.pl/wytyczne/wenezuela",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: Isla Margarita – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 10, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 10, 10; miesiące II, III, IV, V, VI, VII, VIII, IX, X („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/venezuela/isla-margarita/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 10,6–10,9 (kontrola modelu: 10,9 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-63.85&lat=11",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

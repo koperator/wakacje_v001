@@ -3,6 +3,8 @@
   "country": "Malezja",
   "place": "Langkawi (Pantai Cenang)",
   "notes": "Morze Andamańskie, północna Malezja: pora sucha XII–III, deszczowo IV–XI z maksimum IX–X; monsun SW łagodniejszy niż na Phukecie. Baza pobytu: Pantai Cenang na zachodnim wybrzeżu, ok. 3 km od lotniska i stacji meteorologicznej Pulau Langkawi. Zieleń: wyspa w większości pokryta lasem deszczowym i namorzynami (geopark UNESCO), zielono cały rok. Wycieczki: kolejka SkyCab i Sky Bridge, namorzyny Kilim, wodospady, rejsy po wyspach. Meduzy, w tym kubomeduzy, przez cały rok przy Pantai Cenang (2024: 73 poparzenia; śmiertelny wypadek w XI 2025). Mgła z pożarów na Sumatrze możliwa w VIII–X w latach suchych. Dojazd: brak regularnych lotów bezpośrednich (LOT tylko sezonowy czarter); z 1 przesiadką przez Dubaj (flydubai / Emirates, lot z międzylądowaniem w Penang) albo z 2 przesiadkami przez Kuala Lumpur lub Singapur.",
+  "entryNote": "Paszport ważny 6 mies.; bez wizy; obowiązkowa karta MDAC online (do 3 dni przed przylotem).",
+  "tz": "Asia/Kuala_Lumpur",
   "fixed": {
     "beaches": {
       "est": 4
@@ -18,7 +20,16 @@
     "stops": 1,
     "transfer": {
       "est": 0.2
-    }
+    },
+    "continent": "Azja",
+    "region": "Azja Południowo-Wschodnia",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "rejsy po wyspach",
+      "dżungla",
+      "wodospady",
+      "dzika przyroda"
+    ]
   },
   "months": [
     {
@@ -35,7 +46,9 @@
       "rain_days": {
         "est": 3
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 17,
       "water": 28.3,
       "flight_price": {
@@ -47,7 +60,10 @@
           "level": 1,
           "note": "Hari Raya Aidilfitri (koniec ramadanu, zależnie od roku; w latach 2027–2030 od stycznia do marca): przez 2–3 dni zamknięta część lokalnych restauracji i sklepów, promy i hotele przepełnione turystami krajowymi."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 7500
+      }
     },
     {
       "local_season": {
@@ -63,7 +79,9 @@
       "rain_days": {
         "est": 5
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": 15,
       "water": 28.9,
       "flight_price": {
@@ -75,7 +93,10 @@
           "level": 1,
           "note": "Hari Raya Aidilfitri (koniec ramadanu, zależnie od roku; w latach 2027–2030 od stycznia do marca): przez 2–3 dni zamknięta część lokalnych restauracji i sklepów, promy i hotele przepełnione turystami krajowymi."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 7700
+      }
     },
     {
       "local_season": {
@@ -91,7 +112,9 @@
       "rain_days": {
         "est": 10
       },
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": 12,
       "water": 29.4,
       "flight_price": {
@@ -103,7 +126,10 @@
           "level": 1,
           "note": "Hari Raya Aidilfitri (koniec ramadanu, zależnie od roku; w latach 2027–2030 od stycznia do marca): przez 2–3 dni zamknięta część lokalnych restauracji i sklepów, promy i hotele przepełnione turystami krajowymi."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 7300
+      }
     },
     {
       "local_season": {
@@ -119,13 +145,18 @@
       "rain_days": {
         "est": 15
       },
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": 10,
       "water": 30.6,
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7300
+      }
     },
     {
       "local_season": {
@@ -141,13 +172,16 @@
       "rain_days": {
         "est": 18
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 10,
       "water": 30.6,
       "flight_price": {
         "est": 3700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -163,13 +197,16 @@
       "rain_days": {
         "est": 17
       },
-      "uv": 7,
+      "uv": {
+        "est": 12
+      },
       "wind": 12,
       "water": 30.6,
       "flight_price": {
         "est": 3700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -185,7 +222,9 @@
       "rain_days": {
         "est": 19
       },
-      "uv": 7,
+      "uv": {
+        "est": 12
+      },
       "wind": 12,
       "water": 30.6,
       "flight_price": {
@@ -197,7 +236,8 @@
           "level": 1,
           "note": "Meduzy, w tym kubomeduzy, przy Pantai Cenang i Pantai Tengah: dane szpitalne 2012–2014 pokazują najwięcej poparzeń w VII i X–XII; ryzyko niskie, ale przypadki zdarzają się co roku, kąpiel najlepiej przy wieży ratowników."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -213,13 +253,16 @@
       "rain_days": {
         "est": 19
       },
-      "uv": 7,
+      "uv": {
+        "est": 13
+      },
       "wind": 13,
       "water": 30,
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -235,13 +278,16 @@
       "rain_days": {
         "est": 21
       },
-      "uv": 7,
+      "uv": {
+        "est": 13
+      },
       "wind": 13,
       "water": 29.4,
       "flight_price": {
         "est": 3700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -257,7 +303,9 @@
       "rain_days": {
         "est": 23
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 13,
       "water": 30,
       "flight_price": {
@@ -269,7 +317,8 @@
           "level": 1,
           "note": "Meduzy, w tym kubomeduzy, przy Pantai Cenang i Pantai Tengah: dane szpitalne 2012–2014 pokazują najwięcej poparzeń w VII i X–XII; ryzyko niskie, ale przypadki zdarzają się co roku, kąpiel najlepiej przy wieży ratowników."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -285,7 +334,7 @@
       "rain_days": {
         "est": 16
       },
-      "uv": 7,
+      "uv": 11,
       "wind": 14,
       "water": 30,
       "flight_price": {
@@ -297,7 +346,10 @@
           "level": 1,
           "note": "Meduzy, w tym kubomeduzy, przy Pantai Cenang i Pantai Tengah: dane szpitalne 2012–2014 pokazują najwięcej poparzeń w VII i X–XII; ryzyko niskie, ale przypadki zdarzają się co roku, kąpiel najlepiej przy wieży ratowników."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 6800
+      }
     },
     {
       "local_season": {
@@ -313,7 +365,7 @@
       "rain_days": {
         "est": 8
       },
-      "uv": 7,
+      "uv": 11,
       "wind": 18,
       "water": 28.9,
       "flight_price": {
@@ -325,7 +377,10 @@
           "level": 1,
           "note": "Meduzy, w tym kubomeduzy, przy Pantai Cenang i Pantai Tengah: dane szpitalne 2012–2014 pokazują najwięcej poparzeń w VII i X–XII; ryzyko niskie, ale przypadki zdarzają się co roku, kąpiel najlepiej przy wieży ratowników."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 8300
+      }
     }
   ],
   "sources": [
@@ -347,16 +402,6 @@
     {
       "title": "seatemperatu.re: Langkawi – średnia temperatura morza w miesiącach (średnie z lat poprzednich)",
       "url": "https://www.seatemperatu.re/southeast-asia/malaysia/langkawi-island/when.html",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: Langkawi – pogoda miesiąc po miesiącu (12 stron, np. /langkawi-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 6.35°N 99.73°E",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-langkawi",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
       "checked": "2026-10-13"
     },
     {
@@ -398,6 +443,36 @@
       "title": "KAYAK.pl: Warszawa – Langkawi – statystyki cen w obie strony (miesiące: VII 3 238, XII 5 272; średnia 12 mies. 4 234 zł; typowo 3 727–5 142 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Langkawi-LGK",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka II (Warszawa-Okęcie, 8 dni, śniadania): Holiday Villa Resort & Beachclub – 7 729, Hilton Burau Bay – 8 119, Rebak Island – 8 139 zł. Poza XI–IV szacunku nie podaję (pora deszczowa, brak ofert). Wyżywienie: śniadania.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: malezja",
+      "url": "https://r.pl/wytyczne/malezja",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Langkawi – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 11; miesiące I, II, III, IV, V, VI, VII, VIII, IX, X („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/malaysia/langkawi/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 11,2–11,9 (kontrola modelu: 11,8 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=99.73&lat=6.35",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

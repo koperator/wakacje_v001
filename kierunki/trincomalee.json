@@ -3,6 +3,8 @@
   "country": "Sri Lanka",
   "place": "Trincomalee",
   "notes": "Wschodnie wybrzeże (para monsunowa z Negombo): sucho i gorąco V–IX (gdy w Negombo trwa monsun SW), monsun NE X–I z maksimum w XI–XII. Baza pobytu: plaże Uppuveli i Nilaveli na północ od miasta. Pogoda ze stacji Trincomalee (normy 1991–2020, 5–15 km od plaż, ta sama ekspozycja na NE). Zieleń: strefa sucha – palmy, zarośla i lasy suche; w V–IX trawy i zarośla wysychają na brązowo, zielono w XI–II. Wycieczki jednodniowe: Pigeon Island (rafa), wieloryby i delfiny (III–VIII), Fort Frederick i świątynia Koneswaram, a ok. 2–2,5 h drogi trójkąt kulturowy: Polonnaruwa, Sigiriya, Anuradhapura, Minneriya (zgromadzenia słoni VIII–X). Dojazd: z Warszawy z 1 przesiadką do Kolombo (CMB), dalej ok. 5–6 h samochodem albo codzienny lot Cinnamon Air CMB–Trincomalee (ok. 45 min, osobny bilet); transfer nie jest wliczony w czas lotu. Co miesiąc dzień Poya (pełnia): zakaz sprzedaży alkoholu.",
+  "entryNote": "Paszport ważny 6 mies. po powrocie; elektroniczne zezwolenie ETA przed wylotem – od 25.05.2026 bezpłatne dla obywateli Polski (30 dni).",
+  "tz": "Asia/Colombo",
   "fixed": {
     "beaches": {
       "est": 4
@@ -20,7 +22,17 @@
     "stops": 1,
     "transfer": {
       "est": 4.5
-    }
+    },
+    "continent": "Azja",
+    "region": "Azja Południowa",
+    "entry": "zezwolenie elektroniczne",
+    "tags": [
+      "rafa i snorkeling",
+      "dzika przyroda",
+      "ruiny",
+      "świątynie",
+      "spokój"
+    ]
   },
   "months": [
     {
@@ -35,9 +47,7 @@
       "sun": 8.3,
       "rain": 152,
       "rain_days": 8.4,
-      "uv": {
-        "est": 7
-      },
+      "uv": 11,
       "wind": 19,
       "water": 27.2,
       "flight_price": {
@@ -49,7 +59,8 @@
           "level": 1,
           "note": "Koniec monsunu NE: w pierwszej połowie miesiąca wciąż fale i mętna woda w części dni, morze uspokaja się zwykle do lutego; część centrów nurkowych jeszcze zamknięta."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -64,14 +75,15 @@
       "rain": 96,
       "rain_days": 4.7,
       "uv": {
-        "est": 8
+        "est": 12
       },
       "wind": 17,
       "water": 28.3,
       "flight_price": {
         "est": 3500
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -86,14 +98,15 @@
       "rain": 72,
       "rain_days": 4,
       "uv": {
-        "est": 9
+        "est": 14
       },
       "wind": 14,
       "water": 28.9,
       "flight_price": {
         "est": 3500
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -108,7 +121,7 @@
       "rain": 55,
       "rain_days": 4.2,
       "uv": {
-        "est": 9
+        "est": 14
       },
       "wind": 14,
       "water": 30,
@@ -126,7 +139,8 @@
           "level": 1,
           "note": "Vesak (pełnia, zależnie od roku koniec kwietnia lub maj): 2 dni zakazu sprzedaży alkoholu, zamknięte bary i część sklepów."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -141,7 +155,7 @@
       "rain": 48,
       "rain_days": 4.2,
       "uv": {
-        "est": 8
+        "est": 13
       },
       "wind": 22,
       "water": 30.6,
@@ -154,7 +168,10 @@
           "level": 1,
           "note": "Vesak (pełnia, zależnie od roku koniec kwietnia lub maj): 2 dni zakazu sprzedaży alkoholu, zamknięte bary i część sklepów."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 5600
+      }
     },
     {
       "local_season": {
@@ -169,14 +186,17 @@
       "rain": 26,
       "rain_days": 1.9,
       "uv": {
-        "est": 8
+        "est": 12
       },
       "wind": 29,
       "water": 30,
       "flight_price": {
         "est": 3000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5700
+      }
     },
     {
       "local_season": {
@@ -191,14 +211,17 @@
       "rain": 51,
       "rain_days": 3.4,
       "uv": {
-        "est": 8
+        "est": 12
       },
       "wind": 28,
       "water": 30,
       "flight_price": {
         "est": 3700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6500
+      }
     },
     {
       "local_season": {
@@ -213,14 +236,17 @@
       "rain": 67,
       "rain_days": 4.2,
       "uv": {
-        "est": 8
+        "est": 13
       },
       "wind": 26,
       "water": 29.4,
       "flight_price": {
         "est": 3200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6700
+      }
     },
     {
       "local_season": {
@@ -235,14 +261,17 @@
       "rain": 113,
       "rain_days": 5.7,
       "uv": {
-        "est": 9
+        "est": 13
       },
       "wind": 23,
       "water": 29.4,
       "flight_price": {
         "est": 3200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5700
+      }
     },
     {
       "local_season": {
@@ -257,7 +286,7 @@
       "rain": 216,
       "rain_days": 12.8,
       "uv": {
-        "est": 8
+        "est": 12
       },
       "wind": 17,
       "water": 29.4,
@@ -270,7 +299,8 @@
           "level": 1,
           "note": "Początek monsunu NE, zwykle od drugiej połowy października: morze coraz bardziej wzburzone i mętne, rejsy na Pigeon Island i nurkowanie bywają odwoływane."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -284,9 +314,7 @@
       "sun": 5.7,
       "rain": 376,
       "rain_days": 17.9,
-      "uv": {
-        "est": 6
-      },
+      "uv": 11,
       "wind": 16,
       "water": 28.9,
       "flight_price": {
@@ -298,7 +326,8 @@
           "level": 2,
           "note": "Monsun NE: wzburzone, mętne morze na plażach Uppuveli i Nilaveli, w wielu dniach kąpiel odradzana; centra nurkowe i rejsy wielorybnicze zamknięte, rejsy na Pigeon Island niepewne lub niemożliwe."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -312,9 +341,7 @@
       "sun": 5.4,
       "rain": 339,
       "rain_days": 15,
-      "uv": {
-        "est": 7
-      },
+      "uv": 10,
       "wind": 19,
       "water": 28.3,
       "flight_price": {
@@ -326,7 +353,8 @@
           "level": 2,
           "note": "Monsun NE: wzburzone, mętne morze na plażach Uppuveli i Nilaveli, w wielu dniach kąpiel odradzana; centra nurkowe i rejsy wielorybnicze zamknięte, rejsy na Pigeon Island niepewne lub niemożliwe."
         }
-      ]
+      ],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -336,7 +364,7 @@
       "checked": "2026-10-13"
     },
     {
-      "title": "weather2travel: Trincomalee (CRU, Met Office, KNMI; temperatury, opad, słońce, morze – kontrola; UV dla czystego nieba – inna miara, nieużyte)",
+      "title": "weather2travel: Trincomalee (CRU, Met Office, KNMI; temperatury, opad, słońce, morze – kontrola)",
       "url": "https://www.weather2travel.com/sri-lanka/trincomalee/january/",
       "checked": "2026-10-13"
     },
@@ -348,16 +376,6 @@
     {
       "title": "seatemperatu.re: Trincomalee – średnia temperatura morza w miesiącach (średnie z lat poprzednich)",
       "url": "https://www.seatemperatu.re/central-and-south-asia/sri-lanka/trincomalee/when.html",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: Sri Lanka – pogoda miesiąc po miesiącu (12 stron, np. /sri-lanka-weather-january); UV all-sky z Open-Meteo, ERA5, punkt 7.87°N 80.77°E (strefa sucha, okolice Dambulli)",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-sri-lanka",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
       "checked": "2026-10-13"
     },
     {
@@ -394,6 +412,36 @@
       "title": "KAYAK.pl: Warszawa – Kolombo – statystyki cen w obie strony (miesiące: VI 3 017, VII 3 650, XII 3 638; średnia 12 mies. 3 356 zł; typowo 2 938–3 795 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Kolombo-CMB",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Szacunek: wschodnie wybrzeże Sri Lanki latem; poziom Negombo +3%. Wyżywienie: 2 posiłki.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – LoyaltyLobby – Sri Lanka: bezpłatne ETA dla 40 krajów (2026)",
+      "url": "https://loyaltylobby.com/2026/05/27/sri-lanka-now-offers-free-tourist-visas-etas-for-nationals-of-40-countries/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Trincomalee – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10; miesiące II, III, IV, V, VI, VII, VIII, IX, X („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/sri-lanka/trincomalee/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 10,3–11 (kontrola modelu: 11,3 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=81.23&lat=8.6",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

@@ -3,6 +3,8 @@
   "country": "Indonezja",
   "place": "Lombok, Kuta / Tanjung Aan",
   "notes": "Południowe wybrzeże Lomboku: pora sucha V–X (najsuchiej VII–IX, pasat SE), pora deszczowa XI–IV z maksimum I–II. Baza pobytu: Kuta Lombok – sama plaża w Kuta z grubym piaskiem, ale Tanjung Aan (ok. 10 min) z jasnym piaskiem i spokojnymi zatokami, Mawun i Selong Belanak w pobliżu; fale surfingowe na rafach dalej od brzegu. Brak stacji z normami na Lomboku: temperatury, opad, dni deszczowe, słońce i punkt rosy przeniesione ze stacji Ngurah Rai na Bali (ok. 80 km, ten sam typ klimatu) – szacunek. Zieleń: wzgórza zielone w porze deszczowej, w porze suchej brązowe. Wycieczki: tradycyjne wioski Sasak (Sade), plaże wybrzeża, wodospady Benang Kelambu; Gili i Rinjani poza zasięgiem jednego dnia. Dojazd: z 2 przesiadkami (Zatoka + Denpasar lub Jakarta/Kuala Lumpur) ok. 21,5 h; z lotniska ok. 20 km.",
+  "entryNote": "Paszport ważny 6 mies.; wiza po przylocie ok. 35 USD (albo e-VOA wcześniej); obowiązkowa deklaracja przylotu online (do 3 dni).",
+  "tz": "Asia/Makassar",
   "fixed": {
     "beaches": {
       "est": 4
@@ -22,7 +24,15 @@
     "stops": 2,
     "transfer": {
       "est": 0.4
-    }
+    },
+    "continent": "Azja",
+    "region": "Azja Południowo-Wschodnia",
+    "entry": "wiza na lotnisku",
+    "tags": [
+      "surfing",
+      "wodospady",
+      "spokój"
+    ]
   },
   "months": [
     {
@@ -47,7 +57,9 @@
       "rain_days": {
         "est": 18.8
       },
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 11
       },
@@ -55,7 +67,8 @@
       "flight_price": {
         "est": 7100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -79,7 +92,9 @@
       "rain_days": {
         "est": 16.5
       },
-      "uv": 9,
+      "uv": {
+        "est": 15
+      },
       "wind": {
         "est": 11
       },
@@ -87,7 +102,8 @@
       "flight_price": {
         "est": 5400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -111,7 +127,9 @@
       "rain_days": {
         "est": 13.3
       },
-      "uv": 8,
+      "uv": {
+        "est": 15
+      },
       "wind": {
         "est": 9
       },
@@ -119,7 +137,8 @@
       "flight_price": {
         "est": 5400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -143,7 +162,9 @@
       "rain_days": {
         "est": 8.8
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 11
       },
@@ -151,7 +172,8 @@
       "flight_price": {
         "est": 5400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -175,7 +197,7 @@
       "rain_days": {
         "est": 6.5
       },
-      "uv": 7,
+      "uv": 11,
       "wind": {
         "est": 13
       },
@@ -183,7 +205,8 @@
       "flight_price": {
         "est": 5900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -207,7 +230,7 @@
       "rain_days": {
         "est": 4.7
       },
-      "uv": 7,
+      "uv": 9,
       "wind": {
         "est": 15
       },
@@ -215,7 +238,8 @@
       "flight_price": {
         "est": 5900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -239,7 +263,7 @@
       "rain_days": {
         "est": 3.3
       },
-      "uv": 7,
+      "uv": 10,
       "wind": {
         "est": 16
       },
@@ -247,7 +271,8 @@
       "flight_price": {
         "est": 5000
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -271,7 +296,9 @@
       "rain_days": {
         "est": 1.9
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 16
       },
@@ -279,7 +306,8 @@
       "flight_price": {
         "est": 6500
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -303,7 +331,9 @@
       "rain_days": {
         "est": 2.8
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 14
       },
@@ -311,7 +341,8 @@
       "flight_price": {
         "est": 5900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -335,7 +366,9 @@
       "rain_days": {
         "est": 4.8
       },
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 13
       },
@@ -343,7 +376,8 @@
       "flight_price": {
         "est": 5900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -367,7 +401,9 @@
       "rain_days": {
         "est": 10.3
       },
-      "uv": 8,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 11
       },
@@ -375,7 +411,8 @@
       "flight_price": {
         "est": 5400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -399,7 +436,9 @@
       "rain_days": {
         "est": 15.9
       },
-      "uv": 7,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 10
       },
@@ -407,7 +446,8 @@
       "flight_price": {
         "est": 5900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -417,29 +457,43 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "weather2travel: Kuta (Lombok) – temperatura morza (oraz kontrolnie temperatury, opad, słońce; CRU)",
-      "url": "https://www.weather2travel.com/lombok/kuta/climate/",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "Weather Spark: Kuta (Bali, stacja Ngurah Rai) – średnia godzinowa prędkość wiatru na 10 m – zastępstwo",
       "url": "https://weatherspark.com/y/128842/Average-Weather-in-Kuta-Indonesia-Year-Round",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: Lombok – pogoda miesiąc po miesiącu (12 stron, np. /lombok-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 8.65°S 116.32°E",
-      "url": "https://bestdateweather.com/en/lombok-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
       "checked": "2026-10-16"
     },
     {
       "title": "KAYAK.pl: Warszawa – Lombok (brak połączeń z 1 przesiadką; z 2 przesiadkami najszybciej 23 h 20 min przez Abu Zabi i Denpasar, średnio ok. 34 h; ceny: VII 4 974 zł najtaniej, I ok. 7 116 zł najdrożej, średnia 5 862 zł, typowo 5 148–6 296 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Lombok-LOP",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Polskie biura nie sprzedają tu wczasów z wylotem z Polski (najwyżej wycieczki objazdowe albo pakiety na liniach rejsowych bez stałej oferty). (szczegóły: research/kolumna-package_price-notatki.md)",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: indonezja",
+      "url": "https://r.pl/wytyczne/indonezja",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Kuta (Lombok) – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11+, 11+, 11+, 11+, 11, 9, 10, 11+, 11+, 11+, 11+, 11+; miesiące I, II, III, IV, VIII, IX, X, XI, XII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/lombok/kuta/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 13,9–14,7 (kontrola modelu: 14,1 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=116.28&lat=-8.9",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

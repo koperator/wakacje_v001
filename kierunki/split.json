@@ -1,0 +1,373 @@
+{
+  "id": "split",
+  "country": "Chorwacja",
+  "place": "Split (Dalmacja Środkowa)",
+  "notes": "Klimat śródziemnomorski: gorące, słoneczne lato (ok. 31 °C w VII–VIII, ok. 11 h słońca dziennie), łagodna zima (ok. 11 °C), deszcz głównie IX–XII; zimą bura (silny, zimny wiatr z gór). Woda do kąpieli VI–IX (21–24 °C). Baza pobytu: Split – plaże Bačvice i Kašjuni (drobny żwir, częściowo piasek, płytko przy Bačvicach), latem zatłoczone; ładniejsze plaże na Brač (Zlatni Rat) i w Makarskiej. Pogoda ze stacji Split-Marjan (DHMZ 1991–2020). Zieleń: wzgórze Marjan z lasem, poza tym kamieniste wzgórza i makia. Wycieczki: Pałac Dioklecjana (UNESCO), Trogir, wodospady Krka, wyspy Brač i Hvar (promem), twierdza Klis. Dojazd: bez przesiadek LOT i Wizz Air ok. 1 h 50 min (ok. III–X); zimą z 1 przesiadką.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Zagreb",
+  "fixed": {
+    "beaches": {
+      "est": 2
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 1.8,
+    "stops": 0,
+    "transfer": {
+      "est": 0.5
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "rejsy po wyspach",
+      "ruiny",
+      "stare miasto",
+      "życie nocne"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 10.7,
+      "temp_night": 5.9,
+      "dew_point": {
+        "est": 1.1
+      },
+      "sun": 4.5,
+      "rain": 73,
+      "rain_days": {
+        "est": 7.4
+      },
+      "uv": 1,
+      "wind": 16,
+      "water": 12,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 11.5,
+      "temp_night": 6,
+      "dew_point": {
+        "est": 1.1
+      },
+      "sun": 5.4,
+      "rain": 64,
+      "rain_days": {
+        "est": 6.6
+      },
+      "uv": 2,
+      "wind": 16,
+      "water": 11.5,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 14.5,
+      "temp_night": 8.5,
+      "dew_point": {
+        "est": 3.6
+      },
+      "sun": 6.3,
+      "rain": 58,
+      "rain_days": {
+        "est": 6.7
+      },
+      "uv": 4,
+      "wind": 16,
+      "water": 11.9,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 18.4,
+      "temp_night": 11.8,
+      "dew_point": {
+        "est": 7
+      },
+      "sun": 7.4,
+      "rain": 62,
+      "rain_days": {
+        "est": 7.3
+      },
+      "uv": 5,
+      "wind": 14,
+      "water": 13.8,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 23.4,
+      "temp_night": 16.1,
+      "dew_point": {
+        "est": 10.7
+      },
+      "sun": 9,
+      "rain": 58,
+      "rain_days": {
+        "est": 6.6
+      },
+      "uv": 7,
+      "wind": 12,
+      "water": 17.3,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": {
+        "est": 1900
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 28.1,
+      "temp_night": 20.2,
+      "dew_point": {
+        "est": 14
+      },
+      "sun": 10.6,
+      "rain": 49,
+      "rain_days": {
+        "est": 5.5
+      },
+      "uv": 8,
+      "wind": 11,
+      "water": 21.1,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31,
+      "temp_night": 22.8,
+      "dew_point": {
+        "est": 15.2
+      },
+      "sun": 11.6,
+      "rain": 25,
+      "rain_days": {
+        "est": 3.6
+      },
+      "uv": 8,
+      "wind": 11,
+      "water": 23.2,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.9,
+      "temp_night": 22.9,
+      "dew_point": {
+        "est": 15.8
+      },
+      "sun": 10.8,
+      "rain": 32,
+      "rain_days": {
+        "est": 3.2
+      },
+      "uv": 7,
+      "wind": 11,
+      "water": 23.6,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 25.4,
+      "temp_night": 18.4,
+      "dew_point": {
+        "est": 13.1
+      },
+      "sun": 8.2,
+      "rain": 82,
+      "rain_days": {
+        "est": 5.7
+      },
+      "uv": 5,
+      "wind": 13,
+      "water": 21.7,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2200
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 20.5,
+      "temp_night": 14.7,
+      "dew_point": {
+        "est": 10.3
+      },
+      "sun": 6.4,
+      "rain": 80,
+      "rain_days": {
+        "est": 6.5
+      },
+      "uv": 3,
+      "wind": 14,
+      "water": 19.3,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": {
+        "est": 1900
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15.6,
+      "temp_night": 10.8,
+      "dew_point": {
+        "est": 6.7
+      },
+      "sun": 4.3,
+      "rain": 120,
+      "rain_days": {
+        "est": 8.2
+      },
+      "uv": 2,
+      "wind": 16,
+      "water": 16.4,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 11.8,
+      "temp_night": 7.2,
+      "dew_point": {
+        "est": 2.3
+      },
+      "sun": 4.1,
+      "rain": 99,
+      "rain_days": {
+        "est": 8.3
+      },
+      "uv": 1,
+      "wind": 16,
+      "water": 13.7,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Split – stacja Marjan, normy 1991–2020 (DHMZ): temperatury, opad, dni z opadem ≥ 0,1 mm, wilgotność, nasłonecznienie; temperatura morza (tabela Split)",
+      "url": "https://en.wikipedia.org/wiki/Split,_Croatia",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Split – średnia prędkość wiatru (średnia godzinowa, MERRA-2)",
+      "url": "https://weatherspark.com/y/80692/Average-Weather-in-Split-Croatia-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Split (LOT bez przesiadek 1 h 50 min (sezonowo); z 1 przesiadką (Monachium, Wiedeń, Zagrzeb) od 3 h 35 min; V 746 zł najtaniej, II 1 426 zł, XI 1 320 zł, średnia 898 zł, typowo 685–1 206 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Split-SPU",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "karlobag.eu: loty z Polski do Chorwacji w 2026 roku (LOT i Wizz Air Warszawa – Split od końca marca do ok. 21–23 października)",
+      "url": "https://karlobag.eu/pl/podroze/loty-z-polski-do-chorwacji-w-2026-roku-ruszaja-juz-w-marcu-a-siatka-polaczen-roz-gk4w8/",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow IX (samolot, Katowice): Makarska Riwiera – Sunce 5,0/6, 2 posiłki – 2 184 zł; Riwiera Kastelańska (obok Splitu) Villa Penava 4,5/6 bez wyżywienia – 1 884 zł. Itaka: Dalmacja samolotem tylko 4-dniowe. Wyżywienie: 2 posiłki.",
+      "url": "https://r.pl/chorwacja",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: Split – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 1, 2, 4, 5, 7, 8, 8, 7, 5, 3, 2, 1",
+      "url": "https://www.weather2travel.com/croatia/split/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 2–2,5 (kontrola modelu: 2,3 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=16.44&lat=43.5",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

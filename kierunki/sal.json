@@ -3,6 +3,8 @@
   "country": "Republika Zielonego Przylądka",
   "place": "Sal, Santa Maria",
   "notes": "Pustynna wyspa na Atlantyku z całorocznym pasatem NE: praktycznie bez deszczu (krótka, słaba pora deszczowa VIII–X), stałe ok. 25–30 °C w dzień; wietrznie XII–VI (kitesurfing), spokojniej VII–IX. Woda chłodniejsza niż na Karaibach: ok. 22 °C w II–IV, ok. 27 °C w IX–X. Baza pobytu: Santa Maria – długa, biała plaża po zawietrznej, południowej stronie, łagodne wejście. Pogoda ze stacji lotniska Amílcar Cabral (ok. 18 km, NOAA 1991–2020). Zieleń: brak, pustynia i wulkaniczne pagórki. Atrakcje: saliny Pedra de Lume, Buracona, zatoka z rekinami cytrynowymi (Shark Bay), sporty wodne. Dojazd: regularnie z 1 przesiadką w Lizbonie (TAP), ok. 12 h; zimą czartery bez przesiadek (Enter Air, ok. 7–8 h).",
+  "entryNote": "Paszport ważny 6 mies. po powrocie; bez wizy; obowiązkowa rejestracja EASE co najmniej 5 dni przed wylotem z opłatą lotniskową 31 EUR (na lotnisku 62 EUR).",
+  "tz": "Atlantic/Cape_Verde",
   "fixed": {
     "beaches": {
       "est": 5
@@ -20,7 +22,15 @@
     "stops": 1,
     "transfer": {
       "est": 0.3
-    }
+    },
+    "continent": "Afryka",
+    "region": "Atlantyk wschodni",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "płytkie wejście",
+      "kitesurfing",
+      "pustynia"
+    ]
   },
   "months": [
     {
@@ -37,13 +47,16 @@
       "rain_days": {
         "est": 0.4
       },
-      "uv": 7,
+      "uv": 8,
       "wind": 27,
       "water": 22.8,
       "flight_price": {
         "est": 1900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4500
+      }
     },
     {
       "local_season": {
@@ -59,13 +72,16 @@
       "rain_days": {
         "est": 0.1
       },
-      "uv": 8,
+      "uv": 10,
       "wind": 27,
       "water": 22.2,
       "flight_price": {
         "est": 2900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4700
+      }
     },
     {
       "local_season": {
@@ -81,13 +97,18 @@
       "rain_days": {
         "est": 0.1
       },
-      "uv": 9,
+      "uv": {
+        "est": 12
+      },
       "wind": 26,
       "water": 21.7,
       "flight_price": {
         "est": 2900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4800
+      }
     },
     {
       "local_season": {
@@ -103,13 +124,18 @@
       "rain_days": {
         "est": 0.1
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": 26,
       "water": 22.2,
       "flight_price": {
         "est": 2900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5000
+      }
     },
     {
       "local_season": {
@@ -125,13 +151,18 @@
       "rain_days": {
         "est": 0.1
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": 26,
       "water": 22.8,
       "flight_price": {
         "est": 2100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5300
+      }
     },
     {
       "local_season": {
@@ -147,13 +178,18 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": 23,
       "water": 22.8,
       "flight_price": {
         "est": 2100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5500
+      }
     },
     {
       "local_season": {
@@ -169,13 +205,18 @@
       "rain_days": {
         "est": 0.1
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 18,
       "water": 24.4,
       "flight_price": {
         "est": 2300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5700
+      }
     },
     {
       "local_season": {
@@ -191,13 +232,18 @@
       "rain_days": {
         "est": 0.8
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 18,
       "water": 25.6,
       "flight_price": {
         "est": 3400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5700
+      }
     },
     {
       "local_season": {
@@ -213,13 +259,18 @@
       "rain_days": {
         "est": 1.9
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 20,
       "water": 26.7,
       "flight_price": {
         "est": 3300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5300
+      }
     },
     {
       "local_season": {
@@ -235,13 +286,16 @@
       "rain_days": {
         "est": 0.8
       },
-      "uv": 8,
+      "uv": 10,
       "wind": 22,
       "water": 26.7,
       "flight_price": {
         "est": 2300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4700
+      }
     },
     {
       "local_season": {
@@ -257,13 +311,16 @@
       "rain_days": {
         "est": 0.3
       },
-      "uv": 7,
+      "uv": 9,
       "wind": 23,
       "water": 25.6,
       "flight_price": {
         "est": 2300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4100
+      }
     },
     {
       "local_season": {
@@ -279,13 +336,16 @@
       "rain_days": {
         "est": 0.4
       },
-      "uv": 6,
+      "uv": 8,
       "wind": 25,
       "water": 23.9,
       "flight_price": {
         "est": 2900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5000
+      }
     }
   ],
   "sources": [
@@ -300,19 +360,39 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "BestDateWeather: Sal – pogoda miesiąc po miesiącu (12 stron, np. /sal-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 16.73°N 22.93°W",
-      "url": "https://bestdateweather.com/en/sal-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "KAYAK.pl: Warszawa – Sal (z 1 przesiadką średnio: Zurych 11 h 09 min, Lizbona 12 h 09 min; bez przesiadek Enter Air – czarter; ceny: I 1 893 zł najtaniej, IX 3 260 zł, VIII 5 157 zł najdrożej, średnia 2 311 zł, typowo 1 794–2 990 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Sal-SID",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: Oasis Atlantico Belorizonte 4,9/6 – I 5 449, VII 5 749 zł; Rainbow XI: Halos Casa Resort 5,1/6 – 5 982 zł. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: wyspy-zielonego-przyladka",
+      "url": "https://r.pl/wytyczne/wyspy-zielonego-przyladka",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Santa Maria (Sal) – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 8, 10, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 10, 9, 8; miesiące III, IV, V, VI, VII, VIII, IX („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/cape-verde/santa-maria-sal/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 8,2–9,3 (kontrola modelu: 9,4 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-22.9&lat=16.6",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

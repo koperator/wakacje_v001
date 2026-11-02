@@ -3,6 +3,8 @@
   "country": "Turks and Caicos",
   "place": "Providenciales (Grace Bay)",
   "notes": "Klimat tropikalny, dość suchy, z pasatem: najsuchiej II–IV i VI–VII, najwięcej deszczu IX–XI; sezon huraganów VI–XI (szczyt VIII–X). Woda najchłodniejsza II–III (ok. 25 °C). Baza pobytu: Grace Bay na północnym wybrzeżu Providenciales, osłonięta rafą. Brak norm ze stacji na Turks and Caicos: temperatury, opad i dni deszczowe ze stacji zastępczej Matthew Town (Great Inagua, Bahamy, ok. 140 km na W, ten sam suchy klimat pasatowy), słońce z danych CRU (weather2travel), wiatr z Grand Turk – wszystko jako szacunek. Zieleń: niska, sucha roślinność krzewiasta na płaskiej wyspie. Atrakcje praktycznie tylko morskie (snorkeling przy rafie, Chalk Sound, rejsy). Sargassum rzadko. Dojazd: z 2 przesiadkami (np. Frankfurt i Miami, ok. 17,5 h) albo z 1 przesiadką przez Nowy Jork (LOT do JFK + lot do PLS; wymagana ESTA).",
+  "entryNote": "Paszport ważny 6 mies.; bez wizy. Przy przesiadce w USA potrzebna ESTA.",
+  "tz": "America/Grand_Turk",
   "fixed": {
     "beaches": 5,
     "greenery": {
@@ -14,7 +16,16 @@
     "stops": 2,
     "transfer": {
       "est": 0.2
-    }
+    },
+    "continent": "Ameryka Północna i Karaiby",
+    "region": "Karaiby",
+    "entry": "paszport",
+    "tags": [
+      "rajska plaża",
+      "płytkie wejście",
+      "rafa i snorkeling",
+      "spokój"
+    ]
   },
   "months": [
     {
@@ -39,7 +50,7 @@
       "rain_days": {
         "est": 6
       },
-      "uv": 6,
+      "uv": 7,
       "wind": {
         "est": 25
       },
@@ -47,7 +58,8 @@
       "flight_price": {
         "est": 5300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -71,7 +83,7 @@
       "rain_days": {
         "est": 5
       },
-      "uv": 7,
+      "uv": 9,
       "wind": {
         "est": 25
       },
@@ -79,7 +91,8 @@
       "flight_price": {
         "est": 3400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -103,7 +116,7 @@
       "rain_days": {
         "est": 4
       },
-      "uv": 8,
+      "uv": 11,
       "wind": {
         "est": 24
       },
@@ -111,7 +124,8 @@
       "flight_price": {
         "est": 5300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -135,7 +149,9 @@
       "rain_days": {
         "est": 5
       },
-      "uv": 9,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 23
       },
@@ -143,7 +159,8 @@
       "flight_price": {
         "est": 5300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -167,7 +184,9 @@
       "rain_days": {
         "est": 6
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 23
       },
@@ -175,7 +194,8 @@
       "flight_price": {
         "est": 4100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -199,7 +219,9 @@
       "rain_days": {
         "est": 4
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 25
       },
@@ -207,7 +229,8 @@
       "flight_price": {
         "est": 4100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -231,7 +254,9 @@
       "rain_days": {
         "est": 4
       },
-      "uv": 9,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 27
       },
@@ -239,7 +264,8 @@
       "flight_price": {
         "est": 5900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -263,7 +289,9 @@
       "rain_days": {
         "est": 5
       },
-      "uv": 9,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 25
       },
@@ -277,7 +305,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów na Atlantyku (VIII–X): bezpośrednie trafienie rzadkie (np. Irma i Maria w 2017), ale przy burzy tropikalnej kilka dni ulew, fal i odwołanych lotów."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -301,7 +330,7 @@
       "rain_days": {
         "est": 7
       },
-      "uv": 8,
+      "uv": 11,
       "wind": {
         "est": 22
       },
@@ -315,7 +344,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów na Atlantyku (VIII–X): bezpośrednie trafienie rzadkie (np. Irma i Maria w 2017), ale przy burzy tropikalnej kilka dni ulew, fal i odwołanych lotów."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -339,7 +369,7 @@
       "rain_days": {
         "est": 10
       },
-      "uv": 7,
+      "uv": 9,
       "wind": {
         "est": 21
       },
@@ -353,7 +383,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów na Atlantyku (VIII–X): bezpośrednie trafienie rzadkie (np. Irma i Maria w 2017), ale przy burzy tropikalnej kilka dni ulew, fal i odwołanych lotów."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -377,7 +408,7 @@
       "rain_days": {
         "est": 8
       },
-      "uv": 6,
+      "uv": 7,
       "wind": {
         "est": 24
       },
@@ -385,7 +416,8 @@
       "flight_price": {
         "est": 4100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -409,7 +441,7 @@
       "rain_days": {
         "est": 6
       },
-      "uv": 5,
+      "uv": 6,
       "wind": {
         "est": 26
       },
@@ -417,7 +449,8 @@
       "flight_price": {
         "est": 5300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -434,16 +467,6 @@
     {
       "title": "Weather Spark: Cockburn Town (Grand Turk) – średnia godzinowa prędkość wiatru na 10 m, temperatura wody – kontrola",
       "url": "https://weatherspark.com/y/26088/Average-Weather-in-Cockburn-Town-Turks-&-Caicos-Islands-Year-Round",
-      "checked": "2026-10-14"
-    },
-    {
-      "title": "BestDateWeather: Turks and Caicos – pogoda miesiąc po miesiącu (12 stron, np. /turks-and-caicos-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 21.77°N 72.34°W",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-turks-and-caicos",
-      "checked": "2026-10-14"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
       "checked": "2026-10-14"
     },
     {
@@ -470,6 +493,35 @@
       "title": "KAYAK.pl: Warszawa – Providenciales – statystyki cen w obie strony (miesiące: II 3 239, VII 6 271; średnia 12 mies. 4 692 zł; typowo 4 040–5 164 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Providenciales-PLS",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Polskie biura nie sprzedają tu wczasów z wylotem z Polski (najwyżej wycieczki objazdowe albo pakiety na liniach rejsowych bez stałej oferty). (szczegóły: research/kolumna-package_price-notatki.md)",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – Turks and Caicos Border Force – entry requirements",
+      "url": "https://borderforce.gov.tc/entry-requirements",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Grand Turk (ok. 150 km) – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 7, 9, 11, 11+, 11+, 11+, 11+, 11+, 11, 9, 7, 6; miesiące IV, V, VI, VII, VIII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/turks-and-caicos/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 7,7–8 (kontrola modelu: 8,0 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-72.27&lat=21.8",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

@@ -3,6 +3,8 @@
   "country": "Tajlandia",
   "place": "Phuket",
   "notes": "Morze Andamańskie (para monsunowa z Koh Samui): pora sucha XII–IV, monsun SW V–X. Baza pobytu: plaże zachodniego wybrzeża (Patong/Kata/Karon). Pogoda ze stacji Phuket (WMO 48564, miasto Phuket na wschodnim wybrzeżu, ok. 10–15 km od Patong/Kata/Karon), normy 1991–2020; na zachodnim wybrzeżu w porze monsunu opad może być nieco wyższy, a noce nieco chłodniejsze niż w mieście. Zieleń: zalesione wzgórza i plantacje kauczuku tuż za plażami; w porze suchej (II–IV) trawy i część zarośli przesychają, ale wzgórza pozostają zielone. Wyspy Similan/Surin (wycieczki jednodniowe) zamknięte w porze monsunu (zwykle od połowy maja do połowy października). Dojazd: najszybciej LOT bezpośrednio do Bangkoku (od 7.10.2026, cały rok) i dalej krajowym lotem do Phuket (ok. 1 h 35 min, Thai Airways, Thai Vietjet, Bangkok Airways, wiele rejsów dziennie) – osobne bilety, ok. 14,5 h; na jednym bilecie z 1 przesiadką przez Abu Zabi lub Stambuł ok. 15 h 45 min. Lot bezpośredni (ok. 10 h) tylko jako sezonowy czarter w ofercie biur podróży.",
+  "entryNote": "Paszport ważny 6 mies. od wjazdu; od 15.09.2026 bez wizy do 30 dni (wcześniej 60); obowiązkowa bezpłatna karta TDAC online do 3 dni przed przylotem.",
+  "tz": "Asia/Bangkok",
   "fixed": {
     "beaches": {
       "est": 4
@@ -18,7 +20,17 @@
     "stops": 1,
     "transfer": {
       "est": 1
-    }
+    },
+    "continent": "Azja",
+    "region": "Azja Południowo-Wschodnia",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "rafa i snorkeling",
+      "nurkowanie",
+      "rejsy po wyspach",
+      "świątynie",
+      "życie nocne"
+    ]
   },
   "months": [
     {
@@ -33,7 +45,7 @@
       "sun": 9,
       "rain": 50,
       "rain_days": 4.3,
-      "uv": 8,
+      "uv": 11,
       "wind": 11,
       "water": 28.3,
       "flight_price": {
@@ -45,7 +57,10 @@
           "level": 1,
           "note": "Do ok. 10 stycznia szczyt noworoczny: najwyższe ceny i minimalne długości pobytu w wielu hotelach (ciąg dalszy okresu z grudnia)."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 6300
+      }
     },
     {
       "local_season": {
@@ -59,13 +74,18 @@
       "sun": 8.7,
       "rain": 24,
       "rain_days": 2.2,
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": 9,
       "water": 28.6,
       "flight_price": {
         "est": 3500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6500
+      }
     },
     {
       "local_season": {
@@ -79,13 +99,18 @@
       "sun": 8.9,
       "rain": 81,
       "rain_days": 6,
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": 8,
       "water": 29.2,
       "flight_price": {
         "est": 3400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6100
+      }
     },
     {
       "local_season": {
@@ -99,7 +124,9 @@
       "sun": 8,
       "rain": 135,
       "rain_days": 9.6,
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": 8,
       "water": 30.2,
       "flight_price": {
@@ -111,7 +138,10 @@
           "level": 1,
           "note": "Songkran (13–15 kwietnia) – uliczne bitwy wodne, zwłaszcza w Patong; tłok, droższe noclegi, trudno przejść suchą stopą."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 6100
+      }
     },
     {
       "local_season": {
@@ -125,7 +155,9 @@
       "sun": 5.1,
       "rain": 237,
       "rain_days": 15.7,
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 10,
       "water": 30.3,
       "flight_price": {
@@ -137,7 +169,10 @@
           "level": 1,
           "note": "Początek monsunu SW zwykle od połowy maja: fale, prądy wsteczne i czerwone flagi na Patong/Kata/Karon w części dni; od ok. 16 maja zamknięte Similan i Surin."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 5700
+      }
     },
     {
       "local_season": {
@@ -151,7 +186,9 @@
       "sun": 3.9,
       "rain": 249,
       "rain_days": 15.9,
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 12,
       "water": 29.8,
       "flight_price": {
@@ -163,7 +200,10 @@
           "level": 2,
           "note": "Monsun SW: silne fale i prądy wsteczne na plażach zachodnich (najgorzej Karon i Kata), w wielu dniach czerwone flagi i zakaz kąpieli; Similan/Surin zamknięte, rejsy na Phi Phi bywają odwoływane."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 5800
+      }
     },
     {
       "local_season": {
@@ -177,7 +217,9 @@
       "sun": 3.9,
       "rain": 240,
       "rain_days": 16.3,
-      "uv": 7,
+      "uv": {
+        "est": 12
+      },
       "wind": 13,
       "water": 29.7,
       "flight_price": {
@@ -189,7 +231,10 @@
           "level": 2,
           "note": "Monsun SW: silne fale i prądy wsteczne na plażach zachodnich (najgorzej Karon i Kata), w wielu dniach czerwone flagi i zakaz kąpieli; Similan/Surin zamknięte, rejsy na Phi Phi bywają odwoływane."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 6600
+      }
     },
     {
       "local_season": {
@@ -203,7 +248,9 @@
       "sun": 3.8,
       "rain": 309,
       "rain_days": 16.9,
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 13,
       "water": 28.8,
       "flight_price": {
@@ -215,7 +262,10 @@
           "level": 2,
           "note": "Monsun SW: silne fale i prądy wsteczne na plażach zachodnich (najgorzej Karon i Kata), w wielu dniach czerwone flagi i zakaz kąpieli; Similan/Surin zamknięte, rejsy na Phi Phi bywają odwoływane."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 6800
+      }
     },
     {
       "local_season": {
@@ -229,7 +279,9 @@
       "sun": 3.6,
       "rain": 350,
       "rain_days": 18.9,
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 12,
       "water": 29,
       "flight_price": {
@@ -241,7 +293,10 @@
           "level": 2,
           "note": "Monsun SW: silne fale i prądy wsteczne na plażach zachodnich (najgorzej Karon i Kata), w wielu dniach czerwone flagi i zakaz kąpieli; Similan/Surin zamknięte, rejsy na Phi Phi bywają odwoływane."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 5800
+      }
     },
     {
       "local_season": {
@@ -255,7 +310,9 @@
       "sun": 5.8,
       "rain": 336,
       "rain_days": 19.4,
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 10,
       "water": 29,
       "flight_price": {
@@ -267,7 +324,10 @@
           "level": 1,
           "note": "Koniec monsunu SW: fale i czerwone flagi na plażach zachodnich głównie w pierwszej połowie miesiąca; Similan i Surin otwierane ok. 15 października."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 5800
+      }
     },
     {
       "local_season": {
@@ -281,13 +341,16 @@
       "sun": 7.3,
       "rain": 178,
       "rain_days": 12.9,
-      "uv": 6,
+      "uv": 11,
       "wind": 9,
       "water": 29.4,
       "flight_price": {
         "est": 3400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5700
+      }
     },
     {
       "local_season": {
@@ -301,7 +364,7 @@
       "sun": 8.4,
       "rain": 82,
       "rain_days": 7.8,
-      "uv": 7,
+      "uv": 10,
       "wind": 11,
       "water": 28.7,
       "flight_price": {
@@ -313,7 +376,10 @@
           "level": 1,
           "note": "Boże Narodzenie i Nowy Rok (ok. 20.12–10.01): najwyższe ceny, minimalne długości pobytu i obowiązkowe płatne kolacje galowe w wielu hotelach, tłok na plażach."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 7000
+      }
     }
   ],
   "sources": [
@@ -345,11 +411,6 @@
     {
       "title": "Cabaigne: temperatura morza w Patong, średnie miesięczne z lat poprzednich",
       "url": "https://www.cabaigne.net/asie-sud-est/phuket/patong/quand-se-baigner.html",
-      "checked": "2026-10-04"
-    },
-    {
-      "title": "weather2travel: Phuket climate (CRU, Met Office, KNMI; słońce, morze – kontrola; UV dla czystego nieba – inna miara, nieużyte)",
-      "url": "https://www.weather2travel.com/thailand/phuket/climate/",
       "checked": "2026-10-04"
     },
     {
@@ -403,16 +464,6 @@
       "checked": "2026-10-04"
     },
     {
-      "title": "BestDateWeather: Phuket – pogoda miesiąc po miesiącu (12 stron miesięcznych, np. /phuket-weather-january); UV all-sky z Open-Meteo, „ERA5 · 10 years (2016–2025)”, 7.88°N 98.39°E",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-phuket",
-      "checked": "2026-10-04"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-04"
-    },
-    {
       "title": "Open-Meteo: dokumentacja API (uv_index_max z zachmurzeniem vs uv_index_clear_sky_max)",
       "url": "https://open-meteo.com/en/docs",
       "checked": "2026-10-04"
@@ -451,6 +502,36 @@
       "title": "KAYAK.pl: Warszawa – Phuket – statystyki cen w obie strony (miesiące: V 2 744, X 3 517, XII 3 717; średnia 12 mies. 3 374 zł; typowo 2 907–4 002 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Phuket-HKT",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: I Best Western Patong Beach 4,8/6 – 7 439, II Mida Grande 5,0/6 – 7 699 zł; Rainbow XI: Merlin 4,9/6 – 5 687, Best Western Ocean Resort 5,5/6 – 5 737 zł (śniadania). V–X szacunek (loty rejsowe). Wyżywienie: śniadania.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – Travelplanet – nowe zasady wjazdu do Tajlandii 2026",
+      "url": "https://www.travelplanet.pl/blog/nowe-zasady-wjazdu-do-tajlandii-2026/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Phuket – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10; miesiące II, III, IV, V, VI, VII, VIII, IX, X („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/thailand/phuket/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 11,1–11,4 (kontrola modelu: 11,5 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=98.3&lat=7.85",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

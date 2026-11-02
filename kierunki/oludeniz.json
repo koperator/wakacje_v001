@@ -3,6 +3,8 @@
   "country": "Turcja",
   "place": "Ölüdeniz / Fethiye",
   "notes": "Klimat śródziemnomorski Wybrzeża Likijskiego: bardzo gorące, suche lato VI–IX (35 °C w VII–VIII), woda najcieplejsza VII–IX (ok. 28–29 °C), deszczowa, łagodna zima XII–II. Baza pobytu: Ölüdeniz – Błękitna Laguna i plaża Belcekız (drobne kamyki i piasek, bardzo spokojna, przejrzysta woda), Fethiye ok. 15 km. Pogoda ze stacji Fethiye (NOAA 1991–2020). Zieleń: lasy sosnowe i góra Babadağ (paralotnie). Wycieczki: Dolina Motyli, Kayaköy, Saklıkent, Tlos, rejsy 12 wysp, Szlak Likijski, Dalyan i Kaunos. Dojazd: lotnisko Dalaman – regularnie z 1 przesiadką w Stambule ok. 8,5–9 h; latem czartery biur bez przesiadek; z lotniska ok. 60 km. Alternatywnie Antalya (bez przesiadek cały rok) i ok. 3,5 h drogi.",
+  "entryNote": "Bez wizy; turystycznie można wjechać na dowód osobisty (MSZ zaleca paszport ważny 150 dni – część przejść tego wymaga).",
+  "tz": "Europe/Istanbul",
   "fixed": {
     "beaches": {
       "est": 4
@@ -22,7 +24,15 @@
     "stops": 1,
     "transfer": {
       "est": 1
-    }
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "rejsy po wyspach",
+      "góry i trekking",
+      "ruiny"
+    ]
   },
   "months": [
     {
@@ -37,9 +47,7 @@
       "sun": 4.5,
       "rain": 174,
       "rain_days": 10.5,
-      "uv": {
-        "est": 3
-      },
+      "uv": 2,
       "wind": {
         "est": 13
       },
@@ -49,7 +57,8 @@
       "flight_price": {
         "est": 1700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -63,9 +72,7 @@
       "sun": 5.4,
       "rain": 117,
       "rain_days": 8.5,
-      "uv": {
-        "est": 4
-      },
+      "uv": 3,
       "wind": {
         "est": 13
       },
@@ -75,7 +82,8 @@
       "flight_price": {
         "est": 1700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -89,9 +97,7 @@
       "sun": 7,
       "rain": 74,
       "rain_days": 6.5,
-      "uv": {
-        "est": 6
-      },
+      "uv": 5,
       "wind": {
         "est": 11
       },
@@ -101,7 +107,8 @@
       "flight_price": {
         "est": 1700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -115,9 +122,7 @@
       "sun": 8.3,
       "rain": 50,
       "rain_days": 5.6,
-      "uv": {
-        "est": 7
-      },
+      "uv": 7,
       "wind": {
         "est": 9
       },
@@ -127,7 +132,8 @@
       "flight_price": {
         "est": 1700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -141,9 +147,7 @@
       "sun": 9.7,
       "rain": 30,
       "rain_days": 3.5,
-      "uv": {
-        "est": 7
-      },
+      "uv": 9,
       "wind": {
         "est": 9
       },
@@ -153,7 +157,10 @@
       "flight_price": {
         "est": 1900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 1900
+      }
     },
     {
       "local_season": {
@@ -167,9 +174,7 @@
       "sun": 11.5,
       "rain": 5,
       "rain_days": 1.4,
-      "uv": {
-        "est": 8
-      },
+      "uv": 10,
       "wind": {
         "est": 10
       },
@@ -179,7 +184,10 @@
       "flight_price": {
         "est": 2300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
     },
     {
       "local_season": {
@@ -193,9 +201,7 @@
       "sun": 11.9,
       "rain": 1,
       "rain_days": 1,
-      "uv": {
-        "est": 8
-      },
+      "uv": 11,
       "wind": {
         "est": 10
       },
@@ -205,7 +211,10 @@
       "flight_price": {
         "est": 2100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
     },
     {
       "local_season": {
@@ -219,9 +228,7 @@
       "sun": 10.9,
       "rain": 2,
       "rain_days": 1.7,
-      "uv": {
-        "est": 8
-      },
+      "uv": 10,
       "wind": {
         "est": 10
       },
@@ -231,7 +238,10 @@
       "flight_price": {
         "est": 2100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
     },
     {
       "local_season": {
@@ -245,9 +255,7 @@
       "sun": 9.8,
       "rain": 18,
       "rain_days": 2.2,
-      "uv": {
-        "est": 6
-      },
+      "uv": 7,
       "wind": {
         "est": 10
       },
@@ -257,7 +265,10 @@
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2200
+      }
     },
     {
       "local_season": {
@@ -271,9 +282,7 @@
       "sun": 7.7,
       "rain": 73,
       "rain_days": 4.1,
-      "uv": {
-        "est": 5
-      },
+      "uv": 5,
       "wind": {
         "est": 10
       },
@@ -283,7 +292,10 @@
       "flight_price": {
         "est": 1900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 1900
+      }
     },
     {
       "local_season": {
@@ -297,9 +309,7 @@
       "sun": 5.7,
       "rain": 119,
       "rain_days": 6,
-      "uv": {
-        "est": 4
-      },
+      "uv": 3,
       "wind": {
         "est": 11
       },
@@ -309,7 +319,8 @@
       "flight_price": {
         "est": 1700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -323,9 +334,7 @@
       "sun": 4.1,
       "rain": 181,
       "rain_days": 10.2,
-      "uv": {
-        "est": 2
-      },
+      "uv": 2,
       "wind": {
         "est": 13
       },
@@ -335,7 +344,8 @@
       "flight_price": {
         "est": 1700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -345,7 +355,7 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "Alanya (kierunki/alanya.json): UV BestDateWeather (Antalya), wiatr i temperatura wody Weather Spark (Alanya) – zastępstwo, to samo wybrzeże tureckie",
+      "title": "Alanya (kierunki/alanya.json): wiatr i temperatura wody Weather Spark (Alanya) – zastępstwo, to samo wybrzeże tureckie",
       "url": "https://weatherspark.com/y/96973/Average-Weather-in-Alanya-Turkey-Year-Round",
       "checked": "2026-10-16"
     },
@@ -353,6 +363,36 @@
       "title": "KAYAK.pl: Warszawa – Dalaman (brak regularnych lotów bezpośrednich; najkrótsza przesiadka średnio Stambuł 4 h 40 min; ceny: IX ok. 1 079 zł najtaniej, VI ok. 2 325 zł najdrożej, średnia 1 895 zł, typowo 1 659–2 324 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Dalaman-DLM",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow V: Dalaman – Pasa Garden 2 616 zł; Marmaris VIII: Itaka Tropical Beach 5,3/6 – 3 619, Rainbow Kaya Maris 4,8/6 – 2 644 zł; Itaka Sarıgerme VIII 5 339 zł. Fethiye/Ölüdeniz droższe niż Marmaris. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: turcja",
+      "url": "https://r.pl/wytyczne/turcja",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Ölüdeniz – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 3, 5, 7, 9, 10, 11, 10, 7, 5, 3, 2",
+      "url": "https://www.weather2travel.com/dalaman-and-marmaris-coast/olu-deniz/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 3,2–3,7 (kontrola modelu: 3,8 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=29.11&lat=36.55",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

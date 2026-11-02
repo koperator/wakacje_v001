@@ -3,6 +3,8 @@
   "country": "Jamajka",
   "place": "Negril (Seven Mile Beach)",
   "notes": "Zachodni kraniec Jamajki: gorąco przez cały rok (30–33 °C), pora sucha XII–IV, deszcze V i IX–XI; sezon huraganów VI–XI (szczyt VIII–X). Baza pobytu: Seven Mile Beach – długa plaża z jasnym piaskiem i spokojną wodą po zawietrznej stronie wyspy; na południe klify West End. Pogoda ze stacji Montego Bay (Sangster, ok. 70 km; normy 1991–2020) – szacunek, Negril bywa nieco wilgotniejszy. Zieleń: bujna, palmy, bagna Great Morass. Wycieczki: klify i zachody słońca w West End (Rick’s Café), wodospady YS, rzeka Black River, Blue Hole, Montego Bay. Dojazd: z 1 przesiadką (Frankfurt, Zurych) do Montego Bay ok. 15,7 h; z lotniska ok. 1 h 15 min drogi.",
+  "entryNote": "Paszport; bez wizy; obowiązkowy formularz online (enterjamaica.com) do 48 h przed przylotem.",
+  "tz": "America/Jamaica",
   "fixed": {
     "beaches": {
       "est": 4
@@ -20,7 +22,14 @@
     "stops": 1,
     "transfer": {
       "est": 1.3
-    }
+    },
+    "continent": "Ameryka Północna i Karaiby",
+    "region": "Karaiby",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "wodospady",
+      "życie nocne"
+    ]
   },
   "months": [
     {
@@ -45,9 +54,7 @@
       "rain_days": {
         "est": 11
       },
-      "uv": {
-        "est": 7
-      },
+      "uv": 8,
       "wind": {
         "est": 18
       },
@@ -55,7 +62,8 @@
       "flight_price": {
         "est": 4600
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -79,9 +87,7 @@
       "rain_days": {
         "est": 9
       },
-      "uv": {
-        "est": 7
-      },
+      "uv": 10,
       "wind": {
         "est": 18
       },
@@ -89,7 +95,8 @@
       "flight_price": {
         "est": 4600
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -114,7 +121,7 @@
         "est": 7
       },
       "uv": {
-        "est": 9
+        "est": 12
       },
       "wind": {
         "est": 16
@@ -123,7 +130,8 @@
       "flight_price": {
         "est": 4600
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -148,7 +156,7 @@
         "est": 7
       },
       "uv": {
-        "est": 9
+        "est": 13
       },
       "wind": {
         "est": 15
@@ -157,7 +165,8 @@
       "flight_price": {
         "est": 3000
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -182,7 +191,7 @@
         "est": 12
       },
       "uv": {
-        "est": 9
+        "est": 13
       },
       "wind": {
         "est": 15
@@ -191,7 +200,8 @@
       "flight_price": {
         "est": 3400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -216,7 +226,7 @@
         "est": 11
       },
       "uv": {
-        "est": 8
+        "est": 13
       },
       "wind": {
         "est": 17
@@ -225,7 +235,8 @@
       "flight_price": {
         "est": 3400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -250,7 +261,7 @@
         "est": 8
       },
       "uv": {
-        "est": 8
+        "est": 13
       },
       "wind": {
         "est": 17
@@ -259,7 +270,8 @@
       "flight_price": {
         "est": 5500
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -284,7 +296,7 @@
         "est": 10
       },
       "uv": {
-        "est": 9
+        "est": 13
       },
       "wind": {
         "est": 15
@@ -299,7 +311,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty i wycieczki (np. Melissa, X 2025, zachodnia Jamajka)."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -324,7 +337,7 @@
         "est": 14
       },
       "uv": {
-        "est": 8
+        "est": 12
       },
       "wind": {
         "est": 13
@@ -339,7 +352,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty i wycieczki (np. Melissa, X 2025, zachodnia Jamajka)."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -363,9 +377,7 @@
       "rain_days": {
         "est": 14
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 10,
       "wind": {
         "est": 14
       },
@@ -379,7 +391,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty i wycieczki (np. Melissa, X 2025, zachodnia Jamajka)."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -403,9 +416,7 @@
       "rain_days": {
         "est": 13
       },
-      "uv": {
-        "est": 6
-      },
+      "uv": 9,
       "wind": {
         "est": 17
       },
@@ -413,7 +424,8 @@
       "flight_price": {
         "est": 3400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -437,9 +449,7 @@
       "rain_days": {
         "est": 11
       },
-      "uv": {
-        "est": 6
-      },
+      "uv": 8,
       "wind": {
         "est": 18
       },
@@ -447,7 +457,8 @@
       "flight_price": {
         "est": 4600
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -467,19 +478,38 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "BestDateWeather: Jamajka – pogoda miesiąc po miesiącu (12 stron, np. /jamaica-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 18.10°N 77.30°W (środek wyspy)",
-      "url": "https://bestdateweather.com/en/jamaica-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "KAYAK.pl: Warszawa – Montego Bay (z 1 przesiadką średnio Frankfurt 15 h 43 min, Zurych 16 h 46 min; ceny: IV 2 969 zł najtaniej, IX 5 471 zł, VII 6 228 zł najdrożej, średnia 3 738 zł, typowo 3 421–4 741 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Montego-Bay-MBJ",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Itaka: Jamajka tylko z wylotem z Berlina (XII 2026, Runaway Bay 9 239 zł); z Warszawy i Katowic brak. (szczegóły: research/kolumna-package_price-notatki.md)",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: jamajka",
+      "url": "https://r.pl/wytyczne/jamajka",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Negril – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 8, 10, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 10, 9, 8; miesiące III, IV, V, VI, VII, VIII, IX („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/jamaica/negril/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 8,6–9,5 (kontrola modelu: 9,2 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-78.35&lat=18.3",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

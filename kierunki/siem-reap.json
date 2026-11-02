@@ -3,6 +3,8 @@
   "country": "Kambodża",
   "place": "Siem Reap",
   "notes": "Brak morza: woda i plaże „nie dotyczy”. Zieleń: park archeologiczny Angkor zalesiony przez cały rok, ale w porze suchej (ok. luty–maj) pola ryżowe wokół miasta wyschnięte i brązowe, dużo kurzu; od czerwca do listopada bardzo zielono. Lotnisko: od 2023 r. nowe lotnisko Siem Reap–Angkor International (SAI), ok. 40–50 km od miasta (stare REP zamknięte) – transfer nie wchodzi do czasu lotu. Dojazd: najszybciej LOT bezpośrednio do Bangkoku (od 7.10.2026, cały rok, przylot ok. 6:35) i dalej Bangkok Airways do Siem Reap (PG905 10:55–12:15; trasę obsługują też Thai Airways i Cambodia Airways) – osobne bilety, ok. 16 h z 1 przesiadką; na jednym bilecie Emirates przez Dubaj (z międzylądowaniem w Bangkoku, 3 razy w tygodniu), ok. 19–19,5 h.",
+  "entryNote": "Paszport ważny 6 mies., 4 wolne strony; wiza turystyczna – na lotnisku albo e-wiza wcześniej; obowiązkowa karta e-Arrival (CeA) do 7 dni przed przylotem.",
+  "tz": "Asia/Phnom_Penh",
   "fixed": {
     "beaches": "na",
     "greenery": {
@@ -16,7 +18,15 @@
     "stops": 1,
     "transfer": {
       "est": 0.9
-    }
+    },
+    "continent": "Azja",
+    "region": "Azja Południowo-Wschodnia",
+    "entry": "wiza na lotnisku",
+    "tags": [
+      "dżungla",
+      "ruiny",
+      "świątynie"
+    ]
   },
   "months": [
     {
@@ -35,7 +45,7 @@
       "rain_days": {
         "est": 1.5
       },
-      "uv": 7,
+      "uv": 10,
       "wind": 9,
       "water": "na",
       "flight_price": {
@@ -47,7 +57,8 @@
           "level": 1,
           "note": "Dym z wypalania pól i ściernisk w porze suchej – okresowe zamglenie i gorsza jakość powietrza, nasilenie zależnie od roku."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -65,7 +76,9 @@
       "rain_days": {
         "est": 0.7
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 8,
       "water": "na",
       "flight_price": {
@@ -77,7 +90,8 @@
           "level": 1,
           "note": "Dym z wypalania pól w porze suchej – okresowe zamglenie, gorsze widoki o wschodzie słońca nad Angkor Wat, nasilenie zależnie od roku."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -95,7 +109,9 @@
       "rain_days": {
         "est": 3.2
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": 8,
       "water": "na",
       "flight_price": {
@@ -112,7 +128,8 @@
           "level": 1,
           "note": "Niski stan wody na jeziorze Tonle Sap – rejsy do wiosek na palach (np. Kampong Phluk) skrócone lub utrudnione."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -130,7 +147,9 @@
       "rain_days": {
         "est": 7.6
       },
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": 8,
       "water": "na",
       "flight_price": {
@@ -147,7 +166,8 @@
           "level": 1,
           "note": "Najniższy stan wody na jeziorze Tonle Sap – rejsy do wiosek na palach skrócone lub utrudnione."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -165,7 +185,9 @@
       "rain_days": {
         "est": 17
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 8,
       "water": "na",
       "flight_price": {
@@ -177,7 +199,8 @@
           "level": 1,
           "note": "Niski stan wody na jeziorze Tonle Sap do czasu wzrostu poziomu w czerwcu – rejsy do wiosek na palach utrudnione."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -195,13 +218,16 @@
       "rain_days": {
         "est": 18
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 10,
       "water": "na",
       "flight_price": {
         "est": 3800
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -219,13 +245,16 @@
       "rain_days": {
         "est": 17.6
       },
-      "uv": 6,
+      "uv": {
+        "est": 13
+      },
       "wind": 10,
       "water": "na",
       "flight_price": {
         "est": 3800
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -243,13 +272,16 @@
       "rain_days": {
         "est": 17.6
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 10,
       "water": "na",
       "flight_price": {
         "est": 3800
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -267,7 +299,9 @@
       "rain_days": {
         "est": 17.4
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 8,
       "water": "na",
       "flight_price": {
@@ -284,7 +318,8 @@
           "level": 1,
           "note": "Pchum Ben – Khmerzy wyjeżdżają do rodzin, część lokali i sklepów zamknięta, tłok w pagodach; zależnie od roku koniec września lub październik."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -302,7 +337,7 @@
       "rain_days": {
         "est": 15.4
       },
-      "uv": 8,
+      "uv": 11,
       "wind": 8,
       "water": "na",
       "flight_price": {
@@ -319,7 +354,8 @@
           "level": 1,
           "note": "Pchum Ben – Khmerzy wyjeżdżają do rodzin, część lokali i sklepów zamknięta, tłok w pagodach; zależnie od roku koniec września lub październik."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -337,13 +373,14 @@
       "rain_days": {
         "est": 6.4
       },
-      "uv": 7,
+      "uv": 10,
       "wind": 9,
       "water": "na",
       "flight_price": {
         "est": 4300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -361,13 +398,14 @@
       "rain_days": {
         "est": 2
       },
-      "uv": 7,
+      "uv": 9,
       "wind": 10,
       "water": "na",
       "flight_price": {
         "est": 4300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -387,7 +425,7 @@
       "checked": "2026-10-04"
     },
     {
-      "title": "Weather2Travel: Siem Reap weather by month (CRU UEA, Met Office, KNMI) – usłonecznienie, temperatury, opad; UV dla czystego nieba – inna miara, nieużyte",
+      "title": "Weather2Travel: Siem Reap weather by month (CRU UEA, Met Office, KNMI) – usłonecznienie, temperatury, opad",
       "url": "https://weather2travel.com/cambodia/siem-reap/climate/?Units=0",
       "checked": "2026-10-04"
     },
@@ -419,16 +457,6 @@
     {
       "title": "KAYAK.pl: loty z Polski do Siem Reap – najkrótsza trasa WAW–SAI, średni czas 19 h 25 min",
       "url": "https://www.kayak.pl/loty/Polska-PL0/Siem-Reab-KHSI",
-      "checked": "2026-10-04"
-    },
-    {
-      "title": "BestDateWeather: Siem Reap – pogoda miesiąc po miesiącu (12 stron miesięcznych, np. /siem-reap-weather-january); UV all-sky z Open-Meteo, „ERA5 · 10 years (2016–2025)”, 13.36°N 103.86°E",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-siem-reap",
-      "checked": "2026-10-04"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
       "checked": "2026-10-04"
     },
     {
@@ -490,6 +518,35 @@
       "title": "Avionio: Bangkok Airways PG905 BKK–SAI (10:55–12:15, codziennie)",
       "url": "https://www.avionio.com/en/flight/pg-905",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Polskie biura nie sprzedają tu wczasów z wylotem z Polski (najwyżej wycieczki objazdowe albo pakiety na liniach rejsowych bez stałej oferty). (szczegóły: research/kolumna-package_price-notatki.md)",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: kambodza",
+      "url": "https://r.pl/wytyczne/kambodza",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Siem Reap – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 10, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10, 9; miesiące II, III, IV, V, VI, VII, VIII, IX („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/cambodia/siem-reap/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 9,8–10,1 (kontrola modelu: 10,4 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=103.86&lat=13.36",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

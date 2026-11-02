@@ -3,6 +3,8 @@
   "country": "Dominikana",
   "place": "Punta Cana (Bávaro)",
   "notes": "Klimat tropikalny z pasatem: najsuchiej II–IV, więcej deszczu V oraz IX–XI; sezon huraganów VI–XI (szczyt VIII–X), sargassum głównie V–IX. Baza pobytu: plaża Bávaro (resorty all inclusive). Pogoda ze stacji lotniska Punta Cana (ok. 20 km, normy 1991–2020). Zieleń: palmy kokosowe i ogrody resortów na płaskim wybrzeżu. Wycieczki: wyspa Saona, Altos de Chavón, Hoyo Azul, Santo Domingo (ok. 2,5 h). Dojazd: z 1 przesiadką (najczęściej Frankfurt, ok. 16 h); Neos raz w tygodniu bezpośrednio (czarter, ok. 10,5 h).",
+  "entryNote": "Paszport ważny 6 mies. po powrocie; bez wizy; obowiązkowy formularz e-Ticket online (do 72 h przed lotem).",
+  "tz": "America/Santo_Domingo",
   "fixed": {
     "beaches": 4,
     "greenery": {
@@ -18,7 +20,14 @@
     "stops": 1,
     "transfer": {
       "est": 0.4
-    }
+    },
+    "continent": "Ameryka Północna i Karaiby",
+    "region": "Karaiby",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "płytkie wejście",
+      "rejsy po wyspach"
+    ]
   },
   "months": [
     {
@@ -35,7 +44,7 @@
       "rain_days": {
         "est": 7
       },
-      "uv": 6,
+      "uv": 8,
       "wind": {
         "est": 16
       },
@@ -43,7 +52,10 @@
       "flight_price": {
         "est": 4700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7800
+      }
     },
     {
       "local_season": {
@@ -59,7 +71,7 @@
       "rain_days": {
         "est": 4.8
       },
-      "uv": 7,
+      "uv": 10,
       "wind": {
         "est": 16
       },
@@ -67,7 +79,10 @@
       "flight_price": {
         "est": 4700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8000
+      }
     },
     {
       "local_season": {
@@ -83,7 +98,9 @@
       "rain_days": {
         "est": 4.7
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 16
       },
@@ -91,7 +108,10 @@
       "flight_price": {
         "est": 4700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7500
+      }
     },
     {
       "local_season": {
@@ -107,7 +127,9 @@
       "rain_days": {
         "est": 4.6
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 15
       },
@@ -115,7 +137,10 @@
       "flight_price": {
         "est": 4700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7500
+      }
     },
     {
       "local_season": {
@@ -131,7 +156,9 @@
       "rain_days": {
         "est": 7.1
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 14
       },
@@ -145,7 +172,8 @@
           "level": 1,
           "note": "Początek sezonu sargassum: od końca maja pierwsze pasy brązowych wodorostów na plażach Bávaro i Cap Cana."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -161,7 +189,9 @@
       "rain_days": {
         "est": 6.4
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 15
       },
@@ -175,7 +205,8 @@
           "level": 2,
           "note": "Szczyt sezonu sargassum (w 13–14 z ostatnich 15 lat): pasy brązowych wodorostów na plażach Bávaro i Cap Cana, w gorszych latach kąpiel przez kilka dni prawie niemożliwa; resorty sprzątają i stawiają bariery, osłonięte Macao i Cabeza de Toro mniej dotknięte."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -191,7 +222,9 @@
       "rain_days": {
         "est": 6.4
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 16
       },
@@ -205,7 +238,8 @@
           "level": 2,
           "note": "Szczyt sezonu sargassum (w 13–14 z ostatnich 15 lat): pasy brązowych wodorostów na plażach Bávaro i Cap Cana, w gorszych latach kąpiel przez kilka dni prawie niemożliwa; resorty sprzątają i stawiają bariery, osłonięte Macao i Cabeza de Toro mniej dotknięte."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -221,7 +255,9 @@
       "rain_days": {
         "est": 7
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 15
       },
@@ -240,7 +276,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów na Atlantyku: bezpośrednie trafienie rzadkie, ale przy burzy tropikalnej kilka dni ulew, wysokich fal i odwołanych wycieczek."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -256,7 +293,9 @@
       "rain_days": {
         "est": 7.3
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 13
       },
@@ -275,7 +314,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów na Atlantyku: bezpośrednie trafienie rzadkie, ale przy burzy tropikalnej kilka dni ulew, wysokich fal i odwołanych wycieczek."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -291,7 +331,7 @@
       "rain_days": {
         "est": 8
       },
-      "uv": 8,
+      "uv": 10,
       "wind": {
         "est": 13
       },
@@ -305,7 +345,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów na Atlantyku: bezpośrednie trafienie rzadkie, ale przy burzy tropikalnej kilka dni ulew, wysokich fal i odwołanych wycieczek."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -321,7 +362,7 @@
       "rain_days": {
         "est": 8
       },
-      "uv": 6,
+      "uv": 8,
       "wind": {
         "est": 15
       },
@@ -329,7 +370,10 @@
       "flight_price": {
         "est": 4000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7000
+      }
     },
     {
       "local_season": {
@@ -345,7 +389,7 @@
       "rain_days": {
         "est": 7.7
       },
-      "uv": 6,
+      "uv": 7,
       "wind": {
         "est": 16
       },
@@ -353,7 +397,10 @@
       "flight_price": {
         "est": 5100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8600
+      }
     }
   ],
   "sources": [
@@ -370,16 +417,6 @@
     {
       "title": "seatemperatu.re: Bávaro – średnia temperatura morza w miesiącach",
       "url": "https://www.seatemperatu.re/caribbean/dominican-republic/bavaro/when.html",
-      "checked": "2026-10-14"
-    },
-    {
-      "title": "BestDateWeather: Punta Cana – pogoda miesiąc po miesiącu (12 stron, np. /punta-cana-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 18.58°N 68.40°W",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-punta-cana",
-      "checked": "2026-10-14"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
       "checked": "2026-10-14"
     },
     {
@@ -401,6 +438,36 @@
       "title": "KAYAK.pl: Warszawa – Punta Cana – statystyki cen w obie strony (miesiące: VIII 5 023, X 3 799, XII 5 144; średnia 12 mies. 4 229 zł; typowo 3 745–4 874 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Punta-Cana-PUJ",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: I Vista Sol 4,9/6 – 9 359, XI Serenade 5,5/6 – 6 999 zł (Warszawa-Okęcie). Rainbow: tylko Puerto Plata (XI od 5 882 zł). Latem brak czarterów. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: dominikana",
+      "url": "https://r.pl/wytyczne/dominikana",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Punta Cana – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 8, 10, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 10, 8, 7; miesiące III, IV, V, VI, VII, VIII, IX („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/dominican-republic/punta-cana/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 8,5–9,1 (kontrola modelu: 9,0 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-68.4&lat=18.6",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

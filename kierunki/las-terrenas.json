@@ -3,6 +3,8 @@
   "country": "Dominikana",
   "place": "Las Terrenas (Playa Bonita), Samaná",
   "notes": "Północne wybrzeże półwyspu Samaná: klimat tropikalny wilgotny, deszcz przez cały rok (więcej V i X–XII), ciepło 29–31 °C; sezon huraganów VI–XI (szczyt VIII–X). Baza pobytu: Las Terrenas – Playa Bonita i Playa Cosón (długie, jasne plaże z palmami, umiarkowana fala). Brak norm ze stacji dla półwyspu: temperatury, opad, słońce i morze z siatki CRU (weather2travel) – szacunek. Zieleń: bujna, palmy kokosowe, zalesione wzgórza. Wycieczki: wodospad El Limón, park narodowy Los Haitises, Cayo Levantado, obserwacja humbaków w zatoce Samaná (I–III). Dojazd: do Santo Domingo z 1 przesiadką (Madryt) ok. 17 h, dalej ok. 2 h 15 min autostradą; lotnisko El Catey (Samaná) ma głównie czartery.",
+  "entryNote": "Paszport ważny 6 mies. po powrocie; bez wizy; obowiązkowy formularz e-Ticket online (do 72 h przed lotem).",
+  "tz": "America/Santo_Domingo",
   "fixed": {
     "beaches": {
       "est": 4
@@ -20,7 +22,15 @@
     "stops": 1,
     "transfer": {
       "est": 2.2
-    }
+    },
+    "continent": "Ameryka Północna i Karaiby",
+    "region": "Karaiby",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "wodospady",
+      "dzika przyroda",
+      "spokój"
+    ]
   },
   "months": [
     {
@@ -45,9 +55,7 @@
       "rain_days": {
         "est": 10.5
       },
-      "uv": {
-        "est": 6
-      },
+      "uv": 8,
       "wind": {
         "est": 16
       },
@@ -55,7 +63,10 @@
       "flight_price": {
         "est": 4600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8200
+      }
     },
     {
       "local_season": {
@@ -79,9 +90,7 @@
       "rain_days": {
         "est": 7.7
       },
-      "uv": {
-        "est": 7
-      },
+      "uv": 10,
       "wind": {
         "est": 16
       },
@@ -89,7 +98,10 @@
       "flight_price": {
         "est": 4600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8400
+      }
     },
     {
       "local_season": {
@@ -114,7 +126,7 @@
         "est": 7.7
       },
       "uv": {
-        "est": 8
+        "est": 12
       },
       "wind": {
         "est": 16
@@ -123,7 +135,10 @@
       "flight_price": {
         "est": 4600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7900
+      }
     },
     {
       "local_season": {
@@ -148,7 +163,7 @@
         "est": 7.7
       },
       "uv": {
-        "est": 9
+        "est": 13
       },
       "wind": {
         "est": 15
@@ -157,7 +172,10 @@
       "flight_price": {
         "est": 4600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7900
+      }
     },
     {
       "local_season": {
@@ -182,7 +200,7 @@
         "est": 9.1
       },
       "uv": {
-        "est": 8
+        "est": 13
       },
       "wind": {
         "est": 14
@@ -191,7 +209,8 @@
       "flight_price": {
         "est": 5500
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -216,7 +235,7 @@
         "est": 9.1
       },
       "uv": {
-        "est": 8
+        "est": 13
       },
       "wind": {
         "est": 15
@@ -225,7 +244,8 @@
       "flight_price": {
         "est": 3300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -250,7 +270,7 @@
         "est": 11.2
       },
       "uv": {
-        "est": 9
+        "est": 13
       },
       "wind": {
         "est": 16
@@ -259,7 +279,8 @@
       "flight_price": {
         "est": 3700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -284,7 +305,7 @@
         "est": 11.2
       },
       "uv": {
-        "est": 9
+        "est": 13
       },
       "wind": {
         "est": 15
@@ -299,7 +320,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów na Atlantyku (VIII–X): przy burzy tropikalnej kilka dni ulew, wichury i fal, odwołane loty i wycieczki; półwysep Samaná bywa na torach burz."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -323,9 +345,7 @@
       "rain_days": {
         "est": 11.2
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 11,
       "wind": {
         "est": 13
       },
@@ -339,7 +359,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów na Atlantyku (VIII–X): przy burzy tropikalnej kilka dni ulew, wichury i fal, odwołane loty i wycieczki; półwysep Samaná bywa na torach burz."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -363,9 +384,7 @@
       "rain_days": {
         "est": 11.9
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 10,
       "wind": {
         "est": 13
       },
@@ -379,7 +398,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów na Atlantyku (VIII–X): przy burzy tropikalnej kilka dni ulew, wichury i fal, odwołane loty i wycieczki; półwysep Samaná bywa na torach burz."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -403,9 +423,7 @@
       "rain_days": {
         "est": 10.5
       },
-      "uv": {
-        "est": 6
-      },
+      "uv": 8,
       "wind": {
         "est": 15
       },
@@ -413,7 +431,10 @@
       "flight_price": {
         "est": 3300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7300
+      }
     },
     {
       "local_season": {
@@ -437,9 +458,7 @@
       "rain_days": {
         "est": 11.2
       },
-      "uv": {
-        "est": 6
-      },
+      "uv": 7,
       "wind": {
         "est": 16
       },
@@ -447,7 +466,10 @@
       "flight_price": {
         "est": 4600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 9000
+      }
     }
   ],
   "sources": [
@@ -457,7 +479,7 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "Punta Cana (kierunki/punta-cana.json): UV BestDateWeather, wiatr Weather Spark (Dominikana), sezon lokalny, flaga huraganów – zastępstwo, ta sama wyspa",
+      "title": "Punta Cana (kierunki/punta-cana.json): wiatr Weather Spark (Dominikana), sezon lokalny, flaga huraganów – zastępstwo, ta sama wyspa",
       "url": "https://weatherspark.com/y/150222/Average-Weather-in-Dominican-Republic-Year-Round",
       "checked": "2026-10-16"
     },
@@ -465,6 +487,36 @@
       "title": "KAYAK.pl: Warszawa – Santo Domingo (z 1 przesiadką średnio Madryt 16 h 53 min, Miami 17 h 27 min; ceny: X 3 015 zł najtaniej, V ok. 5 518 zł najdrożej, średnia 3 655 zł, typowo 3 083–5 326 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Santo-Domingo-SDQ",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka I: Samaná – Bahia Principe El Portillo AI 8 dni (bez oceny). Szacunek: Punta Cana +5%. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: dominikana",
+      "url": "https://r.pl/wytyczne/dominikana",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Las Terrenas – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 8, 10, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10, 8, 7; miesiące III, IV, V, VI, VII, VIII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/dominican-republic/las-terrenas/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 8,6–8,9 (kontrola modelu: 8,8 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-69.53&lat=19.3",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

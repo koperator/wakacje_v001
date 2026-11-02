@@ -3,6 +3,8 @@
   "country": "Filipiny",
   "place": "Panglao (Alona / Dumaluan), Bohol",
   "notes": "Visayas: brak wyraźnej pory suchej, opady najniższe II–V, najwyższe X–XII; amihan (NE) XII–III z wiatrem, najspokojniejsze morze III–V, habagat (SW) VI–IX z martwą falą na południowym wybrzeżu Panglao; okno tajfunowe XI–I (Rai/Odette, XII 2021). Baza pobytu: Alona Beach (biały piasek, płytko, zatłoczona) i Dumaluan (szersza, spokojniejsza). Pogoda ze stacji PAGASA Tagbilaran (ok. 10 km, normy 1981–2010). Zieleń: Panglao płaska i zabudowana; na Boholu wzgórza czekoladowe i las nad Loboc. Wycieczki: Chocolate Hills, wyraki, rejs po rzece Loboc, Balicasag (rafa, żółwie), delfiny przy Pamilacan. Dojazd: lotnisko Bohol-Panglao (TAG), z WAW z 2 przesiadkami (Stambuł/Zatoka + Manila) ok. 22 h; alternatywnie Cebu (1 przesiadka, ok. 21,5 h) i ok. 2 h szybkim promem.",
+  "entryNote": "Paszport ważny 6 mies.; bez wizy do 30 dni; obowiązkowy formularz eTravel online (do 72 h przed wylotem).",
+  "tz": "Asia/Manila",
   "fixed": {
     "beaches": {
       "est": 4
@@ -22,7 +24,16 @@
     "stops": 2,
     "transfer": {
       "est": 0.3
-    }
+    },
+    "continent": "Azja",
+    "region": "Azja Południowo-Wschodnia",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "płytkie wejście",
+      "rafa i snorkeling",
+      "nurkowanie",
+      "dzika przyroda"
+    ]
   },
   "months": [
     {
@@ -41,9 +52,7 @@
       "rain_days": {
         "est": 9.8
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 11,
       "wind": {
         "est": 15
       },
@@ -62,7 +71,10 @@
           "level": 1,
           "note": "Okno tajfunowe dla Boholu (XI–I): ryzyko mniejsze niż na Luzonie i północnych Visayas, ale np. Rai/Odette uderzył wprost w XII 2021; przy tajfunie kilka dni bez promów i lotów."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 9700
+      }
     },
     {
       "local_season": {
@@ -81,7 +93,7 @@
         "est": 7.7
       },
       "uv": {
-        "est": 8
+        "est": 12
       },
       "wind": {
         "est": 15
@@ -96,7 +108,10 @@
           "level": 1,
           "note": "Amihan (monsun NE): wiatr i fala w części dni odwołują rejsy na Balicasag i Pamilacan; sama Alona jest osłonięta."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 10000
+      }
     },
     {
       "local_season": {
@@ -115,7 +130,7 @@
         "est": 7.7
       },
       "uv": {
-        "est": 9
+        "est": 14
       },
       "wind": {
         "est": 14
@@ -130,7 +145,10 @@
           "level": 1,
           "note": "Wielki Tydzień (zależnie od roku marzec lub kwiecień): drugi szczyt roku, wyprzedane promy, loty i pokoje, w Wielki Czwartek i Piątek część usług zamknięta."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 9400
+      }
     },
     {
       "local_season": {
@@ -149,7 +167,7 @@
         "est": 6.3
       },
       "uv": {
-        "est": 9
+        "est": 14
       },
       "wind": {
         "est": 12
@@ -164,7 +182,10 @@
           "level": 1,
           "note": "Wielki Tydzień (zależnie od roku marzec lub kwiecień): drugi szczyt roku, wyprzedane promy, loty i pokoje, w Wielki Czwartek i Piątek część usług zamknięta."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 9400
+      }
     },
     {
       "local_season": {
@@ -183,7 +204,7 @@
         "est": 7
       },
       "uv": {
-        "est": 8
+        "est": 13
       },
       "wind": {
         "est": 10
@@ -192,7 +213,10 @@
       "flight_price": {
         "est": 4100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8800
+      }
     },
     {
       "local_season": {
@@ -211,7 +235,7 @@
         "est": 10.5
       },
       "uv": {
-        "est": 8
+        "est": 12
       },
       "wind": {
         "est": 9
@@ -226,7 +250,8 @@
           "level": 1,
           "note": "Habagat (monsun SW): martwa fala na południowym wybrzeżu Panglao (Alona), rejsy island hopping i nurkowania na odsłoniętych miejscach zależne od pogody, straż przybrzeżna zawiesza małe łodzie w gorsze dni."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -245,7 +270,7 @@
         "est": 10.5
       },
       "uv": {
-        "est": 7
+        "est": 12
       },
       "wind": {
         "est": 10
@@ -260,7 +285,8 @@
           "level": 1,
           "note": "Habagat (monsun SW): martwa fala na południowym wybrzeżu Panglao (Alona), rejsy island hopping i nurkowania na odsłoniętych miejscach zależne od pogody, straż przybrzeżna zawiesza małe łodzie w gorsze dni."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -279,7 +305,7 @@
         "est": 9.1
       },
       "uv": {
-        "est": 8
+        "est": 13
       },
       "wind": {
         "est": 11
@@ -294,7 +320,8 @@
           "level": 1,
           "note": "Habagat (monsun SW): martwa fala na południowym wybrzeżu Panglao (Alona), rejsy island hopping i nurkowania na odsłoniętych miejscach zależne od pogody, straż przybrzeżna zawiesza małe łodzie w gorsze dni."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -313,7 +340,7 @@
         "est": 9.8
       },
       "uv": {
-        "est": 8
+        "est": 13
       },
       "wind": {
         "est": 10
@@ -328,7 +355,8 @@
           "level": 1,
           "note": "Habagat (monsun SW): martwa fala na południowym wybrzeżu Panglao (Alona), rejsy island hopping i nurkowania na odsłoniętych miejscach zależne od pogody, straż przybrzeżna zawiesza małe łodzie w gorsze dni."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -347,7 +375,7 @@
         "est": 12.6
       },
       "uv": {
-        "est": 7
+        "est": 12
       },
       "wind": {
         "est": 10
@@ -356,7 +384,8 @@
       "flight_price": {
         "est": 3300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -374,9 +403,7 @@
       "rain_days": {
         "est": 12.6
       },
-      "uv": {
-        "est": 7
-      },
+      "uv": 11,
       "wind": {
         "est": 12
       },
@@ -390,7 +417,8 @@
           "level": 1,
           "note": "Okno tajfunowe dla Boholu (XI–I): ryzyko mniejsze niż na Luzonie i północnych Visayas, ale np. Rai/Odette uderzył wprost w XII 2021; przy tajfunie kilka dni bez promów i lotów."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -408,9 +436,7 @@
       "rain_days": {
         "est": 11.2
       },
-      "uv": {
-        "est": 7
-      },
+      "uv": 10,
       "wind": {
         "est": 14
       },
@@ -424,7 +450,10 @@
           "level": 1,
           "note": "Okno tajfunowe dla Boholu (XI–I): ryzyko mniejsze niż na Luzonie i północnych Visayas, ale np. Rai/Odette uderzył wprost w XII 2021; przy tajfunie kilka dni bez promów i lotów."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 10700
+      }
     }
   ],
   "sources": [
@@ -434,18 +463,8 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "weather2travel: Bohol – nasłonecznienie, temperatura morza (CRU; kontrolnie temperatury i opad)",
-      "url": "https://www.weather2travel.com/philippines/bohol/climate/",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "climate-zone.com: Cebu City – średnia prędkość wiatru (NASA POWER, model) – zastępstwo",
       "url": "https://www.climate-zone.com/climate/ph/cebu-city/",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: Cebu – pogoda miesiąc po miesiącu (12 stron, np. /cebu-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 10.32°N 123.89°E – zastępstwo, ok. 80 km",
-      "url": "https://bestdateweather.com/en/cebu-weather-january",
       "checked": "2026-10-16"
     },
     {
@@ -462,6 +481,36 @@
       "title": "KAYAK.pl: Warszawa – Cebu (Emirates przez Dubaj od 18 h 45 min, średnio 21 h 27 min; ceny: V 3 915, XII 6 805, VII 6 899 zł, średnia 4 184 zł) – alternatywa",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Cebu-CEB",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka III (Warszawa-Okęcie, 8 dni, śniadania): Solea Coast Resort Panglao – 9 449, Bohol Shores – 9 929 zł; 6 dni Bluewater Panglao – 9 909 zł. Wyżywienie: śniadania.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: filipiny",
+      "url": "https://r.pl/wytyczne/filipiny",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Bohol – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10; miesiące II, III, IV, V, VI, VII, VIII, IX, X („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/philippines/bohol/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 10,6–11,3 (kontrola modelu: 11,3 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=123.77&lat=9.55",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

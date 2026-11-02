@@ -3,6 +3,8 @@
   "country": "Włochy (Sardynia)",
   "place": "San Teodoro (La Cinta / Cala Brandinchi), Sardynia",
   "notes": "Klimat śródziemnomorski północno-wschodniej Sardynii: gorące, suche lato VI–VIII (ok. 31 °C), woda najcieplejsza VII–IX (24–25 °C), deszczowa i chłodna zima (ok. 14 °C, noce ok. 5 °C); sezon plażowy realnie VI–IX. Baza pobytu: San Teodoro – plaże La Cinta i Cala Brandinchi (biały piasek, płytka turkusowa woda). Pogoda ze stacji Olbia (ok. 25 km, ISPRA / Aeronautica Militare 1981–2010). Zieleń: makia, pinie, wzgórza. Wycieczki: wyspa Tavolara, Costa Smeralda, archipelag La Maddalena, Olbia. Poza sezonem (X–IV) większość hoteli i restauracji zamknięta. Dojazd: bez przesiadek Wizz Air z Lotniska Chopina ok. 2 h 35 min (sezonowo, ok. IV–X); zimą z 1 przesiadką (Wiedeń) ok. 5 h.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Rome",
   "fixed": {
     "beaches": {
       "est": 5
@@ -20,7 +22,15 @@
     "stops": 0,
     "transfer": {
       "est": 0.4
-    }
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "rajska plaża",
+      "płytkie wejście",
+      "rejsy po wyspach"
+    ]
   },
   "months": [
     {
@@ -35,9 +45,7 @@
       "sun": 4.1,
       "rain": 47,
       "rain_days": 7,
-      "uv": {
-        "est": 2
-      },
+      "uv": 2,
       "wind": {
         "est": 13
       },
@@ -45,7 +53,8 @@
       "flight_price": {
         "est": 1500
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -59,9 +68,7 @@
       "sun": 4.9,
       "rain": 73,
       "rain_days": 8,
-      "uv": {
-        "est": 4
-      },
+      "uv": 3,
       "wind": {
         "est": 14
       },
@@ -69,7 +76,8 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -83,9 +91,7 @@
       "sun": 6,
       "rain": 63,
       "rain_days": 8,
-      "uv": {
-        "est": 5
-      },
+      "uv": 4,
       "wind": {
         "est": 14
       },
@@ -93,7 +99,8 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -107,9 +114,7 @@
       "sun": 7.1,
       "rain": 56,
       "rain_days": 8,
-      "uv": {
-        "est": 7
-      },
+      "uv": 6,
       "wind": {
         "est": 13
       },
@@ -117,7 +122,8 @@
       "flight_price": {
         "est": 1000
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -131,9 +137,7 @@
       "sun": 9,
       "rain": 37,
       "rain_days": 4,
-      "uv": {
-        "est": 7
-      },
+      "uv": 8,
       "wind": {
         "est": 12
       },
@@ -141,7 +145,10 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3600
+      }
     },
     {
       "local_season": {
@@ -155,9 +162,7 @@
       "sun": 10.4,
       "rain": 18,
       "rain_days": 3,
-      "uv": {
-        "est": 8
-      },
+      "uv": 9,
       "wind": {
         "est": 11
       },
@@ -165,7 +170,10 @@
       "flight_price": {
         "est": 1300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4200
+      }
     },
     {
       "local_season": {
@@ -179,9 +187,7 @@
       "sun": 11.6,
       "rain": 6,
       "rain_days": 1,
-      "uv": {
-        "est": 8
-      },
+      "uv": 9,
       "wind": {
         "est": 11
       },
@@ -189,7 +195,10 @@
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4700
+      }
     },
     {
       "local_season": {
@@ -203,9 +212,7 @@
       "sun": 10.2,
       "rain": 28,
       "rain_days": 3,
-      "uv": {
-        "est": 7
-      },
+      "uv": 8,
       "wind": {
         "est": 10
       },
@@ -213,7 +220,10 @@
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4900
+      }
     },
     {
       "local_season": {
@@ -227,9 +237,7 @@
       "sun": 8.3,
       "rain": 41,
       "rain_days": 5,
-      "uv": {
-        "est": 6
-      },
+      "uv": 6,
       "wind": {
         "est": 12
       },
@@ -237,7 +245,10 @@
       "flight_price": {
         "est": 1300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4000
+      }
     },
     {
       "local_season": {
@@ -251,9 +262,7 @@
       "sun": 6.3,
       "rain": 58,
       "rain_days": 5,
-      "uv": {
-        "est": 4
-      },
+      "uv": 4,
       "wind": {
         "est": 12
       },
@@ -261,7 +270,10 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3600
+      }
     },
     {
       "local_season": {
@@ -275,9 +287,7 @@
       "sun": 4.6,
       "rain": 56,
       "rain_days": 6,
-      "uv": {
-        "est": 3
-      },
+      "uv": 2,
       "wind": {
         "est": 13
       },
@@ -285,7 +295,8 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -299,9 +310,7 @@
       "sun": 3.8,
       "rain": 98,
       "rain_days": 9,
-      "uv": {
-        "est": 2
-      },
+      "uv": 1,
       "wind": {
         "est": 14
       },
@@ -309,7 +318,8 @@
       "flight_price": {
         "est": 1500
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -329,16 +339,6 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "BestDateWeather: Sardynia – pogoda miesiąc po miesiącu (12 stron, np. /sardinia-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 40.12°N 9.01°E (środek wyspy)",
-      "url": "https://bestdateweather.com/en/sardinia-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "KAYAK.pl: Warszawa – Olbia (bez przesiadek tylko Wizz Air, 2 h 35 min; z 1 przesiadką Wiedeń 5 h 05 min; ceny: IV 673 zł najtaniej, I 1 224 zł, XII 1 232 zł najdrożej, średnia 1 017 zł, typowo 761–1 304 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Olbia-OLB",
       "checked": "2026-10-16"
@@ -352,6 +352,31 @@
       "title": "KAYAK.pl: Lotnisko Chopina – Olbia (oferty bez przesiadek Wizz Air w kwietniu i październiku)",
       "url": "https://www.kayak.pl/loty/Warszawa-Lotnisko-Chopina-i-inne-lotniska-WAW/Olbia-Costa-Smeralda-OLB",
       "checked": "2026-10-17"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: VII GH Santina Resort 5,2/6 – 4 749 zł; Rainbow Sardynia VI–IX od 4 137 zł (hotele 4,3/6). Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Olbia (ok. 25 km) – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 3, 4, 6, 8, 9, 9, 8, 6, 4, 2, 1",
+      "url": "https://www.weather2travel.com/sardinia/olbia/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 2,6–2,8 (kontrola modelu: 2,8 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=9.67&lat=40.77",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

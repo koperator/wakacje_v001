@@ -3,6 +3,8 @@
   "country": "Wietnam",
   "place": "Phu Quoc",
   "notes": "Zatoka Tajlandzka, południe Wietnamu: pora sucha XI–IV (najspokojniej XII–II), monsun SW V–X z maksimum opadów VIII–IX. Baza pobytu: Long Beach (Bai Truong) przy Duong Dong na zachodnim wybrzeżu; w porze monsunu spokojniej na wschodnim wybrzeżu (Bai Khem). Pogoda dla wyspy (stacja Phu Quoc w Duong Dong). Zieleń: ponad połowa wyspy to park narodowy z lasem tropikalnym, zielono cały rok; zabudowa resortowa wzdłuż Long Beach. Wycieczki: wyspy An Thoi (snorkeling, kolejka linowa na Hon Thom), VinWonders i Grand World, plantacje pieprzu, muzeum więzienia Coconut Tree. Tajfuny rzadko dochodzą do wyspy (okres XI). Dojazd: brak regularnych lotów bezpośrednich z Warszawy; najszybciej z 1 przesiadką w Bangkoku (LOT do BKK od X 2026 + lot do PQC), typowo z 2 przesiadkami (Zatoka + Ho Chi Minh/Hanoi lub Singapur); jesienią–zimą sezonowe loty bezpośrednie LOT (ok. 11 h) w ofercie biur podróży.",
+  "entryNote": "Paszport ważny 6 mies.; od 15.08.2025 bez wizy do 45 dni; obowiązkowa karta Pre-Arrival online do 3 dni przed przylotem.",
+  "tz": "Asia/Ho_Chi_Minh",
   "fixed": {
     "beaches": {
       "est": 4
@@ -18,7 +20,15 @@
     "stops": 1,
     "transfer": {
       "est": 0.3
-    }
+    },
+    "continent": "Azja",
+    "region": "Azja Południowo-Wschodnia",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "rafa i snorkeling",
+      "rejsy po wyspach",
+      "dżungla"
+    ]
   },
   "months": [
     {
@@ -35,7 +45,7 @@
       "rain_days": {
         "est": 4.6
       },
-      "uv": 8,
+      "uv": 11,
       "wind": 12,
       "water": 27.8,
       "flight_price": {
@@ -47,7 +57,10 @@
           "level": 1,
           "note": "Tết (Księżycowy Nowy Rok, zależnie od roku koniec stycznia lub luty): przez kilka dni zamknięta część lokalnych restauracji, sklepów i usług, loty i hotele przepełnione turystami krajowymi, ceny wyraźnie wyższe."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 5800
+      }
     },
     {
       "local_season": {
@@ -63,7 +76,9 @@
       "rain_days": {
         "est": 3.7
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 12,
       "water": 28.3,
       "flight_price": {
@@ -75,7 +90,10 @@
           "level": 1,
           "note": "Tết (Księżycowy Nowy Rok, zależnie od roku koniec stycznia lub luty): przez kilka dni zamknięta część lokalnych restauracji, sklepów i usług, loty i hotele przepełnione turystami krajowymi, ceny wyraźnie wyższe."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 5900
+      }
     },
     {
       "local_season": {
@@ -91,13 +109,18 @@
       "rain_days": {
         "est": 6.6
       },
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": 13,
       "water": 28.9,
       "flight_price": {
         "est": 4600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5600
+      }
     },
     {
       "local_season": {
@@ -113,13 +136,18 @@
       "rain_days": {
         "est": 11.7
       },
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": 12,
       "water": 30,
       "flight_price": {
         "est": 4300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5600
+      }
     },
     {
       "local_season": {
@@ -135,7 +163,9 @@
       "rain_days": {
         "est": 19
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 14,
       "water": 30.6,
       "flight_price": {
@@ -147,7 +177,8 @@
           "level": 1,
           "note": "Początek monsunu SW: na zachodnim wybrzeżu (Long Beach) narasta fala i spada przejrzystość wody, w części dni czerwone flagi; część rejsów snorkelingowych przenoszona na wczesny ranek."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -163,7 +194,9 @@
       "rain_days": {
         "est": 21
       },
-      "uv": 7,
+      "uv": {
+        "est": 12
+      },
       "wind": 18,
       "water": 30,
       "flight_price": {
@@ -175,7 +208,8 @@
           "level": 2,
           "note": "Monsun SW: wzburzone morze na zachodnim wybrzeżu (Long Beach), w wielu dniach czerwone flagi, ratownicy zamykają strefy kąpieli przy dużych resortach; rejsy na wyspy An Thoi często odwoływane. Spokojniej na wschodnim wybrzeżu (Bai Khem), ale Sao też dostaje falę."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -191,7 +225,9 @@
       "rain_days": {
         "est": 22.5
       },
-      "uv": 6,
+      "uv": {
+        "est": 13
+      },
       "wind": 19,
       "water": 30,
       "flight_price": {
@@ -203,7 +239,8 @@
           "level": 2,
           "note": "Monsun SW: wzburzone morze na zachodnim wybrzeżu (Long Beach), w wielu dniach czerwone flagi, ratownicy zamykają strefy kąpieli przy dużych resortach; rejsy na wyspy An Thoi często odwoływane. Spokojniej na wschodnim wybrzeżu (Bai Khem), ale Sao też dostaje falę."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -219,7 +256,9 @@
       "rain_days": {
         "est": 23.6
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": 19,
       "water": 29.4,
       "flight_price": {
@@ -231,7 +270,8 @@
           "level": 2,
           "note": "Monsun SW: wzburzone morze na zachodnim wybrzeżu (Long Beach), w wielu dniach czerwone flagi, ratownicy zamykają strefy kąpieli przy dużych resortach; rejsy na wyspy An Thoi często odwoływane. Spokojniej na wschodnim wybrzeżu (Bai Khem), ale Sao też dostaje falę."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -247,7 +287,9 @@
       "rain_days": {
         "est": 22.8
       },
-      "uv": 7,
+      "uv": {
+        "est": 13
+      },
       "wind": 17,
       "water": 28.9,
       "flight_price": {
@@ -259,7 +301,8 @@
           "level": 2,
           "note": "Monsun SW: wzburzone morze na zachodnim wybrzeżu (Long Beach), w wielu dniach czerwone flagi, ratownicy zamykają strefy kąpieli przy dużych resortach; rejsy na wyspy An Thoi często odwoływane. Spokojniej na wschodnim wybrzeżu (Bai Khem), ale Sao też dostaje falę."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -275,7 +318,9 @@
       "rain_days": {
         "est": 21.5
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 13,
       "water": 29.4,
       "flight_price": {
@@ -287,7 +332,8 @@
           "level": 1,
           "note": "Koniec monsunu SW: morze na zachodnim wybrzeżu zmienne, w części dni fale i odwoływane rejsy, głównie w pierwszej połowie miesiąca."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -303,13 +349,16 @@
       "rain_days": {
         "est": 13.8
       },
-      "uv": 8,
+      "uv": 11,
       "wind": 14,
       "water": 30,
       "flight_price": {
         "est": 4600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5200
+      }
     },
     {
       "local_season": {
@@ -325,13 +374,16 @@
       "rain_days": {
         "est": 6.2
       },
-      "uv": 6,
+      "uv": 10,
       "wind": 14,
       "water": 28.9,
       "flight_price": {
         "est": 4600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6300
+      }
     }
   ],
   "sources": [
@@ -351,7 +403,7 @@
       "checked": "2026-10-13"
     },
     {
-      "title": "weather2travel: Phu Quoc (CRU, Met Office, KNMI; słońce, opad, morze – kontrola; UV dla czystego nieba – inna miara, nieużyte)",
+      "title": "weather2travel: Phu Quoc (CRU, Met Office, KNMI; słońce, opad, morze – kontrola)",
       "url": "https://weather2travel.com/vietnam/phu-quoc-island/climate/",
       "checked": "2026-10-13"
     },
@@ -368,16 +420,6 @@
     {
       "title": "Climate-Data.org: Sihanoukville – wilgotność 1991–2021 (zastępczo do punktu rosy)",
       "url": "https://en.climate-data.org/asia/cambodia/preah-sihanouk/sihanoukville-3184/",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: Phu Quoc – pogoda miesiąc po miesiącu (12 stron, np. /phu-quoc-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 10.23°N 103.97°E",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-phu-quoc",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
       "checked": "2026-10-13"
     },
     {
@@ -404,6 +446,36 @@
       "title": "tanie-loty.com.pl: Warszawa – Phu Quoc (brak lotów bezpośrednich, przesiadki w Zatoce, Europie i Azji)",
       "url": "https://www.tanie-loty.com.pl/promocje/tanie-loty-z-warszawy-do-phu-quoc.html",
       "checked": "2026-10-13"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow (7 nocy, śniadania): XI Amarin Resort 5,6/6 – 5 399 zł (Warszawa), XI Mercury Phu Quoc 5,6/6 – 5 049 zł (Poznań), III Movenpick Waverly 5,4/6 – 5 588 zł. Itaka: Phu Quoc niewidoczne. Wyżywienie: śniadania.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: wietnam",
+      "url": "https://r.pl/wytyczne/wietnam",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Phu Quoc – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10; miesiące II, III, IV, V, VI, VII, VIII, IX, X („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/vietnam/phu-quoc-island/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 10,4–11,3 (kontrola modelu: 11,2 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=103.96&lat=10.2",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

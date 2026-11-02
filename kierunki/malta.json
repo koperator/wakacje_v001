@@ -3,6 +3,8 @@
   "country": "Malta",
   "place": "Sliema / St Julian's",
   "notes": "Klimat śródziemnomorski: gorąco i sucho VI–VIII, deszcz głównie X–II; woda do kąpieli VI–X. Baza pobytu: Sliema / St Julian's (skaliste wybrzeże z kąpieliskami i platformami, najbliższe piaszczyste plaże St George's Bay; większe plaże piaszczyste na północy wyspy). Pogoda ze stacji Luqa (ok. 7 km, normy 1991–2020). Zieleń: sucha, skalista wyspa, mało drzew, zielono głównie zimą i wiosną. Wycieczki: Valletta (UNESCO), Mdina, świątynie megalityczne, Błękitna Grota, Gozo i Comino. Dojazd: bezpośrednio z Warszawy (Wizz Air, LOT), ok. 3 h.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Malta",
   "fixed": {
     "beaches": 2,
     "greenery": {
@@ -14,7 +16,17 @@
     "stops": 0,
     "transfer": {
       "est": 0.3
-    }
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "nurkowanie",
+      "rejsy po wyspach",
+      "ruiny",
+      "stare miasto",
+      "życie nocne"
+    ]
   },
   "months": [
     {
@@ -29,7 +41,7 @@
       "sun": 5.5,
       "rain": 79,
       "rain_days": 10,
-      "uv": 4,
+      "uv": 2,
       "wind": {
         "est": 25
       },
@@ -37,7 +49,10 @@
       "flight_price": {
         "est": 800
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2800
+      }
     },
     {
       "local_season": {
@@ -59,7 +74,10 @@
       "flight_price": {
         "est": 800
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2900
+      }
     },
     {
       "local_season": {
@@ -73,7 +91,7 @@
       "sun": 7.3,
       "rain": 45,
       "rain_days": 6.1,
-      "uv": 6,
+      "uv": 5,
       "wind": {
         "est": 23
       },
@@ -81,7 +99,10 @@
       "flight_price": {
         "est": 800
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3000
+      }
     },
     {
       "local_season": {
@@ -103,7 +124,10 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3100
+      }
     },
     {
       "local_season": {
@@ -117,7 +141,7 @@
       "sun": 10,
       "rain": 11,
       "rain_days": 1.5,
-      "uv": 8,
+      "uv": 9,
       "wind": {
         "est": 18
       },
@@ -125,7 +149,10 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3300
+      }
     },
     {
       "local_season": {
@@ -139,7 +166,7 @@
       "sun": 11.2,
       "rain": 6,
       "rain_days": 0.8,
-      "uv": 8,
+      "uv": 10,
       "wind": {
         "est": 15
       },
@@ -147,7 +174,10 @@
       "flight_price": {
         "est": 1000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3400
+      }
     },
     {
       "local_season": {
@@ -161,7 +191,7 @@
       "sun": 12.2,
       "rain": 0,
       "rain_days": 0,
-      "uv": 8,
+      "uv": 10,
       "wind": {
         "est": 14
       },
@@ -169,7 +199,10 @@
       "flight_price": {
         "est": 1000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3600
+      }
     },
     {
       "local_season": {
@@ -183,7 +216,7 @@
       "sun": 11.4,
       "rain": 17,
       "rain_days": 1,
-      "uv": 8,
+      "uv": 9,
       "wind": {
         "est": 14
       },
@@ -191,7 +224,10 @@
       "flight_price": {
         "est": 1000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3600
+      }
     },
     {
       "local_season": {
@@ -213,7 +249,10 @@
       "flight_price": {
         "est": 1000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3300
+      }
     },
     {
       "local_season": {
@@ -235,7 +274,10 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2900
+      }
     },
     {
       "local_season": {
@@ -249,7 +291,7 @@
       "sun": 6.5,
       "rain": 91,
       "rain_days": 8.7,
-      "uv": 4,
+      "uv": 3,
       "wind": {
         "est": 23
       },
@@ -257,7 +299,10 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
     },
     {
       "local_season": {
@@ -271,7 +316,7 @@
       "sun": 5.2,
       "rain": 94,
       "rain_days": 10,
-      "uv": 3,
+      "uv": 2,
       "wind": {
         "est": 25
       },
@@ -279,7 +324,10 @@
       "flight_price": {
         "est": 800
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3100
+      }
     }
   ],
   "sources": [
@@ -299,16 +347,6 @@
       "checked": "2026-10-14"
     },
     {
-      "title": "BestDateWeather: Malta – pogoda miesiąc po miesiącu (12 stron, np. /malta-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 35.90°N 14.51°E",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-malta",
-      "checked": "2026-10-14"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-14"
-    },
-    {
       "title": "KAYAK.com: Warszawa – Malta (loty bezpośrednie Wizz Air i LOT, średnio 3 h 05 min)",
       "url": "https://www.kayak.com/flight-routes/Warsaw-Frederic-Chopin-WAW/Malta-MLA",
       "checked": "2026-10-14"
@@ -317,6 +355,31 @@
       "title": "KAYAK.pl: Warszawa – Malta – statystyki cen w obie strony (miesiące: III 469, X 829, XI 771; średnia 12 mies. 592 zł; typowo 431–866 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Malta-MLA",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: pakiety ze śniadaniami I 2 809, VII 3 869 zł; Rainbow IV: Ramla Bay Resort (śniadania) 3 150 zł; AI na Malcie prawie nie ma. Wyżywienie: śniadania.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Malta – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 4, 5, 7, 9, 10, 10, 9, 7, 5, 3, 2",
+      "url": "https://www.weather2travel.com/malta/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 3,3–3,9 (kontrola modelu: 3,8 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=14.5&lat=35.9",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

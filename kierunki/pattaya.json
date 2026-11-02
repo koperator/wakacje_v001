@@ -1,0 +1,388 @@
+{
+  "id": "pattaya",
+  "country": "Tajlandia",
+  "place": "Pattaya / Jomtien",
+  "notes": "Klimat tropikalny monsunowy: pora sucha XI–III (najlepsza, ok. 31 °C, mało deszczu), gorąco IV–V (33 °C), pora deszczowa V–X z najwięcej deszczu w IX–X (ponad 200 mm). Woda 27–31 °C. Zatoka Tajlandzka mało podatna na monsun SW – fale niewielkie przez cały rok. Baza pobytu: Pattaya i Jomtien – miejskie plaże z piaskiem, wąskie w Pattayi, szersze w Jomtien; woda mniej przejrzysta; czyste plaże na wyspie Koh Larn (ok. 30 min promem). Pogoda ze stacji Pattaya (TMD 1991–2020). Zieleń: miasto, ogród Nong Nooch. Wycieczki: Sanktuarium Prawdy, Nong Nooch, Koh Larn, Bangkok (ok. 2 h). Życie nocne (Walking Street). Ceny niskie. Dojazd: LOT bez przesiadek do Bangkoku ok. 10 h 20 min, dalej ok. 2 h drogi.",
+  "entryNote": "Paszport ważny 6 mies. od wjazdu; od 15.09.2026 bez wizy do 30 dni (wcześniej 60); obowiązkowa bezpłatna karta TDAC online do 3 dni przed przylotem.",
+  "tz": "Asia/Bangkok",
+  "fixed": {
+    "beaches": {
+      "est": 2
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 10.3,
+    "stops": 0,
+    "transfer": {
+      "est": 1.8
+    },
+    "continent": "Azja",
+    "region": "Azja Południowo-Wschodnia",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "rejsy po wyspach",
+      "miasto i zakupy",
+      "życie nocne"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.6,
+      "temp_night": 23.5,
+      "dew_point": {
+        "est": 21.4
+      },
+      "sun": 7.4,
+      "rain": 16,
+      "rain_days": 1.6,
+      "uv": 10,
+      "wind": 13,
+      "water": 27.2,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [],
+      "package_price": {
+        "est": 5200
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.2,
+      "temp_night": 24.5,
+      "dew_point": {
+        "est": 22.7
+      },
+      "sun": 7.5,
+      "rain": 20,
+      "rain_days": 1.8,
+      "uv": {
+        "est": 12
+      },
+      "wind": 14,
+      "water": 27.8,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [],
+      "package_price": {
+        "est": 5300
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32,
+      "temp_night": 25.5,
+      "dew_point": {
+        "est": 24.1
+      },
+      "sun": 7.7,
+      "rain": 47,
+      "rain_days": 3.3,
+      "uv": {
+        "est": 13
+      },
+      "wind": 15,
+      "water": 28.9,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [],
+      "package_price": {
+        "est": 5000
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 33,
+      "temp_night": 26.4,
+      "dew_point": {
+        "est": 25
+      },
+      "sun": 6.8,
+      "rain": 68,
+      "rain_days": 5,
+      "uv": {
+        "est": 14
+      },
+      "wind": 14,
+      "water": 30,
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Songkran (13–15 kwietnia, w Pattayi „Wan Lai” do ok. 19 kwietnia): uliczne bitwy wodne, tłok, droższe noclegi."
+        }
+      ],
+      "package_price": {
+        "est": 5000
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.7,
+      "temp_night": 26.6,
+      "dew_point": {
+        "est": 25.1
+      },
+      "sun": 5,
+      "rain": 121,
+      "rain_days": 9,
+      "uv": {
+        "est": 13
+      },
+      "wind": 15,
+      "water": 30.6,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": [],
+      "package_price": {
+        "est": 4700
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32,
+      "temp_night": 26.4,
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": 3.8,
+      "rain": 132,
+      "rain_days": 9.8,
+      "uv": {
+        "est": 13
+      },
+      "wind": 17,
+      "water": 30,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": [],
+      "package_price": {
+        "est": 4800
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.6,
+      "temp_night": 26.2,
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": 3.8,
+      "rain": 104,
+      "rain_days": 9.5,
+      "uv": {
+        "est": 13
+      },
+      "wind": 17,
+      "water": 29.4,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": [],
+      "package_price": {
+        "est": 5400
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.4,
+      "temp_night": 26.1,
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": 3.7,
+      "rain": 91,
+      "rain_days": 9.1,
+      "uv": {
+        "est": 13
+      },
+      "wind": 17,
+      "water": 29.4,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": [],
+      "package_price": {
+        "est": 5600
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.1,
+      "temp_night": 25.4,
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": 3.6,
+      "rain": 214,
+      "rain_days": 13.2,
+      "uv": {
+        "est": 13
+      },
+      "wind": 13,
+      "water": 29.4,
+      "flight_price": {
+        "est": 3200
+      },
+      "flags": [],
+      "package_price": {
+        "est": 4800
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.9,
+      "temp_night": 24.7,
+      "dew_point": {
+        "est": 24.1
+      },
+      "sun": 4.7,
+      "rain": 225,
+      "rain_days": 14.4,
+      "uv": 11,
+      "wind": 12,
+      "water": 29.4,
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": [],
+      "package_price": {
+        "est": 4800
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.8,
+      "temp_night": 24.3,
+      "dew_point": {
+        "est": 22.4
+      },
+      "sun": 6.3,
+      "rain": 57,
+      "rain_days": 4,
+      "uv": 10,
+      "wind": 15,
+      "water": 28.9,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [],
+      "package_price": {
+        "est": 4700
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.2,
+      "temp_night": 23.3,
+      "dew_point": {
+        "est": 20.6
+      },
+      "sun": 7.3,
+      "rain": 12,
+      "rain_days": 1.5,
+      "uv": 9,
+      "wind": 15,
+      "water": 27.8,
+      "flight_price": {
+        "est": 3800
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Boże Narodzenie i Nowy Rok (ok. 20.12–10.01): najwyższe ceny, minimalne długości pobytu i obowiązkowe kolacje galowe w części hoteli."
+        }
+      ],
+      "package_price": {
+        "est": 5700
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Pattaya – normy 1991–2020 (WMO, TMD): temperatury, opad, dni z opadem ≥ 1 mm, wilgotność, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Pattaya",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Pattaya – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/113385/Average-Weather-in-Phatthaya-Thailand-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Bangkok (bez przesiadek LOT 6× w tygodniu, 10 h 20 min; z 1 przesiadką (Stambuł) średnio 14 h 28 min; V 2 973 zł najtaniej, VII 3 518 zł, XII 3 806 zł najdrożej, średnia 3 394 zł, typowo 2 952–3 927 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Bangkok-BKK",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow XI (9 dni / 7 nocy, Poznań): Cholchan Pattaya 4,4/6 – 4 660, Bayphere 4,9/6 – 5 247, Siam Bayshore 5,0/6 – 5 928 zł (śniadania). V–X szacunek (loty rejsowe). Wyżywienie: śniadania.",
+      "url": "https://r.pl/tajlandia",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Formalności wjazdowe – Travelplanet – nowe zasady wjazdu do Tajlandii 2026",
+      "url": "https://www.travelplanet.pl/blog/nowe-zasady-wjazdu-do-tajlandii-2026/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Pattaya – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 10, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10, 9; miesiące II, III, IV, V, VI, VII, VIII, IX („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/thailand/pattaya/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 10–10,6 (kontrola modelu: 10,5 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=100.88&lat=12.93",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

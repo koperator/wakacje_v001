@@ -3,6 +3,8 @@
   "country": "Włochy (Sycylia)",
   "place": "San Vito lo Capo, Sycylia",
   "notes": "Klimat śródziemnomorski północno-zachodniej Sycylii: gorące, suche lato VI–IX (ok. 30 °C), ciepła woda VII–IX (25–26 °C), łagodna, deszczowa zima (ok. 15 °C); sirocco może przynieść kilka dni upału. Baza pobytu: San Vito lo Capo – zatoka z białym piaskiem i płytką turkusową wodą pod górą Monaco. Pogoda ze stacji Trapani-Birgi (ok. 35 km, NOAA 1991–2020); dni deszczowe i wilgotność z lotniska Palermo (1961–1990). Zieleń: skaliste góry, makia, rezerwat Zingaro. Wycieczki: rezerwat Zingaro, Scopello, Erice, świątynia w Segeście, saliny Trapani, wyspy Egadzkie. Dojazd: z 1 przesiadką (Monachium, Wiedeń) do Palermo, ok. 4 h 45 min; z lotniska ok. 100 km.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Rome",
   "fixed": {
     "beaches": {
       "est": 5
@@ -20,7 +22,17 @@
     "stops": 1,
     "transfer": {
       "est": 1.4
-    }
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "rajska plaża",
+      "płytkie wejście",
+      "góry i trekking",
+      "ruiny",
+      "stare miasto"
+    ]
   },
   "months": [
     {
@@ -39,9 +51,7 @@
       "rain_days": {
         "est": 10
       },
-      "uv": {
-        "est": 3
-      },
+      "uv": 2,
       "wind": {
         "est": 17
       },
@@ -49,7 +59,8 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -67,9 +78,7 @@
       "rain_days": {
         "est": 10
       },
-      "uv": {
-        "est": 4
-      },
+      "uv": 3,
       "wind": {
         "est": 18
       },
@@ -77,7 +86,8 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -95,9 +105,7 @@
       "rain_days": {
         "est": 9
       },
-      "uv": {
-        "est": 6
-      },
+      "uv": 5,
       "wind": {
         "est": 17
       },
@@ -105,7 +113,8 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -123,9 +132,7 @@
       "rain_days": {
         "est": 6
       },
-      "uv": {
-        "est": 7
-      },
+      "uv": 6,
       "wind": {
         "est": 16
       },
@@ -133,7 +140,8 @@
       "flight_price": {
         "est": 1800
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -151,9 +159,7 @@
       "rain_days": {
         "est": 3
       },
-      "uv": {
-        "est": 7
-      },
+      "uv": 8,
       "wind": {
         "est": 13
       },
@@ -161,7 +167,10 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3100
+      }
     },
     {
       "local_season": {
@@ -179,9 +188,7 @@
       "rain_days": {
         "est": 2
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 9,
       "wind": {
         "est": 12
       },
@@ -189,7 +196,10 @@
       "flight_price": {
         "est": 1300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3700
+      }
     },
     {
       "local_season": {
@@ -207,9 +217,7 @@
       "rain_days": {
         "est": 1
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 9,
       "wind": {
         "est": 12
       },
@@ -217,7 +225,10 @@
       "flight_price": {
         "est": 1500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4200
+      }
     },
     {
       "local_season": {
@@ -235,9 +246,7 @@
       "rain_days": {
         "est": 2
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 9,
       "wind": {
         "est": 12
       },
@@ -245,7 +254,10 @@
       "flight_price": {
         "est": 1500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4300
+      }
     },
     {
       "local_season": {
@@ -263,9 +275,7 @@
       "rain_days": {
         "est": 4
       },
-      "uv": {
-        "est": 6
-      },
+      "uv": 7,
       "wind": {
         "est": 14
       },
@@ -273,7 +283,10 @@
       "flight_price": {
         "est": 1300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3500
+      }
     },
     {
       "local_season": {
@@ -291,9 +304,7 @@
       "rain_days": {
         "est": 8
       },
-      "uv": {
-        "est": 5
-      },
+      "uv": 5,
       "wind": {
         "est": 15
       },
@@ -301,7 +312,10 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3100
+      }
     },
     {
       "local_season": {
@@ -319,9 +333,7 @@
       "rain_days": {
         "est": 9
       },
-      "uv": {
-        "est": 3
-      },
+      "uv": 3,
       "wind": {
         "est": 18
       },
@@ -329,7 +341,8 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -347,9 +360,7 @@
       "rain_days": {
         "est": 11
       },
-      "uv": {
-        "est": 3
-      },
+      "uv": 2,
       "wind": {
         "est": 19
       },
@@ -357,7 +368,8 @@
       "flight_price": {
         "est": 1600
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -382,19 +394,34 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "BestDateWeather: Sycylia – pogoda miesiąc po miesiącu (12 stron, np. /sicily-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 37.60°N 14.02°E (środek wyspy)",
-      "url": "https://bestdateweather.com/en/sicily-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "KAYAK.pl: Warszawa – Palermo (brak lotów bezpośrednich; z 1 przesiadką Monachium 4 h 44 min, Wiedeń 4 h 58 min; ceny: I 477 zł najtaniej, XII 1 322 zł, IV 1 663 zł najdrożej, średnia 957 zł, typowo 661–1 262 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Palermo-PMO",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: VII VOI Florio Resort 4,9/6 – 4 939 zł; Rainbow Sycylia: IV Dolcestate 5,0/6 – 2 989, V Himera 5,5/6 – 4 019, IX Antares 5,0/6 – 4 027 zł. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Trapani (ok. 35 km) – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 3, 5, 6, 8, 9, 9, 9, 7, 5, 3, 2",
+      "url": "https://www.weather2travel.com/sicily/trapani/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 3–3,5 (kontrola modelu: 3,4 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=12.73&lat=38.17",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

@@ -3,6 +3,8 @@
   "country": "Grecja (Rodos)",
   "place": "Faliraki / Kolymbia, Rodos",
   "notes": "Klimat śródziemnomorski Dodekanezu: bardzo słoneczne, gorące i suche lato VI–IX (30–31 °C, 13–14 h słońca), woda najcieplejsza VIII–IX (ok. 27 °C), deszczowa, łagodna zima XI–II. Baza pobytu: Faliraki i Kolymbia na wschodnim (zawietrznym) wybrzeżu – długie piaszczyste plaże i zatoki, spokojniejsze niż zachodnie wybrzeże przy meltemi. Pogoda ze stacji lotniska Rodos (HNMS 1955–2010; słońce Weather Atlas) – ok. 20 km. Zieleń: sosny, gaje oliwne, Dolina Motyli. Wycieczki: średniowieczne Stare Miasto Rodos (UNESCO), Lindos, zatoka Anthony Quinn, Dolina Motyli, Symi. Poza sezonem większość hoteli zamknięta. Dojazd: bez przesiadek ok. 3 h (sezon letni); z lotniska ok. 20 km.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Athens",
   "fixed": {
     "beaches": {
       "est": 4
@@ -20,7 +22,15 @@
     "stops": 0,
     "transfer": {
       "est": 0.4
-    }
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "ruiny",
+      "stare miasto",
+      "życie nocne"
+    ]
   },
   "months": [
     {
@@ -37,9 +47,7 @@
       "rain_days": {
         "est": 10.9
       },
-      "uv": {
-        "est": 3
-      },
+      "uv": 2,
       "wind": {
         "est": 19
       },
@@ -47,7 +55,8 @@
       "flight_price": {
         "est": 1000
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -63,9 +72,7 @@
       "rain_days": {
         "est": 8.9
       },
-      "uv": {
-        "est": 4
-      },
+      "uv": 3,
       "wind": {
         "est": 19
       },
@@ -73,7 +80,8 @@
       "flight_price": {
         "est": 1000
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -89,9 +97,7 @@
       "rain_days": {
         "est": 7.4
       },
-      "uv": {
-        "est": 6
-      },
+      "uv": 5,
       "wind": {
         "est": 18
       },
@@ -99,7 +105,8 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -115,9 +122,7 @@
       "rain_days": {
         "est": 5.3
       },
-      "uv": {
-        "est": 7
-      },
+      "uv": 7,
       "wind": {
         "est": 15
       },
@@ -125,7 +130,10 @@
       "flight_price": {
         "est": 1000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2200
+      }
     },
     {
       "local_season": {
@@ -141,9 +149,7 @@
       "rain_days": {
         "est": 3.2
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 8,
       "wind": {
         "est": 13
       },
@@ -151,7 +157,10 @@
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
     },
     {
       "local_season": {
@@ -167,9 +176,7 @@
       "rain_days": {
         "est": 0.8
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 10,
       "wind": {
         "est": 14
       },
@@ -177,7 +184,10 @@
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2700
+      }
     },
     {
       "local_season": {
@@ -193,9 +203,7 @@
       "rain_days": {
         "est": 0.1
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 10,
       "wind": {
         "est": 16
       },
@@ -203,7 +211,10 @@
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3000
+      }
     },
     {
       "local_season": {
@@ -219,9 +230,7 @@
       "rain_days": {
         "est": 0.1
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 9,
       "wind": {
         "est": 16
       },
@@ -229,7 +238,10 @@
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3100
+      }
     },
     {
       "local_season": {
@@ -245,9 +257,7 @@
       "rain_days": {
         "est": 1
       },
-      "uv": {
-        "est": 6
-      },
+      "uv": 7,
       "wind": {
         "est": 15
       },
@@ -255,7 +265,10 @@
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
     },
     {
       "local_season": {
@@ -271,9 +284,7 @@
       "rain_days": {
         "est": 4.7
       },
-      "uv": {
-        "est": 5
-      },
+      "uv": 5,
       "wind": {
         "est": 15
       },
@@ -281,7 +292,10 @@
       "flight_price": {
         "est": 1600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
     },
     {
       "local_season": {
@@ -297,9 +311,7 @@
       "rain_days": {
         "est": 6.7
       },
-      "uv": {
-        "est": 4
-      },
+      "uv": 3,
       "wind": {
         "est": 16
       },
@@ -307,7 +319,8 @@
       "flight_price": {
         "est": 1000
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -323,9 +336,7 @@
       "rain_days": {
         "est": 10.8
       },
-      "uv": {
-        "est": 3
-      },
+      "uv": 2,
       "wind": {
         "est": 19
       },
@@ -333,7 +344,8 @@
       "flight_price": {
         "est": 1600
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -348,7 +360,7 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "Kreta (kierunki/kreta-agia-marina.json): UV z BestDateWeather (Santorini) i wiatr NASA POWER (Chania) – zastępstwo, ta sama szerokość i Morze Egejskie",
+      "title": "Kreta (kierunki/kreta-agia-marina.json): wiatr NASA POWER (Chania) – zastępstwo, ta sama szerokość i Morze Egejskie",
       "url": "https://www.climate-zone.com/climate/gr/chania/",
       "checked": "2026-10-16"
     },
@@ -356,6 +368,31 @@
       "title": "KAYAK.pl: Warszawa – Rodos (bez przesiadek ok. 3 h; z 1 przesiadką Saloniki 4 h 42 min; ceny: III 499 zł najtaniej, X 1 316 zł, XII 1 484 zł najdrożej, średnia 875 zł, typowo 677–1 103 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Rodos-RHO",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: VII Marianna Palace 4,8/6 – 3 969 zł; Rainbow V: Tsampika 4,6/6 – 2 269, Diagoras 5,1/6 – 2 290 zł. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Faliraki – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 3, 5, 7, 8, 10, 10, 9, 7, 5, 3, 2",
+      "url": "https://www.weather2travel.com/rhodes/faliraki/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 3,2–3,6 (kontrola modelu: 3,7 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=28.15&lat=36.35",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

@@ -1,0 +1,396 @@
+{
+  "id": "sousse",
+  "country": "Tunezja",
+  "place": "Sousse / Port El Kantaoui",
+  "notes": "Klimat śródziemnomorski: gorące, suche lato (ok. 31 °C), łagodna zima (ok. 16 °C), deszcz IX–III. Woda do kąpieli VI–X (22–27 °C). Baza pobytu: Sousse i Port El Kantaoui – szerokie, piaszczyste plaże z płytkim wejściem, długi pas hoteli. Pogoda: tabela Wikipedii dla Sousse (okres niepodany), wilgotność z Monastyru (ok. 20 km). Zieleń: gaje oliwne, palmy. Wycieczki: medyna Sousse (UNESCO), ribat w Monastyrze, amfiteatr w El Jem (UNESCO, ok. 1 h), Kairuan (UNESCO), Tunis i Kartagina (ok. 2 h). Ceny niskie. Dojazd: regularnie z 1 przesiadką do Tunisu (Monachium) ok. 6 h, dalej ok. 2 h drogi; w sezonie czartery biur do Monastyru i Enfidhy.",
+  "entryNote": "Paszport ważny 3 mies. po powrocie; bez wizy (wjazd na dowód dla grup zakończony 1.01.2025).",
+  "tz": "Africa/Tunis",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": {
+      "est": 6
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 1.8
+    },
+    "continent": "Afryka",
+    "region": "Morze Śródziemne",
+    "entry": "paszport",
+    "tags": [
+      "płytkie wejście",
+      "ruiny",
+      "stare miasto"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15.8,
+      "temp_night": 7.2,
+      "dew_point": {
+        "est": 6.1
+      },
+      "sun": 6,
+      "rain": 43,
+      "rain_days": {
+        "est": 7
+      },
+      "uv": 2,
+      "wind": 19,
+      "water": 15.6,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2000
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 16.3,
+      "temp_night": 7.4,
+      "dew_point": {
+        "est": 6.2
+      },
+      "sun": 7,
+      "rain": 48,
+      "rain_days": {
+        "est": 6
+      },
+      "uv": 4,
+      "wind": 18,
+      "water": 14.4,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2100
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.8,
+      "temp_night": 8.9,
+      "dew_point": {
+        "est": 7.9
+      },
+      "sun": 7,
+      "rain": 35,
+      "rain_days": {
+        "est": 7
+      },
+      "uv": 5,
+      "wind": 18,
+      "water": 15,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2100
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 20.2,
+      "temp_night": 11,
+      "dew_point": {
+        "est": 9.9
+      },
+      "sun": 8,
+      "rain": 28,
+      "rain_days": {
+        "est": 6
+      },
+      "uv": 7,
+      "wind": 17,
+      "water": 16.1,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2200
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 23.4,
+      "temp_night": 14.1,
+      "dew_point": {
+        "est": 12.9
+      },
+      "sun": 10,
+      "rain": 15,
+      "rain_days": {
+        "est": 5
+      },
+      "uv": 9,
+      "wind": 16,
+      "water": 18.9,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 27.1,
+      "temp_night": 17.8,
+      "dew_point": {
+        "est": 16
+      },
+      "sun": 11,
+      "rain": 9,
+      "rain_days": {
+        "est": 2
+      },
+      "uv": 10,
+      "wind": 15,
+      "water": 22.2,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2400
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.7,
+      "temp_night": 20.6,
+      "dew_point": {
+        "est": 18.5
+      },
+      "sun": 12,
+      "rain": 2,
+      "rain_days": {
+        "est": 1
+      },
+      "uv": 10,
+      "wind": 15,
+      "water": 25,
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2500
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.5,
+      "temp_night": 20.9,
+      "dew_point": {
+        "est": 19.3
+      },
+      "sun": 11,
+      "rain": 7,
+      "rain_days": {
+        "est": 2
+      },
+      "uv": 9,
+      "wind": 14,
+      "water": 26.7,
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2500
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.2,
+      "temp_night": 19.9,
+      "dew_point": {
+        "est": 19.1
+      },
+      "sun": 9,
+      "rain": 35,
+      "rain_days": {
+        "est": 4
+      },
+      "uv": 7,
+      "wind": 15,
+      "water": 26.1,
+      "flight_price": {
+        "est": 1800
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 25.6,
+      "temp_night": 16.3,
+      "dew_point": {
+        "est": 15.4
+      },
+      "sun": 7,
+      "rain": 44,
+      "rain_days": {
+        "est": 6
+      },
+      "uv": 5,
+      "wind": 15,
+      "water": 23.9,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2100
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 20.8,
+      "temp_night": 11.5,
+      "dew_point": {
+        "est": 10.6
+      },
+      "sun": 7,
+      "rain": 35,
+      "rain_days": {
+        "est": 6
+      },
+      "uv": 3,
+      "wind": 17,
+      "water": 20.6,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": [],
+      "package_price": {
+        "est": 1800
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 16.7,
+      "temp_night": 8.1,
+      "dew_point": {
+        "est": 7.3
+      },
+      "sun": 6,
+      "rain": 53,
+      "rain_days": {
+        "est": 7
+      },
+      "uv": 2,
+      "wind": 19,
+      "water": 17.8,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2200
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Sousse – tabela klimatyczna (okres niepodany): temperatury, opad, dni z opadem (próg niepodany), nasłonecznienie (h/dzień, liczby całkowite), temperatura morza",
+      "url": "https://en.wikipedia.org/wiki/Sousse",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wikipedia: Monastyr – tabela klimatyczna (wilgotność względna, INM 1961–1990) – zastępczo dla Sousse",
+      "url": "https://en.wikipedia.org/wiki/Monastir,_Tunisia",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Sousse – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/65650/Average-Weather-in-Sousse-Tunisia-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Tunis (brak lotów bez przesiadek; z 1 przesiadką (Monachium – Lufthansa) od 5 h 15 min, średnio 6 h 22 min; I 1 037 zł najtaniej, IX 1 794 zł, XII 1 989 zł najdrożej, średnia 1 479 zł, typowo 1 113–1 819 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Tunis-TUN",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Monastir (Nouvelair bez przesiadek 3 h 05 min, rozkład sezonowy niepotwierdzony; III ok. 986 zł najtaniej, średnia 1 527 zł, typowo 1 011–2 493 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Monastir-MIR",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow (7 nocy, AI): X Riviera 4,5/6 – 2 078 zł (Katowice), I IBEROSTAR Selection Diar El Andalous 5,4/6 – 2 173 zł (Warszawa), X Golf Residence 4,7/6 – 2 198 zł. Wyżywienie: AI.",
+      "url": "https://r.pl/tunezja/susa",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: tunezja",
+      "url": "https://r.pl/wytyczne/tunezja",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Sousse – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 4, 5, 7, 9, 10, 10, 9, 7, 5, 3, 2",
+      "url": "https://www.weather2travel.com/tunisia/sousse/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 3,3–3,9 (kontrola modelu: 3,8 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=10.64&lat=35.85",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

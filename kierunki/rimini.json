@@ -1,0 +1,307 @@
+{
+  "id": "rimini",
+  "country": "Włochy",
+  "place": "Rimini (Riwiera Adriatycka)",
+  "notes": "Klimat przejściowy (subtropikalny wilgotny): ciepłe, parne lato (ok. 29 °C), chłodna zima (ok. 8–10 °C w dzień, noce ok. 1–2 °C), deszcz rozłożony przez cały rok. Woda do kąpieli VI–IX (22–26 °C), zimą 11–13 °C. Baza pobytu: Rimini – ok. 15 km szerokiej, piaszczystej plaży z bardzo płytkim wejściem, rzędy leżaków (bagni), woda mniej przejrzysta; latem tłok i życie nocne. Pogoda ze stacji Rimini-Miramare (Aeronautica Militare 1991–2020). Zieleń: płaska równina, parki. Wycieczki: stare miasto Rimini (łuk Augusta, most Tyberiusza), San Marino (ok. 30 min), Rawenna (mozaiki UNESCO), Urbino, San Leo, Bolonia. Poza sezonem wiele hoteli zamkniętych. Dojazd: bez przesiadek Wizz Air i Ryanair do Bolonii ok. 2 h, dalej ok. 1,5 h drogi.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Rome",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 2.1,
+    "stops": 0,
+    "transfer": {
+      "est": 1.3
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "płytkie wejście",
+      "stare miasto",
+      "życie nocne"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 8.4,
+      "temp_night": 0.9,
+      "dew_point": 2.2,
+      "sun": 2.1,
+      "rain": 41,
+      "rain_days": 5.4,
+      "uv": 1,
+      "wind": 16,
+      "water": 11.7,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 10,
+      "temp_night": 1.2,
+      "dew_point": 2.4,
+      "sun": 3.3,
+      "rain": 46,
+      "rain_days": 5.7,
+      "uv": 2,
+      "wind": 16,
+      "water": 10.6,
+      "flight_price": {
+        "est": 600
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 13.6,
+      "temp_night": 4.3,
+      "dew_point": 5.5,
+      "sun": 4.8,
+      "rain": 50,
+      "rain_days": 6.6,
+      "uv": 4,
+      "wind": 15,
+      "water": 10.6,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.3,
+      "temp_night": 7.7,
+      "dew_point": 9.1,
+      "sun": 5.4,
+      "rain": 54,
+      "rain_days": 7.1,
+      "uv": 5,
+      "wind": 14,
+      "water": 13.3,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 22.3,
+      "temp_night": 12.2,
+      "dew_point": 13.5,
+      "sun": 7.1,
+      "rain": 51,
+      "rain_days": 6.5,
+      "uv": 7,
+      "wind": 13,
+      "water": 17.8,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26.7,
+      "temp_night": 16.5,
+      "dew_point": 17.2,
+      "sun": 8.6,
+      "rain": 55,
+      "rain_days": 4.8,
+      "uv": 8,
+      "wind": 12,
+      "water": 22.2,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.1,
+      "temp_night": 19,
+      "dew_point": 19.3,
+      "sun": 9.6,
+      "rain": 50,
+      "rain_days": 4.1,
+      "uv": 8,
+      "wind": 12,
+      "water": 25,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.1,
+      "temp_night": 19.1,
+      "dew_point": 19.8,
+      "sun": 8.3,
+      "rain": 48,
+      "rain_days": 4.3,
+      "uv": 7,
+      "wind": 12,
+      "water": 25.6,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 24.7,
+      "temp_night": 15.1,
+      "dew_point": 16.2,
+      "sun": 6.8,
+      "rain": 74,
+      "rain_days": 7.2,
+      "uv": 5,
+      "wind": 13,
+      "water": 22.8,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 19.7,
+      "temp_night": 11.2,
+      "dew_point": 12.8,
+      "sun": 5.3,
+      "rain": 78,
+      "rain_days": 7.8,
+      "uv": 3,
+      "wind": 14,
+      "water": 19.4,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 14,
+      "temp_night": 6.7,
+      "dew_point": 8.2,
+      "sun": 3.2,
+      "rain": 68,
+      "rain_days": 7.6,
+      "uv": 2,
+      "wind": 16,
+      "water": 16.1,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 9.3,
+      "temp_night": 1.9,
+      "dew_point": 3.3,
+      "sun": 2.4,
+      "rain": 53,
+      "rain_days": 6.9,
+      "uv": 1,
+      "wind": 16,
+      "water": 13.3,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Rimini – stacja Miramare, normy 1991–2020 (Aeronautica Militare): temperatury, opad, dni z opadem ≥ 1 mm, wilgotność, punkt rosy, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Rimini",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Rimini – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/72347/Average-Weather-in-Rimini-Italy-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Bolonia (bez przesiadek Wizz Air (5× w tygodniu), Ryanair (3×), sezonowo LOT, średnio 2 h 06 min; II 330 zł najtaniej, IX 628 zł, XII 640 zł najdrożej, średnia 508 zł, typowo 345–713 zł; do Rimini (RMI) brak lotów bez przesiadek)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Bolonia-BLQ",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Rimini w ofercie biur głównie z dojazdem autokarowym lub własnym; wczasów samolotowych 7 nocy nie znalazłem (Rainbow: Emilia-Romania tylko objazd). (szczegóły: research/kolumna-package_price-notatki.md)",
+      "url": "https://r.pl/wlochy/emilia-romania",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: Rimini – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 1, 2, 4, 5, 7, 8, 8, 7, 5, 3, 2, 1",
+      "url": "https://www.weather2travel.com/italy/rimini/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 2–2,4 (kontrola modelu: 2,2 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=12.57&lat=44.06",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

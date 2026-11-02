@@ -3,6 +3,8 @@
   "country": "Grecja (Zakynthos)",
   "place": "Tsilivi / Kalamaki, Zakynthos",
   "notes": "Klimat śródziemnomorski Morza Jońskiego: gorące, suche lato VI–IX (ok. 30–31 °C), woda najcieplejsza VIII–IX (25–26 °C); deszczowa jesień i zima X–III (jedna z najwilgotniejszych wysp Grecji). Baza pobytu: Tsilivi (wschodnie wybrzeże, piaszczysta plaża, spokojna woda) lub Kalamaki (płytka, piaszczysta zatoka Laganas, plaża lęgowa żółwi – ograniczenia nocą). Pogoda ze stacji lotniska Zakynthos (NOAA 1961–1990). Zieleń: bardzo zielona wyspa – gaje oliwne, sosny. Wycieczki: zatoka Navagio (z łodzi), Błękitne Groty, przylądek Keri, żółwie w zatoce Laganas, miasto Zakynthos. Poza sezonem większość hoteli zamknięta. Dojazd: regularnie z 1 przesiadką (Bergamo) ok. 5 h 20 min; latem czartery biur bez przesiadek; z lotniska ok. 10 km.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Athens",
   "fixed": {
     "beaches": {
       "est": 4
@@ -20,7 +22,14 @@
     "stops": 1,
     "transfer": {
       "est": 0.3
-    }
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "płytkie wejście",
+      "dzika przyroda"
+    ]
   },
   "months": [
     {
@@ -37,9 +46,7 @@
       },
       "rain": 150,
       "rain_days": 12.8,
-      "uv": {
-        "est": 3
-      },
+      "uv": 2,
       "wind": {
         "est": 17
       },
@@ -47,7 +54,8 @@
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -63,9 +71,7 @@
       },
       "rain": 113,
       "rain_days": 11.3,
-      "uv": {
-        "est": 4
-      },
+      "uv": 3,
       "wind": {
         "est": 18
       },
@@ -73,7 +79,8 @@
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -89,9 +96,7 @@
       },
       "rain": 90,
       "rain_days": 8.2,
-      "uv": {
-        "est": 6
-      },
+      "uv": 5,
       "wind": {
         "est": 17
       },
@@ -99,7 +104,8 @@
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -115,9 +121,7 @@
       },
       "rain": 51,
       "rain_days": 6.1,
-      "uv": {
-        "est": 7
-      },
+      "uv": 6,
       "wind": {
         "est": 16
       },
@@ -125,7 +129,8 @@
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -141,9 +146,7 @@
       },
       "rain": 17,
       "rain_days": 2.5,
-      "uv": {
-        "est": 7
-      },
+      "uv": 8,
       "wind": {
         "est": 13
       },
@@ -151,7 +154,10 @@
       "flight_price": {
         "est": 1300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2000
+      }
     },
     {
       "local_season": {
@@ -167,9 +173,7 @@
       },
       "rain": 7,
       "rain_days": 1.1,
-      "uv": {
-        "est": 8
-      },
+      "uv": 9,
       "wind": {
         "est": 12
       },
@@ -177,7 +181,10 @@
       "flight_price": {
         "est": 1000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2400
+      }
     },
     {
       "local_season": {
@@ -193,9 +200,7 @@
       },
       "rain": 5,
       "rain_days": 0.5,
-      "uv": {
-        "est": 8
-      },
+      "uv": 10,
       "wind": {
         "est": 12
       },
@@ -203,7 +208,10 @@
       "flight_price": {
         "est": 1600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2700
+      }
     },
     {
       "local_season": {
@@ -219,9 +227,7 @@
       },
       "rain": 9,
       "rain_days": 0.9,
-      "uv": {
-        "est": 8
-      },
+      "uv": 9,
       "wind": {
         "est": 12
       },
@@ -229,7 +235,10 @@
       "flight_price": {
         "est": 1600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2800
+      }
     },
     {
       "local_season": {
@@ -245,9 +254,7 @@
       },
       "rain": 25,
       "rain_days": 2.8,
-      "uv": {
-        "est": 6
-      },
+      "uv": 7,
       "wind": {
         "est": 14
       },
@@ -255,7 +262,10 @@
       "flight_price": {
         "est": 1300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
     },
     {
       "local_season": {
@@ -271,9 +281,7 @@
       },
       "rain": 147,
       "rain_days": 8.1,
-      "uv": {
-        "est": 5
-      },
+      "uv": 5,
       "wind": {
         "est": 15
       },
@@ -281,7 +289,10 @@
       "flight_price": {
         "est": 1800
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2000
+      }
     },
     {
       "local_season": {
@@ -297,9 +308,7 @@
       },
       "rain": 159,
       "rain_days": 11,
-      "uv": {
-        "est": 3
-      },
+      "uv": 3,
       "wind": {
         "est": 18
       },
@@ -307,7 +316,8 @@
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -323,9 +333,7 @@
       },
       "rain": 170,
       "rain_days": 13.2,
-      "uv": {
-        "est": 3
-      },
+      "uv": 2,
       "wind": {
         "est": 19
       },
@@ -333,7 +341,8 @@
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -348,7 +357,7 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "San Vito lo Capo (kierunki/san-vito-lo-capo.json): UV BestDateWeather Sycylia i wiatr NASA POWER Trapani – zastępstwo (ta sama szerokość, środkowe Morze Śródziemne)",
+      "title": "San Vito lo Capo (kierunki/san-vito-lo-capo.json): wiatr NASA POWER Trapani – zastępstwo (ta sama szerokość, środkowe Morze Śródziemne)",
       "url": "https://bestdateweather.com/en/sicily-weather-january",
       "checked": "2026-10-16"
     },
@@ -356,6 +365,31 @@
       "title": "KAYAK.pl: Warszawa – Zakynthos (brak regularnych lotów bezpośrednich; z 1 przesiadką Bergamo 5 h 20 min; ceny: VI 732 zł najtaniej, X ok. 1 530 zł najdrożej, średnia 1 017 zł, typowo 752–1 380 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Zakynthos-ZTH",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow IX: Georgina Inn 4,6/6 – 2 315 zł (last minute); Itaka VII: tylko 4-dniowe (Azure Resort, Tsilivi, 5,1/6 – 3 659 zł za 4 dni). Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Tsilivi – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 3, 5, 6, 8, 9, 10, 9, 7, 5, 3, 2",
+      "url": "https://www.weather2travel.com/zante/tsilivi/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 3–3,5 (kontrola modelu: 3,4 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=20.85&lat=37.8",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

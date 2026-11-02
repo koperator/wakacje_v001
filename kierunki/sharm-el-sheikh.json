@@ -3,6 +3,8 @@
   "country": "Egipt",
   "place": "Sharm el-Sheikh (Naama Bay / Sharks Bay)",
   "notes": "Pustynny klimat południowego Synaju: praktycznie bez deszczu, upał V–IX (ok. 34–37 °C), łagodnie XII–II (ok. 22 °C w dzień, chłodne noce ok. 13–15 °C), stały wiatr z północy. Woda: ok. 23 °C w II–III, ok. 29 °C w VIII. Baza pobytu: Naama Bay (piaszczysta, spokojna zatoka) i Sharks Bay (rafa tuż przy brzegu, wejście z pomostu). Pogoda z tabeli Wikipedii (WMO / Climate-Data.org, okres niepodany; punkt rosy timeanddate 2005–2015) – temperatury jako szacunek. Zieleń: pustynia i góry Synaju. Wycieczki: park narodowy Ras Mohammed, Tiran, Dahab i Blue Hole, klasztor św. Katarzyny i góra Synaj. Dojazd: regularnie z 1 przesiadką w Kairze, ok. 9 h; bez przesiadek tylko czarterami (ok. 4 h 10 min).",
+  "entryNote": "Paszport ważny 6 mies. po powrocie; wiza po przylocie 30 USD (albo e-wiza wcześniej); przy pobycie tylko w południowym Synaju do 15 dni zwykle wystarcza bezpłatny stempel „Sinai only”.",
+  "tz": "Africa/Cairo",
   "fixed": {
     "beaches": {
       "est": 3
@@ -20,7 +22,17 @@
     "stops": 1,
     "transfer": {
       "est": 0.3
-    }
+    },
+    "continent": "Afryka",
+    "region": "Morze Czerwone",
+    "entry": "wiza na lotnisku",
+    "tags": [
+      "rafa i snorkeling",
+      "nurkowanie",
+      "góry i trekking",
+      "pustynia",
+      "życie nocne"
+    ]
   },
   "months": [
     {
@@ -41,7 +53,7 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 4,
+      "uv": 5,
       "wind": {
         "est": 18
       },
@@ -49,7 +61,10 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2000
+      }
     },
     {
       "local_season": {
@@ -69,7 +84,7 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 5,
+      "uv": 6,
       "wind": {
         "est": 18
       },
@@ -77,7 +92,10 @@
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2100
+      }
     },
     {
       "local_season": {
@@ -97,7 +115,7 @@
       "rain_days": {
         "est": 0.5
       },
-      "uv": 6,
+      "uv": 8,
       "wind": {
         "est": 18
       },
@@ -111,7 +129,10 @@
           "level": 1,
           "note": "Wiatr z pustyni (chamsin) wiosną: w pojedyncze dni burze piaskowe i pyłowe, upał i ograniczona widoczność."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 2100
+      }
     },
     {
       "local_season": {
@@ -131,7 +152,7 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 7,
+      "uv": 11,
       "wind": {
         "est": 17
       },
@@ -145,7 +166,10 @@
           "level": 1,
           "note": "Wiatr z pustyni (chamsin) wiosną: w pojedyncze dni burze piaskowe i pyłowe, upał i ograniczona widoczność."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 2200
+      }
     },
     {
       "local_season": {
@@ -165,7 +189,7 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 8,
+      "uv": 11,
       "wind": {
         "est": 18
       },
@@ -173,7 +197,10 @@
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
     },
     {
       "local_season": {
@@ -193,7 +220,9 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 19
       },
@@ -201,7 +230,10 @@
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2400
+      }
     },
     {
       "local_season": {
@@ -221,7 +253,9 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 17
       },
@@ -229,7 +263,10 @@
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
     },
     {
       "local_season": {
@@ -249,7 +286,7 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 8,
+      "uv": 11,
       "wind": {
         "est": 18
       },
@@ -257,7 +294,10 @@
       "flight_price": {
         "est": 2600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
     },
     {
       "local_season": {
@@ -277,7 +317,7 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 7,
+      "uv": 10,
       "wind": {
         "est": 19
       },
@@ -285,7 +325,10 @@
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2400
+      }
     },
     {
       "local_season": {
@@ -305,7 +348,7 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 6,
+      "uv": 8,
       "wind": {
         "est": 16
       },
@@ -313,7 +356,10 @@
       "flight_price": {
         "est": 2000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2100
+      }
     },
     {
       "local_season": {
@@ -341,7 +387,10 @@
       "flight_price": {
         "est": 2000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 1800
+      }
     },
     {
       "local_season": {
@@ -369,7 +418,10 @@
       "flight_price": {
         "est": 2500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2200
+      }
     }
   ],
   "sources": [
@@ -384,16 +436,6 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "BestDateWeather: Sharm el-Sheikh – pogoda miesiąc po miesiącu (12 stron, np. /sharm-el-sheikh-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 27.98°N 34.38°E",
-      "url": "https://bestdateweather.com/en/sharm-el-sheikh-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "Weather Spark: Marsa Alam – średnia prędkość wiatru (zastępstwo dla Sharm el-Sheikh, to samo Morze Czerwone)",
       "url": "https://weatherspark.com/y/98148/Average-Weather-in-Marsa-Alam-Egypt-Year-Round",
       "checked": "2026-10-16"
@@ -402,6 +444,36 @@
       "title": "KAYAK.pl: Warszawa – Szarm el-Szejk (z 1 przesiadką przez Kair średnio 8 h 59 min; bez przesiadek SkyUp MT 4 h 10 min – czarter; ceny: I 946 zł najtaniej, XII 2 491 zł, VIII 2 585 zł najdrożej, średnia 1 379 zł, typowo 932–2 273 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Szarm-el-Szejk-SSH",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: tylko wyjazdy 4–5-dniowe, Rainbow bez ofert. Szacunek: poziom Marsa Alam −5%; Rainbow Hurghada XII od 1 985 zł (Lemon & Soul 5,3/6). Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: egipt",
+      "url": "https://r.pl/wytyczne/egipt",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Sharm el-Sheikh – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 5, 6, 8, 11, 11, 11+, 11+, 11, 10, 8, 5, 4; miesiące VI, VII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/red-sea-egypt/sharm-el-sheikh/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 5,9–6,5 (kontrola modelu: 6,2 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=34.33&lat=27.9",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

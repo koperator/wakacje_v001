@@ -1,0 +1,439 @@
+{
+  "id": "samos",
+  "country": "Grecja",
+  "place": "Samos (Pythagoreio / Kokkari)",
+  "notes": "Klimat śródziemnomorski: gorące, suche lato (ok. 33 °C w VII–VIII, prawie bez deszczu VI–VIII), deszczowa zima (XI–I po 120–160 mm). Woda do kąpieli VI–IX (22–24 °C). Latem meltemi – silny wiatr z północy po kilka dni z rzędu. Baza pobytu: Pythagoreio (południe, osłonięte) i Kokkari (północ) – plaże głównie z drobnymi kamykami, czysta woda. Pogoda ze stacji lotniska Samos (HNMS 1978–2010); nasłonecznienie z Kuşadası (ok. 30 km). Zieleń: zalesiona, górzysta wyspa (sosny, winnice). Wycieczki: tunel Eupalinosa i Heraion (UNESCO), góry Kerkis i Ampelos, Efez w Turcji (prom z Samos do Kuşadası). Ceny umiarkowane. Dojazd: regularnie z 1 przesiadką w Atenach ok. 6,5 h; latem czartery biur bez przesiadek.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Athens",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": {
+      "est": 6.6
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 0.2
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "góry i trekking",
+      "ruiny",
+      "spokój"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 13.5,
+      "temp_night": 7.2,
+      "dew_point": {
+        "est": 5.2
+      },
+      "sun": {
+        "est": 4.5
+      },
+      "rain": 135,
+      "rain_days": {
+        "est": 8.2
+      },
+      "uv": 2,
+      "wind": 21,
+      "water": {
+        "est": 16.1
+      },
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 13.5,
+      "temp_night": 6.9,
+      "dew_point": {
+        "est": 4.5
+      },
+      "sun": {
+        "est": 5.2
+      },
+      "rain": 106,
+      "rain_days": {
+        "est": 7.6
+      },
+      "uv": 3,
+      "wind": 21,
+      "water": {
+        "est": 15.6
+      },
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15.9,
+      "temp_night": 8.4,
+      "dew_point": {
+        "est": 6.3
+      },
+      "sun": {
+        "est": 6.8
+      },
+      "rain": 76,
+      "rain_days": {
+        "est": 5.8
+      },
+      "uv": 5,
+      "wind": 20,
+      "water": {
+        "est": 15.6
+      },
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 19.7,
+      "temp_night": 11.1,
+      "dew_point": {
+        "est": 9.2
+      },
+      "sun": {
+        "est": 8.3
+      },
+      "rain": 40,
+      "rain_days": {
+        "est": 5.2
+      },
+      "uv": 6,
+      "wind": 17,
+      "water": {
+        "est": 16.7
+      },
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 24.9,
+      "temp_night": 14.9,
+      "dew_point": {
+        "est": 12.2
+      },
+      "sun": {
+        "est": 10
+      },
+      "rain": 20,
+      "rain_days": {
+        "est": 2.8
+      },
+      "uv": 8,
+      "wind": 15,
+      "water": {
+        "est": 18.9
+      },
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.1,
+      "temp_night": 19.5,
+      "dew_point": {
+        "est": 14.4
+      },
+      "sun": {
+        "est": 12
+      },
+      "rain": 2,
+      "rain_days": {
+        "est": 0.7
+      },
+      "uv": 9,
+      "wind": 17,
+      "water": {
+        "est": 21.7
+      },
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2700
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 33,
+      "temp_night": 22.8,
+      "dew_point": {
+        "est": 15
+      },
+      "sun": {
+        "est": 12.3
+      },
+      "rain": 1,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": 10,
+      "wind": 20,
+      "water": {
+        "est": 23.3
+      },
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Meltemi (silny wiatr z północy) wieje po kilka dni z rzędu: wysoka fala na plażach północnego wybrzeża (Kokkari), odwołane rejsy w części dni; południe (Pythagoreio) osłonięte."
+        }
+      ],
+      "package_price": {
+        "est": 3000
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.8,
+      "temp_night": 22.8,
+      "dew_point": {
+        "est": 15.6
+      },
+      "sun": {
+        "est": 11.6
+      },
+      "rain": 1,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": 9,
+      "wind": 20,
+      "water": {
+        "est": 23.9
+      },
+      "flight_price": {
+        "est": 2100
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Meltemi (silny wiatr z północy) wieje po kilka dni z rzędu: wysoka fala na plażach północnego wybrzeża (Kokkari), odwołane rejsy w części dni; południe (Pythagoreio) osłonięte."
+        }
+      ],
+      "package_price": {
+        "est": 3100
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 28.6,
+      "temp_night": 19.2,
+      "dew_point": {
+        "est": 14.3
+      },
+      "sun": {
+        "est": 9.9
+      },
+      "rain": 16,
+      "rain_days": {
+        "est": 1.3
+      },
+      "uv": 7,
+      "wind": 18,
+      "water": {
+        "est": 22.8
+      },
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 23.5,
+      "temp_night": 15.5,
+      "dew_point": {
+        "est": 12.2
+      },
+      "sun": {
+        "est": 7.6
+      },
+      "rain": 36,
+      "rain_days": {
+        "est": 3.5
+      },
+      "uv": 5,
+      "wind": 18,
+      "water": {
+        "est": 21.1
+      },
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 18.4,
+      "temp_night": 11.3,
+      "dew_point": {
+        "est": 9.1
+      },
+      "sun": {
+        "est": 5.6
+      },
+      "rain": 116,
+      "rain_days": {
+        "est": 6.6
+      },
+      "uv": 3,
+      "wind": 19,
+      "water": {
+        "est": 18.9
+      },
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15,
+      "temp_night": 8.8,
+      "dew_point": {
+        "est": 7.2
+      },
+      "sun": {
+        "est": 4.2
+      },
+      "rain": 157,
+      "rain_days": {
+        "est": 9.7
+      },
+      "uv": 2,
+      "wind": 20,
+      "water": {
+        "est": 17.8
+      },
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Samos – lotnisko, normy 1978–2010 (HNMS): temperatury, opad, dni z opadem (próg niepodany), wilgotność",
+      "url": "https://en.wikipedia.org/wiki/Samos",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wikipedia: Kuşadası – normy 1991–2020 (MGM): temperatury, opad, dni z opadem, wilgotność, nasłonecznienie – nasłonecznienie zastępczo",
+      "url": "https://en.wikipedia.org/wiki/Ku%C5%9Fadas%C4%B1",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Pythagoreio – średnia prędkość wiatru (średnia godzinowa, MERRA-2)",
+      "url": "https://weatherspark.com/y/92902/Average-Weather-in-Pythag%C3%B3reio-Greece-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Kuşadası – temperatura morza – zastępczo dla Samos",
+      "url": "https://weatherspark.com/y/94287/Average-Weather-in-Ku%C5%9Fadas%C4%B1-Turkey-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Samos (regularnie z 1 przesiadką w Atenach (najkrótszy powrót 6 h 35 min); latem czartery Enter Air; V ok. 720 zł najtaniej, VIII ok. 2 490 zł najdrożej, średnia 1 306 zł, typowo 721–1 826 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Samos-SMI",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow (7 nocy, ocen nie podano): V Kokkari Beach (śniadania, Warszawa) – 2 999, VI Mykali (śniadania, Katowice) – 2 681 zł; AI: Arion VI – 3 934 zł. Wyżywienie: śniadania.",
+      "url": "https://r.pl/grecja/samos",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: Samos – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 3, 5, 6, 8, 9, 10, 9, 7, 5, 3, 2",
+      "url": "https://www.weather2travel.com/samos/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 3–3,5 (kontrola modelu: 3,5 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=26.94&lat=37.7",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

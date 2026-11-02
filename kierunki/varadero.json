@@ -3,6 +3,8 @@
   "country": "Kuba",
   "place": "Varadero",
   "notes": "Północne wybrzeże Kuby: pora sucha XI–IV (najprzyjemniej, ok. 26–29 °C, chłodniejsze noce przy frontach z północy), pora deszczowa V–X z upałem i burzami; sezon huraganów VI–XI, najczęściej IX–X. Baza pobytu: półwysep Hicacos – ok. 20 km białej, płytkiej plaży ze spokojną wodą, resorty all inclusive. Pogoda: temperatury z lotniska Juan Gualberto Gómez (NOAA, dane dzienne 1991–2020, climate-zone.com), opad, dni deszczowe i słońce ze stacji Casa Blanca w Hawanie (WMO 1991–2020, ok. 140 km) – szacunek. Zieleń: zarośla i palmy na wąskim półwyspie. Wycieczki: Hawana (UNESCO, ok. 2 h), Matanzas, jaskinie Bellamar, Cienfuegos i Trynidad (dalej). Dojazd: z 1 przesiadką (Madryt, Paryż) do Hawany ok. 16 h, dalej ok. 2 h drogi; zimą czartery biur z Polski do Varadero.",
+  "entryNote": "Paszport ważny 3 mies. po powrocie; e-wiza przed wylotem (22 EUR, evisacuba.cu, także dla dzieci) i formularz D’Viajeros (kod QR).",
+  "tz": "America/Havana",
   "fixed": {
     "beaches": {
       "est": 5
@@ -22,7 +24,15 @@
     "stops": 1,
     "transfer": {
       "est": 2
-    }
+    },
+    "continent": "Ameryka Północna i Karaiby",
+    "region": "Karaiby",
+    "entry": "wiza przed wylotem",
+    "tags": [
+      "rajska plaża",
+      "płytkie wejście",
+      "stare miasto"
+    ]
   },
   "months": [
     {
@@ -47,9 +57,7 @@
       "rain_days": {
         "est": 6.4
       },
-      "uv": {
-        "est": 6
-      },
+      "uv": 6,
       "wind": {
         "est": 15
       },
@@ -57,7 +65,8 @@
       "flight_price": {
         "est": 4500
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -81,9 +90,7 @@
       "rain_days": {
         "est": 5.8
       },
-      "uv": {
-        "est": 7
-      },
+      "uv": 8,
       "wind": {
         "est": 14
       },
@@ -91,7 +98,8 @@
       "flight_price": {
         "est": 4500
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -115,9 +123,7 @@
       "rain_days": {
         "est": 5.1
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 10,
       "wind": {
         "est": 15
       },
@@ -125,7 +131,8 @@
       "flight_price": {
         "est": 4500
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -150,7 +157,7 @@
         "est": 5.3
       },
       "uv": {
-        "est": 9
+        "est": 12
       },
       "wind": {
         "est": 14
@@ -159,7 +166,8 @@
       "flight_price": {
         "est": 4500
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -184,7 +192,7 @@
         "est": 8.9
       },
       "uv": {
-        "est": 9
+        "est": 12
       },
       "wind": {
         "est": 14
@@ -193,7 +201,8 @@
       "flight_price": {
         "est": 4100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -218,7 +227,7 @@
         "est": 12.6
       },
       "uv": {
-        "est": 8
+        "est": 12
       },
       "wind": {
         "est": 12
@@ -227,7 +236,8 @@
       "flight_price": {
         "est": 4100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -251,9 +261,7 @@
       "rain_days": {
         "est": 11.4
       },
-      "uv": {
-        "est": 9
-      },
+      "uv": 11,
       "wind": {
         "est": 12
       },
@@ -261,7 +269,8 @@
       "flight_price": {
         "est": 4300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -285,9 +294,7 @@
       "rain_days": {
         "est": 12.3
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 11,
       "wind": {
         "est": 12
       },
@@ -295,7 +302,8 @@
       "flight_price": {
         "est": 4300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -319,9 +327,7 @@
       "rain_days": {
         "est": 14.1
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 11,
       "wind": {
         "est": 11
       },
@@ -335,7 +341,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów (IX–X najbardziej prawdopodobne): przy huraganie kilka dni ulew, wichury i fal, odwołane loty i wycieczki, możliwe przerwy w dostawie prądu."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -359,9 +366,7 @@
       "rain_days": {
         "est": 11.8
       },
-      "uv": {
-        "est": 7
-      },
+      "uv": 9,
       "wind": {
         "est": 14
       },
@@ -375,7 +380,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów (IX–X najbardziej prawdopodobne): przy huraganie kilka dni ulew, wichury i fal, odwołane loty i wycieczki, możliwe przerwy w dostawie prądu."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -399,9 +405,7 @@
       "rain_days": {
         "est": 7.7
       },
-      "uv": {
-        "est": 6
-      },
+      "uv": 7,
       "wind": {
         "est": 15
       },
@@ -409,7 +413,8 @@
       "flight_price": {
         "est": 4100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -433,9 +438,7 @@
       "rain_days": {
         "est": 6.5
       },
-      "uv": {
-        "est": 5
-      },
+      "uv": 6,
       "wind": {
         "est": 14
       },
@@ -443,7 +446,8 @@
       "flight_price": {
         "est": 4500
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -468,7 +472,7 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "Cancún (kierunki/cancun.json): UV BestDateWeather – zastępstwo (ta sama szerokość, Zatoka Meksykańska / Karaiby); poziom cen lotów przeniesiony z trasy WAW–CUN (średnia 4 299 zł, typowo 3 899–4 790 zł)",
+      "title": "Cancún (kierunki/cancun.json): poziom cen lotów przeniesiony z trasy WAW–CUN (średnia 4 299 zł, typowo 3 899–4 790 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Cancun-CUN",
       "checked": "2026-10-16"
     },
@@ -476,6 +480,35 @@
       "title": "KAYAK.pl: Warszawa – Varadero i Warszawa – Hawana (brak lotów bezpośrednich, brak statystyk cen i czasu)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Varadero-VRA",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Brak ofert Itaki i Rainbow na Kubę w sezonie 2026/27 (sprawdzone I 2027). (szczegóły: research/kolumna-package_price-notatki.md)",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: kuba",
+      "url": "https://r.pl/wytyczne/kuba",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Varadero – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 6, 8, 10, 11+, 11+, 11+, 11, 11, 11, 9, 7, 6; miesiące IV, V, VI („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/cuba/varadero/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 7,2–8,4 (kontrola modelu: 7,5 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-81.25&lat=23.15",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

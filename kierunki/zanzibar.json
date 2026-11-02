@@ -3,6 +3,8 @@
   "country": "Tanzania",
   "place": "Zanzibar (Nungwi / Kendwa)",
   "notes": "Dwie pory deszczowe: długa (masika) III–V z maksimum w IV i krótka (vuli) XI–XII; sucho VI–X i I–II. Baza pobytu: Nungwi i Kendwa na północnym krańcu wyspy, gdzie pływy są słabe i można pływać o każdej porze. Pogoda ze stacji Zanzibar/Kisauni przy lotnisku (ok. 55 km na S, normy 1991–2020); północ wyspy jest raczej nieco suchsza. Zieleń: palmy i nadmorskie zarośla na koralowym podłożu, w porze suchej brązowo. Wycieczki: Stone Town (UNESCO, ok. 1 h), farmy przypraw, las Jozani, snorkeling przy atolu Mnemba, Prison Island. W długich deszczach część hoteli zamknięta. Dojazd: z 1 przesiadką (Stambuł, Dubaj, Doha, Addis Abeba), ok. 14 h; z lotniska ok. 1 h drogi.",
+  "entryNote": "Paszport ważny 6 mies. po powrocie; wiza ok. 50 USD po przylocie albo e-wiza wcześniej; obowiązkowe ubezpieczenie Zanzibaru (ZIC, ok. 44 USD) kupowane online.",
+  "tz": "Africa/Dar_es_Salaam",
   "fixed": {
     "beaches": {
       "est": 4
@@ -20,7 +22,17 @@
     "stops": 1,
     "transfer": {
       "est": 1.3
-    }
+    },
+    "continent": "Afryka",
+    "region": "Afryka Wschodnia",
+    "entry": "wiza na lotnisku",
+    "tags": [
+      "rajska plaża",
+      "rafa i snorkeling",
+      "nurkowanie",
+      "dzika przyroda",
+      "stare miasto"
+    ]
   },
   "months": [
     {
@@ -37,7 +49,9 @@
       },
       "rain": 74,
       "rain_days": 5.6,
-      "uv": 7,
+      "uv": {
+        "est": 13
+      },
       "wind": 20,
       "water": 28.4,
       "flight_price": {
@@ -49,7 +63,10 @@
           "level": 1,
           "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III, np. 2027: ok. 8.02–9.03): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w ciągu dnia źle widziane, skromniejszy strój poza resortem; hotele działają normalnie."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 6200
+      }
     },
     {
       "local_season": {
@@ -65,7 +82,9 @@
       },
       "rain": 51,
       "rain_days": 3.6,
-      "uv": 8,
+      "uv": {
+        "est": 14
+      },
       "wind": 19,
       "water": 28.3,
       "flight_price": {
@@ -77,7 +96,10 @@
           "level": 1,
           "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III, np. 2027: ok. 8.02–9.03): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w ciągu dnia źle widziane, skromniejszy strój poza resortem; hotele działają normalnie."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 6400
+      }
     },
     {
       "local_season": {
@@ -93,7 +115,9 @@
       },
       "rain": 177,
       "rain_days": 11,
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": 14,
       "water": 29.1,
       "flight_price": {
@@ -105,7 +129,10 @@
           "level": 1,
           "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III, np. 2027: ok. 8.02–9.03): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w ciągu dnia źle widziane, skromniejszy strój poza resortem; hotele działają normalnie."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 6000
+      }
     },
     {
       "local_season": {
@@ -121,7 +148,9 @@
       },
       "rain": 409,
       "rain_days": 17.5,
-      "uv": 7,
+      "uv": {
+        "est": 13
+      },
       "wind": 18,
       "water": 29.2,
       "flight_price": {
@@ -133,7 +162,8 @@
           "level": 1,
           "note": "Długa pora deszczowa (masika): część hoteli i restauracji w Nungwi i Kendwa zamknięta albo z ograniczoną ofertą, mniej wycieczek."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -149,7 +179,7 @@
       },
       "rain": 298,
       "rain_days": 13.8,
-      "uv": 7,
+      "uv": 10,
       "wind": 23,
       "water": 28.3,
       "flight_price": {
@@ -161,7 +191,8 @@
           "level": 1,
           "note": "Długa pora deszczowa (masika): część hoteli i restauracji w Nungwi i Kendwa zamknięta albo z ograniczoną ofertą, mniej wycieczek."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -177,13 +208,16 @@
       },
       "rain": 52,
       "rain_days": 5.3,
-      "uv": 7,
+      "uv": 9,
       "wind": 25,
       "water": 27,
       "flight_price": {
         "est": 4300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5700
+      }
     },
     {
       "local_season": {
@@ -199,13 +233,16 @@
       },
       "rain": 31,
       "rain_days": 4.3,
-      "uv": 7,
+      "uv": 10,
       "wind": 25,
       "water": 26,
       "flight_price": {
         "est": 4400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6500
+      }
     },
     {
       "local_season": {
@@ -221,13 +258,16 @@
       },
       "rain": 38,
       "rain_days": 6,
-      "uv": 8,
+      "uv": 11,
       "wind": 22,
       "water": 25.7,
       "flight_price": {
         "est": 4300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6700
+      }
     },
     {
       "local_season": {
@@ -243,13 +283,18 @@
       },
       "rain": 37,
       "rain_days": 5.1,
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 20,
       "water": 25.8,
       "flight_price": {
         "est": 4300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5700
+      }
     },
     {
       "local_season": {
@@ -265,13 +310,18 @@
       },
       "rain": 116,
       "rain_days": 6.9,
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 18,
       "water": 26.5,
       "flight_price": {
         "est": 3900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5700
+      }
     },
     {
       "local_season": {
@@ -287,13 +337,18 @@
       },
       "rain": 201,
       "rain_days": 13.7,
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 15,
       "water": 27.8,
       "flight_price": {
         "est": 3300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5600
+      }
     },
     {
       "local_season": {
@@ -309,13 +364,18 @@
       },
       "rain": 168,
       "rain_days": 12.2,
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 18,
       "water": 28.4,
       "flight_price": {
         "est": 4700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6800
+      }
     }
   ],
   "sources": [
@@ -345,16 +405,6 @@
       "checked": "2026-10-13"
     },
     {
-      "title": "BestDateWeather: Zanzibar – pogoda miesiąc po miesiącu (12 stron, np. /zanzibar-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 6.16°S 39.20°E",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-zanzibar",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-13"
-    },
-    {
       "title": "Altezza Travel: najlepszy czas na Zanzibar (szczyt VI–X i XII–II, długie deszcze IV–V z zamkniętymi hotelami, brak pływów w Nungwi i Kendwa)",
       "url": "https://altezzatravel.com/articles/best-time-to-visit-zanzibar",
       "checked": "2026-10-13"
@@ -373,6 +423,36 @@
       "title": "KAYAK.pl: Warszawa – Zanzibar – statystyki cen w obie strony (miesiące: VII 4 436, XI 3 314, XII 4 674; średnia 12 mies. 3 903 zł; typowo 3 405–4 615 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Zanzibar-ZNZ",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: I Dongwe Club Vacanze 5,4/6 – 7 239, VII VOI Kiwengwa 5,3/6 – 7 179 zł; Rainbow: III AHG Dream's Bay 5,7/6 – 5 997, AHG Waridi 5,3/6 – 6 013, XII Sultan Sands 5,6/6 – 7 078 zł. IV–V (pora deszczowa) bez czarterów. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: tanzania",
+      "url": "https://r.pl/wytyczne/tanzania",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Zanzibar – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11+, 11+, 11+, 11+, 10, 9, 10, 11, 11+, 11+, 11+, 11+; miesiące I, II, III, IV, IX, X, XI, XII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/tanzania/zanzibar/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 12,6–13,3 (kontrola modelu: 13,2 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=39.3&lat=-5.75",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

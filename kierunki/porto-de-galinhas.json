@@ -3,6 +3,8 @@
   "country": "Brazylia",
   "place": "Porto de Galinhas",
   "notes": "Wybrzeże Pernambuco w północno-wschodniej Brazylii, ok. 60 km na południe od Recife: ciepło przez cały rok (28–31 °C w dzień, 21–23 °C w nocy), woda 26–28 °C, stały pasat. Pora deszczowa IV–VII (najwięcej VI), najsuchsze i najbardziej słoneczne IX–I. Baza pobytu: Porto de Galinhas – plaża z jasnym piaskiem i palmami, przy odpływie naturalne baseny w rafie z rybami (dopływ jangadą); w pobliżu Muro Alto (spokojna laguna), Cupe i Maracaípe (surfing, koniki morskie). W sezonie i w weekendy tłoczno. Zieleń: palmy kokosowe, namorzyny, resztki lasu atlantyckiego. Wycieczki: Praia dos Carneiros, Olinda (UNESCO) i Recife, wyspa Santo Aleixo. Tanio. Dojazd: 1 przesiadka w Lizbonie (TAP) ok. 17,5 h do Recife; z lotniska ok. 1 h.",
+  "entryNote": "Paszport ważny 6 mies. po powrocie; bez wizy.",
+  "tz": "America/Recife",
   "fixed": {
     "beaches": {
       "est": 4
@@ -20,7 +22,15 @@
     "stops": 1,
     "transfer": {
       "est": 1
-    }
+    },
+    "continent": "Ameryka Środkowa i Południowa",
+    "region": "Wybrzeże Brazylii",
+    "entry": "paszport",
+    "tags": [
+      "rafa i snorkeling",
+      "surfing",
+      "stare miasto"
+    ]
   },
   "months": [
     {
@@ -46,7 +56,7 @@
         "est": 11
       },
       "uv": {
-        "est": 9
+        "est": 14
       },
       "wind": {
         "est": 14
@@ -57,7 +67,8 @@
       "flight_price": {
         "est": 4900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -82,7 +93,7 @@
         "est": 11
       },
       "uv": {
-        "est": 9
+        "est": 14
       },
       "wind": {
         "est": 13
@@ -99,7 +110,8 @@
           "level": 1,
           "note": "Karnawał (II lub III, zależnie od roku): kilka dni świąt w całej Brazylii, Recife i Olinda pełne, noclegi w Porto de Galinhas drogie i wyprzedane."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -124,7 +136,7 @@
         "est": 15
       },
       "uv": {
-        "est": 9
+        "est": 14
       },
       "wind": {
         "est": 12
@@ -141,7 +153,8 @@
           "level": 1,
           "note": "Karnawał (II lub III, zależnie od roku): kilka dni świąt w całej Brazylii, Recife i Olinda pełne, noclegi w Porto de Galinhas drogie i wyprzedane."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -166,7 +179,7 @@
         "est": 17
       },
       "uv": {
-        "est": 8
+        "est": 12
       },
       "wind": {
         "est": 12
@@ -177,7 +190,8 @@
       "flight_price": {
         "est": 4000
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -201,9 +215,7 @@
       "rain_days": {
         "est": 19
       },
-      "uv": {
-        "est": 7
-      },
+      "uv": 10,
       "wind": {
         "est": 12
       },
@@ -213,7 +225,8 @@
       "flight_price": {
         "est": 4000
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -237,9 +250,7 @@
       "rain_days": {
         "est": 22
       },
-      "uv": {
-        "est": 6
-      },
+      "uv": 9,
       "wind": {
         "est": 14
       },
@@ -249,7 +260,8 @@
       "flight_price": {
         "est": 3600
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -273,9 +285,7 @@
       "rain_days": {
         "est": 23
       },
-      "uv": {
-        "est": 7
-      },
+      "uv": 9,
       "wind": {
         "est": 14
       },
@@ -285,7 +295,8 @@
       "flight_price": {
         "est": 4900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -309,9 +320,7 @@
       "rain_days": {
         "est": 19
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 11,
       "wind": {
         "est": 14
       },
@@ -321,7 +330,8 @@
       "flight_price": {
         "est": 4000
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -346,7 +356,7 @@
         "est": 12
       },
       "uv": {
-        "est": 9
+        "est": 13
       },
       "wind": {
         "est": 14
@@ -357,7 +367,8 @@
       "flight_price": {
         "est": 4000
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -382,7 +393,7 @@
         "est": 9
       },
       "uv": {
-        "est": 9
+        "est": 14
       },
       "wind": {
         "est": 14
@@ -393,7 +404,8 @@
       "flight_price": {
         "est": 4400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -418,7 +430,7 @@
         "est": 7
       },
       "uv": {
-        "est": 9
+        "est": 13
       },
       "wind": {
         "est": 14
@@ -429,7 +441,8 @@
       "flight_price": {
         "est": 4400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -454,7 +467,7 @@
         "est": 8
       },
       "uv": {
-        "est": 9
+        "est": 13
       },
       "wind": {
         "est": 14
@@ -465,7 +478,8 @@
       "flight_price": {
         "est": 4900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -490,14 +504,38 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "BestDateWeather: Salvador – pogoda miesiąc po miesiącu (12 stron, np. /salvador-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 12.97°S 38.51°W – zastępczo (Recife się nie wczytał)",
-      "url": "https://bestdateweather.com/en/salvador-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "KAYAK.pl: Warszawa – Recife (1 przesiadka: Lizbona średnio 17 h 21 min, Madryt 20 h 59 min; ceny: VI 3 616 zł najtaniej, III najdrożej ok. 8 593 zł (o 4 977 zł więcej), typowo 3 913–4 808 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Recife-REC",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Polskie biura nie sprzedają tu wczasów z wylotem z Polski (najwyżej wycieczki objazdowe albo pakiety na liniach rejsowych bez stałej oferty). (szczegóły: research/kolumna-package_price-notatki.md)",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: brazylia",
+      "url": "https://r.pl/wytyczne/brazylia",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Recife (ok. 50 km) – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11+, 11+, 11+, 11+, 10, 9, 9, 11, 11+, 11+, 11+, 11+; miesiące I, II, III, IV, IX, X, XI, XII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/brazil/recife/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 13,4–13,9 (kontrola modelu: 13,7 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-35&lat=-8.5",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

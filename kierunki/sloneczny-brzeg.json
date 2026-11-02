@@ -3,6 +3,8 @@
   "country": "Bułgaria",
   "place": "Słoneczny Brzeg / Nesebyr",
   "notes": "Klimat umiarkowany ciepły nad Morzem Czarnym: ciepłe lato VI–VIII (ok. 27–29 °C), woda najcieplejsza VII–VIII (ok. 24–25 °C), zimna zima (ok. 7 °C w dzień, przymrozki, morze ok. 6–9 °C); sezon plażowy realnie VI–IX. Baza pobytu: Słoneczny Brzeg – długa, szeroka plaża z drobnym piaskiem, łagodne wejście; Nesebyr (UNESCO) tuż obok. Pogoda ze stacji Burgas (ok. 30 km, NOAA 1991–2020). Zieleń: nadmorskie parki, wydmy, winnice w głębi lądu. Wycieczki: stare miasto Nesebyr (UNESCO), Sozopol, Burgas, park Strandża. Poza sezonem (X–V) kurort praktycznie zamknięty. Dojazd: bez przesiadek Wizz Air ok. 2 h 15 min; latem dodatkowo czartery; z lotniska ok. 30 km.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Sofia",
   "fixed": {
     "beaches": {
       "est": 4
@@ -20,7 +22,15 @@
     "stops": 0,
     "transfer": {
       "est": 0.5
-    }
+    },
+    "continent": "Europa",
+    "region": "Bałtyk i Morze Czarne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "płytkie wejście",
+      "stare miasto",
+      "życie nocne"
+    ]
   },
   "months": [
     {
@@ -35,9 +45,7 @@
       "sun": 2.5,
       "rain": 48,
       "rain_days": 6,
-      "uv": {
-        "est": 2
-      },
+      "uv": 1,
       "wind": {
         "est": 10
       },
@@ -45,7 +53,8 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -59,9 +68,7 @@
       "sun": 3.9,
       "rain": 42,
       "rain_days": 5,
-      "uv": {
-        "est": 4
-      },
+      "uv": 2,
       "wind": {
         "est": 10
       },
@@ -69,7 +76,8 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -83,9 +91,7 @@
       "sun": 4.7,
       "rain": 43,
       "rain_days": 7,
-      "uv": {
-        "est": 5
-      },
+      "uv": 4,
       "wind": {
         "est": 9
       },
@@ -93,7 +99,8 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -107,9 +114,7 @@
       "sun": 6.9,
       "rain": 42,
       "rain_days": 6,
-      "uv": {
-        "est": 7
-      },
+      "uv": 5,
       "wind": {
         "est": 7
       },
@@ -117,7 +122,8 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -131,9 +137,7 @@
       "sun": 9,
       "rain": 47,
       "rain_days": 7,
-      "uv": {
-        "est": 7
-      },
+      "uv": 7,
       "wind": {
         "est": 7
       },
@@ -141,7 +145,10 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
     },
     {
       "local_season": {
@@ -155,9 +162,7 @@
       "sun": 10.1,
       "rain": 50,
       "rain_days": 6,
-      "uv": {
-        "est": 8
-      },
+      "uv": 8,
       "wind": {
         "est": 7
       },
@@ -165,7 +170,10 @@
       "flight_price": {
         "est": 1000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2700
+      }
     },
     {
       "local_season": {
@@ -179,9 +187,7 @@
       "sun": 10.9,
       "rain": 45,
       "rain_days": 5,
-      "uv": {
-        "est": 8
-      },
+      "uv": 9,
       "wind": {
         "est": 7
       },
@@ -189,7 +195,10 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3000
+      }
     },
     {
       "local_season": {
@@ -203,9 +212,7 @@
       "sun": 10.4,
       "rain": 24,
       "rain_days": 3,
-      "uv": {
-        "est": 7
-      },
+      "uv": 8,
       "wind": {
         "est": 8
       },
@@ -213,7 +220,10 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3100
+      }
     },
     {
       "local_season": {
@@ -227,9 +237,7 @@
       "sun": 8.8,
       "rain": 50,
       "rain_days": 5,
-      "uv": {
-        "est": 6
-      },
+      "uv": 5,
       "wind": {
         "est": 8
       },
@@ -237,7 +245,10 @@
       "flight_price": {
         "est": 1000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
     },
     {
       "local_season": {
@@ -251,9 +262,7 @@
       "sun": 6,
       "rain": 65,
       "rain_days": 6,
-      "uv": {
-        "est": 4
-      },
+      "uv": 4,
       "wind": {
         "est": 9
       },
@@ -261,7 +270,8 @@
       "flight_price": {
         "est": 800
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -275,9 +285,7 @@
       "sun": 3.9,
       "rain": 51,
       "rain_days": 5,
-      "uv": {
-        "est": 3
-      },
+      "uv": 2,
       "wind": {
         "est": 9
       },
@@ -285,7 +293,8 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -299,9 +308,7 @@
       "sun": 2,
       "rain": 49,
       "rain_days": 7,
-      "uv": {
-        "est": 2
-      },
+      "uv": 1,
       "wind": {
         "est": 10
       },
@@ -309,7 +316,8 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -329,14 +337,34 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "San Teodoro (kierunki/san-teodoro.json): UV BestDateWeather Sardynia, 40°N – zastępstwo (Burgas 42,5°N, więc raczej lekko zawyżone)",
-      "url": "https://bestdateweather.com/en/sardinia-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "KAYAK.pl: Warszawa – Burgas (bez przesiadek Wizz Air, ok. 2 h 15 min; z 1 przesiadką Praga 6 h 02 min; ceny: X ok. 265 zł najtaniej, VIII ok. 814 zł najdrożej, średnia 740 zł, typowo 588–902 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Burgas-BOJ",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: VII Wela 5,0/6 – 3 049 zł; Rainbow: w sezonie głównie wyjazdy 4-dniowe. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Słoneczny Brzeg – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 1, 2, 4, 5, 7, 8, 9, 8, 5, 4, 2, 1",
+      "url": "https://www.weather2travel.com/bulgaria/sunny-beach/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 2,2–2,5 (kontrola modelu: 2,5 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=27.71&lat=42.7",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

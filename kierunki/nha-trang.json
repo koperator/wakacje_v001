@@ -1,0 +1,434 @@
+{
+  "id": "nha-trang",
+  "country": "Wietnam",
+  "place": "Nha Trang",
+  "notes": "Klimat tropikalny z odwrotną porą deszczową: sucho i słonecznie I–VIII (ok. 28–33 °C), pora deszczowa IX–XII z ulewami X–XI (310–380 mm) i ryzykiem tajfunów. Woda 24–29 °C. Baza pobytu: Nha Trang – długa (ok. 6 km), piaszczysta plaża miejska z łagodnym wejściem i spokojnym morzem w porze suchej; wieżowce hoteli, w porze deszczowej mętna woda i fale. Pogoda: tabela Wikipedii (Vietnam Institute for Building Science), dni z opadem z progiem niepodanym. Zieleń: góry wokół zatoki, wyspy. Wycieczki: rejsy po wyspach zatoki, nurkowanie (Hòn Mun), wieże Czamów Po Nagar, błota termalne, Vinpearl (wyspa rozrywki), Đà Lạt (ok. 3 h). Ceny bardzo niskie. Dojazd: najszybciej LOT do Bangkoku i lot do Cam Ranh, ok. 14,5 h (osobne bilety).",
+  "entryNote": "Paszport ważny 6 mies.; od 15.08.2025 bez wizy do 45 dni; obowiązkowa karta Pre-Arrival online do 3 dni przed przylotem.",
+  "tz": "Asia/Ho_Chi_Minh",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 1
+    },
+    "flight_time": {
+      "est": 14.5
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 0.6
+    },
+    "continent": "Azja",
+    "region": "Azja Południowo-Wschodnia",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "nurkowanie",
+      "rejsy po wyspach",
+      "miasto i zakupy",
+      "życie nocne"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27.2,
+      "temp_night": 21.4,
+      "dew_point": {
+        "est": 19.9
+      },
+      "sun": 5.8,
+      "rain": 43,
+      "rain_days": {
+        "est": 6
+      },
+      "uv": 10,
+      "wind": 22,
+      "water": 24.4,
+      "flight_price": {
+        "est": 5700
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Tết (wietnamski Nowy Rok, zależnie od roku styczeń lub luty): przez kilka dni zamknięta część sklepów, restauracji i usług, wyprzedany transport, wyższe ceny."
+        }
+      ],
+      "package_price": {
+        "est": 6400
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28,
+      "temp_night": 21.8,
+      "dew_point": {
+        "est": 20.7
+      },
+      "sun": 7.4,
+      "rain": 16,
+      "rain_days": {
+        "est": 3
+      },
+      "uv": {
+        "est": 12
+      },
+      "wind": 18,
+      "water": 25,
+      "flight_price": {
+        "est": 5700
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Tết (wietnamski Nowy Rok, zależnie od roku styczeń lub luty): przez kilka dni zamknięta część sklepów, restauracji i usług, wyprzedany transport, wyższe ceny."
+        }
+      ],
+      "package_price": {
+        "est": 6600
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 29.4,
+      "temp_night": 23,
+      "dew_point": {
+        "est": 22
+      },
+      "sun": 8.3,
+      "rain": 30,
+      "rain_days": {
+        "est": 2.9
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 15,
+      "water": 26.1,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": [],
+      "package_price": {
+        "est": 6200
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.1,
+      "temp_night": 24.6,
+      "dew_point": {
+        "est": 23.7
+      },
+      "sun": 8.6,
+      "rain": 42,
+      "rain_days": {
+        "est": 3.5
+      },
+      "uv": {
+        "est": 14
+      },
+      "wind": 13,
+      "water": 27.2,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": [],
+      "package_price": {
+        "est": 6200
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.3,
+      "temp_night": 25.5,
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": 8.4,
+      "rain": 52,
+      "rain_days": {
+        "est": 6.4
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 12,
+      "water": 28.9,
+      "flight_price": {
+        "est": 5400
+      },
+      "flags": [],
+      "package_price": {
+        "est": 5800
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.7,
+      "temp_night": 25.7,
+      "dew_point": {
+        "est": 24.4
+      },
+      "sun": 7.8,
+      "rain": 50,
+      "rain_days": {
+        "est": 5.8
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 12,
+      "water": 28.3,
+      "flight_price": {
+        "est": 3100
+      },
+      "flags": [],
+      "package_price": {
+        "est": 5900
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.5,
+      "temp_night": 25.6,
+      "dew_point": {
+        "est": 24.1
+      },
+      "sun": 7.9,
+      "rain": 42,
+      "rain_days": {
+        "est": 5.9
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 12,
+      "water": 27.8,
+      "flight_price": {
+        "est": 5700
+      },
+      "flags": [],
+      "package_price": {
+        "est": 6700
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.6,
+      "temp_night": 25.5,
+      "dew_point": {
+        "est": 24.1
+      },
+      "sun": 7.6,
+      "rain": 82,
+      "rain_days": {
+        "est": 6.9
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 12,
+      "water": 28.3,
+      "flight_price": {
+        "est": 5700
+      },
+      "flags": [],
+      "package_price": {
+        "est": 6900
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.7,
+      "temp_night": 24.9,
+      "dew_point": {
+        "est": 24
+      },
+      "sun": 6.8,
+      "rain": 166,
+      "rain_days": {
+        "est": 10.1
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 10,
+      "water": 28.9,
+      "flight_price": {
+        "est": 4200
+      },
+      "flags": [],
+      "package_price": {
+        "est": 5900
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30,
+      "temp_night": 24.2,
+      "dew_point": {
+        "est": 23.5
+      },
+      "sun": 5.9,
+      "rain": 312,
+      "rain_days": {
+        "est": 12.3
+      },
+      "uv": {
+        "est": 12
+      },
+      "wind": 15,
+      "water": 27.8,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Sezon tajfunów w środkowym i południowo-środkowym Wietnamie (szczyt X–XI): przy tajfunie 1–3 dni ulew, wichury i fali sztormowej, odwołane rejsy i loty."
+        }
+      ],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 28.6,
+      "temp_night": 23.5,
+      "dew_point": {
+        "est": 22.5
+      },
+      "sun": 4.7,
+      "rain": 382,
+      "rain_days": {
+        "est": 12.6
+      },
+      "uv": 10,
+      "wind": 21,
+      "water": 26.7,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Sezon tajfunów w środkowym i południowo-środkowym Wietnamie (szczyt X–XI): przy tajfunie 1–3 dni ulew, wichury i fali sztormowej, odwołane rejsy i loty."
+        },
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Monsun NE: wyższe fale i mętna woda na plaży miejskiej w wielu dniach, rejsy po wyspach odwoływane."
+        }
+      ],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 27.3,
+      "temp_night": 22.3,
+      "dew_point": {
+        "est": 21
+      },
+      "sun": 4.4,
+      "rain": 191,
+      "rain_days": {
+        "est": 10.1
+      },
+      "uv": 10,
+      "wind": 24,
+      "water": 25.6,
+      "flight_price": {
+        "est": 7200
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Monsun NE: wyższe fale i mętna woda na plaży miejskiej w wielu dniach, rejsy po wyspach odwoływane."
+        }
+      ],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Nha Trang – tabela Vietnam Institute for Building Science and Technology (okres niepodany): temperatury, opad, dni z opadem (próg niepodany), wilgotność, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Nha_Trang",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Nha Trang – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/120736/Average-Weather-in-Nha-Trang-Vietnam-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Nha Trang (Cam Ranh) (brak lotów bez przesiadek; najszybciej z 1 przesiadką w Bangkoku 16 h 45 min, zwykle z 2 przesiadkami; VI 3 142 zł najtaniej, V 5 384 zł, XII 7 249 zł najdrożej, średnia 4 235 zł, typowo 3 604–6 915 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Nha-Trang-CXR",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Nha Trang niewidoczne w Rainbow i Itace; Coral Travel XII: December 9,8/10, 10 nocy – ok. 5 700 zł/os. Szacunek: poziom Mui Ne, sezon suchy I–IX. Wyżywienie: śniadania.",
+      "url": "https://www.wakacje.pl/wczasy/wietnam/",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: wietnam",
+      "url": "https://r.pl/wytyczne/wietnam",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Nha Trang – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 10, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 10, 10; miesiące II, III, IV, V, VI, VII, VIII, IX, X („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/vietnam/nha-trang/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 9,7–10,5 (kontrola modelu: 10,7 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=109.19&lat=12.25",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

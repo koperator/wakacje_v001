@@ -3,6 +3,8 @@
   "country": "Seszele",
   "place": "Mahé (Beau Vallon)",
   "notes": "Klimat równikowy morski: najwięcej deszczu XII–II (monsun NW), sucho i wietrznie VI–IX (pasat SE), najcieplej i najspokojniej III–V oraz X–XI. Baza pobytu: Beau Vallon na północno-zachodnim wybrzeżu Mahé, ok. 20 km od lotniska i stacji pomiarowej (wschodnie wybrzeże). Zieleń: granitowe góry porośnięte lasem deszczowym (park Morne Seychellois) tuż za plażą, zielono cały rok. Beau Vallon najspokojniejsze XI–III; w porze pasatów (V–IX) bezpieczniej na plażach wschodnich. Wycieczki: Victoria, park Morne Seychellois, prom na Praslin (Vallée de Mai, UNESCO) i La Digue. Dojazd: z 1 przesiadką przez Dubaj (Emirates / flydubai), ok. 13,5 h.",
+  "entryNote": "Paszport ważny 6 mies. po powrocie; zgoda na wjazd przez Seychelles Electronic Border System przed wylotem (rozpatrzenie do ok. 3 dni roboczych).",
+  "tz": "Indian/Mahe",
   "fixed": {
     "beaches": {
       "est": 4
@@ -18,7 +20,18 @@
     "stops": 1,
     "transfer": {
       "est": 0.5
-    }
+    },
+    "continent": "Afryka",
+    "region": "Wyspy Oceanu Indyjskiego",
+    "entry": "zezwolenie elektroniczne",
+    "tags": [
+      "rajska plaża",
+      "rafa i snorkeling",
+      "rejsy po wyspach",
+      "dżungla",
+      "góry i trekking",
+      "dzika przyroda"
+    ]
   },
   "months": [
     {
@@ -33,7 +46,9 @@
       "rain_days": {
         "est": 16.7
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 16
       },
@@ -41,7 +56,10 @@
       "flight_price": {
         "est": 3700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8300
+      }
     },
     {
       "local_season": {
@@ -55,7 +73,9 @@
       "rain_days": {
         "est": 10.4
       },
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 15
       },
@@ -63,7 +83,10 @@
       "flight_price": {
         "est": 3500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8500
+      }
     },
     {
       "local_season": {
@@ -77,7 +100,9 @@
       "rain_days": {
         "est": 10.5
       },
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 13
       },
@@ -85,7 +110,10 @@
       "flight_price": {
         "est": 3500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8100
+      }
     },
     {
       "local_season": {
@@ -99,7 +127,9 @@
       "rain_days": {
         "est": 9.2
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 12
       },
@@ -107,7 +137,10 @@
       "flight_price": {
         "est": 3700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8100
+      }
     },
     {
       "local_season": {
@@ -121,7 +154,7 @@
       "rain_days": {
         "est": 8.9
       },
-      "uv": 8,
+      "uv": 11,
       "wind": {
         "est": 19
       },
@@ -129,7 +162,10 @@
       "flight_price": {
         "est": 3300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7500
+      }
     },
     {
       "local_season": {
@@ -143,7 +179,7 @@
       "rain_days": {
         "est": 5.9
       },
-      "uv": 8,
+      "uv": 10,
       "wind": {
         "est": 25
       },
@@ -151,7 +187,10 @@
       "flight_price": {
         "est": 3300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7600
+      }
     },
     {
       "local_season": {
@@ -165,7 +204,7 @@
       "rain_days": {
         "est": 3.8
       },
-      "uv": 7,
+      "uv": 10,
       "wind": {
         "est": 26
       },
@@ -173,7 +212,10 @@
       "flight_price": {
         "est": 3700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8700
+      }
     },
     {
       "local_season": {
@@ -187,7 +229,9 @@
       "rain_days": {
         "est": 5.6
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 27
       },
@@ -195,7 +239,10 @@
       "flight_price": {
         "est": 3700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 9000
+      }
     },
     {
       "local_season": {
@@ -209,7 +256,9 @@
       "rain_days": {
         "est": 8.1
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 25
       },
@@ -217,7 +266,10 @@
       "flight_price": {
         "est": 3500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7600
+      }
     },
     {
       "local_season": {
@@ -231,7 +283,9 @@
       "rain_days": {
         "est": 10
       },
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 18
       },
@@ -239,7 +293,10 @@
       "flight_price": {
         "est": 3500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7600
+      }
     },
     {
       "local_season": {
@@ -253,7 +310,9 @@
       "rain_days": {
         "est": 11.6
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 13
       },
@@ -261,7 +320,10 @@
       "flight_price": {
         "est": 3500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7500
+      }
     },
     {
       "local_season": {
@@ -275,7 +337,9 @@
       "rain_days": {
         "est": 15.6
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 14
       },
@@ -283,7 +347,10 @@
       "flight_price": {
         "est": 3800
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 9100
+      }
     }
   ],
   "sources": [
@@ -300,16 +367,6 @@
     {
       "title": "seatemperatu.re: Beau Vallon – średnia temperatura morza w miesiącach",
       "url": "https://www.seatemperatu.re/africa/seychelles/beau-vallon/when.html",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: Seszele – pogoda miesiąc po miesiącu (12 stron, np. /seychelles-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 4.68°S 55.49°E (Mahé)",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-seychelles",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
       "checked": "2026-10-13"
     },
     {
@@ -331,6 +388,36 @@
       "title": "KAYAK.pl: Warszawa – Mahe – statystyki cen w obie strony (miesiące: V 3 348, VI 3 348, VIII 3 727, XII 3 829; średnia 12 mies. 3 511 zł; typowo 3 200–3 851 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Mahe-SEZ",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: II Thalassa Seychelles 6 dni (bez wyżywienia) – 6 429 zł; 9-dniowa wycieczka 13 249 zł. Szacunek 7 nocy ze śniadaniami. Wyżywienie: śniadania.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: seszele",
+      "url": "https://r.pl/wytyczne/seszele",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Mahé – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11+, 11+, 11+, 11+, 11, 10, 10, 11+, 11+, 11+, 11+, 11+; miesiące I, II, III, IV, VIII, IX, X, XI, XII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/seychelles/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 13,2–13,5 (kontrola modelu: 13,3 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=55.45&lat=-4.6",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

@@ -3,6 +3,8 @@
   "country": "Hiszpania (Baleary)",
   "place": "Playa de Muro / Alcúdia, Majorka",
   "notes": "Klimat śródziemnomorski: gorące, suche lato VI–VIII (ok. 30 °C), ciepła woda VII–IX (25–26 °C), deszcze głównie IX–XII, łagodna zima (ok. 16 °C), morze zimą ok. 14 °C. Baza pobytu: Playa de Muro i Alcúdia na północnym wybrzeżu – długa plaża z białym piaskiem i płytką, turkusową wodą. Pogoda ze stacji AEMET Puerto de Palma (ok. 50 km, normy 1991–2020) – szacunek. Zieleń: park Albufera, sosny, góry Tramuntana w pobliżu. Wycieczki: stare miasto Alcúdii, Pollença, przylądek Formentor, Tramuntana (UNESCO), Palma. Poza sezonem (XI–III) większość hoteli w Alcúdii zamknięta. Dojazd: bez przesiadek (Ryanair, LOT, Wizz Air) ok. 3 h 10 min; z lotniska ok. 60 km.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Madrid",
   "fixed": {
     "beaches": {
       "est": 5
@@ -20,7 +22,16 @@
     "stops": 0,
     "transfer": {
       "est": 0.9
-    }
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "rajska plaża",
+      "płytkie wejście",
+      "góry i trekking",
+      "stare miasto"
+    ]
   },
   "months": [
     {
@@ -45,7 +56,7 @@
       "rain_days": {
         "est": 6.2
       },
-      "uv": 3,
+      "uv": 2,
       "wind": {
         "est": 17
       },
@@ -55,7 +66,8 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -79,7 +91,7 @@
       "rain_days": {
         "est": 5.9
       },
-      "uv": 4,
+      "uv": 3,
       "wind": {
         "est": 17
       },
@@ -89,7 +101,8 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -123,7 +136,8 @@
       "flight_price": {
         "est": 800
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -157,7 +171,10 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2900
+      }
     },
     {
       "local_season": {
@@ -181,7 +198,7 @@
       "rain_days": {
         "est": 3.1
       },
-      "uv": 7,
+      "uv": 8,
       "wind": {
         "est": 12
       },
@@ -191,7 +208,10 @@
       "flight_price": {
         "est": 1000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3000
+      }
     },
     {
       "local_season": {
@@ -215,7 +235,7 @@
       "rain_days": {
         "est": 1.9
       },
-      "uv": 7,
+      "uv": 9,
       "wind": {
         "est": 11
       },
@@ -225,7 +245,10 @@
       "flight_price": {
         "est": 1000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3600
+      }
     },
     {
       "local_season": {
@@ -249,7 +272,7 @@
       "rain_days": {
         "est": 0.6
       },
-      "uv": 8,
+      "uv": 9,
       "wind": {
         "est": 10
       },
@@ -259,7 +282,10 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4100
+      }
     },
     {
       "local_season": {
@@ -283,7 +309,7 @@
       "rain_days": {
         "est": 1.8
       },
-      "uv": 7,
+      "uv": 8,
       "wind": {
         "est": 11
       },
@@ -293,7 +319,10 @@
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4200
+      }
     },
     {
       "local_season": {
@@ -327,7 +356,10 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3400
+      }
     },
     {
       "local_season": {
@@ -361,7 +393,10 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3000
+      }
     },
     {
       "local_season": {
@@ -385,7 +420,7 @@
       "rain_days": {
         "est": 7.2
       },
-      "uv": 3,
+      "uv": 2,
       "wind": {
         "est": 18
       },
@@ -395,7 +430,8 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -429,7 +465,8 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -444,19 +481,34 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "BestDateWeather: Alcúdia – pogoda miesiąc po miesiącu (12 stron, np. /alcudia-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 39.85°N 3.12°E",
-      "url": "https://bestdateweather.com/en/alcudia-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "KAYAK.pl: Warszawa – Palma de Mallorca (bez przesiadek Ryanair, LOT, Wizz Air, średnio 3 h 11 min; ceny: III 509 zł najtaniej, IX 849 zł, VIII 853 zł najdrożej, średnia 718 zł, typowo 527–976 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Palma-de-Mallorca-PMI",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: VII Ilusion Markus Park & Spa 4,8/6 – 4 219 zł; Rainbow IV: Palia Dolce Farniente 5,0/6 – 2 917, Palia Puerto del Sol 4,9/6 – 3 063 zł. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Alcúdia – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 3, 5, 6, 8, 9, 9, 8, 6, 4, 2, 2",
+      "url": "https://www.weather2travel.com/majorca/alcudia/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 2,7–3 (kontrola modelu: 3,0 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=3.12&lat=39.85",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

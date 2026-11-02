@@ -3,6 +3,8 @@
   "country": "Kenia",
   "place": "Watamu",
   "notes": "Wybrzeże Kenii na S od Malindi: długie deszcze IV–VI (maksimum w V), krótkie XI–XII; sucho i gorąco I–III, sucho i chłodniej z pasatem SE (kusi) VII–X. Baza pobytu: plaże Watamu przy parku morskim. Pogoda ze stacji Malindi (ok. 20 km na N, normy 1991–2020). Silne pływy: przy odpływie woda cofa się daleko, kąpiel zależy od pory dnia. Zieleń: las przybrzeżny (Arabuko Sokoke), baobaby i palmy. Wycieczki: ruiny Gede, las Arabuko Sokoke, Mida Creek, park morski Watamu, Malindi; safari w Tsavo East ok. 2,5–3 h drogi. Dojazd: lotnisko bazy Mombasa (MBA), z Warszawy z 1 przesiadką we Frankfurcie (Condor cały rok, 3–4 razy w tygodniu), ok. 13,5 h; z lotniska ok. 115 km, ok. 2,5 h drogi. Zimą także czarter Enter Air bezpośrednio (ok. 11 h). Lotnisko Malindi (ok. 20 km) ma loty tylko z Nairobi i Mombasy.",
+  "entryNote": "Paszport ważny 6 mies. po powrocie, 2 wolne strony; elektroniczne zezwolenie eTA przed wylotem (ok. 30 USD, ekspres ok. 130 USD).",
+  "tz": "Africa/Nairobi",
   "fixed": {
     "beaches": {
       "est": 4
@@ -20,7 +22,16 @@
     "stops": 1,
     "transfer": {
       "est": 2
-    }
+    },
+    "continent": "Afryka",
+    "region": "Afryka Wschodnia",
+    "entry": "zezwolenie elektroniczne",
+    "tags": [
+      "rafa i snorkeling",
+      "dzika przyroda",
+      "ruiny",
+      "spokój"
+    ]
   },
   "months": [
     {
@@ -40,14 +51,17 @@
         "est": 2
       },
       "uv": {
-        "est": 8
+        "est": 13
       },
       "wind": 18,
       "water": 27.2,
       "flight_price": {
         "est": 3900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4900
+      }
     },
     {
       "local_season": {
@@ -66,14 +80,17 @@
         "est": 2
       },
       "uv": {
-        "est": 8
+        "est": 14
       },
       "wind": 17,
       "water": 27.2,
       "flight_price": {
         "est": 3900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5000
+      }
     },
     {
       "local_season": {
@@ -92,14 +109,17 @@
         "est": 3
       },
       "uv": {
-        "est": 9
+        "est": 14
       },
       "wind": 15,
       "water": 28.3,
       "flight_price": {
         "est": 3000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4700
+      }
     },
     {
       "local_season": {
@@ -118,14 +138,17 @@
         "est": 11
       },
       "uv": {
-        "est": 8
+        "est": 13
       },
       "wind": 16,
       "water": 28.9,
       "flight_price": {
         "est": 3300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4700
+      }
     },
     {
       "local_season": {
@@ -143,15 +166,14 @@
       "rain_days": {
         "est": 17
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 11,
       "wind": 22,
       "water": 27.8,
       "flight_price": {
         "est": 4300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -169,15 +191,14 @@
       "rain_days": {
         "est": 12
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 10,
       "wind": 25,
       "water": 26.7,
       "flight_price": {
         "est": 3300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -195,15 +216,14 @@
       "rain_days": {
         "est": 12
       },
-      "uv": {
-        "est": 7
-      },
+      "uv": 10,
       "wind": 26,
       "water": 25.6,
       "flight_price": {
         "est": 3900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -222,14 +242,15 @@
         "est": 9
       },
       "uv": {
-        "est": 8
+        "est": 12
       },
       "wind": 25,
       "water": 25,
       "flight_price": {
         "est": 4100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -248,14 +269,15 @@
         "est": 7
       },
       "uv": {
-        "est": 9
+        "est": 13
       },
       "wind": 23,
       "water": 25.6,
       "flight_price": {
         "est": 3600
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -274,14 +296,17 @@
         "est": 6
       },
       "uv": {
-        "est": 9
+        "est": 13
       },
       "wind": 19,
       "water": 26.1,
       "flight_price": {
         "est": 3600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4500
+      }
     },
     {
       "local_season": {
@@ -300,14 +325,17 @@
         "est": 6
       },
       "uv": {
-        "est": 8
+        "est": 13
       },
       "wind": 14,
       "water": 27.2,
       "flight_price": {
         "est": 3300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4400
+      }
     },
     {
       "local_season": {
@@ -326,14 +354,17 @@
         "est": 3
       },
       "uv": {
-        "est": 8
+        "est": 12
       },
       "wind": 15,
       "water": 27.8,
       "flight_price": {
         "est": 3900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5300
+      }
     }
   ],
   "sources": [
@@ -355,16 +386,6 @@
     {
       "title": "Weather Spark: Malindi – średnia godzinowa prędkość wiatru na 10 m, temperatura wody",
       "url": "https://weatherspark.com/y/101533/Average-Weather-in-Malindi-Kenya-Year-Round",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: Mombasa – pogoda miesiąc po miesiącu (12 stron, np. /mombasa-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 4.04°S 39.67°E",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-mombasa",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
       "checked": "2026-10-13"
     },
     {
@@ -391,6 +412,36 @@
       "title": "momondo.pl: Warszawa – Mombasa (najszybszy lot 11 h 00 min; flydubai, Ethiopian, Turkish; brak lotów bezpośrednich)",
       "url": "https://www.momondo.pl/loty/warszawa/mombasa",
       "checked": "2026-10-13"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: I AHG Lion Beach (Watamu) 4,5/6 – 7 179, X Leopard Beach 5,4/6 – 5 899 zł; Rainbow: X AHG Lion Beach (Watamu) 5,2/6 – 4 467, III Turtle Bay (Watamu) 5,6/6 – 4 958 zł. Latem brak ofert. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – Itaka – wiza do Kenii (eTA)",
+      "url": "https://www.itaka.pl/kenia-wiza/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Watamu – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11+, 11+, 11+, 11+, 11, 10, 10, 11+, 11+, 11+, 11+, 11+; miesiące I, II, III, IV, VIII, IX, X, XI, XII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/kenya/watamu/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 12,5–13,2 (kontrola modelu: 13,1 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=40.02&lat=-3.35",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

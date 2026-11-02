@@ -3,6 +3,8 @@
   "country": "Portugalia (Madera)",
   "place": "Porto Santo (Vila Baleira / Cabeço da Ponta)",
   "notes": "Mała, sucha wyspa archipelagu Madery na Atlantyku: łagodnie przez cały rok, ale chłodno na plażowanie poza VI–X (zimą ok. 18 °C w dzień, woda ok. 18 °C), najcieplej VIII–IX (ok. 25–26 °C, woda ok. 23 °C); deszcze głównie X–III; pasat NE. Baza pobytu: 9-kilometrowa złota plaża między Vila Baleira a Cabeço da Ponta, łagodne wejście, spokojna woda. Pogoda ze stacji lotniska Porto Santo (IPMA 1991–2020). Zieleń: wyspa sucha, nieliczne lasy sosnowe. Atrakcje: plaża, dom Kolumba, punkty widokowe (Pico das Flores, Pico Ana Ferreira); Madera promem ok. 2,5 h. Dojazd: z 1 przesiadką w Funchal (lot Binter ok. 20 min), ok. 11 h; z lotniska kilka km. Poza sezonem część hoteli i restauracji zamknięta.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Atlantic/Madeira",
   "fixed": {
     "beaches": {
       "est": 5
@@ -20,7 +22,14 @@
     "stops": 1,
     "transfer": {
       "est": 0.2
-    }
+    },
+    "continent": "Europa",
+    "region": "Atlantyk wschodni",
+    "entry": "dowód osobisty",
+    "tags": [
+      "płytkie wejście",
+      "spokój"
+    ]
   },
   "months": [
     {
@@ -35,15 +44,14 @@
       "sun": 4.4,
       "rain": 45,
       "rain_days": 7.4,
-      "uv": {
-        "est": 4
-      },
+      "uv": 3,
       "wind": 23,
       "water": 18.3,
       "flight_price": {
         "est": 1800
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -57,15 +65,14 @@
       "sun": 5.3,
       "rain": 45,
       "rain_days": 6.4,
-      "uv": {
-        "est": 5
-      },
+      "uv": 4,
       "wind": 23,
       "water": 17.8,
       "flight_price": {
         "est": 1800
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -79,15 +86,14 @@
       "sun": 6.5,
       "rain": 33,
       "rain_days": 6,
-      "uv": {
-        "est": 6
-      },
+      "uv": 6,
       "wind": 23,
       "water": 17.8,
       "flight_price": {
         "est": 1800
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -101,15 +107,14 @@
       "sun": 7.3,
       "rain": 30,
       "rain_days": 5.2,
-      "uv": {
-        "est": 8
-      },
+      "uv": 8,
       "wind": 22,
       "water": 17.8,
       "flight_price": {
         "est": 1800
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -123,15 +128,14 @@
       "sun": 7.9,
       "rain": 18,
       "rain_days": 3.5,
-      "uv": {
-        "est": 8
-      },
+      "uv": 9,
       "wind": 21,
       "water": 18.9,
       "flight_price": {
         "est": 2100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -145,15 +149,16 @@
       "sun": 8,
       "rain": 10,
       "rain_days": 2.2,
-      "uv": {
-        "est": 8
-      },
+      "uv": 10,
       "wind": 20,
       "water": 20.6,
       "flight_price": {
         "est": 2100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3100
+      }
     },
     {
       "local_season": {
@@ -167,15 +172,16 @@
       "sun": 8.2,
       "rain": 4,
       "rain_days": 1.5,
-      "uv": {
-        "est": 8
-      },
+      "uv": 10,
       "wind": 22,
       "water": 21.7,
       "flight_price": {
         "est": 2600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3500
+      }
     },
     {
       "local_season": {
@@ -189,15 +195,16 @@
       "sun": 8.2,
       "rain": 4,
       "rain_days": 1.4,
-      "uv": {
-        "est": 8
-      },
+      "uv": 9,
       "wind": 20,
       "water": 22.8,
       "flight_price": {
         "est": 3100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3600
+      }
     },
     {
       "local_season": {
@@ -211,15 +218,16 @@
       "sun": 7.4,
       "rain": 17,
       "rain_days": 3.6,
-      "uv": {
-        "est": 6
-      },
+      "uv": 8,
       "wind": 19,
       "water": 23.3,
       "flight_price": {
         "est": 2100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3000
+      }
     },
     {
       "local_season": {
@@ -233,15 +241,14 @@
       "sun": 6.4,
       "rain": 48,
       "rain_days": 6.9,
-      "uv": {
-        "est": 5
-      },
+      "uv": 6,
       "wind": 20,
       "water": 22.2,
       "flight_price": {
         "est": 1500
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -255,15 +262,14 @@
       "sun": 4.6,
       "rain": 64,
       "rain_days": 8.4,
-      "uv": {
-        "est": 4
-      },
+      "uv": 4,
       "wind": 23,
       "water": 21.1,
       "flight_price": {
         "est": 1800
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -277,15 +283,14 @@
       "sun": 4.4,
       "rain": 63,
       "rain_days": 9,
-      "uv": {
-        "est": 3
-      },
+      "uv": 3,
       "wind": 24,
       "water": 19.4,
       "flight_price": {
         "est": 1800
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -300,19 +305,34 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "BestDateWeather: Madera – pogoda miesiąc po miesiącu (12 stron, np. /madeira-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 32.66°N 16.92°W – zastępstwo, ok. 50 km",
-      "url": "https://bestdateweather.com/en/madeira-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "KAYAK.pl: Warszawa – Porto Santo (z 1 przesiadką średnio Funchal 11 h 02 min, Lizbona 16 h 58 min; ceny: X 1 424 zł najtaniej, VIII ok. 3 122 zł najdrożej, średnia 2 055 zł, typowo 1 818–3 010 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Porto-Santo-PXO",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: Madera X 2026 – Rocamar (2 posiłki, 8 dni, Warszawa) 2 499 zł, VidaMar 2 899 zł; Porto Santo rzadko i tylko latem. Szacunek. Wyżywienie: 2 posiłki.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Porto Santo – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 3, 4, 6, 8, 9, 10, 10, 9, 8, 6, 4, 3",
+      "url": "https://www.weather2travel.com/madeira/porto-santo/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 4,1–4,5 (kontrola modelu: 4,5 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-16.33&lat=33.06",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

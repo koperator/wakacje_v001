@@ -1,0 +1,421 @@
+{
+  "id": "puerto-vallarta",
+  "country": "Meksyk",
+  "place": "Puerto Vallarta (Zatoka Banderas)",
+  "notes": "Klimat tropikalny z porą suchą XI–V (słonecznie, 27–29 °C, prawie bez deszczu II–V) i deszczową VI–X (wieczorne burze, 190–370 mm w miesiącu, parno). Woda 24–25 °C w I–IV, ok. 29–30 °C VII–X. Sezon huraganów pacyficznych VI–XI (szczyt IX–X). Baza pobytu: Puerto Vallarta (Zona Romántica, Zona Hotelera) – piaszczyste plaże w Zatoce Banderas, łagodne wejście; Nuevo Vallarta i Riviera Nayarit na północy. Pogoda: tabela WMO / Weatherbase dla Puerto Vallarta, nasłonecznienie z Climates to Travel. Zieleń: góry Sierra Madre porośnięte lasem tropikalnym tuż za miastem. Wycieczki: wieloryby humbaki (XII–III), wyspy Marietas, ogród botaniczny, Yelapa, Sayulita, San Sebastián del Oeste. Dojazd: z 1–2 przesiadkami (Toronto, USA lub Meksyk), ok. 17 h.",
+  "entryNote": "Paszport ważny 6 mies. od wjazdu; bez wizy. Najszybsze trasy prowadzą przez Kanadę (eTA) albo USA (ESTA); przez Madryt lub Meksyk wystarcza paszport.",
+  "tz": "America/Mexico_City",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": {
+      "est": 17
+    },
+    "stops": 2,
+    "transfer": {
+      "est": 0.3
+    },
+    "continent": "Ameryka Północna i Karaiby",
+    "region": "Pacyfik Ameryki Środkowej",
+    "entry": "paszport",
+    "tags": [
+      "dżungla",
+      "dzika przyroda",
+      "życie nocne"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26.7,
+      "temp_night": 16.7,
+      "dew_point": {
+        "est": 15.3
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": 34,
+      "rain_days": {
+        "est": 1.5
+      },
+      "uv": 7,
+      "wind": 10,
+      "water": 25,
+      "flight_price": {
+        "est": 5200
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26.7,
+      "temp_night": 16.7,
+      "dew_point": {
+        "est": 14.8
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": 5,
+      "rain_days": {
+        "est": 0.5
+      },
+      "uv": 9,
+      "wind": 10,
+      "water": 24.4,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27.2,
+      "temp_night": 17.2,
+      "dew_point": {
+        "est": 15.3
+      },
+      "sun": {
+        "est": 9
+      },
+      "rain": 2,
+      "rain_days": {
+        "est": 0.4
+      },
+      "uv": 11,
+      "wind": 11,
+      "water": 23.9,
+      "flight_price": {
+        "est": 5200
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27.8,
+      "temp_night": 18.9,
+      "dew_point": {
+        "est": 17.1
+      },
+      "sun": {
+        "est": 9
+      },
+      "rain": 2,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 11,
+      "water": 24.4,
+      "flight_price": {
+        "est": 5900
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 29.4,
+      "temp_night": 21.7,
+      "dew_point": {
+        "est": 19.3
+      },
+      "sun": {
+        "est": 9
+      },
+      "rain": 15,
+      "rain_days": {
+        "est": 0.7
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 11,
+      "water": 26.1,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.7,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 22.1
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": 188,
+      "rain_days": {
+        "est": 7.6
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 10,
+      "water": 27.8,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32.2,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 22.4
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": 328,
+      "rain_days": {
+        "est": 11.5
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 9,
+      "water": 29.4,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.2,
+      "temp_night": 24.4,
+      "dew_point": {
+        "est": 22.3
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": 312,
+      "rain_days": {
+        "est": 10.6
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 9,
+      "water": 30,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów na Pacyfiku: bezpośrednie trafienie rzadkie, ale przy burzy tropikalnej kilka dni ulew, wysokich fal i odwołanych wycieczek (np. huragan Kenna 2002, Nora 2021)."
+        }
+      ],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.2,
+      "temp_night": 24.4,
+      "dew_point": {
+        "est": 22.3
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": 370,
+      "rain_days": {
+        "est": 10.9
+      },
+      "uv": {
+        "est": 12
+      },
+      "wind": 9,
+      "water": 29.4,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów na Pacyfiku: bezpośrednie trafienie rzadkie, ale przy burzy tropikalnej kilka dni ulew, wysokich fal i odwołanych wycieczek (np. huragan Kenna 2002, Nora 2021)."
+        }
+      ],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.7,
+      "temp_night": 23.9,
+      "dew_point": {
+        "est": 21.4
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": 94,
+      "rain_days": {
+        "est": 3.6
+      },
+      "uv": 10,
+      "wind": 9,
+      "water": 29.4,
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": [
+        {
+          "type": "cyclone",
+          "level": 1,
+          "note": "Szczyt sezonu huraganów na Pacyfiku: bezpośrednie trafienie rzadkie, ale przy burzy tropikalnej kilka dni ulew, wysokich fal i odwołanych wycieczek (np. huragan Kenna 2002, Nora 2021)."
+        }
+      ],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30,
+      "temp_night": 20.6,
+      "dew_point": {
+        "est": 18.7
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": 20,
+      "rain_days": {
+        "est": 1
+      },
+      "uv": 8,
+      "wind": 9,
+      "water": 27.8,
+      "flight_price": {
+        "est": 4600
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27.8,
+      "temp_night": 17.8,
+      "dew_point": {
+        "est": 16.6
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": 23,
+      "rain_days": {
+        "est": 1.3
+      },
+      "uv": 7,
+      "wind": 9,
+      "water": 26.1,
+      "flight_price": {
+        "est": 5200
+      },
+      "flags": [],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Puerto Vallarta – tabela WMO / Weatherbase (okres niepodany): temperatury, opad, dni z opadem ≥ 0,1 mm, wilgotność; temperatura morza (osobna tabela)",
+      "url": "https://en.wikipedia.org/wiki/Puerto_Vallarta",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Climates to Travel: Meksyk – Puerto Vallarta: słońce h/dzień (liczby całkowite)",
+      "url": "https://www.climatestotravel.com/climate/mexico",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Puerto Vallarta – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/3402/Average-Weather-in-Puerto-Vallarta-Mexico-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Puerto Vallarta (z 2 przesiadkami (Frankfurt, Toronto – Air Canada), powrót najszybciej 17 h 00 min; II 3 570 zł najtaniej, IV ok. 7 599 zł najdrożej, średnia 4 571 zł, typowo 4 240–5 128 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Puerto-Vallarta-PVR",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Itaka: Meksyk tylko Jukatan (wylot z Berlina lub Wrocławia); wybrzeże Pacyfiku bez oferty z Polski. (szczegóły: research/kolumna-package_price-notatki.md)",
+      "url": "https://www.itaka.pl/all-inclusive/meksyk/",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: meksyk",
+      "url": "https://r.pl/wytyczne/meksyk",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: Puerto Vallarta – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 7, 9, 11, 11+, 11+, 11+, 11+, 11+, 11+, 10, 8, 7; miesiące IV, V, VI, VII, VIII, IX („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/mexico/puerto-vallarta/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 8,6–9,2 (kontrola modelu: 8,5 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-105.23&lat=20.65",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

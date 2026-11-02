@@ -3,6 +3,8 @@
   "country": "Egipt",
   "place": "Marsa Alam",
   "notes": "Pustynny klimat Morza Czerwonego: praktycznie bez deszczu, gorąco V–IX (ok. 35 °C), łagodnie XII–II (ok. 23–25 °C), woda najchłodniejsza w II (ok. 22–23 °C), najcieplejsza w VIII (ok. 29 °C). Stały wiatr z północy. Baza pobytu: resorty wzdłuż wybrzeża w okolicy Marsa Alam (Port Ghalib ok. 60 km na N, przy lotnisku). Brak stacji z normami w samym Marsa Alam; temperatury z tabel serwisów klimatycznych (szacunek), punkt rosy i nasłonecznienie z Hurghady (NOAA 1961–1990). Zieleń: pustynia i góry bez roślinności. Atrakcje głównie podwodne: rafy, diugonie (Abu Dabbab), delfiny (Samadai); Luksor ok. 4 h drogi. Plaże często z rafą tuż przy brzegu, wejście z pomostu. Dojazd: wyjazd z biurem podróży (all inclusive) – czarter bezpośrednio z Warszawy, ok. 4 h 10 min – 4 h 30 min, biura oferują go przez większość roku (Enter Air, Smartwings); regularnie tylko z przesiadką w Kairze (ok. 8 h).",
+  "entryNote": "Paszport ważny 6 mies. po powrocie; wiza po przylocie 30 USD (albo e-wiza wcześniej).",
+  "tz": "Africa/Cairo",
   "fixed": {
     "beaches": {
       "est": 3
@@ -16,7 +18,17 @@
     "stops": 0,
     "transfer": {
       "est": 1
-    }
+    },
+    "continent": "Afryka",
+    "region": "Morze Czerwone",
+    "entry": "wiza na lotnisku",
+    "tags": [
+      "rafa i snorkeling",
+      "nurkowanie",
+      "pustynia",
+      "dzika przyroda",
+      "spokój"
+    ]
   },
   "months": [
     {
@@ -41,13 +53,16 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 5,
+      "uv": 6,
       "wind": 18,
       "water": 23.3,
       "flight_price": {
         "est": 2200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2100
+      }
     },
     {
       "local_season": {
@@ -71,13 +86,16 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 6,
+      "uv": 7,
       "wind": 18,
       "water": 22.8,
       "flight_price": {
         "est": 2200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2200
+      }
     },
     {
       "local_season": {
@@ -101,7 +119,7 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 7,
+      "uv": 10,
       "wind": 18,
       "water": 22.8,
       "flight_price": {
@@ -113,7 +131,10 @@
           "level": 1,
           "note": "Wiatr z pustyni (chamsin) wiosną: w pojedyncze dni burze piaskowe i pyłowe, upał i ograniczona widoczność."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 2300
+      }
     },
     {
       "local_season": {
@@ -137,7 +158,9 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 17,
       "water": 23.9,
       "flight_price": {
@@ -149,7 +172,10 @@
           "level": 1,
           "note": "Wiatr z pustyni (chamsin) wiosną: w pojedyncze dni burze piaskowe i pyłowe, upał i ograniczona widoczność."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 2300
+      }
     },
     {
       "local_season": {
@@ -173,13 +199,18 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 18,
       "water": 25.6,
       "flight_price": {
         "est": 3200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2500
+      }
     },
     {
       "local_season": {
@@ -203,13 +234,18 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 19,
       "water": 26.7,
       "flight_price": {
         "est": 2700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
     },
     {
       "local_season": {
@@ -233,13 +269,18 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 17,
       "water": 28.3,
       "flight_price": {
         "est": 2700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2700
+      }
     },
     {
       "local_season": {
@@ -263,13 +304,18 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 18,
       "water": 29.4,
       "flight_price": {
         "est": 3100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2700
+      }
     },
     {
       "local_season": {
@@ -293,13 +339,16 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 8,
+      "uv": 11,
       "wind": 19,
       "water": 28.3,
       "flight_price": {
         "est": 2200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2500
+      }
     },
     {
       "local_season": {
@@ -323,13 +372,16 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 6,
+      "uv": 8,
       "wind": 16,
       "water": 27.2,
       "flight_price": {
         "est": 2000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2200
+      }
     },
     {
       "local_season": {
@@ -353,13 +405,16 @@
       "rain_days": {
         "est": 0.3
       },
-      "uv": 5,
+      "uv": 6,
       "wind": 16,
       "water": 26.1,
       "flight_price": {
         "est": 2000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 1900
+      }
     },
     {
       "local_season": {
@@ -389,7 +444,10 @@
       "flight_price": {
         "est": 2200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
     }
   ],
   "sources": [
@@ -419,16 +477,6 @@
       "checked": "2026-10-13"
     },
     {
-      "title": "BestDateWeather: Marsa Alam – pogoda miesiąc po miesiącu (12 stron, np. /marsa-alam-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 25.07°N 34.90°E",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-marsa-alam",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-13"
-    },
-    {
       "title": "Champion Traveler: Marsa Alam (najwięcej turystów V–VII, najmniej IV i X–XI, morze i wiatr)",
       "url": "https://championtraveler.com/dates/best-time-to-visit-marsa-alam-eg/",
       "checked": "2026-10-13"
@@ -452,6 +500,36 @@
       "title": "KAYAK.pl: Warszawa – Marsa Alam – statystyki cen w obie strony (miesiące: III 1 723, V 3 224, VIII 3 084; średnia 12 mies. 2 222 zł; typowo 1 133–2 999 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Marsa-Alam-RMF",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: 6 odczytów (Swisstouch Oriental 4,4/6, Casa Mare 5,1/6); Rainbow XII: MG Alexander The Great 4,8/6 – 2 330 zł. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: egipt",
+      "url": "https://r.pl/wytyczne/egipt",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Marsa Alam – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 6, 7, 10, 11+, 11+, 11+, 11+, 11+, 11, 8, 6, 5; miesiące IV, V, VI, VII, VIII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/red-sea-egypt/marsa-alam/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 6,8–7,7 (kontrola modelu: 7,1 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=34.89&lat=25.07",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

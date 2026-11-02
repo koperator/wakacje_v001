@@ -1,0 +1,337 @@
+{
+  "id": "salvador",
+  "country": "Brazylia",
+  "place": "Salvador (Barra / Rio Vermelho), Bahia",
+  "notes": "Klimat tropikalny wilgotny: ciepło cały rok (26–31 °C w dzień, noce 21–24 °C), pora deszczowa IV–VII (ulewy, 200–300 mm w miesiącu), najsuchiej i najsłoneczniej XII–II. Woda 26–28 °C przez cały rok. Baza pobytu: dzielnice Barra i Rio Vermelho – miejskie plaże z piaskiem, część z rafą przy brzegu; lepsze plaże na północ (Praia do Forte, ok. 1 h). Pogoda ze stacji Salvador (INMET 1991–2020). Zieleń: miasto, palmy, resztki lasu atlantyckiego. Wycieczki: Pelourinho (stare miasto, UNESCO), kościoły baroku, Morro de São Paulo, Praia do Forte. Karnawał (II/III) – jeden z największych na świecie. Dojazd: z 1 przesiadką (Paryż, Lizbona), ok. 14 h.",
+  "entryNote": "Paszport ważny 6 mies. po powrocie; bez wizy.",
+  "tz": "America/Bahia",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 13.9,
+    "stops": 1,
+    "transfer": {
+      "est": 0.7
+    },
+    "continent": "Ameryka Środkowa i Południowa",
+    "region": "Wybrzeże Brazylii",
+    "entry": "paszport",
+    "tags": [
+      "stare miasto",
+      "życie nocne"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31,
+      "temp_night": 23.8,
+      "dew_point": 22.6,
+      "sun": 7.6,
+      "rain": 77,
+      "rain_days": 9,
+      "uv": {
+        "est": 14
+      },
+      "wind": 14,
+      "water": 27.2,
+      "flight_price": {
+        "est": 6500
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.1,
+      "temp_night": 24,
+      "dew_point": 22.9,
+      "sun": 7.4,
+      "rain": 99,
+      "rain_days": 9,
+      "uv": {
+        "est": 15
+      },
+      "wind": 14,
+      "water": 27.8,
+      "flight_price": {
+        "est": 6500
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Karnawał w Salvadorze (zależnie od roku luty lub początek marca): kilka dni parad i bloków na ulicach Barra i centrum, zamknięte ulice, bardzo wysokie ceny noclegów i tłok."
+        }
+      ],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.9,
+      "temp_night": 24.1,
+      "dew_point": 23.1,
+      "sun": 7.3,
+      "rain": 147,
+      "rain_days": 11,
+      "uv": {
+        "est": 14
+      },
+      "wind": 13,
+      "water": 28.3,
+      "flight_price": {
+        "est": 5700
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Karnawał w Salvadorze (zależnie od roku luty lub początek marca): kilka dni parad i bloków na ulicach Barra i centrum, zamknięte ulice, bardzo wysokie ceny noclegów i tłok."
+        }
+      ],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 29.6,
+      "temp_night": 23.6,
+      "dew_point": 23,
+      "sun": 6.2,
+      "rain": 285,
+      "rain_days": 16,
+      "uv": 11,
+      "wind": 13,
+      "water": 28.3,
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 28.1,
+      "temp_night": 22.8,
+      "dew_point": 22.1,
+      "sun": 5.1,
+      "rain": 302,
+      "rain_days": 18,
+      "uv": 9,
+      "wind": 14,
+      "water": 27.2,
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 27.1,
+      "temp_night": 21.9,
+      "dew_point": 21.1,
+      "sun": 4.8,
+      "rain": 238,
+      "rain_days": 19,
+      "uv": 8,
+      "wind": 14,
+      "water": 26.7,
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26.6,
+      "temp_night": 21.1,
+      "dew_point": 20.1,
+      "sun": 5.5,
+      "rain": 194,
+      "rain_days": 18,
+      "uv": 8,
+      "wind": 15,
+      "water": 25.6,
+      "flight_price": {
+        "est": 6500
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 26.7,
+      "temp_night": 21,
+      "dew_point": 19.8,
+      "sun": 6.1,
+      "rain": 130,
+      "rain_days": 16,
+      "uv": 10,
+      "wind": 15,
+      "water": 25.6,
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 27.7,
+      "temp_night": 21.5,
+      "dew_point": 20.3,
+      "sun": 6.8,
+      "rain": 99,
+      "rain_days": 11,
+      "uv": {
+        "est": 12
+      },
+      "wind": 14,
+      "water": 25.6,
+      "flight_price": {
+        "est": 5000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 29.1,
+      "temp_night": 22.5,
+      "dew_point": 21.3,
+      "sun": 7.3,
+      "rain": 91,
+      "rain_days": 8,
+      "uv": {
+        "est": 14
+      },
+      "wind": 14,
+      "water": 26.1,
+      "flight_price": {
+        "est": 5700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 29.8,
+      "temp_night": 23.1,
+      "dew_point": 22,
+      "sun": 6.8,
+      "rain": 108,
+      "rain_days": 8,
+      "uv": {
+        "est": 14
+      },
+      "wind": 14,
+      "water": 26.7,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.6,
+      "temp_night": 23.5,
+      "dew_point": 22.4,
+      "sun": 7.2,
+      "rain": 63,
+      "rain_days": 7,
+      "uv": {
+        "est": 14
+      },
+      "wind": 14,
+      "water": 26.7,
+      "flight_price": {
+        "est": 7300
+      },
+      "flags": [],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Salvador (Bahia) – normy 1991–2020 (INMET): temperatury, opad, dni z opadem ≥ 1 mm, wilgotność, punkt rosy, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Salvador,_Bahia",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Salvador – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/31054/Average-Weather-in-Salvador-Bahia-Brazil-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Salvador (z 1 przesiadką, najszybciej 13 h 55 min (Air France przez Paryż); XI 4 289 zł najtaniej, XII ok. 7 286 zł najdrożej, średnia 5 654 zł, typowo 4 794–7 288 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Salvador-SSA",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Itaka: Salvador tylko z wylotem z Berlina (Iberostar Waves Bahia, 6 dni, od 9 069 zł); z Polski brak. (szczegóły: research/kolumna-package_price-notatki.md)",
+      "url": "https://www.itaka.pl/all-inclusive/brazylia/",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: brazylia",
+      "url": "https://r.pl/wytyczne/brazylia",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Salvador – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11+, 11+, 11+, 11, 9, 8, 8, 10, 11+, 11+, 11+, 11+; miesiące I, II, III, IX, X, XI, XII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/brazil/salvador/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 14,1–14,7 (kontrola modelu: 14,0 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-38.5&lat=-13",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

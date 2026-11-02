@@ -1,0 +1,464 @@
+{
+  "id": "saly",
+  "country": "Senegal",
+  "place": "Saly (Petite Côte)",
+  "notes": "Klimat tropikalny suchy z porą deszczową VII–IX (ulewy, najwięcej w VIII, ok. 230 mm) i długą porą suchą X–VI. W dzień 31–36 °C (najgoręcej III i XI), noce zimą ok. 17–19 °C; XII–III harmattan. Woda: ok. 20–21 °C w II–IV (rześko), 27 °C VII–XI. Baza pobytu: Saly – resorty na Petite Côte, plaże z piaskiem, miejscami erozja i falochrony. Pogoda: temperatury i opad ze stacji M’Bour (ok. 5 km, NOAA 1991–2020), wilgotność, słońce i woda z Dakaru – szacunek. Zieleń: sawanna, baobaby. Wycieczki: rezerwat Bandia (żyrafy, nosorożce), wyspa Gorée (UNESCO), Joal-Fadiouth (wyspa z muszli), delta Saloum, Jezioro Różowe. Dojazd: z 1 przesiadką w Lizbonie (TAP) ok. 9–11 h.",
+  "entryNote": "Paszport ważny 6 mies. od wjazdu; bez wizy.",
+  "tz": "Africa/Dakar",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 2
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": {
+      "est": 9.5
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 0.6
+    },
+    "continent": "Afryka",
+    "region": "Atlantyk wschodni",
+    "entry": "paszport",
+    "tags": [
+      "dzika przyroda",
+      "spokój"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 34.1,
+      "temp_night": 16.6,
+      "dew_point": {
+        "est": 19.3
+      },
+      "sun": {
+        "est": 7.9
+      },
+      "rain": 2,
+      "rain_days": {
+        "est": 0.3
+      },
+      "uv": 9,
+      "wind": 19,
+      "water": {
+        "est": 22
+      },
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": [
+        {
+          "type": "smog",
+          "level": 1,
+          "note": "Harmattan (pył saharyjski z wiatrem z lądu): kilkudniowe epizody zamglenia, mniej słońca i suche powietrze, w części dni miesiąca."
+        }
+      ],
+      "package_price": {
+        "est": 6900
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 35.5,
+      "temp_night": 17.9,
+      "dew_point": {
+        "est": 21.9
+      },
+      "sun": {
+        "est": 8.7
+      },
+      "rain": 1,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": 11,
+      "wind": 19,
+      "water": {
+        "est": 20
+      },
+      "flight_price": {
+        "est": 2900
+      },
+      "flags": [
+        {
+          "type": "smog",
+          "level": 1,
+          "note": "Harmattan (pył saharyjski z wiatrem z lądu): kilkudniowe epizody zamglenia, mniej słońca i suche powietrze, w części dni miesiąca."
+        }
+      ],
+      "package_price": {
+        "est": 7100
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 36.3,
+      "temp_night": 18.5,
+      "dew_point": {
+        "est": 22.8
+      },
+      "sun": {
+        "est": 9.2
+      },
+      "rain": 0,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 19,
+      "water": {
+        "est": 20
+      },
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": [
+        {
+          "type": "smog",
+          "level": 1,
+          "note": "Harmattan (pył saharyjski z wiatrem z lądu): kilkudniowe epizody zamglenia, mniej słońca i suche powietrze, w części dni miesiąca."
+        }
+      ],
+      "package_price": {
+        "est": 6600
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 35.2,
+      "temp_night": 19.1,
+      "dew_point": {
+        "est": 23.2
+      },
+      "sun": {
+        "est": 9.6
+      },
+      "rain": 0,
+      "rain_days": {
+        "est": 0.1
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 19,
+      "water": {
+        "est": 21
+      },
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": [],
+      "package_price": {
+        "est": 6600
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 33.1,
+      "temp_night": 20.2,
+      "dew_point": {
+        "est": 22.8
+      },
+      "sun": {
+        "est": 9.4
+      },
+      "rain": 1,
+      "rain_days": {
+        "est": 0.3
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 18,
+      "water": {
+        "est": 23
+      },
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.7,
+      "temp_night": 23,
+      "dew_point": {
+        "est": 23.2
+      },
+      "sun": {
+        "est": 8.4
+      },
+      "rain": 12,
+      "rain_days": {
+        "est": 2.6
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 16,
+      "water": {
+        "est": 25
+      },
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.4,
+      "temp_night": 24.3,
+      "dew_point": {
+        "est": 24
+      },
+      "sun": {
+        "est": 7.5
+      },
+      "rain": 103,
+      "rain_days": {
+        "est": 10.7
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 14,
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.2,
+      "temp_night": 24.4,
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": {
+        "est": 7.2
+      },
+      "rain": 231,
+      "rain_days": {
+        "est": 19
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 13,
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 4800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.4,
+      "temp_night": 23.9,
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": {
+        "est": 7.3
+      },
+      "rain": 177,
+      "rain_days": {
+        "est": 15.8
+      },
+      "uv": {
+        "est": 12
+      },
+      "wind": 11,
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 4100
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 34.5,
+      "temp_night": 23.1,
+      "dew_point": {
+        "est": 24.8
+      },
+      "sun": {
+        "est": 8.3
+      },
+      "rain": 34,
+      "rain_days": {
+        "est": 4.7
+      },
+      "uv": 11,
+      "wind": 11,
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 36.2,
+      "temp_night": 19.7,
+      "dew_point": {
+        "est": 22.9
+      },
+      "sun": {
+        "est": 8.3
+      },
+      "rain": 1,
+      "rain_days": {
+        "est": 0.2
+      },
+      "uv": 9,
+      "wind": 14,
+      "water": {
+        "est": 27
+      },
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": [],
+      "package_price": {
+        "est": 6200
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 34.8,
+      "temp_night": 17.6,
+      "dew_point": {
+        "est": 19.3
+      },
+      "sun": {
+        "est": 7.7
+      },
+      "rain": 0,
+      "rain_days": {
+        "est": 0.3
+      },
+      "uv": 8,
+      "wind": 17,
+      "water": {
+        "est": 24
+      },
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": [
+        {
+          "type": "smog",
+          "level": 1,
+          "note": "Harmattan (pył saharyjski z wiatrem z lądu): kilkudniowe epizody zamglenia, mniej słońca i suche powietrze, w części dni miesiąca."
+        }
+      ],
+      "package_price": {
+        "est": 7500
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: M'Bour – normy 1991–2020 (NOAA; opad w calach, przeliczony): temperatury i opad – ok. 5 km od Saly",
+      "url": "https://en.wikipedia.org/wiki/Mbour",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wikipedia: Dakar – lotnisko, normy 1961–1990 (DWD): wilgotność i nasłonecznienie; temperatura morza (okres niepodany)",
+      "url": "https://en.wikipedia.org/wiki/Dakar",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Warang – średnia prędkość wiatru i dni z opadem (MERRA-2)",
+      "url": "https://weatherspark.com/y/31592/Average-Weather-in-Warang-Senegal-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Dakar (brak lotów bez przesiadek; z 1 przesiadką w Lizbonie (TAP) najszybciej 9 h 10 min, średnio 11 h 12 min; II 2 647 zł najtaniej, VIII 6 472 zł najdrożej, IX 4 123 zł, średnia 3 854 zł, typowo 3 416–4 198 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Dakar-DSS",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka III (Warszawa-Okęcie, 8 dni): Riu Baobab (Pointe Sarène, ok. 25 km od Saly, AI, bez oceny) – 6 649 zł. Rainbow: Senegal tylko objazdy (od 4 978 zł). Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/all-inclusive/senegal/",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: senegal",
+      "url": "https://r.pl/wytyczne/senegal",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: Dakar (ok. 60 km) – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 9, 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 9, 8; miesiące III, IV, V, VI, VII, VIII, IX („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/senegal/dakar/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 9,5–10 (kontrola modelu: 10,0 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-17&lat=14.45",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

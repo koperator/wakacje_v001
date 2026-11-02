@@ -3,6 +3,8 @@
   "country": "Australia",
   "place": "Whitsundays (Hamilton Island, Catseye Beach)",
   "notes": "Wyspy Whitsunday u wybrzeża Queenslandu, przy Wielkiej Rafie Koralowej: pora sucha V–X – słonecznie i ciepło (22–27 °C w dzień, woda 21–25 °C), pora deszczowa XII–III – gorąco, parno i ulewnie (ok. 30 °C, woda 28 °C), sezon cyklonów XI–IV i meduz XI–V. Baza pobytu: Catseye Beach na Hamilton Island – jasny piasek i płytka, turkusowa woda przed resortami; przy odpływie odsłania się szeroki pas płycizny. Zieleń: wyspy porośnięte buszem i lasem (parki narodowe). Wycieczki: Whitehaven Beach i Hill Inlet (rejs ok. 30–45 min), rafa (Heart Reef, pontony na rafie zewnętrznej), rejsy żaglówkami, loty widokowe. Bardzo drogo (wyspa-resort). Dojazd: 2 przesiadki (Dubaj i Brisbane lub Sydney) ok. 28 h (szacunek); lotnisko na wyspie, do resortów ok. 5–10 min.",
+  "entryNote": "Paszport; elektroniczna wiza eVisitor (podklasa 651) przed wylotem – bezpłatna dla obywateli UE.",
+  "tz": "Australia/Brisbane",
   "fixed": {
     "beaches": {
       "est": 4
@@ -22,7 +24,16 @@
     "stops": 2,
     "transfer": {
       "est": 0.2
-    }
+    },
+    "continent": "Australia i Oceania",
+    "region": "Australia",
+    "entry": "zezwolenie elektroniczne",
+    "tags": [
+      "rajska plaża",
+      "rafa i snorkeling",
+      "nurkowanie",
+      "rejsy po wyspach"
+    ]
   },
   "months": [
     {
@@ -37,7 +48,9 @@
       },
       "rain": 293,
       "rain_days": 13,
-      "uv": 10,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 22
       },
@@ -58,7 +71,8 @@
           "level": 1,
           "note": "Szczyt sezonu cyklonów (I–III): przy cyklonie kilka dni ulew i wichury, odwołane loty i rejsy (np. Debbie, III 2017 – duże zniszczenia na Hamilton Island)."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -72,7 +86,9 @@
       },
       "rain": 264,
       "rain_days": 14,
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 22
       },
@@ -93,7 +109,8 @@
           "level": 1,
           "note": "Szczyt sezonu cyklonów (I–III): przy cyklonie kilka dni ulew i wichury, odwołane loty i rejsy (np. Debbie, III 2017 – duże zniszczenia na Hamilton Island)."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -107,7 +124,9 @@
       },
       "rain": 232,
       "rain_days": 14,
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 26
       },
@@ -128,7 +147,8 @@
           "level": 1,
           "note": "Szczyt sezonu cyklonów (I–III): przy cyklonie kilka dni ulew i wichury, odwołane loty i rejsy (np. Debbie, III 2017 – duże zniszczenia na Hamilton Island)."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -142,7 +162,7 @@
       },
       "rain": 156,
       "rain_days": 12,
-      "uv": 7,
+      "uv": 10,
       "wind": {
         "est": 26
       },
@@ -158,7 +178,8 @@
           "level": 1,
           "note": "Początek lub koniec sezonu meduz (stingers, XI i IV–V): zalecany kombinezon ochronny."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -172,7 +193,7 @@
       },
       "rain": 94,
       "rain_days": 11,
-      "uv": 6,
+      "uv": 7,
       "wind": {
         "est": 25
       },
@@ -188,7 +209,8 @@
           "level": 1,
           "note": "Początek lub koniec sezonu meduz (stingers, XI i IV–V): zalecany kombinezon ochronny."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -202,7 +224,7 @@
       },
       "rain": 56,
       "rain_days": 7,
-      "uv": 5,
+      "uv": 6,
       "wind": {
         "est": 25
       },
@@ -212,7 +234,8 @@
       "flight_price": {
         "est": 8900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -236,7 +259,8 @@
       "flight_price": {
         "est": 9300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -250,7 +274,7 @@
       },
       "rain": 24,
       "rain_days": 3,
-      "uv": 7,
+      "uv": 8,
       "wind": {
         "est": 23
       },
@@ -260,7 +284,8 @@
       "flight_price": {
         "est": 9600
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -274,7 +299,7 @@
       },
       "rain": 26,
       "rain_days": 3,
-      "uv": 8,
+      "uv": 10,
       "wind": {
         "est": 22
       },
@@ -284,7 +309,8 @@
       "flight_price": {
         "est": 8900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -298,7 +324,9 @@
       },
       "rain": 25,
       "rain_days": 4,
-      "uv": 9,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 21
       },
@@ -308,7 +336,8 @@
       "flight_price": {
         "est": 8900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -322,7 +351,9 @@
       },
       "rain": 75,
       "rain_days": 5,
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 21
       },
@@ -338,7 +369,8 @@
           "level": 1,
           "note": "Początek lub koniec sezonu meduz (stingers, XI i IV–V): zalecany kombinezon ochronny."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -352,7 +384,9 @@
       },
       "rain": 136,
       "rain_days": 8,
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 22
       },
@@ -368,7 +402,8 @@
           "level": 2,
           "note": "Szczyt sezonu meduz (stingers: kostkowe i Irukandji, XII–III): poparzenia mogą być groźne dla życia; kąpiel w kombinezonie ochronnym (stinger suit), na części plaż sieci."
         }
-      ]
+      ],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -393,16 +428,6 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "BestDateWeather: Whitsundays – pogoda miesiąc po miesiącu (12 stron, np. /whitsundays-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 20.28°S 148.95°E",
-      "url": "https://bestdateweather.com/en/whitsundays-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "KAYAK.pl: Warszawa – Brisbane (1 przesiadka: Dubaj średnio 23 h 35 min; ceny: V 4 927 zł, VII 6 862, VIII 7 160 zł; średnia 5 805 zł; typowo 4 966–6 947 zł) – baza do ceny i czasu lotu; strona WAW–HTI się nie wczytała",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Brisbane-BNE",
       "checked": "2026-10-16"
@@ -411,6 +436,35 @@
       "title": "KAYAK.pl: Polska – Proserpine/Whitsunday Coast (typowa dobra cena ok. 7 318 zł w obie strony, dolne 25%)",
       "url": "https://www.kayak.pl/loty/Polska-PL0/Proserpine-Whitsunday-Coast-PPP",
       "checked": "2026-10-17"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Polskie biura nie sprzedają tu wczasów z wylotem z Polski (najwyżej wycieczki objazdowe albo pakiety na liniach rejsowych bez stałej oferty). (szczegóły: research/kolumna-package_price-notatki.md)",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: australia",
+      "url": "https://r.pl/wytyczne/australia",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Hamilton Island – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11+, 11+, 11+, 10, 7, 6, 6, 8, 10, 11+, 11+, 11+; miesiące I, II, III, X, XI, XII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/queensland/hamilton-island/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 12,9–14,2 (kontrola modelu: 13,1 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=148.95&lat=-20.35",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

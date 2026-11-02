@@ -3,6 +3,8 @@
   "country": "Fidżi",
   "place": "Nadi / Denarau (Viti Levu)",
   "notes": "Klimat tropikalny z wyraźną porą suchą po zachodniej, zawietrznej stronie Viti Levu: sucho i słonecznie V–X (najchłodniej VII–VIII), pora deszczowa XII–IV z ulewami i burzami; sezon cyklonów XI–IV, najwięcej w I–II. Baza pobytu: wyspa Denarau (resorty, marina) przy Nadi – plaże z szarobrązowym piaskiem i mętną wodą od delty rzeki Nadi; piękne plaże i rafy dopiero na wyspach Mamanuca (rejsy z mariny Denarau, ok. 30–60 min). Pogoda ze stacji lotniska Nadi (ok. 10 km, normy 1991–2020). Zieleń: ogrody resortów, pola trzciny cukrowej, góry Sabeto w tle; w porze suchej trawy brązowieją. Wycieczki: rejsy na wyspy Mamanuca (Cloud 9, Malolo, Monuriki), Ogród Śpiącego Olbrzyma, błotne źródła Sabeto, świątynia Sri Siva Subramaniya, wydmy Sigatoka. Dojazd: z 2 przesiadkami (np. przez Bliski Wschód i Hongkong lub Singapur), ok. 30 h.",
+  "entryNote": "Paszport ważny 6 mies. od wjazdu; bez wizy.",
+  "tz": "Pacific/Fiji",
   "fixed": {
     "beaches": {
       "est": 2
@@ -22,7 +24,14 @@
     "stops": 2,
     "transfer": {
       "est": 0.3
-    }
+    },
+    "continent": "Australia i Oceania",
+    "region": "Wyspy Pacyfiku",
+    "entry": "paszport",
+    "tags": [
+      "rafa i snorkeling",
+      "rejsy po wyspach"
+    ]
   },
   "months": [
     {
@@ -38,7 +47,7 @@
       "rain": 365,
       "rain_days": 14.1,
       "uv": {
-        "est": 8
+        "est": 15
       },
       "wind": 17,
       "water": 28.9,
@@ -51,7 +60,8 @@
           "level": 1,
           "note": "Szczyt sezonu cyklonów (sezon XI–IV, najwięcej w I–II): przy cyklonie kilka dni ulew, wichury i odwołanych rejsów na wyspy i lotów, w Nadi możliwe powodzie rzeki Nadi i zalane drogi."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -66,7 +76,7 @@
       "rain": 336,
       "rain_days": 15.1,
       "uv": {
-        "est": 8
+        "est": 15
       },
       "wind": 17,
       "water": 28.9,
@@ -79,7 +89,8 @@
           "level": 1,
           "note": "Szczyt sezonu cyklonów (sezon XI–IV, najwięcej w I–II): przy cyklonie kilka dni ulew, wichury i odwołanych rejsów na wyspy i lotów, w Nadi możliwe powodzie rzeki Nadi i zalane drogi."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -94,7 +105,7 @@
       "rain": 351,
       "rain_days": 16.2,
       "uv": {
-        "est": 6
+        "est": 14
       },
       "wind": 17,
       "water": 28.9,
@@ -107,7 +118,8 @@
           "level": 1,
           "note": "Szczyt sezonu cyklonów (sezon XI–IV, najwięcej w I–II): przy cyklonie kilka dni ulew, wichury i odwołanych rejsów na wyspy i lotów, w Nadi możliwe powodzie rzeki Nadi i zalane drogi."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -121,15 +133,14 @@
       "sun": 6.4,
       "rain": 188,
       "rain_days": 9.9,
-      "uv": {
-        "est": 7
-      },
+      "uv": 11,
       "wind": 18,
       "water": 28.3,
       "flight_price": {
         "est": 6800
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -143,15 +154,14 @@
       "sun": 6.8,
       "rain": 92,
       "rain_days": 4.9,
-      "uv": {
-        "est": 5
-      },
+      "uv": 8,
       "wind": 20,
       "water": 27.8,
       "flight_price": {
         "est": 6800
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -165,15 +175,14 @@
       "sun": 6.6,
       "rain": 57,
       "rain_days": 3.6,
-      "uv": {
-        "est": 6
-      },
+      "uv": 7,
       "wind": 20,
       "water": 26.7,
       "flight_price": {
         "est": 6200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -187,15 +196,14 @@
       "sun": 7,
       "rain": 51,
       "rain_days": 3.1,
-      "uv": {
-        "est": 5
-      },
+      "uv": 7,
       "wind": 20,
       "water": 26.1,
       "flight_price": {
         "est": 8800
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -209,15 +217,14 @@
       "sun": 7.1,
       "rain": 65,
       "rain_days": 4.1,
-      "uv": {
-        "est": 6
-      },
+      "uv": 9,
       "wind": 21,
       "water": 25.6,
       "flight_price": {
         "est": 8900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -231,15 +238,14 @@
       "sun": 6.8,
       "rain": 72,
       "rain_days": 4.7,
-      "uv": {
-        "est": 7
-      },
+      "uv": 11,
       "wind": 20,
       "water": 26.1,
       "flight_price": {
         "est": 7900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -254,14 +260,15 @@
       "rain": 87,
       "rain_days": 6.5,
       "uv": {
-        "est": 8
+        "est": 13
       },
       "wind": 20,
       "water": 26.7,
       "flight_price": {
         "est": 6800
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -276,14 +283,15 @@
       "rain": 127,
       "rain_days": 8.7,
       "uv": {
-        "est": 8
+        "est": 14
       },
       "wind": 18,
       "water": 27.2,
       "flight_price": {
         "est": 6500
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -298,14 +306,15 @@
       "rain": 210,
       "rain_days": 11.9,
       "uv": {
-        "est": 7
+        "est": 14
       },
       "wind": 18,
       "water": 28.3,
       "flight_price": {
         "est": 7900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -320,16 +329,6 @@
       "checked": "2026-10-14"
     },
     {
-      "title": "BestDateWeather: Fidżi – pogoda miesiąc po miesiącu (12 stron, np. /fiji-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 17.71°S 177.99°E (środek Viti Levu)",
-      "url": "https://bestdateweather.com/en/fiji-weather-january",
-      "checked": "2026-10-14"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-14"
-    },
-    {
       "title": "Asia Pacific Report: Fiji Meteorological Service o sezonie cyklonów (XI–IV, najwięcej w I–II, średnio 7 cyklonów w regionie RSMC Nadi)",
       "url": "https://asiapacificreport.nz/2022/10/24/fijis-weather-bureau-predicts-up-to-seven-cyclones-this-season/",
       "checked": "2026-10-14"
@@ -338,6 +337,35 @@
       "title": "KAYAK.pl: Warszawa – Nadi – statystyki cen w obie strony (miesiące: VI 6 198, VII 8 762, VIII 9 665; średnia 12 mies. 6 798 zł; typowo 6 338–7 758 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Nadi-NAN",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Polskie biura nie sprzedają tu wczasów z wylotem z Polski (najwyżej wycieczki objazdowe albo pakiety na liniach rejsowych bez stałej oferty). (szczegóły: research/kolumna-package_price-notatki.md)",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: fidzi",
+      "url": "https://r.pl/wytyczne/fidzi",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Lautoka (ok. 25 km) – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11+, 11+, 11+, 11, 8, 7, 7, 9, 11, 11+, 11+, 11+; miesiące I, II, III, X, XI, XII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/fiji/lautoka/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 13,5–13,8 (kontrola modelu: 13,7 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=177.38&lat=-17.77",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

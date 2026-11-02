@@ -1,0 +1,430 @@
+{
+  "id": "mui-ne",
+  "country": "Wietnam",
+  "place": "Mui Ne (Phan Thiet)",
+  "notes": "Klimat tropikalny suchy jak na Wietnam: pora sucha XI–IV (słonecznie, 30–32 °C, prawie bez deszczu I–III), pora deszczowa V–X (przelotne ulewy, 135–190 mm). XII–III silny wiatr z północnego wschodu – raj dla kitesurferów, ale fale i wzburzone morze. Woda 25–29 °C. Baza pobytu: Mui Ne – pas resortów wzdłuż plaży; plaża miejscami wąska przez erozję (falochrony), lepsza w Hòn Rơm i Phan Thiet. Pogoda: Climates to Travel (Phan Thiet), dni deszczowe z Weather Spark. Zieleń: sucho, wydmy, palmy kokosowe. Wycieczki: czerwone i białe wydmy, Fairy Stream, wioska rybacka, latarnia Kê Gà, Ho Chi Minh (ok. 3 h). Ceny bardzo niskie. Dojazd: najszybciej LOT do Bangkoku i lot do Ho Chi Minh, ok. 14 h (osobne bilety), dalej ok. 3 h drogi; zimą czartery biur.",
+  "entryNote": "Paszport ważny 6 mies.; od 15.08.2025 bez wizy do 45 dni; obowiązkowa karta Pre-Arrival online do 3 dni przed przylotem.",
+  "tz": "Asia/Ho_Chi_Minh",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 1
+    },
+    "flight_time": {
+      "est": 13.8
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 3.3
+    },
+    "continent": "Azja",
+    "region": "Azja Południowo-Wschodnia",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "kitesurfing",
+      "pustynia"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30,
+      "temp_night": 22,
+      "dew_point": {
+        "est": 21.9
+      },
+      "sun": 9,
+      "rain": 0,
+      "rain_days": {
+        "est": 0.9
+      },
+      "uv": 11,
+      "wind": 20,
+      "water": 25,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Tết (wietnamski Nowy Rok, zależnie od roku styczeń lub luty): przez kilka dni zamknięta część sklepów, restauracji i usług, wyprzedany transport, wyższe ceny."
+        },
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Silny wiatr z północnego wschodu: fale i wzburzone morze w części dni, kąpiel utrudniona; najlepsze warunki do kitesurfingu."
+        }
+      ],
+      "package_price": {
+        "est": 6400
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30,
+      "temp_night": 23,
+      "dew_point": {
+        "est": 22.5
+      },
+      "sun": 10,
+      "rain": 0,
+      "rain_days": {
+        "est": 0.4
+      },
+      "uv": {
+        "est": 12
+      },
+      "wind": 19,
+      "water": 25,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Tết (wietnamski Nowy Rok, zależnie od roku styczeń lub luty): przez kilka dni zamknięta część sklepów, restauracji i usług, wyprzedany transport, wyższe ceny."
+        },
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Silny wiatr z północnego wschodu: fale i wzburzone morze w części dni, kąpiel utrudniona; najlepsze warunki do kitesurfingu."
+        }
+      ],
+      "package_price": {
+        "est": 6600
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31,
+      "temp_night": 24,
+      "dew_point": {
+        "est": 23.7
+      },
+      "sun": 10,
+      "rain": 5,
+      "rain_days": {
+        "est": 1.2
+      },
+      "uv": {
+        "est": 14
+      },
+      "wind": 17,
+      "water": 26.7,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Silny wiatr z północnego wschodu: fale i wzburzone morze w części dni, kąpiel utrudniona; najlepsze warunki do kitesurfingu."
+        }
+      ],
+      "package_price": {
+        "est": 6200
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 32,
+      "temp_night": 26,
+      "dew_point": {
+        "est": 25.3
+      },
+      "sun": 9,
+      "rain": 30,
+      "rain_days": {
+        "est": 3.6
+      },
+      "uv": {
+        "est": 14
+      },
+      "wind": 14,
+      "water": 28.3,
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": [],
+      "package_price": {
+        "est": 6200
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 33,
+      "temp_night": 26,
+      "dew_point": {
+        "est": 25.4
+      },
+      "sun": 8,
+      "rain": 135,
+      "rain_days": {
+        "est": 10.9
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 13,
+      "water": 28.9,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 33,
+      "temp_night": 26,
+      "dew_point": {
+        "est": 25.1
+      },
+      "sun": 7,
+      "rain": 145,
+      "rain_days": {
+        "est": 13.8
+      },
+      "uv": {
+        "est": 12
+      },
+      "wind": 15,
+      "water": 28.3,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 24.1
+      },
+      "sun": 7,
+      "rain": 165,
+      "rain_days": {
+        "est": 15.1
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 16,
+      "water": 27.8,
+      "flight_price": {
+        "est": 3900
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 24.1
+      },
+      "sun": 7,
+      "rain": 165,
+      "rain_days": {
+        "est": 15.4
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 17,
+      "water": 27.8,
+      "flight_price": {
+        "est": 3800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 24.7
+      },
+      "sun": 7,
+      "rain": 190,
+      "rain_days": {
+        "est": 16.1
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 14,
+      "water": 28.3,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 24.8
+      },
+      "sun": 7,
+      "rain": 155,
+      "rain_days": {
+        "est": 14.2
+      },
+      "uv": {
+        "est": 12
+      },
+      "wind": 13,
+      "water": 28.3,
+      "flight_price": {
+        "est": 3300
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31,
+      "temp_night": 24,
+      "dew_point": {
+        "est": 24.1
+      },
+      "sun": 7,
+      "rain": 60,
+      "rain_days": {
+        "est": 7.4
+      },
+      "uv": 10,
+      "wind": 16,
+      "water": 27.2,
+      "flight_price": {
+        "est": 3400
+      },
+      "flags": [],
+      "package_price": {
+        "est": 5800
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30,
+      "temp_night": 23,
+      "dew_point": {
+        "est": 22.7
+      },
+      "sun": 8,
+      "rain": 20,
+      "rain_days": {
+        "est": 3.1
+      },
+      "uv": 10,
+      "wind": 19,
+      "water": 26.1,
+      "flight_price": {
+        "est": 3600
+      },
+      "flags": [
+        {
+          "type": "waves",
+          "level": 1,
+          "note": "Silny wiatr z północnego wschodu: fale i wzburzone morze w części dni, kąpiel utrudniona; najlepsze warunki do kitesurfingu."
+        }
+      ],
+      "package_price": {
+        "est": 7100
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Climates to Travel: Wietnam – Phan Thiet (Mui Ne bez osobnych danych) i Nha Trang: temperatury, opad, dni deszczowe, słońce, temperatura morza (liczby całkowite)",
+      "url": "https://www.climatestotravel.com/climate/vietnam",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Phan Thiet – średnia prędkość wiatru, temperatura morza i dni z opadem (MERRA-2)",
+      "url": "https://weatherspark.com/y/119895/Average-Weather-in-Phan-Thi%E1%BA%BFt-Vietnam-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wikipedia: Nha Trang – tabela Vietnam Institute for Building Science and Technology (okres niepodany): temperatury, opad, dni z opadem (próg niepodany), wilgotność, nasłonecznienie – wilgotność zastępczo dla Mui Ne",
+      "url": "https://en.wikipedia.org/wiki/Nha_Trang",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Ho Chi Minh (na jednym bilecie z 1 przesiadką (Doha, Dubaj, Stambuł, Pekin); KAYAK pokazuje też LOT bez przesiadek 11 h 30 min (rejsy czarterowe biur, nie w sprzedaży całorocznej); V 3 282 zł najtaniej, VII 3 888 zł najdrożej, VIII 3 837 zł, średnia 3 408 zł, typowo 3 004–3 931 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Ho-Chi-Minh-SGN",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow XI (Katowice, 9 dni / 7 nocy, śniadania): Canary Beach 4,9/6 – 5 773, Novela 5,0/6 – 5 823 zł; Itaka XI (Warszawa, AI): Asteria Mui Ne 5,3/6 – 6 499 zł. Wyżywienie: śniadania / AI.",
+      "url": "https://r.pl/wietnam/mui-ne",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: wietnam",
+      "url": "https://r.pl/wytyczne/wietnam",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Mui Ne – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 10, 10; miesiące II, III, IV, V, VI, VII, VIII, IX, X („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/vietnam/mui-ne/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 10,4–11,2 (kontrola modelu: 11,0 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=108.29&lat=10.95",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "id": "manama",
+  "country": "Bahrajn",
+  "place": "Manama (Bahrajn)",
+  "notes": "Klimat pustynny Zatoki Perskiej: upał V–IX (37–40 °C, noce ok. 30 °C) i bardzo parne lato (punkt rosy 22–25 °C w VII–IX), łagodnie XII–II (ok. 21–23 °C w dzień), niewiele deszczu XI–III. Woda: ok. 18–20 °C w I–III, ponad 30 °C w VII–IX. Baza pobytu: Manama z hotelami przy plażach hotelowych i sztucznych wyspach (Amwaj); publicznych plaż mało, morze płytkie. Pogoda ze stacji lotniska Bahrain International (NOAA 1991–2020). Zieleń: pustynia, palmy w ogrodach. Wycieczki: fort Qal’at al-Bahrain (UNESCO), Bab al-Bahrain i suk, Wielki Meczet Al-Fateh, tor F1. Ceny wysokie. Dojazd: z 1 przesiadką (Abu Zabi, Stambuł, Doha), ok. 8–9 h.",
+  "entryNote": "Paszport ważny 6 mies. od wjazdu; wiza turystyczna po przylocie na lotnisku w Manamie albo e-wiza wcześniej (evisa.gov.bh), do 2 tygodni.",
+  "tz": "Asia/Bahrain",
+  "fixed": {
+    "beaches": {
+      "est": 2
+    },
+    "greenery": {
+      "est": 1
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 4
+    },
+    "flight_time": {
+      "est": 8.3
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 0.3
+    },
+    "continent": "Azja",
+    "region": "Półwysep Arabski",
+    "entry": "wiza na lotnisku",
+    "tags": [
+      "miasto i zakupy"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 20.7,
+      "temp_night": 14.5,
+      "dew_point": 11.5,
+      "sun": 7.5,
+      "rain": 18,
+      "rain_days": 2.5,
+      "uv": 5,
+      "wind": 19,
+      "water": 19.4,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): część restauracji otwarta dopiero po zachodzie słońca, alkohol tylko w hotelach, krótsze godziny pracy; hotele i atrakcje działają."
+        }
+      ],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 22,
+      "temp_night": 15.4,
+      "dew_point": 11.8,
+      "sun": 7.8,
+      "rain": 13,
+      "rain_days": 1.9,
+      "uv": 7,
+      "wind": 19,
+      "water": 18.3,
+      "flight_price": {
+        "est": 2700
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): część restauracji otwarta dopiero po zachodzie słońca, alkohol tylko w hotelach, krótsze godziny pracy; hotele i atrakcje działają."
+        }
+      ],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 25.5,
+      "temp_night": 18.1,
+      "dew_point": 13.1,
+      "sun": 7.9,
+      "rain": 15,
+      "rain_days": 2.5,
+      "uv": 9,
+      "wind": 18,
+      "water": 20,
+      "flight_price": {
+        "est": 2700
+      },
+      "flags": [
+        {
+          "type": "holidays",
+          "level": 1,
+          "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): część restauracji otwarta dopiero po zachodzie słońca, alkohol tylko w hotelach, krótsze godziny pracy; hotele i atrakcje działają."
+        }
+      ],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30.6,
+      "temp_night": 22.4,
+      "dew_point": 15.4,
+      "sun": 8.5,
+      "rain": 8,
+      "rain_days": 1.3,
+      "uv": 11,
+      "wind": 16,
+      "water": 23.3,
+      "flight_price": {
+        "est": 2300
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 36.1,
+      "temp_night": 27.2,
+      "dew_point": 17.8,
+      "sun": 10.2,
+      "rain": 8,
+      "rain_days": 0.3,
+      "uv": {
+        "est": 12
+      },
+      "wind": 16,
+      "water": 27.2,
+      "flight_price": {
+        "est": 2100
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 38.6,
+      "temp_night": 30,
+      "dew_point": 19.9,
+      "sun": 11.5,
+      "rain": 0,
+      "rain_days": 0,
+      "uv": {
+        "est": 12
+      },
+      "wind": 18,
+      "water": 30,
+      "flight_price": {
+        "est": 2100
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 39.7,
+      "temp_night": 31.4,
+      "dew_point": 22.5,
+      "sun": 10.9,
+      "rain": 0,
+      "rain_days": 0,
+      "uv": {
+        "est": 12
+      },
+      "wind": 16,
+      "water": 32.2,
+      "flight_price": {
+        "est": 2100
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 39.6,
+      "temp_night": 31.5,
+      "dew_point": 25,
+      "sun": 10.8,
+      "rain": 0,
+      "rain_days": 0,
+      "uv": {
+        "est": 12
+      },
+      "wind": 14,
+      "water": 33.3,
+      "flight_price": {
+        "est": 2100
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 37.7,
+      "temp_night": 29.5,
+      "dew_point": 23.7,
+      "sun": 10.5,
+      "rain": 0,
+      "rain_days": 0,
+      "uv": 10,
+      "wind": 14,
+      "water": 32.2,
+      "flight_price": {
+        "est": 1900
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 34,
+      "temp_night": 26.4,
+      "dew_point": 21.5,
+      "sun": 9.9,
+      "rain": 1,
+      "rain_days": 0.2,
+      "uv": 8,
+      "wind": 14,
+      "water": 29.4,
+      "flight_price": {
+        "est": 2300
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28,
+      "temp_night": 21.6,
+      "dew_point": 17,
+      "sun": 8.3,
+      "rain": 17,
+      "rain_days": 1.6,
+      "uv": 6,
+      "wind": 17,
+      "water": 26.1,
+      "flight_price": {
+        "est": 2700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 22.9,
+      "temp_night": 16.8,
+      "dew_point": 13.7,
+      "sun": 7.6,
+      "rain": 15,
+      "rain_days": 2.3,
+      "uv": 5,
+      "wind": 18,
+      "water": 21.7,
+      "flight_price": {
+        "est": 2700
+      },
+      "flags": [],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Manama – lotnisko Bahrain International, normy 1991–2020 (NOAA): temperatury, opad, dni z opadem ≥ 1 mm, wilgotność, punkt rosy, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Manama",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Manama – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/104944/Average-Weather-in-Manama-Bahrain-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Bahrajn (KAYAK.pl bez strony trasy; momondo: brak statystyk miesięcznych, oferty z 1 przesiadką (Etihad przez Abu Zabi, Turkish przez Stambuł, LOT + Aegean przez Ateny) od ok. 8 h 15–9 h, najtańsza w obie strony 1 881 zł (Kraków); KAYAK Bahrajn → Warszawa: 974–3 491 zł, IX poza sezonem, I najpopularniejszy. Średnia przyjęta szacunkowo 2 300 zł (między Doha 3 087 zł a Dubajem))",
+      "url": "https://www.momondo.pl/loty/warszawa/bahrajn",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Bahrajn – Warszawa (odwrotny kierunek; Turkish przez Stambuł 8 h 15 min, Etihad przez Abu Zabi 8 h 30 min; oferty 974–3 491 zł)",
+      "url": "https://www.kayak.pl/loty/Bahrajn-BH0/Warszawa-Lotnisko-Chopina-i-inne-lotniska-WAW",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Rainbow: tylko objazd „Arabskie Dynastie” (Katar, Bahrajn, Arabia Saudyjska, 12 229 zł); Itaka bez ofert w Bahrajnie. (szczegóły: research/kolumna-package_price-notatki.md)",
+      "url": "https://r.pl/bahrajn",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: bahrajn",
+      "url": "https://r.pl/wytyczne/bahrajn",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: Manama – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 5, 7, 9, 11, 11+, 11+, 11+, 11+, 10, 8, 6, 5; miesiące V, VI, VII, VIII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/bahrain/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 6,2–7,2 (kontrola modelu: 6,7 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=50.58&lat=26.2",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

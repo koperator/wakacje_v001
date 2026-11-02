@@ -3,6 +3,8 @@
   "country": "Mauritius",
   "place": "Flic en Flac",
   "notes": "Półkula południowa: lato XI–IV (gorąco, wilgotno, najwięcej deszczu I–II, cyklony I–III, nie co roku), zima V–X (sucho, chłodniej, silny pasat SE na wschodzie i południu). Baza pobytu: Flic en Flac na osłoniętym, suchym zachodnim wybrzeżu (ok. 700 mm opadu rocznie wobec ponad 2 000 mm na wschodzie). Pogoda ze stacji Port Louis (ok. 15 km, to samo zawietrzne wybrzeże). Zieleń: pola trzciny cukrowej i zalesione góry Black River (park narodowy) za plażą. Woda wyraźnie chłodniejsza w VII–X (ok. 24 °C). Wycieczki: park Black River Gorges, Chamarel, Le Morne, delfiny w Tamarin, ogród Pamplemousses, Port Louis. Dojazd: z 1 przesiadką (Stambuł, Dubaj, Paryż), ok. 15–16 h.",
+  "entryNote": "Paszport ważny 6 mies. po powrocie; bez wizy; obowiązkowy formularz online przed wylotem.",
+  "tz": "Indian/Mauritius",
   "fixed": {
     "beaches": {
       "est": 4
@@ -16,7 +18,17 @@
     "stops": 1,
     "transfer": {
       "est": 1
-    }
+    },
+    "continent": "Afryka",
+    "region": "Wyspy Oceanu Indyjskiego",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "płytkie wejście",
+      "rafa i snorkeling",
+      "wodospady",
+      "góry i trekking",
+      "dzika przyroda"
+    ]
   },
   "months": [
     {
@@ -32,7 +44,7 @@
       "rain": 131,
       "rain_days": 9,
       "uv": {
-        "est": 8
+        "est": 14
       },
       "wind": {
         "est": 23
@@ -47,7 +59,10 @@
           "level": 1,
           "note": "Sezon cyklonów (I–III, najwyższe ryzyko w lutym): cyklony nie występują co roku, ale przy ostrzeżeniu klasy 2–3 zamknięte plaże, sklepy i loty na 1–3 dni, ulewy."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 8000
+      }
     },
     {
       "local_season": {
@@ -62,7 +77,7 @@
       "rain": 160,
       "rain_days": 10,
       "uv": {
-        "est": 8
+        "est": 14
       },
       "wind": {
         "est": 24
@@ -77,7 +92,10 @@
           "level": 1,
           "note": "Sezon cyklonów (I–III, najwyższe ryzyko w lutym): cyklony nie występują co roku, ale przy ostrzeżeniu klasy 2–3 zamknięte plaże, sklepy i loty na 1–3 dni, ulewy."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 8200
+      }
     },
     {
       "local_season": {
@@ -92,7 +110,7 @@
       "rain": 83,
       "rain_days": 8,
       "uv": {
-        "est": 8
+        "est": 13
       },
       "wind": {
         "est": 24
@@ -107,7 +125,10 @@
           "level": 1,
           "note": "Sezon cyklonów (I–III, najwyższe ryzyko w lutym): cyklony nie występują co roku, ale przy ostrzeżeniu klasy 2–3 zamknięte plaże, sklepy i loty na 1–3 dni, ulewy."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 7700
+      }
     },
     {
       "local_season": {
@@ -121,9 +142,7 @@
       "sun": 8,
       "rain": 87,
       "rain_days": 7,
-      "uv": {
-        "est": 6
-      },
+      "uv": 10,
       "wind": {
         "est": 24
       },
@@ -131,7 +150,10 @@
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7700
+      }
     },
     {
       "local_season": {
@@ -145,9 +167,7 @@
       "sun": 8,
       "rain": 48,
       "rain_days": 6,
-      "uv": {
-        "est": 5
-      },
+      "uv": 7,
       "wind": {
         "est": 24
       },
@@ -155,7 +175,10 @@
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7200
+      }
     },
     {
       "local_season": {
@@ -169,9 +192,7 @@
       "sun": 7,
       "rain": 24,
       "rain_days": 4,
-      "uv": {
-        "est": 5
-      },
+      "uv": 6,
       "wind": {
         "est": 26
       },
@@ -179,7 +200,10 @@
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7300
+      }
     },
     {
       "local_season": {
@@ -193,9 +217,7 @@
       "sun": 7,
       "rain": 18,
       "rain_days": 4,
-      "uv": {
-        "est": 6
-      },
+      "uv": 6,
       "wind": {
         "est": 28
       },
@@ -203,7 +225,10 @@
       "flight_price": {
         "est": 4900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8400
+      }
     },
     {
       "local_season": {
@@ -217,9 +242,7 @@
       "sun": 7,
       "rain": 19,
       "rain_days": 5,
-      "uv": {
-        "est": 6
-      },
+      "uv": 8,
       "wind": {
         "est": 28
       },
@@ -227,7 +250,10 @@
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8600
+      }
     },
     {
       "local_season": {
@@ -241,9 +267,7 @@
       "sun": 8,
       "rain": 17,
       "rain_days": 3,
-      "uv": {
-        "est": 8
-      },
+      "uv": 10,
       "wind": {
         "est": 25
       },
@@ -251,7 +275,10 @@
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7300
+      }
     },
     {
       "local_season": {
@@ -266,7 +293,7 @@
       "rain": 15,
       "rain_days": 3,
       "uv": {
-        "est": 8
+        "est": 12
       },
       "wind": {
         "est": 24
@@ -275,7 +302,10 @@
       "flight_price": {
         "est": 4600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7300
+      }
     },
     {
       "local_season": {
@@ -290,7 +320,7 @@
       "rain": 24,
       "rain_days": 3,
       "uv": {
-        "est": 9
+        "est": 14
       },
       "wind": {
         "est": 22
@@ -299,7 +329,10 @@
       "flight_price": {
         "est": 4600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7200
+      }
     },
     {
       "local_season": {
@@ -314,7 +347,7 @@
       "rain": 85,
       "rain_days": 6,
       "uv": {
-        "est": 9
+        "est": 14
       },
       "wind": {
         "est": 22
@@ -323,7 +356,10 @@
       "flight_price": {
         "est": 5000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8800
+      }
     }
   ],
   "sources": [
@@ -340,16 +376,6 @@
     {
       "title": "seatemperatu.re: Flic en Flac – średnia temperatura morza w miesiącach",
       "url": "https://www.seatemperatu.re/africa/mauritius/flic-en-flac/when.html",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: Mauritius – pogoda miesiąc po miesiącu (12 stron, np. /mauritius-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 20.35°S 57.55°E (środek wyspy)",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-mauritius",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
       "checked": "2026-10-13"
     },
     {
@@ -371,6 +397,36 @@
       "title": "KAYAK.pl: Warszawa – Mauritius – statystyki cen w obie strony (miesiące: I 3 803, VII 4 850, XII 5 049; średnia 12 mies. 4 239 zł; typowo 3 821–4 791 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Mauritius-MRU",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow IX: Jalsa Beach Hotel & SPA (zachodnie wybrzeże) 5,3/6, AI – 7 345 zł; Itaka: II Ravenala Attitude 6 dni AI – 6 329, VII Silver Beach 6 dni – 7 529 zł. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: mauritius",
+      "url": "https://r.pl/wytyczne/mauritius",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Flic en Flac – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11+, 11+, 11+, 10, 7, 6, 6, 8, 10, 11+, 11+, 11+; miesiące I, II, III, X, XI, XII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/mauritius/flic-en-flac/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 13–14,3 (kontrola modelu: 13,2 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=57.36&lat=-20.3",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }
