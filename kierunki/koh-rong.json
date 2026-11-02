@@ -3,6 +3,8 @@
   "country": "Kambodża",
   "place": "Koh Rong",
   "notes": "Zatoka Tajlandzka, wybrzeże kambodżańskie: sucho XII–III, monsun SW V–X z bardzo dużym opadem (VI–IX ok. 500–600 mm). Baza pobytu: Koh Touch i plaża Long Set (4K) na południowo-wschodnim krańcu wyspy, ok. 45 min promem z Sihanoukville. Pogoda ze stacji Sihanoukville (WMO, 1982–2024, ok. 25 km przez morze); wyspa może dostawać nieco mniej opadu niż ląd przy górach. Zieleń: wnętrze wyspy porośnięte dżunglą, zielono przez cały rok. Wycieczki: rejsy na plankton i sąsiednie wyspy (Koh Rong Sanloem), wodospady, wioski rybackie; większe atrakcje (Kampot, Bokor, Ream) wymagają promu i drogi. W porze deszczowej część obiektów na wyspie zamknięta. Dojazd: lotnisko Sihanoukville (KOS) ma loty głównie z Kuala Lumpur, Ho Chi Minh i Chin; z Warszawy z 2 przesiadkami (najszybciej ok. 18 h); alternatywnie Phnom Penh i ok. 4 h drogi; prom 45 min nie jest wliczony.",
+  "entryNote": "Paszport ważny 6 mies., 4 wolne strony; wiza turystyczna – na lotnisku albo e-wiza wcześniej; obowiązkowa karta e-Arrival (CeA) do 7 dni przed przylotem.",
+  "tz": "Asia/Phnom_Penh",
   "fixed": {
     "beaches": {
       "est": 4
@@ -22,7 +24,17 @@
     },
     "transfer": {
       "est": 1.3
-    }
+    },
+    "continent": "Azja",
+    "region": "Azja Południowo-Wschodnia",
+    "entry": "wiza na lotnisku",
+    "tags": [
+      "rajska plaża",
+      "rejsy po wyspach",
+      "dżungla",
+      "wodospady",
+      "spokój"
+    ]
   },
   "months": [
     {
@@ -41,15 +53,14 @@
       "rain_days": {
         "est": 2.7
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 11,
       "wind": 9,
       "water": 27.8,
       "flight_price": {
         "est": 5400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -68,14 +79,15 @@
         "est": 3.4
       },
       "uv": {
-        "est": 8
+        "est": 12
       },
       "wind": 9,
       "water": 28.3,
       "flight_price": {
         "est": 5400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -94,14 +106,15 @@
         "est": 6.5
       },
       "uv": {
-        "est": 9
+        "est": 14
       },
       "wind": 10,
       "water": 28.3,
       "flight_price": {
         "est": 5700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -120,7 +133,7 @@
         "est": 10.6
       },
       "uv": {
-        "est": 9
+        "est": 14
       },
       "wind": 9,
       "water": 30,
@@ -133,7 +146,8 @@
           "level": 1,
           "note": "Khmerski Nowy Rok (13–15 kwietnia): na lądzie zamknięta część sklepów i usług, promy i wyspa przepełnione turystami krajowymi."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -152,7 +166,7 @@
         "est": 16.9
       },
       "uv": {
-        "est": 8
+        "est": 13
       },
       "wind": 11,
       "water": 30.6,
@@ -165,7 +179,8 @@
           "level": 1,
           "note": "Początek pory deszczowej: w części dni wzburzone morze, mętna woda i odwoływane rejsy na plankton i wyspy."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -184,7 +199,7 @@
         "est": 20.7
       },
       "uv": {
-        "est": 7
+        "est": 13
       },
       "wind": 14,
       "water": 30,
@@ -197,7 +212,8 @@
           "level": 2,
           "note": "Monsun SW: wzburzone morze, promy z Sihanoukville kursują nieregularnie albo są odwoływane, kąpiel i rejsy w wielu dniach niemożliwe; część guesthouse'ów i restauracji na wyspie zamknięta do października."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -216,7 +232,7 @@
         "est": 22.7
       },
       "uv": {
-        "est": 6
+        "est": 13
       },
       "wind": 15,
       "water": 30,
@@ -229,7 +245,8 @@
           "level": 2,
           "note": "Monsun SW: wzburzone morze, promy z Sihanoukville kursują nieregularnie albo są odwoływane, kąpiel i rejsy w wielu dniach niemożliwe; część guesthouse'ów i restauracji na wyspie zamknięta do października."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -248,7 +265,7 @@
         "est": 23.2
       },
       "uv": {
-        "est": 9
+        "est": 13
       },
       "wind": 16,
       "water": 29.4,
@@ -261,7 +278,8 @@
           "level": 2,
           "note": "Monsun SW: wzburzone morze, promy z Sihanoukville kursują nieregularnie albo są odwoływane, kąpiel i rejsy w wielu dniach niemożliwe; część guesthouse'ów i restauracji na wyspie zamknięta do października."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -280,7 +298,7 @@
         "est": 21.5
       },
       "uv": {
-        "est": 7
+        "est": 13
       },
       "wind": 14,
       "water": 28.9,
@@ -293,7 +311,8 @@
           "level": 1,
           "note": "Koniec monsunu SW: morze zmienne, ograniczone usługi, część guesthouse'ów i restauracji zamknięta."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -312,7 +331,7 @@
         "est": 19.3
       },
       "uv": {
-        "est": 8
+        "est": 12
       },
       "wind": 10,
       "water": 29.4,
@@ -325,7 +344,8 @@
           "level": 1,
           "note": "Morze uspokaja się zwykle od połowy października; w pierwszej połowie miesiąca jeszcze odwoływane rejsy i część obiektów zamknięta."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -343,15 +363,14 @@
       "rain_days": {
         "est": 10.2
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 11,
       "wind": 10,
       "water": 29.4,
       "flight_price": {
         "est": 4600
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -369,15 +388,14 @@
       "rain_days": {
         "est": 3.6
       },
-      "uv": {
-        "est": 6
-      },
+      "uv": 10,
       "wind": 10,
       "water": 28.9,
       "flight_price": {
         "est": 5100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -412,11 +430,6 @@
       "checked": "2026-10-13"
     },
     {
-      "title": "BestDateWeather: Phu Quoc – pogoda miesiąc po miesiącu (12 stron, np. /phu-quoc-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 10.23°N 103.97°E",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-phu-quoc",
-      "checked": "2026-10-13"
-    },
-    {
       "title": "IDC Travel: najlepszy czas na Koh Rong (sezon, ceny, morze wzburzone VI–VIII, promy, zamknięcia w porze deszczowej)",
       "url": "https://www.idctravel.com/blog/best-time-to-visit-koh-rong.html",
       "checked": "2026-10-13"
@@ -445,6 +458,35 @@
       "title": "KAYAK.pl: Warszawa – Sihanoukville – statystyki cen w obie strony (miesiące: XI 4 550, XII 5 063; średnia 12 mies. – zł; typowo 4 970–6 525 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Sihanoukville-KOS",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Polskie biura nie sprzedają tu wczasów z wylotem z Polski (najwyżej wycieczki objazdowe albo pakiety na liniach rejsowych bez stałej oferty). (szczegóły: research/kolumna-package_price-notatki.md)",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: kambodza",
+      "url": "https://r.pl/wytyczne/kambodza",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Kompong Som (Sihanoukville) – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10; miesiące II, III, IV, V, VI, VII, VIII, IX, X („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/cambodia/kompong-som/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 10,7–11,2 (kontrola modelu: 11,2 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=103.24&lat=10.7",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

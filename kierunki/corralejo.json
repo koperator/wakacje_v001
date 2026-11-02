@@ -3,6 +3,8 @@
   "country": "Hiszpania (Kanary)",
   "place": "Corralejo, Fuerteventura",
   "notes": "Baza: Corralejo, północny kraniec Fuerteventury. Pogoda (temperatury, słońce, opad, punkt rosy) ze stacji AEMET Fuerteventura Aeropuerto (Puerto del Rosario, ok. 30 km na S, też nisko na wschodnim wybrzeżu); wiatr i woda dla samego Corralejo. Plaże: Grandes Playas w Parku Naturalnym Dunas de Corralejo (biały piasek z muszli, ok. 3,5 km, łagodne wejście, Błękitna Flaga, ok. 5–10 min dojazdu) oraz małe plaże miejskie (Waikiki, Playa del Medio z rafą). Na odsłoniętych odcinkach Grandes Playas (Flag Beach) często silny pasat, nawiewany piasek i rozkołysana woda; plaże miejskie osłonięte. Zieleń: krajobraz pustynny przez cały rok; po zimowych deszczach tylko krótkie, słabe zazielenienie. Zwiedzanie: wydmy, Isla de Lobos (statek ok. 15 min), El Cotillo, wulkan Calderón Hondo, Betancuria; prom do Lanzarote (ok. 25 min; Timanfaya i miejsca Césara Manrique w zasięgu wycieczki jednodniowej). Dojazd: regularnie z 1 przesiadką, najszybciej przez Monachium (typowo ok. 8 h). Bezpośredni lot WAW–FUE (5 h 45 min) tylko zimą, ok. koniec X – III, 2–3× w tygodniu; poza tym czartery biur podróży.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Atlantic/Canary",
   "fixed": {
     "beaches": {
       "est": 4
@@ -18,7 +20,17 @@
     "stops": 1,
     "transfer": {
       "est": 0.6
-    }
+    },
+    "continent": "Europa",
+    "region": "Atlantyk wschodni",
+    "entry": "dowód osobisty",
+    "tags": [
+      "płytkie wejście",
+      "surfing",
+      "kitesurfing",
+      "wulkany",
+      "pustynia"
+    ]
   },
   "months": [
     {
@@ -29,7 +41,7 @@
       "sun": 6.3,
       "rain": 13,
       "rain_days": 2.3,
-      "uv": 5,
+      "uv": 4,
       "wind": 22,
       "water": 19.4,
       "flight_price": {
@@ -41,7 +53,10 @@
           "level": 1,
           "note": "Calima (pył saharyjski przy wietrze ze wschodu): kilkudniowe epizody zamglenia i pyłu w powietrzu, w części dni miesiąca."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 4200
+      }
     },
     {
       "local_season": "H",
@@ -63,7 +78,10 @@
           "level": 1,
           "note": "Calima (pył saharyjski przy wietrze ze wschodu): kilkudniowe epizody zamglenia i pyłu w powietrzu, w części dni miesiąca."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 4400
+      }
     },
     {
       "local_season": "H",
@@ -73,7 +91,7 @@
       "sun": 7.7,
       "rain": 10,
       "rain_days": 1.8,
-      "uv": 7,
+      "uv": 8,
       "wind": 23,
       "water": 18.6,
       "flight_price": {
@@ -85,7 +103,10 @@
           "level": 1,
           "note": "Calima (pył saharyjski przy wietrze ze wschodu): kilkudniowe epizody zamglenia i pyłu w powietrzu, w części dni miesiąca."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 4200
+      }
     },
     {
       "local_season": "L",
@@ -95,13 +116,16 @@
       "sun": 8.3,
       "rain": 5,
       "rain_days": 0.8,
-      "uv": 8,
+      "uv": 9,
       "wind": 23,
       "water": 18.8,
       "flight_price": {
         "est": 1800
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4200
+      }
     },
     {
       "local_season": "L",
@@ -111,13 +135,16 @@
       "sun": 9.2,
       "rain": 1,
       "rain_days": 0.2,
-      "uv": 8,
+      "uv": 10,
       "wind": 23,
       "water": 19.6,
       "flight_price": {
         "est": 1300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3800
+      }
     },
     {
       "local_season": "L",
@@ -127,13 +154,16 @@
       "sun": 9.5,
       "rain": 0,
       "rain_days": 0,
-      "uv": 9,
+      "uv": 11,
       "wind": 25,
       "water": 20.7,
       "flight_price": {
         "est": 1300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4000
+      }
     },
     {
       "local_season": "M",
@@ -143,13 +173,16 @@
       "sun": 9.8,
       "rain": 0,
       "rain_days": 0,
-      "uv": 9,
+      "uv": 11,
       "wind": 28,
       "water": 21.3,
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4700
+      }
     },
     {
       "local_season": "H",
@@ -159,13 +192,16 @@
       "sun": 9.4,
       "rain": 0,
       "rain_days": 0.1,
-      "uv": 9,
+      "uv": 11,
       "wind": 26,
       "water": 21.9,
       "flight_price": {
         "est": 2000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4800
+      }
     },
     {
       "local_season": "M",
@@ -175,13 +211,16 @@
       "sun": 8.7,
       "rain": 2,
       "rain_days": 0.5,
-      "uv": 8,
+      "uv": 9,
       "wind": 21,
       "water": 22.7,
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4000
+      }
     },
     {
       "local_season": "M",
@@ -197,7 +236,10 @@
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4200
+      }
     },
     {
       "local_season": "H",
@@ -213,7 +255,10 @@
       "flight_price": {
         "est": 1700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4000
+      }
     },
     {
       "local_season": "H",
@@ -229,7 +274,10 @@
       "flight_price": {
         "est": 1700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4500
+      }
     }
   ],
   "sources": [
@@ -269,7 +317,7 @@
       "checked": "2026-10-04"
     },
     {
-      "title": "weather2travel, Fuerteventura (Puerto del Rosario) – kontrola słońca i opadu (CRU, Met Office, KNMI); UV dla czystego nieba – inna miara, nieużyte",
+      "title": "weather2travel, Fuerteventura (Puerto del Rosario) – kontrola słońca i opadu (CRU, Met Office, KNMI)",
       "url": "https://www.weather2travel.com/climate-guides/spain/canary-islands/fuerteventura/",
       "checked": "2026-10-04"
     },
@@ -314,16 +362,6 @@
       "checked": "2026-10-04"
     },
     {
-      "title": "BestDateWeather: Fuerteventura – pogoda miesiąc po miesiącu (12 stron miesięcznych, np. /fuerteventura-weather-january); UV all-sky z Open-Meteo, „ERA5 · 10 years (2016–2025)”, 28.36°N 14.02°W (środek wyspy)",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-fuerteventura",
-      "checked": "2026-10-04"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-04"
-    },
-    {
       "title": "Open-Meteo: dokumentacja API (uv_index_max z zachmurzeniem vs uv_index_clear_sky_max)",
       "url": "https://open-meteo.com/en/docs",
       "checked": "2026-10-04"
@@ -352,6 +390,31 @@
       "title": "KAYAK.pl: Warszawa – Fuerteventura – statystyki cen w obie strony (miesiące: III 911, IV 1 520, VIII 1 841; średnia 12 mies. 1 074 zł; typowo 806–1 497 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Fuerteventura-FUE",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: Fuerteventura – Fergus Cactus Garden 4,6/6: I 4 179 zł (Warszawa-Okęcie), VII 4 679 zł. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Corralejo – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 4, 6, 8, 9, 10, 11, 11, 11, 9, 7, 5, 4",
+      "url": "https://www.weather2travel.com/fuerteventura/corralejo/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 5,1–5,9 (kontrola modelu: 5,8 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-13.87&lat=28.73",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

@@ -3,6 +3,8 @@
   "country": "Tajlandia",
   "place": "Koh Samui",
   "notes": "Zatoka Tajlandzka (para monsunowa z Phuketem): najsuchiej II–IV, dość sucho V–IX (gdy na Phukecie trwa monsun SW), pora deszczowa monsunu NE X–XII z maksimum w listopadzie. Baza pobytu: Chaweng na wschodnim wybrzeżu (z Lamai ok. 15 min na południe). Pogoda ze stacji WMO 48550 Ko Samui (9,47°N 100,05°E, ok. 6 km na S od Chaweng), normy 1991–2020; nasłonecznienie z serii 1981–2010. Zieleń: wnętrze wyspy to zalesione wzgórza i gaje kokosowe, zielone przez cały rok; w porze suchej (III–IV) trawy przesychają. Wycieczki jednodniowe: park morski Ang Thong, Koh Phangan i Koh Tao, Big Buddha, wodospady Na Muang. Dojazd: najszybciej LOT bezpośrednio do Bangkoku (od 7.10.2026, cały rok) i dalej Bangkok Airways do Samui (ok. 1 h 15 min, ok. 23 rejsy dziennie) – osobne bilety, bo LOT nie ma umowy z Bangkok Airways, ok. 14,3 h z 1 przesiadką; na jednym bilecie z 2 przesiadkami (np. Stambuł + Bangkok) ok. 15,5 h.",
+  "entryNote": "Paszport ważny 6 mies. od wjazdu; od 15.09.2026 bez wizy do 30 dni (wcześniej 60); obowiązkowa bezpłatna karta TDAC online do 3 dni przed przylotem.",
+  "tz": "Asia/Bangkok",
   "fixed": {
     "beaches": {
       "est": 4
@@ -22,7 +24,17 @@
     "stops": 1,
     "transfer": {
       "est": 0.3
-    }
+    },
+    "continent": "Azja",
+    "region": "Azja Południowo-Wschodnia",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "rafa i snorkeling",
+      "rejsy po wyspach",
+      "wodospady",
+      "świątynie",
+      "życie nocne"
+    ]
   },
   "months": [
     {
@@ -35,7 +47,7 @@
       "sun": 6.4,
       "rain": 127,
       "rain_days": 8.5,
-      "uv": 8,
+      "uv": 11,
       "wind": 17,
       "water": 27.8,
       "flight_price": {
@@ -47,7 +59,10 @@
           "level": 1,
           "note": "Do ok. 10 stycznia szczyt noworoczny: najwyższe ceny i minimalne długości pobytu w wielu hotelach (ciąg dalszy okresu z grudnia)."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 7300
+      }
     },
     {
       "local_season": {
@@ -59,13 +74,18 @@
       "sun": 7.6,
       "rain": 64,
       "rain_days": 4.3,
-      "uv": 9,
+      "uv": {
+        "est": 12
+      },
       "wind": 15,
       "water": 28.3,
       "flight_price": {
         "est": 5700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7500
+      }
     },
     {
       "local_season": {
@@ -77,13 +97,18 @@
       "sun": 7.7,
       "rain": 116,
       "rain_days": 4.7,
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": 13,
       "water": 28.9,
       "flight_price": {
         "est": 5200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7000
+      }
     },
     {
       "local_season": {
@@ -95,7 +120,9 @@
       "sun": 6.7,
       "rain": 83,
       "rain_days": 6.1,
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": 12,
       "water": 30,
       "flight_price": {
@@ -107,7 +134,10 @@
           "level": 1,
           "note": "Songkran (13–15 kwietnia) – uliczne bitwy wodne, zwłaszcza w Chaweng; tłok, droższe noclegi, trudno przejść suchą stopą."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 7000
+      }
     },
     {
       "local_season": {
@@ -119,13 +149,18 @@
       "sun": 6.2,
       "rain": 132,
       "rain_days": 11,
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 13,
       "water": 30,
       "flight_price": {
         "est": 3900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6500
+      }
     },
     {
       "local_season": {
@@ -137,13 +172,18 @@
       "sun": 5,
       "rain": 134,
       "rain_days": 10.3,
-      "uv": 7,
+      "uv": {
+        "est": 12
+      },
       "wind": 17,
       "water": 30,
       "flight_price": {
         "est": 4500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6700
+      }
     },
     {
       "local_season": {
@@ -155,7 +195,9 @@
       "sun": 5,
       "rain": 117,
       "rain_days": 10.7,
-      "uv": 7,
+      "uv": {
+        "est": 12
+      },
       "wind": 18,
       "water": 30,
       "flight_price": {
@@ -167,7 +209,10 @@
           "level": 1,
           "note": "Pora występowania kubomeduz w Zatoce Tajlandzkiej (najwięcej przypadków VIII–X): poparzenia rzadkie, ale groźne; przy plażach słupki z octem, kąpiel w siatkach lub w miejscach strzeżonych."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 7600
+      }
     },
     {
       "local_season": {
@@ -179,7 +224,9 @@
       "sun": 4.9,
       "rain": 102,
       "rain_days": 10.5,
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 18,
       "water": 29.4,
       "flight_price": {
@@ -191,7 +238,10 @@
           "level": 1,
           "note": "Pora występowania kubomeduz w Zatoce Tajlandzkiej (najwięcej przypadków VIII–X): poparzenia rzadkie, ale groźne; przy plażach słupki z octem, kąpiel w siatkach lub w miejscach strzeżonych."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 7800
+      }
     },
     {
       "local_season": {
@@ -203,7 +253,9 @@
       "sun": 4.8,
       "rain": 118,
       "rain_days": 10.6,
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 16,
       "water": 29.4,
       "flight_price": {
@@ -215,7 +267,10 @@
           "level": 1,
           "note": "Pora występowania kubomeduz w Zatoce Tajlandzkiej (najwięcej przypadków VIII–X): poparzenia rzadkie, ale groźne; przy plażach słupki z octem, kąpiel w siatkach lub w miejscach strzeżonych."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 6700
+      }
     },
     {
       "local_season": {
@@ -227,7 +282,9 @@
       "sun": 4.7,
       "rain": 295,
       "rain_days": 15.8,
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 14,
       "water": 29.4,
       "flight_price": {
@@ -244,7 +301,10 @@
           "level": 1,
           "note": "Początek monsunu NE zwykle od drugiej połowy października: wyższe fale na wschodnim wybrzeżu (Chaweng, Lamai) w części dni, pojedyncze dni z czerwonymi flagami; rejsy do parku Ang Thong bywają odwoływane."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 6700
+      }
     },
     {
       "local_season": {
@@ -256,7 +316,7 @@
       "sun": 5.8,
       "rain": 445,
       "rain_days": 16.5,
-      "uv": 7,
+      "uv": 11,
       "wind": 18,
       "water": 29.4,
       "flight_price": {
@@ -268,7 +328,10 @@
           "level": 2,
           "note": "Szczyt monsunu NE: wzburzone morze na wschodnim wybrzeżu (Chaweng, Lamai), w wielu dniach czerwone flagi i odradzana kąpiel; rejsy i sporty wodne w dużej części odwołane, park Ang Thong zwykle niedostępny; ulewy podtapiają drogi i powodują przerwy w prądzie."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 6500
+      }
     },
     {
       "local_season": {
@@ -280,7 +343,7 @@
       "sun": 5.7,
       "rain": 263,
       "rain_days": 11.6,
-      "uv": 6,
+      "uv": 10,
       "wind": 19,
       "water": 28.3,
       "flight_price": {
@@ -297,7 +360,10 @@
           "level": 1,
           "note": "Boże Narodzenie i Nowy Rok (ok. 20.12–10.01): najwyższe ceny, minimalne długości pobytu i obowiązkowe płatne kolacje galowe w wielu hotelach, tłok na plażach."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 8000
+      }
     }
   ],
   "sources": [
@@ -324,16 +390,6 @@
     {
       "title": "Weather Spark: Ko Samui – średnia godzinowa prędkość wiatru na 10 m (średnia obszarowa, reanaliza), temperatura wody – kontrola",
       "url": "https://weatherspark.com/y/112991/Average-Weather-in-Ko-Samui-Thailand-Year-Round",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: Koh Samui – pogoda miesiąc po miesiącu (12 stron miesięcznych, np. /koh-samui-weather-january); UV all-sky z Open-Meteo, „ERA5 · 10 years”, 9.51°N 100.06°E; morze – kontrola",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-koh-samui",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
       "checked": "2026-10-13"
     },
     {
@@ -400,6 +456,36 @@
       "title": "KAYAK.pl: Warszawa – Ko Samui – statystyki cen w obie strony (miesiące: II 5 708, V 3 900, XII 6 158; średnia 12 mies. 5 192 zł; typowo 4 585–6 094 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Ko-Samui-USM",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Koh Samui niewidoczne w ofertach Itaki i Rainbow. Szacunek: Phuket +15% (dodatkowy lot krajowy). Wyżywienie: śniadania.",
+      "url": "https://r.pl/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – Travelplanet – nowe zasady wjazdu do Tajlandii 2026",
+      "url": "https://www.travelplanet.pl/blog/nowe-zasady-wjazdu-do-tajlandii-2026/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Koh Samui – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10; miesiące II, III, IV, V, VI, VII, VIII, IX, X („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/thailand/ko-samui/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 10,7–11,4 (kontrola modelu: 11,3 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=100.06&lat=9.5",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

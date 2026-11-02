@@ -1,0 +1,339 @@
+{
+  "id": "azory",
+  "country": "Portugalia",
+  "place": "Azory (São Miguel, Ponta Delgada)",
+  "notes": "Klimat oceaniczny: łagodnie przez cały rok (ok. 17–18 °C zimą, 25–26 °C w VII–VIII), wilgotno, zmienna pogoda w ciągu dnia, deszcz głównie X–III. Woda chłodna: 17 °C zimą, 22–24 °C w VII–IX. Baza pobytu: Ponta Delgada na São Miguel – plaże z czarnym piaskiem wulkanicznym (Milícias, Mosteiros) i baseny w skałach; kąpiel głównie latem. Pogoda ze stacji Ponta Delgada (IPMA 1991–2020). Zieleń: bardzo bujna – pastwiska, hortensje, lasy, jeziora kraterowe. Wycieczki: Sete Cidades i Lagoa do Fogo, Furnas (gorące źródła), plantacje herbaty, obserwacja wielorybów i delfinów, trekking. Dojazd: z 1 przesiadką w Lizbonie (TAP), ok. 8–10 h.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Atlantic/Azores",
+  "fixed": {
+    "beaches": {
+      "est": 2
+    },
+    "greenery": {
+      "est": 5
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": {
+      "est": 8.5
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 0.2
+    },
+    "continent": "Europa",
+    "region": "Atlantyk wschodni",
+    "entry": "dowód osobisty",
+    "tags": [
+      "wodospady",
+      "wulkany",
+      "góry i trekking",
+      "dzika przyroda"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.5,
+      "temp_night": 12.7,
+      "dew_point": {
+        "est": 12
+      },
+      "sun": 3.1,
+      "rain": 102,
+      "rain_days": 13,
+      "uv": 2,
+      "wind": 27,
+      "water": 17.2,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.4,
+      "temp_night": 12.1,
+      "dew_point": {
+        "est": 11.8
+      },
+      "sun": 3.6,
+      "rain": 87,
+      "rain_days": 10.8,
+      "uv": 4,
+      "wind": 26,
+      "water": 16.7,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.9,
+      "temp_night": 12.6,
+      "dew_point": {
+        "est": 12
+      },
+      "sun": 3.9,
+      "rain": 97,
+      "rain_days": 11.7,
+      "uv": 5,
+      "wind": 26,
+      "water": 16.7,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 18.8,
+      "temp_night": 13.3,
+      "dew_point": {
+        "est": 12.4
+      },
+      "sun": 4.7,
+      "rain": 80,
+      "rain_days": 10.2,
+      "uv": 7,
+      "wind": 24,
+      "water": 16.7,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 20.2,
+      "temp_night": 14.6,
+      "dew_point": {
+        "est": 13.9
+      },
+      "sun": 5.6,
+      "rain": 61,
+      "rain_days": 8.7,
+      "uv": 8,
+      "wind": 21,
+      "water": 17.8,
+      "flight_price": {
+        "est": 2300
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 22.4,
+      "temp_night": 16.8,
+      "dew_point": {
+        "est": 16.1
+      },
+      "sun": 5.4,
+      "rain": 44,
+      "rain_days": 6.6,
+      "uv": 9,
+      "wind": 18,
+      "water": 20,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 24.7,
+      "temp_night": 18.9,
+      "dew_point": {
+        "est": 17.8
+      },
+      "sun": 6.7,
+      "rain": 26,
+      "rain_days": 4.8,
+      "uv": 9,
+      "wind": 16,
+      "water": 22.2,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26,
+      "temp_night": 19.9,
+      "dew_point": {
+        "est": 19.2
+      },
+      "sun": 6.9,
+      "rain": 46,
+      "rain_days": 6.5,
+      "uv": 9,
+      "wind": 17,
+      "water": 23.9,
+      "flight_price": {
+        "est": 2200
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 25,
+      "temp_night": 19.1,
+      "dew_point": {
+        "est": 18.5
+      },
+      "sun": 5.8,
+      "rain": 78,
+      "rain_days": 9.4,
+      "uv": 7,
+      "wind": 20,
+      "water": 23.3,
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 22.6,
+      "temp_night": 17.1,
+      "dew_point": {
+        "est": 16.2
+      },
+      "sun": 4.6,
+      "rain": 118,
+      "rain_days": 13.7,
+      "uv": 5,
+      "wind": 24,
+      "water": 21.7,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 19.9,
+      "temp_night": 14.9,
+      "dew_point": {
+        "est": 14.3
+      },
+      "sun": 3.6,
+      "rain": 95,
+      "rain_days": 11.8,
+      "uv": 3,
+      "wind": 26,
+      "water": 19.4,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 18.3,
+      "temp_night": 13.4,
+      "dew_point": {
+        "est": 13
+      },
+      "sun": 3,
+      "rain": 153,
+      "rain_days": 15,
+      "uv": 2,
+      "wind": 28,
+      "water": 18.3,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": [],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Ponta Delgada – obserwatorium Afonso Chaves, normy 1991–2020 (IPMA): temperatury, opad, dni z opadem ≥ 1 mm, wilgotność, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Ponta_Delgada",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Ponta Delgada – średnia prędkość wiatru (średnia godzinowa, MERRA-2)",
+      "url": "https://weatherspark.com/y/31464/Average-Weather-in-Ponta-Delgada-Portugal-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "seatemperatu.re: Ponta Delgada (Azory) – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/europe/azores/ponta-delgada/when.html",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Ponta Delgada (brak lotów bez przesiadek; z 1 przesiadką w Lizbonie (TAP) od 7 h 50 min, średnio 10 h 40 min; III ok. 1 381 zł najtaniej, V ok. 2 269 zł najdrożej, VIII 2 206 zł, średnia 1 698 zł, typowo 1 430–2 278 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Ponta-Delgada-PDL",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Rainbow: Azory tylko objazdy (od 4 923 zł, 8 dni, śniadania); Itaka bez ofert pobytowych. (szczegóły: research/kolumna-package_price-notatki.md)",
+      "url": "https://r.pl/portugalia/azory",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: São Miguel – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 4, 5, 7, 8, 9, 9, 9, 7, 5, 3, 2",
+      "url": "https://www.weather2travel.com/azores/sao-miguel/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 3,2–3,7 (kontrola modelu: 3,4 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-25.67&lat=37.75",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

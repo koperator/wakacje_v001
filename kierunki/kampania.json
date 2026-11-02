@@ -1,0 +1,320 @@
+{
+  "id": "kampania",
+  "country": "Włochy",
+  "place": "Kampania (Sorrento / Zatoka Neapolitańska)",
+  "notes": "Klimat śródziemnomorski: gorące lato (ok. 30–31 °C), łagodna, deszczowa zima (X–XII ok. 110–150 mm). Woda do kąpieli VI–IX (22–26 °C). Baza pobytu: Sorrento i półwysep Sorrentyński – klify, małe żwirowe plaże i pomosty kąpielowe (stabilimenti, płatne); piaszczyste plaże dopiero w Cilento i na Ischii. Pogoda ze stacji Neapol-Capodichino (Aeronautica Militare 1991–2020). Zieleń: gaje cytrynowe i oliwne, zalesione góry Lattari. Wycieczki: Pompeje i Herkulanum (UNESCO), Wezuwiusz, Wybrzeże Amalfitańskie (Positano, Amalfi), Capri i Ischia promem, Neapol (stare miasto UNESCO), Paestum. Ceny wysokie. Dojazd: bez przesiadek Wizz Air i Ryanair do Neapolu ok. 2 h 25 min, cały rok.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Rome",
+  "fixed": {
+    "beaches": {
+      "est": 2
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 5
+    },
+    "local_prices": {
+      "est": 4
+    },
+    "flight_time": 2.4,
+    "stops": 0,
+    "transfer": {
+      "est": 1.2
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "rejsy po wyspach",
+      "wulkany",
+      "ruiny",
+      "stare miasto"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 13.4,
+      "temp_night": 4.7,
+      "dew_point": 4.4,
+      "sun": 3.7,
+      "rain": 92,
+      "rain_days": 9.3,
+      "uv": 2,
+      "wind": 18,
+      "water": 15,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 13.9,
+      "temp_night": 4.9,
+      "dew_point": 4.3,
+      "sun": 4.5,
+      "rain": 95,
+      "rain_days": 9.1,
+      "uv": 3,
+      "wind": 18,
+      "water": 14.4,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 16.4,
+      "temp_night": 7.3,
+      "dew_point": 6.3,
+      "sun": 5.1,
+      "rain": 78,
+      "rain_days": 8.6,
+      "uv": 4,
+      "wind": 16,
+      "water": 14.4,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 19.4,
+      "temp_night": 10,
+      "dew_point": 8.8,
+      "sun": 6.3,
+      "rain": 99,
+      "rain_days": 9.3,
+      "uv": 6,
+      "wind": 14,
+      "water": 15.6,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 23.6,
+      "temp_night": 14.3,
+      "dew_point": 12.6,
+      "sun": 7.9,
+      "rain": 59,
+      "rain_days": 6.1,
+      "uv": 8,
+      "wind": 12,
+      "water": 18.9,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2400
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27.7,
+      "temp_night": 18.4,
+      "dew_point": 16.3,
+      "sun": 9.3,
+      "rain": 33,
+      "rain_days": 3.3,
+      "uv": 9,
+      "wind": 11,
+      "water": 22.2,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2900
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.4,
+      "temp_night": 20.9,
+      "dew_point": 18.2,
+      "sun": 10.1,
+      "rain": 29,
+      "rain_days": 2.4,
+      "uv": 9,
+      "wind": 12,
+      "water": 25,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3200
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31,
+      "temp_night": 21.4,
+      "dew_point": 18.7,
+      "sun": 9.5,
+      "rain": 36,
+      "rain_days": 3.7,
+      "uv": 8,
+      "wind": 12,
+      "water": 25.6,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3300
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 26.8,
+      "temp_night": 17.6,
+      "dew_point": 15.4,
+      "sun": 7.8,
+      "rain": 89,
+      "rain_days": 6.1,
+      "uv": 6,
+      "wind": 13,
+      "water": 23.9,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2800
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 23,
+      "temp_night": 13.8,
+      "dew_point": 12.6,
+      "sun": 6.1,
+      "rain": 136,
+      "rain_days": 8.5,
+      "uv": 4,
+      "wind": 14,
+      "water": 21.7,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2400
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 18.3,
+      "temp_night": 9.5,
+      "dew_point": 9.3,
+      "sun": 4.2,
+      "rain": 152,
+      "rain_days": 10.2,
+      "uv": 2,
+      "wind": 17,
+      "water": 18.9,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 14.3,
+      "temp_night": 5.9,
+      "dew_point": 5.3,
+      "sun": 3.4,
+      "rain": 112,
+      "rain_days": 9.9,
+      "uv": 1,
+      "wind": 18,
+      "water": 16.7,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Neapol – lotnisko Capodichino, normy 1991–2020 (Aeronautica Militare): temperatury, opad, dni z opadem ≥ 1 mm, wilgotność, punkt rosy, nasłonecznienie; temperatura morza (Riwiera Neapolitańska)",
+      "url": "https://en.wikipedia.org/wiki/Naples",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Sorrento – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/76507/Average-Weather-in-Sorrento-Italy-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Neapol (bez przesiadek Wizz Air i Ryanair codziennie, średnio 2 h 23 min; VI 518 zł najtaniej, VII 701 zł, XI 946 zł najdrożej, średnia 614 zł, typowo 471–827 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Neapol-NAP",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow IX (Katowice, 7 nocy): Hotel Ancora (Pontecagnano) 4,4/6 – 2 761 zł, Cerere 5,0/6 – 4 034 zł (2 posiłki); Itaka V: „Neapol na lato” 4,8/6 – 3 949 zł. Wyżywienie: 2 posiłki.",
+      "url": "https://r.pl/wlochy/kampania",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: Sorrento – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 3, 4, 6, 8, 9, 9, 8, 6, 4, 2, 1",
+      "url": "https://www.weather2travel.com/campania/sorrento/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 2,5–2,9 (kontrola modelu: 2,8 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=14.37&lat=40.63",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "id": "costa-del-sol",
+  "country": "Hiszpania",
+  "place": "Costa del Sol (Torremolinos / Benalmádena)",
+  "notes": "Klimat śródziemnomorski: łagodna, słoneczna zima (ok. 17–18 °C w dzień), gorące lato (ok. 31 °C), deszcz głównie X–IV. Woda chłodniejsza niż na wschodzie (ok. 22–23 °C w VII–VIII, zimą ok. 15–16 °C) – napływ wody z Atlantyku. Baza pobytu: Torremolinos i Benalmádena – długie plaże z ciemnym piaskiem i drobnym żwirem, zorganizowane, z barami chiringuito. Pogoda ze stacji lotniska Málaga (AEMET 1991–2020). Zieleń: sucho, ogrody i palmy; góry w tle. Wycieczki: Málaga (Alcazaba, Muzeum Picassa), Ronda, Nerja (jaskinie), Caminito del Rey, Granada (Alhambra, ok. 1,5 h). Dojazd: bez przesiadek Wizz Air, Ryanair i LOT ok. 4 h, cały rok.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Madrid",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 4.1,
+    "stops": 0,
+    "transfer": {
+      "est": 0.2
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "stare miasto",
+      "życie nocne"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.2,
+      "temp_night": 7.9,
+      "dew_point": {
+        "est": 6.5
+      },
+      "sun": 5.9,
+      "rain": 62,
+      "rain_days": 5.4,
+      "uv": 2,
+      "wind": 17,
+      "water": 15.6,
+      "flight_price": {
+        "est": 600
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.9,
+      "temp_night": 8.4,
+      "dew_point": {
+        "est": 7
+      },
+      "sun": 6.7,
+      "rain": 56,
+      "rain_days": 4.6,
+      "uv": 4,
+      "wind": 17,
+      "water": 15,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 19.7,
+      "temp_night": 10.1,
+      "dew_point": {
+        "est": 8.4
+      },
+      "sun": 7.2,
+      "rain": 66,
+      "rain_days": 5.1,
+      "uv": 5,
+      "wind": 16,
+      "water": 15.6,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 21.8,
+      "temp_night": 11.9,
+      "dew_point": {
+        "est": 9.5
+      },
+      "sun": 8.3,
+      "rain": 41,
+      "rain_days": 4.4,
+      "uv": 7,
+      "wind": 16,
+      "water": 16.1,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3700
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 24.7,
+      "temp_night": 14.9,
+      "dew_point": {
+        "est": 11.3
+      },
+      "sun": 9.7,
+      "rain": 23,
+      "rain_days": 3.2,
+      "uv": 8,
+      "wind": 14,
+      "water": 17.2,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3900
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.5,
+      "temp_night": 18.6,
+      "dew_point": {
+        "est": 14.3
+      },
+      "sun": 11.2,
+      "rain": 4,
+      "rain_days": 0.6,
+      "uv": 10,
+      "wind": 13,
+      "water": 19.4,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": {
+        "est": 4500
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31,
+      "temp_night": 21.2,
+      "dew_point": {
+        "est": 16.9
+      },
+      "sun": 11.4,
+      "rain": 0,
+      "rain_days": 0,
+      "uv": 10,
+      "wind": 12,
+      "water": 21.7,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": {
+        "est": 5200
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.5,
+      "temp_night": 22,
+      "dew_point": {
+        "est": 18
+      },
+      "sun": 10.4,
+      "rain": 3,
+      "rain_days": 0.4,
+      "uv": 9,
+      "wind": 12,
+      "water": 22.8,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": {
+        "est": 5300
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 28.4,
+      "temp_night": 19.2,
+      "dew_point": {
+        "est": 16.3
+      },
+      "sun": 8.7,
+      "rain": 25,
+      "rain_days": 2.3,
+      "uv": 7,
+      "wind": 13,
+      "water": 21.7,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": {
+        "est": 4400
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 24.3,
+      "temp_night": 15.4,
+      "dew_point": {
+        "est": 14.3
+      },
+      "sun": 7.1,
+      "rain": 61,
+      "rain_days": 4.5,
+      "uv": 5,
+      "wind": 14,
+      "water": 19.4,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3900
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 20.2,
+      "temp_night": 11.4,
+      "dew_point": {
+        "est": 10.1
+      },
+      "sun": 5.9,
+      "rain": 77,
+      "rain_days": 5.4,
+      "uv": 3,
+      "wind": 16,
+      "water": 17.2,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.8,
+      "temp_night": 9.1,
+      "dew_point": {
+        "est": 8.2
+      },
+      "sun": 5.2,
+      "rain": 88,
+      "rain_days": 5.6,
+      "uv": 2,
+      "wind": 17,
+      "water": 16.1,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Málaga – lotnisko, normy 1991–2020 (AEMET): temperatury, opad, dni z opadem ≥ 1 mm, wilgotność, nasłonecznienie; temperatura morza i UV (tabela Málaga, okres niepodany)",
+      "url": "https://en.wikipedia.org/wiki/M%C3%A1laga",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Torremolinos – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/35176/Average-Weather-in-Torremolinos-Spain-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Malaga (bez przesiadek Wizz Air, Ryanair, LOT, średnio 4 h 07 min; I 636 zł najtaniej, IV 813 zł, VII 864 zł najdrożej, średnia 766 zł, typowo 604–1 017 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Malaga-AGP",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow (7 nocy): X Parasol by Dorobe 4,9/6 – 3 877, X Palia La Roca 5,2/6 – 3 886, V Palia Las Palomas 5,0/6 – 4 197 zł (AI); 2 posiłki: V Playacalida 5,4/6 – 3 116 zł. Wyżywienie: AI.",
+      "url": "https://r.pl/hiszpania/costa-del-sol",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: Torremolinos – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 4, 5, 7, 8, 10, 10, 9, 7, 5, 3, 2",
+      "url": "https://www.weather2travel.com/costa-del-sol/torremolinos/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 3,3–3,7 (kontrola modelu: 3,6 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-4.5&lat=36.62",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

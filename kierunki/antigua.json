@@ -3,6 +3,8 @@
   "country": "Antigua i Barbuda",
   "place": "Antigua (Dickenson Bay)",
   "notes": "Wyspa na Małych Antylach (Wyspy Podwietrzne): ciepło przez cały rok (28–31 °C w dzień, 22–25 °C w nocy), stały pasat łagodzi upał. Stosunkowo sucho; najwięcej deszczu IX–XI, przelotne ulewy. Sezon huraganów VI–XI (szczyt VIII–X). Baza pobytu: Dickenson Bay na północno-zachodnim wybrzeżu – długa plaża z białym piaskiem i spokojną, płytką wodą, przy niej resorty i bary; na wyspie wiele innych plaż w zasięgu krótkiej jazdy. Zieleń umiarkowana: wyspa dość sucha, bardziej zielone wzgórza na południowym zachodzie. Wycieczki: Nelson’s Dockyard i English Harbour (UNESCO), Shirley Heights (niedzielne zachody słońca), rejs na Barbudę (różowe plaże, fregaty), Stingray City, rejsy katamaranem. Drogo. Dojazd: 1 przesiadka w Londynie ok. 19 h (szacunek); z lotniska ok. 15–20 min.",
+  "entryNote": "Paszport; bez wizy; formularz ArriveAntigua online zalecany, nieobowiązkowy.",
+  "tz": "America/Antigua",
   "fixed": {
     "beaches": {
       "est": 4
@@ -22,7 +24,15 @@
     "stops": 1,
     "transfer": {
       "est": 0.3
-    }
+    },
+    "continent": "Ameryka Północna i Karaiby",
+    "region": "Karaiby",
+    "entry": "paszport",
+    "tags": [
+      "rajska plaża",
+      "płytkie wejście",
+      "rejsy po wyspach"
+    ]
   },
   "months": [
     {
@@ -39,7 +49,7 @@
       },
       "rain": 57,
       "rain_days": 11,
-      "uv": 7,
+      "uv": 8,
       "wind": 26,
       "water": {
         "est": 26
@@ -47,7 +57,8 @@
       "flight_price": {
         "est": 5300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -63,7 +74,7 @@
       },
       "rain": 45,
       "rain_days": 9,
-      "uv": 8,
+      "uv": 10,
       "wind": 26,
       "water": {
         "est": 26
@@ -71,7 +82,8 @@
       "flight_price": {
         "est": 5300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -87,7 +99,9 @@
       },
       "rain": 46,
       "rain_days": 7,
-      "uv": 9,
+      "uv": {
+        "est": 12
+      },
       "wind": 24,
       "water": {
         "est": 26
@@ -95,7 +109,8 @@
       "flight_price": {
         "est": 5300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -111,7 +126,9 @@
       },
       "rain": 72,
       "rain_days": 7,
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": 23,
       "water": {
         "est": 27
@@ -119,7 +136,8 @@
       "flight_price": {
         "est": 5300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -135,7 +153,9 @@
       },
       "rain": 90,
       "rain_days": 9,
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": 23,
       "water": {
         "est": 27
@@ -143,7 +163,8 @@
       "flight_price": {
         "est": 4100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -159,7 +180,9 @@
       },
       "rain": 62,
       "rain_days": 8,
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": 26,
       "water": {
         "est": 28
@@ -167,7 +190,8 @@
       "flight_price": {
         "est": 4100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -183,7 +207,9 @@
       },
       "rain": 87,
       "rain_days": 12,
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": 27,
       "water": {
         "est": 28
@@ -191,7 +217,8 @@
       "flight_price": {
         "est": 4700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -207,7 +234,9 @@
       },
       "rain": 99,
       "rain_days": 13,
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": 25,
       "water": {
         "est": 28
@@ -221,7 +250,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty i rejsy (np. Irma, IX 2017 – zniszczona Barbuda)."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -237,7 +267,9 @@
       },
       "rain": 132,
       "rain_days": 12,
-      "uv": 9,
+      "uv": {
+        "est": 12
+      },
       "wind": 21,
       "water": {
         "est": 29
@@ -251,7 +283,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty i rejsy (np. Irma, IX 2017 – zniszczona Barbuda)."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -267,7 +300,7 @@
       },
       "rain": 142,
       "rain_days": 13,
-      "uv": 8,
+      "uv": 10,
       "wind": 20,
       "water": {
         "est": 29
@@ -281,7 +314,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów (VIII–X): przy burzy tropikalnej lub huraganie kilka dni ulew, wichury i fal, odwołane loty i rejsy (np. Irma, IX 2017 – zniszczona Barbuda)."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -297,7 +331,7 @@
       },
       "rain": 135,
       "rain_days": 12,
-      "uv": 7,
+      "uv": 9,
       "wind": 23,
       "water": {
         "est": 28
@@ -305,7 +339,8 @@
       "flight_price": {
         "est": 4100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -321,7 +356,7 @@
       },
       "rain": 83,
       "rain_days": 12,
-      "uv": 6,
+      "uv": 8,
       "wind": 25,
       "water": {
         "est": 27
@@ -329,7 +364,8 @@
       "flight_price": {
         "est": 5300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -354,19 +390,38 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "BestDateWeather: Antigua – pogoda miesiąc po miesiącu (12 stron, np. /antigua-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 17.12°N 61.85°W",
-      "url": "https://bestdateweather.com/en/antigua-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "KAYAK.pl: Warszawa – Antigua (1 przesiadka w Londynie; powrót przez Gatwick 20 h 30 min; typowe ceny 3 520–5 862 zł, bez danych miesięcznych)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Antigua-ANU",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Polskie biura nie sprzedają tu wczasów z wylotem z Polski (najwyżej wycieczki objazdowe albo pakiety na liniach rejsowych bez stałej oferty). (szczegóły: research/kolumna-package_price-notatki.md)",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – GOV.UK – Antigua and Barbuda: entry requirements",
+      "url": "https://www.gov.uk/foreign-travel-advice/antigua-and-barbuda/entry-requirements",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Antigua – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 8, 10, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 10, 9, 8; miesiące III, IV, V, VI, VII, VIII, IX („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/antigua/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 9–9,4 (kontrola modelu: 9,4 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-61.8&lat=17.1",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

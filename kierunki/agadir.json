@@ -1,0 +1,371 @@
+{
+  "id": "agadir",
+  "country": "Maroko",
+  "place": "Agadir",
+  "notes": "Klimat atlantycki półpustynny: bardzo stabilny – ok. 21–22 °C w dzień zimą i 26–27 °C latem, chłodne noce zimą (ok. 8–10 °C), ok. 300 dni słońca, deszcz rzadki (XI–III). Rano często mgły od oceanu latem. Woda chłodna: 17–20 °C przez cały rok. Baza pobytu: Agadir – szeroka, piaszczysta plaża w osłoniętej zatoce (6 km), bulwar i hotele; surfing w Taghazout (ok. 20 km). Pogoda ze stacji Inezgane (NOAA 1991–2020). Zieleń: sucho, palmy i drzewa arganowe, dolina Paradise Valley. Wycieczki: kasba Agadir Oufella, souk El Had, Taroudant, Paradise Valley, park Souss-Massa, Marrakesz (ok. 3 h). Ceny niskie. Dojazd: bez przesiadek Wizz Air ok. 5 h 10 min (od X 2025, 2× w tygodniu).",
+  "entryNote": "Paszport ważny 6 mies. po powrocie; bez wizy do 90 dni.",
+  "tz": "Africa/Casablanca",
+  "fixed": {
+    "beaches": {
+      "est": 4
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": {
+      "est": 5.2
+    },
+    "stops": 0,
+    "transfer": {
+      "est": 0.4
+    },
+    "continent": "Afryka",
+    "region": "Atlantyk wschodni",
+    "entry": "paszport",
+    "tags": [
+      "surfing",
+      "pustynia"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 21.2,
+      "temp_night": 8.4,
+      "dew_point": {
+        "est": 10.6
+      },
+      "sun": 7.6,
+      "rain": 32,
+      "rain_days": 2.8,
+      "uv": 4,
+      "wind": 13,
+      "water": 17.2,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2700
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 22,
+      "temp_night": 10.1,
+      "dew_point": {
+        "est": 12.1
+      },
+      "sun": 8,
+      "rain": 29,
+      "rain_days": 2.7,
+      "uv": 5,
+      "wind": 14,
+      "water": 16.7,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2800
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 23.4,
+      "temp_night": 12.3,
+      "dew_point": {
+        "est": 13.8
+      },
+      "sun": 8.6,
+      "rain": 31,
+      "rain_days": 3.2,
+      "uv": 7,
+      "wind": 14,
+      "water": 16.7,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2700
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 23.2,
+      "temp_night": 14.1,
+      "dew_point": {
+        "est": 15.2
+      },
+      "sun": 9.1,
+      "rain": 14,
+      "rain_days": 1.7,
+      "uv": 9,
+      "wind": 15,
+      "water": 17.2,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2700
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 24.2,
+      "temp_night": 15.9,
+      "dew_point": {
+        "est": 17.1
+      },
+      "sun": 9.6,
+      "rain": 6,
+      "rain_days": 0.8,
+      "uv": 10,
+      "wind": 15,
+      "water": 17.8,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2400
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 25.6,
+      "temp_night": 18.1,
+      "dew_point": {
+        "est": 19.5
+      },
+      "sun": 8.9,
+      "rain": 1,
+      "rain_days": 0.2,
+      "uv": 11,
+      "wind": 15,
+      "water": 18.9,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 26.7,
+      "temp_night": 19.2,
+      "dew_point": {
+        "est": 20.7
+      },
+      "sun": 8.2,
+      "rain": 0,
+      "rain_days": 0.1,
+      "uv": 11,
+      "wind": 13,
+      "water": 19.4,
+      "flight_price": {
+        "est": 1800
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3000
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27,
+      "temp_night": 19.5,
+      "dew_point": {
+        "est": 21
+      },
+      "sun": 8,
+      "rain": 3,
+      "rain_days": 0.3,
+      "uv": 11,
+      "wind": 13,
+      "water": 20,
+      "flight_price": {
+        "est": 1800
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3100
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 26.1,
+      "temp_night": 18.6,
+      "dew_point": {
+        "est": 20
+      },
+      "sun": 7.8,
+      "rain": 4,
+      "rain_days": 0.5,
+      "uv": 9,
+      "wind": 12,
+      "water": 20,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 26.1,
+      "temp_night": 16.7,
+      "dew_point": {
+        "est": 18.4
+      },
+      "sun": 7.8,
+      "rain": 21,
+      "rain_days": 1.9,
+      "uv": 6,
+      "wind": 12,
+      "water": 20,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2700
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 24.1,
+      "temp_night": 12.9,
+      "dew_point": {
+        "est": 14.6
+      },
+      "sun": 7.6,
+      "rain": 42,
+      "rain_days": 3,
+      "uv": 4,
+      "wind": 12,
+      "water": 18.9,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 22.1,
+      "temp_night": 10.1,
+      "dew_point": {
+        "est": 12.1
+      },
+      "sun": 7.2,
+      "rain": 49,
+      "rain_days": 3.6,
+      "uv": 3,
+      "wind": 13,
+      "water": 18.3,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2900
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Agadir – stacja Inezgane, normy 1991–2020 (NOAA): temperatury, opad, dni z opadem ≥ 1 mm, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Agadir",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Agadir – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/31972/Average-Weather-in-Agadir-Morocco-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Avionero: Agadir – średnia wilgotność w miesiącach (dane godzinowe 1979–2023, reanaliza)",
+      "url": "https://avionero.com/New-York-Agadir.NYC-AGA/when-to-go",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Agadir (bez przesiadek Wizz Air ok. 3× w tygodniu, 5 h 10 min; z 1 przesiadką (Zurych) ok. 8 h 37 min; X ok. 623 zł najtaniej, VII 1 560 zł, VIII 2 210 zł najdrożej, średnia 957 zł, typowo 643–1 286 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Agadir-AGA",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "twocontinents.com: Wizz Air z Warszawy do Agadiru od 27 października (2× w tygodniu, ok. 5 h 10 min)",
+      "url": "https://twocontinents.com/blog/new-from-wizz-air-from-warsaw-we-will-fly-to-sunny-agadir",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow XII (Katowice): Allegro Agadir 5,2/6 – 2 905, Iberostar Waves Founty Beach 5,5/6 – 3 395 zł (AI); śniadania: III Anezi Tower 4,8/6 – 2 677 zł. Wyżywienie: AI.",
+      "url": "https://r.pl/maroko/agadir",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: maroko",
+      "url": "https://r.pl/wytyczne/maroko",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: Agadir – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 4, 5, 7, 9, 10, 11, 11, 11, 9, 6, 4, 3",
+      "url": "https://www.weather2travel.com/morocco/agadir/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 4,8–5,3 (kontrola modelu: 5,3 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-9.6&lat=30.4",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

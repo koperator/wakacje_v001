@@ -3,6 +3,8 @@
   "country": "Meksyk",
   "place": "Cancún (strefa hotelowa)",
   "notes": "Klimat tropikalny: sucho XII–IV, pora deszczowa V–XI z maksimum IX–X; sezon huraganów VI–XI (szczyt VIII–X), sargassum głównie V–X. Baza pobytu: strefa hotelowa Cancún (północna część skierowana na zatokę, wschodnia na Morze Karaibskie). Pogoda ze stacji Cancún (normy 1991–2020). Zieleń: nadmorska roślinność, palmy, laguna Nichupté z namorzynami. Wycieczki: Chichén Itzá (ok. 2,5 h), Tulum, Coba, cenoty, Isla Mujeres, Holbox. Dojazd: z 1 przesiadką (najszybciej Amsterdam, ok. 14 h; najczęściej Frankfurt).",
+  "entryNote": "Paszport ważny 6 mies. od wjazdu; bez wizy.",
+  "tz": "America/Cancun",
   "fixed": {
     "beaches": 4,
     "greenery": 3,
@@ -14,7 +16,16 @@
     "stops": 1,
     "transfer": {
       "est": 0.4
-    }
+    },
+    "continent": "Ameryka Północna i Karaiby",
+    "region": "Karaiby",
+    "entry": "paszport",
+    "tags": [
+      "rafa i snorkeling",
+      "nurkowanie",
+      "ruiny",
+      "życie nocne"
+    ]
   },
   "months": [
     {
@@ -31,13 +42,16 @@
       "rain_days": {
         "est": 4.5
       },
-      "uv": 6,
+      "uv": 7,
       "wind": 14,
       "water": 25.6,
       "flight_price": {
         "est": 4500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6200
+      }
     },
     {
       "local_season": {
@@ -53,13 +67,16 @@
       "rain_days": {
         "est": 3.1
       },
-      "uv": 7,
+      "uv": 9,
       "wind": 14,
       "water": 26.1,
       "flight_price": {
         "est": 4500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6300
+      }
     },
     {
       "local_season": {
@@ -75,13 +92,16 @@
       "rain_days": {
         "est": 2.7
       },
-      "uv": 8,
+      "uv": 11,
       "wind": 15,
       "water": 26.1,
       "flight_price": {
         "est": 4500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6000
+      }
     },
     {
       "local_season": {
@@ -97,13 +117,18 @@
       "rain_days": {
         "est": 2.2
       },
-      "uv": 9,
+      "uv": {
+        "est": 12
+      },
       "wind": 14,
       "water": 27.2,
       "flight_price": {
         "est": 4500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6000
+      }
     },
     {
       "local_season": {
@@ -119,7 +144,9 @@
       "rain_days": {
         "est": 4.1
       },
-      "uv": 9,
+      "uv": {
+        "est": 12
+      },
       "wind": 13,
       "water": 27.8,
       "flight_price": {
@@ -131,7 +158,8 @@
           "level": 1,
           "note": "Początek sezonu sargassum: na plażach wschodniej części strefy hotelowej pierwsze pasy wodorostów."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -147,7 +175,9 @@
       "rain_days": {
         "est": 7.2
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 12,
       "water": 28.9,
       "flight_price": {
@@ -159,7 +189,8 @@
           "level": 2,
           "note": "Szczyt sezonu sargassum: pasy brązowych wodorostów na wschodnich plażach strefy hotelowej (km 9–25) i całej Riviera Maya, w gorszych dniach zapach i brunatna woda przy brzegu; plaże północne (Playa Langosta, Tortugas) i Isla Mujeres mniej dotknięte."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -175,7 +206,9 @@
       "rain_days": {
         "est": 6.9
       },
-      "uv": 9,
+      "uv": {
+        "est": 12
+      },
       "wind": 11,
       "water": 28.9,
       "flight_price": {
@@ -187,7 +220,8 @@
           "level": 2,
           "note": "Szczyt sezonu sargassum: pasy brązowych wodorostów na wschodnich plażach strefy hotelowej (km 9–25) i całej Riviera Maya, w gorszych dniach zapach i brunatna woda przy brzegu; plaże północne (Playa Langosta, Tortugas) i Isla Mujeres mniej dotknięte."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -203,7 +237,9 @@
       "rain_days": {
         "est": 6.7
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 11,
       "water": 29.4,
       "flight_price": {
@@ -220,7 +256,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów na Atlantyku: bezpośrednie trafienie rzadkie, ale przy burzy tropikalnej kilka dni ulew, wysokich fal i odwołanych wycieczek."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -236,7 +273,7 @@
       "rain_days": {
         "est": 10
       },
-      "uv": 8,
+      "uv": 11,
       "wind": 11,
       "water": 29.4,
       "flight_price": {
@@ -253,7 +290,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów na Atlantyku: bezpośrednie trafienie rzadkie, ale przy burzy tropikalnej kilka dni ulew, wysokich fal i odwołanych wycieczek."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -269,7 +307,7 @@
       "rain_days": {
         "est": 10.4
       },
-      "uv": 7,
+      "uv": 9,
       "wind": 13,
       "water": 28.9,
       "flight_price": {
@@ -286,7 +324,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów na Atlantyku: bezpośrednie trafienie rzadkie, ale przy burzy tropikalnej kilka dni ulew, wysokich fal i odwołanych wycieczek."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -302,13 +341,16 @@
       "rain_days": {
         "est": 6.2
       },
-      "uv": 6,
+      "uv": 8,
       "wind": 14,
       "water": 27.8,
       "flight_price": {
         "est": 4000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5500
+      }
     },
     {
       "local_season": {
@@ -324,13 +366,16 @@
       "rain_days": {
         "est": 5.4
       },
-      "uv": 5,
+      "uv": 7,
       "wind": 14,
       "water": 26.7,
       "flight_price": {
         "est": 4500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6800
+      }
     }
   ],
   "sources": [
@@ -350,16 +395,6 @@
       "checked": "2026-10-14"
     },
     {
-      "title": "BestDateWeather: Cancún – pogoda miesiąc po miesiącu (12 stron, np. /cancun-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 21.16°N 86.85°W",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-cancun",
-      "checked": "2026-10-14"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-14"
-    },
-    {
       "title": "All-Inclusive Guide: przewodnik po sargassum 2026 (Karaiby meksykańskie: V umiarkowane, VI–VIII wysokie, IX umiarkowanie-wysokie, X umiarkowane; strefa hotelowa północ niżej, wschód wysoko)",
       "url": "https://all-inclusive-guide.com/guides/sargassum-seaweed-guide/",
       "checked": "2026-10-14"
@@ -373,6 +408,36 @@
       "title": "KAYAK.pl: Warszawa – Cancun – statystyki cen w obie strony (miesiące: V 3 643, VIII 4 690, X 4 694; średnia 12 mies. 4 299 zł; typowo 3 899–4 790 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Cancun-CUN",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow XII (Katowice): Dos Playas Beach House (Cancún) 4,9/6 – 6 830, Bluebay Grand Esmeralda (Riviera Maya) 4,9/6 – 6 780 zł; Itaka II: 6 dni od 8 639 zł. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: meksyk",
+      "url": "https://r.pl/wytyczne/meksyk",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Cancún – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 7, 9, 11, 11+, 11+, 11+, 11+, 11+, 11, 9, 8, 7; miesiące IV, V, VI, VII, VIII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/caribbean-coast-mexico/cancun/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 7,7–8,5 (kontrola modelu: 8,2 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-86.85&lat=21.1",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

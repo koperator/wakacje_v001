@@ -1,0 +1,350 @@
+{
+  "id": "bodrum",
+  "country": "Turcja",
+  "place": "Bodrum (półwysep Bodrum)",
+  "notes": "Klimat śródziemnomorski: bardzo gorące, suche lato (ok. 35 °C w VII–VIII), łagodna, deszczowa zima (XII–I ok. 150 mm). Woda do kąpieli VI–X (22–24 °C). Baza pobytu: półwysep Bodrum (Bitez, Gümbet, Turgutreis, Torba) – wąskie plaże z piaskiem i drobnym żwirem, pomosty i platformy, czysta woda w zatokach. Pogoda ze stacji Bodrum (MGM 1991–2020). Zieleń: makia, gaje oliwne, suche wzgórza. Wycieczki: zamek św. Piotra (Muzeum Archeologii Podwodnej), Mauzoleum w Halikarnasie, rejsy gulet, Kos (promem), Efez (ok. 2,5 h), Pamukkale (dalej). Życie nocne (Gümbet, Bar Street). Dojazd: regularnie z 1 przesiadką w Stambule ok. 7,5 h; latem czartery biur bez przesiadek (ok. 2,5 h).",
+  "entryNote": "Bez wizy; turystycznie można wjechać na dowód osobisty (MSZ zaleca paszport ważny 150 dni – część przejść tego wymaga).",
+  "tz": "Europe/Istanbul",
+  "fixed": {
+    "beaches": {
+      "est": 2
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 7.4,
+    "stops": 1,
+    "transfer": {
+      "est": 0.6
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "rejsy po wyspach",
+      "ruiny",
+      "życie nocne"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15.5,
+      "temp_night": 8.5,
+      "dew_point": {
+        "est": 5.4
+      },
+      "sun": 4.8,
+      "rain": 138,
+      "rain_days": 10.3,
+      "uv": 2,
+      "wind": 20,
+      "water": 17.2,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 16,
+      "temp_night": 8.8,
+      "dew_point": {
+        "est": 5.8
+      },
+      "sun": 5.3,
+      "rain": 108,
+      "rain_days": 8.8,
+      "uv": 3,
+      "wind": 21,
+      "water": 16.1,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 18.3,
+      "temp_night": 10.3,
+      "dew_point": {
+        "est": 6.9
+      },
+      "sun": 6.4,
+      "rain": 70,
+      "rain_days": 6.6,
+      "uv": 5,
+      "wind": 19,
+      "water": 16.1,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 21.7,
+      "temp_night": 13.1,
+      "dew_point": {
+        "est": 9.6
+      },
+      "sun": 7.8,
+      "rain": 44,
+      "rain_days": 5,
+      "uv": 6,
+      "wind": 17,
+      "water": 17.2,
+      "flight_price": {
+        "est": 3500
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2200
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 26.6,
+      "temp_night": 17.2,
+      "dew_point": {
+        "est": 13.3
+      },
+      "sun": 8.6,
+      "rain": 20,
+      "rain_days": 2.8,
+      "uv": 8,
+      "wind": 15,
+      "water": 19.4,
+      "flight_price": {
+        "est": 2400
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.1,
+      "temp_night": 21.6,
+      "dew_point": {
+        "est": 15.8
+      },
+      "sun": 10,
+      "rain": 2,
+      "rain_days": 1.6,
+      "uv": 10,
+      "wind": 18,
+      "water": 22.2,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2700
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 35.2,
+      "temp_night": 24.1,
+      "dew_point": {
+        "est": 17.5
+      },
+      "sun": 10.3,
+      "rain": 0,
+      "rain_days": 1,
+      "uv": 10,
+      "wind": 19,
+      "water": 23.3,
+      "flight_price": {
+        "est": 3100
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3100
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 35.3,
+      "temp_night": 24.4,
+      "dew_point": {
+        "est": 18.3
+      },
+      "sun": 10.2,
+      "rain": 0,
+      "rain_days": 1,
+      "uv": 9,
+      "wind": 19,
+      "water": 24.4,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3200
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.2,
+      "temp_night": 21.2,
+      "dew_point": {
+        "est": 16
+      },
+      "sun": 8.9,
+      "rain": 19,
+      "rain_days": 2.1,
+      "uv": 7,
+      "wind": 18,
+      "water": 23.9,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 26.4,
+      "temp_night": 17.5,
+      "dew_point": {
+        "est": 13.7
+      },
+      "sun": 7.2,
+      "rain": 49,
+      "rain_days": 4,
+      "uv": 5,
+      "wind": 17,
+      "water": 22.2,
+      "flight_price": {
+        "est": 2400
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 21.2,
+      "temp_night": 13.3,
+      "dew_point": {
+        "est": 10.2
+      },
+      "sun": 5.9,
+      "rain": 100,
+      "rain_days": 6.1,
+      "uv": 3,
+      "wind": 18,
+      "water": 20.6,
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17,
+      "temp_night": 10.1,
+      "dew_point": {
+        "est": 7.3
+      },
+      "sun": 4.5,
+      "rain": 150,
+      "rain_days": 10.4,
+      "uv": 2,
+      "wind": 20,
+      "water": 18.3,
+      "flight_price": {
+        "est": 2000
+      },
+      "flags": [],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Bodrum – normy 1991–2020 (NOAA, MGM): temperatury, opad, dni z opadem ≥ 1 mm, wilgotność, nasłonecznienie; temperatura morza (osobna tabela: średnie maksimum i minimum)",
+      "url": "https://en.wikipedia.org/wiki/Bodrum",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Bodrum – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/94296/Average-Weather-in-Bodrum-Turkey-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Bodrum (regularnie bez lotów bezpośrednich; z 1 przesiadką w Stambule średnio 7 h 25 min; latem czartery biur; XI 1 666 zł najtaniej, IV 3 547 zł najdrożej, VII 3 143 zł, średnia 2 362 zł, typowo 1 766–3 078 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Bodrum-BJV",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka (8 dni): V Tiana Beach 4,4/6 – 2 769, IX Delta Marriott 4,6/6 – 3 629 zł; Rainbow V: Bitez Garden Life 4,4/6 – 2 316 zł (AI). Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/all-inclusive/bodrum/",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: turcja",
+      "url": "https://r.pl/wytyczne/turcja",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Bodrum – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 3, 5, 6, 8, 10, 10, 9, 7, 5, 3, 2",
+      "url": "https://www.weather2travel.com/bodrum-and-izmir-coast/bodrum/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 3,1–3,6 (kontrola modelu: 3,6 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=27.43&lat=37.03",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

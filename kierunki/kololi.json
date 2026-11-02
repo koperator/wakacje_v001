@@ -1,0 +1,386 @@
+{
+  "id": "kololi",
+  "country": "Gambia",
+  "place": "Kololi (Senegambia Strip)",
+  "notes": "Klimat tropikalny z porą suchą XI–V (słonecznie, 32–34 °C w dzień, chłodniejsze noce ok. 18–20 °C) i deszczową VII–IX (ulewy, najwięcej w VIII, ok. 350 mm). Woda: ok. 21–22 °C w I–IV (rześko), 27–28 °C VI–XI. XII–III harmattan – pył saharyjski i zamglenie. Baza pobytu: Kololi i Senegambia Strip – złota, szeroka plaża atlantycka, umiarkowane fale. Pogoda ze stacji Banjul (NOAA 1991–2020). Zieleń: sawanna, mangrowce, palmy. Wycieczki: rezerwat Abuko, rzeka Gambia (ptaki), Kachikally (krokodyle), wyspa Kunta Kinteh (UNESCO), targi w Serrekunda. Ceny niskie. Dojazd: z 1 przesiadką (Stambuł) ok. 11,5 h; zimą czartery biur bez przesiadek (ok. 8 h).",
+  "entryNote": "Paszport ważny 6 mies. po powrocie; według R.pl bez wizy (stan 09.2025) – warto potwierdzić w ambasadzie Gambii.",
+  "tz": "Africa/Banjul",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 2
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 11.5,
+    "stops": 1,
+    "transfer": {
+      "est": 0.4
+    },
+    "continent": "Afryka",
+    "region": "Atlantyk wschodni",
+    "entry": "paszport",
+    "tags": [
+      "dzika przyroda"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.5,
+      "temp_night": 18.3,
+      "dew_point": {
+        "est": 13.2
+      },
+      "sun": 6.7,
+      "rain": 1,
+      "rain_days": 0.1,
+      "uv": 10,
+      "wind": 14,
+      "water": 21.7,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": [
+        {
+          "type": "smog",
+          "level": 1,
+          "note": "Harmattan (pył saharyjski z wiatrem z lądu): kilkudniowe epizody zamglenia, mniej słońca i suche powietrze, w części dni miesiąca."
+        }
+      ],
+      "package_price": {
+        "est": 3900
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 33.2,
+      "temp_night": 18.7,
+      "dew_point": {
+        "est": 13.7
+      },
+      "sun": 8.4,
+      "rain": 1,
+      "rain_days": 0.2,
+      "uv": {
+        "est": 12
+      },
+      "wind": 14,
+      "water": 20.6,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": [
+        {
+          "type": "smog",
+          "level": 1,
+          "note": "Harmattan (pył saharyjski z wiatrem z lądu): kilkudniowe epizody zamglenia, mniej słońca i suche powietrze, w części dni miesiąca."
+        }
+      ],
+      "package_price": {
+        "est": 4100
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.9,
+      "temp_night": 19.9,
+      "dew_point": {
+        "est": 15.1
+      },
+      "sun": 8.6,
+      "rain": 0,
+      "rain_days": 0,
+      "uv": {
+        "est": 13
+      },
+      "wind": 14,
+      "water": 20.6,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": [
+        {
+          "type": "smog",
+          "level": 1,
+          "note": "Harmattan (pył saharyjski z wiatrem z lądu): kilkudniowe epizody zamglenia, mniej słońca i suche powietrze, w części dni miesiąca."
+        }
+      ],
+      "package_price": {
+        "est": 3800
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 31.8,
+      "temp_night": 20.3,
+      "dew_point": {
+        "est": 17.2
+      },
+      "sun": 8.4,
+      "rain": 0,
+      "rain_days": 0,
+      "uv": {
+        "est": 14
+      },
+      "wind": 14,
+      "water": 21.1,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3800
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.6,
+      "temp_night": 21.2,
+      "dew_point": {
+        "est": 19.9
+      },
+      "sun": 7.4,
+      "rain": 3,
+      "rain_days": 0.1,
+      "uv": {
+        "est": 13
+      },
+      "wind": 14,
+      "water": 23.3,
+      "flight_price": {
+        "est": 2500
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.3,
+      "temp_night": 22.7,
+      "dew_point": {
+        "est": 22.2
+      },
+      "sun": 6.7,
+      "rain": 55,
+      "rain_days": 3.3,
+      "uv": {
+        "est": 13
+      },
+      "wind": 13,
+      "water": 26.1,
+      "flight_price": {
+        "est": 4400
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.8,
+      "temp_night": 23.7,
+      "dew_point": {
+        "est": 24.1
+      },
+      "sun": 5.9,
+      "rain": 175,
+      "rain_days": 11.4,
+      "uv": {
+        "est": 13
+      },
+      "wind": 12,
+      "water": 27.8,
+      "flight_price": {
+        "est": 2500
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31.6,
+      "temp_night": 23.8,
+      "dew_point": {
+        "est": 24.9
+      },
+      "sun": 6.1,
+      "rain": 354,
+      "rain_days": 15.6,
+      "uv": {
+        "est": 13
+      },
+      "wind": 11,
+      "water": 28.3,
+      "flight_price": {
+        "est": 2500
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 32.1,
+      "temp_night": 23.7,
+      "dew_point": {
+        "est": 24.9
+      },
+      "sun": 6.1,
+      "rain": 244,
+      "rain_days": 13.7,
+      "uv": {
+        "est": 13
+      },
+      "wind": 9,
+      "water": 28.3,
+      "flight_price": {
+        "est": 4400
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 33.6,
+      "temp_night": 24.1,
+      "dew_point": {
+        "est": 25.1
+      },
+      "sun": 7,
+      "rain": 76,
+      "rain_days": 4.4,
+      "uv": 11,
+      "wind": 8,
+      "water": 28.9,
+      "flight_price": {
+        "est": 3000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 34,
+      "temp_night": 22.7,
+      "dew_point": {
+        "est": 22.2
+      },
+      "sun": 8.2,
+      "rain": 1,
+      "rain_days": 0.1,
+      "uv": 10,
+      "wind": 10,
+      "water": 27.2,
+      "flight_price": {
+        "est": 2100
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3600
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 33.1,
+      "temp_night": 20.1,
+      "dew_point": {
+        "est": 16.8
+      },
+      "sun": 6.8,
+      "rain": 0,
+      "rain_days": 0.1,
+      "uv": 9,
+      "wind": 12,
+      "water": 23.9,
+      "flight_price": {
+        "est": 3700
+      },
+      "flags": [
+        {
+          "type": "smog",
+          "level": 1,
+          "note": "Harmattan (pył saharyjski z wiatrem z lądu): kilkudniowe epizody zamglenia, mniej słońca i suche powietrze, w części dni miesiąca."
+        }
+      ],
+      "package_price": {
+        "est": 4300
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Banjul – normy 1991–2020 (NOAA): temperatury, opad, dni z opadem ≥ 1 mm, wilgotność, nasłonecznienie; temperatura morza (tabela, okres niepodany)",
+      "url": "https://en.wikipedia.org/wiki/Banjul",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Banjul – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/31574/Average-Weather-in-Banjul-Gambia-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Banjul (z 1 przesiadką (Stambuł), średnio 11 h 28 min; zimą czarter Enter Air bez przesiadek (ok. 8 h 15 min); XI 2 105 zł najtaniej, VI 4 406 zł i IX 4 367 zł najdrożej, średnia 2 958 zł, typowo 2 261–4 143 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Banjul-BJL",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow (9 dni / 7 nocy): III Holiday Beach Club 4,5/6 – 3 831, XI Ocean Bay 4,9/6 – 4 613 zł (Warszawa), XII Senegambia 5,4/6 – 4 536 zł; AI: Palma Rima 4,6/6 III – 5 061 zł. Wyżywienie: śniadania.",
+      "url": "https://r.pl/gambia",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: gambia",
+      "url": "https://r.pl/wytyczne/gambia",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: Kololi – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 10, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10, 9; miesiące II, III, IV, V, VI, VII, VIII, IX („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/gambia/kololi/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 9,8–10,4 (kontrola modelu: 10,4 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-16.72&lat=13.45",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

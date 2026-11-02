@@ -3,6 +3,8 @@
   "country": "Kolumbia",
   "place": "Cartagena – Isla Barú (Playa Blanca)",
   "notes": "Karaibskie wybrzeże Kolumbii: gorąco przez cały rok (31–32 °C w dzień, 24–26 °C w nocy), woda 27–29 °C. Pora sucha XII–IV z silną bryzą (prawie bez deszczu w I–III), deszczowo V–XI (najwięcej X). Huragany rzadkie (za blisko równika). Baza pobytu: Playa Blanca na półwyspie Barú, ok. 45 km na południe od Cartageny – biały piasek i turkusowa, spokojna woda; w dzień tłumy wycieczek łodziami i nachalni sprzedawcy, wieczorem spokojnie; noclegi głównie proste cabañas i kilka hoteli. Zieleń: suchy las tropikalny i namorzyny. Wycieczki: stare miasto Cartageny (UNESCO, ok. 1 h), Wyspy Rosario (rafy, snorkeling), plankton świecący, wulkan błotny Totumo, ptaszarnia na Barú. Tanio. Dojazd: 1 przesiadka (Amsterdam) ok. 17 h; z lotniska ok. 1–1,25 h drogą.",
+  "entryNote": "Paszport; bez wizy; obowiązkowy formularz Check-MIG online (72 h – 1 h przed odprawą, także przed powrotem).",
+  "tz": "America/Bogota",
   "fixed": {
     "beaches": {
       "est": 4
@@ -20,7 +22,15 @@
     "stops": 1,
     "transfer": {
       "est": 1.2
-    }
+    },
+    "continent": "Ameryka Środkowa i Południowa",
+    "region": "Karaiby",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "rafa i snorkeling",
+      "stare miasto",
+      "życie nocne"
+    ]
   },
   "months": [
     {
@@ -39,7 +49,7 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 8,
+      "uv": 11,
       "wind": {
         "est": 22
       },
@@ -49,7 +59,8 @@
       "flight_price": {
         "est": 5400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -67,7 +78,9 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 24
       },
@@ -77,7 +90,8 @@
       "flight_price": {
         "est": 4500
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -95,7 +109,9 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 24
       },
@@ -111,7 +127,8 @@
           "level": 1,
           "note": "Semana Santa (III lub IV, zależnie od roku): szczyt wyjazdów Kolumbijczyków – Playa Blanca i łodzie na Rosario zatłoczone, wyższe ceny."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -129,7 +146,9 @@
       "rain_days": {
         "est": 2
       },
-      "uv": 8,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 20
       },
@@ -145,7 +164,8 @@
           "level": 1,
           "note": "Semana Santa (III lub IV, zależnie od roku): szczyt wyjazdów Kolumbijczyków – Playa Blanca i łodzie na Rosario zatłoczone, wyższe ceny."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -163,7 +183,9 @@
       "rain_days": {
         "est": 7
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 14
       },
@@ -173,7 +195,8 @@
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -191,7 +214,9 @@
       "rain_days": {
         "est": 9
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 13
       },
@@ -201,7 +226,8 @@
       "flight_price": {
         "est": 5400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -219,7 +245,9 @@
       "rain_days": {
         "est": 9
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 14
       },
@@ -229,7 +257,8 @@
       "flight_price": {
         "est": 5400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -247,7 +276,9 @@
       "rain_days": {
         "est": 10
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 13
       },
@@ -257,7 +288,8 @@
       "flight_price": {
         "est": 6300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -275,7 +307,9 @@
       "rain_days": {
         "est": 10
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 11
       },
@@ -285,7 +319,8 @@
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -303,7 +338,9 @@
       "rain_days": {
         "est": 12
       },
-      "uv": 7,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 11
       },
@@ -313,7 +350,8 @@
       "flight_price": {
         "est": 4500
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -331,7 +369,7 @@
       "rain_days": {
         "est": 9
       },
-      "uv": 7,
+      "uv": 11,
       "wind": {
         "est": 14
       },
@@ -341,7 +379,8 @@
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -359,7 +398,7 @@
       "rain_days": {
         "est": 3
       },
-      "uv": 7,
+      "uv": 10,
       "wind": {
         "est": 19
       },
@@ -369,7 +408,8 @@
       "flight_price": {
         "est": 5400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -384,24 +424,38 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "weather2travel: Cartagena – klimat w miesiącach (temperatura morza)",
-      "url": "https://www.weather2travel.com/colombia/cartagena/climate/",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: Cartagena – pogoda miesiąc po miesiącu (12 stron, np. /cartagena-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 10.39°N 75.51°W",
-      "url": "https://bestdateweather.com/en/cartagena-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "KAYAK.pl: Warszawa – Cartagena (1 przesiadka: Amsterdam średnio 17 h 14 min, Mediolan 19 h 42 min, Nowy Jork 21 h 27 min; ceny: III 3 953 zł najtaniej, VIII najdrożej ok. 6 898 zł (o 2 945 zł więcej), średnia 4 504 zł, typowo 4 013–5 436 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Cartagena-CTG",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Polskie biura nie sprzedają tu wczasów z wylotem z Polski (najwyżej wycieczki objazdowe albo pakiety na liniach rejsowych bez stałej oferty). (szczegóły: research/kolumna-package_price-notatki.md)",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: kolumbia",
+      "url": "https://r.pl/wytyczne/kolumbia",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Cartagena – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10; miesiące II, III, IV, V, VI, VII, VIII, IX, X („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/colombia/cartagena/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 10,7–11,6 (kontrola modelu: 11,2 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-75.55&lat=10.4",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

@@ -3,6 +3,8 @@
   "country": "Mauritius",
   "place": "Belle Mare / Palmar",
   "notes": "Wschodnie (nawietrzne) wybrzeże Mauritiusa: chłodniej, wietrzniej i bardziej deszczowo niż na zachodzie (Flic en Flac); lato XI–IV gorące i wilgotne z ryzykiem cyklonów I–III, zima VI–IX z silnym pasatem SE (falująca laguna, wietrzne plaże). Baza pobytu: Belle Mare / Palmar – długa plaża z białym piaskiem i laguną za rafą. Brak norm ze stacji dla wschodniego wybrzeża: temperatury i słońce z siatki CRU (weather2travel), opad ze średnich Mauritius Meteorological Services dla regionu Wschód 1991–2020 (z wyżyną w głębi lądu, więc dla samego wybrzeża raczej zawyżony) – szacunek. Zieleń: pola trzciny cukrowej, ogrody resortów. Wycieczki: Île aux Cerfs (łodzią ok. 15 min z Trou d’Eau Douce), wodospady GRSE, ogród Pamplemousses, park Black River Gorges. Dojazd: jak na Mauritius (MRU), z lotniska ok. 45 km.",
+  "entryNote": "Paszport ważny 6 mies. po powrocie; bez wizy; obowiązkowy formularz online przed wylotem.",
+  "tz": "Indian/Mauritius",
   "fixed": {
     "beaches": {
       "est": 5
@@ -20,7 +22,15 @@
     "stops": 1,
     "transfer": {
       "est": 0.8
-    }
+    },
+    "continent": "Afryka",
+    "region": "Wyspy Oceanu Indyjskiego",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "rajska plaża",
+      "płytkie wejście",
+      "rejsy po wyspach"
+    ]
   },
   "months": [
     {
@@ -46,7 +56,7 @@
         "est": 11.9
       },
       "uv": {
-        "est": 8
+        "est": 14
       },
       "wind": {
         "est": 23
@@ -61,7 +71,10 @@
           "level": 1,
           "note": "Sezon cyklonów (I–III, najwyższe ryzyko w lutym): cyklony nie występują co roku, ale przy ostrzeżeniu klasy 2–3 zamknięte plaże, sklepy i loty na 1–3 dni, ulewy."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 8300
+      }
     },
     {
       "local_season": {
@@ -86,7 +99,7 @@
         "est": 11.9
       },
       "uv": {
-        "est": 8
+        "est": 14
       },
       "wind": {
         "est": 24
@@ -101,7 +114,10 @@
           "level": 1,
           "note": "Sezon cyklonów (I–III, najwyższe ryzyko w lutym): cyklony nie występują co roku, ale przy ostrzeżeniu klasy 2–3 zamknięte plaże, sklepy i loty na 1–3 dni, ulewy."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 8600
+      }
     },
     {
       "local_season": {
@@ -126,7 +142,7 @@
         "est": 11.9
       },
       "uv": {
-        "est": 8
+        "est": 13
       },
       "wind": {
         "est": 24
@@ -141,7 +157,10 @@
           "level": 1,
           "note": "Sezon cyklonów (I–III, najwyższe ryzyko w lutym): cyklony nie występują co roku, ale przy ostrzeżeniu klasy 2–3 zamknięte plaże, sklepy i loty na 1–3 dni, ulewy."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 8100
+      }
     },
     {
       "local_season": {
@@ -165,9 +184,7 @@
       "rain_days": {
         "est": 11.2
       },
-      "uv": {
-        "est": 6
-      },
+      "uv": 10,
       "wind": {
         "est": 24
       },
@@ -175,7 +192,10 @@
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8100
+      }
     },
     {
       "local_season": {
@@ -199,9 +219,7 @@
       "rain_days": {
         "est": 9.8
       },
-      "uv": {
-        "est": 5
-      },
+      "uv": 7,
       "wind": {
         "est": 24
       },
@@ -209,7 +227,10 @@
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7500
+      }
     },
     {
       "local_season": {
@@ -233,9 +254,7 @@
       "rain_days": {
         "est": 9.1
       },
-      "uv": {
-        "est": 5
-      },
+      "uv": 6,
       "wind": {
         "est": 26
       },
@@ -243,7 +262,10 @@
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7600
+      }
     },
     {
       "local_season": {
@@ -267,9 +289,7 @@
       "rain_days": {
         "est": 10.5
       },
-      "uv": {
-        "est": 6
-      },
+      "uv": 6,
       "wind": {
         "est": 28
       },
@@ -277,7 +297,10 @@
       "flight_price": {
         "est": 4900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8700
+      }
     },
     {
       "local_season": {
@@ -301,9 +324,7 @@
       "rain_days": {
         "est": 10.5
       },
-      "uv": {
-        "est": 6
-      },
+      "uv": 8,
       "wind": {
         "est": 28
       },
@@ -311,7 +332,10 @@
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 9000
+      }
     },
     {
       "local_season": {
@@ -335,9 +359,7 @@
       "rain_days": {
         "est": 8.4
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 10,
       "wind": {
         "est": 25
       },
@@ -345,7 +367,10 @@
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7600
+      }
     },
     {
       "local_season": {
@@ -370,7 +395,7 @@
         "est": 9.1
       },
       "uv": {
-        "est": 8
+        "est": 12
       },
       "wind": {
         "est": 24
@@ -379,7 +404,10 @@
       "flight_price": {
         "est": 4600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7600
+      }
     },
     {
       "local_season": {
@@ -404,7 +432,7 @@
         "est": 8.4
       },
       "uv": {
-        "est": 9
+        "est": 13
       },
       "wind": {
         "est": 22
@@ -413,7 +441,10 @@
       "flight_price": {
         "est": 4600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7500
+      }
     },
     {
       "local_season": {
@@ -438,7 +469,7 @@
         "est": 11.2
       },
       "uv": {
-        "est": 9
+        "est": 14
       },
       "wind": {
         "est": 22
@@ -447,7 +478,10 @@
       "flight_price": {
         "est": 5000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 9100
+      }
     }
   ],
   "sources": [
@@ -464,16 +498,6 @@
     {
       "title": "Weather Spark: Mauritius (średnia obszarowa) – średnia godzinowa prędkość wiatru na 10 m, temperatura wody – kontrola",
       "url": "https://weatherspark.com/y/150261/Average-Weather-in-Mauritius-Year-Round",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: Mauritius – pogoda miesiąc po miesiącu (12 stron, np. /mauritius-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 20.35°S 57.55°E (środek wyspy)",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-mauritius",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
       "checked": "2026-10-13"
     },
     {
@@ -500,6 +524,36 @@
       "title": "Mauritius Chamber of Agriculture / Mauritius Meteorological Services: średni opad według regionów 1991–2020 (region Wschód)",
       "url": "https://mauritius-chamber-of-agriculture.org/wp-content/uploads/2025/04/Mean-rainfall-by-region-and-by-month-2023.pdf",
       "checked": "2026-10-17"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Jak Mauritius (wschodnie wybrzeże, hotele nieco droższe). Szacunek. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: mauritius",
+      "url": "https://r.pl/wytyczne/mauritius",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Belle Mare – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11+, 11+, 11+, 10, 7, 6, 6, 8, 10, 11+, 11+, 11+; miesiące I, II, III, X, XI, XII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/mauritius/belle-mare/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 12,7–14,1 (kontrola modelu: 13,1 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=57.77&lat=-20.2",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

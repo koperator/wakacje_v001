@@ -1,0 +1,342 @@
+{
+  "id": "apulia",
+  "country": "Włochy",
+  "place": "Apulia (Monopoli / Polignano a Mare)",
+  "notes": "Klimat śródziemnomorski: gorące, suche lato (ok. 30–31 °C), łagodna zima (ok. 13 °C), deszcz rozłożony X–III. Woda do kąpieli VI–IX (22–26 °C). Baza pobytu: Monopoli i Polignano a Mare – skaliste zatoczki z krystaliczną wodą i małe piaszczyste plaże; dłuższe plaże piaszczyste na południe od Monopoli (Capitolo). Pogoda ze stacji Bari (Aeronautica Militare 1991–2020). Zieleń: gaje oliwne (wiekowe drzewa), winnice, płaski teren. Wycieczki: Alberobello (trulli, UNESCO), Polignano, Ostuni, Matera (UNESCO, ok. 1 h), Lecce, Bari (stare miasto), Castel del Monte. Dojazd: bez przesiadek Wizz Air i Ryanair do Bari ok. 2 h 15 min, cały rok.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Rome",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 2.2,
+    "stops": 0,
+    "transfer": {
+      "est": 0.7
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "stare miasto",
+      "spokój"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 12.6,
+      "temp_night": 4.1,
+      "dew_point": {
+        "est": 3.5
+      },
+      "sun": 4.3,
+      "rain": 51,
+      "rain_days": 7.4,
+      "uv": 2,
+      "wind": 20,
+      "water": 13.9,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 13.2,
+      "temp_night": 4.2,
+      "dew_point": {
+        "est": 3.5
+      },
+      "sun": 5.8,
+      "rain": 37,
+      "rain_days": 5.6,
+      "uv": 2,
+      "wind": 21,
+      "water": 13.3,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15.7,
+      "temp_night": 6,
+      "dew_point": {
+        "est": 5.5
+      },
+      "sun": 7.4,
+      "rain": 41,
+      "rain_days": 6.5,
+      "uv": 4,
+      "wind": 20,
+      "water": 13.9,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 19,
+      "temp_night": 8.9,
+      "dew_point": {
+        "est": 8
+      },
+      "sun": 8.9,
+      "rain": 42,
+      "rain_days": 6,
+      "uv": 6,
+      "wind": 18,
+      "water": 15,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 23.6,
+      "temp_night": 13,
+      "dew_point": {
+        "est": 12.1
+      },
+      "sun": 10.1,
+      "rain": 30,
+      "rain_days": 4.5,
+      "uv": 8,
+      "wind": 16,
+      "water": 17.8,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2900
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 28.2,
+      "temp_night": 17.3,
+      "dew_point": {
+        "est": 15.9
+      },
+      "sun": 11.2,
+      "rain": 29,
+      "rain_days": 3,
+      "uv": 9,
+      "wind": 15,
+      "water": 21.7,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3400
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.6,
+      "temp_night": 20,
+      "dew_point": {
+        "est": 17.2
+      },
+      "sun": 11.5,
+      "rain": 18,
+      "rain_days": 1.9,
+      "uv": 9,
+      "wind": 16,
+      "water": 24.4,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3900
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.5,
+      "temp_night": 20.1,
+      "dew_point": {
+        "est": 17.9
+      },
+      "sun": 10.3,
+      "rain": 13,
+      "rain_days": 2.3,
+      "uv": 8,
+      "wind": 15,
+      "water": 25.6,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": {
+        "est": 4000
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 26.2,
+      "temp_night": 16.5,
+      "dew_point": {
+        "est": 15.1
+      },
+      "sun": 8.4,
+      "rain": 42,
+      "rain_days": 4.8,
+      "uv": 6,
+      "wind": 16,
+      "water": 23.3,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3300
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 21.9,
+      "temp_night": 12.6,
+      "dew_point": {
+        "est": 12.4
+      },
+      "sun": 6.5,
+      "rain": 54,
+      "rain_days": 5.5,
+      "uv": 4,
+      "wind": 17,
+      "water": 20.6,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2900
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.6,
+      "temp_night": 9,
+      "dew_point": {
+        "est": 8.8
+      },
+      "sun": 4.6,
+      "rain": 62,
+      "rain_days": 7,
+      "uv": 2,
+      "wind": 19,
+      "water": 17.2,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 13.9,
+      "temp_night": 5.8,
+      "dew_point": {
+        "est": 5
+      },
+      "sun": 3.9,
+      "rain": 47,
+      "rain_days": 7,
+      "uv": 1,
+      "wind": 21,
+      "water": 15,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Bari – lotnisko Karol Wojtyła, normy 1991–2020 (Aeronautica Militare): temperatury, opad, dni z opadem ≥ 1 mm, wilgotność, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Bari",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Monopoli – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/82004/Average-Weather-in-Monopoli-Italy-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Bari (bez przesiadek Wizz Air (ok. 5× w tygodniu) i Ryanair (3×), średnio 2 h 13 min; I 302 zł najtaniej, IX 676 zł, XII 691 zł najdrożej, średnia 567 zł, typowo 423–744 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Bari-BRI",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow VII: objazd + wypoczynek (Kalabria, Bari, Apulia) 4,1/6 – 3 862 zł; Itaka: Riva Marina Resort 5,3/6, 4 dni IV – 2 379 zł. Szacunek 7 nocy. Wyżywienie: śniadania.",
+      "url": "https://r.pl/wlochy/apulia",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: Bari (ok. 40 km) – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 2, 4, 6, 8, 9, 9, 8, 6, 4, 2, 1",
+      "url": "https://www.weather2travel.com/italy/bari/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 2,4–2,8 (kontrola modelu: 2,8 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=17.3&lat=40.95",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

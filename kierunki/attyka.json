@@ -1,0 +1,360 @@
+{
+  "id": "attyka",
+  "country": "Grecja",
+  "place": "Attyka – Riwiera Ateńska (Glyfada / Vouliagmeni)",
+  "notes": "Klimat śródziemnomorski, suchy: gorące lato (ok. 32 °C w VII–VIII, mało deszczu V–IX), łagodna zima (ok. 14 °C), deszcz głównie XI–I. Woda do kąpieli VI–X (23–27 °C). Baza pobytu: Glyfada / Vouliagmeni / Varkiza – zorganizowane plaże z piaskiem i drobnymi kamykami (wiele płatnych), jezioro Vouliagmeni. Pogoda ze stacji Elliniko na wybrzeżu Aten (HNMS 1955–2010). Zieleń: sucha, sosny na wzgórzach Hymettus. Wycieczki: Akropol i muzea Aten (ok. 30–40 min), świątynia Posejdona w Sounion, Delfy, Mykeny i Epidaur (dalej), rejsy na Eginę i Hydrę. Dojazd: bez przesiadek (Aegean, Sky Express, LOT) ok. 2 h 25 min.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Athens",
+  "fixed": {
+    "beaches": {
+      "est": 2
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 5
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 2.4,
+    "stops": 0,
+    "transfer": {
+      "est": 0.6
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "ruiny",
+      "miasto i zakupy",
+      "życie nocne"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 13.6,
+      "temp_night": 7,
+      "dew_point": {
+        "est": 4.9
+      },
+      "sun": 4.2,
+      "rain": 48,
+      "rain_days": {
+        "est": 9
+      },
+      "uv": 2,
+      "wind": 19,
+      "water": 15.6,
+      "flight_price": {
+        "est": 600
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 14.1,
+      "temp_night": 7.1,
+      "dew_point": {
+        "est": 4.9
+      },
+      "sun": 4.8,
+      "rain": 39,
+      "rain_days": {
+        "est": 8
+      },
+      "uv": 3,
+      "wind": 19,
+      "water": 15,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15.9,
+      "temp_night": 8.5,
+      "dew_point": {
+        "est": 6.2
+      },
+      "sun": 5.9,
+      "rain": 42,
+      "rain_days": {
+        "est": 7.9
+      },
+      "uv": 5,
+      "wind": 17,
+      "water": 15.6,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 19.6,
+      "temp_night": 11.5,
+      "dew_point": {
+        "est": 8.9
+      },
+      "sun": 7.7,
+      "rain": 26,
+      "rain_days": {
+        "est": 6.5
+      },
+      "uv": 6,
+      "wind": 15,
+      "water": 16.1,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 24.4,
+      "temp_night": 15.8,
+      "dew_point": {
+        "est": 12.4
+      },
+      "sun": 9.4,
+      "rain": 14,
+      "rain_days": {
+        "est": 4.5
+      },
+      "uv": 8,
+      "wind": 14,
+      "water": 18.9,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.2,
+      "temp_night": 20.3,
+      "dew_point": {
+        "est": 15
+      },
+      "sun": 11.2,
+      "rain": 5,
+      "rain_days": {
+        "est": 2.5
+      },
+      "uv": 9,
+      "wind": 14,
+      "water": 22.8,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.2,
+      "temp_night": 23,
+      "dew_point": {
+        "est": 15.8
+      },
+      "sun": 11.7,
+      "rain": 6,
+      "rain_days": {
+        "est": 1.2
+      },
+      "uv": 10,
+      "wind": 16,
+      "water": 26.1,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 32.2,
+      "temp_night": 23.1,
+      "dew_point": {
+        "est": 15.8
+      },
+      "sun": 11,
+      "rain": 6,
+      "rain_days": {
+        "est": 1.1
+      },
+      "uv": 9,
+      "wind": 17,
+      "water": 26.7,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.3,
+      "temp_night": 19.6,
+      "dew_point": {
+        "est": 14.4
+      },
+      "sun": 9.2,
+      "rain": 12,
+      "rain_days": {
+        "est": 3.3
+      },
+      "uv": 7,
+      "wind": 16,
+      "water": 25.6,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 23.4,
+      "temp_night": 15.7,
+      "dew_point": {
+        "est": 12.3
+      },
+      "sun": 6.7,
+      "rain": 46,
+      "rain_days": {
+        "est": 6
+      },
+      "uv": 5,
+      "wind": 17,
+      "water": 22.2,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 18.8,
+      "temp_night": 12,
+      "dew_point": {
+        "est": 9.8
+      },
+      "sun": 5.1,
+      "rain": 60,
+      "rain_days": {
+        "est": 7.6
+      },
+      "uv": 3,
+      "wind": 18,
+      "water": 19.4,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15.1,
+      "temp_night": 8.8,
+      "dew_point": {
+        "est": 6.7
+      },
+      "sun": 4.1,
+      "rain": 62,
+      "rain_days": {
+        "est": 9.5
+      },
+      "uv": 2,
+      "wind": 19,
+      "water": 16.7,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Elliniko (wybrzeże Aten) – normy 1955–2010 (HNMS): temperatury, opad, dni z opadem (próg niepodany), wilgotność, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Elliniko",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Glyfada – średnia prędkość wiatru (średnia godzinowa, MERRA-2)",
+      "url": "https://weatherspark.com/y/89219/Average-Weather-in-Glyf%C3%A1da-Greece-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "seatemperatu.re: Vouliagmeni (Riwiera Ateńska) – średnia temperatura morza w miesiącach",
+      "url": "https://www.seatemperatu.re/europe/greece/vouliagmeni/when.html",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Ateny (bez przesiadek Aegean, Sky Express, LOT, ok. 2 h 25 min; I 591 zł najtaniej, VIII 891 zł najdrożej, IX 883 zł, średnia 764 zł, typowo 611–993 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Ateny-ATH",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Riwiera Ateńska niewidoczna w ofertach Rainbow (brak regionu) i Itaki; Ateny tylko w objazdach i city breakach. (szczegóły: research/kolumna-package_price-notatki.md)",
+      "url": "https://r.pl/grecja",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: Ateny – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 3, 5, 6, 8, 9, 10, 9, 7, 5, 3, 2",
+      "url": "https://www.weather2travel.com/greece/athens/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 2,8–3,5 (kontrola modelu: 3,4 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=23.75&lat=37.85",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

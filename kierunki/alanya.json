@@ -3,6 +3,8 @@
   "country": "Turcja",
   "place": "Alanya",
   "notes": "Klimat śródziemnomorski: gorąco i sucho VI–IX, łagodna, deszczowa zima (opad głównie XI–II, ok. 200–250 mm/miesiąc). Woda do kąpieli V–XI. Baza pobytu: Alanya (plaża Kleopatry i plaże wschodnie). Pogoda ze stacji Alanya (normy 1991–2020). Zieleń: góry Taurus porośnięte lasem sosnowym tuż za miastem, gaje cytrusowe i bananowe; latem trawy przesychają. Wycieczki: twierdza Alanya, jaskinie Damlataş i Dim, kanion Sapadere, rejsy; Side i Aspendos ok. 1–1,5 h, Antalya ok. 2 h. Dojazd: bezpośrednio z Warszawy do Antalyi przez cały rok (ok. 3 h), dalej ok. 2 h drogi; latem także lotnisko Gazipaşa (ok. 40 km). Ceny w Turcji w euro mocno się zmieniają przez inflację.",
+  "entryNote": "Bez wizy; turystycznie można wjechać na dowód osobisty (MSZ zaleca paszport ważny 150 dni – część przejść tego wymaga).",
+  "tz": "Europe/Istanbul",
   "fixed": {
     "beaches": 2,
     "greenery": 3,
@@ -16,7 +18,15 @@
     "stops": 0,
     "transfer": {
       "est": 2
-    }
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "góry i trekking",
+      "ruiny",
+      "życie nocne"
+    ]
   },
   "months": [
     {
@@ -31,15 +41,14 @@
       "sun": 4.1,
       "rain": 211,
       "rain_days": 11.7,
-      "uv": {
-        "est": 3
-      },
+      "uv": 2,
       "wind": 13,
       "water": 17.8,
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -53,15 +62,14 @@
       "sun": 4.5,
       "rain": 137,
       "rain_days": 9.2,
-      "uv": {
-        "est": 4
-      },
+      "uv": 3,
       "wind": 13,
       "water": 16.9,
       "flight_price": {
         "est": 1000
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -75,15 +83,14 @@
       "sun": 6.2,
       "rain": 91,
       "rain_days": 6.9,
-      "uv": {
-        "est": 6
-      },
+      "uv": 5,
       "wind": 11,
       "water": 17.3,
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -97,15 +104,16 @@
       "sun": 7.3,
       "rain": 69,
       "rain_days": 5.9,
-      "uv": {
-        "est": 7
-      },
+      "uv": 7,
       "wind": 9,
       "water": 17.9,
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2200
+      }
     },
     {
       "local_season": {
@@ -119,15 +127,16 @@
       "sun": 9.3,
       "rain": 36,
       "rain_days": 3.1,
-      "uv": {
-        "est": 7
-      },
+      "uv": 9,
       "wind": 9,
       "water": 21.2,
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
     },
     {
       "local_season": {
@@ -141,15 +150,16 @@
       "sun": 11.6,
       "rain": 9,
       "rain_days": 1.8,
-      "uv": {
-        "est": 8
-      },
+      "uv": 10,
       "wind": 10,
       "water": 25.3,
       "flight_price": {
         "est": 1500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
     },
     {
       "local_season": {
@@ -163,15 +173,16 @@
       "sun": 10.5,
       "rain": 3,
       "rain_days": 1.5,
-      "uv": {
-        "est": 8
-      },
+      "uv": 11,
       "wind": 10,
       "water": 27.9,
       "flight_price": {
         "est": 1600
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3000
+      }
     },
     {
       "local_season": {
@@ -185,15 +196,16 @@
       "sun": 10.2,
       "rain": 3,
       "rain_days": 1.3,
-      "uv": {
-        "est": 8
-      },
+      "uv": 10,
       "wind": 10,
       "water": 29,
       "flight_price": {
         "est": 1500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3100
+      }
     },
     {
       "local_season": {
@@ -207,15 +219,16 @@
       "sun": 9.1,
       "rain": 30,
       "rain_days": 2.6,
-      "uv": {
-        "est": 6
-      },
+      "uv": 7,
       "wind": 10,
       "water": 27.7,
       "flight_price": {
         "est": 1500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
     },
     {
       "local_season": {
@@ -229,15 +242,16 @@
       "sun": 7.1,
       "rain": 101,
       "rain_days": 5.1,
-      "uv": {
-        "est": 5
-      },
+      "uv": 5,
       "wind": 10,
       "water": 24.9,
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
     },
     {
       "local_season": {
@@ -251,15 +265,14 @@
       "sun": 5.3,
       "rain": 159,
       "rain_days": 7.2,
-      "uv": {
-        "est": 4
-      },
+      "uv": 3,
       "wind": 11,
       "water": 21.2,
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -273,15 +286,14 @@
       "sun": 4.3,
       "rain": 251,
       "rain_days": 10.9,
-      "uv": {
-        "est": 2
-      },
+      "uv": 2,
       "wind": 13,
       "water": 19,
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -296,16 +308,6 @@
       "checked": "2026-10-13"
     },
     {
-      "title": "BestDateWeather: Antalya – pogoda miesiąc po miesiącu (12 stron, np. /antalya-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 36.90°N 30.69°E",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-antalya",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-13"
-    },
-    {
       "title": "KAYAK.com: Warszawa – Antalya (loty bezpośrednie SunExpress, Corendon, Pegasus, średnio 3 h 07 min, także zimą)",
       "url": "https://www.kayak.com/flight-routes/Warsaw-Frederic-Chopin-WAW/Antalya-AYT",
       "checked": "2026-10-13"
@@ -314,6 +316,36 @@
       "title": "KAYAK.pl: Warszawa – Antalya – statystyki cen w obie strony (miesiące: II 719, VII 1 251, VIII 1 239; średnia 12 mies. 1 051 zł; typowo 849–1 270 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Antalya-AYT",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow Riwiera Turecka 7 nocy AI: V 1 727, VII 1 837, VIII 2 155 zł, ale to hotele 3★ (Melissa); 4★ Riwiera Egejska V: Natur Garden 4,8/6 – 2 265, Grand Belish 5,4/6 – 2 757 zł. Itaka lato 2027 jeszcze niepełne. Przyjęte 4★: VII ok. 3 000 zł. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: turcja",
+      "url": "https://r.pl/wytyczne/turcja",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Alanya – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 3, 5, 7, 9, 10, 11, 10, 7, 5, 3, 2",
+      "url": "https://www.weather2travel.com/antalya-coast/alanya/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 3,5–3,8 (kontrola modelu: 3,8 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=32&lat=36.55",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

@@ -3,6 +3,8 @@
   "country": "Tunezja",
   "place": "Djerba",
   "notes": "Klimat półpustynny, śródziemnomorski: gorąco i sucho VI–IX, łagodna zima (ok. 17 °C w dzień), niewiele deszczu głównie IX–I. Woda zimą chłodna (15–17 °C), do kąpieli VI–X. Baza pobytu: strefa hotelowa na wschodnim wybrzeżu (Sidi Mahrez, Midoun). Pogoda ze stacji Djerba (lotnisko Mellita, ok. 20 km, normy 1981–2010). Zieleń: gaje oliwne i palmy daktylowe na płaskiej, suchej wyspie. Wycieczki: Houmt Souk, synagoga El Ghriba, Djerbahood, Guellala; Matmata i plany Gwiezdnych Wojen ok. 2–3 h drogi. Plaże szerokie, z bardzo płytkim wejściem. Dojazd: z 1 przesiadką (Monachium, Paryż, Tunis), ok. 7–9 h; latem czartery biur podróży.",
+  "entryNote": "Paszport ważny 3 mies. po powrocie; bez wizy (wjazd na dowód dla grup zakończony 1.01.2025).",
+  "tz": "Africa/Tunis",
   "fixed": {
     "beaches": {
       "est": 3
@@ -16,7 +18,14 @@
     "stops": 1,
     "transfer": {
       "est": 0.5
-    }
+    },
+    "continent": "Afryka",
+    "region": "Morze Śródziemne",
+    "entry": "paszport",
+    "tags": [
+      "płytkie wejście",
+      "pustynia"
+    ]
   },
   "months": [
     {
@@ -31,13 +40,16 @@
       "sun": 6.7,
       "rain": 27,
       "rain_days": 3.4,
-      "uv": 4,
+      "uv": 3,
       "wind": 20,
       "water": 15.8,
       "flight_price": {
         "est": 1700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 1800
+      }
     },
     {
       "local_season": {
@@ -51,13 +63,16 @@
       "sun": 7.6,
       "rain": 14,
       "rain_days": 3.1,
-      "uv": 5,
+      "uv": 4,
       "wind": 19,
       "water": 14.7,
       "flight_price": {
         "est": 1700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 1900
+      }
     },
     {
       "local_season": {
@@ -71,13 +86,16 @@
       "sun": 8,
       "rain": 16,
       "rain_days": 2.7,
-      "uv": 7,
+      "uv": 6,
       "wind": 18,
       "water": 15.3,
       "flight_price": {
         "est": 1700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 1900
+      }
     },
     {
       "local_season": {
@@ -91,13 +109,16 @@
       "sun": 9.2,
       "rain": 12,
       "rain_days": 1.8,
-      "uv": 7,
+      "uv": 8,
       "wind": 18,
       "water": 17.2,
       "flight_price": {
         "est": 1700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2000
+      }
     },
     {
       "local_season": {
@@ -111,13 +132,16 @@
       "sun": 10,
       "rain": 5,
       "rain_days": 1.1,
-      "uv": 8,
+      "uv": 9,
       "wind": 18,
       "water": 20.3,
       "flight_price": {
         "est": 2000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2100
+      }
     },
     {
       "local_season": {
@@ -131,13 +155,16 @@
       "sun": 11.2,
       "rain": 1,
       "rain_days": 0.5,
-      "uv": 9,
+      "uv": 10,
       "wind": 17,
       "water": 23.9,
       "flight_price": {
         "est": 2000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2200
+      }
     },
     {
       "local_season": {
@@ -151,13 +178,16 @@
       "sun": 11.9,
       "rain": 0,
       "rain_days": 0,
-      "uv": 9,
+      "uv": 11,
       "wind": 16,
       "water": 26.7,
       "flight_price": {
         "est": 2500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
     },
     {
       "local_season": {
@@ -171,13 +201,16 @@
       "sun": 11.2,
       "rain": 1,
       "rain_days": 0.1,
-      "uv": 8,
+      "uv": 10,
       "wind": 15,
       "water": 28.1,
       "flight_price": {
         "est": 2200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
     },
     {
       "local_season": {
@@ -191,13 +224,16 @@
       "sun": 8.8,
       "rain": 20,
       "rain_days": 2.1,
-      "uv": 7,
+      "uv": 8,
       "wind": 16,
       "water": 27.2,
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2100
+      }
     },
     {
       "local_season": {
@@ -217,7 +253,10 @@
       "flight_price": {
         "est": 2000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 1900
+      }
     },
     {
       "local_season": {
@@ -237,7 +276,10 @@
       "flight_price": {
         "est": 1700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 1600
+      }
     },
     {
       "local_season": {
@@ -251,13 +293,16 @@
       "sun": 6.6,
       "rain": 41,
       "rain_days": 3.5,
-      "uv": 4,
+      "uv": 3,
       "wind": 21,
       "water": 18.6,
       "flight_price": {
         "est": 1700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2000
+      }
     }
   ],
   "sources": [
@@ -274,16 +319,6 @@
     {
       "title": "seatemperatu.re: Djerba – średnia temperatura morza w miesiącach",
       "url": "https://www.seatemperatu.re/africa/tunisia/djerba/when.html",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: Djerba – pogoda miesiąc po miesiącu (12 stron, np. /djerba-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 33.81°N 10.86°E",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-djerba",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
       "checked": "2026-10-13"
     },
     {
@@ -305,6 +340,36 @@
       "title": "KAYAK.pl: Warszawa – Djerba – statystyki cen w obie strony (miesiące: VII 2 515, IX 1 420; średnia 12 mies. 1 981 zł; typowo 1 419–2 426 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Djerba-DJE",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: I Royal Karthago 5,1/6 – 2 379, VII Les Quatre Saisons 4,5/6 – 3 429 zł; Rainbow: I Djerba Castille 5,0/6 – 1 781, II Djerba Sun Beach 5,1/6 – 1 883, XII Vincci Helios Beach 5,3/6 – 1 961 zł. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: tunezja",
+      "url": "https://r.pl/wytyczne/tunezja",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Djerba – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 3, 4, 6, 8, 9, 10, 11, 10, 8, 6, 4, 3",
+      "url": "https://www.weather2travel.com/tunisia/djerba/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 3,8–4,3 (kontrola modelu: 4,4 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=10.95&lat=33.8",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

@@ -1,0 +1,363 @@
+{
+  "id": "budva",
+  "country": "Czarnogóra",
+  "place": "Budva (Riwiera Budvańska)",
+  "notes": "Klimat śródziemnomorski z bardzo deszczową zimą (X–I po 150–180 mm) i gorącym, suchym latem (ok. 30 °C w VII–VIII). Woda do kąpieli VI–IX (22–25 °C). Baza pobytu: Budva i Bečići – plaże z gruboziarnistym piaskiem i drobnymi kamykami, latem bardzo zatłoczone; góry tuż za wybrzeżem. Pogoda ze stacji Bar (ok. 30 km, NOAA 1991–2020). Zieleń: zalesione zbocza gór Lovćen, gaje oliwne. Wycieczki: stare miasto Budvy, Sveti Stefan, Zatoka Kotorska i Kotor (UNESCO), park narodowy Lovćen, Jezioro Szkoderskie. Życie nocne (Slovenska plaža). Ceny niższe niż w Chorwacji. Dojazd: bez przesiadek LOT i Wizz Air do Podgoricy ok. 2 h, dalej ok. 1 h drogi.",
+  "entryNote": "Bez wizy; dowód osobisty albo paszport ważny co najmniej 3 miesiące od wjazdu.",
+  "tz": "Europe/Podgorica",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": 2,
+    "stops": 0,
+    "transfer": {
+      "est": 1
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "góry i trekking",
+      "stare miasto",
+      "życie nocne"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 13.2,
+      "temp_night": 5.5,
+      "dew_point": {
+        "est": 3.1
+      },
+      "sun": 3.9,
+      "rain": 142,
+      "rain_days": 9.6,
+      "uv": 1,
+      "wind": 16,
+      "water": 13.9,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 13.7,
+      "temp_night": 5.9,
+      "dew_point": {
+        "est": 3.3
+      },
+      "sun": 4.4,
+      "rain": 128,
+      "rain_days": 9.8,
+      "uv": 2,
+      "wind": 16,
+      "water": 13.9,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15.9,
+      "temp_night": 7.8,
+      "dew_point": {
+        "est": 6
+      },
+      "sun": 5.5,
+      "rain": 131,
+      "rain_days": 9,
+      "uv": 4,
+      "wind": 14,
+      "water": 13.9,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 19,
+      "temp_night": 10.5,
+      "dew_point": {
+        "est": 9.6
+      },
+      "sun": 6.6,
+      "rain": 112,
+      "rain_days": 9.1,
+      "uv": 5,
+      "wind": 12,
+      "water": 15.6,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 23.6,
+      "temp_night": 14.5,
+      "dew_point": {
+        "est": 14.1
+      },
+      "sun": 8.4,
+      "rain": 82,
+      "rain_days": 6.9,
+      "uv": 7,
+      "wind": 10,
+      "water": 18.9,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 27.6,
+      "temp_night": 18.4,
+      "dew_point": {
+        "est": 17.7
+      },
+      "sun": 9.9,
+      "rain": 54,
+      "rain_days": 4.4,
+      "uv": 8,
+      "wind": 10,
+      "water": 22.2,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3000
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.1,
+      "temp_night": 20.6,
+      "dew_point": {
+        "est": 19.1
+      },
+      "sun": 11.3,
+      "rain": 32,
+      "rain_days": 2.8,
+      "uv": 9,
+      "wind": 10,
+      "water": 25,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3500
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30.4,
+      "temp_night": 21,
+      "dew_point": {
+        "est": 19.6
+      },
+      "sun": 10.2,
+      "rain": 45,
+      "rain_days": 3.2,
+      "uv": 8,
+      "wind": 10,
+      "water": 25,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3600
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 27,
+      "temp_night": 17.7,
+      "dew_point": {
+        "est": 16.7
+      },
+      "sun": 8.4,
+      "rain": 134,
+      "rain_days": 6.4,
+      "uv": 6,
+      "wind": 11,
+      "water": 23.3,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2900
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 23,
+      "temp_night": 14.1,
+      "dew_point": {
+        "est": 12.6
+      },
+      "sun": 6.4,
+      "rain": 152,
+      "rain_days": 9.2,
+      "uv": 4,
+      "wind": 13,
+      "water": 20.6,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 18.6,
+      "temp_night": 10.5,
+      "dew_point": {
+        "est": 9
+      },
+      "sun": 4.2,
+      "rain": 165,
+      "rain_days": 10.4,
+      "uv": 2,
+      "wind": 15,
+      "water": 18.3,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 14.4,
+      "temp_night": 7,
+      "dew_point": {
+        "est": 5
+      },
+      "sun": 3.6,
+      "rain": 179,
+      "rain_days": 11.5,
+      "uv": 1,
+      "wind": 16,
+      "water": 15.6,
+      "flight_price": {
+        "est": 900
+      },
+      "flags": [],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Bar (Czarnogóra) – normy 1991–2020 (NOAA, HMS Czarnogóry): temperatury, opad, dni z opadem ≥ 1 mm, wilgotność, nasłonecznienie – ok. 30 km na SE od Budvy, to samo wybrzeże",
+      "url": "https://en.wikipedia.org/wiki/Bar,_Montenegro",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wikipedia: Budva – tabela Weather.Directory (model, okres niepodany): temperatury, opad, wilgotność, nasłonecznienie – odrzucona (model, zaniżone maksima)",
+      "url": "https://en.wikipedia.org/wiki/Budva",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Budva – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/83130/Average-Weather-in-Budva-Montenegro-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Podgorica (bez przesiadek LOT i Wizz Air ok. 2 h 00 min; z 1 przesiadką (Belgrad) od 5 h 15 min; III 658 zł najtaniej, XI 1 465 zł najdrożej, XII 946 zł, średnia 856 zł, typowo 688–1 075 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Podgorica-TGD",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Tivat (bez lotów bezpośrednich; z 1 przesiadką przez Belgrad od 4 h 14 min; V 734 zł najtaniej, II ok. 1 936 zł, średnia 977 zł, typowo 877–1 357 zł) – alternatywa bliżej Budvy",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Tivat-TIV",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "pasazer.com: LOT latem częściej do Skopje i Podgoricy (8 rejsów tygodniowo, VII–VIII 11)",
+      "url": "https://www.pasazer.com/news/465151/lot,latem,czesciej,do,skopje,i,podgoricy.html",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow V (Warszawa): Lusso Mare (Budva) 5,2/6, śniadania – 2 592 zł; Otrant (Ulcinj) 5,2/6 AI IV – 3 096 zł; Apartamenty Palace Budva bez wyżywienia VI – 1 880 zł. Wyżywienie: śniadania.",
+      "url": "https://r.pl/czarnogora",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: czarnogora",
+      "url": "https://r.pl/wytyczne/czarnogora",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: Budva – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 1, 2, 4, 5, 7, 8, 9, 8, 6, 4, 2, 1",
+      "url": "https://www.weather2travel.com/montenegro/budva/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 2,2–2,7 (kontrola modelu: 2,6 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=18.84&lat=42.28",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

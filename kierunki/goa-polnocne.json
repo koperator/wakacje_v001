@@ -3,6 +3,8 @@
   "country": "Indie",
   "place": "Goa Północne (Calangute / Baga)",
   "notes": "Wybrzeże Konkanu: pora sucha XI–V praktycznie bez deszczu, monsun SW VI–IX z bardzo dużym opadem (VI–VII ok. 900 mm/miesiąc). Baza pobytu: Calangute i Baga. Pogoda ze stacji IMD Panaji (ok. 12 km, normy 1991–2020). Zieleń: palmy kokosowe i wioski, bardzo zielono po monsunie (IX–XI), w III–V przesycha. Wycieczki jednodniowe: Stare Goa (kościoły UNESCO), forty Aguada i Chapora, targi w Anjunie i Mapusie, farmy przypraw, wodospad Dudhsagar. W monsunie plaże zamknięte dla kąpieli i większość beach shacków nieczynna. Dojazd: brak regularnych lotów bezpośrednich (sezonowe czartery); z 1 przesiadką w Zatoce do Dabolim (GOI) albo Mopa (GOX, bliżej północnych plaż).",
+  "entryNote": "Paszport ważny 6 mies.; e-wiza przed wylotem; obowiązkowa karta e-Arrival online (do 72 h przed wylotem).",
+  "tz": "Asia/Kolkata",
   "fixed": {
     "beaches": {
       "est": 3
@@ -18,7 +20,15 @@
     "stops": 1,
     "transfer": {
       "est": 1
-    }
+    },
+    "continent": "Azja",
+    "region": "Azja Południowa",
+    "entry": "wiza przed wylotem",
+    "tags": [
+      "wodospady",
+      "stare miasto",
+      "życie nocne"
+    ]
   },
   "months": [
     {
@@ -35,13 +45,14 @@
       "rain_days": {
         "est": 0.1
       },
-      "uv": 7,
+      "uv": 9,
       "wind": 13,
       "water": 27.8,
       "flight_price": {
         "est": 3700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -57,13 +68,14 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 8,
+      "uv": 11,
       "wind": 14,
       "water": 27.8,
       "flight_price": {
         "est": 3200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -79,13 +91,16 @@
       "rain_days": {
         "est": 0.1
       },
-      "uv": 9,
+      "uv": {
+        "est": 12
+      },
       "wind": 13,
       "water": 28.3,
       "flight_price": {
         "est": 4100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -101,13 +116,16 @@
       "rain_days": {
         "est": 0.3
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": 13,
       "water": 29.4,
       "flight_price": {
         "est": 3300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -123,7 +141,9 @@
       "rain_days": {
         "est": 3.6
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 15,
       "water": 30,
       "flight_price": {
@@ -135,7 +155,8 @@
           "level": 1,
           "note": "Koniec sezonu: od drugiej połowy maja rośnie fala przed monsunem, część beach shacków jest rozbierana, a sporty wodne kończą się zwykle do końca miesiąca."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -151,7 +172,9 @@
       "rain_days": {
         "est": 21.2
       },
-      "uv": 7,
+      "uv": {
+        "est": 13
+      },
       "wind": 21,
       "water": 29.4,
       "flight_price": {
@@ -163,7 +186,8 @@
           "level": 3,
           "note": "Monsun SW: władze Goa zamykają plaże dla kąpieli i wszystkich sportów wodnych, czerwone flagi na wszystkich plażach (Drishti odradza nawet brodzenie: prądy wsteczne i fala), większość beach shacków zamknięta."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -179,7 +203,9 @@
       "rain_days": {
         "est": 26.7
       },
-      "uv": 4,
+      "uv": {
+        "est": 13
+      },
       "wind": 23,
       "water": 28.9,
       "flight_price": {
@@ -191,7 +217,8 @@
           "level": 3,
           "note": "Monsun SW: władze Goa zamykają plaże dla kąpieli i wszystkich sportów wodnych, czerwone flagi na wszystkich plażach (Drishti odradza nawet brodzenie: prądy wsteczne i fala), większość beach shacków zamknięta."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -207,7 +234,9 @@
       "rain_days": {
         "est": 23
       },
-      "uv": 7,
+      "uv": {
+        "est": 13
+      },
       "wind": 20,
       "water": 27.8,
       "flight_price": {
@@ -219,7 +248,8 @@
           "level": 3,
           "note": "Monsun SW: władze Goa zamykają plaże dla kąpieli i wszystkich sportów wodnych, czerwone flagi na wszystkich plażach (Drishti odradza nawet brodzenie: prądy wsteczne i fala), większość beach shacków zamknięta."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -235,7 +265,9 @@
       "rain_days": {
         "est": 13.7
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 15,
       "water": 28.3,
       "flight_price": {
@@ -247,7 +279,8 @@
           "level": 2,
           "note": "Koniec monsunu: Drishti nadal odradza wchodzenie do morza, czerwone flagi; w suche dni części plaż otwierane z czerwono-żółtymi flagami; shacki i sporty wodne wracają zwykle od października."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -263,13 +296,14 @@
       "rain_days": {
         "est": 6.8
       },
-      "uv": 8,
+      "uv": 11,
       "wind": 11,
       "water": 28.9,
       "flight_price": {
         "est": 3300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -285,13 +319,14 @@
       "rain_days": {
         "est": 1.5
       },
-      "uv": 7,
+      "uv": 9,
       "wind": 11,
       "water": 28.9,
       "flight_price": {
         "est": 3700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -307,13 +342,14 @@
       "rain_days": {
         "est": 0.2
       },
-      "uv": 6,
+      "uv": 8,
       "wind": 12,
       "water": 28.3,
       "flight_price": {
         "est": 3700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -330,16 +366,6 @@
     {
       "title": "seatemperatu.re: Calangute – średnia temperatura morza w miesiącach (średnie z lat poprzednich)",
       "url": "https://www.seatemperatu.re/central-and-south-asia/goa/calangute/when.html",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: Goa – pogoda miesiąc po miesiącu (12 stron, np. /goa-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 15.49°N 73.82°E",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-goa",
-      "checked": "2026-10-13"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
       "checked": "2026-10-13"
     },
     {
@@ -361,6 +387,35 @@
       "title": "KAYAK.pl: Warszawa – Goa – statystyki cen w obie strony (miesiące: II 3 224, III 4 128; średnia 12 mies. 3 264 zł; typowo 3 067–3 760 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Goa-GOI",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Brak ofert Itaki na Goa w sezonie 2026/27. (szczegóły: research/kolumna-package_price-notatki.md)",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: indie",
+      "url": "https://r.pl/wytyczne/indie",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Goa – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 9, 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 9, 8; miesiące III, IV, V, VI, VII, VIII, IX („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/goa/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 9,4–10 (kontrola modelu: 9,8 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=73.76&lat=15.55",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

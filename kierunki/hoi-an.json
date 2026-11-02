@@ -3,6 +3,8 @@
   "country": "Wietnam",
   "place": "Hoi An (An Bang)",
   "notes": "Środkowy Wietnam, odwrotny rytm niż południe: sucho i coraz goręcej II–VIII (upał VI–VIII, ok. 34 °C), pora deszczowa IX–XII z maksimum w X–XI (powodzie w Starym Mieście, tajfuny), chłodno i pochmurno XII–II (morze ok. 23 °C, fale monsunu NE). Baza pobytu: plaża An Bang ok. 4 km od Starego Miasta – szeroki, jasny piasek, spokojne morze latem, zimą fale; plaże w okolicy erodują. Pogoda ze stacji Da Nang (ok. 25 km; okres norm niepodany). Zieleń: pola ryżowe, palmy kokosowe, las palm nipa w Cẩm Thanh. Wycieczki: Stare Miasto Hoi An (UNESCO), sanktuarium Mỹ Sơn (UNESCO), Góry Marmurowe, Da Nang, Bà Nà Hills; Huế ok. 2,5–3 h drogi. Dojazd: najszybciej LOT do Bangkoku (cały rok) i dalej do Da Nang (ok. 1 h 40 min; Thai Vietjet, Vietnam Airlines, Thai Airways) – osobne bilety, ok. 14,8 h; na jednym bilecie z 1 przesiadką (Seul, Dubaj) ok. 17,5–19 h.",
+  "entryNote": "Paszport ważny 6 mies.; od 15.08.2025 bez wizy do 45 dni; obowiązkowa karta Pre-Arrival online do 3 dni przed przylotem.",
+  "tz": "Asia/Ho_Chi_Minh",
   "fixed": {
     "beaches": {
       "est": 3
@@ -22,7 +24,14 @@
     "stops": 1,
     "transfer": {
       "est": 0.6
-    }
+    },
+    "continent": "Azja",
+    "region": "Azja Południowo-Wschodnia",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "ruiny",
+      "stare miasto"
+    ]
   },
   "months": [
     {
@@ -39,7 +48,7 @@
       "rain_days": {
         "est": 8.4
       },
-      "uv": 5,
+      "uv": 9,
       "wind": 14,
       "water": 23.2,
       "flight_price": {
@@ -56,7 +65,10 @@
           "level": 1,
           "note": "Monsun NE: wyższe fale, prądy i silny wiatr od morza na An Bang i Cửa Đại, w wielu dniach kąpiel niebezpieczna; plaże w tym rejonie mocno erodują."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 7100
+      }
     },
     {
       "local_season": {
@@ -72,7 +84,7 @@
       "rain_days": {
         "est": 3.9
       },
-      "uv": 7,
+      "uv": 11,
       "wind": 13,
       "water": 23.4,
       "flight_price": {
@@ -89,7 +101,10 @@
           "level": 1,
           "note": "Koniec monsunu NE: fale i wiatr na An Bang w części dni."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 7300
+      }
     },
     {
       "local_season": {
@@ -105,13 +120,18 @@
       "rain_days": {
         "est": 3.4
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 12,
       "water": 23.3,
       "flight_price": {
         "est": 4700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6900
+      }
     },
     {
       "local_season": {
@@ -127,13 +147,18 @@
       "rain_days": {
         "est": 3.8
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": 12,
       "water": 25.2,
       "flight_price": {
         "est": 4700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6900
+      }
     },
     {
       "local_season": {
@@ -149,13 +174,18 @@
       "rain_days": {
         "est": 6.4
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 10,
       "water": 27.8,
       "flight_price": {
         "est": 3300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6400
+      }
     },
     {
       "local_season": {
@@ -171,13 +201,18 @@
       "rain_days": {
         "est": 5.7
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 9,
       "water": 29.5,
       "flight_price": {
         "est": 4700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 6500
+      }
     },
     {
       "local_season": {
@@ -193,13 +228,18 @@
       "rain_days": {
         "est": 6.6
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": 9,
       "water": 30,
       "flight_price": {
         "est": 4800
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7500
+      }
     },
     {
       "local_season": {
@@ -215,13 +255,18 @@
       "rain_days": {
         "est": 8.1
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": 9,
       "water": 29.8,
       "flight_price": {
         "est": 4700
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7700
+      }
     },
     {
       "local_season": {
@@ -237,7 +282,9 @@
       "rain_days": {
         "est": 10.2
       },
-      "uv": 7,
+      "uv": {
+        "est": 13
+      },
       "wind": 10,
       "water": 29,
       "flight_price": {
@@ -249,7 +296,10 @@
           "level": 1,
           "note": "Początek sezonu tajfunów w środkowym Wietnamie: przy tajfunie 1–3 dni ulew, wichury i fali sztormowej, odwołane loty i wycieczki."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 6500
+      }
     },
     {
       "local_season": {
@@ -265,7 +315,7 @@
       "rain_days": {
         "est": 14
       },
-      "uv": 7,
+      "uv": 11,
       "wind": 14,
       "water": 27.3,
       "flight_price": {
@@ -287,7 +337,8 @@
           "level": 1,
           "note": "Monsun NE: wyższe fale, prądy i silny wiatr od morza na An Bang i Cửa Đại, w wielu dniach kąpiel niebezpieczna; plaże w tym rejonie mocno erodują."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -303,7 +354,7 @@
       "rain_days": {
         "est": 14.2
       },
-      "uv": 6,
+      "uv": 9,
       "wind": 16,
       "water": 26.5,
       "flight_price": {
@@ -325,7 +376,8 @@
           "level": 1,
           "note": "Monsun NE: wyższe fale, prądy i silny wiatr od morza na An Bang i Cửa Đại, w wielu dniach kąpiel niebezpieczna; plaże w tym rejonie mocno erodują."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -341,7 +393,7 @@
       "rain_days": {
         "est": 13.1
       },
-      "uv": 3,
+      "uv": 9,
       "wind": 16,
       "water": 24.6,
       "flight_price": {
@@ -358,7 +410,8 @@
           "level": 1,
           "note": "Monsun NE: wyższe fale, prądy i silny wiatr od morza na An Bang i Cửa Đại, w wielu dniach kąpiel niebezpieczna; plaże w tym rejonie mocno erodują."
         }
-      ]
+      ],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -380,16 +433,6 @@
     {
       "title": "seatemperature.net: Hoi An – temperatura morza (kontrola, 22–30 °C)",
       "url": "https://seatemperature.net/current/vietnam/hoi-an-sea-temperature",
-      "checked": "2026-10-15"
-    },
-    {
-      "title": "BestDateWeather: Hoi An – pogoda miesiąc po miesiącu (12 stron, np. /hoi-an-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 15.88°N 108.33°E",
-      "url": "https://bestdateweather.com/en/hoi-an-weather-january",
-      "checked": "2026-10-15"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
       "checked": "2026-10-15"
     },
     {
@@ -416,6 +459,36 @@
       "title": "Pasazer.com: LOT Warszawa – Bangkok cały rok (latem LO65 WAW 15:15 – BKK 6:35)",
       "url": "https://www.pasazer.com/news/469980/lot,latem,rzadziej,do,bangkoku.html",
       "checked": "2026-10-15"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: I Da Nang – Sanouva Danang 6 809 zł (7 dni, śniadania). X–XII pora deszczowa – bez szacunku. Wyżywienie: śniadania.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: wietnam",
+      "url": "https://r.pl/wytyczne/wietnam",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Hoi An – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 9, 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 9, 9; miesiące III, IV, V, VI, VII, VIII, IX („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/vietnam/hoi-an/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 9,4–9,6 (kontrola modelu: 9,9 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=108.33&lat=15.88",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

@@ -3,6 +3,8 @@
   "country": "Polinezja Francuska",
   "place": "Bora Bora",
   "notes": "Klimat tropikalny morski: pora wilgotna i najcieplejsza XI–IV (ulewy, wyższa wilgotność, maksimum opadu XII–I), pora sucha V–X z pasatem (maraamu) i najchłodniejszymi nocami VII–IX. Cyklony docierają do Wysp Towarzystwa rzadko, głównie w latach El Niño (XII–III). Baza pobytu: resorty na motu (wysepkach rafy) i plaża Matira – biały piasek, spokojna, płytka laguna. Pogoda ze stacji lotniska Bora Bora na Motu Mute (normy 1991–2020, Météo-France). Zieleń: palmy na motu, w tle porośnięta lasem góra Otemanu. Wycieczki: rejsy po lagunie (snorkeling z płaszczkami i rekinami rafowymi, ogrody koralowe), wyprawa 4×4 na wzgórza, armaty z II wojny światowej; poza tym niewiele. Dojazd: z 3 przesiadkami (Paryż, Los Angeles, Papeete), ok. 31–32 h; z lotniska na motu do resortu łodzią.",
+  "entryNote": "Na miejscu tylko paszport (bez wizy), ale typowa trasa prowadzi przez Los Angeles – na tranzyt w USA potrzebna ESTA.",
+  "tz": "Pacific/Tahiti",
   "fixed": {
     "beaches": {
       "est": 5
@@ -20,7 +22,17 @@
     "stops": 3,
     "transfer": {
       "est": 0.5
-    }
+    },
+    "continent": "Australia i Oceania",
+    "region": "Wyspy Pacyfiku",
+    "entry": "zezwolenie elektroniczne",
+    "tags": [
+      "rajska plaża",
+      "płytkie wejście",
+      "rafa i snorkeling",
+      "dzika przyroda",
+      "spokój"
+    ]
   },
   "months": [
     {
@@ -35,13 +47,16 @@
       "sun": 6.5,
       "rain": 245,
       "rain_days": 17.2,
-      "uv": 9,
+      "uv": {
+        "est": 15
+      },
       "wind": 19,
       "water": 28.3,
       "flight_price": {
         "est": 12000
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -55,13 +70,16 @@
       "sun": 7.2,
       "rain": 212,
       "rain_days": 15.3,
-      "uv": 8,
+      "uv": {
+        "est": 15
+      },
       "wind": 19,
       "water": 28.9,
       "flight_price": {
         "est": 12000
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -75,13 +93,16 @@
       "sun": 7.7,
       "rain": 168,
       "rain_days": 14.5,
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": 17,
       "water": 28.9,
       "flight_price": {
         "est": 12000
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -95,13 +116,14 @@
       "sun": 7.3,
       "rain": 144,
       "rain_days": 11.8,
-      "uv": 8,
+      "uv": 11,
       "wind": 17,
       "water": 28.9,
       "flight_price": {
         "est": 12900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -115,13 +137,14 @@
       "sun": 7.2,
       "rain": 112,
       "rain_days": 11.4,
-      "uv": 6,
+      "uv": 8,
       "wind": 19,
       "water": 28.3,
       "flight_price": {
         "est": 11100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -135,13 +158,14 @@
       "sun": 7.5,
       "rain": 86,
       "rain_days": 9.7,
-      "uv": 6,
+      "uv": 7,
       "wind": 20,
       "water": 27.8,
       "flight_price": {
         "est": 14300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -155,13 +179,14 @@
       "sun": 7.5,
       "rain": 62,
       "rain_days": 9.4,
-      "uv": 6,
+      "uv": 8,
       "wind": 21,
       "water": 27.2,
       "flight_price": {
         "est": 15700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -175,13 +200,14 @@
       "sun": 8,
       "rain": 64,
       "rain_days": 8.8,
-      "uv": 7,
+      "uv": 9,
       "wind": 21,
       "water": 26.7,
       "flight_price": {
         "est": 14300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -195,13 +221,14 @@
       "sun": 8,
       "rain": 65,
       "rain_days": 9.3,
-      "uv": 9,
+      "uv": 11,
       "wind": 21,
       "water": 26.7,
       "flight_price": {
         "est": 14300
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -215,13 +242,16 @@
       "sun": 7.4,
       "rain": 109,
       "rain_days": 10.6,
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": 19,
       "water": 27.2,
       "flight_price": {
         "est": 12900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -235,13 +265,16 @@
       "sun": 7.3,
       "rain": 139,
       "rain_days": 12.3,
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": 18,
       "water": 27.8,
       "flight_price": {
         "est": 12000
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -255,13 +288,16 @@
       "sun": 6.7,
       "rain": 251,
       "rain_days": 16.8,
-      "uv": 8,
+      "uv": {
+        "est": 14
+      },
       "wind": 18,
       "water": 28.3,
       "flight_price": {
         "est": 12900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -281,19 +317,38 @@
       "checked": "2026-10-14"
     },
     {
-      "title": "BestDateWeather: Bora Bora – pogoda miesiąc po miesiącu (12 stron, np. /bora-bora-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 16.50°S 151.74°W",
-      "url": "https://bestdateweather.com/en/bora-bora-weather-january",
-      "checked": "2026-10-14"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-14"
-    },
-    {
       "title": "KAYAK.pl: Warszawa – Bora Bora – statystyki cen w obie strony (miesiące: V 11 094; średnia 12 mies. 12 938 zł; typowo 12 550–15 708 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Bora-Bora-BOB",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Polskie biura nie sprzedają tu wczasów z wylotem z Polski (najwyżej wycieczki objazdowe albo pakiety na liniach rejsowych bez stałej oferty). (szczegóły: research/kolumna-package_price-notatki.md)",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – Tropicalement Vôtre – formalités d’entrée en Polynésie",
+      "url": "https://www.tropicalement-votre.com/destinations/formalites-entree-polynesie.php",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Vaitape (Bora Bora) – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11+, 11+, 11+, 11, 8, 7, 8, 9, 11, 11+, 11+, 11+; miesiące I, II, III, X, XI, XII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/french-polynesia/vaitape-bora-bora/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 13,7–14,2 (kontrola modelu: 13,8 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-151.74&lat=-16.5",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

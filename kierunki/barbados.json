@@ -3,6 +3,8 @@
   "country": "Barbados",
   "place": "Zachodnie wybrzeże (Holetown)",
   "notes": "Klimat tropikalny z pasatem: sucho II–V, pora deszczowa VI–XI z maksimum IX–XI; sezon huraganów VI–XI (szczyt VIII–X), choć wyspa leży na skraju torów. Baza pobytu: zachodnie (Platynowe) wybrzeże w okolicy Holetown – spokojne Morze Karaibskie; wschodnie wybrzeże atlantyckie z falami i sargassum. Pogoda ze stacji lotniska Grantley Adams (ok. 25 km, południowy wschód, normy 1991–2020). Zieleń: ogrody, pola trzciny cukrowej, wąwozy z lasem. Wycieczki: Bridgetown i garnizon (UNESCO), Harrison's Cave, plantacje, Bathsheba, destylarnie rumu. Festiwal Crop Over VI–VIII (finał na początku sierpnia). Dojazd: z 1 przesiadką (Londyn, Amsterdam), ok. 16 h.",
+  "entryNote": "Paszport ważny przez cały pobyt; bez wizy.",
+  "tz": "America/Barbados",
   "fixed": {
     "beaches": {
       "est": 4
@@ -18,7 +20,15 @@
     "stops": 1,
     "transfer": {
       "est": 0.7
-    }
+    },
+    "continent": "Ameryka Północna i Karaiby",
+    "region": "Karaiby",
+    "entry": "paszport",
+    "tags": [
+      "rafa i snorkeling",
+      "surfing",
+      "stare miasto"
+    ]
   },
   "months": [
     {
@@ -35,7 +45,7 @@
       "rain_days": {
         "est": 11
       },
-      "uv": 7,
+      "uv": 10,
       "wind": {
         "est": 28
       },
@@ -43,7 +53,8 @@
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -59,7 +70,9 @@
       "rain_days": {
         "est": 9
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 28
       },
@@ -67,7 +80,8 @@
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -83,7 +97,9 @@
       "rain_days": {
         "est": 8
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 26
       },
@@ -91,7 +107,8 @@
       "flight_price": {
         "est": 3400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -107,7 +124,9 @@
       "rain_days": {
         "est": 8
       },
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 26
       },
@@ -115,7 +134,8 @@
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -131,7 +151,9 @@
       "rain_days": {
         "est": 8
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 26
       },
@@ -139,7 +161,8 @@
       "flight_price": {
         "est": 3900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -155,7 +178,9 @@
       "rain_days": {
         "est": 11
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 28
       },
@@ -163,7 +188,8 @@
       "flight_price": {
         "est": 3900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -179,7 +205,9 @@
       "rain_days": {
         "est": 15
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 27
       },
@@ -187,7 +215,8 @@
       "flight_price": {
         "est": 3900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -203,7 +232,9 @@
       "rain_days": {
         "est": 16
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 23
       },
@@ -217,7 +248,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów (VIII–X): Barbados leży na wschodnim skraju Karaibów i zwykle omijają go najgorsze tory, ale przy burzy tropikalnej kilka dni ulew, fal i odwołanych lotów."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -233,7 +265,9 @@
       "rain_days": {
         "est": 13
       },
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 21
       },
@@ -247,7 +281,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów (VIII–X): Barbados leży na wschodnim skraju Karaibów i zwykle omijają go najgorsze tory, ale przy burzy tropikalnej kilka dni ulew, fal i odwołanych lotów."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -263,7 +298,7 @@
       "rain_days": {
         "est": 15
       },
-      "uv": 8,
+      "uv": 11,
       "wind": {
         "est": 21
       },
@@ -277,7 +312,8 @@
           "level": 1,
           "note": "Szczyt sezonu huraganów (VIII–X): Barbados leży na wschodnim skraju Karaibów i zwykle omijają go najgorsze tory, ale przy burzy tropikalnej kilka dni ulew, fal i odwołanych lotów."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -293,7 +329,7 @@
       "rain_days": {
         "est": 14
       },
-      "uv": 7,
+      "uv": 10,
       "wind": {
         "est": 24
       },
@@ -301,7 +337,8 @@
       "flight_price": {
         "est": 3900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -317,7 +354,7 @@
       "rain_days": {
         "est": 11
       },
-      "uv": 7,
+      "uv": 9,
       "wind": {
         "est": 27
       },
@@ -325,7 +362,8 @@
       "flight_price": {
         "est": 4500
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -342,16 +380,6 @@
     {
       "title": "seatemperatu.re: Holetown – średnia temperatura morza w miesiącach",
       "url": "https://www.seatemperatu.re/caribbean/barbados/holetown/when.html",
-      "checked": "2026-10-14"
-    },
-    {
-      "title": "BestDateWeather: Barbados – pogoda miesiąc po miesiącu (12 stron, np. /barbados-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 13.19°N 59.54°W",
-      "url": "https://bestdateweather.com/en/best-time-to-visit-barbados",
-      "checked": "2026-10-14"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
       "checked": "2026-10-14"
     },
     {
@@ -373,6 +401,35 @@
       "title": "KAYAK.pl: Warszawa – Barbados – statystyki cen w obie strony (miesiące: III 3 400, XII 4 472; średnia 12 mies. 3 938 zł; typowo 3 433–4 412 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Barbados-BGI",
       "checked": "2026-10-14"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Itaka: Barbados tylko z wylotem z Berlina (II 2027, Bougainvillea, śniadania, 13 039 zł); z Warszawy i Katowic brak. (szczegóły: research/kolumna-package_price-notatki.md)",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: barbados",
+      "url": "https://r.pl/wytyczne/barbados",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Barbados – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 10, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10, 9; miesiące II, III, IV, V, VI, VII, VIII, IX („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/barbados/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 10,2–10,7 (kontrola modelu: 10,5 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-59.62&lat=13.1",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

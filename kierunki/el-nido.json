@@ -3,6 +3,8 @@
   "country": "Filipiny",
   "place": "El Nido (Lio / Nacpan), Palawan",
   "notes": "Północno-zachodnie Palawan: pora sucha XII–V (najsuchiej I–IV), pora deszczowa VI–X z monsunem SW (habagat) i maksimum opadu VII–IX; tajfuny docierają rzadziej niż na Visayas, ale zdarzają się (Rai/Odette, XII 2021). Baza pobytu: Lio (przy lotnisku) albo El Nido miasto; plaże Lio i Nacpan (ok. 40 min) – biały piasek, spokojna woda w porze suchej. Pogoda ze stacji PAGASA Coron (ok. 100 km, normy 1991–2020) – szacunek. Zieleń: wapienne wyspy i turnie porośnięte dżunglą. Atrakcje: rejsy island hopping po zatoce Bacuit (laguny, plaże na wyspach, trasy A–D), Nacpan, wodospady; w porze habagat rejsy często odwoływane. Dojazd: z 2 przesiadkami (Stambuł lub Zatoka + Manila), dalej lot AirSWIFT do El Nido (ok. 1 h 15 min), ok. 22 h; alternatywnie Puerto Princesa i ok. 5–6 h drogi.",
+  "entryNote": "Paszport ważny 6 mies.; bez wizy do 30 dni; obowiązkowy formularz eTravel online (do 72 h przed wylotem).",
+  "tz": "Asia/Manila",
   "fixed": {
     "beaches": {
       "est": 5
@@ -22,7 +24,16 @@
     "stops": 2,
     "transfer": {
       "est": 0.2
-    }
+    },
+    "continent": "Azja",
+    "region": "Azja Południowo-Wschodnia",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "rajska plaża",
+      "rafa i snorkeling",
+      "rejsy po wyspach",
+      "dżungla"
+    ]
   },
   "months": [
     {
@@ -47,7 +58,7 @@
       "rain_days": {
         "est": 3
       },
-      "uv": 8,
+      "uv": 11,
       "wind": {
         "est": 20
       },
@@ -55,7 +66,8 @@
       "flight_price": {
         "est": 4700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -79,7 +91,9 @@
       "rain_days": {
         "est": 2
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 19
       },
@@ -87,7 +101,8 @@
       "flight_price": {
         "est": 4700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -111,7 +126,9 @@
       "rain_days": {
         "est": 3
       },
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 16
       },
@@ -125,7 +142,8 @@
           "level": 1,
           "note": "Wielki Tydzień (zależnie od roku marzec lub kwiecień): tłumy turystów krajowych, wyprzedane loty i noclegi, w Wielki Czwartek i Piątek część usług zamknięta."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -149,7 +167,9 @@
       "rain_days": {
         "est": 4
       },
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 13
       },
@@ -163,7 +183,8 @@
           "level": 1,
           "note": "Wielki Tydzień (zależnie od roku marzec lub kwiecień): tłumy turystów krajowych, wyprzedane loty i noclegi, w Wielki Czwartek i Piątek część usług zamknięta."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -187,7 +208,9 @@
       "rain_days": {
         "est": 11
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 10
       },
@@ -195,7 +218,8 @@
       "flight_price": {
         "est": 4700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -219,7 +243,9 @@
       "rain_days": {
         "est": 17
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 11
       },
@@ -233,7 +259,8 @@
           "level": 1,
           "note": "Początek habagat: fale i odwoływane rejsy w części dni."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -257,7 +284,9 @@
       "rain_days": {
         "est": 21
       },
-      "uv": 7,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 13
       },
@@ -271,7 +300,8 @@
           "level": 2,
           "note": "Habagat (monsun SW): fale i silny wiatr z zachodu, straż przybrzeżna w wielu dniach zawiesza rejsy island hopping (trasy A–D) i łodzie, plaże zachodnie wzburzone."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -295,7 +325,9 @@
       "rain_days": {
         "est": 19
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 14
       },
@@ -309,7 +341,8 @@
           "level": 2,
           "note": "Habagat (monsun SW): fale i silny wiatr z zachodu, straż przybrzeżna w wielu dniach zawiesza rejsy island hopping (trasy A–D) i łodzie, plaże zachodnie wzburzone."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -333,7 +366,9 @@
       "rain_days": {
         "est": 20
       },
-      "uv": 7,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 13
       },
@@ -347,7 +382,8 @@
           "level": 1,
           "note": "Koniec habagat: fale i odwoływane rejsy w części dni."
         }
-      ]
+      ],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -371,7 +407,9 @@
       "rain_days": {
         "est": 14
       },
-      "uv": 7,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 12
       },
@@ -379,7 +417,8 @@
       "flight_price": {
         "est": 3900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -403,7 +442,7 @@
       "rain_days": {
         "est": 7
       },
-      "uv": 7,
+      "uv": 10,
       "wind": {
         "est": 15
       },
@@ -411,7 +450,8 @@
       "flight_price": {
         "est": 4400
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -435,7 +475,7 @@
       "rain_days": {
         "est": 6
       },
-      "uv": 7,
+      "uv": 10,
       "wind": {
         "est": 19
       },
@@ -443,7 +483,8 @@
       "flight_price": {
         "est": 4900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -458,23 +499,8 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "weather2travel: El Nido – nasłonecznienie, temperatura morza (CRU; kontrolnie temperatury i opad)",
-      "url": "https://www.weather2travel.com/philippines/el-nido/climate/",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "climate-zone.com: Puerto Princesa – średnia prędkość wiatru (NASA POWER, model) – zastępstwo",
       "url": "https://www.climate-zone.com/climate/ph/puerto-princesa/",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: El Nido – pogoda miesiąc po miesiącu (12 stron, np. /el-nido-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 11.19°N 119.39°E",
-      "url": "https://bestdateweather.com/en/el-nido-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
       "checked": "2026-10-16"
     },
     {
@@ -491,6 +517,35 @@
       "title": "KAYAK.com: Manila – El Nido (typowo 228–377 USD w obie strony, średnio 294 USD; AirSWIFT, Cebu Pacific)",
       "url": "https://www.kayak.com/flight-routes/Manila-Ninoy-Aquino-MNL/El-Nido-ENI",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Polskie biura nie sprzedają tu wczasów z wylotem z Polski (najwyżej wycieczki objazdowe albo pakiety na liniach rejsowych bez stałej oferty). (szczegóły: research/kolumna-package_price-notatki.md)",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: filipiny",
+      "url": "https://r.pl/wytyczne/filipiny",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: El Nido – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 10, 10; miesiące II, III, IV, V, VI, VII, VIII, IX, X („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/philippines/el-nido/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 10,3–11,1 (kontrola modelu: 11,0 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=119.39&lat=11.18",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

@@ -1,0 +1,368 @@
+{
+  "id": "istria",
+  "country": "Chorwacja",
+  "place": "Istria (Rovinj / Poreč)",
+  "notes": "Klimat śródziemnomorski z chłodniejszą zimą (ok. 10 °C w dzień, noce ok. 2 °C) i ciepłym latem (ok. 28–29 °C w VII–VIII). Deszcz rozłożony przez cały rok, najwięcej IX–XI. Woda do kąpieli VII–VIII (ok. 24 °C), w VI i IX ok. 21–22 °C. Baza pobytu: Rovinj i Poreč – skaliste i żwirowe zatoczki, betonowe platformy, plaże w pinii; piasku prawie brak. Pogoda ze stacji Rovinj (DHMZ). Zieleń: lasy piniowe, gaje oliwne, winnice. Wycieczki: stare miasta Rovinj i Poreč (bazylika Eufrazjusza, UNESCO), Pula (amfiteatr), Motovun, jaskinie, Wenecja promem. Ceny jak w Europie Zachodniej. Dojazd: bez lotów bezpośrednich do Puli; z 1 przesiadką (Zagrzeb) ok. 4 h; latem także czartery biur.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Zagreb",
+  "fixed": {
+    "beaches": {
+      "est": 2
+    },
+    "greenery": {
+      "est": 4
+    },
+    "sightseeing": {
+      "est": 4
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": {
+      "est": 4
+    },
+    "stops": 1,
+    "transfer": {
+      "est": 0.6
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "ruiny",
+      "stare miasto"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 9.6,
+      "temp_night": 1.8,
+      "dew_point": {
+        "est": 2.5
+      },
+      "sun": 3.3,
+      "rain": 60,
+      "rain_days": {
+        "est": 6.2
+      },
+      "uv": 1,
+      "wind": 17,
+      "water": 10,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 10.6,
+      "temp_night": 1.6,
+      "dew_point": {
+        "est": 2.1
+      },
+      "sun": 4.9,
+      "rain": 50,
+      "rain_days": {
+        "est": 5.2
+      },
+      "uv": 2,
+      "wind": 17,
+      "water": 9.3,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 13.4,
+      "temp_night": 4,
+      "dew_point": {
+        "est": 4.1
+      },
+      "sun": 5.7,
+      "rain": 55,
+      "rain_days": {
+        "est": 5.7
+      },
+      "uv": 3,
+      "wind": 15,
+      "water": 9.9,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 16.7,
+      "temp_night": 7.1,
+      "dew_point": {
+        "est": 7.1
+      },
+      "sun": 6.7,
+      "rain": 63,
+      "rain_days": {
+        "est": 7.4
+      },
+      "uv": 5,
+      "wind": 14,
+      "water": 12.3,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 21.7,
+      "temp_night": 11.6,
+      "dew_point": {
+        "est": 11.9
+      },
+      "sun": 8.7,
+      "rain": 56,
+      "rain_days": {
+        "est": 6.8
+      },
+      "uv": 7,
+      "wind": 12,
+      "water": 16.7,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2000
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 25.4,
+      "temp_night": 14.9,
+      "dew_point": {
+        "est": 14.6
+      },
+      "sun": 9.6,
+      "rain": 72,
+      "rain_days": {
+        "est": 6.3
+      },
+      "uv": 8,
+      "wind": 11,
+      "water": 21,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.5,
+      "temp_night": 17.2,
+      "dew_point": {
+        "est": 16.5
+      },
+      "sun": 10.6,
+      "rain": 41,
+      "rain_days": {
+        "est": 4.1
+      },
+      "uv": 8,
+      "wind": 11,
+      "water": 23.7,
+      "flight_price": {
+        "est": 1400
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28.7,
+      "temp_night": 17.2,
+      "dew_point": {
+        "est": 16.7
+      },
+      "sun": 9.8,
+      "rain": 65,
+      "rain_days": {
+        "est": 4.6
+      },
+      "uv": 7,
+      "wind": 12,
+      "water": 24.2,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2700
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 24.6,
+      "temp_night": 14,
+      "dew_point": {
+        "est": 14.2
+      },
+      "sun": 7.7,
+      "rain": 83,
+      "rain_days": {
+        "est": 5.5
+      },
+      "uv": 5,
+      "wind": 13,
+      "water": 22,
+      "flight_price": {
+        "est": 1700
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2200
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 19.9,
+      "temp_night": 10.2,
+      "dew_point": {
+        "est": 10.7
+      },
+      "sun": 5.7,
+      "rain": 97,
+      "rain_days": {
+        "est": 6.9
+      },
+      "uv": 3,
+      "wind": 15,
+      "water": 18.6,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2000
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 14.4,
+      "temp_night": 6,
+      "dew_point": {
+        "est": 6.4
+      },
+      "sun": 3.6,
+      "rain": 98,
+      "rain_days": {
+        "est": 7
+      },
+      "uv": 2,
+      "wind": 17,
+      "water": 15.3,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 10.8,
+      "temp_night": 3.2,
+      "dew_point": {
+        "est": 3.5
+      },
+      "sun": 3,
+      "rain": 71,
+      "rain_days": {
+        "est": 5.9
+      },
+      "uv": 1,
+      "wind": 17,
+      "water": 12.1,
+      "flight_price": {
+        "est": 1000
+      },
+      "flags": [],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Rovinj – tabela DHMZ (okres niepodany): temperatury, opad, dni z opadem ≥ 0,1 mm, wilgotność, nasłonecznienie; temperatura morza 1961–1990",
+      "url": "https://en.wikipedia.org/wiki/Rovinj",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Rovinj – średnia prędkość wiatru (średnia godzinowa, MERRA-2)",
+      "url": "https://weatherspark.com/y/75036/Average-Weather-in-Rovinj-Croatia-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Pula (brak lotów bez przesiadek; z 1 przesiadką (najczęściej Zagrzeb), średnio 3 h 57 min w jedną stronę; VIII 990 zł najtaniej, IX ok. 1 826 zł najdrożej, średnia 1 093 zł, typowo 974–1 505 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Pula-PUY",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow (samolot, 7 nocy): VI Narcis (Rabac, AI) – 3 297 zł (Warszawa), IX Hedera (2 posiłki) – 2 217 zł; ocen nie podano. Itaka: Istria głównie dojazd własny. Wyżywienie: AI / 2 posiłki.",
+      "url": "https://r.pl/chorwacja",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: Rovinj – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 1, 2, 3, 5, 7, 8, 8, 7, 5, 3, 2, 1",
+      "url": "https://www.weather2travel.com/croatia/rovinj/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 1,9–2,3 (kontrola modelu: 2,1 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=13.64&lat=45.1",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "id": "kusadasi",
+  "country": "Turcja",
+  "place": "Kuşadası",
+  "notes": "Klimat śródziemnomorski: gorące, suche lato (ok. 32 °C), łagodna, deszczowa zima (XII–I ok. 120 mm). Woda do kąpieli VI–IX (22–24 °C). Baza pobytu: Kuşadası – plaże z piaskiem (Ladies Beach, Long Beach) i hotelowe zatoki, latem tłok. Pogoda ze stacji Kuşadası (MGM 1991–2020). Zieleń: makia, gaje oliwne, park narodowy Dilek. Wycieczki: Efez (UNESCO, ok. 20 min) z domem Maryi i Selçukiem, Priene, Milet, Didyma, Pamukkale (ok. 3 h), Samos promem, aquaparki. Życie nocne (Bar Street). Ceny umiarkowane. Dojazd: bez przesiadek Pegasus i SunExpress do Izmiru (sezonowo, od ok. V) ok. 2 h 35 min, dalej ok. 1 h drogi.",
+  "entryNote": "Bez wizy; turystycznie można wjechać na dowód osobisty (MSZ zaleca paszport ważny 150 dni – część przejść tego wymaga).",
+  "tz": "Europe/Istanbul",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 3
+    },
+    "sightseeing": {
+      "est": 5
+    },
+    "local_prices": {
+      "est": 2
+    },
+    "flight_time": {
+      "est": 2.6
+    },
+    "stops": 0,
+    "transfer": {
+      "est": 1
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "ruiny",
+      "życie nocne"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 13.7,
+      "temp_night": 6.1,
+      "dew_point": {
+        "est": 2.9
+      },
+      "sun": 4.5,
+      "rain": 118,
+      "rain_days": 8.8,
+      "uv": 2,
+      "wind": 16,
+      "water": 16.1,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 14.7,
+      "temp_night": 6.7,
+      "dew_point": {
+        "est": 3.6
+      },
+      "sun": 5.2,
+      "rain": 97,
+      "rain_days": 8,
+      "uv": 3,
+      "wind": 17,
+      "water": 15.6,
+      "flight_price": {
+        "est": 1100
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.3,
+      "temp_night": 8.5,
+      "dew_point": {
+        "est": 5.4
+      },
+      "sun": 6.8,
+      "rain": 73,
+      "rain_days": 6.8,
+      "uv": 5,
+      "wind": 16,
+      "water": 15.6,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 20.6,
+      "temp_night": 11.6,
+      "dew_point": {
+        "est": 8.5
+      },
+      "sun": 8.3,
+      "rain": 44,
+      "rain_days": 4.7,
+      "uv": 6,
+      "wind": 14,
+      "water": 16.7,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3000
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 24.8,
+      "temp_night": 15.6,
+      "dew_point": {
+        "est": 12.4
+      },
+      "sun": 10,
+      "rain": 28,
+      "rain_days": 3.6,
+      "uv": 8,
+      "wind": 13,
+      "water": 18.9,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3100
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 29.4,
+      "temp_night": 19.9,
+      "dew_point": {
+        "est": 15.4
+      },
+      "sun": 12,
+      "rain": 5,
+      "rain_days": 1.4,
+      "uv": 9,
+      "wind": 15,
+      "water": 21.7,
+      "flight_price": {
+        "est": 1500
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3700
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.8,
+      "temp_night": 22.1,
+      "dew_point": {
+        "est": 17.1
+      },
+      "sun": 12.3,
+      "rain": 1,
+      "rain_days": 1.3,
+      "uv": 10,
+      "wind": 18,
+      "water": 23.3,
+      "flight_price": {
+        "est": 1800
+      },
+      "flags": [],
+      "package_price": {
+        "est": 4200
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 31.6,
+      "temp_night": 22.3,
+      "dew_point": {
+        "est": 18
+      },
+      "sun": 11.6,
+      "rain": 0,
+      "rain_days": 1,
+      "uv": 9,
+      "wind": 17,
+      "water": 23.9,
+      "flight_price": {
+        "est": 1600
+      },
+      "flags": [],
+      "package_price": {
+        "est": 4300
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 28.2,
+      "temp_night": 18.8,
+      "dew_point": {
+        "est": 15.3
+      },
+      "sun": 9.9,
+      "rain": 22,
+      "rain_days": 2.1,
+      "uv": 7,
+      "wind": 15,
+      "water": 22.8,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3500
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 24.1,
+      "temp_night": 15,
+      "dew_point": {
+        "est": 12.4
+      },
+      "sun": 7.6,
+      "rain": 43,
+      "rain_days": 3.9,
+      "uv": 5,
+      "wind": 14,
+      "water": 21.1,
+      "flight_price": {
+        "est": 1300
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3100
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 19.4,
+      "temp_night": 10.9,
+      "dew_point": {
+        "est": 8
+      },
+      "sun": 5.6,
+      "rain": 96,
+      "rain_days": 6.2,
+      "uv": 3,
+      "wind": 15,
+      "water": 18.9,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 15.1,
+      "temp_night": 7.8,
+      "dew_point": {
+        "est": 4.7
+      },
+      "sun": 4.2,
+      "rain": 116,
+      "rain_days": 9.6,
+      "uv": 2,
+      "wind": 16,
+      "water": 17.8,
+      "flight_price": {
+        "est": 1200
+      },
+      "flags": [],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Kuşadası – normy 1991–2020 (MGM): temperatury, opad, dni z opadem, wilgotność, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Ku%C5%9Fadas%C4%B1",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Kuşadası – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/94287/Average-Weather-in-Ku%C5%9Fadas%C4%B1-Turkey-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Izmir (bez przesiadek Pegasus i SunExpress (sezonowo, od ok. V), 2 h 33 min; z 1 przesiadką w Stambule 6 h 08 min; II 774 zł najtaniej, VII 1 471 zł najdrożej, VIII 1 276 zł, średnia 964 zł, typowo 813–1 280 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Izmir-ADB",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "pasazer.com: SunExpress poleci z Warszawy do Izmiru (sezonowo, od 3.05.2024, 2× w tygodniu)",
+      "url": "https://www.pasazer.com/news/464008/sunexpress,poleci,z,warszawy,do,izmiru.html",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka V (Katowice, 8 dni): Odelia Resort 4,7/6 – 3 129, Proxima 5,6/6 – 3 269 zł (AI). Rainbow Riwiera Egejska (bez podanych miejscowości) od ok. 2 000 zł. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/all-inclusive/kusadasi/",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: turcja",
+      "url": "https://r.pl/wytyczne/turcja",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Kuşadası – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 3, 5, 6, 8, 9, 10, 9, 7, 5, 3, 2",
+      "url": "https://www.weather2travel.com/bodrum-and-izmir-coast/kusadasi/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 3–3,5 (kontrola modelu: 3,4 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=27.26&lat=37.86",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

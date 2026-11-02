@@ -3,6 +3,8 @@
   "country": "Tajlandia",
   "place": "Krabi (Ao Nang / Railay)",
   "notes": "Morze Andamańskie, ten sam rytm co Phuket: pora sucha XII–IV (najsłoneczniej I–III), monsun SW V–X z maksimum opadu IX–X. Baza pobytu: Ao Nang – plaża z gruboziarnistym piaskiem i łodziami longtail; najlepsze plaże (Railay West, Phra Nang) ok. 10–15 min łodzią, bez dojazdu drogą. Pogoda ze stacji Krabi (miasto, ok. 15 km, normy TMD 1981–2010; nasłonecznienie z Phuketu). Zieleń: wapienne turnie porośnięte dżunglą, namorzyny. Wycieczki: Phi Phi, wyspy Hong, 4 wyspy, Railay (wspinaczka), Tiger Cave Temple, Emerald Pool. W porze monsunu część rejsów odwoływana. Dojazd: najszybciej LOT do Bangkoku (cały rok) i dalej krajowym lotem do Krabi (ok. 1 h 30 min, Thai Vietjet, Thai Airways, Thai AirAsia, kilka rejsów dziennie) – osobne bilety, ok. 14,4 h; na jednym bilecie z 1 przesiadką (Abu Zabi, Dubaj) ok. 17 h. Lot bezpośredni LOT (ok. 10 h 40 min) to sezonowy czarter.",
+  "entryNote": "Paszport ważny 6 mies. od wjazdu; od 15.09.2026 bez wizy do 30 dni (wcześniej 60); obowiązkowa bezpłatna karta TDAC online do 3 dni przed przylotem.",
+  "tz": "Asia/Bangkok",
   "fixed": {
     "beaches": {
       "est": 4
@@ -22,7 +24,17 @@
     "stops": 1,
     "transfer": {
       "est": 0.6
-    }
+    },
+    "continent": "Azja",
+    "region": "Azja Południowo-Wschodnia",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "rafa i snorkeling",
+      "rejsy po wyspach",
+      "dżungla",
+      "góry i trekking",
+      "świątynie"
+    ]
   },
   "months": [
     {
@@ -41,7 +53,7 @@
       "rain_days": {
         "est": 3.7
       },
-      "uv": 8,
+      "uv": 11,
       "wind": {
         "est": 8
       },
@@ -55,7 +67,10 @@
           "level": 1,
           "note": "Do ok. 10 stycznia szczyt noworoczny: najwyższe ceny i minimalne długości pobytu w wielu hotelach (ciąg dalszy okresu z grudnia)."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 8200
+      }
     },
     {
       "local_season": {
@@ -73,7 +88,9 @@
       "rain_days": {
         "est": 3.2
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 7
       },
@@ -81,7 +98,10 @@
       "flight_price": {
         "est": 4100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8400
+      }
     },
     {
       "local_season": {
@@ -99,7 +119,9 @@
       "rain_days": {
         "est": 6.1
       },
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 6
       },
@@ -107,7 +129,10 @@
       "flight_price": {
         "est": 4100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7900
+      }
     },
     {
       "local_season": {
@@ -125,7 +150,9 @@
       "rain_days": {
         "est": 8.2
       },
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 5
       },
@@ -139,7 +166,10 @@
           "level": 1,
           "note": "Songkran (13–15 kwietnia): uliczne bitwy wodne, tłok i droższe noclegi."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 7900
+      }
     },
     {
       "local_season": {
@@ -157,7 +187,9 @@
       "rain_days": {
         "est": 11.1
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 7
       },
@@ -171,7 +203,10 @@
           "level": 1,
           "note": "Początek monsunu SW (zwykle od połowy maja): yższe fale i mętniejsza woda na Ao Nang, w części dni czerwone flagi; rejsy łodziami longtail na Railay i wycieczki na wyspy (Hong, Phi Phi, 4 wyspy) bywają odwoływane z powodu pogody."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 7400
+      }
     },
     {
       "local_season": {
@@ -189,7 +224,9 @@
       "rain_days": {
         "est": 11.1
       },
-      "uv": 7,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 8
       },
@@ -203,7 +240,10 @@
           "level": 1,
           "note": "Monsun SW: wyższe fale i mętniejsza woda na Ao Nang, w części dni czerwone flagi; rejsy łodziami longtail na Railay i wycieczki na wyspy (Hong, Phi Phi, 4 wyspy) bywają odwoływane z powodu pogody."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 7500
+      }
     },
     {
       "local_season": {
@@ -221,7 +261,9 @@
       "rain_days": {
         "est": 12.8
       },
-      "uv": 7,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 8
       },
@@ -235,7 +277,10 @@
           "level": 1,
           "note": "Monsun SW: wyższe fale i mętniejsza woda na Ao Nang, w części dni czerwone flagi; rejsy łodziami longtail na Railay i wycieczki na wyspy (Hong, Phi Phi, 4 wyspy) bywają odwoływane z powodu pogody."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 8600
+      }
     },
     {
       "local_season": {
@@ -253,7 +298,9 @@
       "rain_days": {
         "est": 12.6
       },
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 8
       },
@@ -267,7 +314,10 @@
           "level": 1,
           "note": "Monsun SW: wyższe fale i mętniejsza woda na Ao Nang, w części dni czerwone flagi; rejsy łodziami longtail na Railay i wycieczki na wyspy (Hong, Phi Phi, 4 wyspy) bywają odwoływane z powodu pogody."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 8800
+      }
     },
     {
       "local_season": {
@@ -285,7 +335,9 @@
       "rain_days": {
         "est": 13
       },
-      "uv": 7,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 8
       },
@@ -299,7 +351,10 @@
           "level": 1,
           "note": "Monsun SW: wyższe fale i mętniejsza woda na Ao Nang, w części dni czerwone flagi; rejsy łodziami longtail na Railay i wycieczki na wyspy (Hong, Phi Phi, 4 wyspy) bywają odwoływane z powodu pogody."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 7500
+      }
     },
     {
       "local_season": {
@@ -317,7 +372,9 @@
       "rain_days": {
         "est": 15.1
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 6
       },
@@ -331,7 +388,10 @@
           "level": 1,
           "note": "Koniec monsunu SW, głównie pierwsza połowa miesiąca: yższe fale i mętniejsza woda na Ao Nang, w części dni czerwone flagi; rejsy łodziami longtail na Railay i wycieczki na wyspy (Hong, Phi Phi, 4 wyspy) bywają odwoływane z powodu pogody."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 7500
+      }
     },
     {
       "local_season": {
@@ -349,7 +409,7 @@
       "rain_days": {
         "est": 12.3
       },
-      "uv": 6,
+      "uv": 11,
       "wind": {
         "est": 7
       },
@@ -357,7 +417,10 @@
       "flight_price": {
         "est": 3800
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 7400
+      }
     },
     {
       "local_season": {
@@ -375,7 +438,7 @@
       "rain_days": {
         "est": 7.1
       },
-      "uv": 6,
+      "uv": 10,
       "wind": {
         "est": 8
       },
@@ -389,7 +452,10 @@
           "level": 1,
           "note": "Boże Narodzenie i Nowy Rok (ok. 20.12–10.01): najwyższe ceny, minimalne długości pobytu i obowiązkowe płatne kolacje galowe w wielu hotelach."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 9000
+      }
     }
   ],
   "sources": [
@@ -401,11 +467,6 @@
     {
       "title": "Weather Spark: Krabi – średnia godzinowa prędkość wiatru na 10 m, średnia temperatura wody",
       "url": "https://weatherspark.com/y/112784/Average-Weather-in-Krabi-Thailand-Year-Round",
-      "checked": "2026-10-15"
-    },
-    {
-      "title": "BestDateWeather: Krabi – pogoda miesiąc po miesiącu (12 stron, np. /krabi-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 8.09°N 98.91°E",
-      "url": "https://bestdateweather.com/en/krabi-weather-january",
       "checked": "2026-10-15"
     },
     {
@@ -424,11 +485,6 @@
       "checked": "2026-10-15"
     },
     {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-15"
-    },
-    {
       "title": "TAT News: turystyka morska w porze monsunu SW (V–X), zamknięcia parków morskich, odwoływane rejsy, czerwone flagi",
       "url": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/",
       "checked": "2026-10-15"
@@ -437,6 +493,36 @@
       "title": "Wikipedia: Phuket – nasłonecznienie, normy 1991–2020 (WMO/TMD) – zastępczo zamiast RID",
       "url": "https://en.wikipedia.org/wiki/Phuket_province",
       "checked": "2026-10-17"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: II Krabi la Playa (Ao Nang) 4,8/6 – 8 439 zł (2 posiłki). V–X szacunek. Wyżywienie: 2 posiłki.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – Travelplanet – nowe zasady wjazdu do Tajlandii 2026",
+      "url": "https://www.travelplanet.pl/blog/nowe-zasady-wjazdu-do-tajlandii-2026/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Krabi – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10; miesiące II, III, IV, V, VI, VII, VIII, IX, X („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/thailand/krabi/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 11–11,4 (kontrola modelu: 11,4 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=98.83&lat=8.05",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

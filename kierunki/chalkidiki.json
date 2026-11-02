@@ -3,6 +3,8 @@
   "country": "Grecja (Chalkidiki)",
   "place": "Nikiti / Sarti, Chalkidiki",
   "notes": "Klimat śródziemnomorski z wpływem kontynentu: gorące, suche lato VI–VIII (ok. 30–32 °C), woda najcieplejsza VII–VIII (ok. 27 °C), chłodna zima (ok. 10 °C w dzień, przymrozki w głębi lądu); sezon plażowy realnie VI–IX. Baza pobytu: Nikiti i Sarti na półwyspie Sithonia – piaszczyste zatoki z bardzo czystą wodą, sosny do samej plaży. Pogoda ze stacji lotniska Saloniki (ok. 70 km; normy 1991–2020, opad 1971–2000) – szacunek. Zieleń: lasy sosnowe, gaje oliwne. Wycieczki: rejs wzdłuż Góry Athos, zatoki Sithonii, Saloniki, jaskinia Petralona. Poza sezonem większość hoteli zamknięta. Dojazd: bez przesiadek LOT do Salonik ok. 2 h 15 min; z lotniska ok. 95 km.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Athens",
   "fixed": {
     "beaches": {
       "est": 4
@@ -20,7 +22,13 @@
     "stops": 0,
     "transfer": {
       "est": 1.3
-    }
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "spokój"
+    ]
   },
   "months": [
     {
@@ -45,9 +53,7 @@
       "rain_days": {
         "est": 8
       },
-      "uv": {
-        "est": 2
-      },
+      "uv": 2,
       "wind": {
         "est": 8
       },
@@ -55,7 +61,8 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -79,9 +86,7 @@
       "rain_days": {
         "est": 7.5
       },
-      "uv": {
-        "est": 4
-      },
+      "uv": 3,
       "wind": {
         "est": 9
       },
@@ -89,7 +94,8 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -113,9 +119,7 @@
       "rain_days": {
         "est": 8.5
       },
-      "uv": {
-        "est": 5
-      },
+      "uv": 4,
       "wind": {
         "est": 8
       },
@@ -123,7 +127,8 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -147,9 +152,7 @@
       "rain_days": {
         "est": 7.8
       },
-      "uv": {
-        "est": 7
-      },
+      "uv": 6,
       "wind": {
         "est": 7
       },
@@ -157,7 +160,8 @@
       "flight_price": {
         "est": 900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -181,9 +185,7 @@
       "rain_days": {
         "est": 7.7
       },
-      "uv": {
-        "est": 7
-      },
+      "uv": 8,
       "wind": {
         "est": 7
       },
@@ -191,7 +193,10 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2300
+      }
     },
     {
       "local_season": {
@@ -215,9 +220,7 @@
       "rain_days": {
         "est": 5.5
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 9,
       "wind": {
         "est": 7
       },
@@ -225,7 +228,10 @@
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2700
+      }
     },
     {
       "local_season": {
@@ -249,9 +255,7 @@
       "rain_days": {
         "est": 4.7
       },
-      "uv": {
-        "est": 8
-      },
+      "uv": 9,
       "wind": {
         "est": 7
       },
@@ -259,7 +263,10 @@
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3100
+      }
     },
     {
       "local_season": {
@@ -283,9 +290,7 @@
       "rain_days": {
         "est": 3.6
       },
-      "uv": {
-        "est": 7
-      },
+      "uv": 8,
       "wind": {
         "est": 6
       },
@@ -293,7 +298,10 @@
       "flight_price": {
         "est": 1400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3200
+      }
     },
     {
       "local_season": {
@@ -317,9 +325,7 @@
       "rain_days": {
         "est": 4.9
       },
-      "uv": {
-        "est": 6
-      },
+      "uv": 6,
       "wind": {
         "est": 7
       },
@@ -327,7 +333,10 @@
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 2600
+      }
     },
     {
       "local_season": {
@@ -351,9 +360,7 @@
       "rain_days": {
         "est": 6.5
       },
-      "uv": {
-        "est": 4
-      },
+      "uv": 4,
       "wind": {
         "est": 7
       },
@@ -361,7 +368,8 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -385,9 +393,7 @@
       "rain_days": {
         "est": 8.3
       },
-      "uv": {
-        "est": 3
-      },
+      "uv": 2,
       "wind": {
         "est": 8
       },
@@ -395,7 +401,8 @@
       "flight_price": {
         "est": 1100
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -419,9 +426,7 @@
       "rain_days": {
         "est": 8.9
       },
-      "uv": {
-        "est": 2
-      },
+      "uv": 2,
       "wind": {
         "est": 8
       },
@@ -429,7 +434,8 @@
       "flight_price": {
         "est": 1700
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -449,14 +455,34 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "San Teodoro (kierunki/san-teodoro.json): UV BestDateWeather Sardynia, 40.12°N – zastępstwo (ta sama szerokość)",
-      "url": "https://bestdateweather.com/en/sardinia-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "KAYAK.pl: Warszawa – Saloniki (bez przesiadek LOT, ok. 2 h 15 min; z 1 przesiadką Wiedeń 4 h 41 min; ceny: IV 627 zł najtaniej, VI 1 141 zł, XII 1 352 zł najdrożej, średnia 945 zł, typowo 704–1 236 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Saloniki-SKG",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow V: Riwiera Olimpijska (obok Chalkidiki) – San Panteleimon 5,1/6 – 2 320 zł; Itaka VII: tylko krótkie wyjazdy. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Chalkidiki – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 3, 4, 6, 8, 9, 9, 8, 6, 4, 2, 2",
+      "url": "https://www.weather2travel.com/halkidiki/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 2,5–3,1 (kontrola modelu: 2,9 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=23.6&lat=40",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

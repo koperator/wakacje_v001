@@ -3,6 +3,8 @@
   "country": "Portugalia",
   "place": "Albufeira / Praia da Falésia, Algarve",
   "notes": "Śródziemnomorski klimat Algarve z wpływem Atlantyku: gorące, suche lato VI–IX (29 °C w dzień, prawie bez deszczu), łagodna, deszczowa zima XI–II (16–17 °C); najsłoneczniejsze wybrzeże Europy. Woda chłodna: ok. 16 °C zimą, 21–22 °C w VIII–X. Baza pobytu: Albufeira i Praia da Falésia – długa plaża ze złotym piaskiem pod czerwonymi klifami, atlantycka fala. Pogoda ze stacji lotniska Faro (IPMA 1991–2020; słońce 1971–1995; wilgotność NOAA 1961–1990), ok. 35 km. Zieleń: sosny i zarośla na klifach, sad pomarańczowy w głębi lądu. Wycieczki: Benagil i jaskinie morskie, Lagos i Ponta da Piedade, Sagres, Faro, Silves, Tavira. Dojazd: bez przesiadek Wizz Air ok. 4 h 20 min; z 1 przesiadką przez Frankfurt ok. 6 h 20 min.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Lisbon",
   "fixed": {
     "beaches": {
       "est": 4
@@ -20,7 +22,14 @@
     "stops": 0,
     "transfer": {
       "est": 0.6
-    }
+    },
+    "continent": "Europa",
+    "region": "Atlantyk wschodni",
+    "entry": "dowód osobisty",
+    "tags": [
+      "stare miasto",
+      "życie nocne"
+    ]
   },
   "months": [
     {
@@ -35,13 +44,14 @@
       "sun": 5.9,
       "rain": 49,
       "rain_days": 6,
-      "uv": 3,
+      "uv": 2,
       "wind": 20,
       "water": 16.7,
       "flight_price": {
         "est": 1600
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -61,7 +71,8 @@
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -75,13 +86,14 @@
       "sun": 7.8,
       "rain": 47,
       "rain_days": 5.6,
-      "uv": 6,
+      "uv": 5,
       "wind": 20,
       "water": 16.1,
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -101,7 +113,8 @@
       "flight_price": {
         "est": 1000
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -121,7 +134,10 @@
       "flight_price": {
         "est": 1300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3900
+      }
     },
     {
       "local_season": {
@@ -135,13 +151,16 @@
       "sun": 10.9,
       "rain": 5,
       "rain_days": 0.8,
-      "uv": 8,
+      "uv": 9,
       "wind": 17,
       "water": 20.6,
       "flight_price": {
         "est": 1500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4500
+      }
     },
     {
       "local_season": {
@@ -155,13 +174,16 @@
       "sun": 11.6,
       "rain": 1,
       "rain_days": 0.2,
-      "uv": 8,
+      "uv": 9,
       "wind": 17,
       "water": 21.1,
       "flight_price": {
         "est": 1500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5200
+      }
     },
     {
       "local_season": {
@@ -175,13 +197,16 @@
       "sun": 11.1,
       "rain": 3,
       "rain_days": 0.2,
-      "uv": 8,
+      "uv": 9,
       "wind": 16,
       "water": 21.7,
       "flight_price": {
         "est": 1500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 5300
+      }
     },
     {
       "local_season": {
@@ -195,13 +220,16 @@
       "sun": 9.3,
       "rain": 22,
       "rain_days": 1.9,
-      "uv": 6,
+      "uv": 7,
       "wind": 16,
       "water": 21.7,
       "flight_price": {
         "est": 1300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4400
+      }
     },
     {
       "local_season": {
@@ -221,7 +249,10 @@
       "flight_price": {
         "est": 1300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3900
+      }
     },
     {
       "local_season": {
@@ -241,7 +272,8 @@
       "flight_price": {
         "est": 1200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -255,13 +287,14 @@
       "sun": 5.1,
       "rain": 90,
       "rain_days": 7,
-      "uv": 3,
+      "uv": 2,
       "wind": 21,
       "water": 17.8,
       "flight_price": {
         "est": 1800
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     }
   ],
   "sources": [
@@ -281,19 +314,34 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "BestDateWeather: Algarve – pogoda miesiąc po miesiącu (12 stron, np. /algarve-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 37.10°N 8.68°W",
-      "url": "https://bestdateweather.com/en/algarve-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "KAYAK.pl: Warszawa – Faro (bez przesiadek Wizz Air, 4 h 20 min; z 1 przesiadką Frankfurt 6 h 21 min; ceny: IV 732 zł najtaniej, I 1 303 zł, XII 1 494 zł najdrożej, średnia 1 023 zł, typowo 769–1 275 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Faro-FAO",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: VII Club Amarilis 5,0/6 – 5 169 zł (Warszawa-Okęcie); Rainbow: V Club Amarilis 5,2/6 – 3 902, X Golden Club Cabanas 5,1/6 – 4 087 zł. Wyżywienie: AI.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Albufeira – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 4, 5, 7, 8, 9, 9, 9, 7, 5, 3, 2",
+      "url": "https://www.weather2travel.com/algarve/albufeira/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 3,3–3,6 (kontrola modelu: 3,5 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-8.25&lat=37.1",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

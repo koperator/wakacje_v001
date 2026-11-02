@@ -3,6 +3,8 @@
   "country": "Jordania",
   "place": "Aqaba (Tala Bay)",
   "notes": "Pustynny klimat Zatoki Akaba: praktycznie bez deszczu, ciepło III–V i X–XI (26–35 °C), upał VI–IX (do 40 °C, ale suche powietrze), chłodne noce zimą (ok. 9–11 °C). Woda chłodniejsza niż w Egipcie (ok. 21 °C w II–III, 27 °C w VIII). Baza pobytu: Tala Bay – resortowe zatoki z piaskiem i rafą koralową ok. 15 km na południe od miasta. Pogoda ze stacji lotniska Aqaba (Jordan Meteorological Department, 1989–2018). Zieleń: brak, pustynia i góry. Wycieczki: Petra (UNESCO, ok. 2 h), Wadi Rum (ok. 1 h), rafy i wraki do nurkowania, Morze Martwe (dalej). Dojazd: z 2 przesiadkami (np. Wiedeń + Amman, dalej lot Royal Jordanian ok. 1 h), ok. 11 h; z Ammanu też ok. 4 h drogi.",
+  "entryNote": "Paszport ważny 6 mies.; wiza po przylocie (ok. 40 JOD; w strefie ekonomicznej Akaby przy przylocie na lotnisko w Akabie zwykle bezpłatna).",
+  "tz": "Asia/Amman",
   "fixed": {
     "beaches": {
       "est": 3
@@ -22,7 +24,16 @@
     "stops": 2,
     "transfer": {
       "est": 0.3
-    }
+    },
+    "continent": "Azja",
+    "region": "Morze Czerwone",
+    "entry": "wiza na lotnisku",
+    "tags": [
+      "rafa i snorkeling",
+      "nurkowanie",
+      "pustynia",
+      "ruiny"
+    ]
   },
   "months": [
     {
@@ -53,7 +64,10 @@
           "level": 1,
           "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w dzień niewskazane, krótsze godziny pracy; hotele i atrakcje działają."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 4200
+      }
     },
     {
       "local_season": {
@@ -71,7 +85,7 @@
       "rain_days": {
         "est": 1
       },
-      "uv": 5,
+      "uv": 6,
       "wind": 13,
       "water": 21.1,
       "flight_price": {
@@ -83,7 +97,10 @@
           "level": 1,
           "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w dzień niewskazane, krótsze godziny pracy; hotele i atrakcje działają."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 4300
+      }
     },
     {
       "local_season": {
@@ -101,7 +118,7 @@
       "rain_days": {
         "est": 0.8
       },
-      "uv": 7,
+      "uv": 8,
       "wind": 14,
       "water": 21.1,
       "flight_price": {
@@ -113,7 +130,10 @@
           "level": 1,
           "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): restauracje poza hotelami zamknięte w dzień, jedzenie i picie publicznie w dzień niewskazane, krótsze godziny pracy; hotele i atrakcje działają."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 4100
+      }
     },
     {
       "local_season": {
@@ -131,13 +151,16 @@
       "rain_days": {
         "est": 0.3
       },
-      "uv": 8,
+      "uv": 10,
       "wind": 14,
       "water": 21.7,
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4100
+      }
     },
     {
       "local_season": {
@@ -155,13 +178,14 @@
       "rain_days": {
         "est": 0.2
       },
-      "uv": 8,
+      "uv": 11,
       "wind": 14,
       "water": 23.3,
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -179,13 +203,16 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 16,
       "water": 25,
       "flight_price": {
         "est": 2900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -203,13 +230,16 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 15,
       "water": 26.7,
       "flight_price": {
         "est": 2900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -227,13 +257,16 @@
       "rain_days": {
         "est": 0
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 15,
       "water": 27.2,
       "flight_price": {
         "est": 2900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -251,13 +284,14 @@
       "rain_days": {
         "est": 0.1
       },
-      "uv": 7,
+      "uv": 10,
       "wind": 14,
       "water": 26.7,
       "flight_price": {
         "est": 2900
       },
-      "flags": []
+      "flags": [],
+      "package_price": "na"
     },
     {
       "local_season": {
@@ -275,13 +309,16 @@
       "rain_days": {
         "est": 0.4
       },
-      "uv": 6,
+      "uv": 7,
       "wind": 12,
       "water": 25.6,
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3900
+      }
     },
     {
       "local_season": {
@@ -305,7 +342,10 @@
       "flight_price": {
         "est": 4200
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3800
+      }
     },
     {
       "local_season": {
@@ -329,7 +369,10 @@
       "flight_price": {
         "est": 3500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4600
+      }
     }
   ],
   "sources": [
@@ -344,21 +387,6 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "weather2travel: Aqaba – nasłonecznienie (CRU; temperatury z siatki zaniżone względem stacji – niewykorzystane)",
-      "url": "https://www.weather2travel.com/jordan/aqaba/climate/",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: Aqaba – pogoda miesiąc po miesiącu (12 stron, np. /aqaba-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 29.53°N 35.01°E",
-      "url": "https://bestdateweather.com/en/aqaba-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "KAYAK.pl: Warszawa – Akaba (brak lotów bezpośrednich; najszybsza oferta z 2 przesiadkami 11 h 20 min przez Antalyę i Amman; typowo 2 313–4 780 zł) – podstawa ceny od 2026-10-17",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Akaba-AQJ",
       "checked": "2026-10-17"
@@ -367,6 +395,36 @@
       "title": "KAYAK.pl: Warszawa – Amman (z 1 przesiadką średnio Wiedeń 7 h 52 min, Kair 8 h 42 min; ceny: II 662 zł, IV 2 536 zł, III 3 334 zł, średnia 2 136 zł, typowo 1 597–2 525 zł) – wcześniejsza podstawa ceny (do 2026-10-16), teraz tylko porównawczo",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Amman-AMM",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow I: Akaba 7 nocy – Al Manara 5 430, Kempinski 5 580 zł (śniadania); „Zamki w piasku z Aqaby” (objazd + wypoczynek, 2 posiłki) 3 650 zł. Itaka bez ofert. Szacunek. Wyżywienie: śniadania / 2 posiłki.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: jordania",
+      "url": "https://r.pl/wytyczne/jordania",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Akaba – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 4, 6, 8, 10, 11, 11+, 11+, 11+, 10, 7, 5, 4; miesiące VI, VII, VIII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/jordan/aqaba/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 5,5–5,8 (kontrola modelu: 5,8 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=35&lat=29.5",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

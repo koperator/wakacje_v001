@@ -1,0 +1,319 @@
+{
+  "id": "barcelona",
+  "country": "Hiszpania",
+  "place": "Barcelona (plaże Barceloneta / Costa del Maresme)",
+  "notes": "Klimat śródziemnomorski: ciepłe, parne lato (ok. 27–28 °C, punkt rosy ok. 20 °C), łagodna zima (ok. 14–15 °C), deszcz głównie IX–X (burze). Woda do kąpieli VII–IX (24–25 °C), w VI ok. 21 °C. Baza pobytu: Barcelona – miejskie plaże z piaskiem (Barceloneta, Nova Icària), latem bardzo zatłoczone; wczasy z biurem zwykle na Costa del Maresme (Calella, Pineda, ok. 50 km). Pogoda ze stacji Barcelona-Raval (Meteocat 1994–2020). Zieleń: miasto, parki (Montjuïc, Park Güell). Wycieczki: Sagrada Família i dzieła Gaudíego (UNESCO), Gotyk, Montserrat, Girona, Tarragona. Ceny jak w Europie Zachodniej; uwaga na kieszonkowców. Dojazd: bez przesiadek Wizz Air i LOT ok. 3 h 10 min, cały rok.",
+  "entryNote": "Kraj UE: wystarczy dowód osobisty (albo paszport).",
+  "tz": "Europe/Madrid",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 2
+    },
+    "sightseeing": {
+      "est": 5
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": 3.2,
+    "stops": 0,
+    "transfer": {
+      "est": 0.4
+    },
+    "continent": "Europa",
+    "region": "Morze Śródziemne",
+    "entry": "dowód osobisty",
+    "tags": [
+      "stare miasto",
+      "miasto i zakupy",
+      "życie nocne"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 14.5,
+      "temp_night": 8.1,
+      "dew_point": 4.5,
+      "sun": 4.8,
+      "rain": 33,
+      "rain_days": 3.7,
+      "uv": 2,
+      "wind": 13,
+      "water": 13.3,
+      "flight_price": {
+        "est": 600
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 14.4,
+      "temp_night": 8.2,
+      "dew_point": 5,
+      "sun": 6.1,
+      "rain": 30,
+      "rain_days": 3.7,
+      "uv": 3,
+      "wind": 14,
+      "water": 12.8,
+      "flight_price": {
+        "est": 600
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 16,
+      "temp_night": 10.1,
+      "dew_point": 6.8,
+      "sun": 7.6,
+      "rain": 38,
+      "rain_days": 4,
+      "uv": 4,
+      "wind": 13,
+      "water": 13.3,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 17.7,
+      "temp_night": 12.4,
+      "dew_point": 9.2,
+      "sun": 8.6,
+      "rain": 47,
+      "rain_days": 5.3,
+      "uv": 6,
+      "wind": 13,
+      "water": 14.4,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 20.6,
+      "temp_night": 15.4,
+      "dew_point": 12.6,
+      "sun": 9.9,
+      "rain": 31,
+      "rain_days": 4.3,
+      "uv": 7,
+      "wind": 12,
+      "water": 17.2,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2800
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 24.3,
+      "temp_night": 19.4,
+      "dew_point": 16.4,
+      "sun": 10.8,
+      "rain": 18,
+      "rain_days": 2.7,
+      "uv": 9,
+      "wind": 11,
+      "water": 20.6,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3300
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27,
+      "temp_night": 22.4,
+      "dew_point": 18.8,
+      "sun": 10.8,
+      "rain": 25,
+      "rain_days": 1.9,
+      "uv": 9,
+      "wind": 11,
+      "water": 23.9,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3700
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 27.6,
+      "temp_night": 22.8,
+      "dew_point": 19.1,
+      "sun": 9.6,
+      "rain": 28,
+      "rain_days": 3.2,
+      "uv": 8,
+      "wind": 11,
+      "water": 25,
+      "flight_price": {
+        "est": 800
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3900
+      }
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 25.1,
+      "temp_night": 19.7,
+      "dew_point": 16.8,
+      "sun": 7.8,
+      "rain": 65,
+      "rain_days": 5.3,
+      "uv": 6,
+      "wind": 12,
+      "water": 23.9,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": {
+        "est": 3200
+      }
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 21.9,
+      "temp_night": 16.2,
+      "dew_point": 14,
+      "sun": 6.1,
+      "rain": 75,
+      "rain_days": 5.6,
+      "uv": 4,
+      "wind": 13,
+      "water": 20.6,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": {
+        "est": 2800
+      }
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 17.5,
+      "temp_night": 11.3,
+      "dew_point": 8.8,
+      "sun": 5,
+      "rain": 38,
+      "rain_days": 4.2,
+      "uv": 2,
+      "wind": 13,
+      "water": 17.2,
+      "flight_price": {
+        "est": 600
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 14.9,
+      "temp_night": 8.8,
+      "dew_point": 5.6,
+      "sun": 4.4,
+      "rain": 33,
+      "rain_days": 3.7,
+      "uv": 1,
+      "wind": 14,
+      "water": 15,
+      "flight_price": {
+        "est": 700
+      },
+      "flags": [],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Barcelona – stacja centrum (Raval), średnie 1994–2020 (Meteocat): temperatury, opad, dni z opadem ≥ 1 mm, wilgotność, punkt rosy, nasłonecznienie",
+      "url": "https://en.wikipedia.org/wiki/Barcelona",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Barcelona – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/47213/Average-Weather-in-Barcelona-Spain-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Barcelona (bez przesiadek Wizz Air i LOT, ok. 3 h 10 min; II 570 zł najtaniej, V 750 zł, VIII 790 zł najdrożej, średnia 707 zł, typowo 524–951 zł)",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Barcelona-BCN",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow Costa del Maresme / Costa Brava (ok. 50 km od Barcelony, 7 nocy, Katowice/Kraków): V Oasis Park Splash 4,7/6 – 2 818, IX HTop Jadhe 5,2/6 – 3 183 zł (AI). Wczasów w samej Barcelonie biura nie mają. Wyżywienie: AI.",
+      "url": "https://r.pl/hiszpania/costa-del-maresme",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: Barcelona – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 2, 3, 4, 6, 7, 9, 9, 8, 6, 4, 2, 1",
+      "url": "https://www.weather2travel.com/spain/barcelona/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 2,6–2,8 (kontrola modelu: 2,7 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=2.17&lat=41.4",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}

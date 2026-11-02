@@ -3,6 +3,8 @@
   "country": "Tajlandia",
   "place": "Koh Lanta (Long Beach / Klong Dao)",
   "notes": "Morze Andamańskie: pora sucha XII–IV (najsuchiej I–II), monsun SW V–X z dużymi falami na zachodnim wybrzeżu wyspy. Baza pobytu: Long Beach (Phra Ae) i Klong Dao – długie, piaszczyste plaże z łagodnym wejściem, spokojne w porze suchej. Pogoda ze stacji Ko Lanta (WMO, normy 1991–2020; nasłonecznienie z Phuketu). Niski sezon V–X: część mniejszych hoteli i barów plażowych zamknięta, szybkie promy z Phi Phi i Phuket nie kursują, wyspy parku narodowego Mu Ko Lanta (m.in. Ko Rok) zamknięte 16.05–31.10. Zieleń: dżungla we wnętrzu wyspy, namorzyny na wschodzie. Wycieczki: Ko Rok i 4 wyspy (snorkeling), park narodowy na południowym krańcu, Old Town, jaskinie; Phi Phi promem (sezonowo). Dojazd: jak do Krabi (lotnisko KBV), dalej ok. 1 h 45 min drogą z przeprawą promową (most z lądu planowany na 2029 r.).",
+  "entryNote": "Paszport ważny 6 mies. od wjazdu; od 15.09.2026 bez wizy do 30 dni (wcześniej 60); obowiązkowa bezpłatna karta TDAC online do 3 dni przed przylotem.",
+  "tz": "Asia/Bangkok",
   "fixed": {
     "beaches": {
       "est": 4
@@ -22,7 +24,17 @@
     "stops": 1,
     "transfer": {
       "est": 2
-    }
+    },
+    "continent": "Azja",
+    "region": "Azja Południowo-Wschodnia",
+    "entry": "paszport + formularz online",
+    "tags": [
+      "płytkie wejście",
+      "rafa i snorkeling",
+      "rejsy po wyspach",
+      "dżungla",
+      "spokój"
+    ]
   },
   "months": [
     {
@@ -37,7 +49,7 @@
       },
       "rain": 31,
       "rain_days": 2.6,
-      "uv": 8,
+      "uv": 11,
       "wind": {
         "est": 8
       },
@@ -53,7 +65,10 @@
           "level": 1,
           "note": "Do ok. 10 stycznia szczyt noworoczny: najwyższe ceny i minimalne długości pobytu w wielu hotelach (ciąg dalszy okresu z grudnia)."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 9200
+      }
     },
     {
       "local_season": {
@@ -67,7 +82,9 @@
       },
       "rain": 24,
       "rain_days": 1.8,
-      "uv": 9,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 7
       },
@@ -77,7 +94,10 @@
       "flight_price": {
         "est": 4100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 9500
+      }
     },
     {
       "local_season": {
@@ -91,7 +111,9 @@
       },
       "rain": 69,
       "rain_days": 4.8,
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 6
       },
@@ -101,7 +123,10 @@
       "flight_price": {
         "est": 4100
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8900
+      }
     },
     {
       "local_season": {
@@ -115,7 +140,9 @@
       },
       "rain": 122,
       "rain_days": 9,
-      "uv": 9,
+      "uv": {
+        "est": 14
+      },
       "wind": {
         "est": 5
       },
@@ -131,7 +158,10 @@
           "level": 1,
           "note": "Songkran (13–15 kwietnia): uliczne bitwy wodne, tłok i droższe noclegi."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 8900
+      }
     },
     {
       "local_season": {
@@ -145,7 +175,9 @@
       },
       "rain": 228,
       "rain_days": 14.2,
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 7
       },
@@ -161,7 +193,10 @@
           "level": 1,
           "note": "Początek monsunu SW (zwykle od połowy maja): rosną fale na zachodnich plażach, od 16.05 zamknięte wyspy parku Mu Ko Lanta, część szybkich promów przestaje kursować."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 8300
+      }
     },
     {
       "local_season": {
@@ -175,7 +210,9 @@
       },
       "rain": 286,
       "rain_days": 15.1,
-      "uv": 7,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 8
       },
@@ -191,7 +228,10 @@
           "level": 2,
           "note": "Monsun SW: duże fale i silny wiatr od morza na Long Beach i Klong Dao, w wielu dniach kąpiel niebezpieczna, na plażach wyrzucane śmieci; część szybkich promów nie kursuje, a wyspy parku Mu Ko Lanta (m.in. Ko Rok) są zamknięte (16.05–31.10); część mniejszych hoteli i barów plażowych zamknięta."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 8500
+      }
     },
     {
       "local_season": {
@@ -205,7 +245,9 @@
       },
       "rain": 289,
       "rain_days": 14.9,
-      "uv": 7,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 8
       },
@@ -221,7 +263,10 @@
           "level": 2,
           "note": "Monsun SW: duże fale i silny wiatr od morza na Long Beach i Klong Dao, w wielu dniach kąpiel niebezpieczna, na plażach wyrzucane śmieci; część szybkich promów nie kursuje, a wyspy parku Mu Ko Lanta (m.in. Ko Rok) są zamknięte (16.05–31.10); część mniejszych hoteli i barów plażowych zamknięta."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 9700
+      }
     },
     {
       "local_season": {
@@ -235,7 +280,9 @@
       },
       "rain": 342,
       "rain_days": 14.8,
-      "uv": 8,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 8
       },
@@ -251,7 +298,10 @@
           "level": 2,
           "note": "Monsun SW: duże fale i silny wiatr od morza na Long Beach i Klong Dao, w wielu dniach kąpiel niebezpieczna, na plażach wyrzucane śmieci; część szybkich promów nie kursuje, a wyspy parku Mu Ko Lanta (m.in. Ko Rok) są zamknięte (16.05–31.10); część mniejszych hoteli i barów plażowych zamknięta."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 9900
+      }
     },
     {
       "local_season": {
@@ -265,7 +315,9 @@
       },
       "rain": 319,
       "rain_days": 17,
-      "uv": 7,
+      "uv": {
+        "est": 13
+      },
       "wind": {
         "est": 8
       },
@@ -281,7 +333,10 @@
           "level": 2,
           "note": "Monsun SW: duże fale i silny wiatr od morza na Long Beach i Klong Dao, w wielu dniach kąpiel niebezpieczna, na plażach wyrzucane śmieci; część szybkich promów nie kursuje, a wyspy parku Mu Ko Lanta (m.in. Ko Rok) są zamknięte (16.05–31.10); część mniejszych hoteli i barów plażowych zamknięta."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 8500
+      }
     },
     {
       "local_season": {
@@ -295,7 +350,9 @@
       },
       "rain": 298,
       "rain_days": 17.9,
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": {
         "est": 6
       },
@@ -311,7 +368,10 @@
           "level": 1,
           "note": "Koniec monsunu SW: fale na zachodnich plażach w części dni, wyspy parku Mu Ko Lanta zamknięte do 31.10, szybkie promy wracają pod koniec miesiąca."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 8500
+      }
     },
     {
       "local_season": {
@@ -325,7 +385,7 @@
       },
       "rain": 148,
       "rain_days": 12.3,
-      "uv": 6,
+      "uv": 11,
       "wind": {
         "est": 7
       },
@@ -335,7 +395,10 @@
       "flight_price": {
         "est": 3800
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 8300
+      }
     },
     {
       "local_season": {
@@ -349,7 +412,7 @@
       },
       "rain": 65,
       "rain_days": 7.8,
-      "uv": 7,
+      "uv": 11,
       "wind": {
         "est": 8
       },
@@ -365,7 +428,10 @@
           "level": 1,
           "note": "Boże Narodzenie i Nowy Rok (ok. 20.12–10.01): najwyższe ceny, minimalne długości pobytu i obowiązkowe płatne kolacje galowe w wielu hotelach."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 10100
+      }
     }
   ],
   "sources": [
@@ -377,11 +443,6 @@
     {
       "title": "Weather Spark: Krabi – średnia godzinowa prędkość wiatru na 10 m, temperatura wody (zastępstwo dla Koh Lanta, ok. 60 km)",
       "url": "https://weatherspark.com/y/112784/Average-Weather-in-Krabi-Thailand-Year-Round",
-      "checked": "2026-10-15"
-    },
-    {
-      "title": "BestDateWeather: Koh Lanta – pogoda miesiąc po miesiącu (12 stron, np. /koh-lanta-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 7.53°N 99.04°E",
-      "url": "https://bestdateweather.com/en/koh-lanta-weather-january",
       "checked": "2026-10-15"
     },
     {
@@ -425,11 +486,6 @@
       "checked": "2026-10-15"
     },
     {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-15"
-    },
-    {
       "title": "TAT News: turystyka morska w porze monsunu SW (V–X), zamknięcia parków morskich, odwoływane rejsy, czerwone flagi",
       "url": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/",
       "checked": "2026-10-15"
@@ -438,6 +494,36 @@
       "title": "Wikipedia: Phuket – nasłonecznienie, normy 1991–2020 (WMO/TMD) – zastępczo zamiast RID",
       "url": "https://en.wikipedia.org/wiki/Phuket_province",
       "checked": "2026-10-17"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Itaka: II Avani+ Koh Lanta 5,2/6 – 9 489 zł (2 posiłki). V–X szacunek. Wyżywienie: 2 posiłki.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – Travelplanet – nowe zasady wjazdu do Tajlandii 2026",
+      "url": "https://www.travelplanet.pl/blog/nowe-zasady-wjazdu-do-tajlandii-2026/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Phi Phi (ok. 30 km od Koh Lanty) – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 11; miesiące II, III, IV, V, VI, VII, VIII, IX, X („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/thailand/phi-phi/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 11,1–11,4 (kontrola modelu: 11,6 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=99.04&lat=7.6",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

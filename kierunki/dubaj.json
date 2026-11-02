@@ -3,6 +3,8 @@
   "country": "ZEA",
   "place": "Dubaj (JBR / Palm Jumeirah)",
   "notes": "Pustynny klimat Zatoki Perskiej: przyjemnie XI–III (24–30 °C w dzień), ekstremalny upał i duszność V–IX (40–42 °C, punkt rosy do 27 °C, woda ok. 32 °C). Rzadkie deszcze zimą. Baza pobytu: Jumeirah Beach Residence (JBR) i Palm Jumeirah – szerokie, piaszczyste plaże miejskie, spokojna woda. Pogoda ze stacji Dubai Met Office (normy 1991–2020). Zieleń: pustynne miasto z nawadnianymi parkami i palmami. Atrakcje: Burj Khalifa, Dubai Mall i fontanny, stary Dubaj (Al Fahidi, souki, abra), pustynne safari, Abu Zabi (Wielki Meczet, Luwr) jako wycieczka jednodniowa. Dojazd: bez przesiadek (Emirates, flydubai, LOT), ok. 6 h; z lotniska ok. 35 km.",
+  "entryNote": "Paszport ważny 6 mies. po powrocie; bez wizy (bezpłatny stempel po przylocie).",
+  "tz": "Asia/Dubai",
   "fixed": {
     "beaches": {
       "est": 4
@@ -20,7 +22,15 @@
     "stops": 0,
     "transfer": {
       "est": 0.6
-    }
+    },
+    "continent": "Azja",
+    "region": "Półwysep Arabski",
+    "entry": "paszport",
+    "tags": [
+      "pustynia",
+      "miasto i zakupy",
+      "życie nocne"
+    ]
   },
   "months": [
     {
@@ -35,7 +45,7 @@
       "rain_days": {
         "est": 3.9
       },
-      "uv": 5,
+      "uv": 6,
       "wind": 14,
       "water": 20.8,
       "flight_price": {
@@ -47,7 +57,10 @@
           "level": 1,
           "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): część restauracji otwarta dopiero po zachodzie słońca, alkohol zwykle dopiero po iftarze, krótsze godziny pracy; hotele, plaże hotelowe i atrakcje działają."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 3600
+      }
     },
     {
       "local_season": {
@@ -61,7 +74,7 @@
       "rain_days": {
         "est": 3.3
       },
-      "uv": 6,
+      "uv": 8,
       "wind": 14,
       "water": 20.6,
       "flight_price": {
@@ -73,7 +86,10 @@
           "level": 1,
           "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): część restauracji otwarta dopiero po zachodzie słońca, alkohol zwykle dopiero po iftarze, krótsze godziny pracy; hotele, plaże hotelowe i atrakcje działają."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 3700
+      }
     },
     {
       "local_season": {
@@ -87,7 +103,7 @@
       "rain_days": {
         "est": 4.1
       },
-      "uv": 7,
+      "uv": 10,
       "wind": 15,
       "water": 22.3,
       "flight_price": {
@@ -99,7 +115,10 @@
           "level": 1,
           "note": "Ramadan (zależnie od roku; w latach 2027–2030 przypada w I–III): część restauracji otwarta dopiero po zachodzie słońca, alkohol zwykle dopiero po iftarze, krótsze godziny pracy; hotele, plaże hotelowe i atrakcje działają."
         }
-      ]
+      ],
+      "package_price": {
+        "est": 3500
+      }
     },
     {
       "local_season": {
@@ -113,13 +132,18 @@
       "rain_days": {
         "est": 1.8
       },
-      "uv": 8,
+      "uv": {
+        "est": 12
+      },
       "wind": 14,
       "water": 25,
       "flight_price": {
         "est": 2500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3500
+      }
     },
     {
       "local_season": {
@@ -133,13 +157,18 @@
       "rain_days": {
         "est": 0.2
       },
-      "uv": 9,
+      "uv": {
+        "est": 12
+      },
       "wind": 14,
       "water": 28.5,
       "flight_price": {
         "est": 2900
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3300
+      }
     },
     {
       "local_season": {
@@ -153,13 +182,18 @@
       "rain_days": {
         "est": 0.1
       },
-      "uv": 9,
+      "uv": {
+        "est": 12
+      },
       "wind": 13,
       "water": 30.7,
       "flight_price": {
         "est": 2400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3300
+      }
     },
     {
       "local_season": {
@@ -173,13 +207,18 @@
       "rain_days": {
         "est": 0.4
       },
-      "uv": 9,
+      "uv": {
+        "est": 12
+      },
       "wind": 12,
       "water": 32.2,
       "flight_price": {
         "est": 2400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3800
+      }
     },
     {
       "local_season": {
@@ -193,13 +232,18 @@
       "rain_days": {
         "est": 0.4
       },
-      "uv": 9,
+      "uv": {
+        "est": 12
+      },
       "wind": 12,
       "water": 32.8,
       "flight_price": {
         "est": 2400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3900
+      }
     },
     {
       "local_season": {
@@ -213,13 +257,16 @@
       "rain_days": {
         "est": 0.1
       },
-      "uv": 8,
+      "uv": 11,
       "wind": 11,
       "water": 31.9,
       "flight_price": {
         "est": 2400
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3300
+      }
     },
     {
       "local_season": {
@@ -233,13 +280,16 @@
       "rain_days": {
         "est": 0.1
       },
-      "uv": 7,
+      "uv": 8,
       "wind": 11,
       "water": 29.7,
       "flight_price": {
         "est": 2500
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3300
+      }
     },
     {
       "local_season": {
@@ -259,7 +309,10 @@
       "flight_price": {
         "est": 2300
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 3300
+      }
     },
     {
       "local_season": {
@@ -279,7 +332,10 @@
       "flight_price": {
         "est": 3000
       },
-      "flags": []
+      "flags": [],
+      "package_price": {
+        "est": 4000
+      }
     }
   ],
   "sources": [
@@ -294,16 +350,6 @@
       "checked": "2026-10-16"
     },
     {
-      "title": "BestDateWeather: Dubaj – pogoda miesiąc po miesiącu (12 stron, np. /dubai-weather-january); UV all-sky z Open-Meteo, ERA5 2016–2025, 25.20°N 55.27°E",
-      "url": "https://bestdateweather.com/en/dubai-weather-january",
-      "checked": "2026-10-16"
-    },
-    {
-      "title": "BestDateWeather: metodologia (UV = Open-Meteo Historical Forecast API, uv_index)",
-      "url": "https://bestdateweather.com/en/methodology",
-      "checked": "2026-10-16"
-    },
-    {
       "title": "Exploring Emirates: Ramadan w ZEA (restauracje w dzień, alkohol po iftarze, hotele i atrakcje działają)",
       "url": "https://exploringemirates.com/uae-ramadan/",
       "checked": "2026-10-16"
@@ -312,6 +358,36 @@
       "title": "KAYAK.pl: Warszawa – Dubaj (bez przesiadek Emirates, flydubai, LOT, średnio 6 h 13 min; ceny: XI 2 280 zł najtaniej, V 2 921 zł, XII 2 995 zł najdrożej, średnia 2 549 zł, typowo 2 223–3 127 zł)",
       "url": "https://www.kayak.pl/loty/Warszawa-WAW/Dubaj-DXB",
       "checked": "2026-10-16"
+    },
+    {
+      "title": "Wczasy z biurem (Itaka, Rainbow; odczyty ofert sortowanych po cenie, 7 nocy, ocena ≥ 4,4/6): Rainbow (7 nocy, śniadania): VI Ibis Deira 5,3/6 – 3 328, V Ibis Mall Avenue 5,5/6 – 3 378, III Millennium Al Barsha – 3 781 zł; Itaka: tylko 4–6-dniowe. Wyżywienie: śniadania.",
+      "url": "https://www.itaka.pl/wyniki-wyszukiwania/wakacje/",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: zjednoczone-emiraty-arabskie",
+      "url": "https://r.pl/wytyczne/zjednoczone-emiraty-arabskie",
+      "checked": "2026-10-17"
+    },
+    {
+      "title": "weather2travel: Dubaj – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 6, 8, 10, 11+, 11+, 11+, 11+, 11+, 11, 8, 6, 5; miesiące IV, V, VI, VII, VIII („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/uae/dubai/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 6,6–7,3 (kontrola modelu: 7,1 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=55.27&lat=25.1",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
     }
   ]
 }

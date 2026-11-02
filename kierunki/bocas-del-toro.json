@@ -1,0 +1,416 @@
+{
+  "id": "bocas-del-toro",
+  "country": "Panama",
+  "place": "Bocas del Toro (Isla Colón)",
+  "notes": "Klimat równikowy, wilgotny: 28–31 °C w dzień przez cały rok, deszcz w każdym miesiącu (180–390 mm), najsuchiej IX–X i II–III; Karaiby panamskie leżą poza pasem huraganów. Woda 27–29 °C. Baza pobytu: Bocas Town na Isla Colón – archipelag wysp z namorzynami i rafą; dobre plaże (Starfish Beach, Red Frog, Zapatilla) ok. 15–40 min łodzią lub drogą. Pogoda: Climates to Travel (Bocas Town), dni deszczowe WMO 1971–2000. Zieleń: dżungla deszczowa, namorzyny. Wycieczki: park morski Isla Bastimentos, Cayos Zapatilla, delfiny w Dolphin Bay, snorkeling, surfing (XII–III), czerwone żaby. Dojazd: z 1 przesiadką do Panamy (Amsterdam) i lot krajowy, ok. 19–20 h.",
+  "entryNote": "Paszport ważny 6 mies. po wyjeździe; bez wizy.",
+  "tz": "America/Panama",
+  "fixed": {
+    "beaches": {
+      "est": 3
+    },
+    "greenery": {
+      "est": 5
+    },
+    "sightseeing": {
+      "est": 3
+    },
+    "local_prices": {
+      "est": 3
+    },
+    "flight_time": {
+      "est": 19.5
+    },
+    "stops": 2,
+    "transfer": {
+      "est": 0.1
+    },
+    "continent": "Ameryka Środkowa i Południowa",
+    "region": "Karaiby",
+    "entry": "paszport",
+    "tags": [
+      "rafa i snorkeling",
+      "surfing",
+      "rejsy po wyspach",
+      "dżungla",
+      "dzika przyroda"
+    ]
+  },
+  "months": [
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30,
+      "temp_night": 24,
+      "dew_point": {
+        "est": 23
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": 245,
+      "rain_days": {
+        "est": 11.6
+      },
+      "uv": 11,
+      "wind": 12,
+      "water": 27.2,
+      "flight_price": {
+        "est": 4300
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30,
+      "temp_night": 24,
+      "dew_point": {
+        "est": 22.7
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": 190,
+      "rain_days": {
+        "est": 10.2
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 12,
+      "water": 27.2,
+      "flight_price": {
+        "est": 5500
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30,
+      "temp_night": 24,
+      "dew_point": {
+        "est": 22.7
+      },
+      "sun": {
+        "est": 9
+      },
+      "rain": 180,
+      "rain_days": {
+        "est": 10.4
+      },
+      "uv": {
+        "est": 14
+      },
+      "wind": 12,
+      "water": 27.8,
+      "flight_price": {
+        "est": 5800
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 30,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 23.4
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": 280,
+      "rain_days": {
+        "est": 10.6
+      },
+      "uv": {
+        "est": 14
+      },
+      "wind": 11,
+      "water": 27.8,
+      "flight_price": {
+        "est": 5500
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": {
+        "est": 8
+      },
+      "rain": 325,
+      "rain_days": {
+        "est": 11.7
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 9,
+      "water": 28.3,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 31,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 25
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": 280,
+      "rain_days": {
+        "est": 12.5
+      },
+      "uv": {
+        "est": 12
+      },
+      "wind": 8,
+      "water": 28.9,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 24.7
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": 380,
+      "rain_days": {
+        "est": 14.6
+      },
+      "uv": {
+        "est": 12
+      },
+      "wind": 9,
+      "water": 28.3,
+      "flight_price": {
+        "est": 5100
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "M"
+      },
+      "temp_day": 30,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 24.7
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": 330,
+      "rain_days": {
+        "est": 12.9
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 8,
+      "water": 28.3,
+      "flight_price": {
+        "est": 5100
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 30,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 24.6
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": 195,
+      "rain_days": {
+        "est": 11.1
+      },
+      "uv": {
+        "est": 13
+      },
+      "wind": 7,
+      "water": 28.9,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 29,
+      "temp_night": 25,
+      "dew_point": {
+        "est": 24.5
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": 215,
+      "rain_days": {
+        "est": 11.5
+      },
+      "uv": {
+        "est": 12
+      },
+      "wind": 7,
+      "water": 28.9,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "L"
+      },
+      "temp_day": 29,
+      "temp_night": 24,
+      "dew_point": {
+        "est": 24.3
+      },
+      "sun": {
+        "est": 6
+      },
+      "rain": 335,
+      "rain_days": {
+        "est": 11.9
+      },
+      "uv": 11,
+      "wind": 9,
+      "water": 28.3,
+      "flight_price": {
+        "est": 4700
+      },
+      "flags": [],
+      "package_price": "na"
+    },
+    {
+      "local_season": {
+        "est": "H"
+      },
+      "temp_day": 28,
+      "temp_night": 23,
+      "dew_point": {
+        "est": 23.6
+      },
+      "sun": {
+        "est": 7
+      },
+      "rain": 390,
+      "rain_days": {
+        "est": 14
+      },
+      "uv": 10,
+      "wind": 12,
+      "water": 27.8,
+      "flight_price": {
+        "est": 5800
+      },
+      "flags": [],
+      "package_price": "na"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Climates to Travel: Panama – Bocas Town (Karaiby) i Antón (Coclé, wybrzeże Pacyfiku przy Playa Blanca): temperatury, opad, dni deszczowe, słońce, temperatura morza (liczby całkowite)",
+      "url": "https://www.climatestotravel.com/climate/panama",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wikipedia: Bocas del Toro – normy 1971–2000 (WMO): dni z opadem (próg niepodany)",
+      "url": "https://en.wikipedia.org/wiki/Bocas_del_Toro,_Panama",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Punkt rosy zastępczo z kierunku San Andrés (Spratt Bight): Wikipedia: San Andrés (wyspa) – tabela klimatyczna, lotnisko Gustavo Rojas Pinilla, 1971–2000 (IDEAM)",
+      "url": "https://en.wikipedia.org/wiki/San_Andr%C3%A9s_(island)",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Weather Spark: Bocas del Toro – średnia prędkość wiatru i temperatura morza (MERRA-2)",
+      "url": "https://weatherspark.com/y/16751/Average-Weather-in-Bocas-del-Toro-Panama-Year-Round",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "KAYAK.pl: Warszawa – Panama + lot krajowy do Bocas del Toro (KAYAK.pl bez strony trasy do BOC (tylko oferty z przesiadkami z WAW i KRK); szacunek: Warszawa – Panama (I 3 511, III 4 995, XII 5 023 zł, średnia 4 343 zł) + ok. 800 zł za lot krajowy w obie strony (Air Panama z Albrook / Copa z Tocumen, ok. 1 h))",
+      "url": "https://www.kayak.pl/loty/Warszawa-WAW/Panama-PTY",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Wczasy z biurem: brak oferty – Rainbow: Bocas del Toro tylko w objazdach (od 11 280 zł, 10 dni); wczasów brak. (szczegóły: research/kolumna-package_price-notatki.md)",
+      "url": "https://r.pl/panama",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "Formalności wjazdowe – R.pl – wytyczne wjazdowe: panama",
+      "url": "https://r.pl/wytyczne/panama",
+      "checked": "2026-10-26"
+    },
+    {
+      "title": "weather2travel: Bocas del Toro – maksymalny indeks UV w miesiącach (TEMIS/KNMI, czyste niebo, południe): 11, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11+, 11, 10; miesiące II, III, IV, V, VI, VII, VIII, IX, X („11+”, czyli co najmniej 11,5) wyliczone modelem KNMI dopasowanym do odczytów TEMIS wszystkich 111 kierunków i bieżących prognoz TEMIS (błąd ok. 0,2–0,4)",
+      "url": "https://www.weather2travel.com/panama/bocas-del-toro/climate/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): bieżąca prognoza UV dla czystego nieba w tym miejscu, 28.10–2.11.2026: 11,1–12,1 (kontrola modelu: 11,3 dla 1.11 przy ozonie klimatologicznym)",
+      "url": "https://temis.nl/uvradiation/nrt/uvindex.php?lon=-82.24&lat=9.34",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "TEMIS (KNMI): produkt UV – indeks UV dla czystego nieba w południe słoneczne z asymilowanego ozonu satelitarnego (opis metody)",
+      "url": "https://www.temis.nl/uvradiation/product/",
+      "checked": "2026-10-28"
+    },
+    {
+      "title": "weather2travel: źródła danych – miesięczny maksymalny indeks UV z TEMIS (KNMI), czyste niebo, satelita 1995–2003",
+      "url": "https://www.weather2travel.com/holidayweather/frost.php",
+      "checked": "2026-10-28"
+    }
+  ]
+}
